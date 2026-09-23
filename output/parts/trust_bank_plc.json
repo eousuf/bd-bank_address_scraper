@@ -1,0 +1,32 @@
+{
+  "_bank": "Trust Bank PLC",
+  "website": "https://www.trustbank.com.bd/",
+  "website_source": "override",
+  "method": "html_cards",
+  "status": "success",
+  "branch_name": [
+    "Branches, ATMs & CDMs",
+    "Find Branches & ATMs",
+    "Find Branches & ATMs"
+  ],
+  "branch_address": [
+    "Find Your Nearest Branch, ATM, CDM",
+    "Book an Appointment",
+    "We are on The Map"
+  ],
+  "branch_url": [
+    "https://www.trustbank.com.bd/locator/",
+    "https://www.trustbank.com.bd/locator/",
+    "https://www.trustbank.com.bd/locator/"
+  ],
+  "branch_contact_number": [
+    null,
+    "09611016201",
+    null
+  ],
+  "sub_branch_name": [],
+  "sub_branch_address": [],
+  "sub_branch_url": [],
+  "sub_branch_contact_number": [],
+  "duration_sec": 145.1
+}

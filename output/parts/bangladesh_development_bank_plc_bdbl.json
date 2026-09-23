@@ -1,0 +1,17 @@
+{
+  "_bank": "Bangladesh Development Bank PLC (BDBL)",
+  "website": "https://bdbl.com.bd/",
+  "website_source": "override",
+  "method": null,
+  "status": "failed",
+  "branch_name": [],
+  "branch_address": [],
+  "branch_url": [],
+  "branch_contact_number": [],
+  "sub_branch_name": [],
+  "sub_branch_address": [],
+  "sub_branch_url": [],
+  "sub_branch_contact_number": [],
+  "error": "no branch data extracted (site may need JS rendering)",
+  "duration_sec": 29.0
+}

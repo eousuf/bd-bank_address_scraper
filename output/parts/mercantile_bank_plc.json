@@ -1,0 +1,17 @@
+{
+  "_bank": "Mercantile Bank PLC",
+  "website": null,
+  "website_source": "not_found",
+  "method": null,
+  "status": "failed",
+  "branch_name": [],
+  "branch_address": [],
+  "branch_url": [],
+  "branch_contact_number": [],
+  "sub_branch_name": [],
+  "sub_branch_address": [],
+  "sub_branch_url": [],
+  "sub_branch_contact_number": [],
+  "error": "official website not found",
+  "duration_sec": 7.2
+}
