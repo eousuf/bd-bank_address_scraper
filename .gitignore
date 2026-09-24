@@ -26,5 +26,4 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
-# CSV File
-*.csv
+

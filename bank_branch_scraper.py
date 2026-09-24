@@ -134,9 +134,11 @@ PAGE_SEEDS = {
         "https://www.nrbbankbd.com/islamic-banking-branch-window/",
     ],
     "nrbc": [
+        # the full "Total Branch List (605)" — cards + routing numbers.
+        # islamic_location only repeats those names + "ISLAMIC WINDOW" and
+        # atm_location lists booths ("ATM-02 | Principal Branch") that would
+        # leak in as duplicate branch rows.
         "https://www.nrbcommercialbank.com/Branches/branch_list",
-        "https://www.nrbcommercialbank.com/Branches/islamic_location",
-        "https://www.nrbcommercialbank.com/Branches/atm_location",
     ],
     # sjibplc.com splits branches across per-division card pages; sb = sub-branch
     "shahjalal": [
@@ -254,7 +256,7 @@ GENERIC_NAME_RE = re.compile(
     r"controlling\s+branch|home\s*[»>].*|find\s+branch(?:es)?\b.*|"
     r"branch(?:es)?\s*,?\s*(?:&|and|,)\s*atms?\b.*|"
     r".*branches?\s+are\s+on-?line.*|services\s+available.*|"
-    r"m/s[\s.,].*|.*\bproprietor\b.*)$", re.I)
+    r"m/s[\s.,].*|.*\bproprietor\b.*|total\s+branch(?:es)?\s+list\b.*)$", re.I)
 BENGALI_RE = re.compile(r"[\u0980-\u09ff]")
 # card/table labels captured as an address value ("District", "Area") are junk;
 # bare division names / routing digits are table fields, not street addresses
@@ -841,8 +843,17 @@ def extract_html_tables(html, base_url, page_sub=False):
 
 def extract_html_cards(html, base_url, page_sub=False):
     soup = make_soup(html)
-    for t in soup(["script", "style", "noscript", "nav", "footer", "header"]):
+    for t in soup(["script", "style", "noscript"]):
         t.decompose()
+    # Some sites (NRBC) never close <header>, so the parser nests the WHOLE
+    # page (nav + hundreds of branch cards) inside it. Only drop boilerplate
+    # nav/footer/header shells that carry no branch titles themselves.
+    for t in soup(["nav", "footer", "header"]):
+        titles = t.find_all(["h4", "h5", "strong"])
+        branchish = sum(1 for x in titles
+                        if BRANCH_NAME_RE.search(x.get_text(" ", strip=True)))
+        if branchish < 5:
+            t.decompose()
     out = []
 
     # Some branch pages (NRBC, etc.) render each card as a Bootstrap column like
@@ -864,12 +875,17 @@ def extract_html_cards(html, base_url, page_sub=False):
             continue
         phones = find_phones(text)
         addr = None
-        for p in card.find_all(["p", "span", "div"]):
-            ptxt = clean_ws(p.get_text(" ", strip=True))
-            if not ptxt or ptxt == title:
-                continue
-            if any(k in ptxt.lower() for k in ADDR_KWS) or "cell:" in ptxt.lower() or "routing number" in ptxt.lower():
-                addr = ptxt
+        # tightest element first: a wrapping div's get_text() would smear the
+        # title + routing number into the address line (NRBC cards)
+        for tag in ("p", "span", "div"):
+            for p in card.find_all(tag):
+                ptxt = clean_ws(p.get_text(" ", strip=True))
+                if not ptxt or ptxt == title:
+                    continue
+                if any(k in ptxt.lower() for k in ADDR_KWS) or "cell:" in ptxt.lower() or "routing number" in ptxt.lower():
+                    addr = ptxt
+                    break
+            if addr is not None:
                 break
         if addr is None:
             cands = [clean_ws(x) for x in card.get_text("\n").split("\n") if clean_ws(x) and clean_ws(x) != title]
@@ -1358,7 +1374,25 @@ def _js_object_blocks(html, opener_re):
 JQ_AJAX_OPEN_RE = re.compile(r"\$\s*\.\s*ajax\s*\(")
 # feeds we never want as branch rows even if the site exposes them
 NON_BRANCH_FEED_RE = re.compile(
-    r"(?<![a-z0-9])(atm|ratm|rcdm|cdm|crm|agent|booth|citygem)(?![a-z0-9])", re.I)
+    r"(?<![a-z0-9])(atm|ratm|rcdm|cdm|crm|agent|booth|citygem|brta|land)(?![a-z0-9])", re.I)
+# pure atm/agent/brta/land-registration listing pages (NRBC atm_location,
+# agent_locations, brta_location, land_registration_location) — their cards
+# and ajax feeds carry booth rows that leak as duplicate branches. Combined
+# pages keep a branchy segment ('/branch-and-atm/', 'branch-atm-locator').
+NON_BRANCH_PAGE_RE = re.compile(
+    r"(?<![a-z0-9])(atms?|agents?|booths?|brta|land|cdm|crm)(?![a-z0-9])", re.I)
+BRANCHY_SEG_RE = re.compile(r"branch|office|locator|network", re.I)
+
+def non_branch_page(url):
+    """True when a URL path segment names an atm/agent/brta/land listing and
+    carries no branch/office/locator token (so combined pages stay eligible)."""
+    from urllib.parse import urlsplit
+    try:
+        path = urlsplit(url).path
+    except ValueError:
+        return False
+    return any(seg and NON_BRANCH_PAGE_RE.search(seg) and not BRANCHY_SEG_RE.search(seg)
+               for seg in path.split("/"))
 
 def extract_jquery_ajax_json(html, base_url, page_sub=False):
     """jQuery $.ajax({...}) locator feeds (City Bank legacy Laravel): the page
@@ -1399,6 +1433,9 @@ def extract_jquery_ajax_json(html, base_url, page_sub=False):
             ajax_url = absolutize(absolute, base_url)
         else:
             ajax_url = absolutize(path, base_url)
+        if NON_BRANCH_FEED_RE.search(ajax_url) and not re.search(
+                r"branch|office|locator|network", ajax_url, re.I):
+            continue  # pure atm/agent feed endpoint — booth rows, not branches
         dm = re.search(r"data\s*:\s*\{([^{}]*)\}", blk)
         dmb = dm.group(1) if dm else ""
         pairs = []
@@ -1580,14 +1617,15 @@ def dedupe_records(records):
         addr = (r.get("address") or "").strip()
         # JSON feeds (MTB admin-ajax) ship raw "<br>" separators
         addr = re.sub(r"<br\s*/?>", " ", addr, flags=re.I)
-        # labelled phone segments ("Phone: 88 02-8613807", "PABX: ...") ride
-        # along in address text — move them to the phone field when empty
-        if not (r.get("phone") or "").strip():
-            m = re.search(r"\b(?:phone|tel|mobile|pabx)\w*\s*[:\-]\s*"
-                          r"([0-9+()\[\]/.,\s-]{6,60})", addr, re.I)
-            if m and len(re.sub(r"\D", "", m.group(1))) >= 6:
+        # labelled phone segments ("Phone: 88 02-8613807", "Cell: 01678 433
+        # 101") ride along in address text - move them to the phone field
+        # when empty, drop them when the digits were already captured there
+        m = re.search(r"\b(?:phone|tel|mobile|pabx|cell)\w*\s*[:\-]\s*"
+                      r"([0-9+()\[\]/.,\s-]{6,60})", addr, re.I)
+        if m and len(re.sub(r"\D", "", m.group(1))) >= 6:
+            if not (r.get("phone") or "").strip():
                 r["phone"] = clean_ws(m.group(1)).strip(" ,.-")
-                addr = addr[:m.start()] + " " + addr[m.end():]
+            addr = addr[:m.start()] + " " + addr[m.end():]
         if GENERIC_ADDR_RE.match(addr) or re.fullmatch(r"[\d\W]+", addr):
             addr = ""
         # "Division: Dhaka" label-cards carry only the phone — treat as empty
@@ -1661,6 +1699,9 @@ def process_bank(bank):
     LOG.info("  %d candidate pages, %d pdf candidates", len(pages), len(pdfs))
     records, methods, extra_pdfs = [], {}, []
     for i, page in enumerate(pages, 1):
+        if non_branch_page(page):
+            LOG.debug("    skipping non-branch listing page: %s", page)
+            continue
         polite_sleep()
         LOG.info("  page %d/%d: %s", i, len(pages), page)
         page_sub = bool(re.search(r"sub[\s_-]*branch|উপশাখা", page, re.I))
