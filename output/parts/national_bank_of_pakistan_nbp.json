@@ -1,0 +1,16 @@
+{
+  "_bank": "National Bank of Pakistan (NBP)",
+  "bank_url": "https://www.nbp-bd.com/",
+  "method": "html_cards",
+  "status": "success",
+  "branch": [
+    {
+      ": Uncaught Error: Call to undefined function mysql_query() in /home/nbpbd/public_html/branches.php:87": [
+        "/home/nbpbd/public_html/branches.php",
+        null,
+        null
+      ]
+    }
+  ],
+  "sub_branch": []
+}

@@ -22,8 +22,11 @@ ENV/
 
 # Local runtime
 *.sqlite3
+.firecrawl_key
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Scraped-data safety backups
+*.bak
 

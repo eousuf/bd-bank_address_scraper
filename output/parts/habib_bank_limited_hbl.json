@@ -1,0 +1,45 @@
+{
+  "_bank": "Habib Bank Limited (HBL)",
+  "bank_url": "https://www.hbl.com/bangladesh/bangladesh",
+  "method": "html_cards",
+  "status": "success",
+  "branch": [
+    {
+      "Main Branch": [
+        "67 & 68 Kemal Ataturk Avenue, Banani Dhaka 1213",
+        null,
+        "02 55035142; 02 55035144; 02 55035145; 09612624000"
+      ]
+    },
+    {
+      "Motijheel Branch": [
+        "65 Dilkusha C/A, Dhaka -1000, Bangladesh",
+        null,
+        "0088 02 9563043; 0088 02 9555092; 0088 02 9561784"
+      ]
+    },
+    {
+      "Chattogram Branch": [
+        "Makhah Madina Trade Center 78, Agrabad C/A, Chattogram",
+        null,
+        "031 2517962; 031 2517967; 031 2517968; 031 2517986; 031 2517987; 031 2517963"
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "683 New Golden City Complex(Ground Floor)East Zindabazar Road, Sylhet 3100, Bangladesh.",
+        null,
+        "0821 718685; 0821 715013; 0821 2830580; 0821 2830579"
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "Uttara Sub Branch": [
+        "Nagorik Tower, House-50, Road-02, Sector-03, Uttara, Dhaka 1230, Bangladesh.",
+        null,
+        "02 48952391; 02 48952392; 0088 02 8991467"
+      ]
+    }
+  ]
+}

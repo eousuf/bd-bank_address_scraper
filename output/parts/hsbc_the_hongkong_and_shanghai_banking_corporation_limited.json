@@ -1,0 +1,59 @@
+{
+  "_bank": "HSBC (The Hongkong and Shanghai Banking Corporation Limited)",
+  "bank_url": "https://www.hsbc.com.bd/",
+  "method": "html_table+pdf",
+  "status": "success",
+  "branch": [
+    {
+      "Tejgaon": [
+        "Level 4, Shanta Western Tower, 186 Bir Uttam Mir Shawkat Ali Road, Tejgaon Industrial Area, Dhaka 1208",
+        null,
+        "880 9610722326"
+      ]
+    },
+    {
+      "North Gulshan": [
+        "Anabil Tower (2nd Floor) Plot # 3, Block – NW(J), Gulshan North Avenue (Kemal Ataturk Avenue), Gulshan, Dhaka 1212, Bangladesh",
+        null,
+        "09612772600"
+      ]
+    },
+    {
+      "Uttara": [
+        "Giant Business Tower, Level 3, Plot 3, 3/A, Sector 3, Uttara, Dhaka 1230, Bangladesh",
+        null,
+        "880 9666332583"
+      ]
+    },
+    {
+      "Agrabad": [
+        "Atlas Rangs Plaza (Ground Floor), 7 Sheikh Mujib Road, Agrabad C/A, Chittagong, Bangladesh",
+        null,
+        "880 9612771857"
+      ]
+    },
+    {
+      "branch by submitting a cheque.": [
+        "clients. Zaved Akhtar became the first ever customer to execute a transaction in this",
+        null,
+        null
+      ]
+    },
+    {
+      "Customers from the Gulshan branch can also use this branch for student file-related": [
+        "queries. Apart from that, this sub-branch at Tejgaon will offer a range of services to",
+        null,
+        null
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "Banking (Retail Banking) said, \"The opening of this sub-branch is part of HSBC's": [
+        "and accessible – for both Retail and Corporate customers. As the country continues",
+        null,
+        null
+      ]
+    }
+  ]
+}

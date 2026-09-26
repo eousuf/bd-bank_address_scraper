@@ -1,63 +1,63 @@
-bank_name
-Sonali Bank PLC
-Janata Bank PLC
-Agrani Bank PLC
-Rupali Bank PLC
-BASIC Bank PLC
-Bangladesh Development Bank PLC (BDBL)
-Sammilito Islami Bank PLC
-Bangladesh Krishi Bank (BKB)
-Rajshahi Krishi Unnayan Bank (RAKUB)
-Probashi Kallyan Bank
-AB Bank PLC
-Bangladesh Commerce Bank Limited
-Bank Asia PLC
-Bengal Commercial Bank PLC
-BRAC Bank PLC
-Citizens Bank PLC
-City Bank PLC
-Community Bank Bangladesh PLC
-Dhaka Bank PLC
-Dutch-Bangla Bank PLC
-Eastern Bank PLC
-IFIC Bank PLC
-Jamuna Bank PLC
-Meghna Bank PLC
-Mercantile Bank PLC
-Midland Bank PLC
-Modhumoti Bank PLC
-Mutual Trust Bank PLC
-National Bank PLC
-National Credit & Commerce (NCC) Bank PLC
-NRB Bank PLC
-NRBC Bank PLC
-ONE Bank PLC
-Padma Bank PLC
-Prime Bank PLC
-Pubali Bank PLC
-SBAC (South Bangla Agriculture & Commerce) Bank PLC
-Shimanto Bank PLC
-Southeast Bank PLC
-The Premier Bank PLC
-Trust Bank PLC
-United Commercial Bank (UCB) PLC
-Uttara Bank PLC
-Islami Bank Bangladesh PLC
-Al-Arafah Islami Bank PLC
-Shahjalal Islami Bank PLC
-Social Islami Bank PLC (SIBL)
-First Security Islami Bank PLC
-EXIM Bank PLC
-Union Bank PLC
-Global Islami Bank PLC
-ICB Islamic Bank PLC
-Standard Bank PLC
-Standard Chartered Bank
-HSBC (The Hongkong and Shanghai Banking Corporation Limited)
-Citibank N.A.
-State Bank of India (SBI)
-Commercial Bank of Ceylon
-Bank Alfalah Limited
-Habib Bank Limited (HBL)
-National Bank of Pakistan (NBP)
-Woori Bank
+bank_name, bank_url, branch_page_url, sub_branch_page_url
+Sonali Bank PLC, https://www.sonalibank.com.bd, https://www.sonalibank.com.bd/inland_branch.php,
+Janata Bank PLC, https://www.jb.com.bd, https://pmis.janatabank-bd.com/branchinfo.aspx,
+Agrani Bank PLC, https://www.agranibank.org, https://www.agranibank.org/index.php/locator/branches,
+Rupali Bank PLC, https://rupalibank.com.bd, https://rupalibank.com.bd/branch_location.php, https://rupalibank.com.bd/sub_branch.php
+BASIC Bank PLC, https://basicbankplc.com, https://basicbankplc.com/en/page-details/ho-branches, https://basicbankplc.com/en/page-details/sub-branch
+Bangladesh Development Bank PLC (BDBL), https://bdbl.com.bd, https://bdbl.com.bd/pages/static-pages/6922e06a933eb65569e26efe
+Sammilito Islami Bank PLC, https://www.sammilitobankbd.com, https://www.sammilitobankbd.com/location.php?type=Branch, https://www.sammilitobankbd.com/location.php?type=Sub+Branch
+Bangladesh Krishi Bank (BKB), https://krishibank.gov.bd, https://krishibank.gov.bd/pages/static-pages/6922e13f933eb65569e2b193
+Rajshahi Krishi Unnayan Bank (RAKUB), https://www.rakub.org.bd, https://www.rakub.org.bd/branch.php, 
+Probashi Kallyan Bank, https://pkb.gov.bd, https://pkb.gov.bd/pages/static-pages/6922e0de933eb65569e28f0c
+AB Bank PLC, https://abbl.com, https://abbl.com/find-branch-and-atm;https://abbl.com/ablocatorupdate/api/branches.php, https://abbl.com/find-branch-and-atm
+Bangladesh Commerce Bank Limited, https://bcblbd.com, https://www.bcblbd.com/branch_pages, https://www.bcblbd.com/branch_pages
+Bank Asia PLC, https://www.bankasia-bd.com, https://www.bankasia-bd.com/locator/branches, https://www.bankasia-bd.com/locator/subbranches
+Bengal Commercial Bank PLC, https://www.bgcb.com.bd, https://www.bgcb.com.bd/branch, https://www.bgcb.com.bd/branch
+BRAC Bank PLC, https://www.bracbank.com/en, https://www.bracbank.com/en/our-location, https://www.bracbank.com/en/our-location
+Citizens Bank PLC, https://www.citizensbankbd.com, https://www.citizensbankbd.com/information-of-branches, https://www.citizensbankbd.com/information-of-sub-branches
+City Bank PLC, https://www.citybankplc.com, https://www.citybankplc.com/locator;https://legacy.citybankplc.com/locate-atm-branch, https://www.citybankplc.com/locator;https://legacy.citybankplc.com/locate-atm-branch
+Community Bank Bangladesh PLC, https://www.communitybankbd.com, https://www.communitybankbd.com/branches-atms, https://www.communitybankbd.com/sub-branches/
+Dhaka Bank PLC, https://dhakabank.com.bd, https://dhakabank.com.bd/branches, https://dhakabank.com.bd/wp-content/uploads/2025/02/Branch-Sub-Branch-SMEC-OBU-26th-feb25.pdf
+Dutch-Bangla Bank PLC, https://www.dutchbanglabank.com, https://app.dutchbanglabank.com/DBBLWeb/BranchLocation, https://www.dutchbanglabank.com/sub-branch/sub-branch-list.html
+Eastern Bank PLC, https://www.ebl.com.bd, https://www.ebl.com.bd/branches, https://www.ebl.com.bd/locator/sub-branch
+IFIC Bank PLC, https://www.ificbank.com.bd, https://ificbank.com.bd/branch, https://ificbank.com.bd/uposhakha
+Jamuna Bank PLC, https://jamunabankbd.com, https://jamunabankbd.com/branch-list, https://jamunabankbd.com/branch-list
+Meghna Bank PLC, https://www.meghnabank.com.bd, https://www.meghnabank.com.bd/branch-locator/retail, 
+Mercantile Bank PLC, https://www.mblbd.com, https://www.mblbd.com/home/branch, https://www.mblbd.com/home/subbranch
+Midland Bank PLC, https://www.midlandbankbd.net, https://www.midlandbankbd.net/branches, https://www.midlandbankbd.net/sub-branch
+Modhumoti Bank PLC, https://www.modhumotibankplc.com, https://www.modhumotibankplc.com/branches, https://www.modhumotibankplc.com/sub-branch
+Mutual Trust Bank PLC, https://www.mutualtrustbank.com, https://www.mutualtrustbank.com/branch-atm-location;https://www.mutualtrustbank.com/wp-admin/admin-ajax.php?action=search_branch, https://www.mutualtrustbank.com/branch-atm-location
+National Bank PLC, https://www.nblbd.com, https://www.nblbd.com/branch, https://www.nblbd.com/sub-branch
+National Credit & Commerce (NCC) Bank PLC, https://www.nccbank.com.bd, https://www.nccbank.com.bd/Nccbbranches, https://www.nccbank.com.bd/Nccbbranches/sub
+NRB Bank PLC, https://www.nrbbankbd.com, https://www.nrbbankbd.com/branch-and-atm;https://www.nrbbankbd.com/islamic-banking-branch-window/, https://www.nrbbankbd.com/branch-and-atm
+NRBC Bank PLC, https://www.nrbcommercialbank.com, https://www.nrbcommercialbank.com/branches/map;https://www.nrbcommercialbank.com/Branches/branch_list, https://www.nrbcommercialbank.com/branches/map
+ONE Bank PLC, https://www.onebank.com.bd, https://www.onebank.com.bd/home/locations/branch;https://www.onebank.com.bd/home/locations/ib-branch, https://www.onebank.com.bd/home/locations/sub-branch
+Padma Bank PLC, https://www.padmabankbd.com, https://www.padmabankbd.com/branches, https://www.padmabankbd.com/branches
+Prime Bank PLC, https://www.primebank.com.bd/index.html, https://www.primebank.com.bd/branch, https://www.primebank.com.bd/sub-branch
+Pubali Bank PLC, https://www.pubalibangla.com, https://www.pubalibangla.com/BranchInformation, https://www.pubalibangla.com/BranchInformation
+SBAC (South Bangla Agriculture & Commerce) Bank PLC, https://www.sbacbank.com, https://www.sbacbank.com/locations?type=BRANCH, https://www.sbacbank.com/locations?type=SUB_BRANCH
+Shimanto Bank PLC, https://www.shimantobank.com, https://shimantobank.com/branches, https://shimantobank.com/sub-branches
+Southeast Bank PLC, https://www.southeastbank.com.bd, https://www.southeastbank.com.bd/?page=location/location-service, https://www.southeastbank.com.bd/?page=location/location-service
+The Premier Bank PLC, https://thepremierbankplc.com, https://thepremierbankplc.com/branch-atm-locator, https://thepremierbankplc.com/branch-atm-locator
+Trust Bank PLC, https://www.tblbd.com, https://eservice.tblbd.com/website/BranchList, https://eservice.tblbd.com/website/BranchList
+United Commercial Bank (UCB) PLC, https://www.ucb.com.bd, https://www.ucb.com.bd/branch-atm-locator, https://www.ucb.com.bd/branch-atm-locator
+Uttara Bank PLC, https://www.uttarabank-bd.com, https://www.uttarabank-bd.com/home/branches, https://www.uttarabank-bd.com/subbranch
+Islami Bank Bangladesh PLC, https://www.islamibankbd.com, https://www.islamibankbd.com/branch, https://www.islamibankbd.com/sub-branch
+Al-Arafah Islami Bank PLC, https://www.aibl.com.bd, https://www.aibl.com.bd/branches, https://www.aibl.com.bd/sub-branch
+Shahjalal Islami Bank PLC, https://www.sjiblbd.com, https://sjiblbd.com/branch.php, https://sjiblbd.com/branch_sb.php
+Social Islami Bank PLC (SIBL), https://www.siblbd.com, https://www.siblbd.com/locator/branches, https://www.siblbd.com/sub-branch
+First Security Islami Bank PLC, https://fsibplc.com, https://fsibplc.com/location_br.php, https://fsibplc.com/location_br.php
+EXIM Bank PLC, https://www.eximbankbd.com, https://www.eximbankbd.com/location/branch, https://www.eximbankbd.com/location/sub_branch
+Union Bank PLC, https://www.unionbank.com.bd, https://www.unionbank.com.bd/branch-information, https://www.unionbank.com.bd/subbranch
+Global Islami Bank PLC, https://www.globalislamibankbd.com, https://www.globalislamibankbd.com/branch-information, https://www.globalislamibankbd.com/branch-information
+ICB Islamic Bank PLC, https://www.icbislamic-bd.com, https://www.icbislamic-bd.com/branches, https://www.icbislamic-bd.com/branches
+Standard Bank PLC, https://www.standardbankbd.com, https://www.standardbankbd.com/en/branch,  
+Standard Chartered Bank, https://www.sc.com/bd, https://www.sc.com/bd/data/atm-branch/v2/all-atms-branches.json;https://www.sc.com/bd/atm-branch-locator, 
+HSBC (The Hongkong and Shanghai Banking Corporation Limited), https://www.hsbc.com.bd, https://www.hsbc.com.bd/contact/#our-branches
+Citibank N.A., https://mccibd.org/mcci_members/citibank-n-a, 
+State Bank of India (SBI), https://bd.statebank, https://bd.statebank/branch-locator
+Commercial Bank of Ceylon, https://www.combank.net.bd, https://www.combank.net.bd/branch/branch.html, https://www.combank.net.bd/branch/branch.html
+Bank Alfalah Limited, https://www.bankalfalah.com/bd, https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf
+Habib Bank Limited (HBL), https://www.hbl.com/bangladesh/bangladesh, https://www.hbl.com/bangladesh/branch-atm-location/branch-location,
+National Bank of Pakistan (NBP), https://www.nbp-bd.com, https://www.nbp-bd.com/branches.php
+Woori Bank, https://go.wooribank.com/bd/ib/main/IbMain.do, https://go.wooribank.com/bd/hs/ic/HSIC120_01C.do

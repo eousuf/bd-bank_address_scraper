@@ -1,0 +1,283 @@
+{
+  "_bank": "Shimanto Bank PLC",
+  "bank_url": "https://www.shimantobank.com/",
+  "method": "html_cards+html_table",
+  "status": "success",
+  "branch": [
+    {
+      "Principal Branch": [
+        "Shimanto Kallyan Trust Bhaban, Road No-02, Bir Uttam M.A. Rab Sarak, Shimanto Square, Dhanmondi, Dhaka-1205",
+        null,
+        "09610870001; 09610870002"
+      ]
+    },
+    {
+      "Mymensingh Branch": [
+        "Jasho Madhob Bhandar (2nd Floor), Holding No: 47/A, Muktijoddha Smarani Road, Chhoto Bazar, Ward No: 8, Kotwali, Mymensingh Sadar, Mymensingh.",
+        null,
+        "09610870020; 09610870021"
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "Commercial Court (Ground Floor), 95 Commerce College Road, Agrabad, Chittagong",
+        null,
+        "09610870030; 09610870031"
+      ]
+    },
+    {
+      "Satkania Branch": [
+        "Hoque Plaza Shopping Centre & Complex, Keranihat, Satkania, Chittagong",
+        null,
+        "09610870040; 09610870041"
+      ]
+    },
+    {
+      "Benapole Branch": [
+        "Noor Shopping Complex, Benapole Bazar, Sharsha, Jessore",
+        null,
+        "09610870050; 09610870051"
+      ]
+    },
+    {
+      "Motijheel Branch": [
+        "Krishi Bhaban, 49-51 Dilkusha Commercial Area, Dhaka-1000.",
+        "https://old.shimantobank.com/_wp_link_placeholder",
+        "09610870060; 09610870061"
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "Hosna Center (1st Floor), 106 Gulshan Avenue, Gulshan, Dhaka-1212",
+        null,
+        "09610870190; 09610870191"
+      ]
+    },
+    {
+      "Bibir Bazar Branch": [
+        "Bibir Bazar, Comilla Adarsha Sadar, Comilla",
+        null,
+        "09610870070; 09610870071"
+      ]
+    },
+    {
+      "Cox`s Bazar Branch": [
+        "Almas Complex (1st Floor), Holding No: 008200, Burmese Market Road, Cox’s Bazar Sadar, District: Cox’s Bazar.",
+        null,
+        "09610870080; 09610870081"
+      ]
+    },
+    {
+      "Teknaf Branch": [
+        "Riham Complex (1st Floor), Holding No: 04, Lamar Bazar Road (Jharna Chattor), Teknaf, Cox’s Bazar.",
+        null,
+        "09610870090; 09610870091"
+      ]
+    },
+    {
+      "Lalmonirhat Branch": [
+        "Ward No-01, BGB Canteen Moor, Lalmonirhat Patgram Highway Road, Kotoali, Lalmonirhat-5500",
+        null,
+        "09610870100; 09610870101"
+      ]
+    },
+    {
+      "Seedstore Branch": [
+        "Isahak Khan Tower, Seedstore Bazar, Bhaluka, Mymensingh",
+        null,
+        "09610870110; 09610870111"
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "BGB Kalyan Bhaban, 1st Floor, Nobabi Moshjid Road, Akhalia, Sylhet",
+        null,
+        "09610870120; 09610870121"
+      ]
+    },
+    {
+      "Champoknagar Branch": [
+        "Western Plaza (1st floor), Fatapur, 4 No. Champaknagar, Bijoy Nagar, Brahmanbaria",
+        null,
+        "09610870130; 09610870131"
+      ]
+    },
+    {
+      "Pragpur Branch": [
+        "Afsana Plaza, Pragpur Bazzar, Pragpur, Doulatpur, Kushtia",
+        null,
+        "09610870140; 09610870141"
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "Plot No. 38, Rabindra Sarani, Sector-7, Uttara, Dhaka-1203",
+        null,
+        "09610870150; 09610870151"
+      ]
+    },
+    {
+      "Hazaribagh Branch": [
+        "BGB Super Market, 2nd Floor, Lolito Mohon Das Lane, Hazaribagh, Dhaka",
+        null,
+        "09610870160; 09610870161"
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "Miltone Tower, 2nd floor, Holding no-64, K D A Avenue Road, Khulna",
+        null,
+        "09610870170; 09610870171"
+      ]
+    },
+    {
+      "Godkhali Branch": [
+        "Jalil sarder Market, 1St floor, Godkhali Bazar, Jhikargacha, jessore",
+        null,
+        "09610870180; 09610870181"
+      ]
+    },
+    {
+      "Brahmanbaria Branch": [
+        "Hazi Siddik Plaza (1st & 2nd floor), Court Road, Brahmanbaria Sadar, Brahmanbaria.",
+        null,
+        "09610870200; 09610870201"
+      ]
+    },
+    {
+      "Chuadanga Branch": [
+        "Padoshova Tower (1st Floor), Shahid Abul Kashem Road (Boro Bazar), P.S: Chuadanga Sadar, District: Chuadanga.",
+        null,
+        "09610870210; 09610870211"
+      ]
+    },
+    {
+      "Chirirbondor Branch": [
+        "MB Tower (1st Floor), Hospital Mor, 5 No Abdulpur Union, Thana: Chirirbondor, District: Dinajpur.",
+        null,
+        "09610870230; 09610870231"
+      ]
+    },
+    {
+      "Rangpur Branch": [
+        "Talukdar Tower (1st Floor), GL Roy Road (Opposite to Fire Service Station) Rangpur Sadar, District: Rangpur.",
+        null,
+        "09610870220; 09610870221"
+      ]
+    },
+    {
+      "Zakigonj Branch": [
+        "Five Star (1st Floor), Kaligonj Bazar, Union: Manikpur, Upozilla: Zakiganj, Sylhet.",
+        null,
+        "09610870240; 09610870241"
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        "Ma Babar Doa (1st Floor), Rani Bazar Road, Boalia, Rajshahi.",
+        null,
+        "09610870250; 09610870251"
+      ]
+    },
+    {
+      "Hili Branch": [
+        "Hazi Trade center (1st Floor) Chowrastar Mor, Ward no: 03, Hili Powroshava, Thana: Hakimpur, District: Dinajpur.",
+        null,
+        "09610870260"
+      ]
+    },
+    {
+      "Kushtia Branch": [
+        "Sherin Tower (1st Floor) Holding No: 116, Ward No: 18, Kushtia Powroshava Jhenaidah-Kushtia Highway Road Thana: Kushtia Sadar District: Kushtia",
+        null,
+        "09610870270"
+      ]
+    },
+    {
+      "Ashulia Branch": [
+        "Sufia Mansion (1st Floor) House No: 90, Block: B Bogabari, Dhamsona Ashulia, Dhaka.",
+        null,
+        "09610870280; 09610870281"
+      ]
+    },
+    {
+      "Mymensingh Branch": [
+        "Jhosho Madov Vandar (1st Floor)",
+        null,
+        "09610870020; 09610870021"
+      ]
+    },
+    {
+      "Khulna Branch Inaugration Program": [
+        "Gallery",
+        "https://www.shimantobank.com/assets/gallery-list-image/1786178486_5.jpg",
+        null
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "Pabla Sub-Branch (Under Khulna Branch)": [
+        "Ashia Tower (1st Floor) KDA Plot No: N-4 Mosgunni Main Road, Kabir Bottola, Pabla, Word no: 06, Khulna City Corporation, Dawlatpur, Khulna.",
+        null,
+        "09610870800; 09610870801"
+      ]
+    },
+    {
+      "Ramu Sub Branch (under Cox’s Bazar Branch)": [
+        "Habib Market (1st Floor), Arkan Sarak, Chawmuhoni Mor, Ramu, Cox’s Bazar.",
+        null,
+        "09610870805; 09610870806"
+      ]
+    },
+    {
+      "Mohammadpur Sub-Branch (Under Principal Branch)": [
+        "Jamila Latif Tower (1st Floor), Holding No: 1101/A, Ring Road, Ward No: 30, Dhaka North City Corporation, Thana: Adbor, District: Dhaka.",
+        null,
+        "09610870810; 09610870811"
+      ]
+    },
+    {
+      "Uttara Sub-Branch (Under Uttara Branch)": [
+        "Troye Plaza ( 1st Floor), Holding No: 34, Sonargaon Janapath Road, Sector:11, Ward: 51, Dhaka North City Corporation, Thana: Uttara West, District: Dhaka",
+        null,
+        "09610870815; 09610870816"
+      ]
+    },
+    {
+      "Jubilee Road Sub-Branch (Under Agrabad Branch)": [
+        "S A Tower (1st Floor), Holding No: 269, Enayet Bazar Road, Word No: 22, Chattogram City Corporation, Chattogram.",
+        null,
+        "09610870820; 09610870821"
+      ]
+    },
+    {
+      "Rangamati Sub-Branch (Under Agrabad Branch, Chottogram)": [
+        "S R Plaza, 1st Floor, Holding No: 983 GA/1191, New Court Road (Banarupa Road), Ward no: 7, Rangamati Sadar, Rangamati.",
+        null,
+        "09610870825; 09610870826"
+      ]
+    },
+    {
+      "Shyamnagar Sub Branch (Under Khulna Branch)": [
+        "Mithila Shihab Mansion (1st Floor), Shyamnagar Munshigonj Main Road, Shyamnagar, Satkhira.",
+        null,
+        "09610870830; 09610870831"
+      ]
+    },
+    {
+      "Satkhira Sub-Branch (Under Khulna Branch)": [
+        "Shimanto Collection Shop (1st Floor), 33 BGB Satkhira Battalion, Mouza: Magura, Gopinathpur, Union: Labsha, Thana: Satkhira Sadar, District: Satkhira",
+        null,
+        "09610870835"
+      ]
+    },
+    {
+      "1st Sub-Branch Opening at Pabla, Khulna": [
+        "Gallery",
+        "https://www.shimantobank.com/assets/gallery-list-image/1786173892_2.jpg",
+        null
+      ]
+    }
+  ]
+}

@@ -1,120 +1,227 @@
 {
   "_bank": "Community Bank Bangladesh PLC",
-  "website": "https://www.communitybankbd.com/",
-  "website_source": "ddg(score=1.00)",
-  "method": "html_cards+html_table",
+  "bank_url": "https://www.communitybankbd.com/",
+  "method": "html_cards+html_table+pdf",
   "status": "success",
-  "branch_name": [
-    "Corporate Branch",
-    "Gulshan Branch",
-    "Dhanmondi Branch",
-    "Motijheel Branch",
-    "Uttara Branch",
-    "Chawkbazar Branch",
-    "Mawna Branch",
-    "Panchabati Branch",
-    "Agrabad Branch",
-    "Noapara Branch",
-    "Panchdona Branch",
-    "Mirzapur Branch",
-    "Gouripur Branch",
-    "Khulna Branch",
-    "Ranirbandar Branch",
-    "Nawabganj Branch",
-    "Anderkilla Branch",
-    "Fulbaria Branch",
-    "Jashore Branch"
+  "branch": [
+    {
+      "Corporate Branch": [
+        "Police Plaza Concord(Level 5, Tower 2) Plot 2Road 144 Gulshan 1Dhaka-1212",
+        null,
+        "09677712001"
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "South Breeze Square (Gr. Floor)52, Gulshan AvenueGulshan 1, Dhaka-1212",
+        null,
+        "09677712007"
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "Taj Lily Green (1st Floor) 751, Satmosjid RoadDhanmondi, Dhaka-1209",
+        null,
+        "09677712008"
+      ]
+    },
+    {
+      "Motijheel Branch": [
+        "Cosmos Tower,Holding No.28/1/2,Toyenbee Circular RoadMotijheel, Dhaka-1000",
+        null,
+        "09677712002"
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "Rajuk Rajib Cosmo,Shopping Complex ( 1st Floor)Plot No. 71, Sector No. 7Uttara, Dhaka",
+        null,
+        "09677712010"
+      ]
+    },
+    {
+      "Chawkbazar Branch": [
+        "Shahjahan Imam Tower,29-31 Water Works Road(1st Floor) Chawkbazar, Dhaka.",
+        null,
+        "09677712009"
+      ]
+    },
+    {
+      "Mawna Branch": [
+        "Bhai Bhai City Complex,Holding No.255Sreepur Road, Ward 8Sreepur Pourashava,Gazipur-1704",
+        null,
+        "09677712003"
+      ]
+    },
+    {
+      "Panchabati Branch": [
+        "Janata Super Market (2nd Floor), Dalda Road, Panchabati, Narayangon",
+        null,
+        "09677712004"
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "Chamber House (Ground Floor),38 Agrabad Commercial Area,Chattogram-4100",
+        null,
+        "09677712006"
+      ]
+    },
+    {
+      "Noapara Branch": [
+        "Chowdhury Bhaban (1st Floor)Saihamnagar, Noapara BazarMadhabpur, Habiganj-3333",
+        null,
+        "09677712005"
+      ]
+    },
+    {
+      "Panchdona Branch": [
+        "Amzad Tower (1st Floor)Burairhat, PanchdonaMadhabdi, Narsingdi-1603",
+        null,
+        "09677712011"
+      ]
+    },
+    {
+      "Mirzapur Branch": [
+        "Ward No - 03, BimhatiKalibari Road, MirzapurTangail-1940",
+        null,
+        "09677712012"
+      ]
+    },
+    {
+      "Gouripur Branch": [
+        "Afia Plaza (1st Floor), GouripurDaag No. 7715, 7716, AngauraGouripur Bazar, DaudkandiCumilla-3517",
+        null,
+        "09677712013"
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "Tayamun Center, 181/1Jashore Road, Ward 17Shib Bari More, Khulna - 9100",
+        null,
+        "09677712014"
+      ]
+    },
+    {
+      "Ranirbandar Branch": [
+        "Grameen Tower (1st Floor),Daag No. 3377 & 3378,Dinajpur-5241",
+        null,
+        "09677712015"
+      ]
+    },
+    {
+      "Nawabganj Branch": [
+        "Sajeda Complex (Ground Floor)Kolakopa, KashimpurNawabganj, Dhaka-1320",
+        null,
+        "09677712016"
+      ]
+    },
+    {
+      "Anderkilla Branch": [
+        "Ismail Trade Center,183 Nazir Ahmed Chowdhury RoadWard 32, Anderkilla, KotwaliChattogram-4000",
+        null,
+        "09677712017"
+      ]
+    },
+    {
+      "Fulbaria Branch": [
+        "Fulbaria Green City, Holding-516Word-8, Mymensingh - Fulbaria RoadFulbaria, Mymensingh-2216",
+        null,
+        "09677712018"
+      ]
+    },
+    {
+      "Jashore Branch": [
+        "11/A (1st Floor), Rabindranath (Rn) Road, Ward No. 02, Jashore Municipality, Jashore.",
+        null,
+        "09677712019"
+      ]
+    },
+    {
+      "out of which 3 years as Branch Manager in a large corporate branch located in Dhaka.": [
+        "Experience: Minimum 10 years working experience in leading commercial banks",
+        null,
+        null
+      ]
+    },
+    {
+      "out of which 2 years as Branch Manager in a branch located in the above-mentioned districts.": [
+        "Experience: Minimum 8 years working experience in leading commercial banks",
+        null,
+        null
+      ]
+    },
+    {
+      "out of which 2 years as Branch Operations Manager/Credit Manager in a large corporate branch in Dhaka.": [
+        "Experience: Minimum 7 years working experience in leading commercial banks",
+        null,
+        null
+      ]
+    },
+    {
+      "■ To manage a large to medium sized branch in Dhaka City": [
+        "■ To ensure regulatory compliances at branch level",
+        null,
+        null
+      ]
+    },
+    {
+      "2. Work Location/Delivery Place: “Chawkbazar Branch": [
+        "Dhaka”.",
+        null,
+        null
+      ]
+    },
+    {
+      "(Chawk Bazar Branch, Dhaka)": [
+        "Interior Layout Plan -1st floor- 4000 Sft.",
+        null,
+        null
+      ]
+    }
   ],
-  "branch_address": [
-    "Police Plaza Concord(Level 5, Tower 2) Plot 2Road 144 Gulshan 1Dhaka-1212",
-    "South Breeze Square (Gr. Floor)52, Gulshan AvenueGulshan 1, Dhaka-1212",
-    "Taj Lily Green (1st Floor) 751, Satmosjid RoadDhanmondi, Dhaka-1209",
-    "Cosmos Tower,Holding No.28/1/2,Toyenbee Circular RoadMotijheel, Dhaka-1000",
-    "Rajuk Rajib Cosmo,Shopping Complex ( 1st Floor)Plot No. 71, Sector No. 7Uttara, Dhaka",
-    "Shahjahan Imam Tower,29-31 Water Works Road(1st Floor) Chawkbazar, Dhaka.",
-    "Bhai Bhai City Complex,Holding No.255Sreepur Road, Ward 8Sreepur Pourashava,Gazipur-1704",
-    "Janata Super Market (2nd Floor), Dalda Road, Panchabati, Narayangon",
-    "Chamber House (Ground Floor),38 Agrabad Commercial Area,Chattogram-4100",
-    "Chowdhury Bhaban (1st Floor)Saihamnagar, Noapara BazarMadhabpur, Habiganj-3333",
-    "Amzad Tower (1st Floor)Burairhat, PanchdonaMadhabdi, Narsingdi-1603",
-    "Ward No - 03, BimhatiKalibari Road, MirzapurTangail-1940",
-    "Afia Plaza (1st Floor), GouripurDaag No. 7715, 7716, AngauraGouripur Bazar, DaudkandiCumilla-3517",
-    "Tayamun Center, 181/1Jashore Road, Ward 17Shib Bari More, Khulna - 9100",
-    "Grameen Tower (1st Floor),Daag No. 3377 & 3378,Dinajpur-5241",
-    "Sajeda Complex (Ground Floor)Kolakopa, KashimpurNawabganj, Dhaka-1320",
-    "Ismail Trade Center,183 Nazir Ahmed Chowdhury RoadWard 32, Anderkilla, KotwaliChattogram-4000",
-    "Fulbaria Green City, Holding-516Word-8, Mymensingh - Fulbaria RoadFulbaria, Mymensingh-2216",
-    "11/A (1st Floor), Rabindranath (Rn) Road, Ward No. 02, Jashore Municipality, Jashore."
-  ],
-  "branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "branch_contact_number": [
-    "09677712001",
-    "09677712007",
-    "09677712008",
-    "09677712002",
-    "09677712010",
-    "09677712009",
-    "09677712003",
-    "09677712004",
-    "09677712006",
-    "09677712005",
-    "09677712011",
-    "09677712012",
-    "09677712013",
-    "09677712014",
-    "09677712015",
-    "09677712016",
-    "09677712017",
-    "09677712018",
-    "09677712019"
-  ],
-  "sub_branch_name": [
-    "Malopara Sub Branch",
-    "Sir Iqbal Road (Kalibari) Sub-Branch",
-    "Cox’s Bazar Sadar Sub Branch",
-    "Sylhet Sadar Sub Branch",
-    "Rangpur Sadar Sub Branch"
-  ],
-  "sub_branch_address": [
-    "TSI/ATSI Quarter, Govt. Mohila College Road, Ward 11, Boalia, Rajshahi",
-    "KMP Shopping Complex, Sir Iqbal Road (Kalibari), Helatola, Khulna Sadar Thana More, Khulna",
-    "Midland City Barmiz Market, Holding: 273-00/1620 Bazar Ghata, Tekpara Road, Ward: 04, Cox’s Bazar.",
-    "Md Iqbal's Building, Holding: 11877, Sagar Digirpar, Subid Bazar, Sunamganj Road, Ward: 03, Sylhet City Corporation, Sylhet.",
-    "Holding: 0260-0262/12279, Ward: 25, City Plaza Market, Jahaz Company Moor, Station Road, Rangpur"
-  ],
-  "sub_branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sub_branch_contact_number": [
-    "+8809677711201",
-    "+8809677711202",
-    "+8809677711203",
-    "+8809677711204",
-    "+8809677711205"
-  ],
-  "duration_sec": 134.7
+  "sub_branch": [
+    {
+      "Malopara Sub Branch": [
+        "TSI/ATSI Quarter, Govt. Mohila College Road, Ward 11, Boalia, Rajshahi",
+        null,
+        "+8809677711201"
+      ]
+    },
+    {
+      "Sir Iqbal Road (Kalibari) Sub-Branch": [
+        "KMP Shopping Complex, Sir Iqbal Road (Kalibari), Helatola, Khulna Sadar Thana More, Khulna",
+        null,
+        "+8809677711202"
+      ]
+    },
+    {
+      "Cox’s Bazar Sadar Sub Branch": [
+        "Midland City Barmiz Market, Holding: 273-00/1620 Bazar Ghata, Tekpara Road, Ward: 04, Cox’s Bazar.",
+        null,
+        "+8809677711203"
+      ]
+    },
+    {
+      "Sylhet Sadar Sub Branch": [
+        "Md Iqbal's Building, Holding: 11877, Sagar Digirpar, Subid Bazar, Sunamganj Road, Ward: 03, Sylhet City Corporation, Sylhet.",
+        null,
+        "+8809677711204"
+      ]
+    },
+    {
+      "Rangpur Sadar Sub Branch": [
+        "Holding: 0260-0262/12279, Ward: 25, City Plaza Market, Jahaz Company Moor, Station Road, Rangpur",
+        null,
+        "+8809677711205"
+      ]
+    },
+    {
+      "BOQ for Proposed Community Bank Bangladesh PLC. Sylhet Sadar Sub Branch at Sunamganj Road": [
+        "Sylhet.",
+        null,
+        null
+      ]
+    }
+  ]
 }

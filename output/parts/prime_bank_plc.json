@@ -1,656 +1,1116 @@
 {
   "_bank": "Prime Bank PLC",
-  "website": "https://www.primebank.com.bd/",
-  "website_source": "override",
+  "bank_url": "https://www.primebank.com.bd",
   "method": "datatables_json+html_cards+html_table",
   "status": "success",
-  "branch_name": [
-    "BARISAL BRANCH",
-    "AGRABAD BRANCH",
-    "ASHUGANJ BRANCH",
-    "BRAHMANBARIA BRANCH",
-    "CHAUDDAGRAM BRANCH",
-    "CHOWMUHANI BRANCH",
-    "COMILLA BRANCH",
-    "COX'S BAZAR BRANCH",
-    "DAGONBHUIYAN BRANCH",
-    "FATIKCHARI BRANCH",
-    "FENI BRANCH",
-    "HAJIGONJ BRANCH",
-    "HALISHAHOR BRANCH",
-    "HATHAZARI BRANCH",
-    "IBB, OR NIZAM ROAD BRANCH",
-    "IBB PAHARTALI BRANCH",
-    "JUBILEE ROAD BRANCH",
-    "KARNAFULI EPZ BRANCH",
-    "KERANIHAT BRANCH",
-    "KHATUNGONJ BRANCH",
-    "Laldighi East Branch",
-    "Khulshi Branch",
-    "OXYGEN MORE BRANCH",
-    "PRABARTAK MORE BRANCH",
-    "RACECOURSE BRANCH",
-    "RAMGARH Branch",
-    "RAOZAN BRANCH",
-    "VATIARY BRANCH",
-    "BHUJPUR SME BRANCH",
-    "HEYAKO SME BRANCH",
-    "MADUNAGHAT SME BRANCH",
-    "BANSHKHALI BRANCH",
-    "COMPANYGONJ SME/AGRI BRANCH",
-    "CHATKHIL SME/AGRI BRANCH",
-    "RAIPUR SME BRANCH",
-    "Abu Torab Bazar Branch",
-    "Chandina Branch",
-    "Chandpur Branch",
-    "ADAMJEE EPZ BRANCH",
-    "ASADGATE BRANCH",
-    "ASHULIA BRANCH",
-    "BANANI BRANCH",
-    "BANASREE BRANCH",
-    "BANGSHAL BRANCH",
-    "BARIDHARA BRANCH",
-    "BASHABO BRANCH",
-    "BASHUNDHARA BRANCH",
-    "BHAIRAB BAZAR BRANCH",
-    "BIJOY NAGAR BRANCH",
-    "BOALMARI BRANCH",
-    "DAMUDYA BRANCH",
-    "DHANMONDI BRANCH",
-    "ELEPHANT ROAD BRANCH",
-    "FARIDPUR BRANCH",
-    "FOREIGN EXCHANGE BRANCH",
-    "GANAKBARI BRANCH",
-    "GARIB-E-NEWAZ AVE. BRANCH",
-    "GULSHAN BRANCH",
-    "HEMAYETPUR BRANCH",
-    "IBRAHIMPUR BRANCH",
-    "IBB MIRPUR BRANCH",
-    "IBB, DILKUSHA BRANCH",
-    "JATRABARI BRANCH",
-    "JOYDEVPUR BRANCH",
-    "JOYPARA BRANCH",
-    "KAKRAIL BRANCH",
-    "KALIAKOIR BRANCH",
-    "KAWRAN BAZAR BRANCH",
-    "KISHORGONJ BRANCH",
-    "MADHABDI BRANCH",
-    "MIRPUR-1 BRANCH",
-    "MIRZAPUR BRANCH",
-    "MODHUKHALI BRANCH",
-    "MOHAKHALI BRANCH",
-    "MOTIJHEEL BRANCH",
-    "MOUCHAK BRANCH",
-    "MOULVI BAZAR BRANCH",
-    "NARAYANGONJ BRANCH",
-    "NAWABGONJ BRANCH",
-    "NEW ESKATON BRANCH",
-    "PALLABI BRANCH",
-    "PANTHAPATH BRANCH",
-    "PATUATULY BRANCH",
-    "PRAGATI SARANI BRANCH",
-    "RING ROAD BRANCH",
-    "SAT MASJID ROAD BRANCH",
-    "SAVAR BRANCH",
-    "SERAJDIKHAN BRANCH",
-    "SHIBPUR BRANCH",
-    "SHIMRAIL BRANCH",
-    "SREENAGAR BRANCH",
-    "TANGAIL BRANCH",
-    "TEJGAON BRANCH",
-    "TONGI BRANCH",
-    "UTTARA BRANCH",
-    "WARI BRANCH",
-    "TAKERHAT SME CENTER",
-    "AGANAGAR SME BRANCH",
-    "SONARGAON SME BRANCH",
-    "NARSINGDI SME BRANCH",
-    "Prime View Branch",
-    "DAULATPUR BRANCH",
-    "JESSORE BRANCH",
-    "KHULNA BRANCH",
-    "KUSHTIA BRANCH",
-    "MAGURA BRANCH",
-    "SATKHIRA BRANCH",
-    "JHIKORGACHA SME BRANCH",
-    "PORADAHA SME-AGRI BRANCH",
-    "JAMALPUR BRANCH",
-    "MYMENSINGH BRANCH",
-    "SHERPUR SME BRANCH",
-    "BANESWAR BRANCH",
-    "BOGURA BRANCH",
-    "CHAPAI NAWABGANJ BRANCH",
-    "ISHWARDI BRANCH",
-    "JOYPURHAT BRANCH",
-    "MAHADEBPUR BRANCH",
-    "NAOGAON BRANCH",
-    "NATORE BRANCH",
-    "PABNA BRANCH",
-    "RAJSHAHI BRANCH",
-    "SHERPUR BRANCH, BOGURA",
-    "DINAJPUR BRANCH",
-    "HATIBANDHA BRANCH",
-    "RANGPUR BRANCH",
-    "SAIDPUR BRANCH",
-    "THAKURGAON SME/AGRI",
-    "BARALEKHA BRANCH",
-    "BEANIBAZAR BRANCH",
-    "BISHWANATH BRANCH",
-    "COURT ROAD BRANCH",
-    "DHAKA DAKSHIN BRANCH",
-    "FENCHUGANJ BRANCH",
-    "HABIGANJ BRANCH",
-    "IBB AMBERKHANA BRANCH",
-    "ISLAMPUR BRANCH",
-    "KADAMTOLI BRANCH",
-    "KULAURA BRANCH",
-    "NABIGANJ BRANCH",
-    "SREEMANGAL BRANCH",
-    "SUBIDBAZAR BRANCH",
-    "SUNAMGANJ BRANCH",
-    "SYLHET BRANCH",
-    "TAJPUR BRANCH",
-    "UPASHAHAR BRANCH",
-    "MADHABPUR SME",
-    "SYEDPUR SME"
+  "branch": [
+    {
+      "BARISAL BRANCH": [
+        "37, K.B Hemayet Uddin Road, Barisal-8200",
+        "https://www.primebank.com.bd/branch",
+        "+8802478864344; +8802478864345"
+      ]
+    },
+    {
+      "AGRABAD BRANCH": [
+        "B.M. Heights (1st floor), 318 Sheikh Mujib Road , Badamtoli, Agrabad, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        "02333316725; 02333316724; 02333318971; 02333310970"
+      ]
+    },
+    {
+      "ASHUGANJ BRANCH": [
+        "Seriya Sayed Tower, Post Office Road, Ashugonj Bazar, Ashugonj, Brahamanbaria",
+        "https://www.primebank.com.bd/branch",
+        "02334431596"
+      ]
+    },
+    {
+      "BRAHMANBARIA BRANCH": [
+        "K Das Bhaban, K Das Square, Brahmanbaria",
+        "https://www.primebank.com.bd/branch",
+        "02334428698"
+      ]
+    },
+    {
+      "CHAUDDAGRAM BRANCH": [
+        "Abdul Gani Shopping Complex (1st floor), Chauddagram Bazar, Comilla",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "CHOWMUHANI BRANCH": [
+        "Holding # 180-182 (1st floor); Feni Road, Chaumuhani, Begumganj; Noakhali.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "COMILLA BRANCH": [
+        "Holding No: 10/8, Ward#12, Chatpatty (Gangagonj), Kotowali, Comilla",
+        "https://www.primebank.com.bd/branch",
+        "8802334402611"
+      ]
+    },
+    {
+      "COX'S BAZAR BRANCH": [
+        "Shafique Center (1st & 2nd floor),464 Main Road, Cox's Bazar.",
+        "https://www.primebank.com.bd/branch",
+        "02334462804; 02334462803; 02334462802"
+      ]
+    },
+    {
+      "DAGONBHUIYAN BRANCH": [
+        "R.B Plaza, 391 Falizer Ghat, Dagonbhuiyan, Feni",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "FATIKCHARI BRANCH": [
+        "Haji Hossain Plaza, College Road, Bibirhat, Dhurang Union, Fatickchari, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "FENI BRANCH": [
+        "Kazi Center, Holding # 106, S. S. K. Road, Feni",
+        "https://www.primebank.com.bd/branch",
+        "02334474093"
+      ]
+    },
+    {
+      "HAJIGONJ BRANCH": [
+        "Ananda Complex, Holding#191, Hajiganj Bazar, Hajiganj, Chandpur",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "HALISHAHOR BRANCH": [
+        "Mobil House,Plot-2,Road-3,Block-K, Halishahar Housing Estate, Halishahar, Chittagong.",
+        "https://www.primebank.com.bd/branch",
+        "+8802333332054"
+      ]
+    },
+    {
+      "HATHAZARI BRANCH": [
+        "N. Zahur Shopping Center (1st Floor) Kachari Road, Hathazari Chittagong",
+        "https://www.primebank.com.bd/branch",
+        "02334460088; 02334460089; 02334460090"
+      ]
+    },
+    {
+      "IBB, OR NIZAM ROAD BRANCH": [
+        "O. R. Nizam Road, Hazrat Garibullah City Corporation Bhaban, 739/804 CDA Avenue, Bagmoniram, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        "02333361437; 02333359855"
+      ]
+    },
+    {
+      "IBB PAHARTALI BRANCH": [
+        "B.S. Plaza, Plot # 305/1390 Abdul Ali Hat, Sorai Para Alanker Morr, P. S. Pahartali, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        "0243151741; 0243151742"
+      ]
+    },
+    {
+      "JUBILEE ROAD BRANCH": [
+        "Pedrollo Plaza, 5, Jubilee Road, Chittagong-4000",
+        "https://www.primebank.com.bd/branch",
+        "02333350939; 02333353650"
+      ]
+    },
+    {
+      "KARNAFULI EPZ BRANCH": [
+        "Karnaphuli EPZ, North Patenga, Chittagong-4204",
+        "https://www.primebank.com.bd/branch",
+        "02333300381; 02333300382; 02333300383"
+      ]
+    },
+    {
+      "KERANIHAT BRANCH": [
+        "Hazi Ulamia Market (1st Floor),Keranihat, Satkania, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "KHATUNGONJ BRANCH": [
+        "142, Chand Mia Lane, Khatunganj, Chiattogram-4000",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "Laldighi East Branch": [
+        "Zila Parishad Tower, Court Road, Kotwali, Chattogram",
+        "https://www.primebank.com.bd/branch",
+        "02333350771; 02333350773"
+      ]
+    },
+    {
+      "Khulshi Branch": [
+        "Arcadia Shopping Complex, Holding No- 77/78,4, Zakir Hossain Road, Ward-13, Chattogram City Corporation Khulshi, Chattogram",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "OXYGEN MORE BRANCH": [
+        "405 Sekander Center, Chittagong Cantonment, Oxygen More, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "PRABARTAK MORE BRANCH": [
+        "12/12 O. R. Nizam Road, Prabartak More, Panchlaish, Chattogram",
+        "https://www.primebank.com.bd/branch",
+        "880241355802"
+      ]
+    },
+    {
+      "RACECOURSE BRANCH": [
+        "Artisan Reza Lodge(1st Floor), 1203/1, Racecourse, Adarsha Sadar, Cumilla-3500.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "RAMGARH Branch": [
+        "Holding No # 847, Munshi Market (1'st Floor), Word No # 09, Ramgarh, Khagrachari.",
+        "https://www.primebank.com.bd/branch",
+        "02-333344724"
+      ]
+    },
+    {
+      "RAOZAN BRANCH": [
+        "Fazal Tower (1st Floor), Raojan Bus Stand, Mader Mohal, Chattogram",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "VATIARY BRANCH": [
+        "Khalek Tower, North Vatiary Bazar, P:O: Vatiary-4315, P:S: Sitakunda, Chattogram.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BHUJPUR SME BRANCH": [
+        "Mokka Shopping Center (1st Floor), Kazirhat, Bhujpur, Fatickchari, Chattogram.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "HEYAKO SME BRANCH": [
+        "Chowdhury Market, Heakobazar, Bhujpur, Fatickchari, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "MADUNAGHAT SME BRANCH": [
+        "Mabia Emporium, Madunaghat Bazar, Hathazari, Chittagong",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BANSHKHALI BRANCH": [
+        "G.S. Plaza (1st floor), Chittagong-Banshkhali Highway, Banshkhali Pawrashava, Banshkhali, Chattogram",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "COMPANYGONJ SME/AGRI BRANCH": [
+        "Mother Shoping Complex, 5, West Nabipur Nabinagar Road, Muradnagar, Companygonj, Comilla",
+        "https://www.primebank.com.bd/branch",
+        "02334409844"
+      ]
+    },
+    {
+      "CHATKHIL SME/AGRI BRANCH": [
+        "Momota Shopping Center, C&B Road, Chatkhil , Noakhali",
+        "https://www.primebank.com.bd/branch",
+        "880-2334495113"
+      ]
+    },
+    {
+      "RAIPUR SME BRANCH": [
+        "Queen Complex, Holding # 514,515 Main Road, Raipur, Laximpur",
+        "https://www.primebank.com.bd/branch",
+        "02-334442396; 02-334442397"
+      ]
+    },
+    {
+      "Abu Torab Bazar Branch": [
+        "Al Madina Market, Abu Torab Bazar, Mirsharai, Chattogram",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "Chandina Branch": [
+        "‘R.D.B. Plaza’, Station Road, Chandina, Cumilla",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "Chandpur Branch": [
+        "‘Premier Tower’, Holding No- 326, Hazi Mohsin Road, Alimpara, Ward No-10,Chandpur Sadar, Chandpur.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "ADAMJEE EPZ BRANCH": [
+        "Adamjee EPZ Holding # 4, Siddirganj, Narayanganj",
+        "https://www.primebank.com.bd/branch",
+        "880 2997744670; 880 2997744671; 880 2997744672"
+      ]
+    },
+    {
+      "ASADGATE BRANCH": [
+        "Family World Tower, 2/6, Sir Sayed Road, Ward # 42, Mohammadpur (Mirpur Road), Dhaka.",
+        "https://www.primebank.com.bd/branch",
+        "41022790 & 41022789 (PABX)"
+      ]
+    },
+    {
+      "ASHULIA BRANCH": [
+        "Sharif Mansion (1st floor), Diakhali, Jamgora Bazar, P.S. Ashulia, Dist: Dhaka",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BANANI BRANCH": [
+        "House # 62, Block – E, Kemal Ataturk, Avenue Banani Dhaka-1212",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BANASREE BRANCH": [
+        "Arcadia (1st Floor), Plot # 14, Block-C, Banasree Main Road, Rampura, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02-8399548"
+      ]
+    },
+    {
+      "BANGSHAL BRANCH": [
+        "23, Nazira Bazar, Majed Sarder Lane, Bangshal, Dhaka-1100",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BARIDHARA BRANCH": [
+        "Concord IK Tower (1st floor), Plot # 02, Block # CEN (A) North Avenue, Gulshan-2, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02-55051636"
+      ]
+    },
+    {
+      "BASHABO BRANCH": [
+        "Hossain Tower (1st & 2nd Floor), 60-61 South Bashabo, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02-55122206; 02-55122201"
+      ]
+    },
+    {
+      "BASHUNDHARA BRANCH": [
+        "Farhana Prime (1st Floor), Plot # 236, Road # 2, Block-B, Boshundhara R/A, Dhaka.",
+        "https://www.primebank.com.bd/branch",
+        "02-8415276"
+      ]
+    },
+    {
+      "BHAIRAB BAZAR BRANCH": [
+        "181, Tin Potty Road, Bhairab Pawrashava, Bhairab, Kishorgonj",
+        "https://www.primebank.com.bd/branch",
+        "02-9470755; 02-9470723"
+      ]
+    },
+    {
+      "BIJOY NAGAR BRANCH": [
+        "Tapa Complex ,169/KA, Shahid Syed Nazrul Islam Sarani, Purana Paltan,Dhaka.",
+        "https://www.primebank.com.bd/branch",
+        "+880241052726; +880241052727"
+      ]
+    },
+    {
+      "BOALMARI BRANCH": [
+        "Azhar Tower, Holding No.503. Station Road,Ward No.3, Boalmari Bazar, Boalmari, Faridpur.",
+        "https://www.primebank.com.bd/branch",
+        "+8802478806281"
+      ]
+    },
+    {
+      "DAMUDYA BRANCH": [
+        "Chairman Building, Holding # 264 (1st & 2nd floor), Ward # 8, Sonali Bank Road, Damudya, Shariatpur.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "DHANMONDI BRANCH": [
+        "Mamtaz Plaza (1st Floor), House # 7, Road # 4, Dhanmondi R/A, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "58615116 (PABX)"
+      ]
+    },
+    {
+      "ELEPHANT ROAD BRANCH": [
+        "Bashaoti Pentium Point (2nd Floor), 160 Elephant Road, Dhaka-1205.",
+        "https://www.primebank.com.bd/branch",
+        "02-9673783; 02-223362776"
+      ]
+    },
+    {
+      "FARIDPUR BRANCH": [
+        "KMA Arcadia (1st floor), Holding # 63/116/A, Moirapotty, Faridpur",
+        "https://www.primebank.com.bd/branch",
+        "+8802478805133"
+      ]
+    },
+    {
+      "FOREIGN EXCHANGE BRANCH": [
+        "Al-Haj Mansion, 82, Motijheel CIA, Dhaka-1000",
+        "https://www.primebank.com.bd/branch",
+        "02-223381682; 02-223390751"
+      ]
+    },
+    {
+      "GANAKBARI BRANCH": [
+        "Somsher Plaza, (Opposite Dhaka EPZ), Balibhadra Bazar Bas Stand, Ganakbari, Savar, Dhaka-1340",
+        "https://www.primebank.com.bd/branch",
+        "02-996688100"
+      ]
+    },
+    {
+      "GARIB-E-NEWAZ AVE. BRANCH": [
+        "RS Kunja', Plot No-20, Gareb-E-Newaz Avenue, Sector-13, Uttara, Dhaka-1230",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "GULSHAN BRANCH": [
+        "Holding # 6A, Block-CES(F), 72 Gulshan Avenue,Gulshan-1212",
+        "https://www.primebank.com.bd/branch",
+        "02222262937; 02222282975; 02222284977"
+      ]
+    },
+    {
+      "HEMAYETPUR BRANCH": [
+        "Madhu Bhaban, Singair Road, Hemayetpur, Savar, Dhaka.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "IBRAHIMPUR BRANCH": [
+        "Sumona Sahadat Center, 80, Ibrahimpur, Kafrul, Dhaka-1206",
+        "https://www.primebank.com.bd/branch",
+        "028872503; 028872423"
+      ]
+    },
+    {
+      "IBB MIRPUR BRANCH": [
+        "Genusys Heights ,623-624, Kazi Para, Begum Rokeya Sharani, Mirpur, Dhaka-1216",
+        "https://www.primebank.com.bd/branch",
+        "+8802-48039920; +8802-48039929"
+      ]
+    },
+    {
+      "IBB, DILKUSHA BRANCH": [
+        "19, Dilkusha Commercial Area, Dhaka - 1000",
+        "https://www.primebank.com.bd/branch",
+        "02223351841; 880-2223357582"
+      ]
+    },
+    {
+      "JATRABARI BRANCH": [
+        "Nur Tower, 76/Ga, Bibir Bagicha, North Jatrabari, Dhaka-1204",
+        "https://www.primebank.com.bd/branch",
+        "02223342639; 02223342627; 02223342636"
+      ]
+    },
+    {
+      "JOYDEVPUR BRANCH": [
+        "Shapla Masnion (1st Floor), Joydevpur Chowrasta, P.O. Chandana, Dhaka-Tangail Road Gazipur",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "JOYPARA BRANCH": [
+        "Azahar Ali Mozahar Ali Shopping Complex, Latakhola, Joypara, Dohar, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "KAKRAIL BRANCH": [
+        "Green City Edge, 89 Kakrail,Dhaka.",
+        "https://www.primebank.com.bd/branch",
+        "+8802-8300778; +8802-8300779"
+      ]
+    },
+    {
+      "KALIAKOIR BRANCH": [
+        "Ahamed Ali Plaza (1st Floor), College Road, Kaliakoir, Gazipur.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "KAWRAN BAZAR BRANCH": [
+        "CA Bhaban, 100 Kazi Nazrul Islam Avenue, Dhaka,1215.",
+        "https://www.primebank.com.bd/branch",
+        "255012779, 255012778"
+      ]
+    },
+    {
+      "KISHORGONJ BRANCH": [
+        "Shamsuddin Bhuiyan Plaza, Teripotty, Kishorgonj",
+        "https://www.primebank.com.bd/branch",
+        "02997761866; 02997761867; 02997761865"
+      ]
+    },
+    {
+      "MADHABDI BRANCH": [
+        "Plot # 17, Par Kashipur, Madhabdi Bazar, Narsingdi-1604",
+        "https://www.primebank.com.bd/branch",
+        "88029446682"
+      ]
+    },
+    {
+      "MIRPUR-1 BRANCH": [
+        "Rabiul Plaza (1st floor), Plot # Shee-1/Kha, Section # 1, Mirpur, Dhaka-1216",
+        "https://www.primebank.com.bd/branch",
+        "02-8034126"
+      ]
+    },
+    {
+      "MIRZAPUR BRANCH": [
+        "Rashid Biponi Bhaban,706, College Road, Mirzapur, Tangail.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "MODHUKHALI BRANCH": [
+        "Modhuban Shopping Mall (1st Floor), Modhukhali, Faridpur.",
+        "https://www.primebank.com.bd/branch",
+        "+8802478806676"
+      ]
+    },
+    {
+      "MOHAKHALI BRANCH": [
+        "MG SAM Center, 1st Floor, Ward No.19, Dhaka North City Corporation, Bir Uttam A. K. Khondoker Sarak. 12 Mohakhali, Dhaka-1212",
+        "https://www.primebank.com.bd/branch",
+        "+880-02-222286483; +880-02-222280302; +880-02-222282291"
+      ]
+    },
+    {
+      "MOTIJHEEL BRANCH": [
+        "Adamjee Court Annexe Building-2, 119-120, Motijheel C/A, Dhaka-1000",
+        "https://www.primebank.com.bd/branch",
+        "02-223387265"
+      ]
+    },
+    {
+      "MOUCHAK BRANCH": [
+        "Manhattan Tower (1st Floor), 83, Siddaswari Circular Road, Malibagh, Dhaka-1217",
+        "https://www.primebank.com.bd/branch",
+        "+8802-222227757"
+      ]
+    },
+    {
+      "MOULVI BAZAR BRANCH": [
+        "77/4, Moulvi Bazar, Dhaka-1100",
+        "https://www.primebank.com.bd/branch",
+        "0257311017; 0257316696"
+      ]
+    },
+    {
+      "NARAYANGONJ BRANCH": [
+        "Haji Plaza, 56,S.M.Maleh Road, Narayanganj-1400",
+        "https://www.primebank.com.bd/branch",
+        "02224436894; 02224435782"
+      ]
+    },
+    {
+      "NAWABGONJ BRANCH": [
+        "BKM Point, Kashimpur, Nawabgonj, Dhaka.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "NEW ESKATON BRANCH": [
+        "SEL Rose N Dale, 116 Kazi Nazrul Islam Avenue, Banglamotor, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02-48314326; 02-48314244"
+      ]
+    },
+    {
+      "PALLABI BRANCH": [
+        "Setara’s Dream, 1/11 & 1/12 Pallabi, Mirpur, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02-58051883; 02-58051884; 02-58051885; 02-58051886"
+      ]
+    },
+    {
+      "PANTHAPATH BRANCH": [
+        "Firoz Tower, 152/3-B, Green Road, Panthapath, Dhaka-1205.",
+        "https://www.primebank.com.bd/branch",
+        "258155743, 2222246228"
+      ]
+    },
+    {
+      "PATUATULY BRANCH": [
+        "Bishal Hafiz Market, Holding # 10 (1st & 2nd Floor) Wise Ghat Road, Patuatuly, Dhaka-1100.",
+        "https://www.primebank.com.bd/branch",
+        "02-57396161; 02-57396937"
+      ]
+    },
+    {
+      "PRAGATI SARANI BRANCH": [
+        "Facilities Tower, Kha-199/2, Maddhya Badda, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02 55055152"
+      ]
+    },
+    {
+      "RING ROAD BRANCH": [
+        "Baitul Aman Tower (1st Floor), Holding # 840/841, Ring Road, Adabor, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02 58157320"
+      ]
+    },
+    {
+      "SAT MASJID ROAD BRANCH": [
+        "House # 82, Road No. 8A(New), Satmasjid Road, Dhanmondi, West Rd 8/A, Dhaka 1209",
+        "https://www.primebank.com.bd/branch",
+        "41020803, 41020804 (PABX)"
+      ]
+    },
+    {
+      "SAVAR BRANCH": [
+        "K.K. Plaza (1st floor), A-91, Savar Bazar Road, Savar, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "+8802-2224444861; +8802-2224444862"
+      ]
+    },
+    {
+      "SERAJDIKHAN BRANCH": [
+        "Hazi Mustafa Plaza, (1st floor) Dag # 284, Bazar Road, Sirajdikhan, Munshiganj",
+        "https://www.primebank.com.bd/branch",
+        "02-997733981"
+      ]
+    },
+    {
+      "SHIBPUR BRANCH": [
+        "Khan Tower, Shibpur Bazar, Shibpur, Narsingdi.",
+        "https://www.primebank.com.bd/branch",
+        "02224488130"
+      ]
+    },
+    {
+      "SHIMRAIL BRANCH": [
+        "Haji A. Rahman Super Market and Shopping Tower, Holding No.96, Shimrail Morr, Chittagong Road Chowrastha, Siddirganj, Narayanganj",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "SREENAGAR BRANCH": [
+        "M. Rahman Complex, Sreenagar Bazar, Munshiganj",
+        "https://www.primebank.com.bd/branch",
+        "02-997733702; 02-997733710"
+      ]
+    },
+    {
+      "TANGAIL BRANCH": [
+        "Main Building, Ward # 6, Holding # 414-417, Main Road, Tangail",
+        "https://www.primebank.com.bd/branch",
+        "02997752876; 02997752878"
+      ]
+    },
+    {
+      "TEJGAON BRANCH": [
+        "Shanta Western Tower (Level-2), 186, Bir Uttam Mir Shawkat Sarak, Tejgaon, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "02-8879159; 02-8879157"
+      ]
+    },
+    {
+      "TONGI BRANCH": [
+        "Sena Kalyan Commercial Complex (1st floor), Plot # 09, Block-F, Tongi, Gazipur",
+        "https://www.primebank.com.bd/branch",
+        "02-224410438; 02-224410439"
+      ]
+    },
+    {
+      "UTTARA BRANCH": [
+        "KM Square, Plot No. 53,Road No.15, Sector No. 3, Mouza-Uttara Residential Area, P.S- Uttara, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "880(2) 55093705, 880(2) 55093706"
+      ]
+    },
+    {
+      "WARI BRANCH": [
+        "Tanin Roseate, 43 Rankin Street, Wari, Dhaka",
+        "https://www.primebank.com.bd/branch",
+        "+880247110149; +880247118169; 029512085"
+      ]
+    },
+    {
+      "TAKERHAT SME CENTER": [
+        "Haji Lalchand Bepari Super Market, Tekerhat Kacha Bazar, Rajoir, Madaripur",
+        "https://www.primebank.com.bd/branch",
+        "+8802478812077"
+      ]
+    },
+    {
+      "AGANAGAR SME BRANCH": [
+        "Haji Alimullah Complex (1st Floor), Aganagar, Keranigonj, Dhaka-1310",
+        "https://www.primebank.com.bd/branch",
+        "02-7763273; 02-7761117"
+      ]
+    },
+    {
+      "SONARGAON SME BRANCH": [
+        "Rojjab Ali Mansion , Mograpara Chowrasta, Habibpur, Sonargaon, Narayangonj.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "NARSINGDI SME BRANCH": [
+        "Mollah Tower Holding # 08, Sadar Road Ward # 06, Thana- Narsingdhi Sadar Pouroshova- Narsingdhi District-- Narsingdhi",
+        "https://www.primebank.com.bd/branch",
+        "8802224453343"
+      ]
+    },
+    {
+      "Prime View Branch": [
+        "Level-1, Plot- SE (F)7, Bir Uttam Mir Shawkat Sharak, Gulshan Avenue, Dhaka 1212",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "DAULATPUR BRANCH": [
+        "Akankha Tower, 454, Khan-A-Sabur Road, Daulatpur, Khulna",
+        "https://www.primebank.com.bd/branch",
+        "+8802477700876"
+      ]
+    },
+    {
+      "JESSORE BRANCH": [
+        "Orchid Center, 44 M.K Road, Jashore",
+        "https://www.primebank.com.bd/branch",
+        "+8802477760163"
+      ]
+    },
+    {
+      "KHULNA BRANCH": [
+        "South Point, 69 Cemetery Road Khulna",
+        "https://www.primebank.com.bd/branch",
+        "+8802477725100"
+      ]
+    },
+    {
+      "KUSHTIA BRANCH": [
+        "Bangabandhu Super Market, 2,N S Road, Kushtia",
+        "https://www.primebank.com.bd/branch",
+        "+8802477782610"
+      ]
+    },
+    {
+      "MAGURA BRANCH": [
+        "Monowara Complex (1st Floor), 219 Syed Ator Ali Road, Magura Sadar, Magura",
+        "https://www.primebank.com.bd/branch",
+        "+8802477711055"
+      ]
+    },
+    {
+      "SATKHIRA BRANCH": [
+        "Islam Plaza, Holding No-1658, Abul Kashem Road, Ward-8, Satkhira Sadar, Satkhira",
+        "https://www.primebank.com.bd/branch",
+        "+8802477741457"
+      ]
+    },
+    {
+      "JHIKORGACHA SME BRANCH": [
+        "Zaman Market (1st Floor), Holding No. 522, Jhikorgacha, Jessore",
+        "https://www.primebank.com.bd/branch",
+        "+8802477769518"
+      ]
+    },
+    {
+      "PORADAHA SME-AGRI BRANCH": [
+        "Sikder Super Market (1st floor), Poradaha Puraton Bazar, P.S. Mirpur, Dist. Kushtia",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "JAMALPUR BRANCH": [
+        "Alam Tower, Holding # 610, Station Road ,Jamalpur",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "MYMENSINGH BRANCH": [
+        "10, Swadeshi Bazar, Mymensingh",
+        "https://www.primebank.com.bd/branch",
+        "8802996669390"
+      ]
+    },
+    {
+      "SHERPUR SME BRANCH": [
+        "Habib Mansion, Holding No.-143, Chakbazar Road, Word No. 2, Sherpur Pourashava, Sherpur.",
+        "https://www.primebank.com.bd/branch",
+        "02997781874; 02997781875"
+      ]
+    },
+    {
+      "BANESWAR BRANCH": [
+        "Baneswar Branch,Baneswar Bazar,Puthia, Rajshahi.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BOGURA BRANCH": [
+        "331/364, Rangpur Road, Borogola, Bogra-5800",
+        "https://www.primebank.com.bd/branch",
+        "+8802589903014"
+      ]
+    },
+    {
+      "CHAPAI NAWABGANJ BRANCH": [
+        "Holding No. 29 (1st floor) Islampur, Daudpur Road, Bara Indira Moor, Chapai Nawabgonj.",
+        "https://www.primebank.com.bd/branch",
+        "+8802588893125"
+      ]
+    },
+    {
+      "ISHWARDI BRANCH": [
+        "Holding # 1335/982, (1st Floor) Station Road, Ishwardi Pawrashava, Word # 7, Ishwardi, Pabna",
+        "https://www.primebank.com.bd/branch",
+        "+8802588847435; 02588847002"
+      ]
+    },
+    {
+      "JOYPURHAT BRANCH": [
+        "Tahera Complex, Holding: 306, Main Road, Joypurhat. 5900",
+        "https://www.primebank.com.bd/branch",
+        "+8802589915437"
+      ]
+    },
+    {
+      "MAHADEBPUR BRANCH": [
+        "Charmatha Baker More, Gopal Saha Market (1st Floor) Bridge Road, Mahadebpur, Naogaon",
+        "https://www.primebank.com.bd/branch",
+        "+8802588885041"
+      ]
+    },
+    {
+      "NAOGAON BRANCH": [
+        "320, Main Road, Naogaon Sadar, Naogaon",
+        "https://www.primebank.com.bd/branch",
+        "+8802588882151"
+      ]
+    },
+    {
+      "NATORE BRANCH": [
+        "H# 1052, Kanaikhali, Puraton Bus Stand, Natore.",
+        "https://www.primebank.com.bd/branch",
+        "+8802588873001"
+      ]
+    },
+    {
+      "PABNA BRANCH": [
+        "423/1, Sonapatty Road, Pabna Sadar, Pabna",
+        "https://www.primebank.com.bd/branch",
+        "+8802588842426"
+      ]
+    },
+    {
+      "RAJSHAHI BRANCH": [
+        "Huda Plaza, House No-138/144, Shaheb Bazar, Rajshahi",
+        "https://www.primebank.com.bd/branch",
+        "+8802588853981"
+      ]
+    },
+    {
+      "SHERPUR BRANCH, BOGURA": [
+        "Merina Complex, 1st floor Ramchandropur Para, Sherpur, Bogura",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "DINAJPUR BRANCH": [
+        "Mazeda Plaza (1st floor), Holding # 1131/1091, Ganashtala (near Fire Bridge), Jail Road, Dinajpur",
+        "https://www.primebank.com.bd/branch",
+        "+8802589925289"
+      ]
+    },
+    {
+      "HATIBANDHA BRANCH": [
+        "Arif Plaza, Medical More, Hatibandha, Lalmonirhat.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "RANGPUR BRANCH": [
+        "268, Shah Amanat Shopping Complex, Jahaz Company More, Rangpur.",
+        "https://www.primebank.com.bd/branch",
+        "+8802589964320; +8802589964369"
+      ]
+    },
+    {
+      "SAIDPUR BRANCH": [
+        "\"Ali Plaza\" Sheed Dr. Zikrul Haque Road,Saidpur-5310, Nilphamari",
+        "https://www.primebank.com.bd/branch",
+        "+8802589957572"
+      ]
+    },
+    {
+      "THAKURGAON SME/AGRI": [
+        "Dr. Aziz Complex (1st Floor), 727/01, Bangabandhu Road, Sadar, Thakurgaon",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "BARALEKHA BRANCH": [
+        "Hazi Abdul Ali Trade Center, 842, Barelekha Pawrashava, Barelekha, Moulvibazar",
+        "https://www.primebank.com.bd/branch",
+        "+8802996684969; +8802996685020"
+      ]
+    },
+    {
+      "BEANIBAZAR BRANCH": [
+        "Zaman Plaza (1st Floor), P. O. &. P. S. : Beanibazar, Dist : Sylhet",
+        "https://www.primebank.com.bd/branch",
+        "+8802996646434"
+      ]
+    },
+    {
+      "BISHWANATH BRANCH": [
+        "Al-Burak Shopping Center (1st Floor) Biswanath Bazar, Biswanath Sylhet",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "COURT ROAD BRANCH": [
+        "Court Road, Moulvi Bazar-3200",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "DHAKA DAKSHIN BRANCH": [
+        "Bakul Mansion (1st floor). College Road, Golapganj, Sylhet",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "FENCHUGANJ BRANCH": [
+        "Akul Shah Shopping City (1st Floor), Thana Road Point, Fenchugonj Bazar Fenchugonj, Sylhet.",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "HABIGANJ BRANCH": [
+        "Kohinoor Complex (GF & 1st floor), Commercial Area, Habiganj-3300",
+        "https://www.primebank.com.bd/branch",
+        "8802996606813"
+      ]
+    },
+    {
+      "IBB AMBERKHANA BRANCH": [
+        "Kasablanca Tower (1st Floor), 982, Dargah Gate, Sylhet-3100",
+        "https://www.primebank.com.bd/branch",
+        "+8802996633443"
+      ]
+    },
+    {
+      "ISLAMPUR BRANCH": [
+        "Century Park. Plot # 1052, Islampur, Sylhet.",
+        "https://www.primebank.com.bd/branch",
+        "+8802996642157"
+      ]
+    },
+    {
+      "KADAMTOLI BRANCH": [
+        "Motin Complex, Fenchugonj Road, Kadamtali",
+        "https://www.primebank.com.bd/branch",
+        "+8802996643298"
+      ]
+    },
+    {
+      "KULAURA BRANCH": [
+        "Marina Square, 232, Dakkhin Bazar, Kulaura, Moulvibazar",
+        "https://www.primebank.com.bd/branch",
+        "+8802996684841"
+      ]
+    },
+    {
+      "NABIGANJ BRANCH": [
+        "Anwara Bipani (1st Floor) Holding # 322, Osmani Road, Nabigonj, Habigonj",
+        "https://www.primebank.com.bd/branch",
+        "+8802996607425"
+      ]
+    },
+    {
+      "SREEMANGAL BRANCH": [
+        "Saptadinga Complex (1st Floor), 145, Moulvibazar Road, Sreemangal Moulvibazar",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "SUBIDBAZAR BRANCH": [
+        "Corner View (1st Floor, West side), 980, Subidbazar, Sylhet",
+        "https://www.primebank.com.bd/branch",
+        "+8802996635676"
+      ]
+    },
+    {
+      "SUNAMGANJ BRANCH": [
+        "Subakth Raja Complex, 414 Old Station Road, Sunamganj",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "SYLHET BRANCH": [
+        "8, Nayasarak, Sylhet-3100",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "TAJPUR BRANCH": [
+        "Latif Plaza, Kadamtala, Tajpur 1st Floor, Osmani Nagar, Sylhet",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "UPASHAHAR BRANCH": [
+        "Alif Center (1st Floor-Front Portion), Subhanighat, Upashahar, P. S. Sylhet, Dist: Sylhet",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "MADHABPUR SME": [
+        "Saiham Future Complex (1st Floor) Plot # 733, Ward # 7 Madhabpur, Hobiganj",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    },
+    {
+      "SYEDPUR SME": [
+        "Radhis Shopping Complex, Syedpur, Jagannathpur, Sunamgonj",
+        "https://www.primebank.com.bd/branch",
+        null
+      ]
+    }
   ],
-  "branch_address": [
-    "37, K.B Hemayet Uddin Road, Barisal-8200",
-    "B.M. Heights (1st floor), 318 Sheikh Mujib Road , Badamtoli, Agrabad, Chittagong",
-    "Seriya Sayed Tower, Post Office Road, Ashugonj Bazar, Ashugonj, Brahamanbaria",
-    "K Das Bhaban, K Das Square, Brahmanbaria",
-    "Abdul Gani Shopping Complex (1st floor), Chauddagram Bazar, Comilla",
-    "Holding # 180-182 (1st floor); Feni Road, Chaumuhani, Begumganj; Noakhali.",
-    "Holding No: 10/8, Ward#12, Chatpatty (Gangagonj), Kotowali, Comilla",
-    "Shafique Center (1st & 2nd floor),464 Main Road, Cox's Bazar.",
-    "R.B Plaza, 391 Falizer Ghat, Dagonbhuiyan, Feni",
-    "Haji Hossain Plaza, College Road, Bibirhat, Dhurang Union, Fatickchari, Chittagong",
-    "Kazi Center, Holding # 106, S. S. K. Road, Feni",
-    "Ananda Complex, Holding#191, Hajiganj Bazar, Hajiganj, Chandpur",
-    "Mobil House,Plot-2,Road-3,Block-K, Halishahar Housing Estate, Halishahar, Chittagong.",
-    "N. Zahur Shopping Center (1st Floor) Kachari Road, Hathazari Chittagong",
-    "O. R. Nizam Road, Hazrat Garibullah City Corporation Bhaban, 739/804 CDA Avenue, Bagmoniram, Chittagong",
-    "B.S. Plaza, Plot # 305/1390 Abdul Ali Hat, Sorai Para Alanker Morr, P. S. Pahartali, Chittagong",
-    "Pedrollo Plaza, 5, Jubilee Road, Chittagong-4000",
-    "Karnaphuli EPZ, North Patenga, Chittagong-4204",
-    "Hazi Ulamia Market (1st Floor),Keranihat, Satkania, Chittagong",
-    "142, Chand Mia Lane, Khatunganj, Chiattogram-4000",
-    "Zila Parishad Tower, Court Road, Kotwali, Chattogram",
-    "Arcadia Shopping Complex, Holding No- 77/78,4, Zakir Hossain Road, Ward-13, Chattogram City Corporation Khulshi, Chattogram",
-    "405 Sekander Center, Chittagong Cantonment, Oxygen More, Chittagong",
-    "12/12 O. R. Nizam Road, Prabartak More, Panchlaish, Chattogram",
-    "Artisan Reza Lodge(1st Floor), 1203/1, Racecourse, Adarsha Sadar, Cumilla-3500.",
-    "Holding No # 847, Munshi Market (1'st Floor), Word No # 09, Ramgarh, Khagrachari.",
-    "Fazal Tower (1st Floor), Raojan Bus Stand, Mader Mohal, Chattogram",
-    "Khalek Tower, North Vatiary Bazar, P:O: Vatiary-4315, P:S: Sitakunda, Chattogram.",
-    "Mokka Shopping Center (1st Floor), Kazirhat, Bhujpur, Fatickchari, Chattogram.",
-    "Chowdhury Market, Heakobazar, Bhujpur, Fatickchari, Chittagong",
-    "Mabia Emporium, Madunaghat Bazar, Hathazari, Chittagong",
-    "G.S. Plaza (1st floor), Chittagong-Banshkhali Highway, Banshkhali Pawrashava, Banshkhali, Chattogram",
-    "Mother Shoping Complex, 5, West Nabipur Nabinagar Road, Muradnagar, Companygonj, Comilla",
-    "Momota Shopping Center, C&B Road, Chatkhil , Noakhali",
-    "Queen Complex, Holding # 514,515 Main Road, Raipur, Laximpur",
-    "Al Madina Market, Abu Torab Bazar, Mirsharai, Chattogram",
-    "‘R.D.B. Plaza’, Station Road, Chandina, Cumilla",
-    "‘Premier Tower’, Holding No- 326, Hazi Mohsin Road, Alimpara, Ward No-10,Chandpur Sadar, Chandpur.",
-    "Adamjee EPZ Holding # 4, Siddirganj, Narayanganj",
-    "Family World Tower, 2/6, Sir Sayed Road, Ward # 42, Mohammadpur (Mirpur Road), Dhaka.",
-    "Sharif Mansion (1st floor), Diakhali, Jamgora Bazar, P.S. Ashulia, Dist: Dhaka",
-    "House # 62, Block – E, Kemal Ataturk, Avenue Banani Dhaka-1212",
-    "Arcadia (1st Floor), Plot # 14, Block-C, Banasree Main Road, Rampura, Dhaka",
-    "23, Nazira Bazar, Majed Sarder Lane, Bangshal, Dhaka-1100",
-    "Concord IK Tower (1st floor), Plot # 02, Block # CEN (A) North Avenue, Gulshan-2, Dhaka",
-    "Hossain Tower (1st & 2nd Floor), 60-61 South Bashabo, Dhaka",
-    "Farhana Prime (1st Floor), Plot # 236, Road # 2, Block-B, Boshundhara R/A, Dhaka.",
-    "181, Tin Potty Road, Bhairab Pawrashava, Bhairab, Kishorgonj",
-    "Tapa Complex ,169/KA, Shahid Syed Nazrul Islam Sarani, Purana Paltan,Dhaka.",
-    "Azhar Tower, Holding No.503. Station Road,Ward No.3, Boalmari Bazar, Boalmari, Faridpur.",
-    "Chairman Building, Holding # 264 (1st & 2nd floor), Ward # 8, Sonali Bank Road, Damudya, Shariatpur.",
-    "Mamtaz Plaza (1st Floor), House # 7, Road # 4, Dhanmondi R/A, Dhaka",
-    "Bashaoti Pentium Point (2nd Floor), 160 Elephant Road, Dhaka-1205.",
-    "KMA Arcadia (1st floor), Holding # 63/116/A, Moirapotty, Faridpur",
-    "Al-Haj Mansion, 82, Motijheel CIA, Dhaka-1000",
-    "Somsher Plaza, (Opposite Dhaka EPZ), Balibhadra Bazar Bas Stand, Ganakbari, Savar, Dhaka-1340",
-    "RS Kunja', Plot No-20, Gareb-E-Newaz Avenue, Sector-13, Uttara, Dhaka-1230",
-    "Holding # 6A, Block-CES(F), 72 Gulshan Avenue,Gulshan-1212",
-    "Madhu Bhaban, Singair Road, Hemayetpur, Savar, Dhaka.",
-    "Sumona Sahadat Center, 80, Ibrahimpur, Kafrul, Dhaka-1206",
-    "Genusys Heights ,623-624, Kazi Para, Begum Rokeya Sharani, Mirpur, Dhaka-1216",
-    "19, Dilkusha Commercial Area, Dhaka - 1000",
-    "Nur Tower, 76/Ga, Bibir Bagicha, North Jatrabari, Dhaka-1204",
-    "Shapla Masnion (1st Floor), Joydevpur Chowrasta, P.O. Chandana, Dhaka-Tangail Road Gazipur",
-    "Azahar Ali Mozahar Ali Shopping Complex, Latakhola, Joypara, Dohar, Dhaka",
-    "Green City Edge, 89 Kakrail,Dhaka.",
-    "Ahamed Ali Plaza (1st Floor), College Road, Kaliakoir, Gazipur.",
-    "CA Bhaban, 100 Kazi Nazrul Islam Avenue, Dhaka,1215.",
-    "Shamsuddin Bhuiyan Plaza, Teripotty, Kishorgonj",
-    "Plot # 17, Par Kashipur, Madhabdi Bazar, Narsingdi-1604",
-    "Rabiul Plaza (1st floor), Plot # Shee-1/Kha, Section # 1, Mirpur, Dhaka-1216",
-    "Rashid Biponi Bhaban,706, College Road, Mirzapur, Tangail.",
-    "Modhuban Shopping Mall (1st Floor), Modhukhali, Faridpur.",
-    "MG SAM Center, 1st Floor, Ward No.19, Dhaka North City Corporation, Bir Uttam A. K. Khondoker Sarak. 12 Mohakhali, Dhaka-1212",
-    "Adamjee Court Annexe Building-2, 119-120, Motijheel C/A, Dhaka-1000",
-    "Manhattan Tower (1st Floor), 83, Siddaswari Circular Road, Malibagh, Dhaka-1217",
-    "77/4, Moulvi Bazar, Dhaka-1100",
-    "Haji Plaza, 56,S.M.Maleh Road, Narayanganj-1400",
-    "BKM Point, Kashimpur, Nawabgonj, Dhaka.",
-    "SEL Rose N Dale, 116 Kazi Nazrul Islam Avenue, Banglamotor, Dhaka",
-    "Setara’s Dream, 1/11 & 1/12 Pallabi, Mirpur, Dhaka",
-    "Firoz Tower, 152/3-B, Green Road, Panthapath, Dhaka-1205.",
-    "Bishal Hafiz Market, Holding # 10 (1st & 2nd Floor) Wise Ghat Road, Patuatuly, Dhaka-1100.",
-    "Facilities Tower, Kha-199/2, Maddhya Badda, Dhaka",
-    "Baitul Aman Tower (1st Floor), Holding # 840/841, Ring Road, Adabor, Dhaka",
-    "House # 82, Road No. 8A(New), Satmasjid Road, Dhanmondi, West Rd 8/A, Dhaka 1209",
-    "K.K. Plaza (1st floor), A-91, Savar Bazar Road, Savar, Dhaka",
-    "Hazi Mustafa Plaza, (1st floor) Dag # 284, Bazar Road, Sirajdikhan, Munshiganj",
-    "Khan Tower, Shibpur Bazar, Shibpur, Narsingdi.",
-    "Haji A. Rahman Super Market and Shopping Tower, Holding No.96, Shimrail Morr, Chittagong Road Chowrastha, Siddirganj, Narayanganj",
-    "M. Rahman Complex, Sreenagar Bazar, Munshiganj",
-    "Main Building, Ward # 6, Holding # 414-417, Main Road, Tangail",
-    "Shanta Western Tower (Level-2), 186, Bir Uttam Mir Shawkat Sarak, Tejgaon, Dhaka",
-    "Sena Kalyan Commercial Complex (1st floor), Plot # 09, Block-F, Tongi, Gazipur",
-    "KM Square, Plot No. 53,Road No.15, Sector No. 3, Mouza-Uttara Residential Area, P.S- Uttara, Dhaka",
-    "Tanin Roseate, 43 Rankin Street, Wari, Dhaka",
-    "Haji Lalchand Bepari Super Market, Tekerhat Kacha Bazar, Rajoir, Madaripur",
-    "Haji Alimullah Complex (1st Floor), Aganagar, Keranigonj, Dhaka-1310",
-    "Rojjab Ali Mansion , Mograpara Chowrasta, Habibpur, Sonargaon, Narayangonj.",
-    "Mollah Tower Holding # 08, Sadar Road Ward # 06, Thana- Narsingdhi Sadar Pouroshova- Narsingdhi District-- Narsingdhi",
-    "Level-1, Plot- SE (F)7, Bir Uttam Mir Shawkat Sharak, Gulshan Avenue, Dhaka 1212",
-    "Akankha Tower, 454, Khan-A-Sabur Road, Daulatpur, Khulna",
-    "Orchid Center, 44 M.K Road, Jashore",
-    "South Point, 69 Cemetery Road Khulna",
-    "Bangabandhu Super Market, 2,N S Road, Kushtia",
-    "Monowara Complex (1st Floor), 219 Syed Ator Ali Road, Magura Sadar, Magura",
-    "Islam Plaza, Holding No-1658, Abul Kashem Road, Ward-8, Satkhira Sadar, Satkhira",
-    "Zaman Market (1st Floor), Holding No. 522, Jhikorgacha, Jessore",
-    "Sikder Super Market (1st floor), Poradaha Puraton Bazar, P.S. Mirpur, Dist. Kushtia",
-    "Alam Tower, Holding # 610, Station Road ,Jamalpur",
-    "10, Swadeshi Bazar, Mymensingh",
-    "Habib Mansion, Holding No.-143, Chakbazar Road, Word No. 2, Sherpur Pourashava, Sherpur.",
-    "Baneswar Branch,Baneswar Bazar,Puthia, Rajshahi.",
-    "331/364, Rangpur Road, Borogola, Bogra-5800",
-    "Holding No. 29 (1st floor) Islampur, Daudpur Road, Bara Indira Moor, Chapai Nawabgonj.",
-    "Holding # 1335/982, (1st Floor) Station Road, Ishwardi Pawrashava, Word # 7, Ishwardi, Pabna",
-    "Tahera Complex, Holding: 306, Main Road, Joypurhat. 5900",
-    "Charmatha Baker More, Gopal Saha Market (1st Floor) Bridge Road, Mahadebpur, Naogaon",
-    "320, Main Road, Naogaon Sadar, Naogaon",
-    "H# 1052, Kanaikhali, Puraton Bus Stand, Natore.",
-    "423/1, Sonapatty Road, Pabna Sadar, Pabna",
-    "Huda Plaza, House No-138/144, Shaheb Bazar, Rajshahi",
-    "Merina Complex, 1st floor Ramchandropur Para, Sherpur, Bogura",
-    "Mazeda Plaza (1st floor), Holding # 1131/1091, Ganashtala (near Fire Bridge), Jail Road, Dinajpur",
-    "Arif Plaza, Medical More, Hatibandha, Lalmonirhat.",
-    "268, Shah Amanat Shopping Complex, Jahaz Company More, Rangpur.",
-    "\"Ali Plaza\" Sheed Dr. Zikrul Haque Road,Saidpur-5310, Nilphamari",
-    "Dr. Aziz Complex (1st Floor), 727/01, Bangabandhu Road, Sadar, Thakurgaon",
-    "Hazi Abdul Ali Trade Center, 842, Barelekha Pawrashava, Barelekha, Moulvibazar",
-    "Zaman Plaza (1st Floor), P. O. &. P. S. : Beanibazar, Dist : Sylhet",
-    "Al-Burak Shopping Center (1st Floor) Biswanath Bazar, Biswanath Sylhet",
-    "Court Road, Moulvi Bazar-3200",
-    "Bakul Mansion (1st floor). College Road, Golapganj, Sylhet",
-    "Akul Shah Shopping City (1st Floor), Thana Road Point, Fenchugonj Bazar Fenchugonj, Sylhet.",
-    "Kohinoor Complex (GF & 1st floor), Commercial Area, Habiganj-3300",
-    "Kasablanca Tower (1st Floor), 982, Dargah Gate, Sylhet-3100",
-    "Century Park. Plot # 1052, Islampur, Sylhet.",
-    "Motin Complex, Fenchugonj Road, Kadamtali",
-    "Marina Square, 232, Dakkhin Bazar, Kulaura, Moulvibazar",
-    "Anwara Bipani (1st Floor) Holding # 322, Osmani Road, Nabigonj, Habigonj",
-    "Saptadinga Complex (1st Floor), 145, Moulvibazar Road, Sreemangal Moulvibazar",
-    "Corner View (1st Floor, West side), 980, Subidbazar, Sylhet",
-    "Subakth Raja Complex, 414 Old Station Road, Sunamganj",
-    "8, Nayasarak, Sylhet-3100",
-    "Latif Plaza, Kadamtala, Tajpur 1st Floor, Osmani Nagar, Sylhet",
-    "Alif Center (1st Floor-Front Portion), Subhanighat, Upashahar, P. S. Sylhet, Dist: Sylhet",
-    "Saiham Future Complex (1st Floor) Plot # 733, Ward # 7 Madhabpur, Hobiganj",
-    "Radhis Shopping Complex, Syedpur, Jagannathpur, Sunamgonj"
-  ],
-  "branch_url": [
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch",
-    "https://www.primebank.com.bd/branch"
-  ],
-  "branch_contact_number": [
-    "+8802478864344; +8802478864345",
-    "02333316725; 02333316724; 02333318971; 02333310970",
-    "02334431596",
-    "02334428698",
-    null,
-    null,
-    "8802334402611",
-    "02334462804; 02334462803; 02334462802",
-    null,
-    null,
-    "02334474093",
-    null,
-    "+8802333332054",
-    "02334460088; 02334460089; 02334460090",
-    "02333361437; 02333359855",
-    "0243151741; 0243151742",
-    "02333350939; 02333353650",
-    "02333300381; 02333300382; 02333300383",
-    null,
-    null,
-    "02333350771; 02333350773",
-    null,
-    null,
-    "880241355802",
-    null,
-    "02-333344724",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "02334409844",
-    "880-2334495113",
-    "02-334442396; 02-334442397",
-    null,
-    null,
-    null,
-    "880 2997744670; 880 2997744671; 880 2997744672",
-    "41022790 & 41022789 (PABX)",
-    null,
-    null,
-    "02-8399548",
-    null,
-    "02-55051636",
-    "02-55122206; 02-55122201",
-    "02-8415276",
-    "02-9470755; 02-9470723",
-    "+880241052726; +880241052727",
-    "+8802478806281",
-    null,
-    "58615116 (PABX)",
-    "02-9673783; 02-223362776",
-    "+8802478805133",
-    "02-223381682; 02-223390751",
-    "02-996688100",
-    null,
-    "02222262937; 02222282975; 02222284977",
-    null,
-    "028872503; 028872423",
-    "+8802-48039920; +8802-48039929",
-    "02223351841; 880-2223357582",
-    "02223342639; 02223342627; 02223342636",
-    null,
-    null,
-    "+8802-8300778; +8802-8300779",
-    null,
-    "255012779, 255012778",
-    "02997761866; 02997761867; 02997761865",
-    "88029446682",
-    "02-8034126",
-    null,
-    "+8802478806676",
-    "+880-02-222286483; +880-02-222280302; +880-02-222282291",
-    "02-223387265",
-    "+8802-222227757",
-    "0257311017; 0257316696",
-    "02224436894; 02224435782",
-    null,
-    "02-48314326; 02-48314244",
-    "02-58051883; 02-58051884; 02-58051885; 02-58051886",
-    "258155743, 2222246228",
-    "02-57396161; 02-57396937",
-    "02 55055152",
-    "02 58157320",
-    "41020803, 41020804 (PABX)",
-    "+8802-2224444861; +8802-2224444862",
-    "02-997733981",
-    "02224488130",
-    null,
-    "02-997733702; 02-997733710",
-    "02997752876; 02997752878",
-    "02-8879159; 02-8879157",
-    "02-224410438; 02-224410439",
-    "880(2) 55093705, 880(2) 55093706",
-    "+880247110149; +880247118169; 029512085",
-    "+8802478812077",
-    "02-7763273; 02-7761117",
-    null,
-    "8802224453343",
-    null,
-    "+8802477700876",
-    "+8802477760163",
-    "+8802477725100",
-    "+8802477782610",
-    "+8802477711055",
-    "+8802477741457",
-    "+8802477769518",
-    null,
-    null,
-    "8802996669390",
-    "02997781874; 02997781875",
-    null,
-    "+8802589903014",
-    "+8802588893125",
-    "+8802588847435; 02588847002",
-    "+8802589915437",
-    "+8802588885041",
-    "+8802588882151",
-    "+8802588873001",
-    "+8802588842426",
-    "+8802588853981",
-    null,
-    "+8802589925289",
-    null,
-    "+8802589964320; +8802589964369",
-    "+8802589957572",
-    null,
-    "+8802996684969; +8802996685020",
-    "+8802996646434",
-    null,
-    null,
-    null,
-    null,
-    "8802996606813",
-    "+8802996633443",
-    "+8802996642157",
-    "+8802996643298",
-    "+8802996684841",
-    "+8802996607425",
-    null,
-    "+8802996635676",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sub_branch_name": [
-    "Nikunja Sub-Branch",
-    "Jhalokathi Sub-Branch",
-    "Basurhat Sub-Branch",
-    "Baluchar Sub-Branch",
-    "Konapara Sub-Branch",
-    "Chasara Sub-Branch",
-    "Ranirhat Sub-Branch",
-    "Ruppur Sub-Branch",
-    "Satoir Bazar Sub-Branch",
-    "Shibu Market Sub Branch"
-  ],
-  "sub_branch_address": [
-    "Prime Tower, Plot 8 & 35, Airport Road, Nikunja-2, Dhaka",
-    "House # 05, 1st Floor, Sattanando Road (Station Road), Ward # 05, PO & PS # Jhalakathi, Dist. # Jhalakathi.",
-    "AG Tower, 1st Floor, Kabirhat Road, Word No. 3, Basurhat Pourasava, Basurhat, Companygonj, Noakhali.",
-    "Prodhan Plaza (1st Floor), P.O.: Khashmahal Baluchar-1543, Sirajdikhan, Munshigonj.",
-    "Jahanara Haque Shopping Complex, 1st Floor, House-9, Konapara, Demra-1362, Dhaka.",
-    "207/4, Bangabandhu Road (1st floor), Narayangonj.",
-    "Amiruzzaman Sowdagor Market,Holding No-341,Ranirhat, 1 No. Rajanagar Union Parishad, Rangunia, Chattogram",
-    "Notun Hat More, I.K. Road, Holding No. 042, Char Sahapur, Ishwardi, Pabna",
-    "Shaha Super Market (1st Floor), Satoir Bazar, Satoir, Boalmari, Faridpur",
-    "133, Shibu Market, Fatullah, Narayanganj."
-  ],
-  "sub_branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sub_branch_contact_number": [
-    "01313476936",
-    "01313476932",
-    "01728563691",
-    "01817536160",
-    "01701204119",
-    "01819255601",
-    "01731099923",
-    "01716083888",
-    "01712888467",
-    "01313476902"
-  ],
-  "duration_sec": 15.3
+  "sub_branch": [
+    {
+      "Nikunja Sub-Branch": [
+        "Prime Tower, Plot 8 & 35, Airport Road, Nikunja-2, Dhaka",
+        null,
+        "01313476936"
+      ]
+    },
+    {
+      "Jhalokathi Sub-Branch": [
+        "House # 05, 1st Floor, Sattanando Road (Station Road), Ward # 05, PO & PS # Jhalakathi, Dist. # Jhalakathi.",
+        null,
+        "01313476932"
+      ]
+    },
+    {
+      "Basurhat Sub-Branch": [
+        "AG Tower, 1st Floor, Kabirhat Road, Word No. 3, Basurhat Pourasava, Basurhat, Companygonj, Noakhali.",
+        null,
+        "01728563691"
+      ]
+    },
+    {
+      "Baluchar Sub-Branch": [
+        "Prodhan Plaza (1st Floor), P.O.: Khashmahal Baluchar-1543, Sirajdikhan, Munshigonj.",
+        null,
+        "01817536160"
+      ]
+    },
+    {
+      "Konapara Sub-Branch": [
+        "Jahanara Haque Shopping Complex, 1st Floor, House-9, Konapara, Demra-1362, Dhaka.",
+        null,
+        "01701204119"
+      ]
+    },
+    {
+      "Chasara Sub-Branch": [
+        "207/4, Bangabandhu Road (1st floor), Narayangonj.",
+        null,
+        "01819255601"
+      ]
+    },
+    {
+      "Ranirhat Sub-Branch": [
+        "Amiruzzaman Sowdagor Market,Holding No-341,Ranirhat, 1 No. Rajanagar Union Parishad, Rangunia, Chattogram",
+        null,
+        "01731099923"
+      ]
+    },
+    {
+      "Ruppur Sub-Branch": [
+        "Notun Hat More, I.K. Road, Holding No. 042, Char Sahapur, Ishwardi, Pabna",
+        null,
+        "01716083888"
+      ]
+    },
+    {
+      "Satoir Bazar Sub-Branch": [
+        "Shaha Super Market (1st Floor), Satoir Bazar, Satoir, Boalmari, Faridpur",
+        null,
+        "01712888467"
+      ]
+    },
+    {
+      "Shibu Market Sub Branch": [
+        "133, Shibu Market, Fatullah, Narayanganj.",
+        null,
+        "01313476902"
+      ]
+    }
+  ]
 }

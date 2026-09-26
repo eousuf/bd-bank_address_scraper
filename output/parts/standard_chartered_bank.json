@@ -1,0 +1,184 @@
+{
+  "_bank": "Standard Chartered Bank",
+  "bank_url": "https://www.sc.com/bd/",
+  "method": "html_cards+json_api",
+  "status": "success",
+  "branch": [
+    {
+      "United Hospital": [
+        "['United Hospital', 'United Hospital , Plot 15,Road 71,Gulshan , Dhaka.'], 23.804654123170163, 90.41574652923188, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Dhanmondi SSC": [
+        "['Dhanmondi SSC', '759, Shatmasjid Road(Opposit of Abahani Field), Dhanmondi-12, Dhaka-1209'], 1209, 23.7481487707438, 90.3698436369379",
+        null,
+        null
+      ]
+    },
+    {
+      "US Embassy Annex compound": [
+        "['US Embassy Annex compound ATM', 'US Embassy, Annex Compound, Block #J, Baridhara, Dhaka'], 1212, 23.7968945251571, 90.4218778264323, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Square Pharmaceutials": [
+        "['SQUARE Centre ATM', '48, Mohakhali C/A Dhaka'], 1212, 23.780526586003, 90.4071802407201, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Islamic Banking Center": [
+        "['Islamic Banking Center', 'Gulshan Centre Point, House# 23-26,Road # 90,Gulshan – 2,Dhaka'], 1212, 23.795749668215100, 90.414948899516500, Dhaka",
+        null,
+        "096663 52152"
+      ]
+    },
+    {
+      "Uttara Service Center": [
+        "['Uttara Service Center', 'House # 02, Road # 6, Sector # 1, Uttara , Dhaka.'], 1230, 23.8572295213765, 90.4023079305354, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Mirpur Service Center": [
+        "['Mirpur Service Center', 'Dynasty Tower, Plot-01,Road-12, Block-G, Section-6, R.A. Pallabi, Mirpur, Dhaka'], 1216, 23.8149294905638, 90.3662971937898, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Banani Branch": [
+        "['Banani Branch', '14 Kamal Ataturk Avenue, Banani, Dhaka'], 1212, 23.793975340895123, 90.40361347668055, Dhaka",
+        null,
+        "0258817226"
+      ]
+    },
+    {
+      "Chattogram Main Branch.": [
+        "['Chattogram Main Branch.', '122 Sheikh Mujib Road, Agrabad, Chittagong'], 4000, 22.33039489, 91.81239792, Chattogram",
+        null,
+        "02333311833"
+      ]
+    },
+    {
+      "Bogura Branch": [
+        "['Bogura Branch', '“Khoka Complex”, 5059, Alfaz Uddin Geda Sharak, Bogura Sadar, Bogura'], 24.844876105400807, 89.3716290893691, Bogura",
+        null,
+        "+880 2589904802"
+      ]
+    },
+    {
+      "Bashundhara Branch .": [
+        "['Bashundhara Branch .', 'ABG Tower, 2nd Floor, Plot# 440, 441 & 442, Road# 18, Block: A, Bashundhara R/A, Dhaka-1229.'], 1229, 23.811126076710178, 90.4304033606848, Dhaka",
+        null,
+        "028416769"
+      ]
+    },
+    {
+      "Chittagong EPZ Branch .": [
+        "['Chittagong EPZ Branch .', 'Chittagong EPZ , Zone Service Complex, CEPZ, Plot No - 6109, Free Port Road, Chittagong'], 4223, 22.29673951, 91.78135278, Chattogram",
+        null,
+        "02333342025"
+      ]
+    },
+    {
+      "Dhanmondi Branch .": [
+        "['Dhanmondi Branch .', 'House-6, Road-5, Dhanmondi R/A, Dhaka'], 1205, 23.74415727, 90.38254555, Dhaka",
+        null,
+        "0241061251"
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "['Gulshan Branch', 'Portlink Tower, 67 Gulshan Avenue, Dhaka'], 1212, 23.78458752, 90.41681152, Dhaka",
+        null,
+        "09666357204"
+      ]
+    },
+    {
+      "Gulshan North Branch.": [
+        "['Gulshan North Branch', 'Gulshan Centre Point, House# 23-26,Road # 90,Gulshan – 2,Dhaka-1212'], 1212, 23.79666641, 90.41502625, Dhaka",
+        null,
+        "096663 52152"
+      ]
+    },
+    {
+      "Kawran Bazar Branch.": [
+        "['Kawran Bazar Branch.', 'Pan Pacific Sonargaon Hotel, 107 Kazi Nazrul Islam Avenue, Dhaka'], 1215, 23.749437088410374, 90.39413126370148, Dhaka",
+        null,
+        "0255011639"
+      ]
+    },
+    {
+      "KEPZ Branch.": [
+        "['KEPZ Branch', '98/A, Mohajan Ghata, Karnaphuli EPZ Gate, Uttar Patenga'], 4100, 22.27345076, 91.78690828, Chattogram",
+        null,
+        "+8809666359780"
+      ]
+    },
+    {
+      "Kakrail Branch .": [
+        "['Kakrail Branch .', 'Green City Regency (Holding: 26, 27, 27/1), Kakrail, Dhaka'], 23.73808, 90.40972, Dhaka",
+        null,
+        "+880249350267"
+      ]
+    },
+    {
+      "Motijheel Branch": [
+        "['Motijheel Branch', '18-20 Motijheel, (Alico Building), Dhaka'], 1000, 23.7255061, 90.42134545, Dhaka",
+        null,
+        "['2223382509']"
+      ]
+    },
+    {
+      "Khulna Branch .": [
+        "['Khulna Branch .', 'Jiban Bima Bhaban, KDA Avenue, Khulna'], 9000, 22.82089744, 89.55274022, Khulna",
+        null,
+        "02477721009"
+      ]
+    },
+    {
+      "Narayanganj Branch .": [
+        "['Narayanganj Branch .', 'Zone Service Complex, AEPZ, Adamjee EPZ Road, Ward No: 01'], 1400, 23.67772675153647, 90.518435161892, Narayanganj",
+        null,
+        "02997744562"
+      ]
+    },
+    {
+      "Nasirabad Branch": [
+        "['Nasirabad Branch', '1, Shahid Abdul Halim Road, East Nasirabad, Chittagong'], 4310, 22.35909632, 91.8209621, Chattogram",
+        null,
+        "09666359700"
+      ]
+    },
+    {
+      "Savar Branch .": [
+        "['Savar Branch .', 'Dhaka Export Processing Zone, Zone Service Complex, Savar, Dhaka'], 1349, 23.95110146, 90.27346546, Dhaka",
+        null,
+        "02996689022"
+      ]
+    },
+    {
+      "Uttara Branch .": [
+        "['Uttara Branch .', 'Update Tower, Plot # 1, Shahajalal Avenue, Sector # 6, Uttara ,Dhaka'], 1230, 23.86809886, 90.4018227, Dhaka",
+        null,
+        "0258951083"
+      ]
+    },
+    {
+      "Sylhet Branch .": [
+        "['Sylhet Branch .', '7, Noya Sharak, Jail Road sylhet.'], 3100, 24.89654027, 91.87324399, Sylhet",
+        null,
+        "02996637206"
+      ]
+    }
+  ],
+  "sub_branch": []
+}

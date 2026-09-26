@@ -1,0 +1,1228 @@
+{
+  "_bank": "Union Bank PLC",
+  "bank_url": "https://www.unionbank.com.bd/",
+  "method": "html_table",
+  "status": "success",
+  "branch": [
+    {
+      "KADAMTOLI BRANCH": [
+        "Kadamtoli Branch , Zilani Tower ( 2nd Floor) Holding : 504/763, Kadamtoli, D.T Road, Ward- 29, Chittaganj City Corporation",
+        null,
+        "09-666-71-2616"
+      ]
+    },
+    {
+      "GULSHAN BRANCH": [
+        "Bahela Tower, 72, Gulshan Avenue, Gulshan-1, Dhaka-1212",
+        null,
+        "09-666-71-2616"
+      ]
+    },
+    {
+      "DILKUSHA BRANCH": [
+        "Chand Mansion, 66, Dilkusha C/A, Dhaka-1000",
+        null,
+        "02-223357832; 02-223357836; 02-223357839"
+      ]
+    },
+    {
+      "HATKHOLA BRANCH": [
+        "Ittefaq Bhaban, 1, Ramkrishna Mission Road, Dhaka-1000",
+        null,
+        "02-9591961; 01911385416; 09-666-71-2616"
+      ]
+    },
+    {
+      "LICHUBAGAN BRANCH": [
+        "Al-Imarat Shoping Complex, Lichu Bagan, Chandhraguna,?",
+        null,
+        "01978421895; 01736-539353; 09666330005"
+      ]
+    },
+    {
+      "SHATHIBARI BRANCH": [
+        "Arju Complex, Durghapur Mitapukur, Rangpur.",
+        null,
+        "01957869738; 09666330006"
+      ]
+    },
+    {
+      "MOUCHAK BRANCH": [
+        "Ma Super Market, ATC Bhaban, Moachaq, Kaliakair, Gazipur.",
+        null,
+        "02-9297561; 02-9297562; 01788500201; 09666330007"
+      ]
+    },
+    {
+      "SHANTIRHAT BRANCH": [
+        "Zubayear Shopping Complex, Shantirhat, Patiya, Chittagong",
+        null,
+        "01554311844; 09666330008"
+      ]
+    },
+    {
+      "ASHULIA BRANCH": [
+        "Ayman Plaza,Tongi-Ashulia Road, Bogabari Bazar, Ashulia.",
+        null,
+        "02-7784447; 02-7789448; 09666330009"
+      ]
+    },
+    {
+      "KHATUNGANJ BRANCH": [
+        "Siddique Tower, 177 Khatungonj Kotwali, Asadgonj, Chattogram",
+        null,
+        "031-2857715; 031-2857717; 031-2857714; 09666330010"
+      ]
+    },
+    {
+      "ZINDABAZAR BRANCH": [
+        "R. B. complex, 2nd Floor, East Zindabazar, Sylhet City Corporation, Sylhet.",
+        null,
+        "0821-729117; 01711362269; 09666330011"
+      ]
+    },
+    {
+      "ASHKONA BAZAR BRANCH": [
+        "City port Tower, Ashkona Bazar, Dakkkhin khan, Uttara, Dhaka.",
+        null,
+        "9666330012 ashkona@unionbank.com.bd"
+      ]
+    },
+    {
+      "PANTHAPATH BRANCH": [
+        "City Tower, Holding No-44/7, Panthapath Main Road, Kolabagan, Dhaka-1205",
+        null,
+        "02222240890"
+      ]
+    },
+    {
+      "SEBARHAT BRANCH": [
+        "Halim Mension, Sebarhat, Senbagh, Noakhali.",
+        null,
+        "9666330014 sebarhat@unionbank.com.bd"
+      ]
+    },
+    {
+      "BADARKHALI BRANCH": [
+        "Rashid Shopping Complex, Bodorkhali, PO: Bodorkhali, Chokoria, Cox s Bazar",
+        null,
+        "9666330015 badarkhali@unionbank.com.bd"
+      ]
+    },
+    {
+      "ISLAMPUR BRANCH, SYLHET": [
+        "Kaium Complex, Islampur, Kusumbag-6, Islampur, Sylhet Sadar (Shahporan), Sylhet.",
+        null,
+        "9666330016 islampur@unionbank.com.bd"
+      ]
+    },
+    {
+      "PAHARTALI BRANCH": [
+        "M.Y Plazza, Pahartali, Chowmohoni Bazar, Muhamuni, Rawzan, Chittagong.",
+        null,
+        "9666330017 pahartoli@unionbank.com.bd"
+      ]
+    },
+    {
+      "BOGURA BRANCH": [
+        "Shamoly Plaza Holding No- 2100, Kabi Nazrul Islam Road. Bogra Pourshava, Bogra.",
+        null,
+        "9666330018 bogura@unionbank.com.bd"
+      ]
+    },
+    {
+      "KHULNA BRANCH": [
+        "Munna Tower Holding No-07, K.D Avenue, Shibbari Mor Khulna Shadar, Khulna.",
+        null,
+        "9666330019 khulna@unionbank.com.bd"
+      ]
+    },
+    {
+      "SARKERHAT BRANCH": [
+        "Goni Shopping Centre Sarkarhat, Hathazari, Chittagong",
+        null,
+        "9666330020 sarkerhat@unionbank.com.bd"
+      ]
+    },
+    {
+      "AGRABAD BRANCH": [
+        "59, Agrabad C/A, Doublemorning, Chittagong",
+        null,
+        "9666330021 agrabad@unionbank.com.bd"
+      ]
+    },
+    {
+      "LALMAI BRANCH": [
+        "Dulamia Mension, Lalmai Bazar, Sadar, Cumilla",
+        null,
+        "9666330022 lalmai@unionbank.com.bd"
+      ]
+    },
+    {
+      "CUMILLA BRANCH": [
+        "White House Supar Market, Podua Bazar Biswa Road, Comilla.",
+        null,
+        "9666330023 cumilla@unionbank.com.bd"
+      ]
+    },
+    {
+      "TALSHOHOR BRANCH": [
+        "Hazi Md Abu Sama Plaza, Talshohor Bazar, Asugonj, Brahmanbaria.",
+        null,
+        "9666330024 talshohor@unionbank.com.bd"
+      ]
+    },
+    {
+      "COXS BAZAR BRANCH": [
+        "Kashem Plaza, East Bazar, Cox's Bazar.",
+        null,
+        "9666330025 coxbazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "HNILA BRANCH": [
+        "Jamea Darus Sunnah Market, Hnila Bazar, Teknaf, Cox Bazar.",
+        null,
+        "9666330026 hnila@unionbank.com.bd"
+      ]
+    },
+    {
+      "UTTARA BRANCH": [
+        "House # 37, Sector # 7, Sonarga Jonopoth, Uttara, Dhaka.",
+        null,
+        "9666330027 uttara@unionbank.com.bd"
+      ]
+    },
+    {
+      "MURADPUR BRANCH": [
+        "T & S Tower, Muradpur, Panchlaish, Chittagong.",
+        null,
+        "9666330028 muradpur@unionbank.com.bd"
+      ]
+    },
+    {
+      "BANANI BRANCH": [
+        "Assurance Nazir Tower Plot No#65, Block#B, Kamel Ataturk Avenue, Banani.",
+        null,
+        "9666330029 banani@unionbank.com.bd"
+      ]
+    },
+    {
+      "MAWNA BRANCH": [
+        "“Al-Haj Jalal Uddin Complex” (1st floor), Mawna Bazar, Ward No.-07, Telihati Union Parishad, Gazipur.",
+        null,
+        "9666330030 mawna@unionbank.com.bd"
+      ]
+    },
+    {
+      "RAJSHAHI BRANCH": [
+        "Rokeya Bhaban, Holding No #219, Kumar para, Goramara, Boalia",
+        null,
+        "9666330031 rajshahi@unionbank.com.bd"
+      ]
+    },
+    {
+      "D.T ROAD EIDGAH BRANCH": [
+        "Dhaka Bhaban Landmark. D. T. Road, Eidgah Kacha Rasta, Pahartoli.",
+        null,
+        "9666330032 dtroadeidgah@unionbank.com.bd"
+      ]
+    },
+    {
+      "BAHUBAL BRANCH": [
+        "Haque Mension, Bahubal Bazar, Bahubal, Hobigonj.",
+        null,
+        "9666330033 bahubal@unionbank.com.bd"
+      ]
+    },
+    {
+      "MUNSHIRHAT BRANCH": [
+        "“Jafar Tower” (1st Floor), Munshirhat Bazar, Main Road, Ward No-09, Munshirhat Union, Chauddagram, Comilla.",
+        null,
+        "9666330034 munshirhat@unionbank.com.bd"
+      ]
+    },
+    {
+      "Shibchar Branch": [
+        "Tara Business Center (1st floor), Holding No-0018-00, Shibchar Bazar Sadar Road (Road-71), Ward No-03, Shibchar Pourashava, Madaripur",
+        null,
+        null
+      ]
+    },
+    {
+      "PATIYA BRANCH": [
+        "Patiya Club. Club Road.Patiya.Chittagong.",
+        null,
+        "9666330035 patiya@unionbank.com.bd"
+      ]
+    },
+    {
+      "PABNA BRANCH": [
+        "Akter Corner, Abdul Hamid Road, Pabna Sador",
+        null,
+        "9666330036 pabna@unionbank.com.bd"
+      ]
+    },
+    {
+      "JAKSIN BAZAR BRANCH": [
+        "Bhai Bhai Supar Market, Jocksin Bazar, Sadar Upazila, Lakhipur",
+        null,
+        "9666330037 joksinbazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "PANCHABATI BRANCH": [
+        "Alauddin Super Market (1st Floor) Panchaboti, Anayetnogor, Fatullah, Narayongonj",
+        null,
+        "9666330038 panchaboti@unionbank.com.bd"
+      ]
+    },
+    {
+      "NARAYANGANJ BRANCH": [
+        "Holding No-114, B B Road, Ukil Para. Narayanganj",
+        null,
+        "9666330039 narayanganj@unionbank.com.bd"
+      ]
+    },
+    {
+      "MIAR BAZAR BRANCH": [
+        "Tasmia Cottage. Hasimpur Miar Bazar. Koilain.Kochua. Chandpur.",
+        null,
+        "9666330040 miarbazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "BAZAR HASNABAD BRANCH": [
+        "H. M Plaza. Bazar Hasnabad. Amirgonj. Raypura. Narshingdi.",
+        null,
+        "9666330041 bazarhasnabad@unionbank.com.bd"
+      ]
+    },
+    {
+      "NANUPUR BRANCH": [
+        "Mirza Market, Nanupur Kalumunsirhat, Fatikchari, Chittagong",
+        null,
+        "9666330042 nanupur@unionbank.com.bd"
+      ]
+    },
+    {
+      "MIRPUR BRANCH": [
+        "ED-FAIS Centre ,1281 Begum Rokeya Soroni , Senpara, Mirpur",
+        null,
+        "9666330043 mirpur@unionbank.com.bd"
+      ]
+    },
+    {
+      "FENI BRANCH": [
+        "Aziz Chamber (1ST & 2ND Floor), Trunk Road, Feni Municipal, Feni",
+        null,
+        "9666330044 feni@unionbank.com.bd"
+      ]
+    },
+    {
+      "BONPARA BRANCH": [
+        "Hazi Ahsan Shopping Plaza (Ground Floor), Bonpara, Ramagari, Boraigram, Natore",
+        null,
+        "9666330045 bonpara@unionbank.com.bd"
+      ]
+    },
+    {
+      "DEWAN BAZAR BRANCH": [
+        "R. F. Somiron (1st Floor), Holding no-324, Nawab Sirajuddowla Road, Dewan Bazar, Chanddonpura, Chittagong City Corporation, Chittagong.",
+        null,
+        "9666330046 dewanbazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "ATAIKULA BRANCH": [
+        "H. M. Plaza (1st Floor), Ataikula Bazar, Ataikula, Sathia, Pabna.",
+        null,
+        "9666330047 ataikula@unionbank.com.bd"
+      ]
+    },
+    {
+      "BARISHAL BRANCH": [
+        "Rasin Bhaban (1st & 2nd Floor), Holding No.-362, Hatkhola Road, Barisal Sadar, Barisal City Corporation, Barisal",
+        null,
+        "09-666-71-2616"
+      ]
+    },
+    {
+      "KERANIHAT BRANCH": [
+        "City Centre (1st Floor), Keranihat, Dhemsha, Satkania, Chittagong.",
+        null,
+        "9666330049 keranihat@unionbank.com.bd"
+      ]
+    },
+    {
+      "MYMENSINGH BRANCH": [
+        "Rokeya Masnion (1st & 2nd Floor), Holding no.-04, Modon Babu Road (Ampotti), Mymensingh Pourashov, Sadar, Mymensingh.",
+        null,
+        "9666330050 mymensingh@unionbank.com.bd"
+      ]
+    },
+    {
+      "NAWABPUR ROAD BRANCH": [
+        "Century Tower (1st Floor), Holding no-247, Nawabpur Road, Bongshal, Dhaka.",
+        null,
+        "9666330051 nawabpurroad@unionbank.com.bd"
+      ]
+    },
+    {
+      "ATI BAZAR BRANCH": [
+        "Akash Tower (1st Floor), Ati Bazar, Shakta, Keranigonj, Dhaka.",
+        null,
+        "9666330052 atibazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "KHILPARA BRANCH": [
+        "Wahab Monjil (1st Floor), Khilpara Bazar, Chatkhil, Noakhali.",
+        null,
+        "9666330053 khilpara@unionbank.com.bd"
+      ]
+    },
+    {
+      "EIDGAON BRANCH": [
+        "Khan Bahadur Mozaffor Ahamad Market (1st Floor), Eidgaon, Cox?s Bazar Sadar, Cox?s Bazar.",
+        null,
+        "9666330054 eidgaon@unionbank.com.bd"
+      ]
+    },
+    {
+      "JASHORE BRANCH": [
+        "A.G. Rahman Complex (1Floor), Holding no-7628, 7629, R.N Road, Jessore Pourosova, Jessore",
+        null,
+        "9666330055 jashore@unionbank.com.bd"
+      ]
+    },
+    {
+      "KALUKHALI BAZAR BRANCH": [
+        "Fokir Plaza (1st Floor), Mohonpur, Kalukhali Bazar, Rajbari, Dhaka.",
+        null,
+        "9666330056 kalukhalibazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "BANSHKHALI (CHANDPUR) BRANCH": [
+        "Mohammadia Shopping Cener (1st floor), Chandpur Bazar, Banshkhali, Chittagong",
+        null,
+        "9666330057 banshkhali_chandpur@unionbank.com.bd"
+      ]
+    },
+    {
+      "JAMUNA FUTURE PARK BRANCH": [
+        "Jamuna Future Park (2nd Floor), Shop No: 250 (A), 251 (A), KA-244, Kuril, Progoti Sorini. Baridhara, Vatara, Dhaka.",
+        null,
+        "9666330058 jamunafuturepark@unionbank.com.bd"
+      ]
+    },
+    {
+      "KUMIRA BRANCH": [
+        "S.A. Tower (1st Floor), Kumira Bazar, Sitakunda, Chittagong.",
+        null,
+        "9666330059 kumira@unionbank.com.bd"
+      ]
+    },
+    {
+      "JOTPUKURIA BAZAR BRANCH": [
+        "Hazi Foyez Market (2nd Floor), Jotpukuria Bazar, Kanchona, Upazila: Satkania, District: Chittagong.",
+        null,
+        "9666330060 jotpukuria@unionbank.com.bd"
+      ]
+    },
+    {
+      "LALDIGHI BRANCH": [
+        "House No- 07 (Ground Floor), Laldighi, Kotwali, Chittagong.",
+        null,
+        "9666330061 laldighi@unionbank.com.bd"
+      ]
+    },
+    {
+      "DHANMONDI BRANCH": [
+        "Imperial Amin Ahmed Center, Plot No- New 54 (Old -181/A) 2nd Floor, Road No- New 10/A (Old -20), Dhaka City Corporation (South) Dhanmondi, Dhaka-1205.",
+        null,
+        "9666330062 dhanmondi@unionbank.com.bd"
+      ]
+    },
+    {
+      "RANGPUR BRANCH": [
+        "A N Plaza (2nd and 3rd Floor), Jahaj Company More, Station Road, Kotwali Rangpur City Corporation, Rangpur.",
+        null,
+        "9666330063 rangpur@unionbank.com.bd"
+      ]
+    },
+    {
+      "TANGAIL BRANCH": [
+        "Ansari Tower (1st and 2nd Floor), Mosjid Road, Tangail Sadar, Tangail.",
+        null,
+        "9666330064 tangail@unionbank.com.bd"
+      ]
+    },
+    {
+      "SHAKPURA CHOWMUHONY BRANCH": [
+        "Elahi Super Market (1st Floor), Shakpura Chowmuhony, P.O: Shakpura, P.S: Boalkhali, Chittagong",
+        null,
+        "9666330065 shakpura_chowmuhony@unionbank.com.bd"
+      ]
+    },
+    {
+      "MADHABDI BRANCH": [
+        "Mahid Fashion Garments Bhoban (1stFloor), Nowpara, Upazilla: Sadar District: Narsingdi.",
+        null,
+        "9666330066 madhabdi@unionbank.com.bd"
+      ]
+    },
+    {
+      "LOHAGARA BRANCH": [
+        "DNA Sikder Center (1st? Floor & 2nd? floor), Lohagara, P.S: Lohagara, Chittagong.",
+        null,
+        "9666330067 lohagara@unionbank.com.bd"
+      ]
+    },
+    {
+      "KERANIGANJ BRANCH": [
+        "Zamzam Tower (2nd Floor), East Aganagar, South Keranigonj, Dhaka-1310",
+        null,
+        "9666330068 keranigonj@unionbank.com.bd"
+      ]
+    },
+    {
+      "GAZIPUR CHOWRASTA BRANCH": [
+        "Kabi Jamir Uddin Complex (1st floor), Gazipur Chowrasta, Gazipur City Corporation, Gazipur.",
+        null,
+        "9666330069 gazipurchowrasta@unionbank.com.bd"
+      ]
+    },
+    {
+      "KUSHTIA BRANCH": [
+        "Dewan Zahurul Islam Complex (1st Floor), Holding no-144, 145 N.S. Road, Kushtia Pourashava, Kushtia Sadar, Kushtia",
+        null,
+        "9666330070 kushtia@unionbank.com.bd"
+      ]
+    },
+    {
+      "JUBILEE ROAD BRANCH": [
+        "Tower 263, Tin Pool, Jubilee road, Kotwali, Chattogram.",
+        null,
+        "9666330071 jubileeroad@unionbank.com.bd"
+      ]
+    },
+    {
+      "RAOZAN BRANCH": [
+        "Nurul Amin Tower (1st & 2nd floor), Jalil Nagar Bus Station, Raozan, Chattogram",
+        null,
+        "9666330072 raozan@unionbank.com.bd"
+      ]
+    },
+    {
+      "DINAJPUR BRANCH": [
+        "Holding-803, Centre Point Plaza (1st and 2nd floor), Basuniapotti, Kotwali, Dinajpur Pourasava, Dinajpur.",
+        null,
+        "9666330073 dinajpur@unionbank.com.bd"
+      ]
+    },
+    {
+      "ISLAMPUR BRANCH, DHAKA": [
+        "Holding -3/2, Babuli Star City (1st Floor), Islampur, Kotwali, Dhaka.",
+        null,
+        "9666330074 islampurdhaka@unionbank.com.bd"
+      ]
+    },
+    {
+      "MOULVIBAZAR BRANCH": [
+        "House No: 152/1, (1st Floor), Court Road, Moulvibazar Sador, Moulvibazar.",
+        null,
+        "9666330075 moulvibazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "BHULTA BRANCH": [
+        "Rabet Al-Hasan Textile (Pvt.) Ltd (1st floor), Bhulta Bus Station, Bhulta, Rupgonj, Narayangonj.",
+        null,
+        "9666330076 bhulta@unionbank.com.bd"
+      ]
+    },
+    {
+      "JORARGANJ BRANCH": [
+        "Juboraj Bitan (1st Floor), Zorargonj, Mirershorai, Chattogram.",
+        null,
+        "9666330077 jorargonj@unionbank.com.bd"
+      ]
+    },
+    {
+      "HEMAYETPUR BRANCH": [
+        "Mokka Tower (1st Floor), Tetuljhora, Hemayetpur, Savar, Dhaka.",
+        null,
+        "9666330078 hemayetpur@unionbank.com.bd"
+      ]
+    },
+    {
+      "CHAPAINAWABGANJ BRANCH": [
+        "Qumqum Bilash (1st floor), Holding No-33/3, Professor Para Road, Ward No.-02, Chapainawabganj Pouroshava, Sadar, Chapainawabganj.",
+        null,
+        "9666330079 chapainawabganj@unionbank.com.bd"
+      ]
+    },
+    {
+      "BARLEKHA BRANCH": [
+        "Nurjahan Shopping Center (1st floor), Holding No.252, Main Road, Ward No.04, Barlekha Pouroshava, Barlekha, Moulvibazar.",
+        null,
+        "9666330080 barlekha@unionbank.com.bd"
+      ]
+    },
+    {
+      "BANDARTILA BRANCH": [
+        "Shah Plaza Market (1st floor) Holding No.3658/4287, Airport Road, Bandartila, Chattogram.",
+        null,
+        "9666330081 bandartila@unionbank.com.bd"
+      ]
+    },
+    {
+      "FATIKCHARI BRANCH": [
+        "Delowar shopping Place (1st floor) Holding No.40, College Road, Bibir Hat, Fatikchari Pourasava, Fatikchari, Chattogram.",
+        null,
+        "9666330082 fatikchari@unionbank.com.bd"
+      ]
+    },
+    {
+      "UKHIYA BRANCH": [
+        "Alam Plaza (1st Floor Uhalapalong (Ukhiya North Station), Ukhiya, Cox?s Bazar",
+        null,
+        "9666330083 ukhiya@unionbank.com.bd"
+      ]
+    },
+    {
+      "LINK ROAD BRANCH": [
+        "Arif Al Hoque Shopping Complex (1st floor), Link Road, Zilongja, Cox?s Bazar Sadar, Cox?s Bazar.",
+        null,
+        "9666330084 linkroad@unionbank.com.bd"
+      ]
+    },
+    {
+      "RAJABARI BAZAR BRANCH": [
+        "Rahaman Super Market (1st Floor), Rajabari Bazar, Sreepur, Gazipur.",
+        null,
+        "9666330085 rajabaribazar@unionbank.com.bd"
+      ]
+    },
+    {
+      "TAJMAHAL ROAD BRANCH": [
+        "H.I. Khan Trade Center (1st Floor), Holding No:Z-23 & Z-24, Tajmahal Road, Block-D, Mohammadpur Housing Estate, Mohammadpur, Dhaka.",
+        null,
+        "9666330086 tajmahalroad@unionbank.com.bd"
+      ]
+    },
+    {
+      "AMBARKHANA BRANCH": [
+        "Aftab Complex-01 (1st floor), Electric Supply Road, Ward No-17, Amberkhana, Sylhet City Corporation, Sylhet Sadar, Sylhet.",
+        null,
+        "9666330087 ambarkhana@unionbank.com.bd"
+      ]
+    },
+    {
+      "KANCHAN BRANCH": [
+        "Pyra Tower (1st Floor), Kanchan Bazar, Ward No. -06, Kanchan Pourashava, Rupganj, Narayanganj.",
+        null,
+        "9666330088 kanchan@unionbank.com.bd"
+      ]
+    },
+    {
+      "O. R. NIZAM ROAD BRANCH": [
+        "Rahima Center (1st & 2nd Floor ),Holding no-1839, CDA Avenue, GEC Circle, Nasirabad, Panchlaish, chattogram.",
+        null,
+        "9666330089 ornizamroad@unionbank.com.bd"
+      ]
+    },
+    {
+      "TONGI BRANCH": [
+        "Khan Plaza (1st Floor ),Holding no-79, Hossain Market, Tongi, Gazipur.",
+        null,
+        "9666330090 tongi@unionbank.com.bd"
+      ]
+    },
+    {
+      "BORODIGHIRPAR BRANCH": [
+        "Mallika Tower (1st floor), Borodighir Par, Chikandandi, Ward no.07,Hathazari,Chattogram",
+        null,
+        "9666330091 borodighirpar@unionbank.com.bd"
+      ]
+    },
+    {
+      "CHAMBOL BRANCH": [
+        "Mannan Center(2nd floor), Chambol Bazar, Ward-3, Chambol Union Parishad, Banshkhali, Chittagong.",
+        null,
+        "01932871405"
+      ]
+    },
+    {
+      "BRAHMANBARIA BRANCH": [
+        "Bazlur Rahman Bhavan (1st Floor),Court Road, Brahmanbaria Sadar, Brahmanbaria",
+        null,
+        "01726264854"
+      ]
+    },
+    {
+      "ELEPHENT-ROAD": [
+        "Zahir AC market, 52 elephent Road, PS: New market",
+        null,
+        "09666712616"
+      ]
+    },
+    {
+      "FENCHUGANJ BRANCH": [
+        "Fenchuganj Branch , Samad Plaza (2 nd Floor) , Fenchuganj Bazar Road, Fenchuganj, Sylhet",
+        null,
+        "01717929959"
+      ]
+    },
+    {
+      "RAMU BRANCH": [
+        "Masters Market(2nd floor), Chowmohoni, Word-06, Fetekharkul Union Parishad, Ramu, Coxsbazar.",
+        null,
+        null
+      ]
+    },
+    {
+      "GOALABAZAR BRANCH": [
+        "Goalabazar Branch , Ershadullah Shopping City(2nd Floor),Holding : 44, Goalabazar, Ward-05,Goalabazar Union Parishad, Osmaninagar, Sylhet.",
+        null,
+        "01711013353"
+      ]
+    },
+    {
+      "HABIGANJ BRANCH": [
+        "Harun Complex (2nd Floor), Ward-05, Habigabj Purosova, Habiganj.",
+        null,
+        "01908415632"
+      ]
+    },
+    {
+      "DOHAZARI BRANCH": [
+        "Samsuddin Super Market(1st Floor),Dohazari Station Road,dohazari Pouroshava,Chandanaish,Chattogram.",
+        null,
+        "01670922688"
+      ]
+    },
+    {
+      "SATKHIRA BRANCH": [
+        "“KATS Multiplex” (1st Floor), Holding No-14894-14897, Sultanpur Road, Ward No-04, Satkhira Pouroshava, Satkhira Sadar, Satkhira.",
+        null,
+        "01714932859"
+      ]
+    },
+    {
+      "BIJOYNAGAR BRANCH": [
+        "National Deaf Building(2nd floor) 174, Bijoynagar, Dhaka.",
+        null,
+        "01819294310"
+      ]
+    },
+    {
+      "SAPAHAR BRANCH": [
+        "Sapahar Branch , Sapahar New Market”, Ward No-01, Sapahar Union, Sapahar, Naogaon.",
+        null,
+        "110301 sapahar@unionbank.com.bd"
+      ]
+    },
+    {
+      "NAZUMEAH HAT BRANCH": [
+        "Nazumeah Hat Branch , Modern Plaza” (1st floor) (adjacent to Kaptai Road), Nazumeah Hat, Ward No-04, Burischar Union, Hathazari, Chattogram.",
+        null,
+        "01859425797"
+      ]
+    },
+    {
+      "SAGARDIGHI BRANCH": [
+        "Siddik Plaza”, Holding No-4143, Garobazar Road, Ward No-06, Sagardighi Union, Ghatail, Tangail.",
+        null,
+        "106451 sagardighi@unionbank.com.bd"
+      ]
+    },
+    {
+      "Bahaddarhat Branch": [
+        "Momtaj Tower (1st & 2nd floor), Arakan Road, Bahaddarhat, Ward No-04, Chandgaon, Chattogram City Corporation, Chattogram.",
+        null,
+        "01719777822"
+      ]
+    },
+    {
+      "Khajura Bazar Branch": [
+        "Amin Shopping Complex” (1st floor), Khajura Bazar, Khajura Bazar Main Road, Bandabilla Union, Bagherpara, Jashore.",
+        null,
+        "01928171359"
+      ]
+    },
+    {
+      "Jhalakathi Branch": [
+        "“Holding no. 14” (1st floor), Batasha Potti Road, Ward No-05, Jhalakathi Pourashava, Jhalakathi.",
+        null,
+        "01985508121"
+      ]
+    },
+    {
+      "Nazirhat Branch": [
+        "“Nazirhat Baro Madrasah Market” (1st & 2nd floor), Nazirhat Hospital Road, Ward No-08, Nazirhat Pourashava, Fatikchhari, Chattogram.",
+        null,
+        "01812601683"
+      ]
+    },
+    {
+      "Bijoy Sarani Branch": [
+        "Holding No. 108 (1st Floor), Tejkunipara, Aowlad Hossen Market, Tejgaon, Ward no-26, Dhaka North City Corporation.",
+        null,
+        "01717005800"
+      ]
+    },
+    {
+      "Naria Branch": [
+        "“Nur Tower” (1st Floor), Naria Bazar Main Road, Ward-02, Naria Pourashava, Shariatpur",
+        null,
+        "01937-177503"
+      ]
+    },
+    {
+      "MUNSHIGANJ BRANCH": [
+        "Aftabuddin Complex (1st floor), Bangabandhu Sheikh Mujib Road, Munshiganj Pourashava, Munshiganj.",
+        null,
+        "01612436696"
+      ]
+    },
+    {
+      "Gouripur Branch": [
+        "\"Nasu Palace\" (1st floor), Gouripur Bazar, Ward No-02, Gouripur Union, Daudkandi, Cumilla.",
+        null,
+        "01817022306"
+      ]
+    },
+    {
+      "Nalitabari Branch": [
+        "Tin Tara Tower Taragonj Moddho Bazar, Nalitabari Pourashava, Sherpur.",
+        null,
+        null
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "BAZALIA BAZAR SUB BRANCH": [
+        "Bazalia Bazar Sub-Branch of Union Bank Ltd; Bazalia New Market 'A Block' (1st Floor), Bazalia Bus Station, Bazalia, Satkania, Chattogram.",
+        null,
+        "01818-416630"
+      ]
+    },
+    {
+      "MERUL BADDA SUB BRANCH": [
+        "Merul Badda Sub Branch, Herald Monowar(2nd Floor), Holding-02, Road -12, Merul Badda, Ward-21",
+        null,
+        "01711375188"
+      ]
+    },
+    {
+      "NACHOL SUB BRANCH": [
+        "Shapla Bhavan(1st Floor); Holding-16;Nachole Adda Road;Ward-07,Nachole Pourosova, Chapainawabgonj",
+        null,
+        "078151558"
+      ]
+    },
+    {
+      "ADHUNAGAR SUB BRANCH": [
+        "Padmabati Shopping Complex Adhunagar Khan Hat Bazar, Adhunagar, Lohagara, Chattogram.",
+        null,
+        "01819630151"
+      ]
+    },
+    {
+      "MIRPURBAZAR SUB BRANCH": [
+        "Hazi Alauddin Mansion (1st Floor), Mirpur Bazar, Bahubal, Hobiganj",
+        null,
+        "01953714748; 01879240994"
+      ]
+    },
+    {
+      "JOLDI SUB BRANCH": [
+        "Tower” (1st Floor), Address: Banshkhali Main Road, Ward No.05, Banshkhali Pourashava, Banshkhali, Chattogram.",
+        null,
+        "01861938134"
+      ]
+    },
+    {
+      "GUNAGURI SUB BRANCH": [
+        "Gunagori Sub Branch , Shaheb Mia City Center? (1st floor), Address: Gunagori Kanshmohol Bazar, Ward No-01, Kalipur Union, Banshkhali, Chattogram.",
+        null,
+        "01818132328"
+      ]
+    },
+    {
+      "MATARBARI SUB BRANCH": [
+        "Matarbari New Market (2nd floor), Natun bazar , CNG Stand, Ward No-04, Matarbari Union, Moheshkhali, Coxsbazar",
+        null,
+        "01822336300"
+      ]
+    },
+    {
+      "FAKIRHAT SUB BRANCH": [
+        "Fakirhat Sub Branch , Sirajul Hoque & Mahmudul Haque Market? (1st floor), address: Fakirhat, Ward No-05, Nazirhat Pouroshava, Fatikchhari, Chattogram",
+        null,
+        "01817082114"
+      ]
+    },
+    {
+      "FAZILPUR SUB BRANCH": [
+        "Hazi Sayed Market(2nd floor), Fazilpur Rahimullah Saheber Bazar,College Road, Ward-07,Fazilpur Union Parishod, Feni.",
+        null,
+        "01812492100"
+      ]
+    },
+    {
+      "KADOIR BAZAR SUB BRANCH": [
+        "Bhai Bhai Plaza (1st floor), Kadoir Bazar, Shuvapur, Chauddagram, Munshirhat, Cumilla",
+        null,
+        "01818479487"
+      ]
+    },
+    {
+      "RAWSHANHAT SUB BRANCH": [
+        "Al Noor Market (2nd Floor),Rawshanhat, Arakan Road, Ward-02, Kanchanabad Union Parishad, Chandanaish, Chittagong.",
+        null,
+        "01718168103"
+      ]
+    },
+    {
+      "SITAKUNDA SUB BRANCH": [
+        "Sitakunda Sub Branch , Absar Market (2nd Floor),Holding-533, D T Road Sitakundo Bazar, Ward-08, Sitakundu Pourasova, Chittagong.",
+        null,
+        "01824421000"
+      ]
+    },
+    {
+      "HALISHOHOR SUB BRANCH": [
+        "Islam Bhavan (2nd floor),27 H.S Road, Block-A, Halishahar Housing Estate, Ward-11,Chittagong",
+        null,
+        "031-2516322"
+      ]
+    },
+    {
+      "HATHAZARI SUB BRANCH": [
+        "Mohazon Plaza(2nd floor), Hathazari bazar , Hathazari Purosova, Ward No-03, Hathazari, Chittagong.",
+        null,
+        "01819622973"
+      ]
+    },
+    {
+      "GHATAIL SUB BRANCH": [
+        "Bhai Bhai Plaza” (1st floor), Address: Ghatail Bus Stand, Ward No-08, Ghatail Pouroshava, Dhaka-Mymensingh Highway Road, Tangail.",
+        null,
+        "01755984906"
+      ]
+    },
+    {
+      "CHATKHIL SUB BRANCH": [
+        "Alom Plaza (2nd Floor), Holding : 407, Ward-06, Chatkhil Bazar, Chatkhil Pourosoova, Noakhali.",
+        null,
+        "01865281188"
+      ]
+    },
+    {
+      "KACHUA SUB BRANCH": [
+        "Tasmia Cottage (1st Floor) Hashimpur Miar Bazar, Kyline, Kachua, Chandpur",
+        null,
+        "01754934701"
+      ]
+    },
+    {
+      "PALANGKHALI SUB BRANCH": [
+        "Al Sami Market-2,(2nd Floor,Palongkhali Union Parishad, Ward-07, Ukhiya, Coxsbazar",
+        null,
+        "01711481015"
+      ]
+    },
+    {
+      "KHUTAKHALI SUB BRANCH": [
+        "Fazal Market(2nd Floor),Khutakhali Union Parishad, Ward-06, Khutakhali Station Bazar, Chakaria, Coxsbazar",
+        null,
+        "01818757830"
+      ]
+    },
+    {
+      "KUTUPALONG SUB BRANCH": [
+        "Momtaz Tower (2nd Floor),Kutupalong Bazar, Ward-09,Rajaplong Union Parishad, Ukhiya, Coxsbazar",
+        null,
+        "01814954591"
+      ]
+    },
+    {
+      "SHIBGANJ SUB BRANCH": [
+        "Panna BDR Tower, Master Para, Shibganj Bazar, Upozilla- Shibganj, Chapainawabganj",
+        null,
+        "01313418954"
+      ]
+    },
+    {
+      "BANGLABAZAR SUB BRANCH": [
+        "Kalu Sheel Market (2nd Floor) , Banglabazar, Mirzakhil, Ward-1, Sonakania Union Parishad, Satkhania, Chittagong.",
+        null,
+        "01819538390"
+      ]
+    },
+    {
+      "COLLEGE BAZAR SUB BRANCH": [
+        "Hazi Doulot Khan Market, Sikolbaha, College Bazar, Kornofuli, Chittagong.",
+        null,
+        "01812075843"
+      ]
+    },
+    {
+      "KHANHAT SUB BRANCH": [
+        "Revine Haji Plaza (1st Floor), Arakan Road, Khan Hat, Gachbariya, Ward no: 09, Chondonaish, Chattogram.",
+        null,
+        "01829243735"
+      ]
+    },
+    {
+      "DAKSHINKHAN SUB BRANCH": [
+        "Dewan Habib Shopping Complex” (Ground floor), Holding No-92, Dakshinkhan Bazar, Ward No-48, DNCC.",
+        null,
+        "01811939380"
+      ]
+    },
+    {
+      "SOLINGMOR SUB BRANCH": [
+        "Haji Mohammad Ali Khan Super Market (1st Floor), Soling Moore Bazar, Ward no: 03, Sreepur, Gazipur.",
+        null,
+        "01811986897"
+      ]
+    },
+    {
+      "TILPAPARA SUB BRANCH": [
+        "“Holding No-298(A)” (1st floor), Tilpapara Road, Ward No-01, Khilgaon, Dhaka South City Corporation.",
+        null,
+        "01829814816"
+      ]
+    },
+    {
+      "KAMRANGIRCHAR SUB BRANCH": [
+        "M. R. Tower” (1st floor), Holding No-1191, West Rosulpur, Ward No-56, Kamrangirchar, DSCC",
+        null,
+        "01722363141"
+      ]
+    },
+    {
+      "College Gate Sub Br": [
+        "“Sayeed Tower” (1st floor), Holding No-Ovijan-21, College Road, Ward No-54, Tongi, Gazipur City Corporation, Gazipur.",
+        null,
+        "01728093826"
+      ]
+    },
+    {
+      "Gobindganj Sub Branch": [
+        "“Anwara Shopping Complex” (1st floor), Gobindganj Point, Ward No-08, Gobindganj-syedergaon Union, Chhatak, Sunamganj.",
+        null,
+        null
+      ]
+    },
+    {
+      "Gokornoghat Sub Branch": [
+        "Ashraf Ali Plaza” (1st floor), Holding No-667 & 667/1, Gokarnaghat Bazar, Launch Ghat Road, Ward No-07, Brahmanbaria.",
+        null,
+        "01720121077"
+      ]
+    },
+    {
+      "Chatmohor Sub Branch": [
+        "Biswas Plaza” (Ground floor), Ward No-09, Chatmohar Pouroshava (A Class), Chatmohar, Pabna.",
+        null,
+        "01712246651"
+      ]
+    },
+    {
+      "Puichuri Sub Branch": [
+        "Riyad Market (1st floor), DB Road, Ward No-01, Puichhari Union, Banshkhali, Chattogram.",
+        null,
+        "01829664704"
+      ]
+    },
+    {
+      "Petan Shah Sub Branch": [
+        "“Peton Aowlia Market” (1st floor), Arkan Road, Pashchim Gamdandi, Ward No-09, Boalkhali Pouroshava, Boalkhali, Chattogram.",
+        null,
+        "01819359120"
+      ]
+    },
+    {
+      "Mariumnagar": [
+        "Jilani Market” (1st floor), Kaptai Road, Ward No-01, Mariumnagar Union, Rangunia, Chattogram.",
+        null,
+        "01719435263"
+      ]
+    },
+    {
+      "Gohira Sub Branch": [
+        "Anowar Shopping Complex” (1st floor), Odudia Sarak, Gohira, Ward No-03, Raozan Pouroshava (A Class), Raozan, Chattogram.",
+        null,
+        "01873754804"
+      ]
+    },
+    {
+      "Rayer Bazar Sub Branch": [
+        "Holding No: 03” (1st floor), Sultanganj Road, Rayer Bazar, Ward No-34, Lalbagh, DSCC.",
+        null,
+        "01614337286"
+      ]
+    },
+    {
+      "Mahiganj Sub Branch": [
+        "Chowdhury Complex (1st floor), Holding No-8/1, 1 no. Mahiganj Road, Mahiganj Bazar, Ward No-29, Rangpur City Corporation, Rangpur.",
+        null,
+        "01731282764"
+      ]
+    },
+    {
+      "Gopalganj Bazar Sub Branch": [
+        "Kashem Ali Super Market (1st floor), Ward No-09, Chealgazi Union, Dinajpur Sadar, Dinajpur",
+        null,
+        "01721555822"
+      ]
+    },
+    {
+      "Tokirhat Sub Branch Union Bank Ltd": [
+        "Abdul Koiyum Chowdhury Market” (1st floor), Tokirhat, Ward No-08, Jafatnagar Union, Fatikchhari, Chattogram.",
+        null,
+        "01767889001"
+      ]
+    },
+    {
+      "Roazarhat Sub Branch": [
+        "Mahfuzul Islam Chowdhury Market” (1st floor), Roazarhat, Kaptai Road, Ward No-01, Rangunia Pouroshava, Rangunia, Chattogram.",
+        null,
+        "01812101848"
+      ]
+    },
+    {
+      "Madhabdi Bazar Sub Branch:": [
+        "Holding No-04” (1st Floor), Madhabdi Bazar, Bank Potti Road, Ward No- 08, Madhabdi Pouroshava, Madhabdi, Narsingdi",
+        null,
+        "01825072148"
+      ]
+    },
+    {
+      "Tanbazar Sub Branch": [
+        "“Padma City Plaza-2’’ (Ground floor), 55/D, S M Maleh Road, Tanbazar, Ward No- 15, Narayanganj City Corporation, Narayanganj.",
+        null,
+        "01814-305286"
+      ]
+    },
+    {
+      "Dakshin Banasree Sub Branch": [
+        "“Holding No-06” (1st floor), Block-D, South Banasree Main Road, South Banasree, Khilgaon, Dhaka South City Corporation, Dhaka-1219.",
+        null,
+        "01670-155485"
+      ]
+    },
+    {
+      "Khilkhet Sub Branch": [
+        "\"Kazi Complex” (1st floor), B-37, Khilkhet, Ward No-17, Dhaka North City Corporation, Dhaka.",
+        null,
+        "01832-073394"
+      ]
+    },
+    {
+      "Bijoypur Bazar Sub Branch": [
+        "“Abdul Mannan Mazumder Market” (1st floor), Bijoypur Bazar, Laksham Road, Ward No-03, Baropara Union, Cumilla Sadar South, Cumilla.",
+        null,
+        "01843-685707"
+      ]
+    },
+    {
+      "CHHAGALNAIYA Sub Branch": [
+        "Hazi B-Zaman Market-2,(1st floor), Holding No-147, Zero Point Road,Chhagalnaiya Pouroshava, Chhagalnaiya, Feni.",
+        null,
+        "01813901683"
+      ]
+    },
+    {
+      "Zero Point Sub Branch": [
+        "Miraz Super Market (1st floor), Zero Point, Ward No- 06, Jolma Union, Botiaghata, Khulna.",
+        null,
+        "01818324436"
+      ]
+    },
+    {
+      "Madam Bibir Hat Sub Branch": [
+        "“Madam Bibir Hat Shahjahan High School” (1st floor), Dhaka-Chattogram Highway, Ward No-09, Bhatiary Union, Sitakunda, Chattogram.",
+        null,
+        "01820-239380"
+      ]
+    },
+    {
+      "Aganagar Sub Branch": [
+        "“Rahman Plaza” (1st floor), Holding No-2466, Hazi Abdul Barek Road, Ward No-01, Aganagar Union Parishad, Keraniganj, Dhaka.",
+        null,
+        "01815199991"
+      ]
+    },
+    {
+      "Dewanhat Sub Branch": [
+        "Empire Heights (1st Floor), Dewanhat, D.T Road, Ward No 24, Chattogram City Corporation, Chattogram.",
+        null,
+        "01814-811103"
+      ]
+    },
+    {
+      "Ranavola Sub Branch": [
+        "“Holding No 17” (1st floor), Road No 26, Ward No 53, Dhaka North City Corporation, Dhaka.",
+        null,
+        "01791-466600"
+      ]
+    },
+    {
+      "Nobodoy Sub Branch": [
+        "IST Main Campus Building 27/B, Nobodoy Main Road, Adabor, Ward No-30, Dhaka North City Corporation, Dhaka",
+        null,
+        "01859-886808"
+      ]
+    },
+    {
+      "Chowdhury Hat Sub Branch": [
+        "Al Saleh Super Market, Dataram Road, Chowdhuryhat, Ward No.-03, Chikandandi Union Parishad, Hathazari",
+        null,
+        "01818156240"
+      ]
+    },
+    {
+      "Moharajpur Sub Branch": [
+        "Islam Tower 659, Sonamasjid Road, Ward No.-06, Moharajpur Union Parishad, Chapainawabganj Sadar, Chapainawabganj",
+        null,
+        "01830127117"
+      ]
+    },
+    {
+      "Rajarhat Upa-Shakha": [
+        "Parimal Master Market , Rajarhat-Kalindarani Road, Rajarhat, Ward No.-05, Padua Union Parishad, Rangunia, Chattogram.",
+        null,
+        null
+      ]
+    },
+    {
+      "Kalarmarchhara Upa-Shakha": [
+        "Shahid Osman Gani Chairman Complex, Kalarmarchhara Bazar Road, Ward-07, Kalarmarchhara Union Parishad, Moheshkhali, Coxsbazar.",
+        null,
+        null
+      ]
+    },
+    {
+      "Dholapara Sub Branch": [
+        "Montaha Complex Dhalapara Bazar, Ghatail, Tangail.",
+        null,
+        "01912637192"
+      ]
+    },
+    {
+      "KALURGHAT SUB BRANCH": [
+        "Aman Height, Arkan Road, Kalurghat, Chattogram.",
+        null,
+        "01814272693"
+      ]
+    }
+  ]
+}

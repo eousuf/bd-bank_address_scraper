@@ -1,548 +1,759 @@
 {
   "_bank": "BASIC Bank PLC",
-  "website": "https://basicbankplc.com/en",
-  "website_source": "override",
+  "bank_url": "https://basicbankplc.com/en",
   "method": "html_cards+html_table",
   "status": "success",
-  "branch_name": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "Branch In-Charges",
-    "AGRABAD BRANCH",
-    "ASADGONJ BRANCH",
-    "BABUBAZAR BRANCH",
-    "BANANI BRANCH",
-    "BANGSHAL BRANCH",
-    "BARISAL BRANCH",
-    "BASHUNDHARA BRANCH",
-    "BELKUCHI BRANCH",
-    "BOGRA BRANCH",
-    "CEPZ BRANCH",
-    "CHANDPUR BRANCH",
-    "CHAPAINAWABGANJ BRANCH",
-    "CHIRIRBANDAR BRANCH",
-    "CHITALMARI BRANCH",
-    "CHOWMUHANA BRANCH",
-    "COMILLA BRANCH",
-    "COX'S BAZAR BRANCH",
-    "DEWANHAT BRANCH",
-    "DHAKA CANTONMENT BRANCH",
-    "DHANMONDI BRANCH",
-    "DILKUSHA BRANCH",
-    "DOHAZARI BRANCH",
-    "ELENGA BRANCH",
-    "FAKIRHAT BRANCH",
-    "FARIDPUR BRANCH",
-    "FENI BRANCH",
-    "GAZIPUR CHOWRASTA BRANCH",
-    "GULSHAN BRANCH",
-    "ISHWARGANJ BRANCH",
-    "ISLAMPUR BRANCH",
-    "JAMALPUR BRANCH",
-    "JESSORE BRANCH",
-    "JHENAIDAH BRANCH",
-    "JHIKARGACHA BRANCH",
-    "JORARGANJ BRANCH",
-    "JUBILEE ROAD BRANCH",
-    "KARWAN BAZAR BRANCH",
-    "KDA AVENUE BRANCH",
-    "KERANIGANJ BRANCH",
-    "KHATUNGONJ BRANCH",
-    "KHULNA BRANCH",
-    "KOTALIPARA BRANCH",
-    "KUSHTIA BRANCH",
-    "MADHABDI BRANCH",
-    "MAIN BRANCH",
-    "MATHBARIA BRANCH",
-    "MATUAIL BRANCH",
-    "MAWNA BRANCH",
-    "MIRPUR BAZAR BRANCH",
-    "MIRPUR BRANCH",
-    "MOHIPUR BRANCH",
-    "MOULVIBAZAR BRANCH",
-    "MUKTARPUR BRANCH",
-    "MYMENSINGH BRANCH",
-    "NARSINGDI BRANCH",
-    "NATORE BRANCH",
-    "PAHARTOLI BRANCH",
-    "PATHERHAT BRANCH",
-    "RAJSHAHI BRANCH",
-    "RANGPUR BRANCH",
-    "SAIDPUR BRANCH",
-    "SATKHIRA BRANCH",
-    "SAVAR BRANCH",
-    "SHANTINAGAR BRANCH",
-    "SHOLASHAHAR BRANCH",
-    "SHYAMOLI BRANCH",
-    "SIRAJGANJ BRANCH",
-    "SONARPARA BRANCH",
-    "TANBAZAR BRANCH",
-    "TUNGIPARA BRANCH",
-    "UTTARA BRANCH",
-    "ZINDABAZAR BRANCH"
+  "branch": [
+    {
+      "HO & Branches": [
+        "NOC/ Foreign Leave",
+        "https://basicbankplc.com/en/page-details/noc-foreign-leave",
+        null
+      ]
+    },
+    {
+      "Branch Code: 01": [
+        "Sena Kalyan Bhaban (5th Floor)",
+        null,
+        "02-223388190; 02-9564829; 055272683"
+      ]
+    },
+    {
+      "Branch In-Charges": [
+        "About Bank",
+        null,
+        null
+      ]
+    },
+    {
+      "AGRABAD BRANCH": [
+        null,
+        null,
+        "01711208588; 02-333320041"
+      ]
+    },
+    {
+      "ASADGONJ BRANCH": [
+        null,
+        null,
+        "01713257428; 031-614569"
+      ]
+    },
+    {
+      "BABUBAZAR BRANCH": [
+        null,
+        null,
+        "01911194024; 02-57393875"
+      ]
+    },
+    {
+      "BANANI BRANCH": [
+        null,
+        null,
+        "01717712552; 02-8833402"
+      ]
+    },
+    {
+      "BANGSHAL BRANCH": [
+        null,
+        null,
+        "01911365850; 02-223383686"
+      ]
+    },
+    {
+      "BARISAL BRANCH": [
+        null,
+        null,
+        "01715398334; 02-478862682"
+      ]
+    },
+    {
+      "BASHUNDHARA BRANCH": [
+        null,
+        null,
+        "01714445744; 02-8419650"
+      ]
+    },
+    {
+      "BELKUCHI BRANCH": [
+        "Senior Principal Officer",
+        null,
+        "01713257445; 017125502360; 0247318217; 0247318240"
+      ]
+    },
+    {
+      "BOGRA BRANCH": [
+        null,
+        null,
+        "01718280408"
+      ]
+    },
+    {
+      "CEPZ BRANCH": [
+        null,
+        null,
+        "01711888367; 031-740094"
+      ]
+    },
+    {
+      "CHANDPUR BRANCH": [
+        null,
+        null,
+        "01673639935; 02-334487201"
+      ]
+    },
+    {
+      "CHAPAINAWABGANJ BRANCH": [
+        null,
+        null,
+        "01713257419; 02-588892580"
+      ]
+    },
+    {
+      "CHIRIRBANDAR BRANCH": [
+        null,
+        null,
+        "01712247100; 0532656136; 0532656284"
+      ]
+    },
+    {
+      "CHITALMARI BRANCH": [
+        null,
+        null,
+        "01717667125; 04652-56035"
+      ]
+    },
+    {
+      "CHOWMUHANA BRANCH": [
+        null,
+        null,
+        "01711427722; 0861-53238"
+      ]
+    },
+    {
+      "COMILLA BRANCH": [
+        null,
+        null,
+        "01713365080; 02334403444"
+      ]
+    },
+    {
+      "COX'S BAZAR BRANCH": [
+        "Assistant General Manager",
+        null,
+        "01817207721; 0341-63585"
+      ]
+    },
+    {
+      "DEWANHAT BRANCH": [
+        null,
+        null,
+        "01719171737; 02-333322480-2"
+      ]
+    },
+    {
+      "DHAKA CANTONMENT BRANCH": [
+        null,
+        null,
+        "01714040699; 02-8871159"
+      ]
+    },
+    {
+      "DHANMONDI BRANCH": [
+        null,
+        null,
+        "01720039232; 02-41061745"
+      ]
+    },
+    {
+      "DILKUSHA BRANCH": [
+        null,
+        null,
+        "01711595484; 02-223383794"
+      ]
+    },
+    {
+      "DOHAZARI BRANCH": [
+        null,
+        null,
+        "01611656677; 04439009133"
+      ]
+    },
+    {
+      "ELENGA BRANCH": [
+        null,
+        null,
+        "01718461499"
+      ]
+    },
+    {
+      "FAKIRHAT BRANCH": [
+        null,
+        null,
+        "01716117489; 04653-56340"
+      ]
+    },
+    {
+      "FARIDPUR BRANCH": [
+        null,
+        null,
+        "01712110018; 0631-67228"
+      ]
+    },
+    {
+      "FENI BRANCH": [
+        null,
+        null,
+        "01716734080; 0331-63303"
+      ]
+    },
+    {
+      "GAZIPUR CHOWRASTA BRANCH": [
+        null,
+        null,
+        "01712790188; 02-49263115"
+      ]
+    },
+    {
+      "GULSHAN BRANCH": [
+        null,
+        null,
+        "01730084080"
+      ]
+    },
+    {
+      "ISHWARGANJ BRANCH": [
+        null,
+        null,
+        "01721821432; 0902-756153"
+      ]
+    },
+    {
+      "ISLAMPUR BRANCH": [
+        null,
+        null,
+        "01717712552; 02-57394422"
+      ]
+    },
+    {
+      "JAMALPUR BRANCH": [
+        null,
+        null,
+        "01711577929; 02-997773488"
+      ]
+    },
+    {
+      "JESSORE BRANCH": [
+        null,
+        null,
+        "01771248464; 02477765047"
+      ]
+    },
+    {
+      "JHENAIDAH BRANCH": [
+        null,
+        null,
+        "01713244888"
+      ]
+    },
+    {
+      "JHIKARGACHA BRANCH": [
+        null,
+        null,
+        "01710441923; 04225-71635; 04225-71636"
+      ]
+    },
+    {
+      "JORARGANJ BRANCH": [
+        "HossainShak@basicbanklimited",
+        null,
+        "01674815575"
+      ]
+    },
+    {
+      "JUBILEE ROAD BRANCH": [
+        null,
+        null,
+        "01711888371; 0241361078-80"
+      ]
+    },
+    {
+      "KARWAN BAZAR BRANCH": [
+        null,
+        null,
+        "01787331122; 02-550-11622"
+      ]
+    },
+    {
+      "KDA AVENUE BRANCH": [
+        null,
+        null,
+        "01715351717; 02-477729924"
+      ]
+    },
+    {
+      "KERANIGANJ BRANCH": [
+        null,
+        null,
+        "01745922062; 02-7764283"
+      ]
+    },
+    {
+      "KHATUNGONJ BRANCH": [
+        null,
+        null,
+        "01712433522; 02-6651344; 02-6651343"
+      ]
+    },
+    {
+      "KHULNA BRANCH": [
+        "Assistant General Manager",
+        null,
+        "01915890317; 041-720361"
+      ]
+    },
+    {
+      "KOTALIPARA BRANCH": [
+        null,
+        null,
+        "01811481283; 02-478824070-72"
+      ]
+    },
+    {
+      "KUSHTIA BRANCH": [
+        null,
+        null,
+        "01685237577"
+      ]
+    },
+    {
+      "MADHABDI BRANCH": [
+        null,
+        null,
+        "01710897121; 02-9446984"
+      ]
+    },
+    {
+      "MATHBARIA BRANCH": [
+        null,
+        null,
+        "01857229229; 04625-75896; 04625-75897"
+      ]
+    },
+    {
+      "MATUAIL BRANCH": [
+        null,
+        null,
+        "01924286620; 02-7559797"
+      ]
+    },
+    {
+      "MAWNA BRANCH": [
+        "Senior Principal Officer",
+        null,
+        "01616606707; 0682-551155"
+      ]
+    },
+    {
+      "MIRPUR BAZAR BRANCH": [
+        null,
+        null,
+        "01711189324; 01714166946"
+      ]
+    },
+    {
+      "MIRPUR BRANCH": [
+        null,
+        null,
+        "01713257457; 02-48033320-21"
+      ]
+    },
+    {
+      "MOHIPUR BRANCH": [
+        null,
+        null,
+        "01731235553; 01713257450"
+      ]
+    },
+    {
+      "MOULVIBAZAR BRANCH": [
+        null,
+        null,
+        "01714263474; 02-57315356"
+      ]
+    },
+    {
+      "MUKTARPUR BRANCH": [
+        null,
+        null,
+        "01715106342; 02-997731490"
+      ]
+    },
+    {
+      "MYMENSINGH BRANCH": [
+        null,
+        null,
+        "01714166934; 02996668617"
+      ]
+    },
+    {
+      "NARSINGDI BRANCH": [
+        null,
+        null,
+        "01715955252; 02-9452445"
+      ]
+    },
+    {
+      "NATORE BRANCH": [
+        null,
+        null,
+        "01712265766; 02-588873374"
+      ]
+    },
+    {
+      "PAHARTOLI BRANCH": [
+        "Assistant General Manager",
+        null,
+        "01718991451; 02-43150001"
+      ]
+    },
+    {
+      "PATHERHAT BRANCH": [
+        "Senior Principal Officer",
+        null,
+        "01919267835; 031-2573404"
+      ]
+    },
+    {
+      "RAJSHAHI BRANCH": [
+        null,
+        null,
+        "01716225478; 02-588860976; 02-588856278"
+      ]
+    },
+    {
+      "RANGPUR BRANCH": [
+        null,
+        null,
+        "01741695898; 02-589962082"
+      ]
+    },
+    {
+      "SATKHIRA BRANCH": [
+        null,
+        null,
+        "01712503708; 02-477741775"
+      ]
+    },
+    {
+      "SAVAR BRANCH": [
+        "Khaled Md. Aktharul Haq Khan",
+        null,
+        "01716000332; 02-224445581"
+      ]
+    },
+    {
+      "SHANTINAGAR BRANCH": [
+        null,
+        null,
+        "01713488882; 02-222223062"
+      ]
+    },
+    {
+      "SHOLASHAHAR BRANCH": [
+        null,
+        null,
+        "01819538640; 02-334454066"
+      ]
+    },
+    {
+      "SHYAMOLI BRANCH": [
+        null,
+        null,
+        "01713257405; 02-41022814"
+      ]
+    },
+    {
+      "SONARPARA BRANCH": [
+        null,
+        null,
+        "01713444235; 01714166927"
+      ]
+    },
+    {
+      "TUNGIPARA BRANCH": [
+        "Muhammad Iqbal Hasan Khan",
+        null,
+        "01716448289; 02-6656465"
+      ]
+    },
+    {
+      "UTTARA BRANCH": [
+        null,
+        null,
+        "01730084078; 02-7911303"
+      ]
+    },
+    {
+      "ZINDABAZAR BRANCH": [
+        "Senior Principal Officer",
+        null,
+        "01711228348; 02-996634317"
+      ]
+    }
   ],
-  "branch_address": [
-    "HEAD OFFICE Sena Kalyan Bhaban (5th Floor) 195 Motijheel C/A, Dhaka-1000 Tel: 02-223388190, 223384830, 223359185-86(NEC), 223359589-90 Fax: 02-9564829 SWIFT: BKSIBDDH Routing No: 055272683 Branch Code: 01 E-mail: basicho@basicbanklimited.com",
-    "BASIC BANK TRAINING INSTITUTE (BBTI) Gause Pak Biponi Bitan 28/G/1, Toyenobi Circular Road Motijheel C/A, Dhaka 1000 Tel: 02-47119579, 9131609 Fax: 02-9131623 E-mail: basicti@basicbanklimited.com",
-    "ASADGONJ BRANCH M.A. Salam Market 774, Asadgonj, Chattogram-4100 Tel: 031-614569, 632112, 614942 Fax: 031-614942 SWIFT: BKSIBDDH016 Routing No: 055150589 Branch Code: 16 E-mail: asadgonj@basicbanklimited.com",
-    "BANANI BRANCH 6, Kemal Ataturk Avenue, Banani-1213 Tel: 02-8833402, 8833403, 8833407 Fax: 02-8833035 SWIFT: Routing No: 055260437 Branch Code: 47 E-mail: banani@basicbanklimited.com",
-    "BASHUNDHARA BRANCH Sayed Ali Super Market (1st Floor), Holding:Ka-11/2D, Jagannathpur,Bashundhara Road,Vatara,Dhaka-1229. Tel: 02-8419650, 8419657, 8419658 Fax: 02-8432495 SWIFT: Routing No: 055260558 Branch Code: 49 E-mail: bashundhara@basicbanklimited.com",
-    "BOGRA BRANCH Bhabani Shachin Bhaban Hari Dashi Market, 120 Baragola, Bogura-5800 Tel: 051-78793, 65672 Fax: 051-6572/111 SWIFT: BKSIBDDH012 Routing No: 055100371 Branch Code: 12 E-mail: bogra@basicbanklimited.com",
-    "CEPZ BRANCH Islam Plaza, M A Aziz Road, Beside C.E.P.Z. South Halishahar, Chattogram-4100 Tel: +8802-333340094, 333340546, 333340733 Fax: 031-800512 SWIFT: Routing No: 055151575 Branch Code: 25 E-mail: cepz@basicbanklimited.com",
-    "CHAPAINAWABGANJ BRANCH Holding No.- 449, Huzrapur Road, Chapainawabganj Tel: 02-588892580, 588892770 Fax: 0781-51585 SWIFT: Routing No: 055700250 Branch Code: 54 E-mail: chapainawabganj@basicbanklimited.com",
-    "CHITALMARI BRANCH Meem Surgical Clinic, Vill: Aruaborni, Shaheed Minar Road, Chitalmari, Bagerhat Tel: 04652-56035 Fax: 04652-56025 SWIFT: Routing No: 055010229 Branch Code: 44 E-mail: chitalmari@basicbanklimited.com",
-    "COMILLA BRANCH Holding No.- 03, A.M.D. Complex Market, Chatipatty, Rajgonj, Cumilla-3500 Tel: 02334403444 (Direct), 02334405886 Fax: 081-71444 SWIFT: Routing No: 055191151 Branch Code: 17 E-mail: comilla@basicbanklimited.com",
-    "DEWANHAT BRANCH 4/B D.T. Road, Postarpar Dewanhat, Chattogram-4100 Tel: 02-333322480-2 Fax: 031-2512482 SWIFT: Routing No: 055152440 Branch Code: 30 E-mail: dewanhat@basicbanklimited.com",
-    "DHANMONDI BRANCH Kasba Center (Ground Floor), South Side of Lab Aid Cardiac Hospital House No-5/2, Road No-4, Mirpur Road, Dhanmondi, Dhaka. Tel: 02-41061745, 41061746, 41061748, 41061749 Fax: 02-9676156/101 SWIFT: Routing No: 055261186 Branch Code: 28 E-mail: dhanmondi@basicbanklimited.com",
-    "DOHAZARI BRANCH Janakalyan Tower (1st floor), Main Raod, Dohazari, Chandanaish, Chattogram Tel: 04439009133 Fax: SWIFT: Routing No: 055152561 Branch Code: 59 E-mail: dohazari@basicbanklimited.com",
-    "FAKIRHAT BRANCH Sheikh Matiur Rahman Market Old Dhaka Road, Fakirhat, Bagerhat Tel: 04653-56340 Fax: 04653-56339 SWIFT: Routing No: 055010461 Branch Code: 43 E-mail: fakirhat@basicbanklimited.com",
-    "FENI BRANCH Boro Masjid Market (1st Floor), Trunk Road, Feni. Tel: +8802334474074, +8802334474303 Mobile no. +8801817055793 SWIFT: Routing No: 055300526 Branch Code: 72 E-mail:feni@basicbanklimited.com",
-    "GULSHAN BRANCH 33, Gulshan South Commercial Area, Gulshan Circle-1, Dhaka Tel: 9883501-2, 9899923, 9899927 Fax: 02-8857307 SWIFT: BKSIBDDH021 Routing No: 055261728 Branch Code: 21 E-mail: gulshan@basicbanklimited.com",
-    "ISLAMPUR BRANCH 6-7, Islampur Road (2nd floor), Islampur Dhaka-1100 Tel: 02-57394422, 02-57394722 Fax: 02-7394799 SWIFT: Routing No: 055272988 Branch Code: 39 E-mail: islampur@basicbanklimited.com",
-    "JESSORE BRANCH NLI Tower-04, Holding no-142, Deshbandhu Chittaranjan Road, Chowrasta, P.O- Jashore Sadar, P.S- Kotwali, Jashore Tel: 0421-68586, 64288 Fax: 0421-68587 SWIFT: Routing No: 055410940 Branch Code: 18 E-mail: jessore@basicbanklimited.com",
-    "JHIKARGACHA BRANCH Samad Market, Krishnanagar, Jhikargacha Jashore Tel: 04225-71635, 04225-71636 Fax: 04225-71655 SWIFT: Routing No: 055411099 Branch Code: 48 E-mail: jhikargacha@basicbanklimited.com",
-    "JUBILEE ROAD BRANCH G.R. Plaza, 5 Jubilee Road Chattogram-4100 Tel: 031-634879, 638305 Fax: 031-2851738 SWIFT: BKSIBDDH013 Routing No: 055153649 Branch Code: 13 E-mail: jubileeroad@basicbanklimited.com",
-    "KDA AVENUE BRANCH Al-Mumin Centre(1st floor), 58, KDA Avenue Sonadanga, Khulna-9100 Tel: 02-477729924, 477729709, 477723118, 477729920 Fax: 041-2832709 SWIFT: Routing No: 055471400 Branch Code: 42 E-mail: kdaavenue@basicbanklimited.com",
-    "KHATUNGONJ BRANCH 193 Khatungonj, Chitagong-4000 Tel: 031-614200, 614280 Fax: 031-622435 SWIFT: BKSIBDDH004 Routing No: 055154277 Branch Code: 04 E-mail: khatungonj@basicbanklimited.com",
-    "KOTALIPARA BRANCH Holding No # 548 & 549, Hazi Tayob Ali Daria Super Market (1st Floor), Mohuar More, Ghaghor Bazar, Kotalipara, Gopalganj. Tel: 02-478824070-72 Fax: SWIFT: Routing No: 055350671 Branch Code: 50 E-mail: kotalipara@basicbanklimited.com",
-    "MADHABDI BRANCH N.D. Tower , Holding no # 248/1, Algi Road, Madhabdi, Narsingdi Tel: 02-9446984, 9446985 Fax: 02-9446987 SWIFT: Routing No: 055680688 Branch Code: 37 E-mail: madhabdi@basicbanklimited.com",
-    "MATHBARIA BRANCH Hatem Ali Plaza, 407, Kapuria Patti Sarok, Ward No.04, Pouroshova & Thana: Mathbaria, Pirojpur Tel: 04625-75896, 04625-75897 Fax: 04625-75898 SWIFT: Routing No: 055790523 Branch Code: 57 E-mail: mathbaria@basicbanklimited.com",
-    "MAWNA BRANCH Hamida Complex, Telihati Sripur, Gazipur-1741 Tel: 0682-551155 Fax: 0682-552666 SWIFT: Routing No: 055331003 Branch Code: 41 E-mail: mawna@basicbanklimited.com",
-    "MIRPUR BAZAR BRANCH Chowdhury Complex, Dhulia Khal Road, Mirpur Bazar, Bahubal, Habiganj Tel: Fax: SWIFT: Routing No: 055360137 Branch Code: 62 E-mail: mirpurbazar@basicbanklimited.com",
-    "MOULVIBAZAR BRANCH Gulbadan Market (1st Floor) 4 Moulvibazar, Dhaka-1211 Tel: 02-57315356, 57316991 Fax: 02-7341740 SWIFT: BKSIBDDH024 Routing No: 055274423 Branch Code: 10 E-mail: moulvibazar@basicbanklimited.com",
-    "MYMENSINGH BRANCH 76/A, Chhoto Bazar Road Mymenshingh-2200 Tel: 091-51612, 51613, 51617 Fax: 091-51614 SWIFT: Routing No: 055611752 Branch Code: 52 E-mail: mymensingh@basicbanklimited.com",
-    "NATORE BRANCH Holding No.- 327, Rosy Market Station Bazar, Natore Tel: 02-588873374, 588873574 Fax: 0771-66572 SWIFT: Routing No: 055691093 Branch Code: 55 E-mail: natore@basicbanklimited.com",
-    "PATHERHAT BRANCH Ibrahim Soban Tower, Patherhat, Noapara, Raozan, (Kaptai Road), Chattogram Tel: 031-2573404, 2573406 Fax: SWIFT: Routing No: 055156138 Branch Code: 60 E-mail: patherhat@basicbanklimited.com",
-    "RANGPUR BRANCH 97/1, Central Point, Central Road, Rangpur-5400 Tel: 02-589962082, 589962083 Fax: 0521-67813 SWIFT: Routing No: 055851459 Branch Code: 32 E-mail: rangpur@basicbanklimited.com",
-    "SATKHIRA BRANCH 12478(Old), Itagacha Bazar Mor, Sultanpur Bara Bazar Road, Satkhira-9400 Tel: 02-477741775, 477741776 (Direct) Fax: 0471-64012 SWIFT: Routing No: 055871097 Branch Code: 51 E-mail: satkhira@basicbanklimited.com",
-    "SHANTINAGAR BRANCH Green City Regency, 26, 27, 27/1, Kakrail, Dhaka Tel: 02-222223062, 63, 64, 66, 67 Fax: 02-9332674 SWIFT: BKSIBDDH009 Routing No: 055276342 Branch Code: 09 E-mail: shantinagar@basicbanklimited.com",
-    "SHYAMOLI BRANCH House# 24/1, Mohammadpur Housing Estate Block B, Ring Road, Shyamoli, Dhaka-1207 Tel: 02-41022814 (Direct), 41022815, 41022816 Fax: 02-9120516 SWIFT: Routing No: 055264309 Branch Code: 53 E-mail: shyamoli@basicbanklimited.com",
-    "SONARPARA (RAYNAGAR) BRANCH 61, Monsuf-Rowshan Plaza, Sylhet-Tamabil Road, Raynagar, Sonarpara, Sylhet Tel: 02-996636472, 996636487 Fax: SWIFT: Routing No: 055913450 Branch Code: 58 E-mail: sonarpara@basicbanklimited.com",
-    "TUNGIPARA BRANCH 220, Powra Super Market, Patgati Bazar Tungipara, Gopalganj Tel: 02-6656465 Fax: 02-6656466 SWIFT: Routing No: 055351096 Branch Code: 34 E-mail: tungipara@basicbanklimited.com",
-    "ZINDABAZAR BRANCH Wahid View (1st floor) 5477 East Zindabazar, Sylhet-3100 Tel: 02-996634317, 996633548 Fax: 0821-712548 SWIFT: BKSIBDDH026 Routing No: 055914154 Branch Code: 07 E-mail: zindabazar@basicbanklimited.com",
-    "About Bank",
-    "alamdi@basicbanklimited.com",
-    "hossainak@basicbanklimited.com",
-    "ahamads@basicbanklimited.com",
-    "ZamanSy@basicbanklimited.com",
-    "sahidab@basicbanklimited.com",
-    "biswassu@basicbanklimited.com",
-    "SayedS@basicbanklimited.com",
-    "alaminm@basicbanklimited.com",
-    "rashidak@basicbanklimited.com",
-    "alamjo@basicbanklimited.com",
-    "faruko@basicbanklimited.com",
-    "hossainmosh@basicbanklimited.com",
-    "mamunmo@basicbanklimited.com",
-    "karimr@basicbanklimited.com",
-    "chowdhurymo@basicbanklimited.com",
-    "alamkho@basicbanklimited.com",
-    "Assistant General Manager",
-    "rahmanz@basicbanklimited.com",
-    "rahmanf@basicbanklimited.com",
-    "jahangirm@basicbanklimited.com",
-    "rahmansm@basicbanklimited.com",
-    "RahmanMas@basicbankplc.com",
-    "hossainam@basicbanklimited.com",
-    "AhmedMu@basicbanklimited.com",
-    "KhanKa@basicbanklimited.com",
-    "afcharn@basicbanklimited.com",
-    "rahmanatau@basicbanklimited.com",
-    "Tel: 9883501-2, 9899923, 9899927",
-    "islamshaf@basicbanklimited.com",
-    "islamraf@basicbanklimited.com",
-    "TalukderG@basicbanklimited.com",
-    "rahmanha@basicbanklimited.com",
-    "hossenb@basicbanklimited.com",
-    "KhaliduzzamanA@basicbanklimited.com",
-    "HossainShak@basicbanklimited",
-    "sampsond@basicbanklimited.com",
-    "RahmanMati@basicbanklimited.com",
-    "Assistant General Manager",
-    "rahmanr@basicbanklimited.com",
-    "chowdhurym@basicbanklimited.com",
-    "rubelan@basicbanklimited.com",
-    "rahmanmahfu@basicbanklimited.com",
-    "salama@basicbanklimited.com",
-    "kabirhum@basicbanklimited.com",
-    "talukderk@basicbanklimited.com",
-    "mondalm@basicbanklimited.com",
-    "sakibs@basicbanklimited.com",
-    "Senior Principal Officer",
-    "choudhurm@basicbankplc.com",
-    "rashidk@basicbanklimited.com",
-    "KarimRez@basicbanklimited.com",
-    "talukderm@basicbanklimited.com",
-    "mahmoodm@basicbanklimited.com",
-    "roysu@basicbanklimited.com",
-    "shahajadat@basicbanklimited.com",
-    "Sarkera@basicbanklimited.com",
-    "Assistant General Manager",
-    "Senior Principal Officer",
-    "sardara@basicbanklimited.com",
-    "rahmanmah@basicbanklimited.com",
-    "mdghulamshafikhan@gmail.com",
-    "mrityunjoygayen.bd@gmail.com",
-    "Khaled Md. Aktharul Haq Khan",
-    "newazk@basicbanklimited.com",
-    "ershadg@basicbanklimited.com",
-    "hossainsaz@basicbanklimited.com",
-    "faruquea@basicbanklimited.com",
-    "zamane@basicbanklimited.com",
-    "munirs@basicbanklimited.com",
-    "Muhammad Iqbal Hasan Khan",
-    "rahmansal@basicbanklimited.com",
-    "Senior Principal Officer"
-  ],
-  "branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "branch_contact_number": [
-    "02-223388190; 02-9564829; 055272683",
-    "02-47118961",
-    "02-333320041; 031-714822; 055150134",
-    "02-57393875; 02-7342989; 02-7341828; 055270551",
-    "02-223383686; 02-9557141; 055270885",
-    "0247318217; 0247318240; 0247318239; 055880220",
-    "02-478862682; 0431-61022; 055060282",
-    "02-334487201; 02-334487203; 055130312",
-    "0532656136; 0532656284; 055280525",
-    "02-996683238; 0861-53060; 055580375",
-    "0341-63585; 0341-63580; 0341-63589; 055220251",
-    "02-8871159; 02-8871858; 055260732",
-    "02-223383794; 02-9587150; 055271905",
-    "055930820",
-    "0631-67228; 0631-67230; 055290528",
-    "02-224423490; 02-49263197; 055330554",
-    "0902-756153; 0902-756152; 055611181",
-    "02-997773488; 055390857",
-    "02477747188; 0451-62885; 055440644",
-    "055153610",
-    "02-550-11622; 02-9146364; 055262530",
-    "02-7764283; 055273640",
-    "041-720361; 041-812255; 055471547",
-    "055500942",
-    "02-9563068; 02-9569417; 055271789",
-    "02223309025; 02223309161; 02223309162; 02-7559025; 055274007",
-    "02-48033320-21; 02-9011732; 055262985",
-    "01713257450; 055780854",
-    "02-997731490; 055591001",
-    "02-9463145; 02-9452445; 02-9451631; 055680859",
-    "02-43150001; 02-43150558; 055155926",
-    "02-588856278; 0721-770976; 055811936",
-    "02-589957580; 02-589957581; 055730796",
-    "02-224445581; 02-7745581; 055264091",
-    "02-334454066; 02-334455304; 055157337",
-    "02-588831648; 0751-64357; 055102890",
-    "8802-224437899; 02-7647161; 055671789",
-    "02-7911303; 02-8961031; 055264633",
-    null,
-    "01711208588; 02-333320041",
-    "01713257428; 031-614569",
-    "01911194024; 02-57393875",
-    "01720039232; 02-8833402",
-    "01911365850; 02-223383686",
-    "01715398334; 02-478862682",
-    "01714445744; 02-8419650",
-    "01712502360; 0247318217; 0247318240",
-    "01718280408",
-    "01711888367; 031-740094",
-    "01673639935; 02-334487201",
-    "01713257419; 02-588892580",
-    "01712247100; 0532656136; 0532656284",
-    "01717667125; 04652-56035",
-    "01711427722; 0861-53238",
-    "01713365080; 02334403444",
-    "01817207721; 0341-63585",
-    "01719171737; 02-333322480-2",
-    "01714040699; 02-8871159",
-    "01730084089; 02-41061745",
-    "01711595484; 02-223383794",
-    "01611656677; 04439009133",
-    "01718461499",
-    "01716117489; 04653-56340",
-    "01712110018; 0631-67228",
-    "01716734080; 0331-63303",
-    "01712790188; 02-49263115",
-    "01730084080",
-    "01721821432; 0902-756153",
-    "01717712552; 02-57394422",
-    "01711577929; 02-997773488",
-    "01771248464; 02477765047",
-    "01713244888",
-    "01710441923; 04225-71635; 04225-71636",
-    "01674815575",
-    "01711888371; 0241361078-80",
-    "01787331122; 02-550-11622",
-    "01915890317; 02-477729924",
-    "01745922062; 02-7764283",
-    "01712433522; 02-6651344; 02-6651343",
-    "01714048530; 041-720361",
-    "01811481283; 02-478824070-72",
-    "01685237577",
-    "01710897121; 02-9446984",
-    "01712016350; 02-9563068",
-    "01857229229; 04625-75896; 04625-75897",
-    "01924286620; 02-7559797",
-    "01616606707; 0682-551155",
-    "01711189324; 01714166946",
-    "01713257457; 02-48033320-21",
-    "01731235553; 01713257450",
-    "01714263474; 02-57315356",
-    "01715106342; 02-997731490",
-    "01714166934; 02996668617",
-    "01715955252; 02-9452445",
-    "01712265766; 02-588873374",
-    "01718991451; 02-43150001",
-    "01919267835; 031-2573404",
-    "01716225478; 02-588860976; 02-588856278",
-    "01741695898; 02-589962082",
-    "01819161272; 02-589957580",
-    "01712503708; 02-477741775",
-    "01716000332; 02-224445581",
-    "01713488882; 02-222223062",
-    "01819538640; 02-334454066",
-    "01713257405; 02-41022814",
-    "01713365057; 02-588831648",
-    "01713444235; 01714166927",
-    "01712498439",
-    "01716448289; 02-6656465",
-    "01730084078; 02-7911303",
-    "01711228348; 02-996634317"
-  ],
-  "sub_branch_name": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "Pabna Sub-Branch under Natore Branch Mr. Md. Abdus Satter Senior Officer Mob: 01716-836718 Tel: Sub-Branch Code: 318 Email: pabna@basicbanklimited.com",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "Suapur Sub-Branch under Savar Branch Mr. Asif Parvez Senior Officer Mob: 01813338779 Tel: Sub-Branch Code: 330 Email: suapur@basicbanklimited.com",
-    null,
-    null,
-    "Hajigonj Sub-Branch under Chandpur Branch N/A Officer Mob: Tel: Sub-Branch Code: 336 Email:",
-    null,
-    "HO & Branches"
-  ],
-  "sub_branch_address": [
-    "Dhaka Commerce College Road Sub-Branch under Mirpur Branch Ms. Iffat Ara Hossain Principal Officer Mob: 01753572167 Tel: 02-58054414 Sub-Branch Code: 302 Email: dhakacommercecollegeroad @basicbanklimited.com",
-    "Parbatipur Sub-Branch under Saidpur Branch Mr. Md. Alamgir Kabir Principal Officer Mob: 01716763106 Tel: Sub-Branch Code: 304 Email: parbatipur@basicbanklimited.com",
-    "Gandaria Sub-Branch under Bangshal Branch Mr. Sheikh Mohammad Ferdous Principal Officer Mob: 01733774027 Tel: Sub-Branch Code: 306 Email: gandaria@basicbanklimited.com",
-    "Ranir Bazar Sub-Branch under Comilla Branch Mr. Mohammad Quamrul Hasan Senior Principal Officer Mob: 01712613983 Tel: Sub-Branch Code: 308 Email: ranirbazar@basicbanklimited.com",
-    "Jhalakathi Sub-Branch under Barisal Branch Mr. Pankaj Chandra Das Senior Officer Mob: 01711006455, 01818346510 Tel: 02-478875877 Sub-Branch Code: 310 Email: jhalakathi@basicbanklimited.com",
-    "Savar Sub-Branch under Savar Branch Mr. Mohammad Rashidul Hasan Seniorl Officer Mob: 01711368371 Tel: Sub-Branch Code: 312 Email: SavarSubBranch@basicbanklimited.com",
-    "Uttarkhan Sub-Branch under Uttara Branch Mr. Mohammad Touhid-Al-Amin Senior Officer Mob: 01918322819 Tel: Sub-Branch Code: 314 Email: uttarkhan@basicbanklimited.com",
-    "Poisherhat Sub-Branch under Kotalipara Branch Mr. Shekh Rasel Ahmed Senior Officer Mob: 01732061690 Tel: Sub-Branch Code: 316 Email: paisarhat@basicbanklimited.com",
-    null,
-    "Chuadanga Sub-Branch under Kushtia Branch Mr. Khan Shabbir Ferdous Senior Officer Mob: 01601-084087, 01714-502868 Tel: Sub-Branch Code: 320 Email: Chuadanga@basicbanklimited.com",
-    "Kurigram Sub-Branch under Rangpur Branch Mr. Md. Mokhlesur Rahman Principal Officer Mob: 01717951978 Tel: Sub-Branch Code: 322 Email: kurigram@basicbanklimited.com",
-    "Lebukhali Sub-Branch under Barisal Branch Mr. Md. Ekramul Ehsan Laskar Senior Officer Mob: 01719765321 Tel: Sub-Branch Code: 324 Email: lebukhali@basicbanklimited.com",
-    "Patuakhali Sub-Branch under Mohipur Branch Mr. Selim Reza Senior Officer Mob: 01717286531 Tel: Sub-Branch Code: 326 Email: patuakhali@basicbanklimited.com",
-    "Dhantara Bazar Sub-Branch under Savar Branch Mr. Jewel Hossain Senior Officer Mob: 01916505025 Tel: Sub-Branch Code: 328 Email: dhantarabazar@basicbanklimited.com",
-    null,
-    "Manikganj Sub-Branch under Savar Branch Mr. Mohammad Safiuddin Senior Principal Officer Mob: 01741719989 Tel: Sub-Branch Code: 332 Email: manikganj@basicbanklimited.com",
-    "Nabagram Bazar Sub-Branch under Savar Branch Mr. Md. Atikul Islam Principal Officer Mob: 01717144998 Tel: Sub-Branch Code: 334 Email: nobogrambazar@basicbanklimited.com",
-    null,
-    "Joymondop High School Sub-Branch under Savar Branch Mr. Mohammad Sharfuzzaman Officer Mob: 01715054424 Tel: Sub-Branch Code: 338 Email: joymontop@basicbanklimited.com",
-    "NOC/ Foreign Leave"
-  ],
-  "sub_branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "https://basicbankplc.com/en/page-details/noc-foreign-leave"
-  ],
-  "sub_branch_contact_number": [
-    "01722044328",
-    "01918108380",
-    "01714967206",
-    "01780161322; 02-224405777",
-    "01752195970; 02-477734333",
-    "01717825935",
-    "01743688868",
-    "01911868272",
-    "01712363758",
-    "01716406139; 01733677533",
-    "01724-095304; 01721-331517; 02-478821795",
-    "01868082051",
-    "01711194595; 02-478882279",
-    "01712233658",
-    "01925224512",
-    "01682835053",
-    "01688067956",
-    "01688118084",
-    "01788758990",
-    null
-  ],
-  "duration_sec": 23.7
+  "sub_branch": [
+    {
+      "Agargaon Sub-Branch": [
+        "under Main Branch Mr. Md. Jamrul Islam Principal Officer Mob:01722044328 Tel: Sub-Branch Code: 301",
+        null,
+        "01722044328"
+      ]
+    },
+    {
+      "Dhaka Commerce College Road Sub-Branch": [
+        "under Mirpur Branch Ms. Iffat Ara Hossain Principal Officer Mob: 01753572167 Sub-Branch Code: 302",
+        null,
+        "01753572167; 02-58054414"
+      ]
+    },
+    {
+      "Dhaka Uddyan Sub-Branch": [
+        "under Shyamoli Branch Mr. Md. Jahidul Islam Senior Officer (cash) Mob: 01918108380 Tel: Sub-Branch Code: 303",
+        null,
+        "01918108380"
+      ]
+    },
+    {
+      "Parbatipur Sub-Branch": [
+        "under Saidpur Branch Mr. Md. Alamgir Kabir Principal Officer Mob: 01716763106 Tel: Sub-Branch Code: 304",
+        null,
+        "01716763106"
+      ]
+    },
+    {
+      "Aam Chattar Sub-Branch": [
+        "under Rajshahi Branch Mr. M d. Sohiduz Zaman Officer Mob: 01714967206 Tel: Sub-Branch Code: 305",
+        null,
+        "01714967206"
+      ]
+    },
+    {
+      "Gandaria Sub-Branch": [
+        "under Bangshal Branch Mr. Sheikh Mohammad Ferdous Principal Officer Mob: 01733774027 Tel: Sub-Branch Code: 306",
+        null,
+        "01733774027"
+      ]
+    },
+    {
+      "Banasree Mohila Sub-Branch": [
+        "under Karwan Bazar Branch Ms. Naznin Banu Shanta Principal Officer Mob: 01780161322 Sub-Branch Code: 307",
+        null,
+        "01780161322; 02-224405777"
+      ]
+    },
+    {
+      "Ranir Bazar Sub-Branch": [
+        "under Comilla Branch Mr. Mohammad Quamrul Hasan Senior Principal Officer Mob: 01712613983 Tel: Sub-Branch Code: 308",
+        null,
+        "01712613983"
+      ]
+    },
+    {
+      "Gallamari Sub-Branch": [
+        "under KDA Avenue Branch Mr. Md. Shariful Islam Senior Officer Mob: 01752195970 Sub-Branch Code: 309",
+        null,
+        "01752195970; 02-477734333"
+      ]
+    },
+    {
+      "Jhalakathi Sub-Branch": [
+        "under Barisal Branch Mr. Pankaj Chandra Das Senior Officer Mob: 01711006455, 01818346510 Sub-Branch Code: 310",
+        null,
+        "01711006455; 01818346510; 02-478875877"
+      ]
+    },
+    {
+      "Hazi Abdul Latif Bhuiyan Sub-Branch": [
+        "under Matuail Branch Mr. S. M. Faruk Hossain Senior Officer Mob: 01717825935 Tel: Sub-Branch Code: 311",
+        null,
+        "01717825935"
+      ]
+    },
+    {
+      "Savar Sub-Branch": [
+        "under Savar Branch Mr. Mohammad Rashidul Hasan Seniorl Officer Mob: 01711368371 Tel: Sub-Branch Code: 312",
+        null,
+        "01711368371"
+      ]
+    },
+    {
+      "Sonagazi Sub-Branch": [
+        "under Feni Branch Mr. Mohammad Nahiduzzaman Principal Officer Mob: 01743688868 Tel: Sub-Branch Code: 313",
+        null,
+        "01743688868"
+      ]
+    },
+    {
+      "Uttarkhan Sub-Branch": [
+        "under Uttara Branch Mr. Mohammad Touhid-Al-Amin Senior Officer Mob: 01918322819 Tel: Sub-Branch Code: 314",
+        null,
+        "01918322819"
+      ]
+    },
+    {
+      "Bhuschi Bazar Sub-Branch": [
+        "under Comilla Branch Mr. Mohammad Nurul Amin Officer Mob: 01911868272 Tel: Sub-Branch Code: 315",
+        null,
+        "01911868272"
+      ]
+    },
+    {
+      "Poisherhat Sub-Branch": [
+        "under Kotalipara Branch Mr. Shekh Rasel Ahmed Senior Officer Mob: 01732061690 Tel: Sub-Branch Code: 316",
+        null,
+        "01732061690"
+      ]
+    },
+    {
+      "Gaibandha Sub-Branch": [
+        "under Rangpur Branch Mr. Md. Isahak Ali Officer Mob: 01712363758 Tel: Sub-Branch Code: 317",
+        null,
+        "01712363758"
+      ]
+    },
+    {
+      "Pabna Sub-Branch": [
+        "under Natore Branch Mr. Md. Abdus Satter Senior Officer Mob: 01716-836718 Tel: Sub-Branch Code: 318",
+        null,
+        "01716-836718"
+      ]
+    },
+    {
+      "Shariatpur Sub-Branch": [
+        "under Kotalipara Branch Mr. Md. Rafiqul Islam Senior Officer Mob: 01716406139, 01733677533 Tel: Sub-Branch Code: 319",
+        null,
+        "01716406139; 01733677533"
+      ]
+    },
+    {
+      "Chuadanga Sub-Branch": [
+        "under Kushtia Branch Mr. Khan Shabbir Ferdous Senior Officer Mob: 01601-084087, 01714-502868 Tel: Sub-Branch Code: 320",
+        null,
+        "01601-084087; 01714-502868"
+      ]
+    },
+    {
+      "Gopalganj Sub-Branch": [
+        "under Tungipara Branch Mr. Mohammad Ali Officer Mob: 01724-095304, 01721-331517 Sub-Branch Code: 321",
+        null,
+        "01724-095304; 01721-331517; 02-478821795"
+      ]
+    },
+    {
+      "Kurigram Sub-Branch": [
+        "under Rangpur Branch Mr. Md. Mokhlesur Rahman Principal Officer Mob: 01717951978 Tel: Sub-Branch Code: 322",
+        null,
+        "01717951978"
+      ]
+    },
+    {
+      "Thakurgaon Sub-Branch": [
+        "under Chirirbandar Branch Mr. Md. Nazmul Haque Senior Officer Mob: 01868082051 Tel: Sub-Branch Code: 323",
+        null,
+        "01868082051"
+      ]
+    },
+    {
+      "Lebukhali Sub-Branch": [
+        "under Barisal Branch Mr. Md. Ekramul Ehsan Laskar Senior Officer Mob: 01719765321 Tel: Sub-Branch Code: 324",
+        null,
+        "01719765321"
+      ]
+    },
+    {
+      "Subidkhali Sub-Branch": [
+        "under Barisal Branch Mr. Khondoker Rayhanul Islam Senior Officer Mob: 01711194595 Sub-Branch Code: 325",
+        null,
+        "01711194595; 02-478882279"
+      ]
+    },
+    {
+      "Patuakhali Sub-Branch": [
+        "under Mohipur Branch Mr. Selim Reza Senior Officer Mob: 01717286531 Tel: Sub-Branch Code: 326",
+        null,
+        "01717286531"
+      ]
+    },
+    {
+      "Naogaon Sub-Branch": [
+        "under Bogra Branch Mr. Md. Rubyat Chowdhury Officer Mob: 01712233658 Tel: Sub-Branch Code: 327",
+        null,
+        "01712233658"
+      ]
+    },
+    {
+      "Dhantara Bazar": [
+        "Sub-Branch under Savar Branch Mr. Jewel Hossain Senior Officer Mob: 01916505025 Tel: Sub-Branch Code: 328",
+        null,
+        "01916505025"
+      ]
+    },
+    {
+      "Narail Sub-Branch": [
+        "under Jessore Branch Mr. Md. Abubakkar Siddique Senior Officer Mob: 01925224512 Tel: Sub-Branch Code: 329",
+        null,
+        "01925224512"
+      ]
+    },
+    {
+      "Daganbhuiyan Sub-Branch": [
+        "under Feni Branch Mr. Md. Amzad Ali Senior Officer Mob: 01682835053 Tel: Sub-Branch Code: 331",
+        null,
+        "01682835053"
+      ]
+    },
+    {
+      "Manikganj Sub-Branch": [
+        "under Savar Branch Mr. Mohammad Safiuddin Senior Principal Officer Mob: 01741719989 Tel: Sub-Branch Code: 332",
+        null,
+        "01741719989"
+      ]
+    },
+    {
+      "Meherpur Sub-Branch": [
+        "under Khustia Branch Mr. S.M. Shamim Senior Officer Mob: 01688067956 Tel: Sub-Branch Code: 333",
+        null,
+        "01688067956"
+      ]
+    },
+    {
+      "Nabagram Bazar Sub-Branch": [
+        "under Savar Branch Mr. Md. Atikul Islam Principal Officer Mob: 01717144998 Tel: Sub-Branch Code: 334",
+        null,
+        "01717144998"
+      ]
+    },
+    {
+      "Paragram Bazar Sub-Branch": [
+        "under Dhanmondi Branch Mr. M. Munim-Bin- Mahmud Senior Officer Mob: 01688118084 Tel: Sub-Branch Code: 335",
+        null,
+        "01688118084"
+      ]
+    },
+    {
+      "Khilpara Bazar Sub-Branch": [
+        "under Chandpur Branch Mr. Mohammad Aminur Rahman Assistant Officer Mob: 01788758990 Tel: Sub-Branch Code: 337",
+        null,
+        "01788758990"
+      ]
+    },
+    {
+      "Joymondop High School Sub-Branch": [
+        "under Savar Branch Mr. Mohammad Sharfuzzaman Officer Mob: 01715054424 Tel: Sub-Branch Code: 338",
+        null,
+        "01715054424"
+      ]
+    }
+  ]
 }

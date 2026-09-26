@@ -1,1556 +1,2697 @@
 {
   "_bank": "Rajshahi Krishi Unnayan Bank (RAKUB)",
-  "website": "https://rakub.org.bd/",
-  "website_source": "override",
+  "bank_url": "https://www.rakub.org.bd/",
   "method": "html_cards+html_table",
   "status": "success",
-  "branch_name": [
-    "Aliarhat",
-    "Bhelabari Jorgacha",
-    "Bogra",
-    "Boraihat",
-    "Daridah Maidanhata",
-    "Durgahata",
-    "Gabtali",
-    "Jorgacha",
-    "Langluhat",
-    "Pallimangolhat",
-    "Rahbal",
-    "Ramesharpur",
-    "Sariakandi",
-    "Sehalihat",
-    "Shah Nagor",
-    "Shajahanpur",
-    "Shibganj",
-    "Sonatola",
-    "Adamdighi",
-    "Bhatra",
-    "Bijrul",
-    "Champapur",
-    "Dhunat",
-    "Dhundar",
-    "Dupchanchia",
-    "Jamgramhat",
-    "Kahalu",
-    "Mathurapur",
-    "Nandigram",
-    "Narhatta",
-    "Pathan Mirzapur Bazar",
-    "Razabazar",
-    "Santahar",
-    "Shekhahar",
-    "Sherpur",
-    "Sonahatabazar",
-    "Amnura",
-    "Anupnagar",
-    "Bholahat",
-    "Chaitannapur",
-    "Chapai Nawabganj",
-    "Chhatrajitpur",
-    "Ghorapakhia",
-    "Gomostapur",
-    "Jambaria",
-    "Nachol",
-    "Nejampur",
-    "Rahanpur",
-    "Shibganj",
-    "Shyampur",
-    "Sona Masjid",
-    "Sonaichandihat",
-    "Dhaka Corporate Branch",
-    "Birganj",
-    "Birol",
-    "Boardhat",
-    "Buliabazar",
-    "Chirirbandar",
-    "Dhukurjharihat",
-    "Dinajpur",
-    "Kaharol",
-    "Kaliagonj",
-    "Khansama",
-    "Kutubdanga",
-    "Mangalpur",
-    "Ramdubirhat",
-    "Ranirbandar",
-    "Setabgonj",
-    "Shibrampur",
-    "Sultanpur",
-    "Atpukarhat",
-    "Baraihat",
-    "Bhaduria",
-    "Birampur",
-    "Dangapara",
-    "Dugdugirhat",
-    "Fulbari",
-    "Ghoraghat",
-    "Godagarihat",
-    "Hakimpur",
-    "Hamidpur",
-    "Ketrahat",
-    "Madhapara Bazar",
-    "Majhipara",
-    "Mostofapur",
-    "Nawabgonj",
-    "Nurulhuda",
-    "Panchkur",
-    "Parbotipur",
-    "Ratonpur",
-    "Baluahat",
-    "Dariapur",
-    "Dharmapur",
-    "Dholbhanga",
-    "Domerhat",
-    "Fulchary",
-    "Gaibandha",
-    "Kanta Nagar",
-    "Kuptala",
-    "Sadullapur",
-    "Sundarganj",
-    "Tulsighat",
-    "Barokona",
-    "Bonarpara",
-    "Gobindaganj",
-    "Harinathpur",
-    "Jumarbari",
-    "Kamorpurhat",
-    "Katabari",
-    "Koacha Shahor",
-    "Mahimaganj",
-    "Nakaihat",
-    "Naya bandar",
-    "Palashbari",
-    "Saghata",
-    "Central Accounts Department-1 (CAD-1)",
-    "Local Principal Office (LPO)",
-    "Akkelpur",
-    "Atapur",
-    "Bagzana",
-    "Battali",
-    "Chatinali",
-    "Dharanji",
-    "Dogachi",
-    "Joypurhat",
-    "Kalai",
-    "Khetlal",
-    "Madhainagor",
-    "Moslemgonj",
-    "Panchbibi",
-    "Puronapail",
-    "Raikali",
-    "Bamunerhat",
-    "Bhurungamari",
-    "Chilmari",
-    "Hasnabad",
-    "Jatrapur",
-    "Kachakatabazar",
-    "Kashimbazar",
-    "Kathalbari",
-    "KhoriBari",
-    "Kurigram",
-    "Mondoler hat",
-    "Nageswari",
-    "Pateswari",
-    "Phulbari",
-    "Raigonj",
-    "Rajarhat",
-    "Rajibpur",
-    "Rowmari",
-    "Singeir Dabrihat",
-    "Ulipur",
-    "Aditmari",
-    "Chanparhat",
-    "Daikhaowa",
-    "Doani",
-    "Fakirer Takeya",
-    "Gorol",
-    "Haratibandar",
-    "Hatibandha",
-    "Kaliganj",
-    "Lalmonirhat",
-    "Mogolhat",
-    "Namurihat",
-    "Patgram",
-    "Saptibari",
-    "Sarkarerhat",
-    "Tista",
-    "Velabari",
-    "Badalgachhi",
-    "Dhamoirhat",
-    "Fotepur",
-    "Hajinagar",
-    "Hat Chakgouri",
-    "Krisnapur",
-    "Mahadebpur",
-    "Meserbazar",
-    "Neamatpur",
-    "Paharpur Boidhabihar",
-    "Patnitala",
-    "Porsha",
-    "Rangamatihat",
-    "Sapahar",
-    "Uttargram",
-    "Atrai",
-    "Betgari",
-    "Dubalhati",
-    "Jotbazar",
-    "Kirtipur",
-    "Kolihar",
-    "Naogaon",
-    "Noduli Bazar",
-    "Paharpur",
-    "Prasadpur",
-    "Raninagor",
-    "Sabaihat",
-    "Samasparahat",
-    "Satihat",
-    "Shailgachi",
-    "Abdulpur",
-    "Ahmadpur",
-    "Bagatipara",
-    "Berilabari",
-    "Boraigram",
-    "Chapila",
-    "Chowgram",
-    "Gopalpur",
-    "Gouripur",
-    "Gurudashpur",
-    "Halsha",
-    "Jamnagar",
-    "Kadamchilan",
-    "Kafuria",
-    "Khejurtala",
-    "Kholabaria",
-    "Lalpur",
-    "Naldanga",
-    "Natore",
-    "Sikarpur Bazar",
-    "Singra",
-    "Walia",
-    "Balapara",
-    "Baravita",
-    "Bodi",
-    "Chapanihat",
-    "Dimla",
-    "Domar",
-    "Gorgram",
-    "Hazarihat",
-    "Jadurhat",
-    "Jaldhaka",
-    "Kaligonj Bazar",
-    "Kazirhat",
-    "Kherkatihat",
-    "Kishoregonj",
-    "Melapanga",
-    "Mirzagonj",
-    "Nautara",
-    "Nilphamari",
-    "Polashbarihat",
-    "Saidpur",
-    "Tengonmarihat",
-    "Teparhat",
-    "Atghoria",
-    "Aurongozebroad",
-    "Bhangura",
-    "Chatmohar",
-    "Dapunia",
-    "Failjana",
-    "Handial",
-    "Iswardi",
-    "Joynagar",
-    "Moydandighi",
-    "Pabna",
-    "Singa",
-    "Aminpur",
-    "Bera",
-    "Bonkolahat",
-    "Bonoari Nagar",
-    "Chinakhora",
-    "Dhulauri",
-    "Durgapur",
-    "Hadol",
-    "Kashinathpur",
-    "Khalilpur",
-    "Khetupara",
-    "Santhia",
-    "Satbaria",
-    "Silanda",
-    "Suzanagar",
-    "Atoari",
-    "Bengharibongram",
-    "Bhajanpur",
-    "Boda",
-    "Debigonj",
-    "Dhakkamara",
-    "Goaljharhat",
-    "Haribhasha",
-    "Jhalaishalshiri",
-    "Kaliagonj",
-    "Kaligonjhat",
-    "Laxmirhat",
-    "Mirzapur",
-    "Panchagarh",
-    "Sakoa",
-    "Sonahar jogonathhat",
-    "Tetulia",
-    "Tirnaihat",
-    "Toreya",
-    "Aloknagor",
-    "Bagha",
-    "Bargachi",
-    "Bhabaniganj",
-    "Binodpur",
-    "Daokandi",
-    "Durgapur",
-    "Godagari",
-    "Greater Road Kazihata",
-    "Hujuripara",
-    "Kakonhat",
-    "Kaliganj",
-    "Kamargaon",
-    "Kharkhari",
-    "Maugachi",
-    "Mochmoil Bazar",
-    "Mohonpur",
-    "Mollaparahat",
-    "Paba",
-    "Panchandar",
-    "Puthia",
-    "Rajabari",
-    "Rajshahi",
-    "Sardah",
-    "Shikdari Bazar",
-    "Tanore",
-    "Badargonj",
-    "Damodarpur",
-    "Dhantola",
-    "Gangachara",
-    "Ikrachali",
-    "Kaunia",
-    "Modhupur",
-    "Nagerhat",
-    "Parshuram",
-    "Rangpur",
-    "Saddapuskarini",
-    "Taragonj",
-    "Taxerhat",
-    "Balarhat",
-    "Baluamasimpur",
-    "Beratihat",
-    "Damur Chakla",
-    "Gurjipara",
-    "Khejmotpur",
-    "Matherhat",
-    "Mithapukur",
-    "Pairabond",
-    "Pirgachha",
-    "Pirgonj",
-    "Ranipukur",
-    "Shanerhat",
-    "Shukurerhat",
-    "Belkuchi",
-    "Bhadraghat",
-    "Chalitadanga",
-    "Chongachahat",
-    "Chowhali",
-    "Gandhail Bazar",
-    "Ghurka",
-    "Kamarkhand",
-    "Khokshabari",
-    "Meghai",
-    "Moshipur",
-    "Newargacha",
-    "Panchakushi",
-    "Purnimahat",
-    "Raiganj",
-    "Saydabad",
-    "Shajadpur",
-    "Sirajgonj",
-    "Tamai",
-    "Tarash",
-    "Udhunia Bazar",
-    "Ullahpara",
-    "Awliapur",
-    "Baliadangi",
-    "Begunbari",
-    "Bhabnagonj",
-    "Bhelazan",
-    "Bhomradaha",
-    "Borokhochabari",
-    "Charol",
-    "Chourangi Bazar",
-    "Dharmagarh",
-    "Farabarihat",
-    "Gogorehat",
-    "Haripur",
-    "Jaduranihat",
-    "kartiktola",
-    "Maddergonj",
-    "Pirgonj",
-    "Ranisankail",
-    "Ruhiya",
-    "Thakurgaon"
+  "branch": [
+    {
+      "Aliarhat": [
+        "P.O. Aliarhat, P.S. Shibganj, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhelabari Jorgacha": [
+        "P.O. Bhelabari Jorgacha, P.S. Shariakandi, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bogra": [
+        "Sarifuddin Super Market, PO & Dist. Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "+88-051-66287"
+      ]
+    },
+    {
+      "Boraihat": [
+        "P.O. Baraihat, P.S. Shibgonj, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Daridah Maidanhata": [
+        "P.O. Daridah, P.S. Shibgonj, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Durgahata": [
+        "P.O. Durgahata, P.S. Gabtoli, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gabtali": [
+        "P.O. & P.S. Gabtali, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05025-75007"
+      ]
+    },
+    {
+      "Jorgacha": [
+        "P.O. & P.S. Sonatola, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Langluhat": [
+        "P.O. Langluhat, P.S. Gabtoli, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Pallimangolhat": [
+        "P.O. Pallimangolhat, P.S. Sador, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Rahbal": [
+        "P.O. Deuli, P.S. Shibgonj, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ramesharpur": [
+        "P.O. Ramesharpur, P.S. Gabtoli, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sariakandi": [
+        "P.O. & P.S. Sariakandi, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05028-56211"
+      ]
+    },
+    {
+      "Sehalihat": [
+        "P.O. Sehalihat, P.S. Shibgonj, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shah Nagor": [
+        "P.O. Kamarpara, P.S. Sador, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shajahanpur": [
+        "P.O. Majhira, P.S. Shajahanpur, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shibganj": [
+        "P.O. & P.S. Shibganj, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05033-69014"
+      ]
+    },
+    {
+      "Sonatola": [
+        "P.O. & P.S. Sonatola, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05062-79005"
+      ]
+    },
+    {
+      "Adamdighi": [
+        "PO & Ps Adamdighi, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0741-69223"
+      ]
+    },
+    {
+      "Bhatra": [
+        "P.O. Bhatra, P.S. Nandigram, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bijrul": [
+        "P.O. Bijrul, P.S. Nandigram, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Champapur": [
+        "P.O. Champapur, P.S. Adamdighi, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dhunat": [
+        "P.O. & P.S. Dhunat, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dhundar": [
+        "P.O. Dhundar, P.S. Nandigram, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05023-56106"
+      ]
+    },
+    {
+      "Dupchanchia": [
+        "P.O. & P.S. Dupchanchia, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05024-88085"
+      ]
+    },
+    {
+      "Jamgramhat": [
+        "P.O. Jamgramhat, P.S. Kahalu, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kahalu": [
+        "P.O. & P.S. Kahalu, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05026-56009"
+      ]
+    },
+    {
+      "Mathurapur": [
+        "P.O. Pirhatti,P.S. Dhunat, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nandigram": [
+        "P.O. & P.S. Nandigram, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05027-76063"
+      ]
+    },
+    {
+      "Narhatta": [
+        "P.O. Narhatta, P.S. Kahalu, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Pathan Mirzapur Bazar": [
+        "Thalta Maggram, Nandigram, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Razabazar": [
+        "P.O. Bogra, P.S. Sadar, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "+88-051-64183"
+      ]
+    },
+    {
+      "Santahar": [
+        "P.O. Santahar, P.S. Adomdighi, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0741-69442"
+      ]
+    },
+    {
+      "Shekhahar": [
+        "P.O. Shekhahar, P.S. Khalu, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sherpur": [
+        "P.O. & P.S. Sherpur, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05029-77025"
+      ]
+    },
+    {
+      "Sonahatabazar": [
+        "P.O. Nimgachi, P.S. Dhunot, Bogra,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Amnura": [
+        "PO Amnura, Uz & Dist. Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Anupnagar": [
+        "PO Basudevpur, Uz & Dist. Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bholahat": [
+        "P.O. Bholahat, Upazilla Bholahat, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07822-5610"
+      ]
+    },
+    {
+      "Chaitannapur": [
+        "P.O. Dhainnagar, Upazilla Shibgonj, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chapai Nawabganj": [
+        "P.O. Uz & Dist. Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0781-52361"
+      ]
+    },
+    {
+      "Chhatrajitpur": [
+        "P.O. Chhatrajitpur, Uz Shibgonj, Dist.Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ghorapakhia": [
+        "P.O. Kalinagar, Uz Shibgonj, Dist. Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gomostapur": [
+        "P.O. Gomostapur, Uz Gomostapur, Dist. Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jambaria": [
+        "P.O. Barogachihat, Upazilla Volahat, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nachol": [
+        "P.O. Nachol, Upazilla Nachol, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07824-56012"
+      ]
+    },
+    {
+      "Nejampur": [
+        "P .O. Hatbakail, Upazilla Nachol, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Rahanpur": [
+        "P.O. Rahanpur, Upazilla Gomostapur, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07823-74044"
+      ]
+    },
+    {
+      "Shibganj": [
+        "P.O. Shibganj, Upazilla Shibgonj, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07825-75019"
+      ]
+    },
+    {
+      "Shyampur": [
+        "P.O. Kanshat, Upazilla Shibgonj, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sona Masjid": [
+        "Azmotpur, Upazilla Shibgonj, Dist. Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sonaichandihat": [
+        "P.O. Sonaichandihat, Upazilla Nachol, Chapai Nawabganj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dhaka Corporate Branch": [
+        "65, Dilkusha (First Floor), Dhaka,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "+880-2-9569408"
+      ]
+    },
+    {
+      "Birganj": [
+        "P.O. & P.S. Birganj, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05323-72211"
+      ]
+    },
+    {
+      "Birol": [
+        "P.O. & P.S. Birol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05325-56006"
+      ]
+    },
+    {
+      "Boardhat": [
+        "Boardhat, PO. Birol PS Birol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Buliabazar": [
+        "Bogderhat, P.O. & P.S. Kaharol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chirirbandar": [
+        "P.O. & P.S. Chirirbandar, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05326-56105"
+      ]
+    },
+    {
+      "Dhukurjharihat": [
+        "P.O. Baznahar, P.S. Birol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dinajpur": [
+        "Maldahapatti, PO Dinajpur, P.S. Kotwali, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0531-63202"
+      ]
+    },
+    {
+      "Kaharol": [
+        "Maharajgonj, P.O. & P.S. Kaharol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05335-56007"
+      ]
+    },
+    {
+      "Kaliagonj": [
+        "P.O. Saranjai Palashbari, P.S. Birol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Khansama": [
+        "P.O. & P.S. Khansama, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05332-56005"
+      ]
+    },
+    {
+      "Kutubdanga": [
+        "P.O. Mostofapur, P.S. Chirirbandor, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mangalpur": [
+        "P.O. Mangalpur, P.S. Birol, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ramdubirhat": [
+        "P.O. Ramdubirhat, P.S. Sador, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ranirbandar": [
+        "P.O. Ranirbandar & P.S. Chirirbandar, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Setabgonj": [
+        "P.O. & P.S. Bochagonj, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05325-70001"
+      ]
+    },
+    {
+      "Shibrampur": [
+        "P.O. Muraripur, P.S. Birgonj, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sultanpur": [
+        "P.O. Sultanpur, P.S. Bochagonj, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Atpukarhat": [
+        "Atpukarhat, Dinjpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Baraihat": [
+        "P.O. Khazapur, P.S. Fulbari, Dinajpur.,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhaduria": [
+        "P.O. Bhaduria, P.S. Nawabgonj, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Birampur": [
+        "P.O. & P.S. Birampur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05322-56404"
+      ]
+    },
+    {
+      "Dangapara": [
+        "P.O. Dangapara, P.S. Hakimpur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dugdugirhat": [
+        "P.O. Gopalpur, P.S. Ghoraghat, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Fulbari": [
+        "P.O. & P.S. Fulbari, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05327-56232"
+      ]
+    },
+    {
+      "Ghoraghat": [
+        "P.O. Hatsamgonj, P.S. Ghoraghat, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Godagarihat": [
+        "Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Hakimpur": [
+        "P.O. Banglahili, P.S. Parbatipur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05329-75007"
+      ]
+    },
+    {
+      "Hamidpur": [
+        "P.O. Baropukuria,P.S. Fulbari, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ketrahat": [
+        "P.O. Ketrahat, P.S. Birampur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Madhapara Bazar": [
+        "Madhapara, Dinjpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Majhipara": [
+        "P.O. Pulhat, P.S. Sador,Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0531-64840"
+      ]
+    },
+    {
+      "Mostofapur": [
+        "P.O. Ambari, P.S. Parbotipur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nawabgonj": [
+        "P.O. & P.S. Nawabgonj, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05333-56005"
+      ]
+    },
+    {
+      "Nurulhuda": [
+        "P.O. Nurulhuda,P.S. Parbotipur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Panchkur": [
+        "P.O. Jalal pur,P.S. Sador,Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Parbotipur": [
+        "P.O. & P.S. Parbatipur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05334-74362"
+      ]
+    },
+    {
+      "Ratonpur": [
+        "P.O. & P.S. Birampur, Dinajpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Baluahat": [
+        "P.O. Gaibandha, P.S. P.O. Palashbari, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dariapur": [
+        "P.O. Hat Dariapur, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dharmapur": [
+        "P.O. Dharmapur, P.S. Sundargonj, Dist. Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dholbhanga": [
+        "P.O. Dholbhanga, P.S. Sadullahpur, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Domerhat": [
+        "P.O. Bazarpara, P.S. Sundargonj, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Fulchary": [
+        "P.O.Fulchary, P.S. Saghata, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05422-56046"
+      ]
+    },
+    {
+      "Gaibandha": [
+        "Gaibandha Sadar, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0541-61532"
+      ]
+    },
+    {
+      "Kanta Nagar": [
+        "P.O. Kanta Nagar, P.S. Sadullapur, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kuptala": [
+        "P.O. Kuptala, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sadullapur": [
+        "P.O. P.S. Sadullapur, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05425-56011"
+      ]
+    },
+    {
+      "Sundarganj": [
+        "P.O. P.S. Sundarganj, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05427-64001"
+      ]
+    },
+    {
+      "Tulsighat": [
+        "P.O. Tulsighat, P.S. Palashbari, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Barokona": [
+        "P.O. Barokona, P.S. Saghata, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bonarpara": [
+        "P.O. Bonarpara, P.S. Saghata, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gobindaganj": [
+        "P.O. P.S. Gobindaganj, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05423-75016"
+      ]
+    },
+    {
+      "Harinathpur": [
+        "P.O. Talukjamira, P.S. P.O. Palashbari, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jumarbari": [
+        "P.O. Jumarbari, P.S. Saghata, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kamorpurhat": [
+        "P.O. Basudevpur, P.S. Gobindagonj Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Katabari": [
+        "P.O. Katabari, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Koacha Shahor": [
+        "P.O. Koacha Shahor Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mahimaganj": [
+        "P.O. Mahimaganj, P.S. Gobidagonj, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nakaihat": [
+        "P.O. Nakaihat, P.S. Gobindagonj, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Naya bandar": [
+        "P.O. Pudom Shahor, P.S. Saghata, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Palashbari": [
+        "P.O. P.S. Palashbari, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05426-88075"
+      ]
+    },
+    {
+      "Saghata": [
+        "P.O. P.S. Saghata, Gaibandha,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Central Accounts Department-1 (CAD-1)": [
+        "272, Banolata C/A Airport Road, Head Office, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0247-860532"
+      ]
+    },
+    {
+      "Local Principal Office (LPO)": [
+        "272, Banolata C/A Airport Road, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Akkelpur": [
+        "P.O. P.S. Akkelpur, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05722-62479"
+      ]
+    },
+    {
+      "Atapur": [
+        "P.O. Atapur, P.S. Panchbibi, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bagzana": [
+        "P.O. Bagzana, P.S. Panchbibi, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Battali": [
+        "P.O. Baliadanga, P.S. Khetlal, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0571-62205"
+      ]
+    },
+    {
+      "Chatinali": [
+        "P.O. Chatinali, P.S. Panchbibi, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dharanji": [
+        "P.O. Dharanji, P.S. Panchbibi, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dogachi": [
+        "P.O. Bagzana, P.S. Kalai, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Joypurhat": [
+        "Joypurhat, Sador, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0571-62342"
+      ]
+    },
+    {
+      "Kalai": [
+        "P.O. P.S. Kalai, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05725-56004"
+      ]
+    },
+    {
+      "Khetlal": [
+        "P.O. P.S. Khetlal, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Madhainagor": [
+        "P.O. Amdai, P.S. Sador, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Moslemgonj": [
+        "P.O. Moshlemgonj, Ps Kalai, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Panchbibi": [
+        "P.O. P.S. Panchbibi, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0571-75020"
+      ]
+    },
+    {
+      "Puronapail": [
+        "P.O. Puronapail, P.S. Sador, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0571-63023"
+      ]
+    },
+    {
+      "Raikali": [
+        "P.O. Raikali, P.S. Akkelpur, Joypurhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bamunerhat": [
+        "P.O. Tabakpur, P.S. Ulipur, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhurungamari": [
+        "P.O. & P.S. Bhurungamari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chilmari": [
+        "P.O. P.S. Chilmari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05824-56005"
+      ]
+    },
+    {
+      "Hasnabad": [
+        "P.O. Payradanga P.S. Nageshwari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jatrapur": [
+        "Jatrapur, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kachakatabazar": [
+        "P.O. Kachakata, P.S. Nageshari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kashimbazar": [
+        "P.O. Baldia, P.S. Vurangamari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kathalbari": [
+        "P.O. Kathalbari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "KhoriBari": [
+        "Fulbari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kurigram": [
+        "Station Road, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0581-61419"
+      ]
+    },
+    {
+      "Mondoler hat": [
+        "P.O. Mondolerhat, P.S. Ulipur, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nageswari": [
+        "P.O. & P.S. Nogeswari , Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05826-56213"
+      ]
+    },
+    {
+      "Pateswari": [
+        "P.O. Bhogdonga, P.S. & Dist. Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Phulbari": [
+        "P.O. & P.S. Phulbari , Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05825-56004"
+      ]
+    },
+    {
+      "Raigonj": [
+        "P.O. Nagorband, P.S. Nageshari Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Rajarhat": [
+        "P.O. & P.S. Rajarhat, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05827-56042"
+      ]
+    },
+    {
+      "Rajibpur": [
+        "P.O. & P.S. Rajibpur, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05823-56003"
+      ]
+    },
+    {
+      "Rowmari": [
+        "P.O. & P.S. Ronmari, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05828-56019"
+      ]
+    },
+    {
+      "Singeir Dabrihat": [
+        "P.O. Singeir Dabrihat P.S. Rajarhat, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ulipur": [
+        "P.O. & P.S. Ulipur, Kurigram,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05829-56021"
+      ]
+    },
+    {
+      "Aditmari": [
+        "PO & PS Aditmar, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05922-56012"
+      ]
+    },
+    {
+      "Chanparhat": [
+        "P.O. Chanparha, P.S. Kaligoanj Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Daikhaowa": [
+        "P.O. Daikhaowa, P.S. Hatibandha, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Doani": [
+        "P.O. Barabari, P.S. Hatibandha, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Fakirer Takeya": [
+        "P.O. Barobari, P.S. Sador, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gorol": [
+        "P.O. Gorol, P.S. Aditmari, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Haratibandar": [
+        "P.O. Mohendranagor, P.S. Sador, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Hatibandha": [
+        "PO & P.S. Hatibandha, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05923-56226"
+      ]
+    },
+    {
+      "Kaliganj": [
+        "PO Karimpur & P.S. Kaligonj, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0594-56019"
+      ]
+    },
+    {
+      "Lalmonirhat": [
+        "Lalmonirhat Sadar, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "+88-0591- 5520"
+      ]
+    },
+    {
+      "Mogolhat": [
+        "P.O. Velabari, P.S. Sador, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Namurihat": [
+        "P.O. Duhali, P.S. Aditmari, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Patgram": [
+        "PO& P.S. Patgram, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05925-56219"
+      ]
+    },
+    {
+      "Saptibari": [
+        "PO: Saptibari, P.S. Aditmari, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0591-61817"
+      ]
+    },
+    {
+      "Sarkarerhat": [
+        "P.O. Sarkarerhat, P.S. Patgram, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Tista": [
+        "P.O. Tista, P.S. Sador, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Velabari": [
+        "P.O. Velabari, P.S. Aditmari, Lalmonirhat,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Badalgachhi": [
+        "P.O. & P.S. Badalgachhi, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07423-56018"
+      ]
+    },
+    {
+      "Dhamoirhat": [
+        "P.O. & P.S. Dhamoirhat, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07424-56015"
+      ]
+    },
+    {
+      "Fotepur": [
+        "P.O. Fotepur, P.S. Dhamurhat, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Hajinagar": [
+        "P.O. Hajinagar, P.S. Niamotpur, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Hat Chakgouri": [
+        "P.O. Hat Chakgouri, P.S. Mahadevpur, Dist. Naogaon, hat",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Krisnapur": [
+        "P.O. Modhuil, P.S. Patnitola, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mahadebpur": [
+        "P.O. & P.S. Mahadebpur, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07426-75015"
+      ]
+    },
+    {
+      "Meserbazar": [
+        "P.O. Amair, P.S. Patnitola, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Neamatpur": [
+        "P.O. & P.S. Neamatpur, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07427-56006"
+      ]
+    },
+    {
+      "Paharpur Boidhabihar": [
+        "P.O. Boidhabihar,P.S. Badalgachhi, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Patnitala": [
+        "P.O. Nazipur, P.S. Patnitola, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07428-63014"
+      ]
+    },
+    {
+      "Porsha": [
+        "P.O. & P.S. Porsha, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Rangamatihat": [
+        "P.O. Rangamati,P.S. Dhamoirhat, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sapahar": [
+        "Sapahar, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07432-74026"
+      ]
+    },
+    {
+      "Uttargram": [
+        "P.O. Uttargram, P.S. Mahadevpur, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Atrai": [
+        "P.O. Ahsanganj, P.S. Atrai, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07422-71012"
+      ]
+    },
+    {
+      "Betgari": [
+        "P.O. Ghosgram, P.S. Raninagor, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dubalhati": [
+        "P.O. Dubalhati, P.S. Sador, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jotbazar": [
+        "P.O. Jotbazar, P.S. Manda, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kirtipur": [
+        "P.O. Kirtipur, P.S. Sador, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kolihar": [
+        "Napithpara, Kashopara, Manda, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Naogaon": [
+        "Bazar Road, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0741-62451"
+      ]
+    },
+    {
+      "Noduli Bazar": [
+        "P.O. Patishar, P.S. Atrai, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Paharpur": [
+        "P.S. Sador, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Prasadpur": [
+        "P.O. Prasadpur, P.S. Manda, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07425-62003"
+      ]
+    },
+    {
+      "Raninagor": [
+        "P.O. & P.S. Raninagor, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07433-56011"
+      ]
+    },
+    {
+      "Sabaihat": [
+        "P.O. Tetulia, P.S. Manda, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Samasparahat": [
+        "P.O. Bhangajangal, P.S. Atrai, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Satihat": [
+        "P.O. Satihat, P.S. Manda, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shailgachi": [
+        "P.O.Shailgachi, P.S. Sador, Naogaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Abdulpur": [
+        "P.O. Abdulpur, P.S. Lalpur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ahmadpur": [
+        "P.O. Ahmmadpur, P.S. Baraigram, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bagatipara": [
+        "P.O. Laxmonhati, P.S. Bagatipara, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07722-72016"
+      ]
+    },
+    {
+      "Berilabari": [
+        "P.O. Berilabari, P.S. Lalpur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0723-56018"
+      ]
+    },
+    {
+      "Boraigram": [
+        "P.O. Haroa, P.S. Baraigram, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chapila": [
+        "P.O. Bripatharia, P.S. Gurudashpur Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chowgram": [
+        "P.O. Chowgram, P.S. Singra, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gopalpur": [
+        "P.O. Rajapurhat, P.S. Baraigram, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gouripur": [
+        "P.O. Dhapari, P.S. Lalpur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07725-75056"
+      ]
+    },
+    {
+      "Gurudashpur": [
+        "P.O. & P.S. Gurudaspur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07724-74044"
+      ]
+    },
+    {
+      "Halsha": [
+        "P.O. Biprohalsa, P.S. Sador, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jamnagar": [
+        "P.O. Jamnagar, P.S. Bagatipara, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kadamchilan": [
+        "P.O. Panchabari, P.S. Lalpur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kafuria": [
+        "P.O. Jeuoara, P.S. Sador, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Khejurtala": [
+        "Khejurtala, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kholabaria": [
+        "P.O. Laxmipurhat, P.S.Baraigram, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Lalpur": [
+        "P.O. . Gopalpur, P.S Lalpur, Dist. Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Naldanga": [
+        "P.O. & P.S. Naldangahat, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "025888-76608"
+      ]
+    },
+    {
+      "Natore": [
+        "P.O. & P.S. Natore, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "025888-72265"
+      ]
+    },
+    {
+      "Sikarpur Bazar": [
+        "Gurudaspur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Singra": [
+        "P.O. & P.S. Singra, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07726-63003"
+      ]
+    },
+    {
+      "Walia": [
+        "P.O. Walia, P.S. Lalpur, Natore,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Balapara": [
+        "P.O. Khagakharibari, P.S. Dimla, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Baravita": [
+        "P.O. Baravita, P.S. Jaldhaka, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bodi": [
+        "P.O. Kaimari, P.S. Kishorgonj , Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chapanihat": [
+        "P.O. Chapanihat, P.S. Dimla, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dimla": [
+        "P.O. & P.S. Dimla, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05522-56312"
+      ]
+    },
+    {
+      "Domar": [
+        "P.O. & P.S. Domar, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05523-75019"
+      ]
+    },
+    {
+      "Gorgram": [
+        "P.O. Gorgram, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Hazarihat": [
+        "P.O. Hazarihat, P.S. Saiudpur Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jadurhat": [
+        "P.O. Babrijar, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jaldhaka": [
+        "P.O. & P.S. Jaldhaka, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05542-64011"
+      ]
+    },
+    {
+      "Kaligonj Bazar": [
+        "P.O. Goalnakaligonj, P.S. Joldhaka, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kazirhat": [
+        "P.O. Kazirhat, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kherkatihat": [
+        "Kherkatihat, Upazila-Jaldhaka, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kishoregonj": [
+        "P.O. & P.S. Kishoreganj, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05525-56020"
+      ]
+    },
+    {
+      "Melapanga": [
+        "P.O. Melapanga, P.S. Domar, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mirzagonj": [
+        "P.O. Mirzaganj, P.S. Domar, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nautara": [
+        "P.O. Nautara, P.S. Dimla, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nilphamari": [
+        "Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0551-61423"
+      ]
+    },
+    {
+      "Polashbarihat": [
+        "Polashbarihat, Sadar, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Saidpur": [
+        "P.O. & P.S. Saidpur, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05526-72603"
+      ]
+    },
+    {
+      "Tengonmarihat": [
+        "P.O. Khutamara, P.S. Joldhaka, Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Teparhat": [
+        "P.O. Magura, P.S. Kishorgonj Nilphamari,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Atghoria": [
+        "P.O. Chandva, P.S. Atghoria, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Aurongozebroad": [
+        "P.O. & P.S. Pabna , Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0731-51881"
+      ]
+    },
+    {
+      "Bhangura": [
+        "P.O. P.S. Bhangura, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07328-56048"
+      ]
+    },
+    {
+      "Chatmohar": [
+        "P.O. & P.S. Chatmohar, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07324-56135"
+      ]
+    },
+    {
+      "Dapunia": [
+        "P.O. Dapunia, P.S. Sador, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0731-51068"
+      ]
+    },
+    {
+      "Failjana": [
+        "P.O. Failjana, P.S. Chantmohor, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Handial": [
+        "P.O. Handial Bazar, P.S. Chantmohar,Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Iswardi": [
+        "P.O. P.S. Iswardi, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0731-60732"
+      ]
+    },
+    {
+      "Joynagar": [
+        "P.O. Joynagar, P.S. Iswardi, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Moydandighi": [
+        "P.O. Moydandighi, P.S.Vangura, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Pabna": [
+        "Abdul Hamid Road, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0731-65770"
+      ]
+    },
+    {
+      "Singa": [
+        "P.O. Singa, P.S. Sador, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0731-65994"
+      ]
+    },
+    {
+      "Aminpur": [
+        "P.O. Aminpur Bazar, P.S. Bera, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bera": [
+        "P.O. P.S. Bera, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07323-75047"
+      ]
+    },
+    {
+      "Bonkolahat": [
+        "P.O. Bonkolahat, P.S. Sujanagor, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bonoari Nagar": [
+        "P.O. Bonoari Nagar, P.S. Faridpur, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07325-64008"
+      ]
+    },
+    {
+      "Chinakhora": [
+        "Chinakhora bazar, P.S. Suzanagar, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dhulauri": [
+        "P.O. Nurdaha, P.S. Shanthia, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Durgapur": [
+        "P.O. Gobindapur, P.S. Sujanagor, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07332-54117"
+      ]
+    },
+    {
+      "Hadol": [
+        "P.O. Dhanuaghata, P.S. Faridpur Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kashinathpur": [
+        "Kashinathpur, Santhia, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "01713072605"
+      ]
+    },
+    {
+      "Khalilpur": [
+        "Khalilpur, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Khetupara": [
+        "P.O. Banogram, P.S. Shanthia Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Santhia": [
+        "P.O. & P.S. Santhia, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Satbaria": [
+        "P.O. Satbaria, P.S. Sujanagor, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0731-65082"
+      ]
+    },
+    {
+      "Silanda": [
+        "Santhia, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Suzanagar": [
+        "P.O. & P.S. Suzanagar, Pabna,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0329-56113"
+      ]
+    },
+    {
+      "Atoari": [
+        "P.O. Chotodhap, P.S.Atoari, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05652-56007"
+      ]
+    },
+    {
+      "Bengharibongram": [
+        "Baliadanghi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhajanpur": [
+        "P.O. Bhajanpur, P.S.Tetulia, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Boda": [
+        "P.O. & P.S. Boda, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05653-56106"
+      ]
+    },
+    {
+      "Debigonj": [
+        "P.O. & P.S. Debigonj, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05654-56043"
+      ]
+    },
+    {
+      "Dhakkamara": [
+        "P.O. Dhakkamara, P.S.Sador, Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0568-61259"
+      ]
+    },
+    {
+      "Goaljharhat": [
+        "P.O. Sathmera, P.S.Panchagar, Dist. Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Haribhasha": [
+        "P.O. Haribhasha, P.S. & Dist. Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Jhalaishalshiri": [
+        "P.O. Natunhat, P.S. Boda, Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kaliagonj": [
+        "P.O. Amtola Kazipara, P.S. Boda, Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kaligonjhat": [
+        "P.O. Kaliagonjhat, P.S.Debigonj, Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Laxmirhat": [
+        "P.O. Pamili, P.S. Debigonj, Panchgarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mirzapur": [
+        "P.O. Mirza pur, P.S.Atouari, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Panchagarh": [
+        "Islambag, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0568-61218"
+      ]
+    },
+    {
+      "Sakoa": [
+        "P.O. Sakoa, P.S. Boda, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Sonahar jogonathhat": [
+        "P.O. Sonahar, P.S. Debigonj, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Tetulia": [
+        "PO & P.S.Tetulia, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05655-75006"
+      ]
+    },
+    {
+      "Tirnaihat": [
+        "P.O. Tirnaihat, P.S.Tetulia,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Toreya": [
+        "P.O. Toreya, P.S.Atoari, Panchagarh,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Aloknagor": [
+        "P.O. Goalkandi, Upazilla Bagmara, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bagha": [
+        "P.O. Bagha, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07233-56008"
+      ]
+    },
+    {
+      "Bargachi": [
+        "P.O. Bargachi, P.S.Paba, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0721-800179"
+      ]
+    },
+    {
+      "Bhabaniganj": [
+        "P.O. Bhabaniganj, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07222-56010"
+      ]
+    },
+    {
+      "Binodpur": [
+        "P.O. Binodpur Bazar, Rajshahi.,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0721-750627"
+      ]
+    },
+    {
+      "Daokandi": [
+        "daokandi, Durgapur,Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Durgapur": [
+        "P.O. Durgapur, Upazilla,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07224-56006"
+      ]
+    },
+    {
+      "Godagari": [
+        "P.O. Godagari, Upazilla,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07225-56004"
+      ]
+    },
+    {
+      "Greater Road Kazihata": [
+        "Sadaron Bima Bhaban, Kazihata, Rajshahi-6000,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Hujuripara": [
+        "P.O. Darusha, Upazilla Paba, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kakonhat": [
+        "P.O. Kakanhat, Upazilla,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "+8807234-51015"
+      ]
+    },
+    {
+      "Kaliganj": [
+        "P.O. Saranjai, Upazilla Tanor, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07229-56087"
+      ]
+    },
+    {
+      "Kamargaon": [
+        "P.O. Kamargoan, P.S Tanore, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kharkhari": [
+        "P.O. Kharkhari, Upazilla Paba, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Maugachi": [
+        "P.O. Maugachi, Upazilla Mohonpur, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0721-800176"
+      ]
+    },
+    {
+      "Mochmoil Bazar": [
+        "P.O. Mochmoil Bazar, Upazilla Baghmara, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mohonpur": [
+        "P.O. Mohonpur, Upazilla,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07226-56005"
+      ]
+    },
+    {
+      "Mollaparahat": [
+        "P.O. Mollaparahat, Upazilla Puthia, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Paba": [
+        "P.O. Sapura, Upazilla Paba, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0721-750627"
+      ]
+    },
+    {
+      "Panchandar": [
+        "Krishnapur, P.S. Tanore, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Puthia": [
+        "P.O. Puthia, Upazilla Puthia, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07228-56101"
+      ]
+    },
+    {
+      "Rajabari": [
+        "P.O. Gogram, P.S Godagari, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Rajshahi": [
+        "P.O. Ghoramara, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0721-77881"
+      ]
+    },
+    {
+      "Sardah": [
+        "P.O. Sardah, Upazilla Charghat,,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07223-56008"
+      ]
+    },
+    {
+      "Shikdari Bazar": [
+        "Upazilla Baghmara, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Tanore": [
+        "P.O. & P.S. Tanore, Rajshahi,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07229-56012"
+      ]
+    },
+    {
+      "Badargonj": [
+        "Badargonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05222-56235"
+      ]
+    },
+    {
+      "Damodarpur": [
+        "Taragonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dhantola": [
+        "Dhantola Branch, P.O-Dhantola, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gangachara": [
+        "Gangachara, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05223-56023"
+      ]
+    },
+    {
+      "Ikrachali": [
+        "Taragonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kaunia": [
+        "Kaunia, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05224-56013"
+      ]
+    },
+    {
+      "Modhupur": [
+        "Badargonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Nagerhat": [
+        "Badargonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Parshuram": [
+        "Porshuram, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Rangpur": [
+        "Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0521-62376"
+      ]
+    },
+    {
+      "Saddapuskarini": [
+        "Saddapuskarini, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Taragonj": [
+        "Taragonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05228-56019"
+      ]
+    },
+    {
+      "Taxerhat": [
+        "Taxerhat, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Balarhat": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Baluamasimpur": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Beratihat": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Damur Chakla": [
+        "Pirgachha, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gurjipara": [
+        "Pirgonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Khejmotpur": [
+        "Pirgong, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Matherhat": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Mithapukur": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05225-56166"
+      ]
+    },
+    {
+      "Pairabond": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Pirgachha": [
+        "Pirgachha, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05226-56016"
+      ]
+    },
+    {
+      "Pirgonj": [
+        "Pirgonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05227-56016"
+      ]
+    },
+    {
+      "Ranipukur": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shanerhat": [
+        "Pirgonj, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shukurerhat": [
+        "Mithapukur, Rangpur,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Belkuchi": [
+        "P.O. Belkuchi, P.S. Belkuchi, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07522-56450"
+      ]
+    },
+    {
+      "Bhadraghat": [
+        "P.O. Bhadraghat, P.S. Kamarkanda, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0751-64486"
+      ]
+    },
+    {
+      "Chalitadanga": [
+        "P.O. Chalitadanga, P.S. Kazipur, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chongachahat": [
+        "P.O. Chongacha, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chowhali": [
+        "P.O. Khaskaulia, P.S. Chowhali, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0751-63822"
+      ]
+    },
+    {
+      "Gandhail Bazar": [
+        "P.O. Gabdhail, P.S. Kazipur, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ghurka": [
+        "P.O. Ghurka, P.S. Raigonj, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Kamarkhand": [
+        "P.O. Bodijamtoli, P.S. Kamarkand, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07524-56007"
+      ]
+    },
+    {
+      "Khokshabari": [
+        "P.O. Khokshabari, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Meghai": [
+        "P.O. Meghai, P.S. Kazipur, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07525-56295"
+      ]
+    },
+    {
+      "Moshipur": [
+        "P.O. Kayampur, P.S. Shahzadpur, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Newargacha": [
+        "P.O. & P.O. Ullapara, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07529-56340"
+      ]
+    },
+    {
+      "Panchakushi": [
+        "P.O. Panchakushi, P.S. Ullapara, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Purnimahat": [
+        "P.O. Puronimeghat, P.S. Ullapara, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07529-56180"
+      ]
+    },
+    {
+      "Raiganj": [
+        "P.O. Dhangara, P.S. Raigonj, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07526-56117"
+      ]
+    },
+    {
+      "Saydabad": [
+        "P.O. Sahajadpur, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Shajadpur": [
+        "P.O. & P.S. Shajadpur, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07527-64536"
+      ]
+    },
+    {
+      "Sirajgonj": [
+        "P.O. P.S.& Dist. Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0751-62041"
+      ]
+    },
+    {
+      "Tamai": [
+        "P.O. Tamai, P.S. Belkuchi, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07522-56450"
+      ]
+    },
+    {
+      "Tarash": [
+        "P.O. & P.S. Tarash, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07528-56207"
+      ]
+    },
+    {
+      "Udhunia Bazar": [
+        "P.O. Udhunia Bazar, P.S. Ullahpara, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ullahpara": [
+        "P.O. & P.S. ullapara, Sirajgonj,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "07529-56140"
+      ]
+    },
+    {
+      "Awliapur": [
+        "P.O. Kachubari, Upazilla Sador,Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Baliadangi": [
+        "P.O. Baliadangi, Upazilla Baliadangi,Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05622-56008"
+      ]
+    },
+    {
+      "Begunbari": [
+        "P.O. Begunbari, Upazilla Sador,Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhabnagonj": [
+        "P.O Bhadua, P.S Pirganj, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhelazan": [
+        "P.O. Bhelazan, Upazilla Sador Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Bhomradaha": [
+        "P.O. Bhomradaha, Upazilla Pirgonj, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Borokhochabari": [
+        "P.O. Kohorpara, Upazilla & Dist. Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Charol": [
+        "P.O. Lahirihat, Upazilla Baliadangi, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Chourangi Bazar": [
+        "P.O. Pirganj, Upazilla Haripur Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Dharmagarh": [
+        "P.O. Muzahidabad, Upazilla Ranishainkal, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Farabarihat": [
+        "P.O. Farabari, Upazilla Sador, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Gogorehat": [
+        "P.O. Gogore, Upazilla Ranisankail,Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Haripur": [
+        "P.O. Jibanpur, Upazilla Haripur Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05623-56002"
+      ]
+    },
+    {
+      "Jaduranihat": [
+        "P.O. Kamarpur, Upazilla Haripur,Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "kartiktola": [
+        "Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Maddergonj": [
+        "P.O. Maddergonj, Upazilla & Dist. Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Pirgonj": [
+        "P.O. Pirgonj, Upazilla Pirgonj, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Ranisankail": [
+        "P.O. Ranisankail, Upazilla Ranisankail, Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "05625-56003"
+      ]
+    },
+    {
+      "Ruhiya": [
+        "Ruhiya, P.O-Ruhiya, Thakurgoan,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        null
+      ]
+    },
+    {
+      "Thakurgaon": [
+        "North Circular Road, Upazilla & Dist. Thakurgaon,",
+        "https://www.rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
+        "0561-52013"
+      ]
+    }
   ],
-  "branch_address": [
-    "P.O. Aliarhat, P.S. Shibganj, Bogra,",
-    "P.O. Bhelabari Jorgacha, P.S. Shariakandi, Bogra,",
-    "Sarifuddin Super Market, PO & Dist. Bogra,",
-    "P.O. Baraihat, P.S. Shibgonj, Bogra,",
-    "P.O. Daridah, P.S. Shibgonj, Bogra,",
-    "P.O. Durgahata, P.S. Gabtoli, Bogra,",
-    "P.O. & P.S. Gabtali, Bogra,",
-    "P.O. & P.S. Sonatola, Bogra,",
-    "P.O. Langluhat, P.S. Gabtoli, Bogra,",
-    "P.O. Pallimangolhat, P.S. Sador, Bogra,",
-    "P.O. Deuli, P.S. Shibgonj, Bogra,",
-    "P.O. Ramesharpur, P.S. Gabtoli, Bogra,",
-    "P.O. & P.S. Sariakandi, Bogra,",
-    "P.O. Sehalihat, P.S. Shibgonj, Bogra,",
-    "P.O. Kamarpara, P.S. Sador, Bogra,",
-    "P.O. Majhira, P.S. Shajahanpur, Bogra,",
-    "P.O. & P.S. Shibganj, Bogra,",
-    "P.O. & P.S. Sonatola, Bogra,",
-    "PO & Ps Adamdighi, Bogra,",
-    "P.O. Bhatra, P.S. Nandigram, Bogra,",
-    "P.O. Bijrul, P.S. Nandigram, Bogra,",
-    "P.O. Champapur, P.S. Adamdighi, Bogra,",
-    "P.O. & P.S. Dhunat, Bogra,",
-    "P.O. Dhundar, P.S. Nandigram, Bogra,",
-    "P.O. & P.S. Dupchanchia, Bogra,",
-    "P.O. Jamgramhat, P.S. Kahalu, Bogra,",
-    "P.O. & P.S. Kahalu, Bogra,",
-    "P.O. Pirhatti,P.S. Dhunat, Bogra,",
-    "P.O. & P.S. Nandigram, Bogra,",
-    "P.O. Narhatta, P.S. Kahalu, Bogra,",
-    "Thalta Maggram, Nandigram, Bogra,",
-    "P.O. Bogra, P.S. Sadar, Bogra,",
-    "P.O. Santahar, P.S. Adomdighi, Bogra,",
-    "P.O. Shekhahar, P.S. Khalu, Bogra,",
-    "P.O. & P.S. Sherpur, Bogra,",
-    "P.O. Nimgachi, P.S. Dhunot, Bogra,",
-    "PO Amnura, Uz & Dist. Chapai Nawabganj,",
-    "PO Basudevpur, Uz & Dist. Chapai Nawabganj,",
-    "P.O. Bholahat, Upazilla Bholahat, Chapai Nawabganj,",
-    "P.O. Dhainnagar, Upazilla Shibgonj, Chapai Nawabganj,",
-    "P.O. Uz & Dist. Chapai Nawabganj,",
-    "P.O. Chhatrajitpur, Uz Shibgonj, Dist.Chapai Nawabganj,",
-    "P.O. Kalinagar, Uz Shibgonj, Dist. Chapai Nawabganj,",
-    "P.O. Gomostapur, Uz Gomostapur, Dist. Chapai Nawabganj,",
-    "P.O. Barogachihat, Upazilla Volahat, Chapai Nawabganj,",
-    "P.O. Nachol, Upazilla Nachol, Chapai Nawabganj,",
-    "P .O. Hatbakail, Upazilla Nachol, Chapai Nawabganj,",
-    "P.O. Rahanpur, Upazilla Gomostapur, Chapai Nawabganj,",
-    "P.O. Shibganj, Upazilla Shibgonj, Chapai Nawabganj,",
-    "P.O. Kanshat, Upazilla Shibgonj, Chapai Nawabganj,",
-    "Azmotpur, Upazilla Shibgonj, Dist. Chapai Nawabganj,",
-    "P.O. Sonaichandihat, Upazilla Nachol, Chapai Nawabganj,",
-    "65, Dilkusha (First Floor), Dhaka,",
-    "P.O. & P.S. Birganj, Dinajpur,",
-    "P.O. & P.S. Birol, Dinajpur,",
-    "Boardhat, PO. Birol PS Birol, Dinajpur,",
-    "Bogderhat, P.O. & P.S. Kaharol, Dinajpur,",
-    "P.O. & P.S. Chirirbandar, Dinajpur,",
-    "P.O. Baznahar, P.S. Birol, Dinajpur,",
-    "Maldahapatti, PO Dinajpur, P.S. Kotwali, Dinajpur,",
-    "Maharajgonj, P.O. & P.S. Kaharol, Dinajpur,",
-    "P.O. Saranjai Palashbari, P.S. Birol, Dinajpur,",
-    "P.O. & P.S. Khansama, Dinajpur,",
-    "P.O. Mostofapur, P.S. Chirirbandor, Dinajpur,",
-    "P.O. Mangalpur, P.S. Birol, Dinajpur,",
-    "P.O. Ramdubirhat, P.S. Sador, Dinajpur,",
-    "P.O. Ranirbandar & P.S. Chirirbandar, Dinajpur,",
-    "P.O. & P.S. Bochagonj, Dinajpur,",
-    "P.O. Muraripur, P.S. Birgonj, Dinajpur,",
-    "P.O. Sultanpur, P.S. Bochagonj, Dinajpur,",
-    "Atpukarhat, Dinjpur,",
-    "P.O. Khazapur, P.S. Fulbari, Dinajpur.,",
-    "P.O. Bhaduria, P.S. Nawabgonj, Dinajpur,",
-    "P.O. & P.S. Birampur, Dinajpur,",
-    "P.O. Dangapara, P.S. Hakimpur, Dinajpur,",
-    "P.O. Gopalpur, P.S. Ghoraghat, Dinajpur,",
-    "P.O. & P.S. Fulbari, Dinajpur,",
-    "P.O. Hatsamgonj, P.S. Ghoraghat, Dinajpur,",
-    "Dinajpur,",
-    "P.O. Banglahili, P.S. Parbatipur, Dinajpur,",
-    "P.O. Baropukuria,P.S. Fulbari, Dinajpur,",
-    "P.O. Ketrahat, P.S. Birampur, Dinajpur,",
-    "Madhapara, Dinjpur,",
-    "P.O. Pulhat, P.S. Sador,Dinajpur,",
-    "P.O. Ambari, P.S. Parbotipur, Dinajpur,",
-    "P.O. & P.S. Nawabgonj, Dinajpur,",
-    "P.O. Nurulhuda,P.S. Parbotipur, Dinajpur,",
-    "P.O. Jalal pur,P.S. Sador,Dinajpur,",
-    "P.O. & P.S. Parbatipur, Dinajpur,",
-    "P.O. & P.S. Birampur, Dinajpur,",
-    "P.O. Gaibandha, P.S. P.O. Palashbari, Gaibandha,",
-    "P.O. Hat Dariapur, Gaibandha,",
-    "P.O. Dharmapur, P.S. Sundargonj, Dist. Gaibandha,",
-    "P.O. Dholbhanga, P.S. Sadullahpur, Gaibandha,",
-    "P.O. Bazarpara, P.S. Sundargonj, Gaibandha,",
-    "P.O.Fulchary, P.S. Saghata, Gaibandha,",
-    "Gaibandha Sadar, Gaibandha,",
-    "P.O. Kanta Nagar, P.S. Sadullapur, Gaibandha,",
-    "P.O. Kuptala, Gaibandha,",
-    "P.O. P.S. Sadullapur, Gaibandha,",
-    "P.O. P.S. Sundarganj, Gaibandha,",
-    "P.O. Tulsighat, P.S. Palashbari, Gaibandha,",
-    "P.O. Barokona, P.S. Saghata, Gaibandha,",
-    "P.O. Bonarpara, P.S. Saghata, Gaibandha,",
-    "P.O. P.S. Gobindaganj, Gaibandha,",
-    "P.O. Talukjamira, P.S. P.O. Palashbari, Gaibandha,",
-    "P.O. Jumarbari, P.S. Saghata, Gaibandha,",
-    "P.O. Basudevpur, P.S. Gobindagonj Gaibandha,",
-    "P.O. Katabari, Gaibandha,",
-    "P.O. Koacha Shahor Gaibandha,",
-    "P.O. Mahimaganj, P.S. Gobidagonj, Gaibandha,",
-    "P.O. Nakaihat, P.S. Gobindagonj, Gaibandha,",
-    "P.O. Pudom Shahor, P.S. Saghata, Gaibandha,",
-    "P.O. P.S. Palashbari, Gaibandha,",
-    "P.O. P.S. Saghata, Gaibandha,",
-    "272, Banolata C/A Airport Road, Head Office, Rajshahi,",
-    "272, Banolata C/A Airport Road, Rajshahi,",
-    "P.O. P.S. Akkelpur, Joypurhat,",
-    "P.O. Atapur, P.S. Panchbibi, Joypurhat,",
-    "P.O. Bagzana, P.S. Panchbibi, Joypurhat,",
-    "P.O. Baliadanga, P.S. Khetlal, Joypurhat,",
-    "P.O. Chatinali, P.S. Panchbibi, Joypurhat,",
-    "P.O. Dharanji, P.S. Panchbibi, Joypurhat,",
-    "P.O. Bagzana, P.S. Kalai, Joypurhat,",
-    "Joypurhat, Sador, Joypurhat,",
-    "P.O. P.S. Kalai, Joypurhat,",
-    "P.O. P.S. Khetlal, Joypurhat,",
-    "P.O. Amdai, P.S. Sador, Joypurhat,",
-    "P.O. Moshlemgonj, Ps Kalai, Joypurhat,",
-    "P.O. P.S. Panchbibi, Joypurhat,",
-    "P.O. Puronapail, P.S. Sador, Joypurhat,",
-    "P.O. Raikali, P.S. Akkelpur, Joypurhat,",
-    "P.O. Tabakpur, P.S. Ulipur, Kurigram,",
-    "P.O. & P.S. Bhurungamari, Kurigram,",
-    "P.O. P.S. Chilmari, Kurigram,",
-    "P.O. Payradanga P.S. Nageshwari, Kurigram,",
-    "Jatrapur, Kurigram,",
-    "P.O. Kachakata, P.S. Nageshari, Kurigram,",
-    "P.O. Baldia, P.S. Vurangamari, Kurigram,",
-    "P.O. Kathalbari, Kurigram,",
-    "Fulbari, Kurigram,",
-    "Station Road, Kurigram,",
-    "P.O. Mondolerhat, P.S. Ulipur, Kurigram,",
-    "P.O. & P.S. Nogeswari , Kurigram,",
-    "P.O. Bhogdonga, P.S. & Dist. Kurigram,",
-    "P.O. & P.S. Phulbari , Kurigram,",
-    "P.O. Nagorband, P.S. Nageshari Kurigram,",
-    "P.O. & P.S. Rajarhat, Kurigram,",
-    "P.O. & P.S. Rajibpur, Kurigram,",
-    "P.O. & P.S. Ronmari, Kurigram,",
-    "P.O. Singeir Dabrihat P.S. Rajarhat, Kurigram,",
-    "P.O. & P.S. Ulipur, Kurigram,",
-    "PO & PS Aditmar, Lalmonirhat,",
-    "P.O. Chanparha, P.S. Kaligoanj Lalmonirhat,",
-    "P.O. Daikhaowa, P.S. Hatibandha, Lalmonirhat,",
-    "P.O. Barabari, P.S. Hatibandha, Lalmonirhat,",
-    "P.O. Barobari, P.S. Sador, Lalmonirhat,",
-    "P.O. Gorol, P.S. Aditmari, Lalmonirhat,",
-    "P.O. Mohendranagor, P.S. Sador, Lalmonirhat,",
-    "PO & P.S. Hatibandha, Lalmonirhat,",
-    "PO Karimpur & P.S. Kaligonj, Lalmonirhat,",
-    "Lalmonirhat Sadar, Lalmonirhat,",
-    "P.O. Velabari, P.S. Sador, Lalmonirhat,",
-    "P.O. Duhali, P.S. Aditmari, Lalmonirhat,",
-    "PO& P.S. Patgram, Lalmonirhat,",
-    "PO: Saptibari, P.S. Aditmari, Lalmonirhat,",
-    "P.O. Sarkarerhat, P.S. Patgram, Lalmonirhat,",
-    "P.O. Tista, P.S. Sador, Lalmonirhat,",
-    "P.O. Velabari, P.S. Aditmari, Lalmonirhat,",
-    "P.O. & P.S. Badalgachhi, Naogaon,",
-    "P.O. & P.S. Dhamoirhat, Naogaon,",
-    "P.O. Fotepur, P.S. Dhamurhat, Naogaon,",
-    "P.O. Hajinagar, P.S. Niamotpur, Naogaon,",
-    "P.O. Hat Chakgouri, P.S. Mahadevpur, Dist. Naogaon, hat",
-    "P.O. Modhuil, P.S. Patnitola, Naogaon,",
-    "P.O. & P.S. Mahadebpur, Naogaon,",
-    "P.O. Amair, P.S. Patnitola, Naogaon,",
-    "P.O. & P.S. Neamatpur, Naogaon,",
-    "P.O. Boidhabihar,P.S. Badalgachhi, Naogaon,",
-    "P.O. Nazipur, P.S. Patnitola, Naogaon,",
-    "P.O. & P.S. Porsha, Naogaon,",
-    "P.O. Rangamati,P.S. Dhamoirhat, Naogaon,",
-    "Sapahar, Naogaon,",
-    "P.O. Uttargram, P.S. Mahadevpur, Naogaon,",
-    "P.O. Ahsanganj, P.S. Atrai, Naogaon,",
-    "P.O. Ghosgram, P.S. Raninagor, Naogaon,",
-    "P.O. Dubalhati, P.S. Sador, Naogaon,",
-    "P.O. Jotbazar, P.S. Manda, Naogaon,",
-    "P.O. Kirtipur, P.S. Sador, Naogaon,",
-    "Napithpara, Kashopara, Manda, Naogaon,",
-    "Bazar Road, Naogaon,",
-    "P.O. Patishar, P.S. Atrai, Naogaon,",
-    "P.S. Sador, Naogaon,",
-    "P.O. Prasadpur, P.S. Manda, Naogaon,",
-    "P.O. & P.S. Raninagor, Naogaon,",
-    "P.O. Tetulia, P.S. Manda, Naogaon,",
-    "P.O. Bhangajangal, P.S. Atrai, Naogaon,",
-    "P.O. Satihat, P.S. Manda, Naogaon,",
-    "P.O.Shailgachi, P.S. Sador, Naogaon,",
-    "P.O. Abdulpur, P.S. Lalpur, Natore,",
-    "P.O. Ahmmadpur, P.S. Baraigram, Natore,",
-    "P.O. Laxmonhati, P.S. Bagatipara, Natore,",
-    "P.O. Berilabari, P.S. Lalpur, Natore,",
-    "P.O. Haroa, P.S. Baraigram, Natore,",
-    "P.O. Bripatharia, P.S. Gurudashpur Natore,",
-    "P.O. Chowgram, P.S. Singra, Natore,",
-    "P.O. Rajapurhat, P.S. Baraigram, Natore,",
-    "P.O. Dhapari, P.S. Lalpur, Natore,",
-    "P.O. & P.S. Gurudaspur, Natore,",
-    "P.O. Biprohalsa, P.S. Sador, Natore,",
-    "P.O. Jamnagar, P.S. Bagatipara, Natore,",
-    "P.O. Panchabari, P.S. Lalpur, Natore,",
-    "P.O. Jeuoara, P.S. Sador, Natore,",
-    "Khejurtala, Natore,",
-    "P.O. Laxmipurhat, P.S.Baraigram, Natore,",
-    "P.O. . Gopalpur, P.S Lalpur, Dist. Natore,",
-    "P.O. & P.S. Naldangahat, Natore,",
-    "P.O. & P.S. Natore, Natore,",
-    "Gurudaspur, Natore,",
-    "P.O. & P.S. Singra, Natore,",
-    "P.O. Walia, P.S. Lalpur, Natore,",
-    "P.O. Khagakharibari, P.S. Dimla, Nilphamari,",
-    "P.O. Baravita, P.S. Jaldhaka, Nilphamari,",
-    "P.O. Kaimari, P.S. Kishorgonj , Nilphamari,",
-    "P.O. Chapanihat, P.S. Dimla, Nilphamari,",
-    "P.O. & P.S. Dimla, Nilphamari,",
-    "P.O. & P.S. Domar, Nilphamari,",
-    "P.O. Gorgram, Nilphamari,",
-    "P.O. Hazarihat, P.S. Saiudpur Nilphamari,",
-    "P.O. Babrijar, Nilphamari,",
-    "P.O. & P.S. Jaldhaka, Nilphamari,",
-    "P.O. Goalnakaligonj, P.S. Joldhaka, Nilphamari,",
-    "P.O. Kazirhat, Nilphamari,",
-    "Kherkatihat, Upazila-Jaldhaka, Nilphamari,",
-    "P.O. & P.S. Kishoreganj, Nilphamari,",
-    "P.O. Melapanga, P.S. Domar, Nilphamari,",
-    "P.O. Mirzaganj, P.S. Domar, Nilphamari,",
-    "P.O. Nautara, P.S. Dimla, Nilphamari,",
-    "Nilphamari,",
-    "Polashbarihat, Sadar, Nilphamari,",
-    "P.O. & P.S. Saidpur, Nilphamari,",
-    "P.O. Khutamara, P.S. Joldhaka, Nilphamari,",
-    "P.O. Magura, P.S. Kishorgonj Nilphamari,",
-    "P.O. Chandva, P.S. Atghoria, Pabna,",
-    "P.O. & P.S. Pabna , Pabna,",
-    "P.O. P.S. Bhangura, Pabna,",
-    "P.O. & P.S. Chatmohar, Pabna,",
-    "P.O. Dapunia, P.S. Sador, Pabna,",
-    "P.O. Failjana, P.S. Chantmohor, Pabna,",
-    "P.O. Handial Bazar, P.S. Chantmohar,Pabna,",
-    "P.O. P.S. Iswardi, Pabna,",
-    "P.O. Joynagar, P.S. Iswardi, Pabna,",
-    "P.O. Moydandighi, P.S.Vangura, Pabna,",
-    "Abdul Hamid Road, Pabna,",
-    "P.O. Singa, P.S. Sador, Pabna,",
-    "P.O. Aminpur Bazar, P.S. Bera, Pabna,",
-    "P.O. P.S. Bera, Pabna,",
-    "P.O. Bonkolahat, P.S. Sujanagor, Pabna,",
-    "P.O. Bonoari Nagar, P.S. Faridpur, Pabna,",
-    "Chinakhora bazar, P.S. Suzanagar, Pabna,",
-    "P.O. Nurdaha, P.S. Shanthia, Pabna,",
-    "P.O. Gobindapur, P.S. Sujanagor, Pabna,",
-    "P.O. Dhanuaghata, P.S. Faridpur Pabna,",
-    "Kashinathpur, Santhia, Pabna,",
-    "Khalilpur, Pabna,",
-    "P.O. Banogram, P.S. Shanthia Pabna,",
-    "P.O. & P.S. Santhia, Pabna,",
-    "P.O. Satbaria, P.S. Sujanagor, Pabna,",
-    "Santhia, Pabna,",
-    "P.O. & P.S. Suzanagar, Pabna,",
-    "P.O. Chotodhap, P.S.Atoari, Panchagarh,",
-    "Baliadanghi,",
-    "P.O. Bhajanpur, P.S.Tetulia, Panchagarh,",
-    "P.O. & P.S. Boda, Panchagarh,",
-    "P.O. & P.S. Debigonj, Panchagarh,",
-    "P.O. Dhakkamara, P.S.Sador, Panchgarh,",
-    "P.O. Sathmera, P.S.Panchagar, Dist. Panchgarh,",
-    "P.O. Haribhasha, P.S. & Dist. Panchgarh,",
-    "P.O. Natunhat, P.S. Boda, Panchgarh,",
-    "P.O. Amtola Kazipara, P.S. Boda, Panchgarh,",
-    "P.O. Kaliagonjhat, P.S.Debigonj, Panchgarh,",
-    "P.O. Pamili, P.S. Debigonj, Panchgarh,",
-    "P.O. Mirza pur, P.S.Atouari, Panchagarh,",
-    "Islambag, Panchagarh,",
-    "P.O. Sakoa, P.S. Boda, Panchagarh,",
-    "P.O. Sonahar, P.S. Debigonj, Panchagarh,",
-    "PO & P.S.Tetulia, Panchagarh,",
-    "P.O. Tirnaihat, P.S.Tetulia,",
-    "P.O. Toreya, P.S.Atoari, Panchagarh,",
-    "P.O. Goalkandi, Upazilla Bagmara, Rajshahi,",
-    "P.O. Bagha, Rajshahi,",
-    "P.O. Bargachi, P.S.Paba, Rajshahi,",
-    "P.O. Bhabaniganj, Rajshahi,",
-    "P.O. Binodpur Bazar, Rajshahi.,",
-    "daokandi, Durgapur,Rajshahi,",
-    "P.O. Durgapur, Upazilla,",
-    "P.O. Godagari, Upazilla,",
-    "Sadaron Bima Bhaban, Kazihata, Rajshahi-6000,",
-    "P.O. Darusha, Upazilla Paba, Rajshahi,",
-    "P.O. Kakanhat, Upazilla,",
-    "P.O. Saranjai, Upazilla Tanor, Rajshahi,",
-    "P.O. Kamargoan, P.S Tanore, Rajshahi,",
-    "P.O. Kharkhari, Upazilla Paba, Rajshahi,",
-    "P.O. Maugachi, Upazilla Mohonpur, Rajshahi,",
-    "P.O. Mochmoil Bazar, Upazilla Baghmara, Rajshahi,",
-    "P.O. Mohonpur, Upazilla,",
-    "P.O. Mollaparahat, Upazilla Puthia, Rajshahi,",
-    "P.O. Sapura, Upazilla Paba, Rajshahi,",
-    "Krishnapur, P.S. Tanore, Rajshahi,",
-    "P.O. Puthia, Upazilla Puthia, Rajshahi,",
-    "P.O. Gogram, P.S Godagari, Rajshahi,",
-    "P.O. Ghoramara, Rajshahi,",
-    "P.O. Sardah, Upazilla Charghat,,",
-    "Upazilla Baghmara, Rajshahi,",
-    "P.O. & P.S. Tanore, Rajshahi,",
-    "Badargonj, Rangpur,",
-    "Taragonj, Rangpur,",
-    "Dhantola Branch, P.O-Dhantola, Rangpur,",
-    "Gangachara, Rangpur,",
-    "Taragonj, Rangpur,",
-    "Kaunia, Rangpur,",
-    "Badargonj, Rangpur,",
-    "Badargonj, Rangpur,",
-    "Porshuram, Rangpur,",
-    "Rangpur,",
-    "Saddapuskarini, Rangpur,",
-    "Taragonj, Rangpur,",
-    "Taxerhat, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Pirgachha, Rangpur,",
-    "Pirgonj, Rangpur,",
-    "Pirgong, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Pirgachha, Rangpur,",
-    "Pirgonj, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "Pirgonj, Rangpur,",
-    "Mithapukur, Rangpur,",
-    "P.O. Belkuchi, P.S. Belkuchi, Sirajgonj,",
-    "P.O. Bhadraghat, P.S. Kamarkanda, Sirajgonj,",
-    "P.O. Chalitadanga, P.S. Kazipur, Sirajgonj,",
-    "P.O. Chongacha, Sirajgonj,",
-    "P.O. Khaskaulia, P.S. Chowhali, Sirajgonj,",
-    "P.O. Gabdhail, P.S. Kazipur, Sirajgonj,",
-    "P.O. Ghurka, P.S. Raigonj, Sirajgonj,",
-    "P.O. Bodijamtoli, P.S. Kamarkand, Sirajgonj,",
-    "P.O. Khokshabari, Sirajgonj,",
-    "P.O. Meghai, P.S. Kazipur, Sirajgonj,",
-    "P.O. Kayampur, P.S. Shahzadpur, Sirajgonj,",
-    "P.O. & P.O. Ullapara, Sirajgonj,",
-    "P.O. Panchakushi, P.S. Ullapara, Sirajgonj,",
-    "P.O. Puronimeghat, P.S. Ullapara, Sirajgonj,",
-    "P.O. Dhangara, P.S. Raigonj, Sirajgonj,",
-    "P.O. Sahajadpur, Sirajgonj,",
-    "P.O. & P.S. Shajadpur, Sirajgonj,",
-    "P.O. P.S.& Dist. Sirajgonj,",
-    "P.O. Tamai, P.S. Belkuchi, Sirajgonj,",
-    "P.O. & P.S. Tarash, Sirajgonj,",
-    "P.O. Udhunia Bazar, P.S. Ullahpara, Sirajgonj,",
-    "P.O. & P.S. ullapara, Sirajgonj,",
-    "P.O. Kachubari, Upazilla Sador,Thakurgaon,",
-    "P.O. Baliadangi, Upazilla Baliadangi,Thakurgaon,",
-    "P.O. Begunbari, Upazilla Sador,Thakurgaon,",
-    "P.O Bhadua, P.S Pirganj, Thakurgaon,",
-    "P.O. Bhelazan, Upazilla Sador Thakurgaon,",
-    "P.O. Bhomradaha, Upazilla Pirgonj, Thakurgaon,",
-    "P.O. Kohorpara, Upazilla & Dist. Thakurgaon,",
-    "P.O. Lahirihat, Upazilla Baliadangi, Thakurgaon,",
-    "P.O. Pirganj, Upazilla Haripur Thakurgaon,",
-    "P.O. Muzahidabad, Upazilla Ranishainkal, Thakurgaon,",
-    "P.O. Farabari, Upazilla Sador, Thakurgaon,",
-    "P.O. Gogore, Upazilla Ranisankail,Thakurgaon,",
-    "P.O. Jibanpur, Upazilla Haripur Thakurgaon,",
-    "P.O. Kamarpur, Upazilla Haripur,Thakurgaon,",
-    "Thakurgaon,",
-    "P.O. Maddergonj, Upazilla & Dist. Thakurgaon,",
-    "P.O. Pirgonj, Upazilla Pirgonj, Thakurgaon,",
-    "P.O. Ranisankail, Upazilla Ranisankail, Thakurgaon,",
-    "Ruhiya, P.O-Ruhiya, Thakurgoan,",
-    "North Circular Road, Upazilla & Dist. Thakurgaon,"
-  ],
-  "branch_url": [
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg",
-    "https://rakub.org.bd/Citizen_Charter/Citizen Charter.jpg"
-  ],
-  "branch_contact_number": [
-    null,
-    null,
-    "+88-051-66287",
-    null,
-    null,
-    null,
-    "05025-75007",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05028-56211",
-    null,
-    null,
-    null,
-    "05033-69014",
-    "05062-79005",
-    "0741-69223",
-    null,
-    null,
-    null,
-    null,
-    "05023-56106",
-    "05024-88085",
-    null,
-    "05026-56009",
-    null,
-    "05027-76063",
-    null,
-    null,
-    "+88-051-64183",
-    "0741-69442",
-    null,
-    "05029-77025",
-    null,
-    null,
-    null,
-    "07822-5610",
-    null,
-    "0781-52361",
-    null,
-    null,
-    null,
-    null,
-    "07824-56012",
-    null,
-    "07823-74044",
-    "07825-75019",
-    null,
-    null,
-    null,
-    "+880-2-9569408",
-    "05323-72211",
-    "05325-56006",
-    null,
-    null,
-    "05326-56105",
-    null,
-    "0531-63202",
-    "05335-56007",
-    null,
-    "05332-56005",
-    null,
-    null,
-    null,
-    null,
-    "05325-70001",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05322-56404",
-    null,
-    null,
-    "05327-56232",
-    null,
-    null,
-    "05329-75007",
-    null,
-    null,
-    null,
-    "0531-64840",
-    null,
-    "05333-56005",
-    null,
-    null,
-    "05334-74362",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05422-56046",
-    "0541-61532",
-    null,
-    null,
-    "05425-56011",
-    "05427-64001",
-    null,
-    null,
-    null,
-    "05423-75016",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05426-88075",
-    null,
-    "0247-860532",
-    null,
-    "05722-62479",
-    null,
-    null,
-    "0571-62205",
-    null,
-    null,
-    null,
-    "0571-62342",
-    "05725-56004",
-    null,
-    null,
-    null,
-    "0571-75020",
-    "0571-63023",
-    null,
-    null,
-    null,
-    "05824-56005",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "0581-61419",
-    null,
-    "05826-56213",
-    null,
-    "05825-56004",
-    null,
-    "05827-56042",
-    "05823-56003",
-    "05828-56019",
-    null,
-    "05829-56021",
-    "05922-56012",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05923-56226",
-    "0594-56019",
-    "+88-0591- 5520",
-    null,
-    null,
-    "05925-56219",
-    "0591-61817",
-    null,
-    null,
-    null,
-    "07423-56018",
-    "07424-56015",
-    null,
-    null,
-    null,
-    null,
-    "07426-75015",
-    null,
-    "07427-56006",
-    null,
-    "07428-63014",
-    null,
-    null,
-    "07432-74026",
-    null,
-    "07422-71012",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "0741-62451",
-    null,
-    null,
-    "07425-62003",
-    "07433-56011",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "07722-72016",
-    "0723-56018",
-    null,
-    null,
-    null,
-    null,
-    "07725-75056",
-    "07724-74044",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "025888-76608",
-    "025888-72265",
-    null,
-    "07726-63003",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05522-56312",
-    "05523-75019",
-    null,
-    null,
-    null,
-    "05542-64011",
-    null,
-    null,
-    null,
-    "05525-56020",
-    null,
-    null,
-    null,
-    "0551-61423",
-    null,
-    "05526-72603",
-    null,
-    null,
-    null,
-    "0731-51881",
-    "07328-56048",
-    "07324-56135",
-    "0731-51068",
-    null,
-    null,
-    "0731-60732",
-    null,
-    null,
-    "0731-65770",
-    "0731-65994",
-    null,
-    "07323-75047",
-    null,
-    "07325-64008",
-    null,
-    null,
-    "07332-54117",
-    null,
-    "01713072605",
-    null,
-    null,
-    null,
-    "0731-65082",
-    null,
-    "0329-56113",
-    "05652-56007",
-    null,
-    null,
-    "05653-56106",
-    "05654-56043",
-    "0568-61259",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "0568-61218",
-    null,
-    null,
-    "05655-75006",
-    null,
-    null,
-    null,
-    "07233-56008",
-    "0721-800179",
-    "07222-56010",
-    "0721-750627",
-    null,
-    "07224-56006",
-    "07225-56004",
-    null,
-    null,
-    "+8807234-51015",
-    "07229-56087",
-    null,
-    null,
-    "0721-800176",
-    null,
-    "07226-56005",
-    null,
-    "0721-750627",
-    null,
-    "07228-56101",
-    null,
-    "0721-77881",
-    "07223-56008",
-    null,
-    "07229-56012",
-    "05222-56235",
-    null,
-    null,
-    "05223-56023",
-    null,
-    "05224-56013",
-    null,
-    null,
-    null,
-    "0521-62376",
-    null,
-    "05228-56019",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05225-56166",
-    null,
-    "05226-56016",
-    "05227-56016",
-    null,
-    null,
-    null,
-    "07522-56450",
-    "0751-64486",
-    null,
-    null,
-    "0751-63822",
-    null,
-    null,
-    "07524-56007",
-    null,
-    "07525-56295",
-    null,
-    "07529-56340",
-    null,
-    "07529-56180",
-    "07526-56117",
-    null,
-    "07527-64536",
-    "0751-62041",
-    "07522-56450",
-    "07528-56207",
-    null,
-    "07529-56140",
-    null,
-    "05622-56008",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "05623-56002",
-    null,
-    null,
-    null,
-    null,
-    "05625-56003",
-    null,
-    "0561-52013"
-  ],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "duration_sec": 34.3
+  "sub_branch": []
 }

@@ -1,7 +1,7 @@
 {
-  "_bank": "Bangladesh Development Bank PLC (BDBL)",
-  "bank_url": "https://bdbl.com.bd/",
-  "method": "json_api",
+  "_bank": "Citibank N.A.",
+  "bank_url": "https://mccibd.org/mcci_members/citibank-n-a/",
+  "method": null,
   "status": "failed",
   "branch": [],
   "sub_branch": [],

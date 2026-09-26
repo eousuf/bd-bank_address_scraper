@@ -1,17 +1,5183 @@
 {
   "_bank": "Pubali Bank PLC",
-  "website": "https://www.pubalibangla.com/",
-  "website_source": "ddg(score=1.00)|unverified",
-  "method": null,
-  "status": "failed",
-  "branch_name": [],
-  "branch_address": [],
-  "branch_url": [],
-  "branch_contact_number": [],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "error": "no branch data extracted (site may need JS rendering)",
-  "duration_sec": 9.2
+  "bank_url": "https://www.pubalibangla.com",
+  "method": "html_cards",
+  "status": "success",
+  "branch": [
+    {
+      "Adampur Bazar Branch": [
+        "ADAMPUR MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015982; 01724-692300"
+      ]
+    },
+    {
+      "Agrabad Corporate Branch": [
+        "99, AGRABAD COMM. AREA CHITTAGONG BANGLADESH, HEAD OFFICE CONTROL, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401316; 01819-325773"
+      ]
+    },
+    {
+      "Ajmirigonj Branch": [
+        "AJMIRIGONJ HABIGONJ BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435038; 01913-978587"
+      ]
+    },
+    {
+      "Akhaura Branch": [
+        "Municipal Building (1st Floor), Sarak Bazar, Akhaura, , HABIGONJ ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Akur Takur Branch": [
+        "ZILLA SADAR ROAD TANGAIL SADAR TANGAIL, BANGLADESH, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009441; 01712-257921"
+      ]
+    },
+    {
+      "Alamdanga Branch": [
+        "REYAD COMPLEX, ALIFUDDIN ROAD HOLDING NO:21, WARD NO:01 THANAPARA, ALAMDANGA, KHULNA ZONE, CHUADANGA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704801"
+      ]
+    },
+    {
+      "Alukdia Branch": [
+        "MASTER ABDUL WAHED MARKET, VILL/AREA: VALAIPUR MORE, UNION: ALUKDIA, THANA: CHUADANGA SADAR, DISTRICT: CHUADANGA., KHULNA ZONE, CHUADANGA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009439"
+      ]
+    },
+    {
+      "Aman Bazar Branch": [
+        "CHIKANDANDI, HATHAZARI P.O. FATHABAD, CHITTAGONG BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426830; 01818-067582"
+      ]
+    },
+    {
+      "Anderkilla Branch": [
+        "RAJAPUR LANE, P.O. ANDERKILLA CHITTAGONG SADAR CHITTAGONG, BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082201; 01554335441"
+      ]
+    },
+    {
+      "Anwara Branch": [
+        "P.O. ANWARA, ANWARA CHITTAGONG BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-085770; 01674-000155"
+      ]
+    },
+    {
+      "Asad Avenue Branch": [
+        "Amigo 14 Square 59/C & 61/C, Asad Avenue MOHAMMADPUR, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401286"
+      ]
+    },
+    {
+      "Asadgonj Branch": [
+        "147/148, ASADGONJ, HAJI GURA MIAH BUILDI P.O. KOTWALI, CHITTAGONG SADAR CHITTAGONG, BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437489"
+      ]
+    },
+    {
+      "Ashrafpur Bazar Branch": [
+        "ASHRAFPUR, KACHUA CHANDPUR BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437462; 01711-735709"
+      ]
+    },
+    {
+      "Ashugonj Branch": [
+        "ASHUGONJ STATION ROAD ASHUGONJ, BRAHMAN BARIA BANGLADESH, CUMILLA ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437460"
+      ]
+    },
+    {
+      "Ashulia Branch": [
+        "ASHULIA DHAKA , GAZIPUR ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-201663"
+      ]
+    },
+    {
+      "Asirgonj Bazar Branch": [
+        "ASHIRGONJ BAZAR GOLAPGONJ SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015993"
+      ]
+    },
+    {
+      "Ataikula Branch": [
+        "ATAIKULA SANTHIA PABNA, BANGLADESH, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426836"
+      ]
+    },
+    {
+      "Ati Bazar Branch": [
+        "UNION: ATI BAZAR UPZILLA: KARANIGONJ , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-188900; 01713-188891"
+      ]
+    },
+    {
+      "Babu Bazar Branch": [
+        "17, AKMAL KHAN ROAD DHAKA, BANGLADESH , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404384"
+      ]
+    },
+    {
+      "Babugonj Branch": [
+        "SIKDER PLAZA, HOLDING NO. 2130 SADAR ROAD, BABUGANJ BAZAR BABUGONJ, BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435028"
+      ]
+    },
+    {
+      "Baburhat Branch": [
+        "BABURHAT HIGH SCHOOL & COLLEGE CHANDPUR COMILLA ROAD,WARD NO. 14,BABURHAT P.O-BABURHAT,P.S-CHANDPUR,DISTRICT-CHANDPUR, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704867"
+      ]
+    },
+    {
+      "Bagerhat Branch": [
+        "MAIN ROAD BAGERHAT BANGLADESH, KHULNA ZONE, BAGERHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404389"
+      ]
+    },
+    {
+      "Bagha Branch": [
+        "NIAT ALI SUPER MARKET HOLDING NO: 0483-02 ; ISHWARDI-RAJSHAHI ROAD WARD NO:5 , THANA: BAGHA, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209144; 01713-209145"
+      ]
+    },
+    {
+      "Bahadderhat Branch": [
+        "1719/2275, SWAJAN SUPER MARKET, BAHADDERHAT, CHANDGAON,CHATTOGRAM , CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401289"
+      ]
+    },
+    {
+      "Bakultala Branch": [
+        "BAKULTALA ROAD JAMALPUR SADAR JAMALPUR, BANGLADESH;, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009440"
+      ]
+    },
+    {
+      "Balagonj Branch": [
+        "BALAGONJ BAZAR ROAD BALAGONJ SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082216"
+      ]
+    },
+    {
+      "Bamna Branch": [
+        "FATIMA PLAZA, COLLEGE ROAD BAMNA BARGUNA, BANGLADESH, BARISAL ZONE, BARGUNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-069927"
+      ]
+    },
+    {
+      "Banani Branch": [
+        "SMC TOWER, KAMAL ATATURK AVENUE, 33, BANANI C/A, DHAKA-1213, BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401285; 01611401285"
+      ]
+    },
+    {
+      "Banasree Branch": [
+        "HOUSE NO-2, BLOCK-C, MAIN ROAD WARD NO-22, BANASREE P.S- KHILGOAN, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937 404320"
+      ]
+    },
+    {
+      "Bandarban Branch": [
+        "BANDARBAN BAZAR BANDARBAN BANGLADESH, CHATTOGRAM SOUTH ZONE, BANDARBAN",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704797"
+      ]
+    },
+    {
+      "Baneswar (Rural) Branch": [
+        "HAWA PLAZA, BANESWAR BAZAR PUTHIA RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704719"
+      ]
+    },
+    {
+      "Bangla Bazar Branch": [
+        "HORIPUR CHHAGALNAIYA FENI, BANGLADESH, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678-329031; 01678-329033"
+      ]
+    },
+    {
+      "Bangodda Bazar Branch": [
+        "BANGODDA, NANGALKOT COMILLA BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426141; 01812-065044"
+      ]
+    },
+    {
+      "Bangshal Branch": [
+        "260, BANGSHAL ROAD DHAKA, BANGLADESH , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404386"
+      ]
+    },
+    {
+      "Baniachong Branch": [
+        "BANIACHONG HABIGONJ BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438555"
+      ]
+    },
+    {
+      "Banskhali Branch": [
+        "SOUTH JALDI P.O. JALDI, BANSKHALI CHITTAGONG, BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-085769; 01716-309072"
+      ]
+    },
+    {
+      "Bar Library Branch": [
+        "6, COURT HOUSE STREET DHAKA, BANGLADESH , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426545"
+      ]
+    },
+    {
+      "Baraikandi Branch": [
+        "IQBAL TOWN CENTRE, CHANDIPUL POINT 3 NO TETLI UNION, SOUTH SURMA, SYLHET SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082209"
+      ]
+    },
+    {
+      "Baralekha Branch": [
+        "BARALEKHA MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-047638"
+      ]
+    },
+    {
+      "Baratakia Bazar Branch": [
+        "ABU SUFIAN SHOPPING COMPLEX BARATAKIA BAZAR MIRSARAI, CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426825; 01730-305502"
+      ]
+    },
+    {
+      "Barguna Branch": [
+        "78, BANGABANDHU SARAK BARGUNA POURASHAVA BARGUN A, BARISAL ZONE, BARGUNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082218"
+      ]
+    },
+    {
+      "Baridhara Branch": [
+        "HOUSE NO- GA-37/1 WARD NO-NIL, BLOCK- J JAMALPUR TOWER, PRAGATI SHARAN, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937 404319"
+      ]
+    },
+    {
+      "Barishal Branch": [
+        "18, K.B. HEMAYETUDDIN ROAD BARISAL SADAR BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404352"
+      ]
+    },
+    {
+      "Baroiarhat Branch": [
+        "HAJI KHAIR CITY CENTER HOLDING NO:307, WARD NO:02 BAROIARHAT, MIRSHARI, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704873"
+      ]
+    },
+    {
+      "Baroigram Bazar Branch": [
+        "BAROIGRAM BAZAR, SYLHET , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713 080226"
+      ]
+    },
+    {
+      "Barura Branch": [
+        "ROWSHAN PLAZA, HOLDING NO. 1058-00 WARD NO. 03, POURASAVA- BARURA PO- BARURA, PS- BARURA, DISTRICT- CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367590; 01958578204"
+      ]
+    },
+    {
+      "Bashaboo Branch": [
+        "CENTRAL BASHABOO SABUJBAGH DHAKA, BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426550"
+      ]
+    },
+    {
+      "Basurhat Branch": [
+        "BASURHAT COMPANIGONJ NOAKHALI, BANGLADESH, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-038562"
+      ]
+    },
+    {
+      "Batiaghata Branch": [
+        "BATIAGHATA KHULNA BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426832"
+      ]
+    },
+    {
+      "Bazar Road Branch": [
+        "BAZAR ROAD BARISAL SADAR BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404391"
+      ]
+    },
+    {
+      "Beani Bazar Branch": [
+        "BEANI BAZAR MAIN ROAD BEANI BAZAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401304"
+      ]
+    },
+    {
+      "Begum Bazar Branch": [
+        "70/1/A, BEGUM BAZAR LALBAGH DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437476"
+      ]
+    },
+    {
+      "Belabo Branch": [
+        "MASUD PLAZA, COLLEGE ROAD, BELABO BAZAR. WARD NO-01, UNION-BELABO, P.S.-BELABO DIST-NARSINGDI, NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01321203298"
+      ]
+    },
+    {
+      "Benapole Branch": [
+        "HIIRA SUPER MARKET BHABAN ( 1ST FLOOR) P.O.-BENAPOLE , P.S.: SHARSHA DIST.: JESSORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704700"
+      ]
+    },
+    {
+      "Bera Branch": [
+        "FAKIR PLAZA, HOLDING NO.-696, BERA-KASHINATHPUR ROAD, WARD NO.-09, PAURASHAVA-BERA, THANA-BERA, DISTRICT-PABNA, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335100683"
+      ]
+    },
+    {
+      "Bhaberchar Branch": [
+        "BHABERCHAR, GAZARIA MUNSHIGONJ BANGLADESH, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426135; 01841426135"
+      ]
+    },
+    {
+      "Bhairab Bazar Branch": [
+        "ASMOT TOWER (1ST FLOOR), HOLDING#260 WARD#01, BHAIRAB, KISHOREGANJ, BANGLADESH, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437473"
+      ]
+    },
+    {
+      "Bhaluka Branch": [
+        "MYMENSINGH , MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987-706859; 01987-706860"
+      ]
+    },
+    {
+      "Bhandaria Branch": [
+        "BEPARI SUPER MARKET (1ST FLOOR) P.O. BHANDARIA, PIROJPUR BANGLADESH, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-068478"
+      ]
+    },
+    {
+      "Bhanga Branch": [
+        "FARIDPUR , FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713201665"
+      ]
+    },
+    {
+      "Bhangura Branch": [
+        "BADSHA MIA & SONS SUPER MARKET HOLDING NO.-284, WARD NO.-7 POUROSHOVA-BHANGURA, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322-890086"
+      ]
+    },
+    {
+      "Bhatera Bazar Branch": [
+        "FATEH YUSUF MARKET,MOUZA-MAIJGAON UNION-BHATERA,P.O-BHATERA P.S-KULAURA,DIST-MOULVIBAZAR, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01708810846; 01708810848"
+      ]
+    },
+    {
+      "Bhawanigonj Branch": [
+        "SOBHAN PLAZA,BHABANIGONJ BAZAR MOUZA+UNION-BHABANIGONJ PS-BAGMARA,DIST-RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01926996374"
+      ]
+    },
+    {
+      "Bheramara Branch": [
+        "KUSTIA PRAGPUR ROAD BHERAMARA, KUSHTIA BANGLADESH, FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426846"
+      ]
+    },
+    {
+      "Bhojeshwar Bazar Branch": [
+        "KHAN TOWER-4, BHOJESHWAR BAZAR POURASHAVA + P.S : NARIA , FARIDPUR ZONE, SHARIATPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704749"
+      ]
+    },
+    {
+      "Bhola Branch": [
+        "MAHAJAN PATTY P.O. BHOLA BHOLA, BANGLADESH, BARISAL ZONE, BHOLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404393"
+      ]
+    },
+    {
+      "Bhulta Branch": [
+        "NUR MANSION GOLAKANDAIL, BHULTA, P.S- RUPGONJ DIST. - NARAYANGONJ, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-072866; 01713-072867"
+      ]
+    },
+    {
+      "Bhuschi Bazar Branch": [
+        "HAJEE AYUB MANSION,BHUSCHI BAZAR MOUZA-BARAIPUR P.S-SADAR DAKSHIN,DIST-COMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678329026"
+      ]
+    },
+    {
+      "Birampur Branch": [
+        "MIZAN SHOPPING MALL, DHAKA-DINAJPUR SARAK, WARD NO.-04, POURASHAVA- BIRAMPUR, THANA- BIRAMPUR, DIST.- DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801324296006"
+      ]
+    },
+    {
+      "Birgonj Branch": [
+        "ALHAJ LATIF TOWER HOLDING NO. 0280 VILL - SAJALPUR, P.O. - BIRGONJ, P.S. - BIRGONJ DISTRICT - DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225544; 01701-225545"
+      ]
+    },
+    {
+      "Biswanath Branch": [
+        "BISWANATH BAZAR BISWANATH SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426835"
+      ]
+    },
+    {
+      "Boalmari Branch": [
+        "JAMAN TOWER, HOLDING NO.68,STATION ROAD WARD NO.03, POURASHAVA- BOALMARI THANA- BOALMARI, DISTRICT- FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367593; 01958578225"
+      ]
+    },
+    {
+      "Board Bazar Branch": [
+        "CHAINA TOWN BANGLADESH 71, KALAMESWAR ROAD, WARD NO.35 P.O.+P.S. - GAZIPUR SADAR, DISTRICT - GAZIPUR, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225530; 01701-225531"
+      ]
+    },
+    {
+      "Bogura Branch": [
+        "KABI NAZRUL ISLAM ROAD BOROGOLA, BOGRA SADAR BOGRA, BANGLADESH, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404350"
+      ]
+    },
+    {
+      "Bolivodro Bazar Branch": [
+        "NEYATH SOLIM PLAZA, BOLIVODRO BAZAR WARD NO. 05, UNION- DHAMSONA THANA- ASHULIA, DISTRICT- DHAKA, GAZIPUR ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324412803; 01958284550"
+      ]
+    },
+    {
+      "Bondar Bazar Branch": [
+        "LALDIGHIRPAR, SYLHET-3100 , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704857; 01730318040"
+      ]
+    },
+    {
+      "Borhanuddin Branch": [
+        "B.M. SUPER MARKET, HOLDING NO.-29/30 BORHANUDDIN BAZAR, SADAR ROAD, WARD NO.-02 POURASHAVA & P.S.-BORHANUDDIN, DISTRICT- BHOLA, BARISAL ZONE, BHOLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01792847531"
+      ]
+    },
+    {
+      "Brahman Bazar Branch": [
+        "KAZALDHARA MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426553"
+      ]
+    },
+    {
+      "Brahmanbaria Branch": [
+        "T.A. ROAD BRAHMAN BARIA SADAR BRAHMANBARIA, BANGLADESH, CUMILLA ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437486"
+      ]
+    },
+    {
+      "Brahmanpara Branch": [
+        "JAHIRUL ISLAM MARKET MAJOR M A GANI ROAD PO-BRAHMANPARA, PS-BRAHMANPARA,DIS-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322-890089; 01958-284524"
+      ]
+    },
+    {
+      "Bscic Branch": [
+        "HOLDING NO:216 NARAIL ROAD PS. KOTWALI, DISTRICT: JASHORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713209148; 01713209150"
+      ]
+    },
+    {
+      "Budhbari Bazar Branch": [
+        "KALIJURI GOLAPGONJ SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082213"
+      ]
+    },
+    {
+      "C.D.A Corporate Branch": [
+        "C.D.A. BUILDING CHITTAGONG BANGLADESH, HEAD OFFICE CONTROL, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401310; 01714-101102"
+      ]
+    },
+    {
+      "Chakoria Branch": [
+        "1074, WARD NO-08, CHAKORIA POURASHAVA COXSBAZAR , CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704808"
+      ]
+    },
+    {
+      "Chaktai Branch": [
+        "NEW CHAKTAI, KOTWALI CHITTAGONG, BANGLADESH , CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711404397; 01730305537"
+      ]
+    },
+    {
+      "Chandaikona Branch": [
+        "FAKIR EDIFICE (1ST FLOOR), CHANDAIKONA BAZAR, THANA - RAIGONJ, DISTRICT - SIRAJGONJ, BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335100667"
+      ]
+    },
+    {
+      "Chandanaish Branch": [
+        "PO-GACHBARIA-4381, CHANDANAISH CHATTOGRAM, BANGALADESH , CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-020944; 01730-305505"
+      ]
+    },
+    {
+      "Chandarpur Bazar Branch": [
+        "VILL & P.O. CHANDARPUR P.S. GOLAPGONJ SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435695"
+      ]
+    },
+    {
+      "Chandina Branch": [
+        "BHAI BHAI TOWER, HOLDING NO.1307 MAIN ROAD WARD NO.5 MOUZA - CHANDINA, P.S. - CHANDINA DISTRICT - COMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701225542; 01701225543"
+      ]
+    },
+    {
+      "Chandpur Main Branch": [
+        "AZIZ TOWER 1ST FLOR, COMILLA ROAD CHANDPUR SADAR CHANDPUR, BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Chapai Nawabgonj Branch": [
+        "CHAPAI NAWABGONJ NAWABGONJ BANGLADESH, RAJSHAHI ZONE, CHAPAINABABGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426853"
+      ]
+    },
+    {
+      "Chaprashirhat Branch": [
+        "SALEHA PLAZA, CHAPRASHIRHAT PO: CHAPRASHIRHAT, U.P: CHAPRASHIRHAT PS: KABIRHAT, UPAZILLA: KABIRHAT, DIST. NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367598; 01325071687"
+      ]
+    },
+    {
+      "Charfashion Branch": [
+        "BHOLA , BARISAL ZONE, BHOLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704728"
+      ]
+    },
+    {
+      "Charsindur Branch": [
+        "PAKRAGONJ, PALASH NARSINGDI BANGLADESH, GAZIPUR ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426557"
+      ]
+    },
+    {
+      "Chatkhil Branch": [
+        "HAZI RAZZAB SUPER MARKET(1ST FLOOR), HOLDING NO.401, KHIL PARA ROAD, WARD NO.06, CHATKHIL PAURASHAVA, P.S:CHATKHIL, DISTRICT:NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335184372"
+      ]
+    },
+    {
+      "Chauddaagram Branch": [
+        "Shamim Khan Plaza, Holding No- 0014-00 Dhaka Chattogram Highway, Ward - 04 Pourashava and Thana CHAUDDAGRAM, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704807"
+      ]
+    },
+    {
+      "Chawk Bazar Branch": [
+        "CHITTAGONG TRUNK ROAD COMILLA SADAR, COMILLA BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401319"
+      ]
+    },
+    {
+      "Cheora Branch": [
+        "Hazi Eshak Market, Main Center of Cheora Bazar and West side of Cheora-Dhorkora Main Road, Ward No-01, Mouza- Cheora, Thana-Chauddagram, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015985; 01814-802038"
+      ]
+    },
+    {
+      "Chhagolnaya Branch": [
+        "PATWARY PLAZA, DAC BANGLOW ROAD CHHAGALNAIYA FENI, BANGLADESH, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-103799"
+      ]
+    },
+    {
+      "Chhanger Char Branch": [
+        "POST- CHHANGER CHAR P.S & UPAZILLA- MATLAB NORTH , CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404328"
+      ]
+    },
+    {
+      "Chhatak Branch": [
+        "NOARAI, CHHATAK SUNAMGONJ BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401292"
+      ]
+    },
+    {
+      "Choumuhani Branch": [
+        "S.K. TOWER (1st FLOOR), FENI ROAD BAGUMGONJ NOAKHALI, BANGLADESH, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426840"
+      ]
+    },
+    {
+      "Chowdhury Bazar Branch": [
+        "TURUKKHOLA, SOUTH SURMA SYLHET BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015987"
+      ]
+    },
+    {
+      "Chowgacha Branch": [
+        "LATA PLAZA, HOLDING NO-419 CHOWGACHA-JHIKARGACHA SARAK, WARD NO-7 POURASAVA-CHOWGACHA, THANA-CHOWGACHA, DIST.-JASHORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284528"
+      ]
+    },
+    {
+      "Chowkidekhi Branch": [
+        "AIRPORT ROAD SYLHET SADAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-026722"
+      ]
+    },
+    {
+      "Chowmuhana Branch": [
+        "MOULVI BAZAR BANGLADESH , MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-089572"
+      ]
+    },
+    {
+      "Chuadanga Branch": [
+        "FERRYGHAT RD. BARA BAZAR CHUADANGA BANGLADESH, KHULNA ZONE, CHUADANGA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404381"
+      ]
+    },
+    {
+      "Chuknagar(Rural) Branch": [
+        "ADARSHO COMPLEX, CHUKNAGAR BAZAR DUMURIA, KHULNA , KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704712; 01917704713"
+      ]
+    },
+    {
+      "Chunarughat Branch": [
+        "HABIGONJ BANGLADESH , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438548"
+      ]
+    },
+    {
+      "College Road Branch": [
+        "CHITTAGONG COLLEGE ROAD KOTWALI, CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015996; 01730-305538"
+      ]
+    },
+    {
+      "Colonel Hat Branch": [
+        "FUL BAHAR TOWER(1ST AND 2ND FLOOR) A.K KHAN MOR( OPPOSITE OF PDB OFFICE) , CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704904; 01917-704889"
+      ]
+    },
+    {
+      "Companigonj Branch": [
+        "TUKER BAZAR, COMPANIGONJ, SYLHET , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704965"
+      ]
+    },
+    {
+      "Court Bazar Branch": [
+        "AMIR MANSION HOLDING NO.499, WARD NO.05, COURT STATION ROAD P.O.+P.S. - RAJPARA DISTRICT - RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225536; 01701-225537"
+      ]
+    },
+    {
+      "Court Bazar Islamic Banking Branch": [
+        "AMIR MANSION HOLDING NO.499, WARD NO.05, COURT STATION ROAD P.O.+P.S. - RAJPARA DISTRICT - RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225536; 01701-225537"
+      ]
+    },
+    {
+      "Coxs Bazar Branch": [
+        "MAIN ROAD COX'S BAZAR BANGLADESH, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Cumilla Main Branch": [
+        "KANDIRPAR CHAWMUHANI COMILLA SADAR COMILLA, BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404398"
+      ]
+    },
+    {
+      "Dagon Bhuiyan Branch": [
+        "253/254 DAGON BHUIYAN UPZILLA,P.O., & MUNICIPALITY: DAGON BHUIYAN, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704814; 01766-677597"
+      ]
+    },
+    {
+      "Dakshin Khan Branch": [
+        "92, Dewan Habib Shopping Complex, (First Floor), Shahid Latif Road, Dakshinkhan Bazar, Dakshinkhan, Dhaka-1230 , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704861"
+      ]
+    },
+    {
+      "Dakshinbagh Branch": [
+        "MOULVIBAZAR BANGLADESH , MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438532; 01708-810851"
+      ]
+    },
+    {
+      "Dania Branch": [
+        "P.O: DANIA UNION: SHYMPUR P.S: JATRABARI, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01929-913029"
+      ]
+    },
+    {
+      "Dargagate Branch": [
+        "AMBARKHANA SYLHET SADAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401300"
+      ]
+    },
+    {
+      "Darussalam Road Branch": [
+        "HOLDING NO.2-A/1, DARUSSALAM ROAD MIRPUR-1, DHAKA BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437480"
+      ]
+    },
+    {
+      "Dashmina Branch": [
+        "MA MANJIL, HOLDING NO.-05 WARD No.-01, UNION-DASHMINA THANA-DASHMINA, PATUAKHALI, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161244"
+      ]
+    },
+    {
+      "Daspaika Bazar Branch": [
+        "DASPAIKA BISWANATH SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-016085"
+      ]
+    },
+    {
+      "Datter Hat Branch": [
+        "VILL-84 GOPAI RAM SANKER NOAKHALI SADAR NOAKHALI, BANGLADESH, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437463; 01813-191777"
+      ]
+    },
+    {
+      "Daudkandi Branch": [
+        "SAUDI SUPER MARKET( 1ST FLOOR) 290, DAUDKHANDI BAZAR SARAK, UPAZILLA+PO+MUNICIPALITY:DAUDK, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704806"
+      ]
+    },
+    {
+      "Daulatgonj Branch": [
+        "DAULATGONJ BAZAR LAKSHAM, COMILLA BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437472"
+      ]
+    },
+    {
+      "Daulatpur Branch": [
+        "KHAN-A. SABUR ROAD DAULATPUR, KHULNA BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404379"
+      ]
+    },
+    {
+      "Debidwar Branch": [
+        "POST- DEBIDWAR, POURASHAVA- DEBIDWAR P.S & UPZILLA- DEBIDWAR, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404323; 01755-651853"
+      ]
+    },
+    {
+      "Deluabari (Rural) Branch": [
+        "UNION-KUSHUMBBA, P.O.-CHAWKKANU P.S-MANDA , BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704866"
+      ]
+    },
+    {
+      "Derai Branch": [
+        "HOLDING NO-244,THANA ROAD WARD NO-07,DERAI SUNAMGONJ, BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435696"
+      ]
+    },
+    {
+      "Dhaka Dakshin Branch": [
+        "S.A. COMPLEX (1ST FLOOR), U.P. ROAD DHAKA DAKSHIN BAZAR, GOLAPGANJ, SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404330"
+      ]
+    },
+    {
+      "Dhaka Stadium Corporate Branch": [
+        "29 RAJUK AVENUE, Sarkar Mansion, Motijheel Commercial Area, HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401315"
+      ]
+    },
+    {
+      "Dhalagaon Branch": [
+        "DHALAGAON BAZAR MUNSHIGONJ SADAR MUNSHIGONJ, BANGLADESH, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401299"
+      ]
+    },
+    {
+      "Dhanbari Branch": [
+        "Holding No.319 Akondo Complex(1st Floor), Dhanbari-Jamalpur Road, Ward No:04, Paurashava: Dhanbari, Police Station: Dhanbari, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704869"
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "MEHER GARDENS, HOUSE NO.39/A, ROAD NO.25(OLD), 14/A (NEW), SATMASJID ROAD,WARD NO. 15, DHANMONDI, DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426548"
+      ]
+    },
+    {
+      "Dhap Branch": [
+        "DHAP (JAIL ROAD) P.O: RANGPUR, P.S: KOTWALI RANGPUR, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678329019; 01678329020"
+      ]
+    },
+    {
+      "Dharmaghar Branch": [
+        "DHARMAGHAR HABIGONJ MOULVIBAZAR, BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-022241; 01722-030290"
+      ]
+    },
+    {
+      "Dharmapur Branch": [
+        "AZADIBAZAR, FATICKCHARI CHITTAGONG BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714082204; 01714-082204"
+      ]
+    },
+    {
+      "Dholaipar Branch": [
+        "98,WEST DOLAIPAR DHAKA-1204 DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426556"
+      ]
+    },
+    {
+      "Dinajpur Branch": [
+        "MALDHAPATTY DINAJPUR SADAR DINAJPUR, BANGLADESH, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438459; 01732-826089"
+      ]
+    },
+    {
+      "Dollai Nowabpur Branch": [
+        "SHAHADAT TOWER, DOLLAI NAWABPUR BAZAR CHANDINA, COMILLA BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426136; 01734-336255"
+      ]
+    },
+    {
+      "Dorbost Branch": [
+        "DORBOST JOAINTAPUR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015994"
+      ]
+    },
+    {
+      "Doulkhar Bazar Branch": [
+        "DOULKHAR BAZAR NANGALKOT, COMILLA BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-084021; 01911-724903"
+      ]
+    },
+    {
+      "Dupchanchia Branch": [
+        "USHA PLAZA, HOLDING NO. 0102 BOGURA SANTAHAR ROAD, WARD NO. 05 PO-DUPCHANCHIA, THANA-DUPCHANCHIA, DIST.-BOGURA, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958578217; 01958578218"
+      ]
+    },
+    {
+      "Duptara Branch": [
+        "KALIBARI BAZAR, ARAIHAZAR NARAYANGONJ BANGLADESH, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-827710"
+      ]
+    },
+    {
+      "Eastern Refinery Branch": [
+        "EASTERN REFINERY GATE P.O. NORTH POTENGA, PATENGA CHITTAGONG, BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426824; 01730-305508"
+      ]
+    },
+    {
+      "Ecb Chattar Branch": [
+        "BS TOWER, HOLDING NO.-572/3, MANIKDI, PO & PS- DHAKA CANTONMENT, DHAKA , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958580428"
+      ]
+    },
+    {
+      "Elephant Road Branch": [
+        "Holding No. 25, Name of Road: ELEPHANT ROAD, Ward No: 18, Dhaka South City Corporation, Police Station: New Market, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958-578222"
+      ]
+    },
+    {
+      "Epz Branch": [
+        "TCB BHABAN (1ST FLOOR) M A AZIZ ROAD BANDERTILA, CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-131541"
+      ]
+    },
+    {
+      "Fakirapool Bazar Branch": [
+        "FAKIRAPOOL INNER CIRCULAR ROAD MOTIJHEEL, DHAKA BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401274"
+      ]
+    },
+    {
+      "Faridpur Branch": [
+        "MAYRA PATTY MUJIB SARAK FARIDPUR SADAR FARIDPUR, BANGLADESH, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404392"
+      ]
+    },
+    {
+      "Farmgate Branch": [
+        "KAZI NAZRUL ISLAM AVENUE TEJGAON, DHAKA BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401284"
+      ]
+    },
+    {
+      "Fatullah Branch": [
+        "DOLPHIN TOWER (3RD FLOOR) DHAKA-NARAYANGANJ ROAD, BESIDE MEGNA DEPO, FATTULA, NARAYANGANJ, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209158; 01713-209159"
+      ]
+    },
+    {
+      "Fenchuganj Branch": [
+        "FENCHUGONJ BAZAR ROAD FENCHUGONJ SYLHET BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-026723"
+      ]
+    },
+    {
+      "Feni Branch": [
+        "Holding No. -192, Maisa A. M. Ahmed Tower, S.S.K. Road, Ward No.- 07, Pourosava-Feni, P.O.-Feni 3900, P.S.-Feni Sadar, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404353"
+      ]
+    },
+    {
+      "Foreign Exchange Branch": [
+        "24, MOTIJHEEL COMM. AREA DHAKA-1000 BANGLADESH, HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-068874; 01711-404399"
+      ]
+    },
+    {
+      "Fulbari Branch": [
+        "CHANDRAKHANA (UPAZILLA COMPLEX) FULBARI KURIGRAM, RANGPUR ZONE, KURIGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-103798; 01755-601704"
+      ]
+    },
+    {
+      "Fulbaria Branch": [
+        "CHOWDHURY COMPLEX HOLDING NO.-977, WARD NO.-03,P.S-FULBARIA DISTRICT - MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-072889; 01713-072890"
+      ]
+    },
+    {
+      "Fulgazi Branch": [
+        "POST: FULGAZI, UNION & UPZILLA: FULGAZI , NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711406118"
+      ]
+    },
+    {
+      "Gachhbari Branch": [
+        "UPZILLA: KANAIGHAT, UNION: GACHHBARI BAZ P.O: GACHHBARI BAZAR , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704805"
+      ]
+    },
+    {
+      "Gaibandha Branch": [
+        "HOLDING NO-7852, HAKKANI COMPLEX D.B ROAD,GAIBANDHA SADAR, GAIBANDHA , BOGURA ZONE, GAIBANDHA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438466; 01718-784718"
+      ]
+    },
+    {
+      "Gajnaipur Branch": [
+        "DEOPARA HABIGONJ BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438534; 01712-814642"
+      ]
+    },
+    {
+      "Gazaria Branch": [
+        "GAZARIA, MUNSHIGONJ BANGLADESH , NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-826709"
+      ]
+    },
+    {
+      "Gazipur Branch": [
+        "AMIRJAN SHOPPING COMPLEX (2nd FLOOR), HOUSE NO.-J77, JOYDEVPUR BUS STAND-BAZAR ROAD, WARD#26, GAZIPUR CITY CORPORATION, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335145986; 01335145987"
+      ]
+    },
+    {
+      "Ghorashal Branch": [
+        "GHORASHAL BAZAR PALASH, NARSINGDI BANGLADESH, GAZIPUR ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437475"
+      ]
+    },
+    {
+      "Goalabazar Branch": [
+        "BHUTU BABU SUPER MARKET, KALASARA, GOALA BAZAR , OSMANINAGAR , SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082212"
+      ]
+    },
+    {
+      "Gobindagonj Branch": [
+        "P.O-GOBINDAGONJ THANA-GOBINDAGONJ GAIBANDHA, BANGLADESH, BOGURA ZONE, GAIBANDHA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438558"
+      ]
+    },
+    {
+      "Golachipa Branch": [
+        "HOLDING NO: 54, WARD NO: 04 GOLACHIPA , BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704885"
+      ]
+    },
+    {
+      "Golapgonj Branch": [
+        "JOKIGONJ ROAD GOLAPGONJ SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426823"
+      ]
+    },
+    {
+      "Gopalgonj Branch": [
+        "97, THEATRE ROAD, P.O. GOPALGONJ GOPALGONJ SADAR GOPALGONJ, BANGLADESH, FARIDPUR ZONE, GOPALGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404394"
+      ]
+    },
+    {
+      "Gopalpur Branch": [
+        "BUILDING NAME: M HOSEN ALI, CHAIRMAN MARKET, HOLDING NO.768, KAKOLI HALL ROAD, KONABARI BAZAR, P.S: GOPALPUR, DISTRICT: TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401324"
+      ]
+    },
+    {
+      "Gorai Branch": [
+        "MA MISRON NESA TOWER, VILLAGE-GORAI, MOUZA-GORAI, UNION-GORAI, THANA-MIRZAPUR, DISTRICT-TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335184385"
+      ]
+    },
+    {
+      "Gouripur Bazar Branch": [
+        "A.K BHUIYAN PLAZA, GOURIPUR BAZAR P.S. DAUDKANDI DIST. CUMILLA, BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-082699"
+      ]
+    },
+    {
+      "Gowainghat Branch": [
+        "GOWAINGHAT SYLHET BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009438"
+      ]
+    },
+    {
+      "Gridakalandia Bazar Branch": [
+        "GRIDAKALANDIA FARIDGONJ BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-016639"
+      ]
+    },
+    {
+      "Gulshan Circle-1 Branch": [
+        "BASHATI ARISTOCRATE BIR UTTAM MIR SHAWKAT RD , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713072874; 01713072875"
+      ]
+    },
+    {
+      "Gulshan Corporate Branch": [
+        "DELTA LIFE TOWER, (2ND FLOOR), PLOT #37, ROAD# 45 NORTH & 90 SOUTH, GULSHAN CIRCLE-2, DHAKA-1212., HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401281; 01917-704802"
+      ]
+    },
+    {
+      "Gunabati Bazar Branch": [
+        "SKY PLAZA,POST OFFICE ROAD, WARD NO 12 MOUZA-GUNABATI P.S: CHAUDDAGRAM, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678329023; 01678329024"
+      ]
+    },
+    {
+      "Guninganj Bazar Branch": [
+        "JATRAPASHA HABIGONJ BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438533; 01716-328804"
+      ]
+    },
+    {
+      "Habigonj Branch": [
+        "HABIGONJ BANGLADESH , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426848"
+      ]
+    },
+    {
+      "Hajigonj Branch": [
+        "MAIN ROAD HAJIGONG BAZAR, HAJIGONJ CHANDPUR, BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401320"
+      ]
+    },
+    {
+      "Halishahor Branch": [
+        "1636,P.C. ROAD NATUN BAZAR BISHWA ROAD MOR, MADHYAM RAMPU UPZILLA: HALISHAHOR, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704812"
+      ]
+    },
+    {
+      "Hasnabad Branch": [
+        "SUJOY TOWER HASNABAD CONTAINER PORT ROAD THANA- SOUTH KERANIGONJ, DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325071683; 01958578221"
+      ]
+    },
+    {
+      "Hathazari Branch": [
+        "AK PLAZA (1ST FLOOR) , HATHAZARI BAZAR RAMGAR ROAD, PS-HATHAZARI , CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-010756; 01730305541"
+      ]
+    },
+    {
+      "Hatiya Branch": [
+        "HAZI MODINUL HAQUE BHABAN OSKHALI PURAN BAZAR ROAD HOLDING NO-1118,WORD.NO-03, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435027"
+      ]
+    },
+    {
+      "Hetimgonj Branch": [
+        "HAJI QUAIM SHOPPING COMPLEX UNION: FULBARI UPAZILLA: GOLAPGONJ, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01926996305"
+      ]
+    },
+    {
+      "Hizla Branch": [
+        "KHUNNA GOBINDOPUR P.O. BARJALIA HIZLA, BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-022242"
+      ]
+    },
+    {
+      "Homna Branch": [
+        "HAJI HASHEM SHOPPING CENTER, 737, HOMNA THANA ROAD, HOMNA BAZAR UPAZILLA/THANA-HOMNA, DIST.-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801324296007"
+      ]
+    },
+    {
+      "Hospital Road Branch": [
+        "HOSPITAL ROAD BARISAL SADAR BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438461"
+      ]
+    },
+    {
+      "Hotel Intercontinental Branch": [
+        "BSL OFFICE COMPLEX, BUILDING-02 HOLDING NO.-119, KAZI NAZRUL ISLAM AVENUE, RD-1 MINTO ROAD, P.S.-RAMNA, DSCC, DHAKA, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322-890088"
+      ]
+    },
+    {
+      "Hotel Osmani Intl Branch": [
+        "23, JOYKALI MANDIR ROAD SUTRAPUR, DHAKA BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426542"
+      ]
+    },
+    {
+      "Imamgonj Branch": [
+        "22/1/23 ROY ISSURE CHANDRA SHIL BAHADUR STREET, LALBAGH DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437470"
+      ]
+    },
+    {
+      "Industrial Area Branch": [
+        "J M CENTRE ,HOLDING-147/11 BAIZID BOSTAMI ROAD, WARD NO-08 PANCHLAISH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082203"
+      ]
+    },
+    {
+      "International Airport Branch": [
+        "HOUSE NO. : 1, ROAD NO. : 5,SECTOR NO.:1 UTTARA MODEL TOWN DHAKA, BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437453"
+      ]
+    },
+    {
+      "Ishurdi Branch": [
+        "STATION ROAD ISHURDI PABNA, BANGLADESH, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437467"
+      ]
+    },
+    {
+      "Islampur Branch": [
+        "3, AHSANULLAH ROAD ISLAMPUR, DHAKA BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711406119"
+      ]
+    },
+    {
+      "Iswarganj Branch": [
+        "BULBUL TOWER, HOLDING NO.9801, MYMENSINGH-KISHOREGANJ ROAD, WARD NO.01, POURASHAVA:ISWARGANJ, P.S:ISWARGANJ, DISTRICT:MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335195683"
+      ]
+    },
+    {
+      "Jagannathpur Branch": [
+        "BARRISTER MIRJA ABDUL MATIN MARKET HOLDING NO-142,WARD NO-07, JAGANNATHPUR, SUNAMGONJ, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426834"
+      ]
+    },
+    {
+      "Jalalpur Branch": [
+        "UNION- JALALPUR, UPZILA- SOUTH SURMA , SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404331"
+      ]
+    },
+    {
+      "Jamalgonj Branch": [
+        "COLLEGE ROAD AKKELPUR JAIPURHAT, BOGURA ZONE, JOYPURHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426829"
+      ]
+    },
+    {
+      "Jamalpur Branch": [
+        "MEDICAL ROAD JAMALPUR SADAR JAMALPUR, BANGLADESH, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437459"
+      ]
+    },
+    {
+      "Jashore Branch": [
+        "MISTRIKHANA RD., (EDEN MARKET) JESSORE SADAR, JESSORE BANGLADESH, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404357"
+      ]
+    },
+    {
+      "Jawa Bazar Branch": [
+        "LONDON TOWER, JAUWA BAZAR CHHATAK SUNAMGONJ, BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009437"
+      ]
+    },
+    {
+      "Jhalakati Branch": [
+        "SATTAYASARAM ROAD (STATION ROAD), P.O. JHALAKATI JHALAKATI, BANGLADESH, BARISAL ZONE, JHALOKATHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401291"
+      ]
+    },
+    {
+      "Jhenaidah Branch": [
+        "181, MAGURA ROAD JHENIDAH SADAR JHENIDAH, BANGLADESH, KHULNA ZONE, JHENAIDAH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437474"
+      ]
+    },
+    {
+      "Jogidahar Branch": [
+        "POST- MOULAVIBAZAR THANA- SADAR, UNION- MOSTAFAPUR, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937 404332"
+      ]
+    },
+    {
+      "Johnson Road Branch": [
+        "10, JOR POOL LANE, LAL MOHON SAHA STREET WARD NO. 41, DSCC, WARI DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426544"
+      ]
+    },
+    {
+      "Joydevpur Branch": [
+        "CHANDANA JOYDEVPUR GAZIPUR, BANGLADESH, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437452"
+      ]
+    },
+    {
+      "Joypurhat Branch": [
+        "THANA ROAD JOYPURHAT BANGLADESH, BOGURA ZONE, JOYPURHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437468"
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "SERAJ SQUARE(1st FLOOR) 173, JUBILEE ROAD, ENAYET BAZAR CHATTOGRAM CITY CORPORATION,BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401287"
+      ]
+    },
+    {
+      "Jurain (Urban) Branch": [
+        "HAJEE TOWER 302, WEST JURAIN SHYMPUR,DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704760"
+      ]
+    },
+    {
+      "Juri Branch": [
+        "MOULVIBAZAR BANGLADESH , MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426142"
+      ]
+    },
+    {
+      "Kachua Branch": [
+        "POURASHAVA: KACHUA PO+PS: KACHUA , CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704763"
+      ]
+    },
+    {
+      "Kadamtali Branch": [
+        "KADAMTALI POINT SYLHET SADAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437471"
+      ]
+    },
+    {
+      "Kafrul Branch": [
+        "31, SOUTH KAFRUL (RIM COMPLEX) KAFRUL, DHAKA BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404360"
+      ]
+    },
+    {
+      "Kalaiya Bandar Branch": [
+        "KALAIYA BANDAR, P.O. KALAIYA BAUPHOL, PATUAKHALI BANGLADESH, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401293"
+      ]
+    },
+    {
+      "Kalapara Branch": [
+        "HOLDING NO-157, RUBY COTTAGE UAPZILA SARAK, KALAPARA PAURASHAVA PATUAKHALI, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209154; 01713-209155"
+      ]
+    },
+    {
+      "Kalaroa Branch": [
+        "RIPON SUPER MARKET,JESSORE-SATKHIRA ROAD P.O.+UPAZILLA-KALAROA DIST-SATKHIRA, KHULNA ZONE, SATKHIRA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01926-996365"
+      ]
+    },
+    {
+      "Kalighat Road Branch": [
+        "KALIGHAT ROAD SYLHET SADAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404371"
+      ]
+    },
+    {
+      "Kaligonj Branch": [
+        "CENEMAHALL ROAD KALIGONJ BAZAR, KALIGONJ GAZIPUR, BANGLADESH, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-037346"
+      ]
+    },
+    {
+      "Kalihati Branch": [
+        "DOURAJ ALI TOWER HOSPITAL ROAD KALIHATI,TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209160; 01713-209161"
+      ]
+    },
+    {
+      "Kalirbazar Branch": [
+        "A.C. DHAR ROAD NARAYANGONJ SADAR NARAYANGONJ, BANGLADESH, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437483"
+      ]
+    },
+    {
+      "Kamalgonj Branch": [
+        "KERAMOTNAGAR MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438535"
+      ]
+    },
+    {
+      "Kamalpur Branch": [
+        "KAMALPUR BHAIRAB, KISHOREGONJ BANGLADESH, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009445"
+      ]
+    },
+    {
+      "Kamrangirchar Branch": [
+        "HAJEE AMIN SUPER MARKET, 97 ASHRAFABAD ROAD, PAKA POOL, KAMRANGIRCHAR P.S: KAMRANGIRCHAR, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678329017; 01678329018"
+      ]
+    },
+    {
+      "Kanaighat Branch": [
+        "SYLHET , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704729"
+      ]
+    },
+    {
+      "Kanaipur Branch": [
+        "KANAIPUR BAZAR UNION: KANAIPUR P.S : KOTWALI, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704783"
+      ]
+    },
+    {
+      "Kapasia Branch": [
+        "SAHA CENTRE UPZILLA ROAD, THANAR MOR, KAPASHIA MOUZA - SAFAISREE, P.S - KAPASHIA, DISTRICT - GAZIPUR, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-072864; 01713-072865"
+      ]
+    },
+    {
+      "Karatia Branch": [
+        "KARATIA TANGAIL SADAR TANGAIL, BANGLADESH, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009449"
+      ]
+    },
+    {
+      "Kashiani Branch": [
+        "HAJEE SHAMSUDDIN SUPER MARKET MODDHOGOLI , P.O.+P.S. - KASHIANI DISTRICT - GOPALGONJ, FARIDPUR ZONE, GOPALGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225546; 01701-225547"
+      ]
+    },
+    {
+      "Kashimpur Branch": [
+        "KASHIMPUR JOYDEVPUR GAZIPUR, BANGLADESH, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-072029"
+      ]
+    },
+    {
+      "Katakhali Bazar Branch": [
+        "RAJSHAHI-NATORE BISWA ROAD KATAKHALI, MOTIHAR RAJSHAHI, BANGLADESH, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426837"
+      ]
+    },
+    {
+      "Kathiadi (Urban) Branch": [
+        "HOSPITAL ROAD, KATIADI KISHOREGONJ,BANGLADESH, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704765"
+      ]
+    },
+    {
+      "Katirhat Branch": [
+        "KATIRHAT CITY CENTER (GROUND FLOOR) KATIRHAT BAZAR HATHAZARI, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335251256"
+      ]
+    },
+    {
+      "Kawranbazar Corporate Branch": [
+        "22, KAWRANBAZAR DHAKA, BANGLADESH , HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401312"
+      ]
+    },
+    {
+      "Kayer Bazar Branch": [
+        "KAYER BAZAR, BATIAGHATA KHULNA BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-012446"
+      ]
+    },
+    {
+      "Kazirhat Branch": [
+        "BOGADANA SONAGAZI FENI, BANGLADESH, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082217; 01714-316939"
+      ]
+    },
+    {
+      "Keranigonj Branch": [
+        "RAFIQUE TOWER-2, CHOWDHURY NAGAR WARD NO. 5 UNION-SHUVADDA P.S.- SOUTH KERANIGONJ DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704922; 01917-704960"
+      ]
+    },
+    {
+      "Keranihat Branch": [
+        "MANNAN SHOPPING COMPLEX 1ST FLOOR, KERANIRHAT, SATKANIA, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404324; 01818-273581"
+      ]
+    },
+    {
+      "Khagrachari Branch": [
+        "SELIM TRADE CENTER HOLDING NO-567,COURT ROAD KHAGRACHARI SADAR,KHAGRACHARI, CHATTOGRAM NORTH ZONE, KHAGRACHARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704796; 01714-281135"
+      ]
+    },
+    {
+      "Khalishpur Branch": [
+        "30, BIDC RD. KHALISHPUR KHULNA, BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015983"
+      ]
+    },
+    {
+      "Khamarbari Branch": [
+        "TEJGAON DHAKA, BANGLADESH , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401280"
+      ]
+    },
+    {
+      "Khamargram Branch": [
+        "HAZI ABDUL KUDDUS SUPER MARKET, BETIL MORE (SIRAJGONJ-ENAYETPUR ROAD), ENAYETPUR, BELKUCHI, SIRAJGONJ, BANGLADESH, BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-091043"
+      ]
+    },
+    {
+      "Khatungonj Branch": [
+        "RAMJOY MOHARAJ LANE KHATUNGONJ, KOTWALI BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404359"
+      ]
+    },
+    {
+      "Khilgaon Branch": [
+        "302/A, TILPAPARA KHILGAON,DHAKA-1219 BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426541"
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "92, SIR IQBAL ROAD KHULNA SADAR KHULNA, BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404388"
+      ]
+    },
+    {
+      "Kishoregonj Branch": [
+        "BARA BAZAR KISHOREGANJ SADAR KISHOREGANJ, BANGLADESH, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437485"
+      ]
+    },
+    {
+      "Komorgonj Branch": [
+        "VILL- PATHANKANDA P.O. BARDHANPARA, NOWABGONJ DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438465"
+      ]
+    },
+    {
+      "Konapara Branch": [
+        "K.S. TOWER (1st-2nd Floor), HOLDING#22 KONAPARA-DOGAIR MAIN ROAD, WARD NO.-64, THANA-DEMRA, DIST.-DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801335159937; +8801335159939"
+      ]
+    },
+    {
+      "Korbanigonj Branch": [
+        "KORBANIGONJ, P.O. LAMABAZAR KOTWALI, CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082202; 01818-273734"
+      ]
+    },
+    {
+      "Kulaura Branch": [
+        "KULAURA MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009436"
+      ]
+    },
+    {
+      "Kulgaon Branch": [
+        "KULGAON P.O. JALALABAD, PANCHLAISH CHITTAGONG, BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426821; 01750-600990"
+      ]
+    },
+    {
+      "Kumarkhali Branch": [
+        "BHAHAR SUPER MARKET HOLDING NO.-48, HAZRAT SONA BANDHU SHA ROAD , FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-072870; 01713-072871"
+      ]
+    },
+    {
+      "Kurigram Branch": [
+        "GHOSPARA KURIGRAM SADAR BANGLADESH, RANGPUR ZONE, KURIGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-045683"
+      ]
+    },
+    {
+      "Kuril Bishwa Road Branch": [
+        "KA-96/D, KURIL,BISHWA ROAD P.O.KHILKHET, P.S. BADDA , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704811"
+      ]
+    },
+    {
+      "Kushtia Branch": [
+        "N.S. ROAD, CHEMBER BLDG. KUSHTIA SADAR KUSHTIA, BANGLADESH, FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404382"
+      ]
+    },
+    {
+      "Kushumbi Kaligonj Branch": [
+        "KALIGONJ BAZAR SINGRA NATORE, BANGLADESH, RAJSHAHI ZONE, NATORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401327"
+      ]
+    },
+    {
+      "Kuti Bazar Branch": [
+        "Soham Complex, Kuti Bazar, P.S: Kasba, District: Brahmanbaria , CUMILLA ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704935"
+      ]
+    },
+    {
+      "Laboratory Road Branch": [
+        "MIRPUR ROAD DHANMONDI DHAKA, BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426543"
+      ]
+    },
+    {
+      "Lakshmipur Branch": [
+        "CHAWK BAZAR LAKSMIPUR BANGLADESH, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401326; 01916-26664"
+      ]
+    },
+    {
+      "Lalabazar Branch": [
+        "MAYAMI COMPLEX UNION & P.O : LALABAZAR UPAZILLA: SOUTH SURMA, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704773"
+      ]
+    },
+    {
+      "Lalmohan Branch": [
+        "HAZI MOHAMMED YOUSUF PLAZA, HOLDING-1080 SADAR ROAD(MASJID ROAD), WARD-6 POURASHOVA-LALMOHAN, THANA-LALMOHAN, DIST.-BHOLA, BARISAL ZONE, BHOLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284527; 01322896884"
+      ]
+    },
+    {
+      "Lalmonirhat Branch": [
+        "GOSHALA ROAD LALMONIRHAT SADAR LALMONIRHAT, BANGLADESH, RANGPUR ZONE, LALMONIRHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-109144"
+      ]
+    },
+    {
+      "Lemua Bazar Branch": [
+        "CHOWDHURY PLAZA LEMUA BAZAR, UNION-9 NO.LEMUA WARD NO.4. P.O. - LEMUA BAZAR UPAZILLA - FENI SADAR DIST.- FENI, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937404369"
+      ]
+    },
+    {
+      "Lohagara Branch": [
+        "DNA SIKDER TOWER(1ST FLOOR) BOTTOLI,LOHAGARA CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "017114-35692; 01711-789048"
+      ]
+    },
+    {
+      "Madabpasha Branch": [
+        "MADHABPASHA, P.O. MADHABPASHA BABUGONJ, BARISAL BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-022243"
+      ]
+    },
+    {
+      "Madan Branch": [
+        "MADAN PS HEAD QUARTER NETRAKONA, BANGLADESH, MYMENSHINGH ZONE, NETROKONA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009446"
+      ]
+    },
+    {
+      "Madaripur Branch": [
+        "MAIN ROAD, P.O. MADARIPUR MADARIPUR SADAR MADARIPUR, BANGLADESH, FARIDPUR ZONE, MADARIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711426852"
+      ]
+    },
+    {
+      "Madhabdi Branch": [
+        "MOLLA TOWER (THIRD FLOOR), 234,PARKASHIPUR ROAD, MADHABDI BAZAR,NARSHINGDI BANGLADESH, NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-826710"
+      ]
+    },
+    {
+      "Madhabpur Branch": [
+        "MADHABPUR HABIGONJ BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401311"
+      ]
+    },
+    {
+      "Madunaghat Branch": [
+        "MADUNAGHAT P.O. NOOR ALI BARI, HATHAZARI CHITTAGONG, BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082206; 01818-697879"
+      ]
+    },
+    {
+      "Magura Branch": [
+        "SYED ATOR ALI ROAD MAGURA SADAR MAGURA, BANGLADESH, FARIDPUR ZONE, MAGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404380"
+      ]
+    },
+    {
+      "Maharajpur Branch": [
+        "CHAWKTOLA MOHARAJPURHAT NAWABGONJ, BANGLADESH, RAJSHAHI ZONE, CHAPAINABABGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009024"
+      ]
+    },
+    {
+      "Maijdee Bazar Branch": [
+        "ENAIVA PLAZA HOLDING NO.759, MAIN ROAD, WARD NO.02, P.O. + P.S. - SUDHARAM MODEL THANA, DISTRICT - NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225548; 01701-225549"
+      ]
+    },
+    {
+      "Maijdee Court Branch": [
+        "MAIN ROAD NOAKHALI SADAR NOAKHALI, BANGLADESH, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401325"
+      ]
+    },
+    {
+      "Malibagh Branch": [
+        "240, OUTER CIRCULAR ROAD, MALIBAGH, DHAKA-1217 DHAKA, BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401276"
+      ]
+    },
+    {
+      "Manikgonj Branch": [
+        "SHAHID RAFIQUE SHARAK MANIKGONJ BANGLADESH, GAZIPUR ZONE, MANIKGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401282"
+      ]
+    },
+    {
+      "Mathbaria Branch": [
+        "MATBARIA POURASHAVA BHABAN WARD NO-6 PS+POURASHAVA :MATBARIA, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704764; 01766-667762"
+      ]
+    },
+    {
+      "Matlab Bazar Branch": [
+        "KOUMI MADRASA BHABAN (1ST FLOOR) MATLAB BAZAR MATLAB SOUTH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015997"
+      ]
+    },
+    {
+      "Mawna Branch": [
+        "HAJEE MALEK MASTER COMPLEX WORD NO-8, SREEPUR , GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987706855; 01987706856"
+      ]
+    },
+    {
+      "Maynamati Branch": [
+        "Maynamati Sena Kollan Market, Cumilla Cantonment, Dhaka-Chattogram Sarak, Union-Durgapur, Thana-Kotowali, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937 404322"
+      ]
+    },
+    {
+      "Meah Bazar Branch": [
+        "BALGHAR CHAUDDAGRAM COMILLA, BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-898041"
+      ]
+    },
+    {
+      "Mearhat Branch": [
+        "VILL. KAWRIKHARA, P.O. KAWRIKHARA NESARABAD, PIROJPUR BANGLADESH, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426851"
+      ]
+    },
+    {
+      "Mehdibagh Branch": [
+        "REBOTI MOHAN LANE DAMPARA, CHAWKBAZAR THANA, CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426822; 01558-674105"
+      ]
+    },
+    {
+      "Mehendigonj Branch": [
+        "VILL. SONAMUCHI, P.O. MEHENDIGONJ MEHENDIGONJ BARISAL, BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435694"
+      ]
+    },
+    {
+      "Meherpur Branch": [
+        "MAIN ROAD, MEHERPUR SADAR MEHERPUR BANGLADESH, KHULNA ZONE, MEHERPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426818"
+      ]
+    },
+    {
+      "Melandah Bazar Branch": [
+        "ZINNAH MARKET, HOLDING NO. 511 WARD NO. 05, CHAR RASTER MORE P.S.- MELANDAH, DISTRICT- JAMALPUR, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225538; 01701-225539"
+      ]
+    },
+    {
+      "Mirerdanga Branch": [
+        "KHAN-A. SABUR ROAD KHANJAHAN ALI KHULNA, BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426831"
+      ]
+    },
+    {
+      "Mirerhat Branch": [
+        "EAST KEROA RAIPUR LAKSMIPUR, BANGLADESH, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435039; 01766-678067"
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "DYNASTY TOWER (1ST FLOOR) HOLDING# 1, ROAD# 12, WARD# 6 P.S.-PALLABI,DHAKA NORTH CITY CORPORATION, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437481"
+      ]
+    },
+    {
+      "Mirpur Bazar Branch": [
+        "BHAI BHAI SUPER MARKET,MIRPUR BAZAR P.O.-MIRPUR BAZAR,PS-JAGANNATHPUR SUNAMGONJ, BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-020945"
+      ]
+    },
+    {
+      "Mitachara Bazar Branch": [
+        "D.T. ROAD, P.O.MITHACHARA BAZAR MIRSARAI, CHITTAGONG BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426828"
+      ]
+    },
+    {
+      "Modhukhali Branch": [
+        "MODHUBON SHOPPING MALL DHAKA-KHULNA HIGHWAY WORD NO.3, MODHUKHALI, FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209151; 01713-209152"
+      ]
+    },
+    {
+      "Moghaltully Branch": [
+        "138, KHAN MARKET, CHAWK BAZAR MOGHALTOLLY, LALBAGH DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404372"
+      ]
+    },
+    {
+      "Moghbazar Branch": [
+        "NEW ESKATON ROAD RAMNA, DHAKA BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401273"
+      ]
+    },
+    {
+      "Mohadebpur Branch": [
+        "SHIBGONJ MOHADEVPUR NAOGAON, BANGLADESH, BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-023788"
+      ]
+    },
+    {
+      "Mohakhali Corporate Branch": [
+        "HOLDING NO:4, MOHAKHALI BIR UTTAM A.K. KHANDAKER ROAD, WARD NO-20, PS-BANANI, DHAKA NORTH CITY CORP., DHAKA-1212, HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801711401317; +8801819240999"
+      ]
+    },
+    {
+      "Mohammadpur Branch": [
+        "HALCYON HEIGHTS(1ST FLOOR), 2/3 BLOCK-A, MIRPUR ROAD, MOHAMMADPUR DHAKA, BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426546"
+      ]
+    },
+    {
+      "Mohangonj (Urban) Branch": [
+        "MOUZA-HAT, MOHANGONJ NETROKONA, BANGLADESH , MYMENSHINGH ZONE, NETROKONA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704742; 01917704743"
+      ]
+    },
+    {
+      "Moheshkhali Branch": [
+        "K ONE BARMIS MARKET, 209 & 210 NO BARO RAKHAIN PARA SARAK, MOHESHKHALI, COXSBAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082381; 01820-081989"
+      ]
+    },
+    {
+      "Mohimagonj Branch": [
+        "PO + UNION : MOHIMAGONJ UPAZILLA: GOBINDHAGONJ , BOGURA ZONE, GAIBANDHA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704770"
+      ]
+    },
+    {
+      "Mokam Bazar Branch": [
+        "DAKSHINBAG GOLAPGONJ SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426817"
+      ]
+    },
+    {
+      "Mongla Branch": [
+        "MADRASHA ROAD MONGLA, BAGERHAT BANGLADESH, KHULNA ZONE, BAGERHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711426833"
+      ]
+    },
+    {
+      "Monirampur Branch": [
+        "BISWAS SUPER MARKET HOLDING NO.:32-35,SOUTH SIDE BUS STAND, MAIN ROAD BANGLADESH, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713072891; 01713072892"
+      ]
+    },
+    {
+      "Monohardi Branch": [
+        "MOLLAH TOWER (1ST FLOOR), HOLDING NO.-83, WARD NO.-07, MONOHARDI BYPASS ROAD, MONOHARDI, THANA-MONOHARDI, DIST.-NARSINGDI, NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801335100671"
+      ]
+    },
+    {
+      "Motijheel Corporate Branch": [
+        "SENA KALLYAN BHABAN, 195, MOTIJHEEL COMM. AREA DHAKA-1000, BANGLADESH, HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01819-254269; 01711-401314"
+      ]
+    },
+    {
+      "Moulvibazar Branch": [
+        "MOULVIBAZAR SADAR MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437488"
+      ]
+    },
+    {
+      "Muksudpur Branch": [
+        "73, POST OFFICE ROAD,WARD No.-06, TENGRAKHOLA BAZAR, POURASHAVA-MUKSUDPUR THANA-MUKSUDPUR, DIST.-GOPALGONJ, FARIDPUR ZONE, GOPALGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367594"
+      ]
+    },
+    {
+      "Muktagacha Branch": [
+        "AMINA MONJIL, HOLDING NO:0194-00, MAIN ROAD, MUKTAGACHA, MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426849"
+      ]
+    },
+    {
+      "Muladi Branch": [
+        "MODHO BAZAR, MULADI BONDOR, WARD NO. -6, MULADI POURASHAVA P.S.-MULADI, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987706851"
+      ]
+    },
+    {
+      "Munshi Bazar Branch": [
+        "HAJEE MD. REASAT AKHAND SHOPPING COMPLEX UNION: 3 NO. MUNSHI BAZAR P.O: KARIMPUR, P.S.: RAJNAGAR, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704746; 01917-704747"
+      ]
+    },
+    {
+      "Munshigonj Branch": [
+        "SADAR ROAD MUNSHIGONJ SADAR MUNSHIGONJ, BANGLADESH, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401398"
+      ]
+    },
+    {
+      "Murail Sme/Krishi Branch": [
+        "UNION: NASHRATPUR PO: NASHRATPUR PS: ADAMDIGHI, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704757"
+      ]
+    },
+    {
+      "Mymensingh Main Branch": [
+        "MOMEN TOWER, HOLDING NO:65,(2nd FLOOR) 16,AOTUL CHAKROBORTI ROAD, WARD NO:08, MYMENSINGH CITY CORPORATION,MYMENSINGH, BANGLADESH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404354"
+      ]
+    },
+    {
+      "Nageshwari Branch": [
+        "HOLDING NO-99/1 AZIZUL MARKET, COLLEGE MORE NAGESHWARI, KURIGRAM, RANGPUR ZONE, KURIGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713209156; 01713209157"
+      ]
+    },
+    {
+      "Nalcity Branch": [
+        "11, STATION ROAD UPAZILLA- NALCITY , BARISAL ZONE, JHALOKATHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404326"
+      ]
+    },
+    {
+      "Nandina Bazar Branch": [
+        "UNION- NANDINA BAZAR P.O- NANDINA BAZAR, P.S & UPZILLA- JAMALPUR, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937 404327; 01913-190600"
+      ]
+    },
+    {
+      "Nanupur Branch": [
+        "NANUPUR, FATICKCHARI CHITTAGONG BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082205; 01819-176730"
+      ]
+    },
+    {
+      "Naogaon Branch": [
+        "MAIN ROAD NAOGAON SADAR NAOGAON, BANGLADESH, BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404377"
+      ]
+    },
+    {
+      "Naopara Branch": [
+        "MIM PLAZA, (1ST FLOR, EAST SIDE) NAOPARA BAZAR, PURBO NAOPARA MUNSHIGONJ, BANGLADESH, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426134; 01712-361262"
+      ]
+    },
+    {
+      "Narail Branch": [
+        "NARAIL-JESSORE ROAD NARAIL SADAR, NARAIL BANGLADESH, KHULNA ZONE, NARAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404368"
+      ]
+    },
+    {
+      "Narayanganj Branch": [
+        "2, BANGABANDHU ROAD NARAYANGONJ SADAR NARAYANGONJ, BANGLADESH, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404351"
+      ]
+    },
+    {
+      "Narsingdi Branch": [
+        "C AND B ROAD, HAMID MENSION NARSINGDI SADAR NARSINGDI, BANGLADESH, NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437484"
+      ]
+    },
+    {
+      "Natore Branch": [
+        "HOLDING NO-227, QUAZI COMPLEX 1ST FLOOR,DHAKA ROAD, ALALIPUR NATORE SADAR, NATORE, RAJSHAHI ZONE, NATORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404376"
+      ]
+    },
+    {
+      "Natun Bazar Branch": [
+        "J.M. SENGUPTA ROAD CHANDPUR SADAR CHANDPUR, BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401318"
+      ]
+    },
+    {
+      "Navaran Bazar Branch": [
+        "SONALI COMPLEX SHARSHA, JESSORE , KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01929-913000"
+      ]
+    },
+    {
+      "Nawabpur Road Branch": [
+        "125, NAWABPUR ROAD NAWABPUR, DHAKA BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404385"
+      ]
+    },
+    {
+      "Naya Bazar Branch": [
+        "14, MD. HABIBULLAH ROAD (HAZI ABDUR RASHID LANE) DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404383"
+      ]
+    },
+    {
+      "Nayapaltan Branch": [
+        "V.I.P. ROAD, 28/A NAYAPALTAN DHAKA, BANGLADESH , DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437479"
+      ]
+    },
+    {
+      "Nayergaon Bazar Branch": [
+        "NAYERGAON MOTLAB CHANDPUR, BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426137"
+      ]
+    },
+    {
+      "Nazimuddin Road Branch": [
+        "14/2 BOKSHI BAZAR ROAD, CHAWKBAZAR , DHAKA BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401272"
+      ]
+    },
+    {
+      "Nazirhat Branch": [
+        "NAZIRHAT, FATICKCHARI CHITTAGONG BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426827"
+      ]
+    },
+    {
+      "Nazirpur Branch": [
+        "NAZIRPUR P.O. NAZIRPUR PIROJPUR, BANGLADESH, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-098889"
+      ]
+    },
+    {
+      "Nekmorod Branch": [
+        "MOUZA-BHABANANDAPUR,NEKMOROD BAZAR P.O-NEKMOROD,P.S-RANISANGKAIL DIST-THAKURGAON, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01926996372"
+      ]
+    },
+    {
+      "Netaigonj (Urban) Branch": [
+        "1 B.B ROAD, P.S: NARAYANGONJ , NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987706857"
+      ]
+    },
+    {
+      "Netrakona Branch": [
+        "CHOTO BAZAR NETRAKONA SADAR NETRAKONA, BANGLADESH, MYMENSHINGH ZONE, NETROKONA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009442"
+      ]
+    },
+    {
+      "New Market Branch": [
+        "3, MIRPUR ROAD DHANMONDI DHAKA, BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426552"
+      ]
+    },
+    {
+      "New Market, Rajshahi Branch": [
+        "STATION ROAD BOALIA RAJSHAHI, BANGLADESH, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437465"
+      ]
+    },
+    {
+      "Nilphamari Branch": [
+        "BORO MOSJID ROAD NILPHAMARI SADAR NILPHAMARI, BANGLADESH, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-016086"
+      ]
+    },
+    {
+      "Noapara Bazar Branch": [
+        "KHULNA-JESSORE RD. ABHOYNAGAR JESSORE, BANGLADESH, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404355"
+      ]
+    },
+    {
+      "North Potenga Branch": [
+        "TSP GATE, WARD NO: 40 CHATTOGRAM CITY CORP., POTENGA CHATTOGRAM, BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426826; 01811-816762"
+      ]
+    },
+    {
+      "Nurpur Branch": [
+        "BENODPUR MUNSHIGONJ SADAR MUNSHIGONJ, BANGLADESH, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437461"
+      ]
+    },
+    {
+      "Olipur Bazar Branch": [
+        "A.B MAHJABIN TOWER OLIPUR BAZAR,UNION-7 P.O-SHAHZIBAZAR P.S.-SHAISTAGANJ, DISTRIC-HABIGONJ, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404365"
+      ]
+    },
+    {
+      "Pabna Branch": [
+        "BISWAS COMMERCIAL COMPLEX (2ND FLOOR), ABDUL HAMID ROAD, PABNA SADAR, PABNA, BANGLADESH, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437469"
+      ]
+    },
+    {
+      "Padua Branch": [
+        "PADUA, P.O.PATIYA LOHAGARA, CHITTAGONG BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015658; 01712-869640"
+      ]
+    },
+    {
+      "Paduar Bazar Branch": [
+        "PADUAR BAZAR KOTWALI, COMILLA BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426140; 01816-512028"
+      ]
+    },
+    {
+      "Pahartoli Branch": [
+        "D.T. ROAD, PAHARTOLI, P.O. PAHARTALI PAHARTALI, CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437491; 01730-305517"
+      ]
+    },
+    {
+      "Pakutia Branch": [
+        "PAKUTIA GHATAIL TANGAIL, BANGLADESH, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009451; 01737-149449"
+      ]
+    },
+    {
+      "Palash Branch": [
+        "PALASH BAZAR PALASH, NARSINGDI BANGLADESH, GAZIPUR ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401297"
+      ]
+    },
+    {
+      "Pallabi Branch": [
+        "E/1 EASTERN HOUSING (2ND PHASE) PALLABI, DHAKA , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917 704733"
+      ]
+    },
+    {
+      "Panchagarh Branch": [
+        "MOHSHIN MARKET, 1511 CHOURANGI MORE PANCHAGARH BANGLADESH, RANGPUR ZONE, PANCHAGARH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-435693; 01820-861096"
+      ]
+    },
+    {
+      "Pangsha Branch": [
+        "PANGSHA, RAJBARI , FARIDPUR ZONE, RAJBARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704756"
+      ]
+    },
+    {
+      "Panthapath Branch": [
+        "89/2 WEST PANTHAPATH DHAKA-1215 , DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713082661"
+      ]
+    },
+    {
+      "Parbotipur Branch": [
+        "CENTRAL JAME MOSJID SUPER MARKET NOTUN BAZAR, PARBOTIPUR DINAJPUR, BANGLADESH, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-707426; 01727-318736"
+      ]
+    },
+    {
+      "Park Road Branch": [
+        "BRIDGE ROAD GAIBANDHA SADAR GAIBANDHA, BANGLADESH, BOGURA ZONE, GAIBANDHA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-038563"
+      ]
+    },
+    {
+      "Pathantula Branch": [
+        "PATHANTULA SYLHET SADAR SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082210"
+      ]
+    },
+    {
+      "Patherghata Branch": [
+        "BUNDLE ROAD PATHERGHATA, KOTWALI CHITTAGONG, BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401288; 01819-627583"
+      ]
+    },
+    {
+      "Pathrail Bazar Branch": [
+        "PATHRAIL BAZAR DILDUAR TANGAIL, BANGLADESH, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426815; 01727-682626"
+      ]
+    },
+    {
+      "Patiya Branch": [
+        "PATIYA P.O.PATIYA, CHITTAGONG BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426814; 01817-312961"
+      ]
+    },
+    {
+      "Patkelghata Branch": [
+        "GAFUR PLAZA, MOUZA: RAJANDRAPUR UNION: SORULIA, P.S: PATKELGHATA,UPAZILA: TALA, KHULNA ZONE, SATKHIRA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987706849"
+      ]
+    },
+    {
+      "Patuakhali Branch": [
+        "NATUN BAZAR P.O. PATUAKHALI PATUAKHALI, BANGLADESH, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426839"
+      ]
+    },
+    {
+      "Peelkhana Branch": [
+        "B.D.R. CAMPUS GATE, NO.1 PEELKHANA, LALBAGH DHAKA, BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426555"
+      ]
+    },
+    {
+      "Phultala Branch": [
+        "UNION: DAMODAR, PO: PHULTALA PS & UPAZILA : PHULTALA , KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "0191-7704735"
+      ]
+    },
+    {
+      "Pirerbag Branch": [
+        "RAISA & SIKDER TOWER HOLDING NO.3/8, PIRERBAG, MIRPUR WARD NO.13 P.S.- MIRPUR MODEL THANA DISTRICT - DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701225528"
+      ]
+    },
+    {
+      "Pirganj Branch": [
+        "PIRGANJ,HOLDING NO.711 WARD NO.07 P.O.+P.S.-PIRGANJ, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704872"
+      ]
+    },
+    {
+      "Pirojpur Branch": [
+        "CLUB ROAD P.O. PIROJPUR SADAR PIROJPUR, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401308"
+      ]
+    },
+    {
+      "Poradah Branch": [
+        "UKIL SHAKE SUPER MARKET, HOLDING-813 WARD NO.-04, KUSHTIA-PORADAH ROAD PORADAH BAZAR,THANA-MIRPUR,DIST.-KUSHTIA, FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322-896886"
+      ]
+    },
+    {
+      "Port Branch": [
+        "STRAND ROAD BANDAR, CHITTAGONG BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404373"
+      ]
+    },
+    {
+      "Principal Branch": [
+        "26, DILKUSHA C/A DHAKA-1000 BANGLADESH, HEAD OFFICE CONTROL, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324412799; 01321203295"
+      ]
+    },
+    {
+      "Progati Sharani Branch": [
+        "TITAS MANSION, HOUSE NO. GA-72/A/1 PROGATI SHARANI, THANA: BADDA, DHAKA-1212, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713201662"
+      ]
+    },
+    {
+      "Pulhat(Urban) Branch": [
+        "MOUZA-PULHAT WARD No.12,ROAD NO.1 P.S.-KOTWALI POURASHAVA-DINAJP, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704781; 01917-704782"
+      ]
+    },
+    {
+      "Putijuri Branch": [
+        "PUTIJURI, HOBIGONJ , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704745"
+      ]
+    },
+    {
+      "R.K. Mission Road Branch": [
+        "1, R.K. MISSION ROAD SUTRAPUR, DHAKA BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401277"
+      ]
+    },
+    {
+      "Rabir Bazar Branch": [
+        "RABIR BAZAR, P.S: KULAURA DIST: MOULVIBAZAR , MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704703"
+      ]
+    },
+    {
+      "Railway Station Branch": [
+        "RAILWAY STATION BUILDING, KAMALAPUR (1st FLOOR), WARD NO:11, DHAKA SOUTH CITY CORPORATION, DHAKA, BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426539"
+      ]
+    },
+    {
+      "Raipur Branch": [
+        "272, 273 DENAYETPUR UPZILLA, P.O., & MUNICIPALITY: RAIPUR, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704809; 01766-678066"
+      ]
+    },
+    {
+      "Raipura Branch": [
+        "SIRAJUDDIN BHUIYAN MARKET RAIPURA THANA ROAD, RAIPURA BAZAR, WARD NO. 01 P.S-RAIPURA,DISTRICT-NARSINGDI, NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704988"
+      ]
+    },
+    {
+      "Rajapur Branch": [
+        "THANA ROAD P.O. RAJAPUR, RAJAPUR JHALAKATI, BANGLADESH, BARISAL ZONE, JHALOKATHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082219"
+      ]
+    },
+    {
+      "Rajbari Branch": [
+        "COLLEGE ROAD RAJBARI SADAR RAJBARI, BANGLADESH, FARIDPUR ZONE, RAJBARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437487"
+      ]
+    },
+    {
+      "Rajshahi Main Branch": [
+        "NATORE ROAD, SHAHEB BAZAR BOALIA, RAJSHAHI BANGLADESH, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404375"
+      ]
+    },
+    {
+      "Ramgonj Branch": [
+        "POST AND UPAZILLA: RAMGONJ , NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704701; 01913-615917"
+      ]
+    },
+    {
+      "Rampura Branch": [
+        "322/E, D.I.T. ROAD, EAST RAMPURA DHAKA BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401278"
+      ]
+    },
+    {
+      "Rangamati Branch": [
+        "RESERVE BAZAR RANGAMATI SADAR RANGAMATI, BANGLADESH, CHATTOGRAM CENTRAL ZONE, RANGAMATI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704795; 01743-822443"
+      ]
+    },
+    {
+      "Rangpur Main Branch": [
+        "STREET NO-1 CENTRAL ROAD, RANGPUR SADAR RANGPUR, BANGLADESH, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438464; 01766677984"
+      ]
+    },
+    {
+      "Rangunia Branch": [
+        "F.A. TOWER (1ST FLOOR), KAPTAI SARAK, WARD NO-3, P/S- RANGUNIA, CHITTAGONG, BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082207; 01711-96968"
+      ]
+    },
+    {
+      "Ranirhat Branch": [
+        "THANDACHARI, RAOZAN RANGUNIA, CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015989; 01818-855288"
+      ]
+    },
+    {
+      "Raozan Branch": [
+        "34, FAKIRHAT , PO AND PS-RAOZAN , CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704702; 01819-322212"
+      ]
+    },
+    {
+      "Rasulgonj Branch": [
+        "RASULGONJ JAGANNATHPUR SUNAMGONJ, BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-022240"
+      ]
+    },
+    {
+      "Razar Bazar (Rural) Branch": [
+        "P.O: RAZAR BAZAR P.S: CHUNARUGHAT , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01926996304"
+      ]
+    },
+    {
+      "Reazuddin Bazar Branch": [
+        "MOHSIN MARKET R.S. ROAD, CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404374; 01741-165776"
+      ]
+    },
+    {
+      "Ring Road Branch": [
+        "J.H LUCKY TOWER,PLOT-13-23,ROAD NO.1 JANATA CO-OPERATIVE HOUSING RING ROAD,ADABAR,DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678329016"
+      ]
+    },
+    {
+      "Rohanpur Branch": [
+        "MOHSENA LATIF BHABAN, HOLDING NO: 18 ROHANPUR STATION ROAD, WARD NO: 05, POUROSHOVA: ROHANPUR THANA: GOMOSTAPUR, DIST.- CHAPAINAWABGONJ, RAJSHAHI ZONE, CHAPAINABABGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161285; 01714161286"
+      ]
+    },
+    {
+      "Ruhitpur Branch": [
+        "ISPAHANI HIGH SCHOOL MULTI RISE MARKET (BOARDING MARKET) RAMER KANDA, RUHITPUR, KERANIGONJ, DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209146; 01713-209147"
+      ]
+    },
+    {
+      "Rupatoli Branch": [
+        "ESHAK MOLLAH COMPLEX, HOLDING NO-358, RUPATOLI SARAK,WARD NO-25, ,P.S.-KOTWALI, DIST-BARISAL, BANGLADESH, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-016084"
+      ]
+    },
+    {
+      "Sadarghat Branch": [
+        "7, CHITTARANJAN AVENUE SADARGHAT, DHAKA BANGLADESH, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404362; 01713-042275"
+      ]
+    },
+    {
+      "Sadarghat Chattogram Branch": [
+        "SADARGHAT ROAD DOUBLEMOORING CHITTAGONG, BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401294"
+      ]
+    },
+    {
+      "Sadarpur (Rural) Branch": [
+        "KAZI HASHEM SHOPPING COMPLEX PLOT NO:3, SADARPUR , FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704864"
+      ]
+    },
+    {
+      "Saidpur Branch": [
+        "SHAHEED D. ZIKRUL HOQUE ROAD SAIDPUR NILPHAMARI, BANGLADESH, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438458; 01728-030377"
+      ]
+    },
+    {
+      "Sakhipur Branch": [
+        "S S TOWER (1ST FLOOR) OPPOSITE OF SAKHIPUR UPAZILLA PARISAD POURASHAVA-SAKHIPUR, DIST.-TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Salna Branch": [
+        "MODINA SUPER MARKET, SALNA BAZAR MOUZA: DAKHIN SALNA PS & SR OFFICE: GAZIPUR SADAR, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704753"
+      ]
+    },
+    {
+      "Samir Munshirhat Branch": [
+        "YEAR PUR SENBAG NOAKHALI, BANGLADESH, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-080617; 01720-231944"
+      ]
+    },
+    {
+      "Sandwip Branch": [
+        "MOHAMMADIA MARKET(1ST FLOOR), NEW COMPLEX, HARAMIA SANDWIP, CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437450"
+      ]
+    },
+    {
+      "Santahar Branch": [
+        "SADAR ROAD SANTAHAR, ADAMDIGHI BOGRA, BANGLADESH, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404370"
+      ]
+    },
+    {
+      "Sapahar Branch": [
+        "SAPAHAR NEW MARKET, ZERO POINT, SAPAHAR, THANA: SAPAHAR DIST: NAOGAON, BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065867"
+      ]
+    },
+    {
+      "Sarak Bazar Branch": [
+        "SARAK BAZAR BRAHMAN BARIA SADAR BRAHMAN BARIA, BANGLADESH, CUMILLA ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401321"
+      ]
+    },
+    {
+      "Saratgonj Branch": [
+        "SARATGONJ BAZAR CHUADANGA BANGLADESH, KHULNA ZONE, CHUADANGA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-034516"
+      ]
+    },
+    {
+      "Sarishabari Branch": [
+        "ARAMNAGAR BAZAR SARISHABARI SADAR JAMALPUR, BANGLADESH, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401322"
+      ]
+    },
+    {
+      "Sarsina Branch": [
+        "SARSINA DARUSSANATH ALIA MADRASHA ACADEMIC BHABAN, HOLDING#212, ROAD#3,WARD NO#08 MADRASHA ACADEMIC BHABAN ROAD, NESARABAD, PIROJPUR, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-020947"
+      ]
+    },
+    {
+      "Satkania Branch": [
+        "SATKANIA CHITTAGONG BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-084438"
+      ]
+    },
+    {
+      "Satkhira Branch": [
+        "SATKHIRA SADAR SATKHIRA BANGLADESH, KHULNA ZONE, SATKHIRA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711437457"
+      ]
+    },
+    {
+      "Satmatha Branch": [
+        "NEW MARKET BOGRA SADAR BOGRA, BANGLADESH, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404390"
+      ]
+    },
+    {
+      "Savar Branch": [
+        "BISMILLAH PLAZA (1ST FLOOR), B-132/1, BAZAR ROAD, SAVAR, DHAKA BANGLADESH, GAZIPUR ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404387"
+      ]
+    },
+    {
+      "Sericulture Branch": [
+        "STATION ROAD BOALIA RAJSHAHI, BANGLADESH, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401306"
+      ]
+    },
+    {
+      "Shahbag Avenue Branch": [
+        "SHAHBAG AVENUE DHAKA, BANGLADESH , DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401275"
+      ]
+    },
+    {
+      "Shahgali Bazar Branch": [
+        "UNION-BARHAL, UPZILA-ZAKIGONJ , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404329"
+      ]
+    },
+    {
+      "Shahi Eidgah Branch": [
+        "SHAHI EDGAH ROAD SYLHET SADAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082208"
+      ]
+    },
+    {
+      "Shahjalal Upashahar Branch": [
+        "SHAHAJALAL UPASHAHAR ROAD SYLHET SADAR SYLHET, BANGLADESH, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015998"
+      ]
+    },
+    {
+      "Shahparan Gate Branch": [
+        "UNION: KHADIMNAGAR P.S: KOTWALI , SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Shailkupa Branch": [
+        "MOLLA TOWER, HOLDING NO.-1077 KOBI GOLAM MOSTOFA SARAK, WARD NO.-08 THANA-SHAILKUPA, DIST.- JHENAIDAHA, KHULNA ZONE, JHENAIDAH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8809612822935"
+      ]
+    },
+    {
+      "Shaistagonj Branch": [
+        "SHAISTAGONJ HABIGONJ BANGLADESH, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438549"
+      ]
+    },
+    {
+      "Shamshernagar Branch": [
+        "SHAMSHERNAGAR KAMALGONJ MOULVIBAZAR, BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426554; 01922-726877"
+      ]
+    },
+    {
+      "Shantinagar Branch": [
+        "CORDOVA SCARLET (1ST FLOOR), 15, KAKRAIL ROAD, DHAKA , DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401279"
+      ]
+    },
+    {
+      "Shantirhat Branch": [
+        "SHANTIRHAT KAMAL CENTRE (1ST FLOOR),PO-KALARPOL SHANTIRHAT,POTIYA,CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-023789"
+      ]
+    },
+    {
+      "Shapla Chattar Branch": [
+        "SHAPLA CHATTAR, STATION ROAD, D.S. COMPLEX, ALAMNAGAR, P.S. KOTWALI, RANGPUR., RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438462; 01766-677983"
+      ]
+    },
+    {
+      "Shariatpur Town Branch": [
+        "SHARIATPUR SADAR ROAD P.O. SHARIATPUR SARIATPUR SADAR, BANGLADESH, FARIDPUR ZONE, SHARIATPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-016087"
+      ]
+    },
+    {
+      "Shathibari Branch": [
+        "R.K SHOPPING COMPLEX, SHATHIBARI BAZAR PO.- SHATHIBARI, WARD NO.- 07 THANA-MITHAPUKUR, DIST.- RANGPUR, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745668"
+      ]
+    },
+    {
+      "Sheikh Mujib Road Branch": [
+        "SK. MUJIB ROAD DEWANHAT, DOUBLEMOORING CHITTAGONG, BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401396"
+      ]
+    },
+    {
+      "Sheikhpara Bazar Branch": [
+        "SHER-E-BANGLA ROAD SONADANGA KHULNA, BANGLADESH, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437458"
+      ]
+    },
+    {
+      "Sherpur Branch": [
+        "DHUNAT MOOR, WARD NO-06 UNION-SHABONDEGI, P.S.-SHERPUR UPAZILLA-SHERPUR, DISTRICT-BOGURA, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284512; 01322890085"
+      ]
+    },
+    {
+      "Sherpur Town Branch": [
+        "ROAD NO-1 SAJBARKHILA SHERPUR SADAR, BANGLADESH, TANGAIL ZONE, SHERPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404395; 01755-650265"
+      ]
+    },
+    {
+      "Shewrapara Branch": [
+        "BEGUM ROKEYA SHARANI 962, BEGUM ROKEYA SARANI ROAD, SHEWRAPARA ,KAFRUL,DHAKA-1216, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426547"
+      ]
+    },
+    {
+      "Shibchar Branch": [
+        "SHIBCHAR, HOLDING NO. 70, WARD NO. 01 SHIBCHAR POURASHAVA P.S-SHIBCHAR, DISTRICT-MADARIPUR, FARIDPUR ZONE, MADARIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704842"
+      ]
+    },
+    {
+      "Shiberhat Branch": [
+        "MAIT BHANGA (SIBERHAT) SANDWIP, CHITTAGONG BANGLADESH, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437451; 01820-171960"
+      ]
+    },
+    {
+      "Shibgonj Branch": [
+        "ISLAM PLAZA HOLDING NO. 0688-05, TAMABIL ROAD, WARD NO.21, P.S-SHAPORAN DISTRICT - SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-072877; 01713-072878"
+      ]
+    },
+    {
+      "Shibu Market Branch": [
+        "ROAD NO-1, FATULLAH RPAD P.O+P.S: FATULLAH , NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937-404321"
+      ]
+    },
+    {
+      "Shipahibagh Bazar Branch": [
+        "HOLDING NO.- 302/B, MERADIA PO & PS KHILGAON, DHAKA , DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704736"
+      ]
+    },
+    {
+      "Shishu Park Branch": [
+        "SOHRAWARDI ROAD DHAKA, BANGLADESH , DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426538; 07166-677425"
+      ]
+    },
+    {
+      "Shitakundo Sme/Krishi Branch": [
+        "B.R. TOWER POURASHAVA + PS: SHITAKUNDO , CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704751"
+      ]
+    },
+    {
+      "Shutibari (Rural) Branch": [
+        "UNION:GOYABARI, P.O:GOYAKHARIBARI DIMLA , RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704865"
+      ]
+    },
+    {
+      "Siddirgonj Branch": [
+        "S.M. TOWER HOLDING NO.11/1, BLOCK-B WARD NO.04 ADAMJEE E.P.Z. ROAD SIDDIRGONJ POOL P.S. - SIDDIRGONJ, DISTRICT - NARAYANGONJ, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701-225534; 01701-225535"
+      ]
+    },
+    {
+      "Singair Branch": [
+        "SINGAIR, MANIKGONJ BANGLADESH , GAZIPUR ZONE, MANIKGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401283"
+      ]
+    },
+    {
+      "Singerkatch Bazar Branch": [
+        "MAJGAON BISWANATH SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-015984"
+      ]
+    },
+    {
+      "Sirajgonj Branch": [
+        "S.R PLAZA, HOLDING NO 2642, S.S ROAD WARD NO 3, SIRAJGONJ SADAR , BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437466"
+      ]
+    },
+    {
+      "Sonagazi Branch": [
+        "MAIN ROAD SONAGAZI FENI, BANGLADESH, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-082851"
+      ]
+    },
+    {
+      "Sonaimuri Branch": [
+        "JHILMIL KASHEM PLAZA,BANK ROAD WARDNO-5,POURASHAVA-SONAIMURI THANA-SONAIMURI,DIST-NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937 404325"
+      ]
+    },
+    {
+      "Sonargaon Hotel Branch": [
+        "107, KAZI NAZRUL AVENUE SONARGAON HOTEL DHAKA, BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426551"
+      ]
+    },
+    {
+      "Sonargaon Janapath Branch": [
+        "PLOT NO-08, SONARGAON JANAPATH ROAD SECTOR-11, WARD-01 UTTARA MODEL TOWN, P.S-UTTARA WEST, DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-209136; 01713-209142"
+      ]
+    },
+    {
+      "Sonargaon Road Branch": [
+        "25 PARIBAGH, SONARGAON ROAD RAMNA. DHAKA BANGLADESH, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437478"
+      ]
+    },
+    {
+      "Sreemongal Branch": [
+        "SREEMONGAL MOULVIBAZAR BANGLADESH, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426847"
+      ]
+    },
+    {
+      "Sreenagar Bazar (Rural) Branch": [
+        "P.O: SREENAGAR, P.S. & UPAZILLA: SREENAGAR LAL MOHON MENSION (SWORNO POT), NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704871"
+      ]
+    },
+    {
+      "Stadium Branch": [
+        "DORGAH MOHOLLA (SOUTH DORGAH ROAD) SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401302"
+      ]
+    },
+    {
+      "Station Road Branch": [
+        "STATION ROAD, HOLDING NO.2072,WARD NO.26 MOUZA-BHARTHKHOLA,P.S.-SOUTH SURMA,DISTRICT-SYLHET , SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01701225532; 01701225533"
+      ]
+    },
+    {
+      "Subidkhali Branch": [
+        "MOUZA- EAST SUBIDKHALI, UNION - 4 NO. DEULI SUBIDKHALI P.S.- MIRZAGONJ, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987706853"
+      ]
+    },
+    {
+      "Sunamgonj Branch": [
+        "STATION ROAD SUNAMGONJ SADAR SUNAMGONJ, BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401301"
+      ]
+    },
+    {
+      "Sundarganj Branch": [
+        "ANGURA BHABON, HOLDING NO.-2309 THANA ROAD, WARD NO.-03, POURASHAVA-SUNDARGANJ THANA-SUNDARGANJ, DIST.- GAIBANDHA, BOGURA ZONE, GAIBANDHA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745669"
+      ]
+    },
+    {
+      "Sutang Bazar Branch": [
+        "HABIGONJ BANGLADESH , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438515"
+      ]
+    },
+    {
+      "Sutrapur Branch": [
+        "116/117, REBOTI MOHAN DAS RD. DHAKA, BANGLADESH , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401271"
+      ]
+    },
+    {
+      "Swadeshi Bazar Branch": [
+        "6, ROMESH SEN ROAD SADESHI BAZAR MYMENSINGH, BANGLADESH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-404396"
+      ]
+    },
+    {
+      "Syedpur Bazar Branch": [
+        "HABIGONJ BANGLADESH , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438547"
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "SYL-VALLEY CASTLE, VIP ROAD, TELIHAOR, SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711404356; 01713-068479"
+      ]
+    },
+    {
+      "Tajpur Branch": [
+        "TAJPUR KADAMTALI BALAGONJ SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-082211; 01718-231230"
+      ]
+    },
+    {
+      "Taltala Bazar Branch": [
+        "KATGOLA BAZAR MYMENSINGH SADAR MYMENSINGH, BANGLADESH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714009444; 01734-520183"
+      ]
+    },
+    {
+      "Tanbazar Branch": [
+        "S.M. MALEH ROAD TANBAZAR, NARAYANGONJ BANGLADESH, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437456"
+      ]
+    },
+    {
+      "Tangail Main Branch": [
+        "HOLDING NO.332, NUR ASHIYANA (1st and 2nd Floor) MOSJID ROAD, WARD NO. 13, POUROSHAVA: TANGAIL, PS: TANGAIL SADAR, TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401323"
+      ]
+    },
+    {
+      "Tarash Branch": [
+        "CHAND SUPER MARKET TARASH SIRAJGONJ, BANGLADESH, BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-020946"
+      ]
+    },
+    {
+      "Tarki Bandar Branch": [
+        "JAMAL MIAH BHABAN,TIPU KAMAL SARAK TARKI BANDAR,P.S-GOURNADI , BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01678-329022"
+      ]
+    },
+    {
+      "Tebunia Branch": [
+        "TABUNIA BAZAR, SAYED SUPER MARKET, PABNA SADAR PABNA, BANGLADESH, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426838"
+      ]
+    },
+    {
+      "Technical Road Branch": [
+        "TECHNICAL ROAD SYLHET SADAR SYLHET, BANGLADESH, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-401303"
+      ]
+    },
+    {
+      "Tejgaon Branch": [
+        "SHAHEED TAJUDDIN SARANI TEJGAON, DHAKA BANGLADESH, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437477"
+      ]
+    },
+    {
+      "Tekerhat Branch": [
+        "AZHAR MIA COMLEX, HOLDING NO.-645, TEKERHAT MACHBAZAR ROAD, RAJOIR PAURASHAVA, THANA-RAJOIR, DIST.-MADARIPUR, FARIDPUR ZONE, MADARIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "8800000000000"
+      ]
+    },
+    {
+      "Teknaf Branch": [
+        "HOTEL SKYVIEW, TEKNAF BAZAR, THANA-TEKNAF, DIST.-COX'S BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801335184377"
+      ]
+    },
+    {
+      "Tengra Bazar Branch": [
+        "UNION:TENGRA BAZAR UPZILLA:RAJNAGAR , MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917-704810"
+      ]
+    },
+    {
+      "Terri Bazar Branch": [
+        "ANDERKILLA, KOTWALI CHITTAGONG BANGLADESH, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437490"
+      ]
+    },
+    {
+      "Thakurgaon Branch": [
+        "BANGA BANDHU SARAK THAKURGAON SADAR THAKURGAON, BANGLADESH, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-037864; 01712-341289"
+      ]
+    },
+    {
+      "Thakurgaon Road Branch": [
+        "THAKURGAON ROAD BAZAR THAKURGAON ROAD THAKURGAON, BANGLADESH, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-438460"
+      ]
+    },
+    {
+      "Tongi Branch": [
+        "TONGI, GAZIPUR BANGLADESH , GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-437454"
+      ]
+    },
+    {
+      "Town Masjid Road Branch": [
+        "HABIGONJ BANGLADESH , MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-089569"
+      ]
+    },
+    {
+      "Trishal Branch": [
+        "HOLDING # 311, WARD # 4, TRISHAL MYMENSINGH, BANGLADESH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009443"
+      ]
+    },
+    {
+      "Tuker Bazar Branch": [
+        "MOUZA-KUMARGAON,UNION-TUKER BAZAR P.O-TUKER BAZAR,P.S-JALALABAD DIST-SYLHET, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01987-706871"
+      ]
+    },
+    {
+      "Tushbhander Branch": [
+        "VILL-UTTAR GHANESHAYAM KALIGONJ, LALMONIRHAT BANGLADESH, RANGPUR ZONE, LALMONIRHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009435; 01717-452946"
+      ]
+    },
+    {
+      "Ukhiya Branch": [
+        "NOOR JAHAN TOWER(1ST & 2ND FLOOR) THANA ROAD, UKHIYA SADAR,UKHIYA COX'S BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-107029; 01717-029385"
+      ]
+    },
+    {
+      "Ulipur Branch": [
+        "KERAMAT ULLAH SUPER MARKET, COLLEGE ROAD WARD NO- 06, PO- ULIPUR, PS- ULIPUR POUROSHOVA- ULIPUR, DIST.- KURIGRAM, RANGPUR ZONE, KURIGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161247; 01958578229"
+      ]
+    },
+    {
+      "Ullapara Branch": [
+        "A.B COMPLEX MOHONPUR ROAD, P.S-ULLAPARA DIST.-SIRAJGONJ, BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713-072868; 01713-072869"
+      ]
+    },
+    {
+      "University Campus Branch": [
+        "AGRI-VARSITY CAMPUS MYMENSINGH SADAR MYMENSINGH, BANGLADESH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714009450; 01711562504"
+      ]
+    },
+    {
+      "Uttara Model Town Branch": [
+        "H-7, RD-7/D, SECTOR-9, UTTARA R/A PO AND PS-UTTARA , DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01917704704"
+      ]
+    },
+    {
+      "Victoria College Branch": [
+        "COLLEGE ROAD COMILLA SADAR COMILLA, BANGLADESH, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426139"
+      ]
+    },
+    {
+      "Wapda Gate Branch": [
+        "MOULVIBAZAR BANGLADESH , MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-089571"
+      ]
+    },
+    {
+      "Zakigonj Branch": [
+        "KHAN COMPLEX, SHISU PARK ROAD ZAKIGONJ BAZAR SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-023791"
+      ]
+    },
+    {
+      "Zilla Parishad Branch": [
+        "KHALEQUZZAMAN COMPLEX, HOLDING NO. 161-162, WARD NO.-10, FOUZDARI ROAD, KOTWALI, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711-426138"
+      ]
+    },
+    {
+      "Zilla Sarak Branch": [
+        "REGISTRY PARA TANGAIL SADAR TANGAIL, BANGLADESH, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714-009448; 01987706837"
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "281 sub-branches": [
+        "Pubali Bank PLC is the largest commercial private bank, with a network of",
+        null,
+        null
+      ]
+    },
+    {
+      "Abad Pukur Sub Branch": [
+        "POLOK SUPER MARKET, ABADPUKUR, PO.-PO.-ABADPUKURHAT, UNION-03, THANA-RANINAGAR, DIST.-NAOGAON, BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332513919"
+      ]
+    },
+    {
+      "Abdullahpur Sub Branch": [
+        "MINNAT PLAZA(1ST FLOOR), ABDULLAHPUR BAZAR, VILL: KALAKANDI, THANA: SOUTH KERANIGANJ, DIST: DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065871"
+      ]
+    },
+    {
+      "Aditmari Sub Branch": [
+        "VILL.-ADITMARI, UNION-VADAI, THANA-ADITMARI, DIST.-LALMONIRHAT, RANGPUR ZONE, LALMONIRHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161246"
+      ]
+    },
+    {
+      "Aftabnagar Sub Branch": [
+        "ADHUNIK KHAN PALACE, HOLDING NO.-D/29 AFTABNAGAR MAIN ROAD, THANA-BADDA DIST.-DHAKA, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364923"
+      ]
+    },
+    {
+      "Akbarhat Sub Branch": [
+        "A K PATOWARI MARKET VILL:AMAN ULLAH,PO:AKBARHAT UPAZILA:SANDWIP,DIST:CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730315262"
+      ]
+    },
+    {
+      "Akbarshah Sub Branch": [
+        "KAMAL TOWER, BLOCK-F(1ST FLOOR), SEVEN MARKET MOOR, KOIBOLLODHAM HOUSING SOCIETY, PO-FIROZSHAH, PS-AKBARSHAH, DISTRICT-CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711426822"
+      ]
+    },
+    {
+      "Akkelpur Sub Branch": [
+        "LIKHON COMMERCIAL COMPLEX, HOLDING:763 UPAZILLA MAIN ROAD, POURASAVA AND THANA: AKKELPUR DIST: JOYPURHAT, BANGLADESH, BOGURA ZONE, JOYPURHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692774"
+      ]
+    },
+    {
+      "Algi Bazar Sub Branch": [
+        "GAZI MARKET, ALGI BAZAR UNION-ALGI DURGAPUR (SOUTH), THANA-HAIMCHOR, DIST.-CHANDPUR, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325072742"
+      ]
+    },
+    {
+      "Amraid Bazar Sub Branch": [
+        "AMRAID BAZAR, UNION: RAYED THANA: KAPASIA DISTRICT: GAZIPUR, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692770"
+      ]
+    },
+    {
+      "Amtali Sub Branch": [
+        "HASAN HOSSAIN SUPER MARKET HOLDING-1259,FERI GHAT ROAD,WARD-06,POURASHAVA-AMTALI P.S.-AMTALI, DIST.-BARGUNA, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324412804"
+      ]
+    },
+    {
+      "Angaria Sub Branch": [
+        "FARAZI TOWER, 0361-01, ANGARIA PURBO BAZAR WARD NO.-09, POURASHAVA-SHARIATPUR THANA-PALONG, DIST.-SHARIATPUR, FARIDPUR ZONE, SHARIATPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667467"
+      ]
+    },
+    {
+      "Aricha Sub Branch": [
+        "NEER PLAZA UNION: SHIBALAYA MODEL UNION THANA: SHIBALAYA, DIST. MANIKGONJ, GAZIPUR ZONE, MANIKGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01321203294"
+      ]
+    },
+    {
+      "Arpara Sub Branch": [
+        "MUNSHI RAIHAN UDDIN SUPER MARKET WARD NO-02, HOLDING NO-465, ARPARA BAZAR, SHALIKHA ROAD PS-SHALIKHA, DIST-MAGURA, FARIDPUR ZONE, MAGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712313"
+      ]
+    },
+    {
+      "Arshinagar Sub Branch": [
+        "SALIM PLAZA, ARSHINAGAR MAIN ROAD KERANIGONJ, DHAKA , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324414535"
+      ]
+    },
+    {
+      "Atwari Sub Branch": [
+        "TOSIB UDDIN SUPER MARKET ATWARI BAZAR, UNION: RADHANAGAR THANA: ATWARI, DISTRICT: PANCHAGARH, RANGPUR ZONE, PANCHAGARH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364914"
+      ]
+    },
+    {
+      "Badargonj Sub Branch": [
+        "HOLDING NO.-809, UPAZILA PARISHAD ROAD WARD NO.-02, POURASHAVA-BADARGONJ, THANA-BADARGONJ, DIST.-RANGPUR, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364917"
+      ]
+    },
+    {
+      "Baganchra Sub Branch": [
+        "HAMID TOWER(1ST FLOOR), BAGANCHRA, MOUZA+UNION- BAGANCHRA, THANA-SHARSHA, DISTRICT- JASHORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322921274"
+      ]
+    },
+    {
+      "Bagmara Bazar Sub Branch": [
+        "OSMAN SIR SHOPPING COMPLEX BAGMARA BAZAR, UNION: BAGMARA THANA- LALMAI, DISTRICT: CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367584"
+      ]
+    },
+    {
+      "Bahadur Bazar Sub Branch": [
+        "AG MOLLA TOWER, 334/2, PAHARPUR ROAD WARD NO.-10, POURASHAVA-DINAJPUR, THANA-KOTWALI, DIST.-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692773"
+      ]
+    },
+    {
+      "Bahubal Sub Branch": [
+        "TALUKDAR TOWER(1ST FLOOR), BAHUBAL BAZAR UNION-4 NO.BAHUBAL, P.O.-BAHUBAL-3310 P.S.-BAHUBAL, DIST-HABIGONJ, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712315"
+      ]
+    },
+    {
+      "Bailtali Sub Branch": [
+        "HAZRAT SHAH SUFI AMANAT KHAN(R) SUPER MARKET, BAILTALI BAZAR, UNION- BAILTALI, THANA- CHANDANAISH, DIST.- CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667457"
+      ]
+    },
+    {
+      "Bajitpur Sub Branch": [
+        "HOLDING NO.0515-00(1ST FLOOR), COLLEGE ROAD, WEST BASANTAPUR, THANA & UPAZILA: BAJITPUR, DISTRICT: KISHOREGANJ, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332545093"
+      ]
+    },
+    {
+      "Bakalia Access Road Sub Branch": [
+        "ALHAMDULILLAH TOWER, 1ST FLOOR, HOLDING NO.N/815/B, BAKALIA ACCESS ROAD, PO:BAKALIA, PS:BAKALIA, DIST:CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065872"
+      ]
+    },
+    {
+      "Bakergonj Sub Branch": [
+        "BAKERGONJ SHOPPING MALL, HOLDING NO. 113 SADAR ROAD, WARD NO. 2, POURASHAVA-BAKERGONJ THANA-BAKERGONJ, DISTRICT-BARISHAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958578200"
+      ]
+    },
+    {
+      "Baktermunshi Bazar Sub Branch": [
+        "KHONDAKAR SHAHJAHAN COMPLEX, MAIN ROAD BAKTERMUNSHI BAZAR, U.P.-MONGOLKANDI P.S.-SONAGAZI, DIST.-FENI, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712307"
+      ]
+    },
+    {
+      "Balashur Sub Branch": [
+        "ALAM PLAZA, 1ST FLOOR, BALASHUR BAZAR,UNION-BAGGHAKUL, THANA-SREENAGAR, DIST.-MUNSHIGONJ, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801324296010"
+      ]
+    },
+    {
+      "Baliadangi Sub Branch": [
+        "T.HOSSAIN MARKET, HOLDING NO.-1552, WARD NO.-03, UNION-BOROBARI THANA-BALIADANGI, DIST.-THAKURGAON, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074892"
+      ]
+    },
+    {
+      "Baliakandi Sub Branch": [
+        "D M SUPER MARKET, HOSPITAL ROAD UNION: BALIAKANDI, THANA: BALIAKANDI DISTRICT: RAJBARI, FARIDPUR ZONE, RAJBARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367595"
+      ]
+    },
+    {
+      "Baligaon Sub Branch": [
+        "HAT BALIGAON JAME MOSJID MARKET, BALIGAON BAZAR, UNION-BALIGAON, THANA-TONGIBARI, DIST.-MUNSHIGONJ, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958578202"
+      ]
+    },
+    {
+      "Bamondi Sub Branch": [
+        "BAMONDI AB TOWER, UNION-BAMONDI THANA-GANGNI, DIST.-MEHERPUR, KHULNA ZONE, MEHERPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794369"
+      ]
+    },
+    {
+      "Banaripara Sub Branch": [
+        "R.B BHABAN, HOLDING NO= 134/1, SADAR ROAD WORD NO-03, POURASHAVA, BANARIPARA, THANA: BANARIPARA DIST: BARISHAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692769"
+      ]
+    },
+    {
+      "Banarupa Sub Branch": [
+        "D.M COMPLEX, 2ND FLOOR, RANGAMATI MAIN ROAD WORD NO. 08, RANGAMATI BANGLADESH, CHATTOGRAM CENTRAL ZONE, RANGAMATI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755848"
+      ]
+    },
+    {
+      "Bandar Sub Branch": [
+        "CHOWDHURY PLAZA(1st FLOOR) 219,AMIN RESIDENTIAL AREA WARD NO:22, NARAYANGONJ CITY CORPORATION PS: BANDAR, DIST:NARAYANGANJ, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284520"
+      ]
+    },
+    {
+      "Bandura Bazar Sub Branch": [
+        "S.D. SHOPPING COMPLEX, DAG# RS 933, KHATIAN# RS 425 MOUJA- PURATAN BANDURA, UNION- BANDURA THANA- NAWABGONJ, DISTRICT- DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713072885"
+      ]
+    },
+    {
+      "Banglabazar Sub Branch": [
+        "NURUL ISLAM MARKET UNION: BANGLABAZAR, THANA: DOWARABAZAR DISTRICT: SUNAMGONJ, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711401292"
+      ]
+    },
+    {
+      "Banti Bazar Sub Branch": [
+        "AYESHA PLAZA, BANTI ADARSHA BAZAR,UNION-DUPTARA THANA-ARAIHAZAR, DIST.-NARAYANGANJ, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364931"
+      ]
+    },
+    {
+      "Barabari Bazar Sub Branch": [
+        "PANTHA BHABAN, BARABARI BAZAR MOUZA-SHIBRAM, UNION- BARABARI, THANA- LALMONIRHAT SADAR, DIST.-LALMONIRHAT, RANGPUR ZONE, LALMONIRHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667471"
+      ]
+    },
+    {
+      "Baro Moghbazar Sub Branch": [
+        "HOLDING NO.-217/A, OUTER CIRCULAR ROAD WARD NO.-35, DHAKA NORTH CITY CORP. THANA-HATIRJHEEL, DIST.-DHAKA, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958578215"
+      ]
+    },
+    {
+      "Baroicha Bazar Sub Branch": [
+        "TOTA MIA MARKET, BAROICHA BAZAR,UNION-CHAR UZILABO THANA-BELABO, DIST.-NARSINGDI, NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364933"
+      ]
+    },
+    {
+      "Baroipara Sub Branch": [
+        "ZAM ZAM TOWER(1ST FLOOR), BAROIPARA, UNION: SHIMULIA, THANA: ASHULIA, UPAZILA: SAVAR, DISTRICT: DHAKA, GAZIPUR ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332816967"
+      ]
+    },
+    {
+      "Basila Sub Branch": [
+        "PLOT NO.-43, HOUSE NO.-03, ROAD NO.-03 BLOCK A, BASILA CITY DEVELOPERS HOUSING, MOHAMMADPUR, DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Batakandi Bazar Sub Branch": [
+        "HANIF ERON MARKET, BATAKANDI BAZAR UNION: JAGATPUR, THANA: TITASH DIST. CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322912341"
+      ]
+    },
+    {
+      "Battali Sub Branch": [
+        "HAZI IMAM SHOPPING CENTER, BLOCK-F(1ST FLOOR), MOUZA-BATTALI, UNION-4 NO. BATTALI, P.S.- ANWARA, DIST- CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322921273"
+      ]
+    },
+    {
+      "Bauphal Sub Branch": [
+        "HOLDING NO:80, BAZAR ROAD WARD NO:04, PAURASHAVA: BAUFAL DISTRICT: PATUAKHALI, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730019165"
+      ]
+    },
+    {
+      "Belkuchi Sub Branch": [
+        "ABUL HASHEM COMPLEX(1ST FLOOR), CHAR CHALA, UNION: CHALA, THANA: BELKUCHI, DIST: SIRAJGONJ, BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065865"
+      ]
+    },
+    {
+      "Betagi Sub Branch": [
+        "KARMOKAR BHOBON, HOLDING NO.-532-00 UPAZILA PARISHAD ROAD, WARD NO.-07, POURASHAVA-BETAGI THANA-BETAGI, DIST.-BARGUNA, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364924"
+      ]
+    },
+    {
+      "Bhairabgonj Bazar Sub Branch": [
+        "ANOWAR MANSION, BHAIRABGONJ BAZAR UNION-5 NO. KALAPUR, P.O.-NARAYAN CHORA UPAZILLA-SREEMANGAL, P.S.-SREEMANGAL, DIST-MOULVIBAZAR, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745660"
+      ]
+    },
+    {
+      "Bhuapur Sub Branch": [
+        "TARAFDER SUPER MARKET, BHUAPUR BAZAR ROAD WARD NO.-4, MUNICIPALITY-BHUAPUR, THANA-BHUAPUR, DIST.-TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692757"
+      ]
+    },
+    {
+      "Bhuiyarhat Sub-Branch": [
+        "SHEIKH AL-HOSSAINIA COMPLEX DAG NO.-346, KHATIAN NO.-430,MOUJA-DOYARAMDI UNION-VATIA, P.O.-BHUIYARHAT, THANA-KABIRHAT,DIST. NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730318059"
+      ]
+    },
+    {
+      "Bijoypur Bazar Sub Branch": [
+        "S.R. SUPER MARKET(1ST FLOOR) BIJOYPUR BAZAR, POST OFFICE-BIJOYPUR UNION-BIJOYPUR, THANA/UPAZILLA-SADAR SOUTH, DISTRICT-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01792849160"
+      ]
+    },
+    {
+      "Birol Sub Branch": [
+        "THANA ROAD, WARD NO-07 POUROSOVA-BIROL, THANA-BIROL DISTRICT-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332505589"
+      ]
+    },
+    {
+      "Boda Sub Branch": [
+        "PATWARY PLAZA, HOLDING NO. 116/117 WARD NO. 02, POURASHAVA- BODA THANA- BODA, DISTRICT- PANCHAGARH, RANGPUR ZONE, PANCHAGARH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074890"
+      ]
+    },
+    {
+      "Bokshiganj Sub Branch": [
+        "HOLDING NO.-1438-00, UPAZILA ROAD, WAR NO.-5, POURASHAVA-BOKSHIGANJ, THANA-BOKSHIGANJ, DIST.-JAMALPUR, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667466"
+      ]
+    },
+    {
+      "Bonpara Sub Branch": [
+        "R I SUPER MARKET, GOPALPUR ROAD WARD NO-02, POURASHAVA-BONPARA P.S.-BARAIGRAM, DIST.-NATORE, RAJSHAHI ZONE, NATORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322912333"
+      ]
+    },
+    {
+      "Boropole Sub Branch": [
+        "ATIKET MOWLANA TOWER, HOLDING NO.-1384 PORT CONNECTING ROAD, CHATTOGRAM CITY CORP. THANA-HALISHAHAR, DIST.-CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325072738"
+      ]
+    },
+    {
+      "Box Culvert Road Sub Branch": [
+        "Paltan Tower, Holding no.87 Purana Paltan Line, Ward No.13 Dhaka South City Corporation,Thana-Paltan,Dist.-Dhaka, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284518"
+      ]
+    },
+    {
+      "Burichang Sub Branch": [
+        "BHAI BHAI SUPER MARKET, BURICHANG MODDHO BAZAR, PO.-BURICHANG, UNION-03, THANA-BURICHANG, DIST.-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801332513915"
+      ]
+    },
+    {
+      "C B Ghat-Beribadh More Sub Branch": [
+        "IDRIS PLAZA, C B GHAT BERIBADH MORE, UNION-DICRIRCHAR THANA-FARIDPUR SADAR, DIST-FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745664"
+      ]
+    },
+    {
+      "Chalna Sub Branch": [
+        "ABUL HOSSAIN SHAIKH BHABAN KHULNA-CHALNA SARAK, WARD: 07, POURASAVA: CHALNA THANA: DACOPE, DISTRICT: KHULNA , KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284509"
+      ]
+    },
+    {
+      "Chanchkoir Sub Branch": [
+        "SARKER PLAZA, DHAN HATA ROAD POURASHAVA: GURUDASPUR THANA: GURUDASPUR, DIST.NATORE, RAJSHAHI ZONE, NATORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284513"
+      ]
+    },
+    {
+      "Chandgaon Sub Branch": [
+        "HAJI NURUL ALAM PRAKAS KALU BUILDING, 705/865 ARAKAN ROAD, WARD NO.-04, CHATTOGRAM CITY CORP. THANA-CHANDGAON, DIST.-CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364903"
+      ]
+    },
+    {
+      "Chandgazi Bazar Sub Branch": [
+        "FIROZA JALIL MARKET, CHANDGAZI BAZAR UNION-MAHAMAYA, THANA-CHHAGALNAIYA, DIST.-FENI, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364910"
+      ]
+    },
+    {
+      "Chandpur Puran Bazar Sub Branch": [
+        "CHANDPUR PURAN BAZAR CHANDPUR BANGLADESH, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01313749026"
+      ]
+    },
+    {
+      "Chandraghona Sub Branch": [
+        "TAYBIA COMPLEX(1ST FLOOR), FERRY GHAT ROAD, LICHUBAGAN, CHANDRAGHONA, P.S: RANGUNIA, DISTRICT: CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714082207"
+      ]
+    },
+    {
+      "Chandrogonj Bazar Sub Branch": [
+        "JAHANARA PLAZA, CHANDROGONJ BAZAR UNION: CHANDROGONJ, THANA: CHANDROGONJ DISTRICT: LAKSHMIPUR, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161267"
+      ]
+    },
+    {
+      "Charbhadrasan Sub Branch": [
+        "ASRAF PLAZA (1ST FLOOR) MOUZA#CHARBHADRASAN,UNION#CHARBHADRASAN THAN#CHARBHADRASAN,DISTRICT#FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730315293"
+      ]
+    },
+    {
+      "Chatmohar Sub Branch": [
+        "MIRZA MARKET, HOLDING NO.-76, PURATON BAZAR MAIN ROAD, WARD NO.-06, PAUROSHOVA- CHATMOHAR, P.S.-CHATMOHAR, DIST.-PABNA, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324412806"
+      ]
+    },
+    {
+      "Chatul Bazar Sub Branch": [
+        "SULAIMAN MANSION, VILL-CHATUL BAZAR UNION-BARO CHATUL, THANA-KANAIGHAT DIST.-SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161275"
+      ]
+    },
+    {
+      "Chhatak Bazar Sub Branch": [
+        "CHHATAK BAZAR CHHATAK, SUNAMGANJ BANGLADESH, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01313749024"
+      ]
+    },
+    {
+      "Chilmari Sub Branch": [
+        "VILL: SHAMS PARA, UNION: THANAHAT, WORD NO:08, THANA: CHILMARI, DISTRICT: KURIGRAM., RANGPUR ZONE, KURIGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324296005"
+      ]
+    },
+    {
+      "Chirirbandar Sub Branch": [
+        "ALHAZ KOFIL UDDIN SARKER MARKET, GHUGHURATOLI, UNION-ABDULPUR, THANA-CHIRIRBANDAR, DIST.-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667462"
+      ]
+    },
+    {
+      "Chitalmari Sub Branch": [
+        "CHITALMARI BAZAR UNION-CHITALMARI SADAR, THANA-CHITALMARI, DIST.-BAGERHAT, KHULNA ZONE, BAGERHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794070"
+      ]
+    },
+    {
+      "Choumatha Sub Branch": [
+        "HELENPLAZA,HOLDING NO.-447,NOBOGRAM ROAD, WARD NO.-21,CITY CORPORATION-BARISAL THANA-KOTWALI,DISTRICT-BARISAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730318082"
+      ]
+    },
+    {
+      "Chowdhury Hat Sub Branch": [
+        "EASTERN SHOPPING CENTER, CHOWDHURY HAT, UNION-CHIKANDANDI THANA-HATHAZARI, DIST.-CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074887"
+      ]
+    },
+    {
+      "Companigonj Sub Branch": [
+        "NURJAHAN TOWER, MURADNAGAR ROAD, UNION-15, NABIPUR (WEST), P.O.- COMPANIGONJ THANA-MURADNAGAR, DIST.-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801332513907"
+      ]
+    },
+    {
+      "Dalal Bazar Sub Branch": [
+        "SOFIQ AMIN MARKET(1ST FLOOR), MAIN ROAD, DALAL BAZAR, UP-3NO. DALAL BAZAR, THANA & UPAZILLA-LAKSHMIPUR SADAR, DIST-LAKSHMIPUR, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332816964"
+      ]
+    },
+    {
+      "Darshana Sub Branch": [
+        "HASHEM PLAZA, HOLDING NO.-247 MUJIB NAGAR ROAD, POURASAVA-DARSHANA THANA-DARSHANA, DIST.-CHUADANGA, KHULNA ZONE, CHUADANGA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364941"
+      ]
+    },
+    {
+      "Dhamrai Sub Branch": [
+        "RANJIT SUPER MARKET, HOLDING NO. 0001-00 DHAMRAI BAZAR ROAD, POURASHAVA-DHAMRAI THANA-DHAMRAI, DIST.-DHAKA, GAZIPUR ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324414540"
+      ]
+    },
+    {
+      "Dhamura Bazar Sub Branch": [
+        "IBRAHIM MANSION, DHAMURA BAZAR UNION-SHOLOK, THANA-WAZIRPUR, DIST.-BARISHAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074883"
+      ]
+    },
+    {
+      "Dighinala Sub Branch": [
+        "KASHEM BROTHERS UNIT-2(1st Floor) New Boalkhali Bazar, Plot No.120,121,122,123 P.S:DIGHINALA, DIST.KHAGRACHARI, CHATTOGRAM NORTH ZONE, KHAGRACHARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01868522105"
+      ]
+    },
+    {
+      "Dimla Sub Branch": [
+        "DIMLA CENTRAL JAME MOSJID MARKET, VILLAGE-BABURHAT, UNION-DIMLA, THANA-DIMLA, DIST.-NILPHAMARY, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161288"
+      ]
+    },
+    {
+      "Domar Sub Branch": [
+        "JANANI PLAZA, HOLDING NO-728 NILPHAMARY-DOMAR ROAD, POURASHAVA-DOMAR, THANA-DOMAR, DIST.-NILPHAMARY, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325072734"
+      ]
+    },
+    {
+      "Dularhat Sub Branch": [
+        "HAZI TOWER, NURABAD,THANA-DULARHAT UPAZILA-CHARFASHION, DIST.-BHOLA, BARISAL ZONE, BHOLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364902"
+      ]
+    },
+    {
+      "Dumuria Sub Branch": [
+        "ABDUR RAHIM SUPER MARKET,(1st FLOOR) SAHID SIRAJ SARAK,DUMURIA BAZAR THANA-DUMURIA, PO-SAJIARA,KHULNA, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713143413"
+      ]
+    },
+    {
+      "Durgapur Sub Branch": [
+        "AYMAN COMPLEX, HOLDING NO.-224 WARD NO-04, MODHYO BAZAR, THANA-DURGAPUR, DIST.-NETRAKONA, MYMENSHINGH ZONE, NETROKONA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801335065870"
+      ]
+    },
+    {
+      "Eidgaon Sub Branch": [
+        "NURUL ALAM (UNIT-2) VILL: EDGAON BAZAR, UNION: EIDGAON THANA: EIDGAON, DIST: COXS BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711562506"
+      ]
+    },
+    {
+      "Eklashpur Bazar Sub Branch": [
+        "NURJAHAN COMPLEX, EKLASHPUR BAZAR UNION-EKLASHPUR, THANA-BEGUMGANJ, DIST.-NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364908"
+      ]
+    },
+    {
+      "Eliotganj Bazar Sub Branch": [
+        "AFSAR UDDIN SHAHID BANDHU SUPER MARKET(1ST FLOOR), SCHOOL ROAD, ELIOTGANJ BAZAR, PO-ELIOTGANJ, PS-DAUDKANDI, DISTRICT-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332513913"
+      ]
+    },
+    {
+      "Fakirhat Sub Branch": [
+        "MUKTER MANSION UNION-FAKIRHAT, P.S.-FAKIRHAT DIST.- BAGERHAT, KHULNA ZONE, BAGERHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284537"
+      ]
+    },
+    {
+      "Faridgonj Sub Branch": [
+        "PROF. MUJIBUR RAHMAN SHOPPING COMPLEX (1ST FLOOR), FARIDGONJ BAZAR, POST OFFICE: FARIDGONJ, THANA: FARIDGONJ, DISTRICT: CHANDPUR, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324296003"
+      ]
+    },
+    {
+      "Faridpur Medical College And Hospital Sub Branch": [
+        "BANGABANDHU SHEIKH MUJIB MEDICAL COLLEGE, AND HOSPITAL PREMISES, WEST KHABASHPUR FARIDPUR SADAR, DIST.-FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161265"
+      ]
+    },
+    {
+      "Faridpur Sub Branch": [
+        "HAJI LOBU SUPER MARKET,HOLDING NO.-269 MAIN ROAD, POURASHAVA-FARIDPUR THANA-FARIDPUR, DIST.-PABNA, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364922"
+      ]
+    },
+    {
+      "Foillatali Bazar Sub Branch": [
+        "YOUSUF COMPLEX, HOLDING NO.-20/22 HAJI ABDUR RASHID ROAD, WARD NO.-26 THANA-HALISHAHAR, DIST.-CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074888"
+      ]
+    },
+    {
+      "Fokirnirhat Sub Branch": [
+        "FOKIRNIRHAT, SOLAIMAN MARKET(1ST FLOOR) MOUZA-SHAH MIRPUR, FOKIRNIRHAT RASTHAR MATHA UNION-BARO UTHAN, UPOZILLA AND PS-KARNAPHULI, CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755856"
+      ]
+    },
+    {
+      "Gafargaon Sub Branch": [
+        "HAZI MOFIZ UDDIN MARKET(1ST FLOOR), HOLDING NO.399, STATION ROAD, PO: GAFARGAON, PS: GAFARGAON, DIST: MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324296117"
+      ]
+    },
+    {
+      "Gangni Sub Branch": [
+        "HOLDING NO.1134/3 KATHULI MOOR MEHERPUR-KUSHTIA ROAD WARD NO.08, POURASHAVA:GANGNI THANA:GANGNI,DIST.MEHERPUR, KHULNA ZONE, MEHERPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284523"
+      ]
+    },
+    {
+      "Ghatail Sub Branch": [
+        "HAJI ABDUS SALAM MARKET, HOLDING NO-878, MAIN ROAD, THANA-GHATAIL, DIST.-TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322912335"
+      ]
+    },
+    {
+      "Ghoraghat Sub Branch": [
+        "BIR MUKTIJODDHA DR.KOMOLESH CHANDRA KUNDU SHOPPING COMPLEX GHORAGHAT - POLASHBARI SARAK HOLDING NO-37, WORD NO-03,THANA-GHORAGHAT,DISTRICT-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692766"
+      ]
+    },
+    {
+      "Gobindasree Sub Branch": [
+        "GOBINDASREE BAZAR UNION- GOBINDASREE, THANA- MADAN DISTRICT- NETRAKONA, MYMENSHINGH ZONE, NETROKONA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01321203289"
+      ]
+    },
+    {
+      "Godagari Sub Branch": [
+        "AZAD SUPER MARKET, HOLDING NO: 323 GODAGARI MODEL THANA ROAD, WARD NO: 6 POURASHAVA: GODAGARI, THANA: GODAGARI, DIST. RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364918"
+      ]
+    },
+    {
+      "Goreya Sub Branch": [
+        "S R PLAZA, VILLAGE-GOREYA UNION-GOREYA, THANA-THAKURGAON SADAR, DIST.-THAKURGAON, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161261"
+      ]
+    },
+    {
+      "Gournadi Sub Branch": [
+        "HOLDING NO. 3530-02 SADAR ROAD, POURASHAVA- GOURNADI THANA: GOURNADI, DIST. BARISHAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074882"
+      ]
+    },
+    {
+      "Hajir Hat Sub Branch": [
+        "HAJI SUPER MARKET, HAJIR HAT BAZAR UNION-HAJIR HAT, THANA-KAMALNANGR, DIST.-LAKSHMIPUR, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325072732"
+      ]
+    },
+    {
+      "Haluaghat Sub Branch": [
+        "HOLDING NO.59(1ST FLOOR), WARD NO.07, VILL: UTTAR KHAYRAKURI, PO:HALUAGHAT, PS:HALUAGHAT, DISTRICT: MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332513924"
+      ]
+    },
+    {
+      "Harinakundu Sub Branch": [
+        "GODHULY SUPER MARKET, HOLDING NO. 79 WARD NO. 07, POURASHAVA: HARINAKUNDU THANA: HARINAKUNDU, DIST. JHENAIDAH, KHULNA ZONE, JHENAIDAH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161287"
+      ]
+    },
+    {
+      "Harta Sub Branch": [
+        "MANNAN PLAZA, HARTA BAZAR UNION: HARTA, THANA: WAZIRPUR DISTRICT: BARISHAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161252"
+      ]
+    },
+    {
+      "Hat Krishnapur Sub Branch": [
+        "HOLDING NO.-410, WARD NO.-02, KRISHNAPUR BAZAR, U.P.-KRISHNAPUR P.S.-SADARPUR, DIST.-FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712303"
+      ]
+    },
+    {
+      "Hatgopalpur Sub Branch": [
+        "Farida Mollik Market Hatgopalpur, Union - Padmakor THANA - Jhenaidah, DIST - Jhenaidah, KHULNA ZONE, JHENAIDAH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730338479"
+      ]
+    },
+    {
+      "Hatibandha Sub Branch": [
+        "UTTARA PLAZA, PURBO SINDURNA, WARD NO.09 MOUZA: PURBO SINDURNA, UNION: SINDURNA THANA: HATIBANDHA, DISTRICT: LALMONIRHAT, RANGPUR ZONE, LALMONIRHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692768"
+      ]
+    },
+    {
+      "Hetalia Badhghat Sub Branch": [
+        "DAG NO-133, KHATIAN NO-S.A.128 MOUJA-PURBO HETALIA,UNION-BOHALGACHIA THANA-PATUAKHALI,PATUAKHALI, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730317678"
+      ]
+    },
+    {
+      "Hili Sub Branch": [
+        "HILI LAND PORT TRUCK OWNERS GROUP, CHARMATA MOR, HOLDING NO.- 0404-02,WARD NO.-02, THANA-HAKIMPUR, DIST.-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667463"
+      ]
+    },
+    {
+      "Hospital Road Sub Branch": [
+        "SIYAM TOWER, 2ND FLOOR, HOSPITAL ROAD MODHUSUDHANPUR NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755838"
+      ]
+    },
+    {
+      "Ichapur Sub Branch": [
+        "ZOHRA COMPLEX, ICHAPUR FAIZIA BAZAR,UNION-MEKHOL THANA-HATHAZARI, DIST.-CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364939"
+      ]
+    },
+    {
+      "Inathganj Sub Branch": [
+        "SHIPON MANSION, INATHGANJ BAZAR UNION: INATHGANJ, THANA: NABIGANJ DIST. HABIGANJ, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324414538"
+      ]
+    },
+    {
+      "Indurkani Sub Branch": [
+        "INDURKANI SUB BRANCH, HOLDING NO= 319, SADAR ROAD WORD NO-02, UNION: INDURKANI SADAR THANA: INDURKANI, DIST: PIROJPUR, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712317"
+      ]
+    },
+    {
+      "Islampur Sub Branch": [
+        "ISLAMPUR TOWER, THANA ROAD WARD NO.-02, POUROSHOVA-ISLAMPUR, THANA-ISLAMPUR, DIST.-JAMALPUR, TANGAIL ZONE, JAMALPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161253"
+      ]
+    },
+    {
+      "Jadurani Bazar Sub Branch": [
+        "SHIMUL MARKET, JADURANI BAZAR UNION: AMGAON, THANA: HARIPUR DISTRICT: THAKURGAON, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667458"
+      ]
+    },
+    {
+      "Jahajmara Sub Branch": [
+        "MAIN ROAD, JAHAJMARA BAZAR, UNION- JAHAJMARA, THANA- HATIYA DIST.- NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161250"
+      ]
+    },
+    {
+      "Jaintiapur Sub Branch": [
+        "MA MARKET, JAINTIAPUR BAZAR, MOUZA+UNION- NIJPAT, THANA-JAINTIAPUR, DISTRICT- SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332816950"
+      ]
+    },
+    {
+      "Jaldhaka Sub Branch": [
+        "DOMAR-DIMLA ROAD, THANA MORE WARD NO-02, PAURASHAVA-JALDHAKA THANA-JALDHAKA,DISTRICT-NILPHAMARI, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332505584"
+      ]
+    },
+    {
+      "Jhikargachha Sub Branch": [
+        "HAZI AFSARUDDIN MARKET, HOLDING NO.-0231, JASHORE-BENAPOLE HIGHWAY, WARD NO.-02, P.S.-JHIKARGACHA, DIST.-JASHORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712308"
+      ]
+    },
+    {
+      "Joina Bazar Sub Branch": [
+        "NOICH TOWER(1ST FLOOR), JOINA BAZAR, DHAKA-MYMENSINGH HIGHWAY, PS: SREEPUR, PO:GAZIPUR, DIST: GAZIPUR., GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Jorargonj Sub Branch": [
+        "AL MADINA SHOPPING COMPLEX,(1st FLOOR) HOLDING NO-372, PROJECT ROAD JORARGONJ BAZAR,CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713188906"
+      ]
+    },
+    {
+      "Joynagar Sub Branch": [
+        "ABDUL JALIL SUPER MARKET WARD NO-04, JOYNAGAR BAZAR, P.O.-ZONASUR UNION-MOHESHPUR, THANA-KASHIANI, DIST-GOPALGANJ, FARIDPUR ZONE, GOPALGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745666"
+      ]
+    },
+    {
+      "Kaharol Sub Branch": [
+        "AMTOLA MOR, UNION-MUKUNDOPUR THANA-KAHAROL, DIST.-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161248"
+      ]
+    },
+    {
+      "Kalabagan Sub Branch": [
+        "HOLDING NO.129, GREEN LANDMARK TOWER, MIRPUR ROAD, WARD NO.17, KALABAGAN, DHAKA, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324296001"
+      ]
+    },
+    {
+      "Kalarmarchara Sub Branch": [
+        "MODHUPUR BIPONI KENDRA DARBAR MARKET(1ST FLOOR) MOUZA-KALARMARCHARA PO-KALARMARCHARA, PS-MOHESHKHALI, DIST-COXS BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745656"
+      ]
+    },
+    {
+      "Kalatia Bazar Sub Branch": [
+        "SWARGIO KALACHAN COMPLEX, KALATIA BAZAR KERANIGONJ, DHAKA , DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324414536"
+      ]
+    },
+    {
+      "Kaliachapra Sub Branch": [
+        "SYED HANIF UDDIN COMPLEX VILL.-KALIACHAPRA, UNION-PATUABHANGA P.S.-PAKUNDIA, DIST.-KISHOREGANJ, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284535"
+      ]
+    },
+    {
+      "Kaliganj Sub Branch": [
+        "WESTON TOWER, HOLDING NO. 0014-00 MODHUGONJ BAZAR, WARD NO. 05 POURASHAVA AND THANA: KALIGANJ, DISTRICT: JHENAIDAH, KHULNA ZONE, JHENAIDAH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01992079937"
+      ]
+    },
+    {
+      "Kalkini Sub Branch": [
+        "R.K. PLAZA, 130, NODIR PAR ROAD WARD NO.-04, POURASHAVA-KALKINI THANA-KALKINI, DIST.-MADARIPUR, FARIDPUR ZONE, MADARIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364937"
+      ]
+    },
+    {
+      "Kalmakanda Sub Branch": [
+        "KALMAKANDA MADDHYA BAZAR, UNION: KALMAKANDA THANA: KALMAKANDA DISTRICT: NETROKONA, MYMENSHINGH ZONE, NETROKONA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364935"
+      ]
+    },
+    {
+      "Kamal Bazar Sub Branch": [
+        "AL MAHMUD COMPLEX, KAMAL BAZAR UNION-KAMAL BAZAR, PO-KAMAL BAZAR PS-DAKSHIN SURMA, DIST-SYLHET, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01792856557"
+      ]
+    },
+    {
+      "Kasba Sub Branch": [
+        "KASBA PLAZA MARKET(2ND FLOOR), HOLDING NO.:610,611, STATION ROAD, WARD NO.:05, P.S: KASBA, DISTRICT: BRAHMANBARIA, HABIGONJ ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335184387"
+      ]
+    },
+    {
+      "Kashinathpur Sub Branch": [
+        "HAZI RAFIQ UDDIN MARKET, KASHINATHPUR, UNION-KASHINATHPUR THANA-SANTHIA, DIST.-PABNA, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692755"
+      ]
+    },
+    {
+      "Kathalia Sub Branch": [
+        "MONDOL MARKET, THANA ROAD, WARD NO.-03 UNION-04, KATHALIA SADAR, P.O.-KATHALIA THANA-KATHALIA, DIST.-JHALKATHI, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332816959"
+      ]
+    },
+    {
+      "Keshabpur Sub Branch": [
+        "HOLDING NO-178, MAIN ROAD WARD NO-04, POURASHAVA-KESHABPUR P.S.-KESHABPUR, DIST.-JASHORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01321203291"
+      ]
+    },
+    {
+      "Keshorhat Sub Branch": [
+        "KESHORHAT HIGH SCHOOL MARKET RAJSHAHI-NAOGAON ROAD, POURASHAVA-KESHORHAT WARD NO.-03, P.S.-MOHANPUR, DIST.-RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711422023"
+      ]
+    },
+    {
+      "Khararchar Sub Branch": [
+        "P. S. PLAZA KHARARCHAR, ROYAIL DHAMRAI, DHAKA, GAZIPUR ZONE, MANIKGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711406131"
+      ]
+    },
+    {
+      "Khaserhat Sub Branch": [
+        "AMIN SUPER MARKET, KHASERHAT BAZAR, UNION-2 NO. CHARBATA, THANA-CHARJABBAR, UPAZILLA-SUBARNACHAR, DIST.-NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335100652"
+      ]
+    },
+    {
+      "Khilkhet Sub Branch": [
+        "HOLDING NO. B-44(1ST FLOOR), BOTTOLA, WARD NO.17, DHAKA NORTH CITY CORPORATION, THANA-KHILKHET, DISTRICT-DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332816953"
+      ]
+    },
+    {
+      "Khoksa Sub Branch": [
+        "AJMAL SUPER MARKET, HOLDING-830/6 WARD NO.-05, KHOKSA POURASHAVA P.S.-KHOKSA, DIST.-KUSHTIA, FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284545"
+      ]
+    },
+    {
+      "Kongshanagar Bazar Sub Branch": [
+        "F.R. CENTER, KONGSHANAGAR BAZAR UNION-VARELLA UTTAR THANA-BURICHANG, DIST.-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322912339"
+      ]
+    },
+    {
+      "Korerhat Sub Branch": [
+        "OBAYED SALEHA PLAZA, RAMGOR ROAD UNION-KORERHAT THANA-MIRSARAI, DIST.-CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794355"
+      ]
+    },
+    {
+      "Kotalipara Sub Branch": [
+        "HAJI TOYAB ALI DARIA SUPER MARKET GOPALGONJ POISHARHAT SARAK, WARD NO-08 THANA AND POURASHAVA-KOTALIPARA, DIST-GOPALGONJ, FARIDPUR ZONE, GOPALGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667460"
+      ]
+    },
+    {
+      "Kotchandpur Sub Branch": [
+        "HOLDING NO.-3911, DUDSHARA ROAD WARD NO.-03, POURASHAVA-KOTCHANDPUR, THANA-KOTCHANDPUR, DIST.-JHENAIDAHA, KHULNA ZONE, JHENAIDAH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364928"
+      ]
+    },
+    {
+      "Kunjerhat Sub Branch": [
+        "VILL: KUNJERHAT, UNION: KACHIA THANA: BORHANUDDIN DIST: BHOLA, BARISAL ZONE, BHOLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284526"
+      ]
+    },
+    {
+      "Lalpur Bazar Sub Branch": [
+        "BABU SUNIL DAS MARKET, LALPUR BAZAR, MAIN ROAD, PS.- ASHUGONJ, DIST.-BRAHMANBARIA, HABIGONJ ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335195680"
+      ]
+    },
+    {
+      "Lohagara Sub Branch": [
+        "UPAZILA MUKTIJODDHA COMPLEX, BAZAR ROAD POURASHAVA: LOHAGARA, THANA: LOHAGARA DIST. NARAIL, KHULNA ZONE, NARAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364949"
+      ]
+    },
+    {
+      "Madhupur Sub Branch": [
+        "HATEM ALI MARKET(1st FLOOR) MYMENSING-TANGAIL MAIN ROAD, WARD NO#06 POUROSHAVA#MODHUPUR, DISTRICT#TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730318042"
+      ]
+    },
+    {
+      "Majhira Sub Branch": [
+        "SHAHID MONSUR RAHMAN COMPLEX UNION: MAJHIRA, THANA: SHAJAHANPUR DIST: BOGURA, BANGLADESH, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692771"
+      ]
+    },
+    {
+      "Maligram Sub Branch": [
+        "ABUL KASHEM TOWER(1ST FLOOR), MALIGRAM BAZAR, UNION-CHANDRA, PS-BHANGA, DISTRICT-FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332-816968"
+      ]
+    },
+    {
+      "Mallikpur Sub Branch": [
+        "FAIZA MANSION, WARD NO.-08, HOLDING NO.-480/2 SURMA ROAD, MALLIKPUR, PAUROSHOBHA-SUNAMGONJ THANA- SUNAMGONJ SADAR, DIST.- SUNAMGONJ, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667464"
+      ]
+    },
+    {
+      "Matiranga Sub Branch": [
+        "ALI COMPLEX, (1st FLOOR), MATIRANGA KHAGRACHARI BANGLADESH, CHATTOGRAM NORTH ZONE, KHAGRACHARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755851"
+      ]
+    },
+    {
+      "Matuail Sub Branch": [
+        "AKOTA COMPLEX, HOLDING NO. 83/89 HAJI BADSHA MIA ROAD, WARD NO. 65 THANA- DEMRA, DIST.- DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161257"
+      ]
+    },
+    {
+      "Mazhirghat Sub Branch": [
+        "NUR UDDIN CHAMBER(1ST FLOOR) CHATTOGRAM CITY, CHATTOGRAM BANGLADESH, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713080051"
+      ]
+    },
+    {
+      "Merul Badda Sub Branch": [
+        "HOLDING NO.-04, ROAD NO.-11, WARD NO.-37 DIT PROJECT, MERUL BADDA, GULSHAN THANA-BADDA, DIST.- DHAKA, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Mirpur Sub Branch": [
+        "MOHADEB MARKET, HOLDING NO: 309 WORD NO: 06, THANA AND POURASHAVA- MIRPUR DIST : KUSHTIA, FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712300"
+      ]
+    },
+    {
+      "Mirzapur Sub Branch": [
+        "MONSUR TOWER(1ST FLOOR), HOLDING NO.658, COLLEGE ROAD, MIRZAPUR BAZAR, WARD NO.03 POLICE STATION: MIRZAPUR, DISTRICT: TANGAIL, TANGAIL ZONE, TANGAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335159929"
+      ]
+    },
+    {
+      "Mogla Bazar Sub Branch": [
+        "ZAMAN PLAZA, MOGLA BAZAR,THIRASHIGAON UNION-MOGLA BAZAR, UPAZILLA-SOUTH SURMA, THANA-MOGLA BAZAR, DIST.-SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "8801330000000"
+      ]
+    },
+    {
+      "Mohammadpur Sub Branch": [
+        "AL-AMIN NEW MARKET, WARD NO-06, HOLDING NO-25/10, MOHAMMADPUR BAZAR, MAGURA ROAD THANA-MOHAMMADPUR, DIST-MAGURA, FARIDPUR ZONE, MAGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332505597"
+      ]
+    },
+    {
+      "Mohipal Sub Branch": [
+        "MOHIPAL FENI BANGLADESH, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713209167"
+      ]
+    },
+    {
+      "Monipuripara Sub Branch": [
+        "MONIPURIPARA HOUSE NO:147/A/2 (1ST FLOOR) WARD NO:27, PO PS: TEJGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713209126"
+      ]
+    },
+    {
+      "Moricha Bazar Sub Branch": [
+        "TAMIJ SUPER MARKET(1ST FLOOR) UNION-3 NO HALDIA PALONG, PO-MORICHAPALONG-4750 PS-UKHIYA, DISTRICT-COX'S BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01792857483"
+      ]
+    },
+    {
+      "Mostafapur Sub Branch": [
+        "DHALI MARKET, MAIN ROAD, MOSTAFAPUR BAZAR, P.S.-MADARIPUR, DIST.-MADARIPUR, FARIDPUR ZONE, MADARIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335184370"
+      ]
+    },
+    {
+      "Mudaforgonj Bazar Sub Branch": [
+        "KAZI COMPLEX, MUDAFORGONJ BAZAR POST CODE-3562, UNION- MUDAFORGONJ, THANA-LAKSAM, DIST.-CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692762"
+      ]
+    },
+    {
+      "Munshibazar Sub Branch": [
+        "IBRAHIM TOWER, MUNSHIBAZAR UNION: MUNSHIBAZAR, THANA: KAMALGONJ DIST: MOULVIBAZAR, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01711562507"
+      ]
+    },
+    {
+      "Muradpur Sub Branch": [
+        "MUSA COMPLEX, HOLDING NO. 179/A/353/480 HATHAZARI ROAD, WARD NO. 8, CTG CITY CORP. THANA: PANCHLAISH, DIST. CHATTOGRAM, CHATTOGRAM CENTRAL ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161258"
+      ]
+    },
+    {
+      "Nagarkanda Sub Branch": [
+        "UNITED TOWER, HOLDING NO.06, BOTTOLA SARAK, NAGARKANDA BAZAR, NAGARKANDA POUROSHAVA, THANA- NAGARKANDA, DIST- FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332545080"
+      ]
+    },
+    {
+      "Nakla Sub Branch": [
+        "NEW MARKET, HOLDING NO.-893 SHERPUR MYMENSINGH ROAD,POUROSHOVA-NAKLA THANA-NAKLA,DIST.-SHERPUR, TANGAIL ZONE, SHERPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161240"
+      ]
+    },
+    {
+      "Naldanga Sub Branch": [
+        "RABEYA SUPER MARKET, HOLDING NO-396/01 NALDANGA NATORE ROAD, WARD NO-03 POUROSOVA-NALDANGA, THANA-NALDANGA, DISTRICT-NATORE, RAJSHAHI ZONE, NATORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745654"
+      ]
+    },
+    {
+      "Nalitabari Sub Branch": [
+        "491, SAHA MARKET, BAZAR ROAD, TARAGONJ MADDYA BAZAR, NALITABARI, THANA-NALITABARI, DIST.-SHERPUR, TANGAIL ZONE, SHERPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Nalta Sub Branch": [
+        "HAMIDUL HAQUE BHABAN, VILL-NALTA UNION-NALTA, THANA-KALIGONJ DIST.-SATKHIRA, KHULNA ZONE, SATKHIRA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161273"
+      ]
+    },
+    {
+      "Nandipara Sub Branch": [
+        "BHUIYAN PLAZA, HOLDING NO.-15803 NANDIPARA-DAKKHINGAON MAIN ROAD, WARD NO.-74, DSCC, THANA-KHILGAON, DIST.-DHAKA, DHAKA CENTRAL ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074889"
+      ]
+    },
+    {
+      "Narayanpur Bazar Sub Branch": [
+        "ABDUL MATIN TOWER, NARAYANPUR BAZAR UNION: KHADERGAON, THANA: MATLAB SOUTH DISTRICT: CHANDPUR, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325069592"
+      ]
+    },
+    {
+      "National Medical Sub Branch": [
+        "DHAKA NATIONAL MEDICAL INSTITUTE HOSPITAL HOLDING NO-53/1, JOHNSON ROAD, WARD NO-42 DHAKA SOUTH CITY CORPORATION, KOTOWALI, DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284514"
+      ]
+    },
+    {
+      "Nawabganj Sub Branch": [
+        "CHOWDHURY MARKET, VILL.-TARPANGHAT MOUZA-TARPANGHAT, UNION-BINODNAGAR, THANA-NAWABGANJ, DIST.-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713069909"
+      ]
+    },
+    {
+      "Nazipur Sub Branch": [
+        "HAQUE BINODON MARKET, HOLDING NO.-860 DHAMIUR ROAD, WARD NO.-06, POUROSHOVA-NAZIPUR THANA-NAZIPUR, DIST.-NAOGAON, BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712301"
+      ]
+    },
+    {
+      "Nesarabad Sub Branch": [
+        "HOLDING NO. 02, POURASHAVA ROAD WARD NO. 03, POURASHAVA - SWARUPKATHI THANA- NESARABAD, DIST-PIROJPUR, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755864"
+      ]
+    },
+    {
+      "New Market Sub Branch": [
+        "HOLDING NO.71, JAIL ROAD, WARD NO.05, UNION: NOAPARA, THANA: KOTWALI, DISTRICT: JASHORE, KHULNA ZONE, JASHORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335145983"
+      ]
+    },
+    {
+      "Nimsar Bazar Sub Branch": [
+        "A.R. PLAZA, NIMSAR BAZAR UNION- MOKAM, THANA- BURICHANG, DIST.- CUMILLA, CUMILLA ZONE, CUMILLA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794353"
+      ]
+    },
+    {
+      "Nizampur Sub Branch": [
+        "RAFIQUL ISLAM PLAZA, NIZAMPUR BAZAR UNION-WAHEDPUR, THANA-MIRSARAI, DIST.-CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794358"
+      ]
+    },
+    {
+      "Noapara Bazar Sub Branch": [
+        "NURJAHAN MARKET, NOAPARA BAZAR UNION-NOAPARA,P.S-MADHABPUR DISTRICT:HABIGONJ, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284530"
+      ]
+    },
+    {
+      "Osmani Medical Road Sub Branch": [
+        "RAJ COMPLEX(1ST FLOOR), OSMANI MEDICAL ROAD, P.O.-SYLHET, P.S.-KOTOWALI, DIST-SYLHET, SYLHET WEST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335145975"
+      ]
+    },
+    {
+      "Paikgacha Sub Branch": [
+        "URMILA COMPLEX,PAIKGACHA MAIN ROAD, HOLDING NO.303, WARD NO.04, THANA: PAIKGACHA, DISTRICT: KHULNA, KHULNA ZONE, KHULNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065866"
+      ]
+    },
+    {
+      "Pakerhat Sub Branch": [
+        "APOLLOW CHOWDHURY MARKET PAKERHAT, WARD NO-05, HOLDING NO.-427 THANA-KHANSAMA, DIST.-DINAJPUR, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332505595"
+      ]
+    },
+    {
+      "Panchari Sub Branch": [
+        "SUMON MARKET, PANCHARI BAZAR BAZAR FUND PLOT NO. 15, UNION: PANCHARI THANA- PANCHARI, DISTRICT: KHAGRACHARI, CHATTOGRAM NORTH ZONE, KHAGRACHARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161241"
+      ]
+    },
+    {
+      "Panchbibi Sub Branch": [
+        "RENU PLAZA, HOLDING NO. 153-01 BAZAR ROAD, POURASHAVA: PANCHBIBI THANA: PANCHBIBI, DIST. JOYPURHAT, BOGURA ZONE, JOYPURHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794377"
+      ]
+    },
+    {
+      "Panchchar Sub Branch": [
+        "RUPOSHI BANGLA COMPLEX (1ST FLOOR) PANCHCHAR THANA- SHIBCHAR, DISTRICT- MADARIPUR, FARIDPUR ZONE, MADARIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755862"
+      ]
+    },
+    {
+      "Patgram Sub Branch": [
+        "SOMULLA MIA SUPAR MARKET, HOLDING NO.- 0090-00 WARD NO.- 5, POUROSHAVA-PATGRAM THANA-PATGRAM, DIST.-LALMONIRHAT, RANGPUR ZONE, LALMONIRHAT",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161267"
+      ]
+    },
+    {
+      "Pekua Sub Branch": [
+        "KSM PLAZA MARKET(1ST FLOOR) UNIOR-PEKUA, PO-PEKUA PS-PEKUA, DIST-COXS BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745659"
+      ]
+    },
+    {
+      "Phulpur Sub Branch": [
+        "00101-24,DURBAR TRADERS, DEW HOSPITAL ROAD WARD NO.-8, MUNICIPALITY-PHULPUR, THANA-PHULPUR, DIST.-MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692772"
+      ]
+    },
+    {
+      "Pirgacha Sub Branch": [
+        "MOMTAZ SUPER MARKET, STATION ROAD UNION-PIRGACHA, THANA-PIRGACHA DIST.-RANGPUR, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367588"
+      ]
+    },
+    {
+      "Pirgonj Sub Branch": [
+        "JAMAN PLAZA, THANA ROAD WARD NO. 07, POURASHAVA: PIRGONJ THANA: PIRGONJ, DISTRICT: RANGPUR, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364921"
+      ]
+    },
+    {
+      "Poddar Bazar Sub Branch": [
+        "HAZI IMAN ALI SUPER MARKET,MAIN ROAD, PODDAR BAZAR, 7 NO BOSIKPUR, THANA-LAKSHMIPUR SADAR, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332816954"
+      ]
+    },
+    {
+      "Porshuram Sub Branch": [
+        "PORSHURAM, FULGAZI FENI BANGLADESH, NOAKHALI ZONE, FENI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937404333"
+      ]
+    },
+    {
+      "Proshadpur Sub Branch": [
+        "CHOWDHURY BHABAN, PROSHADPUR UNION- KUSHUMBA, THANA- MANDA DISTRICT- NAOGAON, BOGURA ZONE, NAOGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958578208"
+      ]
+    },
+    {
+      "Puthia Sub Branch": [
+        "AMINUL MONDAL PLAZA, HOLDING NO: 152-03 PUTHIA-TAHERPUR ROAD, WARD NO-08 POUROSOVA-PUTHIA, THANA-PUTHIA, DISTRICT-RAJSHAHI., RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332545085"
+      ]
+    },
+    {
+      "Rakhalia Bazar Sub Branch": [
+        "PEYARU PLAZA, RAKHALIA BAZAR UNION: SONAPUR, THANA: RAIPUR DIST. LAKSHMIPUR, NOAKHALI ZONE, LAKSHMIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794354"
+      ]
+    },
+    {
+      "Ramu Sub Branch": [
+        "A R TOWER(1ST FLOOR), SRIKUL THANA ROAD, CHOWMUHONI, UPAZILLA-RAMU, DISTRICT-COXS BAZAR, CHATTOGRAM SOUTH ZONE, COXS BAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065868"
+      ]
+    },
+    {
+      "Rangabali Sub Branch": [
+        "HAZI MANSION, HIGH SCHOOL ROAD VILL-BAHERCHAR, POST-BAHERCHAR, WARD NO-01 UNION-RANGABALI, THANA-RANGABALI, DISTRICT-PATUAKHALI, BARISAL ZONE, PATUAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745663"
+      ]
+    },
+    {
+      "Ranigonj Sub Branch": [
+        "RANIGONJ BAZAR, MOUZA-KOSHIGARI UNION- SINGRA, THANA-GHORAGHAT DIST.-DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692765"
+      ]
+    },
+    {
+      "Ranirbandar Sub Branch": [
+        "AMERICAN TOWER, RANIPUR MOUZA-RANIPUR, UNION-NASRATPUR, THANA-CHIRIRBANDAR, DIST.-DINAJPUR, RANGPUR ZONE, NILPHAMARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714074009"
+      ]
+    },
+    {
+      "Ranisankail Sub Branch": [
+        "RANISANKAIL PLAZA, HOLDING NO. 17 CHADNI ROAD, WARD NO. 7, POURASHAVA- RANISANKAIL THANA- RANISANKAIL, DIST.-THAKURGAON, RANGPUR ZONE, THAKURGAON",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284538"
+      ]
+    },
+    {
+      "Rayerbag Sub Branch": [
+        "HOLDING NO-3553, MANNAN TOWER, (1ST FLOOR), RAYERBAG ROAD, WARD NO-61, PS-KADOMTOLI, DHAKA SOUTH CITY CORPORATION, DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8809666829063"
+      ]
+    },
+    {
+      "Rupapat Sub Branch": [
+        "ADHIKARI MARKET, WARD NO.-08, RUPAPAT BAZAR, U.P.-RUPAPAT P.S.-BOALMARI, DIST.-FARIDPUR, FARIDPUR ZONE, FARIDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329712314"
+      ]
+    },
+    {
+      "Rupganj Bazar Sub Branch": [
+        "SHERIN SUPER MARKET, HOLDING NO.36,38, SHORNOPORTI ROAD, WARD NO.06, THANA: NARAIL SADAR, DISTRICT: NARAIL, KHULNA ZONE, NARAIL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335145969"
+      ]
+    },
+    {
+      "Sachar Bazar Sub Branch": [
+        "MA TOWER, SACHAR BAZAR UNION: SACHAR THANA: KACHUA, DIST. CHANDPUR , CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325072739"
+      ]
+    },
+    {
+      "Sachna Bazar Sub Branch": [
+        "BIR MUKTIJODDHA DEVOL CHOWDHURY MANSION. 1st FLOOR,THANA-JAMALGONJ SUNAMGONJ, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        null
+      ]
+    },
+    {
+      "Sadanandapur Sub Branch": [
+        "MIAH BARI MARKET (2ND FLOOR) DAG NO#RS-300,306, KHATIAN#RS-44,23, MOUZA#SADANANDAPUR UNION# SIRAJGONJ SADAR,DISTRICT#SIRAJGONJ, BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730339256"
+      ]
+    },
+    {
+      "Sadullapur Sub Branch": [
+        "SWARNA VILLA, SADULLAPUR BAZAR UNION: BONGRAM, THANA: SADULLAPUR DISTRICT: GAIBANDHA, BOGURA ZONE, GAIBANDHA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01783165866"
+      ]
+    },
+    {
+      "Saltgola Sub Branch": [
+        "YAKUB MANSION(1ST FLOOR), HOLDING NO.4480/4871, ESHAN MISTREE SARAK, WARD NO-38, SALTGOLA, PS-BANDAR, CTG CITY CORP, DIST-CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332513908-09"
+      ]
+    },
+    {
+      "Sapleza Bazar Sub Branch": [
+        "ROKEYA AFJAL MARKET, SAPLEZA BAZAR UNION-SAPLEZA, THANA-MATHBARIA, DIST.-PIROJPUR, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713367591"
+      ]
+    },
+    {
+      "Sarail Sub Branch": [
+        "DEWAN LUCKY PLAZA, SARAIL PRATO BAZAR,UNION-SARAIL THANA-SARAIL, DIST.-BRAHMANBARIA, CUMILLA ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364904"
+      ]
+    },
+    {
+      "Saraker Bazar Sub Branch": [
+        "MA COMPLEX, SARAKER BAZAR UNION-DIGHIRPAR, P.S.-KANAIGHAT DIST.- SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01321203296"
+      ]
+    },
+    {
+      "Sarikal Sub Branch": [
+        "AMTOLA MAIN SARAK, SARIKAL BAZAR WARD NO-05, SARIKAL UNION PARISHAD THANA-GOURNADI, DIST.-BARISHAL, BARISAL ZONE, BARISHAL",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "+8801335065863; +8801992081959"
+      ]
+    },
+    {
+      "Satarkul Sub Branch": [
+        "238, SATARKUL ROAD, DADAR BAZAR WARD NO.-38, DHAKA NORTH CITY CORP. THANA-BADDA, DIST.-DHAKA, DHAKA NORTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161269"
+      ]
+    },
+    {
+      "Setabgonj Sub Branch": [
+        "D.N. PLAZA, HOLDING NO.-82 PIRGONJ-THAKURGAON ROAD,WARD NO-03 BOCHAGONJ, DINAJPUR, RANGPUR ZONE, DINAJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322890090"
+      ]
+    },
+    {
+      "Shaheed M. Monsur Ali Medical College Sub Branch": [
+        "HOLDING NO. 48, UNION: SIYALKOL THANA: SIRAJGONJ SADAR, DIST. SIRAJGONJ , BOGURA ZONE, SIRAJGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324412801"
+      ]
+    },
+    {
+      "Shahrasti Sub Branch": [
+        "HAJI MAHIN UDDIN TOWER (1ST FLOOR), HOLDING NO.236, MEHAR KALIBARI, WARD NO.7, THANA: SHAHRASTI, DISTRICT: CHANDPUR, CUMILLA ZONE, CHANDPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332513922"
+      ]
+    },
+    {
+      "Shibgonj Sub Branch": [
+        "ALFAZ PLAZA, HOLDING NO. 277 THANA ROAD, PAUROSOVA: SHIBGONJ THANA: SHIBGONJ, DIST.-CHAPAI NAWABGONJ, RAJSHAHI ZONE, CHAPAINABABGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364945"
+      ]
+    },
+    {
+      "Shibpur Sub Branch": [
+        "Muktijoddha Deloar Hosen Market(1st fl), Sadar Road, Union-Shibpur P. S.-Shibpur, Dist.-Narsingdi., NARAYANGONJ ZONE, NARSINGDI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335-065869"
+      ]
+    },
+    {
+      "Shyamgonj Sub Branch": [
+        "BAIDYANATH ROY COMPLEX (1ST FLOOR), SHYAMGONJ BAZAR MYMENSINGH-NETROKONA HIGHWAY,UNION-MOILAKANDA THANA UPAZILA-GOURIPUR, DISTRICT-MYMENSINGH, MYMENSHINGH ZONE, MYMENSINGH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745662"
+      ]
+    },
+    {
+      "Singra Sub Branch": [
+        "Saha Plaza, Holding No. 374 Joy Bangla Road, Ward No. 08 Pourashova:Singra, District: Natore, RAJSHAHI ZONE, NATORE",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958284510"
+      ]
+    },
+    {
+      "Sipahipara Sub Branch": [
+        "ROSTOM SUPER MARKET SIPAHIPARA, UNION- RAMPAL THANA-MUNSHIGANJ SADAR, DIST.-MUNSHIGONJ, NARAYANGONJ ZONE, MUNSHIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01770794363"
+      ]
+    },
+    {
+      "Sonapur Sub Branch": [
+        "HAZI MARKET, SONAPUR UNION - NOWABPUR, THANA - BALIAKANDI DISTRICT - RAJBARI, FARIDPUR ZONE, RAJBARI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730315268"
+      ]
+    },
+    {
+      "Sonargaon Sub Branch": [
+        "SONA MIA MANSION, VILL.-BARICHINISH BORONAGAR, UNION-MOGRAPARA THANA-SONARGAON, DIST.-NARAYANGONJ, NARAYANGONJ ZONE, NARAYANGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335145971"
+      ]
+    },
+    {
+      "Sonasar Bazar Sub Branch": [
+        "ALAUDDIN MARKET, SONASAR BAZAR UNION-BAROTHAKURI,THANA-ZAKIGANJ DIST.-SYLHET, SYLHET EAST ZONE, SYLHET",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01714161256"
+      ]
+    },
+    {
+      "Sonatala Sub Branch": [
+        "AZAD SHOPPING COMPLEX, HOLDING NO.-320 SONATALA NOTUN BONDOR, WARD NO.-01 THANA-SONATALA, DIST.-BOGURA, BOGURA ZONE, BOGURA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329692763"
+      ]
+    },
+    {
+      "Station Road Sub Branch": [
+        "MUKTADIR COMPLEX, HOLDING NO.-286 STATION ROAD,WARD NO.-02,MUNICIPALITY-SHAISTAGONJ P.S.-SHAISTAGONJ, DIST.-HABIGANJ, MOULVIBAZAR ZONE, HABIGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01324412807"
+      ]
+    },
+    {
+      "Steel Mill Bazar Sub Branch": [
+        "SAJUBA-JAMAN CENTER, HOLDING NO.-551/608, STEEL MILL BAZAR, WARD NO.-40, CCC THANA- PATENGA MODEL THANA, DIST.- CHATTOGRAM, CHATTOGRAM SOUTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667470"
+      ]
+    },
+    {
+      "Sujanagar Sub Branch": [
+        "RAZA BADSHA COMPLEX (1ST FLOOR) HOLDING NO-323/3, BAZAR ROAD WARD NO-03,PS.SUJANAGAR,DIST-PABNA, RAJSHAHI ZONE, PABNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713072886"
+      ]
+    },
+    {
+      "Tahirpur Sub Branch": [
+        "K. P. COMPLEX(1ST FLOOR), TAHIRPUR BAZAR, P.S.- TAHIRPUR SADAR, DISTRICT- SUNAMGONJ, SYLHET WEST ZONE, SUNAMGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335251260"
+      ]
+    },
+    {
+      "Tala Sub Branch": [
+        "NAZRUL PLAZA, TALA UNION-TALA SADAR, THANA-TALA, DIST.-SATKHIRA, KHULNA ZONE, SATKHIRA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01325074885"
+      ]
+    },
+    {
+      "Taltoli Sub Branch": [
+        "DULAL FARAZI BHABAN, HOLDING NO.5278(1ST FLOOR), BATTOLA, TALTOLI UPAZILLA SARAK, THANA-TALTOLI, DISTRICT-BARGUNA, BARISAL ZONE, BARGUNA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065864"
+      ]
+    },
+    {
+      "Tanore Sub Branch": [
+        "PRINCIPAL PLAZA, TANORE MUNDUMALA ROAD, WARD NO.-05, POURASHOVA-TANORE THANA-TANORE, DIST.-RAJSHAHI, RAJSHAHI ZONE, RAJSHAHI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364906"
+      ]
+    },
+    {
+      "Taragonj Sub Branch": [
+        "ROY MARKET, MACH BAZAR UNION - KURSHA WARD NO- 02 THANA- TARAGONJ, DISTRICT.RANGPUR, RANGPUR ZONE, RANGPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329667474"
+      ]
+    },
+    {
+      "Taragunia Sub Branch": [
+        "TARAGUNIA BAZAR UPOSHAKA, JANANI SUPER MARKET WORD NO-04, PRAAGPUR ROAD, HOGOLBARIA UNION, TARAGUNIA BAZAR,UPAZILLA: DAULOTPUR,DIST:KUSHTIA, FARIDPUR ZONE, KUSHTIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01329745652"
+      ]
+    },
+    {
+      "Tarail Sub Branch": [
+        "TARAIL KISHORGONJ BANGLADESH, MYMENSHINGH ZONE, KISHOREGANJ",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713209164"
+      ]
+    },
+    {
+      "Tarapasha Bazar Sub Branch": [
+        "M A MOSOBBIR COMPLEX, TARAPASHA BAZAR UNION:KAMARCHAK, THANA: RAJNAGAR DIST. MOULVIBAZAR, MOULVIBAZAR ZONE, MOULVIBAZAR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01322912338"
+      ]
+    },
+    {
+      "Tetulia Sub Branch": [
+        "BIR MUCKTIJODDHA TOMIJUDDIN SUPER MARKET, WARD NO-08, HOLDING NO-2600, UNION-03 NO.SADAR UNION, THANA-TETULIA, DISTRICT-PANCHAGARH, RANGPUR ZONE, PANCHAGARH",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01332505596"
+      ]
+    },
+    {
+      "Thanarhat Bazar Sub Branch": [
+        "VILL-MAHUTALA,P.O.-THANARHAT THANA-SONAIMURI, UPZILLA-SONAIMURI. DISTRICT-NOAKHALI, NOAKHALI ZONE, NOAKHALI",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01937404325"
+      ]
+    },
+    {
+      "Tongi Bazar Sub Branch": [
+        "NAFIS SARKAR TOWER (1st FLOOR), HOLDING# 79 ANARKOLI ROAD, WARD# 57,GAZIPUR CITY CORPORATION THANA- TONGI, DISTRICT- GAZIPUR, GAZIPUR ZONE, GAZIPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01730318079"
+      ]
+    },
+    {
+      "Tushkhali Sub Branch": [
+        "RAZZAQUE HOWLADER PLAZA(1ST FLOOR) TUSHKHALI BAZAR,UPZILA: MATHBARIA DIST. PIROJPUR, BARISAL ZONE, PIROJPUR",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01713755861"
+      ]
+    },
+    {
+      "University Of Chittagong Sub Branch": [
+        "ALIF PLAZA (LST FLOOR), 2 NO.GATE BAZAR, VILLAGE: JOBRA, UNION: FATEPUR, P.S: HATHAZARI, DISTRICT: CHATTOGRAM, CHATTOGRAM NORTH ZONE, CHATTOGRAM",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01335065850"
+      ]
+    },
+    {
+      "Vadughor Sub Branch": [
+        "RAHMAN PLAZA, HOLDING NO. 1586-04 CUMILLA SYLHET HIGHWAY, POURASHAVA: BRAHMANBARIA THANA: BRAHMANBARIA SADAR DIST. - BRAHMANBARIA, CUMILLA ZONE, BRAHMANBARIA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958364947"
+      ]
+    },
+    {
+      "Zinzira Sub Branch": [
+        "JONY TOWER, ZINZIRA BAZAR, UNION: ZINZIRA THANA: KERANIGONJ DISTRICT: DHAKA, DHAKA SOUTH ZONE, DHAKA",
+        "https://www.pubalibangla.com/BranchInformation#addBookDialog",
+        "01958578213"
+      ]
+    }
+  ]
 }

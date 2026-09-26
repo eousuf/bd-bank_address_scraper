@@ -1,0 +1,255 @@
+{
+  "_bank": "Bengal Commercial Bank PLC",
+  "bank_url": "https://www.bgcb.com.bd/",
+  "method": "html_cards+markdown",
+  "status": "success",
+  "branch": [
+    {
+      "Branch Location's": [
+        "Branch",
+        "https://www.bgcb.com.bd",
+        null
+      ]
+    },
+    {
+      "Banani Branch": [
+        "South Breeze Center (1st floor), Holding No:05, Road No: 11, Banani, Dhaka-1213.",
+        null,
+        "01792221863"
+      ]
+    },
+    {
+      "Satmasjid Road Branch": [
+        "Rangs Enimens, Holding # 79, Satmasjid Road, Dhanmondi, Dhaka-1209",
+        null,
+        "01678166669"
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "Holding No.-8, Darus Salam Road Mirpur-1, Ward No. 12, Dhaka North City Corporation, Dhaka-1216.",
+        null,
+        "01712180722"
+      ]
+    },
+    {
+      "Hemayetpur Branch": [
+        "HorinDhara, Padmar More, Hemayetpur, Savar, Dhaka, Bangladesh.",
+        null,
+        "01711116028"
+      ]
+    },
+    {
+      "Hasnabad Branch": [
+        "Nazim Uddin Complex, Village: Equria, South Keraniganj, Keraniganj, Dhaka.",
+        null,
+        "01795204347"
+      ]
+    },
+    {
+      "Velanagar Branch": [
+        "Modina Tower, Holding #1005/1, Village: Chinishpur, Narsingdi Sadar, Narsingdi-1604.",
+        null,
+        "01717297269"
+      ]
+    },
+    {
+      "Naraynganj Branch": [
+        "Aman Bhaban, Holding No. 155 (New), Bangabadhu Road, Ward No. 13, Narayanganj- 1400.",
+        null,
+        "01985700290"
+      ]
+    },
+    {
+      "Anowara Branch": [
+        "J S Plaza, Village:Balkuda, Anowara, Chattogram, Bangladesh.",
+        null,
+        "01817713223"
+      ]
+    },
+    {
+      "Eliotganj Branch": [
+        "Village: Eliotganj, Dag No BS-177, Moza: Mobarakpur,Daudkandi, Cumilla.",
+        null,
+        "01718906545"
+      ]
+    },
+    {
+      "Gorai Branch": [
+        "Shikdar Plaza, Vilalge: Gorai, Mirzapur, Tangail.",
+        null,
+        "01912857441"
+      ]
+    },
+    {
+      "Kashinathpur Islami Banking Branch": [
+        "London Tower, Village: Kashinathpur, Santhia, Pabna-6670.",
+        null,
+        "01772810665"
+      ]
+    },
+    {
+      "Bogura Branch": [
+        "Vandari Monzil, 775 Borogola, Rangpur Road, Borogola, Bogra-5800.",
+        null,
+        "01747906923"
+      ]
+    },
+    {
+      "Ati Bazar Branch": [
+        "459/1, Ati Bazar Main Road, Post: Ati Bazar, P.S: Keraniganj, District: Dhaka.",
+        null,
+        "01735954026"
+      ]
+    },
+    {
+      "Barishal Branch": [
+        "Fatema Center, Holding # 523, Ward No 17, Sadar Road, Sadar Thana, Barishal-8200.",
+        null,
+        "01716007451"
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "Manru Shopping City(G.Floor), Mirboxtula Road, Chowhatta, Kotwali, Sylhet- 3100.",
+        null,
+        "01711385361"
+      ]
+    },
+    {
+      "Fatikchari Branch": [
+        "Salam Market (1st Floor), Holding No.74, College Road, Ward No. 08, P.S+ P.O: Fatikchari, District: Chattogram.",
+        null,
+        "01818000177"
+      ]
+    },
+    {
+      "Baligaon Branch": [
+        "Azizul Haque Bapari Super Market (1st Floor), Village: Hat Baligaon, P.S: Tongibari, District: Munshiganj.",
+        null,
+        "01716282829"
+      ]
+    },
+    {
+      "Mohakhali Branch": [
+        "69, Mohakhali C/A, Bir Uttam AK Khandakar Road, Dhaka 1212.",
+        null,
+        "01819869267"
+      ]
+    },
+    {
+      "Corporate Branch": [
+        "Khandker Tower(Ground Floor), 94 Gulshan Avenue, Dhaka-1212",
+        null,
+        "+880 1715-5590617"
+      ]
+    },
+    {
+      "Zirabo Branch": [
+        "Hazi Chan Miah Tower, Village: Zirabo,Ashulia, Dhaka.",
+        null,
+        null
+      ]
+    },
+    {
+      "Agrabad Islami Banking Branch": [
+        "Chamber House 38, Agrabad C/A,Chattogram.",
+        null,
+        null
+      ]
+    },
+    {
+      "Sonargaon Janapath Branch": [
+        "Plot # 32, Sector 11 Sonargaon Janapath Road, Uttara Model Town, Uttara (west), Dhaka.",
+        null,
+        null
+      ]
+    },
+    {
+      "Barishal Branch, Fatema Center, Holding # 523, Ward No 17, Sadar Road, Sadar Thana, Barishal.": [
+        "BGCB Barishal Br. GRG ATM",
+        null,
+        null
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "Karwan Bazar Sub-Branch": [
+        "N.L.I Tower, 54-55, Kazi Nazrul Islam Avenue, Kawran Bazar,Tejgaon, Dhaka",
+        null,
+        "01817513700; 0241010132"
+      ]
+    },
+    {
+      "Savar Nama Bazar Sub-Branch": [
+        "Bandhan Mansion (1st floor), Nama Bazar, Savar Pourashava, P.O. & P.S.: Savar,District: Dhaka.",
+        null,
+        "01813181537"
+      ]
+    },
+    {
+      "Ashkona Sub-Branch": [
+        "373, Ashkona, Dokshin Khan, Dhaka, Bangladesh.",
+        null,
+        "01728888408"
+      ]
+    },
+    {
+      "Rampura Sub-Branch": [
+        "Mia Bhaban, 64, DIT Road, East Hazipara, P.O: Khilgaon, P.S: Rampura, Dhaka.",
+        null,
+        "+8801711-392488"
+      ]
+    },
+    {
+      "Tongi Sub-Branch": [
+        "Mahadi Tarif Complex, 75 Anarkoli Road (1st Floor), Tongi, Gazipur",
+        null,
+        "01818350818"
+      ]
+    },
+    {
+      "Kamrangirchar Sub-Branch": [
+        "Sahjahan Supper Market, Ashrafabad Main Road, Kamrangirchar, Dhaka.",
+        null,
+        "01836199480"
+      ]
+    },
+    {
+      "Ashulia Sub-Branch": [
+        "AR Ahsan Tower, Holding No: 121/42, Dhaka EPZ Road, Bogabari Bazar Bus Stand, Baipail, Ashulia, Savar, Dhaka.",
+        null,
+        "01717411173"
+      ]
+    },
+    {
+      "Haragach Sub-Branch": [
+        "Malia Market, Holding No: 392, Haragach Road, Ward No. 3, Haragach, Rangpur",
+        null,
+        "01717465262"
+      ]
+    },
+    {
+      "Khatunganj Sub-Branch": [
+        "B.S.P Bhaban, Holding No: 260, Khatunganj, Chattogram.",
+        null,
+        "01519111586"
+      ]
+    },
+    {
+      "Poddar Bazar Sub-Branch": [
+        "Barak Ali Super Market, Sibrampur, Lakshmipur Sadar, Lakshmipur.",
+        null,
+        "01812847588"
+      ]
+    },
+    {
+      "Dupchanchia Sub-Branch": [
+        "Holding No-010700, CO Office Bus Stand, Bogura-Nagaon Main Road, Dupchanchia, Bogura.",
+        null,
+        "01710437518"
+      ]
+    }
+  ]
+}

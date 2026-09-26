@@ -1,2528 +1,4364 @@
 {
   "_bank": "Rupali Bank PLC",
-  "website": "https://www.rupalibank.com.bd/",
-  "website_source": "override",
-  "method": "html_table",
+  "bank_url": "https://rupalibank.com.bd/",
+  "method": "html_cards+jquery_ajax",
   "status": "success",
-  "branch_name": [
-    "ABDULPUR BR, NATORE",
-    "ABU TORAB BAZAR",
-    "ADABAR BR, DHAKA",
-    "ADITMARI BR, LALMONIRHAT",
-    "AGARPUR BR.",
-    "AGRABAD CORP BR.",
-    "AGRI UNIVERSITY BR.",
-    "AKKELPUR BR, JOYPURHAT",
-    "ALAMDANGA BR.",
-    "ALFADANGA BR.",
-    "ALIPUR BRANCH, PATUAKHALI",
-    "ALTAFNAGAR BR, BOGURA",
-    "AMIR MARKET CORP. CTG",
-    "AMIR UDDIN MUSIR HAT, FENI",
-    "AMISHAPARA BR. NOAKHALI",
-    "AMTALI BR.,BARGUNA",
-    "ANNADANAGAR BR, RANGPUR",
-    "ANOWARA BR.",
-    "Araihazar Branch, Narayangonj",
-    "ARAMNAGAR BRANCH, JAMALPUR",
-    "ASADGATE CORP. BR, DHAKA",
-    "ASHUGONJ BR. B. BARIA",
-    "ATAIKULA BAZAR BR, PABNA",
-    "ATRAI BRANCH,NAOGAON(POLLI)",
-    "AUSHKANDI BR, HABIGONJ",
-    "AUTAPARA BR, PABNA",
-    "AZIMGONJ BR, MOULVI BAZAR",
-    "B. B. ROAD, N. GONJ",
-    "BABUR BAZAR BR.",
-    "BABURHAT BR., CHANDPUR",
-    "BABURHAT, NARSINGDI",
-    "BADALGACHI BR,NAOGAON",
-    "BADAMTALI BR.",
-    "BADARPUR BR.",
-    "BADIAKHALI BR, GAIBANDHA",
-    "BAGANCHRA BR.",
-    "BAGBATIHAT BR, SIRAJGONJ",
-    "BAGERHAT CORP. BR.",
-    "BAGMARA BAZAR, CUMILLA",
-    "BAHERCHAR BR.",
-    "BAIRA BAZAR BR. MANIKGONJ",
-    "BAJITPUR BR, KISHOREGONJ",
-    "BAKERGONJ BRANCH, BARISHAL",
-    "BALIADANGI BR,THAKURGAON",
-    "BALIGAON BR., MUNSHIGANJ",
-    "BALIPARA BR, MYMENSINGH",
-    "BALLA BAZAR, TANGAIL",
-    "BALUA CHOWMOHONI BR, LAKHSMIPUR",
-    "BANARIPARA BR.",
-    "BANARUPA BR.",
-    "BANDAR BAZAR BR.",
-    "BANDARBAN CORP. BR.",
-    "BANDURA BR.",
-    "BANGLA BAZAR BR.",
-    "BANGLA BAZAR(BEGUMGONJ) NOAKHALI",
-    "BANGLA BAZAR(COMPANYGONJ) NOAKHALI",
-    "BANGLA BAZAR, N.GONJ",
-    "BANGSHAL ROAD",
-    "BANIBAHA BAZAR, RAJBARI",
-    "BANWARINAGAR BR, PABNA",
-    "BARA BAZAR BR.",
-    "BARAIBARI BR, RANGPUR",
-    "BARAKHATA BR, LALMONIRHAT",
-    "BARERA BAZAR BRANCH , CUMILLA",
-    "BARGUNA CORPORATE BR, BARGUNA",
-    "BARPA BR. N.GONJ",
-    "BASAIL BR, TANGAIL",
-    "BASHAIR BAZAR, GAZIPUR",
-    "BASHUR HAT, FENI",
-    "BATIAGHATA BR.",
-    "BAWSA BAZAR BR., RAJSHAHI",
-    "BAZAR GHATA, COX'S BAZAR",
-    "BAZAR ROAD BR., BARISHAL",
-    "BELKUCHI BR, SIRAJGANJ",
-    "BENODPUR BR. MUNSHIGONJ",
-    "BERA BR, PABNA",
-    "BETAGA BAZAR BR.",
-    "BETAGI BR, BARGUNA",
-    "BETIL BR, SIRAJGANJ",
-    "BHABANIPUR BR., BARISHAL",
-    "Bhaberbazar Br.",
-    "BHAIERPUKUR BR, BOGURA",
-    "BHAIRAB BAZAR, KISHOREGONJ",
-    "BHANDARIA BR. PIROJPUR",
-    "BHENDABARI BR, RANGPUR",
-    "BHERAMARA BR.",
-    "BHOLA CORP. BR, BHOLA",
-    "BHOLAHAT BR, CHAPAI",
-    "BHULLY BR,THAKURGAON",
-    "BHURUNGAMARI BR., KURIGRAM",
-    "BHUSCHI BAZAR, CUMILLA",
-    "BIBIRHAT",
-    "BIBIRHAT BR. LAKHSMIPUR",
-    "BIDDYUT BHABAN BR.",
-    "BIPULASHAR BR, CUMILLA",
-    "BIRAMPUR BAZAR, CHANDPUR",
-    "BIRAMPUR BR., DINAJPUR",
-    "BIRGANJ BR, DINAJPUR",
-    "BIROL BR, DINAJPUR",
-    "BMM BRANCH, FARIDPUR",
-    "BOALIA BR, SIRAJGONJ",
-    "BOALMARI BAZAR, FARIDPUR",
-    "BOGURA CANT. BR, BOGURA",
-    "Bogura Corporate Branch, Bogura",
-    "BOIRA BAZAR BR, JAMALPUR",
-    "Bokshigonj Branch (Polli Branch)",
-    "BONOGRAM BR. PABNA",
-    "BORHANUDDIN BR. BHOLA",
-    "BRAHMANBARIA CORP. BRANCH,BRAHMANBARIA",
-    "BUDHATA BR.",
-    "BURIMARI BR., LALMONIRHAT",
-    "BUS STAND(SHERPUR) BR. BOGURA",
-    "C.K.GHOSH ROAD, MYMENSINGH",
-    "CENTRAL BUS TERMINAL, BARISHAL",
-    "CENTRAL ROAD BR, RANGPUR",
-    "CHAITANYAGALI BR.",
-    "CHAKTAI BR. CTG",
-    "CHALNA BAZAR Br.",
-    "CHAMTAHAT BR, LALMONIRHAT",
-    "CHANDGAON CORP. CTG",
-    "CHANDNIGHAT BR, MOULVI BAZAR",
-    "CHAPAINAWABGANJ CORP.BR.CHAPAINAWABGANG",
-    "CHAR HAJIGONJ BAZAR, FARIDPUR",
-    "CHARKHAI BAZAR BR.",
-    "CHATKHIL BR. NOAKHALI",
-    "CHATTAK BR.",
-    "CHAULIA BUS STAND",
-    "CHAWKBAZAR BR.",
-    "CHAWKBAZAR BR.",
-    "CHEHELGAZI BR, DINAJPUR",
-    "CHIRINGA BR.",
-    "CHITOSHI BAZAR, CHANDPUR",
-    "CHOTTO BAZAR CORP. MYMENSINGH",
-    "CHOUMUHANI BR. NOAKHALI",
-    "CHOWARA BAZAR BRANCH, CUMILLA",
-    "CHOWMOHANA CORP. BR, MOULVI BAZAR",
-    "CHUADANGA CORP. BR.",
-    "COLONY BAZAR BR, BOGURA",
-    "COMMERCIAL AREA BR.",
-    "COMPANYGONJ BR., CUMILLA",
-    "COURT BAZAR BR.",
-    "CUET BRANCH",
-    "CUMILLA CANTONMENT CORP.",
-    "DALIA (T. B) BR, NILPHAMARI",
-    "DALTA BAZAR, LAKHSMIPUR",
-    "DAMURHUDA BR.",
-    "DAPUNIA BAZAR, MYMENSINGH",
-    "DARBESHER HAT, FENI",
-    "DATTAPARA, LAKHSMIPUR",
-    "DATTARAIL BR, SYLHET",
-    "DAULATKHAN BR., BHOLA",
-    "DAULATPUR BAZAR, MANIKGONJ",
-    "DAULATPUR BR.",
-    "DAWOODPUR BR, DINAJPUR",
-    "DAYAMIR BRANCH, SYLHET",
-    "DEBOTTAR BR, PABNA",
-    "DELIAI BAZAR, NOAKHALI",
-    "DEWAN BAZAR BR.",
-    "DHAKA CANTT. CORP. BRANCH,DHAKA",
-    "DHAKA LADIES BR.",
-    "DHALIA BAZAR, FENI",
-    "DHANIALAPARA BR.",
-    "DHANKURA BR. MANIKGONJ",
-    "DHANMONDI CORP. BR.",
-    "DHAPERHAT BR, GAIBANDHA",
-    "DHARA BAZAR, MYMENSINGH",
-    "DHARMAKURA BAZAR, JAMALPUR",
-    "DHUNAT BRANCH, BOGURA",
-    "DIBUAPUR BR, PATUAKHALI",
-    "DIMLA BR, NILPHAMARI",
-    "DINAJPUR CORPORATE BR, DINAJPUR",
-    "DOGACHHI BR, PABNA",
-    "DOLAR BAZAR BR. SUNAMGONJ",
-    "DUPCHANCHIA BR.BOGURA",
-    "DURMUT BAZAR, JAMALPUR",
-    "EIDGAON BR.",
-    "EKLASHPUR BAZAR, NOAKHALI",
-    "ELASIN BR, TANGAIL",
-    "ELENGA BUS STAND BRANCH, TANGAIL",
-    "ELEPHANT ROAD",
-    "ENAYETGANJ BR, HABIGONJ",
-    "ENAYETPUR BR.",
-    "EPZ BRANCH, PABNA",
-    "FAKIRA POOL BAZAR",
-    "FAKIRHAT BR.",
-    "FARIDPUR CORP. FARIDPUR",
-    "FATEMANAGAR BR, MYMENSINGH",
-    "FATULLA BR, N.GONJ",
-    "FAZILPUR BR. FENI",
-    "FENI CORP. FENI",
-    "FOREIGN EXCAHNGE CORP. Branch , Dhaka",
-    "FULBARI BUSSTAND BR. DINAJPUR",
-    "FULBARIA BR, MYMENSINGH",
-    "GABTALI BR, BOGURA",
-    "GABTOLI HAT BR., DHAKA",
-    "GAFARGAON BR, MYMENSINGH",
-    "GAIBANDHA CORP.BR, GAIBANGHA",
-    "GALACHIPA BR, PATUAKHALI",
-    "GANDARIA BR.",
-    "GANGCHAR TIMBER MARKET, CUMILLA",
-    "Gangni",
-    "GARAIKHALI HAT BR.",
-    "GAZIRHAT BR. CUMILLA",
-    "GHAGOR BAZAR BRANCH, GOPALGONJ",
-    "GHATAIL BR, TANGAIL",
-    "GHIOR BAZAR BR. MANIKGONJ",
-    "GOALANDA MORE BR, RAJBARI",
-    "GOBINDAPUR BAZAR, MOULVI BAZAR",
-    "GOLABARI BR, BOGURA",
-    "GOLABARIA, NOAKHALI",
-    "GOMDANDI BR.",
-    "GOPALGONJ CORPORATE BR, GOPALGONJ",
-    "GOPALPUR BR, PABNA",
-    "GOPINATHPUR BR, JOYPURHAT",
-    "GOSHAIBARI BR, BOGURA",
-    "GOSHAIRHAT BR, SHARIATPUR",
-    "GREEN ROAD BR. DHAKA",
-    "GULSHAN CORP. BR. DHAKA",
-    "HABIGANJ CORP.BR, HABIGONJ",
-    "HABRA BAZAR BR, SYLHET",
-    "HAJIGONJ BR. CHANDPUR",
-    "HALISHAHAR BR. CTG",
-    "HARAGACH BR, RANGPUR",
-    "HATFULBARI BR, BOGURA",
-    "HATIRPOOL BR.",
-    "HATKHALISHPUR BR.",
-    "HATKHOLA BR.",
-    "HAZARIBAGH BR.",
-    "HEMAYET UDDIN ROAD, BARISHAL",
-    "HOSPITAL ROAD BR, NAOGAON",
-    "HOSSAINABAD BR.",
-    "HSTU BR, DINAJPUR",
-    "HULAR HAT BR., PIROJPUR",
-    "ILISHA JONGSON BAZAR BR.",
-    "IMAMGONJ BR.",
-    "INDERHAT BR., PIROJPUR",
-    "INDIRA ROAD BR. DHAKA",
-    "INDURKANI BR, PIROJPUR",
-    "IQBAL ROAD BR.",
-    "ISHWARDI BR, PABNA",
-    "ISHWARGANJ BR, MYMENSINGH",
-    "ISLAMPUR CORP. BR, SYLHET",
-    "ISLAMPUR ROAD",
-    "ISLAMPUR ROAD, FENI",
-    "JAGANNATHPUR BR, SUNAMGONJ",
-    "JAHANGIRABAD CANT. BR. BOGURA",
-    "JAMALPUR CORPORATE BR, JAMALPUR",
-    "JAMUNA SARKARKHANA COMPLEX BR, JAMALPUR",
-    "JHALAKHATI CORPORATE BRANCH,JHALAKHATI",
-    "JHAUDANGA BR.",
-    "JHENAIDAH CORP. BR.",
-    "JHITKA BAZAR BR. MANIKGONJ",
-    "JINNAHGARH BR., BHOLA",
-    "JOHNSON ROAD BR.",
-    "JOYDEBPUR CORP. BR. GAZIPUR",
-    "JOYNAGAR BR, GOPALGONJ",
-    "JOYPURHAT CORP.BR, JOYPURHAT",
-    "JUBILEE ROAD BR.",
-    "K. D. A NEW MARKET BR.",
-    "K.N.I ROAD BR, RAJSHAHI",
-    "KABIRAJ HAT BR, DINAJPUR",
-    "KABIRHAT BR. NOAKHALI",
-    "KACHAUA BAZAR BR.",
-    "KACHIJHULI BR. MYMENSINGH",
-    "KACHUA BRANCH, CHANDPUR",
-    "KAHALOO BR,BOGURA",
-    "KAKONHAT BR, RAJSHAHI",
-    "KALAROA BR.",
-    "KALIGONJ BR, SYLHET",
-    "KALIGONJ BR.",
-    "KALIHATI BR, TANGAIL",
-    "KALISURI BANDAR, PATUAKHALI",
-    "Kalukhali Branch,Rajbari",
-    "KALURGHAT BR.",
-    "KANAI GHAT BR, SYLHET",
-    "KANAI NAGAR BR., N.GONJ",
-    "KAPTAN BAZAR",
-    "KARAIYA BAZAR, FENI",
-    "KARAMBOX BAZAR, NOAKHALI",
-    "KARIHATI BAZAR, NOAKHALI",
-    "KATHALIA BR., JHALAKHATHI",
-    "KAWKHALI BR., PIROJPUR",
-    "KAWRIA BAZAR BRANCH, BARISHAL",
-    "KAZIR BAZAR BR, SYLHET",
-    "KENBARI BAZAR, SUNAMGONJ",
-    "KENDUA BR, NETROKONA",
-    "KERAMAT NAGAR, MOULVI BAZAR",
-    "KERANIHAT BR.",
-    "KHADIMPUR BR, SYLHET",
-    "KHAGDAHAR BAZAR, MYMENSINGH",
-    "Khagrachari Town Branch",
-    "KHAJURA BR.",
-    "KHALISHPUR KHULNA",
-    "KHALOMUKH BR, SYLHET",
-    "KHAN'S HAT BR. CTG",
-    "KHATUNGONJ",
-    "KHEPUPARA BR, PATUAKHALI",
-    "KHETLAL BR, JOYPURHAT",
-    "KHILGAON BRANCH",
-    "KICHOK BR, BOGURA",
-    "KISHOREGONJ CORP. KISHOREGONJ",
-    "KISHORI GONJ BR, NILPHAMARI",
-    "KOLARAI BAZAR BR, SYLHET",
-    "KORBANIGONJ BR.",
-    "KOTCHANDPUR BR.",
-    "KOWRIKHARA BR., PIROJPUR",
-    "KOYRA BAZAR BR, JAMALPUR",
-    "KRISHNA MAJUMDER HAT, FENI",
-    "KULAURA BR, MOULVI BAZAR",
-    "KUMARKHALI BR.",
-    "KUNJERHAT BR., BHOLA",
-    "KURAR BAZAR BR, SYLHET",
-    "KURIGRAM CORPORATE BR,KURIGRAM",
-    "KURUA BRANCH, SYLHET",
-    "KUSHTIA BR.",
-    "KUSHURA BR., DHAKA",
-    "KUTHIR HAT BR. FENI",
-    "LADIES BRANCH",
-    "LADIES BRANCH, BOGURA",
-    "Ladies Branch, Boyra,Khulna",
-    "LADIES BRANCH, DINAJPUR",
-    "LADIES BRANCH, RANGPUR",
-    "LAKHSMIPUR CORP. BR. LAKHSMIPUR",
-    "LAKSHAM BRANCH, CUMILLA",
-    "LALDIGHIRPAR CORP. BR, SYLHET",
-    "LALMOHAN BR., BHOLA",
-    "LALMONIRHAT CORPORATE BR, LALMONIRHAT",
-    "LAUR FATEHPUR BRANCH, B. BARIA",
-    "LAXMIPUR BR, RAJSHAHI",
-    "LICHU BAGAN BR.",
-    "LOHAGARA BAZAR BR.",
-    "LOUHAJONG BR. MUNSHIGONJ",
-    "M.K. ROAD CORP. BR.",
-    "MADAR BAZAR BR, SYLHET",
-    "MADARIPUR CORPORATE BR, MADARIPUR",
-    "MADHABPUR BRANCH, HOBIGONJ",
-    "MADHAIYA BAZAR, CUMILLA",
-    "MADINA MARKET BR, SYLHET",
-    "MAGURA COR. BR.",
-    "MAHAJAN PATTY BR., BHOLA",
-    "MAHIGONJ BR, RANGPUR",
-    "MAIDANDIGHI BR, PANCHAGARH",
-    "MAIJDEE COURT CORPORATE BR, NOAKHALI",
-    "MAINAMATI BAZAR, CUMILLA",
-    "MAJHIRGHAT ROAD BR.",
-    "MAJIBNAGAR BR.",
-    "MALIBAGH BR.",
-    "MALLIKBARI BR, MYMENSINGH",
-    "MANDARI BAZAR, LAKHSMIPUR",
-    "MANIKGONJ CORP. MANIKGONJ",
-    "MANSHA BAZAR BR.",
-    "MARKET CORP.BRANCH, MOULVI BAZAR",
-    "MATHBARIA BR., PIROJPUR",
-    "MEHENDIGONJ BR., BARISHAL",
-    "MEHERPUR CORP. BR.",
-    "MELANDAH BR, JAMALPUR",
-    "MIAR HAT BR, NOAKHALI",
-    "MIRABAZAR CORP. BR,SYLHET",
-    "MIRKADIM BR. MUNSHIGONJ",
-    "MIRPUR CORP,BR, DHAKA.",
-    "MITFORD ROAD CORP. BR.",
-    "MOGH BAZAR BR.",
-    "MOHAKHALI BR., DHAKA",
-    "MOHAMAYA BAZAR, CHANDPUR",
-    "MOHAMMADPUR BR, DHAKA",
-    "MOHASTAN BR, BOGURA",
-    "MOKAMTOLA BR, BOGURA",
-    "MOLAMGARIHAT BR, JOYPURHAT",
-    "MOLLAHAT BR.",
-    "MOMINPUR BR.",
-    "MONGLAPORT BR.",
-    "MONIRAMPUR BR.",
-    "MONOHARGONJ BR., CUMILLA",
-    "MONOHARPUR CORP. Branch CUMILLA",
-    "MORRELGANJ BR., BAGERHAT",
-    "MOSHAN BR.",
-    "MOTIGONJ BR. FENI",
-    "MOTIJHEEL CORP.",
-    "Motlob South Branch(City Br.)",
-    "MOULVIBAZAR BR.",
-    "MUDAFFARGONJ BR, CUMILLA",
-    "MUGDA BR.",
-    "MUKSUDPUR BR.",
-    "MUKTAGACHA BR, MYMENSINGH",
-    "MULADI BANDOR BR., BARISHAL",
-    "MUNSHIGONJ CORP.BR, MUNSHIGONJ",
-    "N. M. NAGAR BR.",
-    "NABINAGAR BR. B. BARIA",
-    "NAGARBARI BR, PABNA",
-    "NAGER BAZAR BR.",
-    "Nageswari Branch,Kurigram",
-    "NAKALIA BR, PABNA",
-    "NALDANGARHAT BR, NATORE",
-    "NALUARMUKH (KALAR ) BAZAR, MOULVI BAZAR",
-    "NAMAJGARH BR, BOGURA",
-    "NAMOSANKERBATI BR, CHAPAI",
-    "NANDAIL BRANCH, MYMENSINGH",
-    "NAOGAON CORP. BR, NAOGAON",
-    "NARAIL CORP. BR.",
-    "NARSINGDI CORP. NARSINGDI",
-    "Nasirnagar (Polly Branch)",
-    "NATIAPARA BR, TANGAIL",
-    "NATORE CORP. BR, NATORE",
-    "NATUN BAZAR CORP. BR, CHANDPUR",
-    "NATUN BAZAR BR.",
-    "NATUNBAZAR, MOULVI BAZAR",
-    "NAVARON BR.",
-    "NAWABGONJ BR.",
-    "NAWABPUR ROAD",
-    "NAWBENKI BR.",
-    "NAYAGOLLA BAZAR BR.",
-    "NAYAPALTAN CORP. DHAKA",
-    "NAYARHAT BR, CHANDPUR",
-    "NAYATOLA BR.",
-    "NAZIRHAT BR.",
-    "NAZIRPARA BR. CHANDPUR",
-    "NETAI GANJ, N.GONJ",
-    "NETROKONA CORPORATE BR, NETROKONA",
-    "NEW MARKET BR.",
-    "NEW MARKET CORP.",
-    "NEW RANIR HAT, FENI",
-    "NEW TOWN BR. PATUAKHALI",
-    "NIAMATPUR BR, NAOGAON",
-    "NICHABAZAR Br, NATORE",
-    "NIKUNJA CORP. BR, DHAKA",
-    "NILGONJ BR. KISHOREGONJ",
-    "NILPHAMARI CORP. BR,NILPHAMARI",
-    "NOJUMIA HAT BR.",
-    "NORTH SOUTH ROAD BR.",
-    "NOWPARA BRANCH, MUNSHIGONJ",
-    "O.R. NIZAM ROAD CORP. BR",
-    "OMAR ALI MARKET BR.",
-    "PABNA CADET COLLEGE BR.PABNA",
-    "PABNA CORPORATE BR.PABNA",
-    "PAHARTALI BRANCH",
-    "PAIKGACHA BR.",
-    "PAJIA BAZAR BR.",
-    "PAKULLA BR, TANGAIL",
-    "PALASH BRANCH, NARSHINGDI",
-    "PALLA BAZAR, NOAKHALI",
-    "PALLABI BRANCH, DHAKA",
-    "PANCHA GARH CORP. BR, PANCHAGARH",
-    "PANCHLAISH BRANCH",
-    "PANGSHA BR, RAJBARI",
-    "PATGRAM BR, LALMONIRHAT",
-    "PATHARGHATA BR, PATUAKHALI",
-    "PATHERHAT BR.",
-    "PATHRAIL BAZAR, TANGAIL",
-    "PATIYA BRANCH",
-    "PATUA BHANGHA DORGA BAZAR, KISHOREGONJ",
-    "PATUAKHALI CORP. PATUAKHALI",
-    "PATUAKHALI SCI. & TECH. BR.",
-    "PATUATULLY BR.",
-    "PHULTALA BR.",
-    "PIROJPUR CORPORATE BRANCH, PIROJPUR",
-    "PODDAR BAZAR, LAKHSMIPUR",
-    "POSTAGOLA BR.",
-    "POURASAVA MARKET BR, RAJBARI",
-    "POURASAVA MARKET, NOAKHALI",
-    "PURABARI BR, MYMENSINGH",
-    "PURANA PALTAN CORP. BR.",
-    "PUTIAKHALI BANDAR BR.",
-    "QUADIRABAD CANT. BR. NATORE",
-    "R.K ROAD BR, RANGPUR",
-    "RAHMATPUR BR., BARISHAL",
-    "RAHUTHOR BAZAR, GOPALGONJ",
-    "RAILWAYA CROSSING BR, RANGPUR",
-    "RAIPUR BAZAR BR.",
-    "RAJA GONJ BR. SYLHET",
-    "RAJAPUR BR.",
-    "RAJARBAGH BR.",
-    "RAJBARI CORPORATE BR, RAJBARI",
-    "RAJGONJ BAZAR, NOAKHALI",
-    "RAJGONJ CORPORATE BRANCH, CUMILLA",
-    "RAJSHAHI CANTONMENT BR.",
-    "RAJSHAHI CORP. BR. RAJSHAHI",
-    "RAKHALGONJ BR, SYLHET",
-    "RAMDIA COLLEGE, GOPALGONJ",
-    "RAMGARH BRANCH",
-    "RAMGOTI BAZAR, LAKHSMIPUR",
-    "RAMNA CORP. BR.",
-    "RAMPUR BAZAR,CHANDPUR",
-    "RAMPURA BR.",
-    "RAMU BR.",
-    "RANGAMATI CORP. BR.",
-    "RANGPUR CORP BR,RANGPUR",
-    "RANINAGAR BR.",
-    "RANIRBANDOR BR, DINAJPUR",
-    "RAOZAN BRANCH",
-    "RATANGONJ BAZAR, TANGAIL",
-    "RATHKHOLA BR.",
-    "RAYER BAZAR BR, MYMENSINGH",
-    "REKABI BAZAR BR, SYLHET",
-    "ROHANPUR BR, CHAPAI",
-    "ROKEYA SARANI BR, DHAKA",
-    "RUET BR, RAJSHAHI",
-    "RUPALI SADAN BR.",
-    "RUPALI SADAN CORP.",
-    "RUPALI SADAN CORP. BR.",
-    "RUPALI SADAN CORP. BR. CHATTOGRAM",
-    "S.K.ROAD CORP.BRANCH, NARAYANGONJ",
-    "SADAR ROAD CORP. BARISHAL",
-    "SADARGHAT BR.",
-    "SADARGHAT BR.",
-    "SAFDERPUR BR.",
-    "SAGARDI BAZAR BR, BARISHAL",
-    "SAGARIKA ROAD BR.",
-    "SAKHIPUR BR, TANGAIL",
-    "SALTGOLA CORP.",
-    "SANTHIA BR, PABNA",
-    "SARISHABARI BR, JAMALPUR",
-    "SATKHIRA CORP. BR.",
-    "SATURIA BR. MANIKGONJ",
-    "SAVAR BUS STAND, DHAKA",
-    "SAVAR CANT BR. DHAKA",
-    "SCIENCE LABORATORY BR.",
-    "SENBAGH BRANCH",
-    "SHABEKPARA BR, BOGURA",
-    "SHAHATALI BAZAR, CHANDPUR",
-    "SHAHEED ABRAR FAHAD AVENUE CORP BR.",
-    "SHAHZADPUR BR. SIRAJGANJ",
-    "SHAILKUPA BR.",
-    "SHAKPURA BR.",
-    "SHAMS BUILDING BR.",
-    "SHANTIRHAT BR.",
-    "SHARIAL BAZAR BRANCH, MANIKGONJ",
-    "SHARIATPUR CORP. BR. SHARIATPUR",
-    "SHARSADI BAZAR, FENI",
-    "SHERPUR BAZAR BR, MOULVI BAZAR",
-    "SHERPUR TOWN CORPORATE BR, SHERPUR",
-    "SHIBCHAR BRANCH, MADARIPUR",
-    "SHIBGONJ BR, BOGURA",
-    "SHIKARIPARA BR.",
-    "SHIKARPUR BR., BARISHAL",
-    "SHIKDERHAT BR, DINAJPUR",
-    "SHIYALKOLE BR, SIRAJGANG",
-    "Sholla Bazar Branch",
-    "SHOSHAIR CHAR, CHANDPUR",
-    "SHUKHANPUKUR BR, BOGURA",
-    "SHYAMBAZAR BR.",
-    "SHYAMGONJ BR, MYMENSINGH",
-    "SHYAMOLI BR., DHAKA",
-    "SINGRA BRANCH, NATORE.",
-    "Sirajdikhan",
-    "SIRAJGANJ CORP.BR, SIRAJGANJ",
-    "SMR ROAD BR.",
-    "SONAPUR BR. LAKHSMIPUR",
-    "SREEMANGAL BR, MOULVI BAZAR",
-    "Sreenagar Branch,Munshiganj(Polli Br.)",
-    "STATION ROAD BR, SYLHET",
-    "STATION ROAD BR., KHULNA",
-    "STATION ROAD CORP.",
-    "SULTANPUR BR, SYLHET",
-    "SUNAMGONJ CORP. BR, SUNAMGONJ",
-    "SWARUPKATHI BR, PIROJPUR",
-    "SWASTIPUR BR.",
-    "SYEDPUR BR, NILPHAMARI",
-    "SYEDPUR BR, SUNAMGONJ",
-    "SYMRAR BAZAR BR. MOULVI BAZAR",
-    "TABALCHARI BAZAR BR.",
-    "TAJUMUDDIN BR.,BHOLA",
-    "TAL MOHAMMAD (T. M.) HAT BRANCH, NOAKHALI",
-    "TALTOLA BR, SYLHET",
-    "TANBAZAR CORP. N.GONJ",
-    "TANGAIL CORP. BR, TANGAIL",
-    "TANORE BR. RAJSHAHI",
-    "TARAGONJ BR,RANGPUR",
-    "TCB BHABAN CORP. BR. DHAKA",
-    "TENGRABAZAR BR, MOULVI BAZAR",
-    "TERRIBAZAR CORP.",
-    "TETULTALA BR, RANGPUR",
-    "THAKURGAON CORPORATE BR,THAKURGAON",
-    "THANAGHAT BR, MYMENSINGH",
-    "TMSS BR, BOGURA",
-    "TOMALTOLA BAZAR, NATORE",
-    "TONGI BRANCH, GAZIPUR",
-    "TRISHAL BRANCH, MYMENSINGH",
-    "TUNGIPARA, GOPALGONJ",
-    "TUTAIL BR.",
-    "URDU ROAD BR.",
-    "URKIRCHAR BR.",
-    "UTTAR KHAN BRANCH, DHAKA",
-    "UTTARA MODEL TOWN CORPORATE BRANCH, DHAKA",
-    "VITIBISHARA BRANCH,BRAHMANBARIA",
-    "YOUSUF MARKET BR.",
-    "ZINDABAZAR BRANCH, SYLHET",
-    "ZINZIRA BR.",
-    "LOCAL OFFICE"
+  "branch": [
+    {
+      "ABDULPUR BR, NATORE": [
+        "Abdulpur, Natore.",
+        null,
+        null
+      ]
+    },
+    {
+      "ABU TORAB BAZAR": [
+        "KDS Bhaban, Abu Torab Bazar, Mirsarai, Chattogram",
+        null,
+        null
+      ]
+    },
+    {
+      "ADABAR BR, DHAKA": [
+        "Holding-19, B/2-C&19, B/2-D, Ring Road,Adabor, Mohammadpur, Dhaka-1207",
+        null,
+        "02-55020282"
+      ]
+    },
+    {
+      "ADITMARI BR, LALMONIRHAT": [
+        "ADITMARI,LALMONIRHAT",
+        null,
+        "0592256007"
+      ]
+    },
+    {
+      "AGARPUR BR.": [
+        "Agarpur, Babuganj, Barishal",
+        null,
+        "01752353221; 01993337983"
+      ]
+    },
+    {
+      "AGRABAD CORP BR.": [
+        "SIWAN HOUSE,9, AGRABAD C/A,CHATTOGRAM",
+        null,
+        "031-723959; 031-724571; 02333325211"
+      ]
+    },
+    {
+      "AGRI UNIVERSITY BR.": [
+        "Sylhet Agricultural University Campus, PO:Sylhet 3100, PS: Shahporan (R), Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-761548"
+      ]
+    },
+    {
+      "AKKELPUR BR, JOYPURHAT": [
+        "Akkelpur, Joypurhat.",
+        null,
+        null
+      ]
+    },
+    {
+      "ALAMDANGA BR.": [
+        "AR complx(2nd floor),Hai Road,Alamdanga,Chuadanga",
+        null,
+        "07622-56247"
+      ]
+    },
+    {
+      "ALFADANGA BR.": [
+        "Alfadanga Police Station, Alfadanga, Faridpur",
+        null,
+        "0632256006"
+      ]
+    },
+    {
+      "ALIPUR BRANCH, PATUAKHALI": [
+        "Alipur bazar, Kalapara,Patuakhali.",
+        null,
+        "0442856241"
+      ]
+    },
+    {
+      "ALTAFNAGAR BR, BOGURA": [
+        "Altafnagar, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "AMIR MARKET CORP. CTG": [
+        "6, Ramjoy Mohajon Lane, Khatun gong, Chattogram",
+        null,
+        "031-611240"
+      ]
+    },
+    {
+      "AMIR UDDIN MUSIR HAT, FENI": [
+        "Ahammadpur, Sonagazi, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "AMISHAPARA BR. NOAKHALI": [
+        "Amishapara, Sonaimuri, Noakhali- 3847",
+        null,
+        null
+      ]
+    },
+    {
+      "AMTALI BR.,BARGUNA": [
+        "amtoli, Barguna",
+        null,
+        "0445256328"
+      ]
+    },
+    {
+      "ANNADANAGAR BR, RANGPUR": [
+        "Annadanagar, Pirgacha, Rangpur.",
+        null,
+        "01993337583"
+      ]
+    },
+    {
+      "ANOWARA BR.": [
+        "Kalam Chaiman Market(2nd Floor) Anowara Sadar, Chattogram",
+        null,
+        "030-2956054; 0302956054"
+      ]
+    },
+    {
+      "Araihazar Branch, Narayangonj": [
+        "Bhuiyan Plaza, Araihazar, Narayanganj",
+        null,
+        null
+      ]
+    },
+    {
+      "ARAMNAGAR BRANCH, JAMALPUR": [
+        "G.K. Plaza,1st Floor, Holding:1374,Aramnagar Bazar, Ward No:02, Thana: Sarishabari, Pourashava: Sarishabari, Jamalpur",
+        null,
+        "01993-337878"
+      ]
+    },
+    {
+      "ASADGATE CORP. BR, DHAKA": [
+        "Khudeza Hermat Trust ,2 Commercial Plot,Mohammad pur Housing,Dhaka-1207",
+        null,
+        "02-58156742"
+      ]
+    },
+    {
+      "ASHUGONJ BR. B. BARIA": [
+        "Ashuganj, Brahmanbaria",
+        null,
+        "08528-74570"
+      ]
+    },
+    {
+      "ATAIKULA BAZAR BR, PABNA": [
+        "Mokarrom Market, Ataikula bazar, Santia, Pabna",
+        null,
+        null
+      ]
+    },
+    {
+      "ATRAI BRANCH,NAOGAON(POLLI)": [
+        "Nahar Garden,Sheikh complex,Atrai,Naogaon",
+        null,
+        null
+      ]
+    },
+    {
+      "AUSHKANDI BR, HABIGONJ": [
+        "Rashid-Sufia Complex, Aushkandi Bazar, Upazila: Nabiganj, District: Habiganj",
+        null,
+        "01715-336101; 01993-337458"
+      ]
+    },
+    {
+      "AUTAPARA BR, PABNA": [
+        "Shorif Market, Autapara bazar, Iswardi, Pabna",
+        null,
+        "0731-65165"
+      ]
+    },
+    {
+      "AZIMGONJ BR, MOULVI BAZAR": [
+        "Village: Azimgonj Bazar, Union: Sujanagar, Upazila: Barlekha, District: Moulvibazar",
+        null,
+        "01993-337459"
+      ]
+    },
+    {
+      "B. B. ROAD, N. GONJ": [
+        "6, S.S. Road (1st floor) Chamber RoadNarayangonj - 1400",
+        null,
+        "7633153"
+      ]
+    },
+    {
+      "BABUR BAZAR BR.": [
+        "Haji Abdul Mojid Market (1st Floor), Babur Bazar, Ward-08, Union-5 No. Zakiganj, PO: Thanabazar, Upazila: Zakiganj, Dist:Sylhet",
+        null,
+        "01993337424"
+      ]
+    },
+    {
+      "BABURHAT BR., CHANDPUR": [
+        "PURAN BAZAR,CHANDPUR",
+        null,
+        "08424-75203"
+      ]
+    },
+    {
+      "BABURHAT, NARSINGDI": [
+        "77/06,Ward No.06,Madhobdi,Narsingdi",
+        null,
+        "02-9446251"
+      ]
+    },
+    {
+      "BADALGACHI BR,NAOGAON": [
+        "Badalgachi,Noagoan.",
+        null,
+        "07423-56020"
+      ]
+    },
+    {
+      "BADAMTALI BR.": [
+        "62, Islampur Road Dhaka.",
+        null,
+        "57392285"
+      ]
+    },
+    {
+      "BADARPUR BR.": [
+        "Lucky Mansion (1st Floor), House-69, Rajbari Rastar More, P.O:Komorpur, Badarpur, Faridpur",
+        null,
+        "063162752"
+      ]
+    },
+    {
+      "BADIAKHALI BR, GAIBANDHA": [
+        "BADIAKHALI,GAIBANDHA",
+        null,
+        "01993337640"
+      ]
+    },
+    {
+      "BAGANCHRA BR.": [
+        "PO: Bagachra Bazaar, PS: Sharsha, Dist: Jashore",
+        null,
+        "0423251220"
+      ]
+    },
+    {
+      "BAGBATIHAT BR, SIRAJGONJ": [
+        "Sagor Super Market, Bagbatihat bazar, Sirajgonj sodor, Sirajgonj.",
+        null,
+        null
+      ]
+    },
+    {
+      "BAGERHAT CORP. BR.": [
+        "Bagerhat, Bagerhat",
+        null,
+        "0468-62332"
+      ]
+    },
+    {
+      "BAGMARA BAZAR, CUMILLA": [
+        "BAGMARA BAZAR, LALMAI, CUMILLA",
+        null,
+        "01810684802"
+      ]
+    },
+    {
+      "BAHERCHAR BR.": [
+        "Baherchor,Rangabali,Patuakhali.",
+        null,
+        "01993337916; 01782936501"
+      ]
+    },
+    {
+      "BAIRA BAZAR BR. MANIKGONJ": [
+        "Baira Bazar, Baira,Manikgonj",
+        null,
+        null
+      ]
+    },
+    {
+      "BAJITPUR BR, KISHOREGONJ": [
+        "A.B. Siddique Tower, Holding No: 457, Haji Ilias Road, Paurosova and Thana: Bajidpur, Dist: Kishoregonj",
+        null,
+        "0942-364025"
+      ]
+    },
+    {
+      "BAKERGONJ BRANCH, BARISHAL": [
+        "Bakergonj,Barishal",
+        null,
+        "01993337955"
+      ]
+    },
+    {
+      "BALIADANGI BR,THAKURGAON": [
+        "Nekmarad Road, Baliadangi, Thakurgaon.",
+        null,
+        "0562256004"
+      ]
+    },
+    {
+      "BALIGAON BR., MUNSHIGANJ": [
+        "Building: Bismillah Plaza, Area: Baligaon Bazar, Union: Arial, P.O: Baligaon, Tongibari, Munshiganj",
+        null,
+        null
+      ]
+    },
+    {
+      "BALIPARA BR, MYMENSINGH": [
+        "BALIPARA,MYMENSINGH",
+        null,
+        "01993337886"
+      ]
+    },
+    {
+      "BALLA BAZAR, TANGAIL": [
+        "BALLA BAZAR,TANGAIL",
+        null,
+        "01731309371"
+      ]
+    },
+    {
+      "BALUA CHOWMOHONI BR, LAKHSMIPUR": [
+        "Balua Chowmuhani, Ramgonj, Laxmipur-3720",
+        null,
+        null
+      ]
+    },
+    {
+      "BANARIPARA BR.": [
+        "Banaripara, Barishal",
+        null,
+        "0433256104"
+      ]
+    },
+    {
+      "BANARUPA BR.": [
+        "Newcourt building Area, kotowali, Rangamati",
+        null,
+        "0351-63145"
+      ]
+    },
+    {
+      "BANDAR BAZAR BR.": [
+        "New Oriental Shoping Centre, Holding No-2001-33, Bandarbazar Sarak, Ward No-15, PO:Sylhet, Thana: Kotwali, Sylhet",
+        null,
+        "0821-716297"
+      ]
+    },
+    {
+      "BANDARBAN CORP. BR.": [
+        "Bandarban Branch, Bandarban",
+        null,
+        "0361-62443"
+      ]
+    },
+    {
+      "BANDURA BR.": [
+        "Tokyo Mansion, Bandhura Bazar, Nawabganj",
+        null,
+        "01745528072"
+      ]
+    },
+    {
+      "BANGLA BAZAR BR.": [
+        "Joynagor, Bhola",
+        null,
+        "01752353226"
+      ]
+    },
+    {
+      "BANGLA BAZAR(BEGUMGONJ) NOAKHALI": [
+        "Bangla Bazar , Begumgonj, Noakhali-3822",
+        null,
+        "0321-53134"
+      ]
+    },
+    {
+      "BANGLA BAZAR(COMPANYGONJ) NOAKHALI": [
+        "Bangal Bazar, Companygonj, Noakhali.",
+        null,
+        null
+      ]
+    },
+    {
+      "BANGLA BAZAR, N.GONJ": [
+        "Bangla Bazar, Kashipur, Fatullah, Narayanganj-1421",
+        null,
+        "02-7633289"
+      ]
+    },
+    {
+      "BANGSHAL ROAD": [
+        "169, Bangshal Road, Dhaka",
+        null,
+        "57317354"
+      ]
+    },
+    {
+      "BANIBAHA BAZAR, RAJBARI": [
+        "BHANIBAHA BAZAR,RAJBARI.",
+        null,
+        null
+      ]
+    },
+    {
+      "BANWARINAGAR BR, PABNA": [
+        "Biswash Shopping complex, Foridpur bazar, Foridpur, Pabna.",
+        null,
+        "07325-64002"
+      ]
+    },
+    {
+      "BARA BAZAR BR.": [
+        "Bara Bazar, Khulna",
+        null,
+        "041-725606"
+      ]
+    },
+    {
+      "BARAIBARI BR, RANGPUR": [
+        "Alambiditor, Gangachara, Rangpur.",
+        null,
+        "01993337641"
+      ]
+    },
+    {
+      "BARAKHATA BR, LALMONIRHAT": [
+        "Barakhata, Hatibandha, Lalmonirhat.",
+        null,
+        "01993337575"
+      ]
+    },
+    {
+      "BARERA BAZAR BRANCH , CUMILLA": [
+        "Mumtaz Uddin Bhuiyan Market (2nd Floor) Badera Bazar Union-Barera, Post Office-Barera Thana-Chandina, District-CUMILLA",
+        null,
+        null
+      ]
+    },
+    {
+      "BARGUNA CORPORATE BR, BARGUNA": [
+        "BARGUNA Sador,BARGUNA.",
+        null,
+        "044862346"
+      ]
+    },
+    {
+      "BARPA BR. N.GONJ": [
+        "Hazi Eayed Ali Plaza, Barpa, Rupshi, Rupgonj, Narayangonj",
+        null,
+        null
+      ]
+    },
+    {
+      "BASAIL BR, TANGAIL": [
+        "Suvessa Plaza Main Road Basail Tangail.",
+        null,
+        "09222-56180"
+      ]
+    },
+    {
+      "BASHAIR BAZAR, GAZIPUR": [
+        "Bashair(Jamalpur) Bazar, Dakhin Bag, Kaligonj, Gazipur-1613.",
+        null,
+        null
+      ]
+    },
+    {
+      "BASHUR HAT, FENI": [
+        "Bashur Hat, Companygonj, Noakhali.",
+        null,
+        null
+      ]
+    },
+    {
+      "BATIAGHATA BR.": [
+        "Batiaghata, Khulna",
+        null,
+        "04022-56009"
+      ]
+    },
+    {
+      "BAWSA BAZAR BR., RAJSHAHI": [
+        "Polok Super Market, Bawsha Bazar, Bagha, Rajshahi.",
+        null,
+        null
+      ]
+    },
+    {
+      "BAZAR GHATA, COX'S BAZAR": [
+        "Bazar Ghata, Main Road, Cox’s Bazar.",
+        null,
+        "0341-63236"
+      ]
+    },
+    {
+      "BAZAR ROAD BR., BARISHAL": [
+        "BAZAR ROAD,BARISAL",
+        null,
+        "043163824"
+      ]
+    },
+    {
+      "BELKUCHI BR, SIRAJGANJ": [
+        "Bhuiya plaza, Belkuchi bazar, Belkuchi, Sirajgonj.",
+        null,
+        "0247-318166"
+      ]
+    },
+    {
+      "BENODPUR BR. MUNSHIGONJ": [
+        "Benodpur, Ponchosar, Munshigonj",
+        null,
+        "02-7612237"
+      ]
+    },
+    {
+      "BERA BR, PABNA": [
+        "Bera bazar, Bera, Pabna",
+        null,
+        "07323-75011"
+      ]
+    },
+    {
+      "BETAGA BAZAR BR.": [
+        "Betaga Bazar, Bagerhat",
+        null,
+        null
+      ]
+    },
+    {
+      "BETAGI BR, BARGUNA": [
+        "BETAGI,BARGUNA.",
+        null,
+        "0445456008"
+      ]
+    },
+    {
+      "BETIL BR, SIRAJGANJ": [
+        "Bonik Market, Betil, Enayetpur,sirajgonj.",
+        null,
+        null
+      ]
+    },
+    {
+      "BHABANIPUR BR., BARISHAL": [
+        "JUGERKANDHA,UGERPUR,BARISAL",
+        null,
+        "01993337921"
+      ]
+    },
+    {
+      "Bhaberbazar Br.": [
+        "Bhober Bazar, Upazila: Jagannathpur, District: Sunamganj",
+        null,
+        "01993337425; 01781317475"
+      ]
+    },
+    {
+      "BHAIERPUKUR BR, BOGURA": [
+        "Bhairpukur, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "BHAIRAB BAZAR, KISHOREGONJ": [
+        "BHAIRAB BAZAR,KISHOREGONJ",
+        null,
+        "02-9470407; 01993337517"
+      ]
+    },
+    {
+      "BHANDARIA BR. PIROJPUR": [
+        "Bhandaria,Pirojpur",
+        null,
+        "0462356458"
+      ]
+    },
+    {
+      "BHENDABARI BR, RANGPUR": [
+        "Bhendabari, Pirgonj, Rangpur.",
+        null,
+        "01993337584"
+      ]
+    },
+    {
+      "BHERAMARA BR.": [
+        "Bheramara, Kushtia",
+        null,
+        "07022-71033"
+      ]
+    },
+    {
+      "BHOLA CORP. BR, BHOLA": [
+        "Natun Bazar,Bhola.",
+        null,
+        "049161321"
+      ]
+    },
+    {
+      "BHOLAHAT BR, CHAPAI": [
+        "Bholahat, Chapai Nowabgonj.",
+        null,
+        null
+      ]
+    },
+    {
+      "BHULLY BR,THAKURGAON": [
+        "Bhully,THAKURGAON",
+        null,
+        "01993337650"
+      ]
+    },
+    {
+      "BHURUNGAMARI BR., KURIGRAM": [
+        "Thana Road, Bhurungamari, Kurigram.",
+        null,
+        "01993337497"
+      ]
+    },
+    {
+      "BHUSCHI BAZAR, CUMILLA": [
+        "BUSCHI BAZAR,COMILLA",
+        null,
+        null
+      ]
+    },
+    {
+      "BIBIRHAT": [
+        "Rahaman Tower (2nd floor), 1 no Rail Gate, Muradpur, Chattogram",
+        null,
+        "031-683612"
+      ]
+    },
+    {
+      "BIBIRHAT BR. LAKHSMIPUR": [
+        "Bibirhat, Ramgoti, Laxmipur-3730",
+        null,
+        null
+      ]
+    },
+    {
+      "BIDDYUT BHABAN BR.": [
+        "Biddut Bhabon 1304/1705 Agrabad C/A,ward-28, P/S: Double Mooring, Chattogram.",
+        null,
+        "031-715706; 031-2520157"
+      ]
+    },
+    {
+      "BIPULASHAR BR, CUMILLA": [
+        "BIPULESWAR,COMILLA",
+        null,
+        null
+      ]
+    },
+    {
+      "BIRAMPUR BR., DINAJPUR": [
+        "Khan Super Market, Birampur, Dinajpur,",
+        null,
+        "05322-56384"
+      ]
+    },
+    {
+      "BIRGANJ BR, DINAJPUR": [
+        "Avijit Plaza, Birgonj, Dinajpur.",
+        null,
+        "05323-72216"
+      ]
+    },
+    {
+      "BIROL BR, DINAJPUR": [
+        "Birol Bazar, Birol, Dinajpur.",
+        null,
+        "05324-56008"
+      ]
+    },
+    {
+      "BMM BRANCH, FARIDPUR": [
+        "Hazra Tolar More, Goalchamot, Faridpur",
+        null,
+        "0631-62578"
+      ]
+    },
+    {
+      "BOALIA BR, SIRAJGONJ": [
+        "Boalia bazar, Ullapara, Sirajgonj.",
+        null,
+        null
+      ]
+    },
+    {
+      "BOALMARI BAZAR, FARIDPUR": [
+        "Boalmari Bazar , FARIDPUR",
+        null,
+        "06324-56134"
+      ]
+    },
+    {
+      "BOGURA CANT. BR, BOGURA": [
+        "Bogura contonment.",
+        null,
+        "051-82165"
+      ]
+    },
+    {
+      "Bogura Corporate Branch, Bogura": [
+        "Shah Tower, Joleshwari Tola, Bogura.",
+        null,
+        "02589902879; 02589902880"
+      ]
+    },
+    {
+      "BOIRA BAZAR BR, JAMALPUR": [
+        "BOIRA BAZAR,JAMALPUR.",
+        null,
+        "01993-337536"
+      ]
+    },
+    {
+      "Bokshigonj Branch (Polli Branch)": [
+        "Bokshigonj Branch,Jamalpur",
+        null,
+        "01716269747"
+      ]
+    },
+    {
+      "BONOGRAM BR. PABNA": [
+        "Munshi Market,Bongram bazar, Santia, Pabna.",
+        null,
+        null
+      ]
+    },
+    {
+      "BORHANUDDIN BR. BHOLA": [
+        "UPOZILLA ROAD,BORHANUDDIN,BHOLA",
+        null,
+        "0492256108"
+      ]
+    },
+    {
+      "BRAHMANBARIA CORP. BRANCH,BRAHMANBARIA": [
+        "HOLDING:980, KALAISREE PARA ROAD, SADAR, BRAHMANBARIA",
+        null,
+        "0851-58178"
+      ]
+    },
+    {
+      "BUDHATA BR.": [
+        "Budhata,Satkhira",
+        null,
+        null
+      ]
+    },
+    {
+      "BURIMARI BR., LALMONIRHAT": [
+        "Burimari, Patgram, Lalmonirhat.",
+        null,
+        "01993337496"
+      ]
+    },
+    {
+      "BUS STAND(SHERPUR) BR. BOGURA": [
+        "Bus stand, Bogura.",
+        null,
+        "05029-77004"
+      ]
+    },
+    {
+      "C.K.GHOSH ROAD, MYMENSINGH": [
+        "C.K. Ghosh,MYMENSINGH",
+        null,
+        "091-67271"
+      ]
+    },
+    {
+      "CENTRAL BUS TERMINAL, BARISHAL": [
+        "CENTRAL BUS TERMINAL,BARISAL.",
+        null,
+        "043163806"
+      ]
+    },
+    {
+      "CENTRAL ROAD BR, RANGPUR": [
+        "Central Road, Kotowali, Rangppur",
+        null,
+        "052165384"
+      ]
+    },
+    {
+      "CHAITANYAGALI BR.": [
+        "10, Reazuddin Bazar, Chaitanyagali, Chattogram.",
+        null,
+        "031613218"
+      ]
+    },
+    {
+      "CHAKTAI BR. CTG": [
+        "Usuf Building (1stFloor), New Chaktai, Bakalia, Chattogram.",
+        null,
+        "031-634404"
+      ]
+    },
+    {
+      "CHALNA BAZAR Br.": [
+        "Chalna Bazar, Khulna",
+        null,
+        "04023-56008"
+      ]
+    },
+    {
+      "CHAMTAHAT BR, LALMONIRHAT": [
+        "Chamtahat, Kaligonj, Lalmonirhat.",
+        null,
+        "01993337493"
+      ]
+    },
+    {
+      "CHANDGAON CORP. CTG": [
+        "859, Hoque Market, Bahadderhat, Chandgaon, Chattogram",
+        null,
+        "031-650625"
+      ]
+    },
+    {
+      "CHANDNIGHAT BR, MOULVI BAZAR": [
+        "Chandnighat Bus Stand, Village: Chandnighat, Union: Chandnighat, Upazila: Moulvibazar Sadar, District: Moulvibazar",
+        null,
+        "0861-52280"
+      ]
+    },
+    {
+      "CHAPAINAWABGANJ CORP.BR.CHAPAINAWABGANG": [
+        "42/2, Mango Tower-01, Banten Kha More, Chapai Nawabgonj.",
+        null,
+        "0781-52232"
+      ]
+    },
+    {
+      "CHAR HAJIGONJ BAZAR, FARIDPUR": [
+        "Charhajigonj Bazar, Charvadrasan, Faridpur",
+        null,
+        null
+      ]
+    },
+    {
+      "CHARKHAI BAZAR BR.": [
+        "S Rahman Tower, Charkhai Bazar, Ward No-02, Union: No-02 Charkhai, Upazila: Beanibazar, Dist:Sylhet",
+        null,
+        "01993337427"
+      ]
+    },
+    {
+      "CHATKHIL BR. NOAKHALI": [
+        "Chatkhil, Chatkhil, Noakhali-3870",
+        null,
+        "03222-75006"
+      ]
+    },
+    {
+      "CHATTAK BR.": [
+        "Club Road, Chhatak, Holding No-0478-00, Ward No-07, Upazila: Chhatak, District: Sunamganj",
+        null,
+        "08723-56227"
+      ]
+    },
+    {
+      "CHAULIA BUS STAND": [
+        "Chaulia Bus Stand, Jashore",
+        null,
+        "0488-62328"
+      ]
+    },
+    {
+      "CHAWKBAZAR BR.": [
+        "Kapasgola Road, Chawkbazar, Chattogram.",
+        null,
+        "031-655447; 031-655241"
+      ]
+    },
+    {
+      "CHAWKBAZAR BR.": [
+        "203,Water works Road,Chawkbazar, Dhaka",
+        null,
+        "57318724"
+      ]
+    },
+    {
+      "CHEHELGAZI BR, DINAJPUR": [
+        "Dinajpur Sadar, Dinajpur",
+        null,
+        "0531-63081"
+      ]
+    },
+    {
+      "CHIRINGA BR.": [
+        "Hoque super ,Market 1st Floor,Chakaria ,Pourashava, Cox’s Bazar",
+        null,
+        "03422-56006"
+      ]
+    },
+    {
+      "CHITOSHI BAZAR, CHANDPUR": [
+        "CHETOSHI BAZAR,CHANDPUR",
+        null,
+        null
+      ]
+    },
+    {
+      "CHOTTO BAZAR CORP. MYMENSINGH": [
+        "CHOTO BAZAR,MYMENSINGH",
+        null,
+        "091-66838, 091-67264"
+      ]
+    },
+    {
+      "CHOUMUHANI BR. NOAKHALI": [
+        "Chowmuhani, Begumgonj, Noakhali-3821",
+        null,
+        "0321-52060"
+      ]
+    },
+    {
+      "CHOWARA BAZAR BRANCH, CUMILLA": [
+        "CHOWARA BAZAR,COMILLA",
+        null,
+        "0804-257350"
+      ]
+    },
+    {
+      "CHOWMOHANA CORP. BR, MOULVI BAZAR": [
+        "Holding No.: 351, Road: Court Road, Ward: 01, Upazila: Moulvibazar Sadar, District: Moulvibazar",
+        null,
+        "0861-52284"
+      ]
+    },
+    {
+      "CHUADANGA CORP. BR.": [
+        "Chuadanga, Chuadanga",
+        null,
+        "076163140"
+      ]
+    },
+    {
+      "COLONY BAZAR BR, BOGURA": [
+        "Colony Bazar, Bogura.",
+        null,
+        "051-63596"
+      ]
+    },
+    {
+      "COMMERCIAL AREA BR.": [
+        "14/P, Agrabad C/A, Chattogram",
+        null,
+        "031-727146"
+      ]
+    },
+    {
+      "COMPANYGONJ BR., CUMILLA": [
+        "Muradnagar, Comilla.",
+        null,
+        "0802-659001"
+      ]
+    },
+    {
+      "COURT BAZAR BR.": [
+        "Court Bazar , PO-Ratna Palong -4750,P.S-Ukhiya,Dist-Coxs Bazar",
+        null,
+        "03432-58101"
+      ]
+    },
+    {
+      "CUET BRANCH": [
+        "JABBAR MARKET, PAHARTOLI, MOHAMONI, RAOZAN, CHATTOGAM.",
+        null,
+        null
+      ]
+    },
+    {
+      "CUMILLA CANTONMENT CORP.": [
+        "COMILLA CANTONMENT,",
+        null,
+        "081-76445, 018-65513"
+      ]
+    },
+    {
+      "DALIA (T. B) BR, NILPHAMARI": [
+        "Dalia, Dimla, Nilphamari",
+        null,
+        "01993337642"
+      ]
+    },
+    {
+      "DALTA BAZAR, LAKHSMIPUR": [
+        "Dalta Bazar, Ramgonj, Laxmipur-3725",
+        null,
+        null
+      ]
+    },
+    {
+      "DAMURHUDA BR.": [
+        "Damurhuda,Chuadanga",
+        null,
+        "07623-56042"
+      ]
+    },
+    {
+      "DAPUNIA BAZAR, MYMENSINGH": [
+        "DAPUNIA BAZAR,MYMENSINGH",
+        null,
+        "091-66233"
+      ]
+    },
+    {
+      "DARBESHER HAT, FENI": [
+        "Darbesher Bazar, Dagonbhuya, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "DATTAPARA, LAKHSMIPUR": [
+        "Dattapara, Sadar, Laxmipur-3706",
+        null,
+        "01746-634104"
+      ]
+    },
+    {
+      "DATTARAIL BR, SYLHET": [
+        "Dhaka Daskin Bazar, Union: Dhaka Daskin, Upazila: Golapganj, Dist:Sylhet",
+        null,
+        "01712543232"
+      ]
+    },
+    {
+      "DAULATKHAN BR., BHOLA": [
+        "Doulatkhan, Bhola",
+        null,
+        "0492456236"
+      ]
+    },
+    {
+      "DAULATPUR BAZAR, MANIKGONJ": [
+        "Doulotpur Bazaar, Manikgonj",
+        null,
+        "027715015"
+      ]
+    },
+    {
+      "DAULATPUR BR.": [
+        "Doulatpur, Khulna",
+        null,
+        "041-762451"
+      ]
+    },
+    {
+      "DAWOODPUR BR, DINAJPUR": [
+        "Daudpur, Nawabganj, Dinajpur.",
+        null,
+        "01993337570"
+      ]
+    },
+    {
+      "DAYAMIR BRANCH, SYLHET": [
+        "Dayamir Bazar, PO: Dayamir, Upazila: Osmaninagar, District: Sylhet",
+        null,
+        "01993337430"
+      ]
+    },
+    {
+      "DEBOTTAR BR, PABNA": [
+        "Debottor bazar, Atghoria, Pabna",
+        null,
+        "07322-56010"
+      ]
+    },
+    {
+      "DELIAI BAZAR, NOAKHALI": [
+        "Deliai Bazar, Chatkhil, Noakhali-3708",
+        null,
+        null
+      ]
+    },
+    {
+      "DEWAN BAZAR BR.": [
+        "321, Dider Market, Dewan Bazar, Chattogram",
+        null,
+        "031-613078"
+      ]
+    },
+    {
+      "DHAKA CANTT. CORP. BRANCH,DHAKA": [
+        "30/10-A, Dhaka Cantonment, P.O.PS.: Dhaka Cantonment, Dhaka-1206",
+        null,
+        "8711045,8713293"
+      ]
+    },
+    {
+      "DHAKA LADIES BR.": [
+        "Balaka Building, 1st Floor, Mirpur road, Dhaka",
+        null,
+        "58611104"
+      ]
+    },
+    {
+      "DHALIA BAZAR, FENI": [
+        "Dhalia Bazar, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "DHANIALAPARA BR.": [
+        "1102, Raj Banijjo Bitan, D.T. Road, Dhanialpara, Dobolmuring, Chattogram.",
+        null,
+        "031-728037"
+      ]
+    },
+    {
+      "DHANKURA BR. MANIKGONJ": [
+        "Bibijan Halima Rashid super Market,kamta golra bus stand,Saturia,Manikgonj",
+        null,
+        "7711009"
+      ]
+    },
+    {
+      "DHANMONDI CORP. BR.": [
+        "Nizam Shankar Plaza, (1st Floor), Holding No: 72, Road No: 19 (Old), Shat Masjid Road, Dhanmondi R/A, Dhaka",
+        null,
+        "02-41022997; 02-41022998"
+      ]
+    },
+    {
+      "DHAPERHAT BR, GAIBANDHA": [
+        "Hasanpara, Dhaperhat, Sadullapur, Gaibandha.",
+        null,
+        "01993337572"
+      ]
+    },
+    {
+      "DHARA BAZAR, MYMENSINGH": [
+        "DHARA BAZAR,MYMENSING",
+        null,
+        "01993337556"
+      ]
+    },
+    {
+      "DHARMAKURA BAZAR, JAMALPUR": [
+        "DHARMAKURA BAZAR,JAMALPUR.",
+        null,
+        "09824-74015"
+      ]
+    },
+    {
+      "DHUNAT BRANCH, BOGURA": [
+        "Dhunat, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "DIBUAPUR BR, PATUAKHALI": [
+        "Bandghat,Patuakhali.",
+        null,
+        "044162764"
+      ]
+    },
+    {
+      "DIMLA BR, NILPHAMARI": [
+        "DIMLA, NILPHAMARI",
+        null,
+        "0552256228"
+      ]
+    },
+    {
+      "DINAJPUR CORPORATE BR, DINAJPUR": [
+        "Makkah Tower , Dinajpur.",
+        null,
+        "0531-65016; 053164382"
+      ]
+    },
+    {
+      "DOGACHHI BR, PABNA": [
+        "Dogachi bazar, Pabna",
+        null,
+        "0731-65261"
+      ]
+    },
+    {
+      "DOLAR BAZAR BR. SUNAMGONJ": [
+        "Lotif Mansion (2nd Floor), Bergupi, Dolar Bazar, Upazila: Chhatak, District: Sunamganj",
+        null,
+        "01712580841"
+      ]
+    },
+    {
+      "DUPCHANCHIA BR.BOGURA": [
+        "Dupchanchia, Bogura.",
+        null,
+        "05024-51004"
+      ]
+    },
+    {
+      "DURMUT BAZAR, JAMALPUR": [
+        "DHURMUT BAZAR, JAMALPUR.",
+        null,
+        "01993-337551"
+      ]
+    },
+    {
+      "EIDGAON BR.": [
+        "1st Floor, New Market, Eidgaon Bazar, Cox's Bazar",
+        null,
+        "03432-58101"
+      ]
+    },
+    {
+      "EKLASHPUR BAZAR, NOAKHALI": [
+        "Eklashpur Bazar, Begumgonj, Noakhali-3822",
+        null,
+        null
+      ]
+    },
+    {
+      "ELASIN BR, TANGAIL": [
+        "ELASIN,TANGAIL",
+        null,
+        "01712529311"
+      ]
+    },
+    {
+      "ELENGA BUS STAND BRANCH, TANGAIL": [
+        "Aelnga Bus Stand, TANGAIL",
+        null,
+        "01733273802"
+      ]
+    },
+    {
+      "ELEPHANT ROAD": [
+        "238, New Elephant Road, Dhaka",
+        null,
+        "58610022"
+      ]
+    },
+    {
+      "ENAYETGANJ BR, HABIGONJ": [
+        "Village: Enayetganj, Union: Enayetganj, Upazila: Nabiganj, District: Habiganj",
+        null,
+        "01715-336102; 01993-337462"
+      ]
+    },
+    {
+      "ENAYETPUR BR.": [
+        "M.J Tower, 1st Floor, Enayetpur Bazar, Post Office: Enayetpur, Post Code: 4333, Hathazari, Chattogram.",
+        null,
+        null
+      ]
+    },
+    {
+      "EPZ BRANCH, PABNA": [
+        "Jahanara Super Market, EPZ Gate, Pakshi, Iswardi, Pabna.",
+        null,
+        "0731-59111"
+      ]
+    },
+    {
+      "FAKIRA POOL BAZAR": [
+        "119/C, Fakirapool Bazar, Dhaka.",
+        null,
+        "7194502"
+      ]
+    },
+    {
+      "FAKIRHAT BR.": [
+        "Fakirhat, Bagerhat",
+        null,
+        "04653-56204"
+      ]
+    },
+    {
+      "FARIDPUR CORP. FARIDPUR": [
+        "Mujib Sarak, Faridpur Sadar, Faridpur",
+        null,
+        "0661-61546; 0631-63336"
+      ]
+    },
+    {
+      "FATEMANAGAR BR, MYMENSINGH": [
+        "FATEMA NAGAR,MYMENSINGH",
+        null,
+        "01993337557"
+      ]
+    },
+    {
+      "FATULLA BR, N.GONJ": [
+        "1, DND Road, Fatullah Bazar, Fatullah, Narayanganj",
+        null,
+        "7670155"
+      ]
+    },
+    {
+      "FAZILPUR BR. FENI": [
+        "Fazilpur Bazar, Feni",
+        null,
+        null
+      ]
+    },
+    {
+      "FENI CORP. FENI": [
+        "Feni Sadar, Feni",
+        null,
+        "033174746"
+      ]
+    },
+    {
+      "FOREIGN EXCAHNGE CORP. Branch , Dhaka": [
+        "9/G Motijheel C/A, Dhaka-1000",
+        null,
+        "9560858, 9567034"
+      ]
+    },
+    {
+      "FULBARI BUSSTAND BR. DINAJPUR": [
+        "Waliulla Complex, Fulbari Busstand Road, Kotwali, Dinajpur",
+        null,
+        "0531-63181"
+      ]
+    },
+    {
+      "FULBARIA BR, MYMENSINGH": [
+        "FULBARIA,MYMENSINGH",
+        null,
+        "0902-373429"
+      ]
+    },
+    {
+      "GABTALI BR, BOGURA": [
+        "Gabtali, Bogura.",
+        null,
+        "05025-75004"
+      ]
+    },
+    {
+      "GABTOLI HAT BR., DHAKA": [
+        "Almas Mansion(1st Fl.), 282/1 1st Colony, Majar Road, Mirpur-1, Dhaka-1218",
+        null,
+        "58055908,58055642"
+      ]
+    },
+    {
+      "GAFARGAON BR, MYMENSINGH": [
+        "Motalab Plaza,Mymensingh",
+        null,
+        "0902-556580"
+      ]
+    },
+    {
+      "GAIBANDHA CORP.BR, GAIBANGHA": [
+        "Kachari Bazar, Sadar, Gaibandha.",
+        null,
+        "054152251"
+      ]
+    },
+    {
+      "GALACHIPA BR, PATUAKHALI": [
+        "Galachipa,Galachipa,Patuakhali.",
+        null,
+        "04424-56244"
+      ]
+    },
+    {
+      "GANDARIA BR.": [
+        "87,K.B Road Gandaria",
+        null,
+        "47440959"
+      ]
+    },
+    {
+      "GANGCHAR TIMBER MARKET, CUMILLA": [
+        "GANGCHAR TIMBER MARKET",
+        null,
+        "02334405235"
+      ]
+    },
+    {
+      "Gangni": [
+        "Gangni Branch Meherpur(Polli Branch)",
+        null,
+        "07922-75016; 07922-75017"
+      ]
+    },
+    {
+      "GARAIKHALI HAT BR.": [
+        "Garaikhali Hat, Khulna",
+        null,
+        null
+      ]
+    },
+    {
+      "GAZIRHAT BR. CUMILLA": [
+        "Gazirhat, Comilla",
+        null,
+        null
+      ]
+    },
+    {
+      "GHAGOR BAZAR BRANCH, GOPALGONJ": [
+        "Kath Potti, Ghagor Bazar, Kotalipara, Gopalgonj",
+        null,
+        "02-6651289"
+      ]
+    },
+    {
+      "GHATAIL BR, TANGAIL": [
+        "Ghatail, Tangail",
+        null,
+        "09225-56510"
+      ]
+    },
+    {
+      "GHIOR BAZAR BR. MANIKGONJ": [
+        "Ghior, Manikganj",
+        null,
+        "7727409"
+      ]
+    },
+    {
+      "GOALANDA MORE BR, RAJBARI": [
+        "GOALANDA TEXTILE MILL",
+        null,
+        "0641-65222"
+      ]
+    },
+    {
+      "GOBINDAPUR BAZAR, MOULVI BAZAR": [
+        "Village: Gobindapur Bazar, Union: 10 No Nazirabad UP, Upazila: Moulvibazar Sadar, District: Moulvibazar",
+        null,
+        "01993-337463"
+      ]
+    },
+    {
+      "GOLABARI BR, BOGURA": [
+        "Golabari, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "GOLABARIA, NOAKHALI": [
+        "Chowmuhani, Begumgonj, Noakhali-3821",
+        null,
+        "0321-52085"
+      ]
+    },
+    {
+      "GOMDANDI BR.": [
+        "PO: Boalkhali-4366, Thana: Boalkhali, District: Chattogram",
+        null,
+        null
+      ]
+    },
+    {
+      "GOPALGONJ CORPORATE BR, GOPALGONJ": [
+        "Pannu Mia Supar Market, Kacha Bazar, Natun Bazar Road, Gopalgonj",
+        null,
+        "02-6685337"
+      ]
+    },
+    {
+      "GOPALPUR BR, PABNA": [
+        "A Hamid complex, Abdul Hamid Road, Pabna",
+        null,
+        "0731-65159"
+      ]
+    },
+    {
+      "GOPINATHPUR BR, JOYPURHAT": [
+        "Gopinathpur, joypurhat.",
+        null,
+        null
+      ]
+    },
+    {
+      "GOSHAIBARI BR, BOGURA": [
+        "Goshaibari, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "GOSHAIRHAT BR, SHARIATPUR": [
+        "GOSHAIRHAT,SHARIATPUR",
+        null,
+        "06024-75007"
+      ]
+    },
+    {
+      "GREEN ROAD BR. DHAKA": [
+        "Holding-112, Sajeda Mansion, Green Road, Tejturi Bazar, Dhaka-1215.",
+        null,
+        "9112718"
+      ]
+    },
+    {
+      "GULSHAN CORP. BR. DHAKA": [
+        "12-14, Land Mark Bhaban,Gulshan-2, Dhaka-1212",
+        null,
+        "02-222284795; 02-222280106"
+      ]
+    },
+    {
+      "HABIGANJ CORP.BR, HABIGONJ": [
+        "Saleha Soleman Centre, Holding No-3679-02, Badiuzzaman Khan Road, Ward No-05, Habiganj Sadar, District: Habiganj",
+        null,
+        "0831-61147"
+      ]
+    },
+    {
+      "HABRA BAZAR BR, SYLHET": [
+        "Habra Bazar, PO: Daulatpur, Upazila: Bishwanath, District: Sylhet",
+        null,
+        "01705630986"
+      ]
+    },
+    {
+      "HAJIGONJ BR. CHANDPUR": [
+        "HAJIGONJ , CHANDPUR",
+        null,
+        "0841-63365"
+      ]
+    },
+    {
+      "HALISHAHAR BR. CTG": [
+        "City Tower (1St Floor), Plot#12/A, Block#G, Port Connecting Road, Halishahar Housing Estate.",
+        null,
+        "01993337725"
+      ]
+    },
+    {
+      "HARAGACH BR, RANGPUR": [
+        "Haragach, Kaunia, Rangpur",
+        null,
+        "052165461; 01993337586"
+      ]
+    },
+    {
+      "HATFULBARI BR, BOGURA": [
+        "Hatfulbari, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "HATIRPOOL BR.": [
+        "34, Bir Uttam C. R. Datt Road, Hatirpool, Dhaka",
+        null,
+        "58611443"
+      ]
+    },
+    {
+      "HATKHALISHPUR BR.": [
+        "Hatkhalishpur, Jhinaidah",
+        null,
+        "04525-56403"
+      ]
+    },
+    {
+      "HATKHOLA BR.": [
+        "7, Hatkhola Road, Dhaka",
+        null,
+        "02-223350580"
+      ]
+    },
+    {
+      "HAZARIBAGH BR.": [
+        "20/A, Moneshor Road, 2nd Floor, Hazaribagh",
+        null,
+        "9631225"
+      ]
+    },
+    {
+      "HEMAYET UDDIN ROAD, BARISHAL": [
+        "HEMAYETUDDIN ROAD,BARISAL",
+        null,
+        "043165015"
+      ]
+    },
+    {
+      "HOSPITAL ROAD BR, NAOGAON": [
+        "Hospital Road,Naogaon.",
+        null,
+        "0741-62460; 07423-56020"
+      ]
+    },
+    {
+      "HOSSAINABAD BR.": [
+        "Hossainabad, Kushtia",
+        null,
+        "07023-75243"
+      ]
+    },
+    {
+      "HSTU BR, DINAJPUR": [
+        "HSTU Campus, Dinajpur.",
+        null,
+        "0531-64328"
+      ]
+    },
+    {
+      "HULAR HAT BR., PIROJPUR": [
+        "HULARHAT,PIROJPUR",
+        null,
+        "046162202"
+      ]
+    },
+    {
+      "ILISHA JONGSON BAZAR BR.": [
+        "SEAM PLAZA,Parangonj Bazar,Porangonj,Bhola.",
+        null,
+        "01993337929; 01714580237"
+      ]
+    },
+    {
+      "IMAMGONJ BR.": [
+        "46, Imamganj.",
+        null,
+        "57310580"
+      ]
+    },
+    {
+      "INDERHAT BR., PIROJPUR": [
+        "Showhagdal,Nesarabat,Pirojpur",
+        null,
+        "01993337930; 01752353225"
+      ]
+    },
+    {
+      "INDIRA ROAD BR. DHAKA": [
+        "27, Indira Road (1st Floor), Farmgate, Dhaka-1215",
+        null,
+        "02-48117739; 01810683832; 01810683831"
+      ]
+    },
+    {
+      "INDURKANI BR, PIROJPUR": [
+        "Indurkani,Pirojpur.",
+        null,
+        "0462256165; 01993337952"
+      ]
+    },
+    {
+      "IQBAL ROAD BR.": [
+        "26. No Bongshal Road, Pathorghata, Chattogram",
+        null,
+        "031-634834"
+      ]
+    },
+    {
+      "ISHWARDI BR, PABNA": [
+        "Zinna Market, Iswardi bazar, Pabna",
+        null,
+        "07326-63662; 07326-63666"
+      ]
+    },
+    {
+      "ISHWARGANJ BR, MYMENSINGH": [
+        "ISWARGONJ, MYMENSINGH",
+        null,
+        "0902-756067"
+      ]
+    },
+    {
+      "ISLAMPUR CORP. BR, SYLHET": [
+        "Islampur, PO:Sylhet-3100, PS: Shahporan (R), Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-760702"
+      ]
+    },
+    {
+      "ISLAMPUR ROAD": [
+        "106, MR Bhaban, Islampur Road",
+        null,
+        "57390183"
+      ]
+    },
+    {
+      "ISLAMPUR ROAD, FENI": [
+        "Islampur Road, Feni Sadar, Feni",
+        null,
+        "0331-73353"
+      ]
+    },
+    {
+      "JAGANNATHPUR BR, SUNAMGONJ": [
+        "Al Arafah Market, Pouro Point, Jagannathpur Bazar, Upazila: Jagannathpur, District: Sunamganj",
+        null,
+        "08727-56006"
+      ]
+    },
+    {
+      "JAHANGIRABAD CANT. BR. BOGURA": [
+        "Jahangirabad cantt., Bogura",
+        null,
+        null
+      ]
+    },
+    {
+      "JAMALPUR CORPORATE BR, JAMALPUR": [
+        "JAMALPUR,JAMALPUR",
+        null,
+        "0981-63265; 0981-63650"
+      ]
+    },
+    {
+      "JAMUNA SARKARKHANA COMPLEX BR, JAMALPUR": [
+        "JAMUNA SHAR KARKHANA COMP.",
+        null,
+        "01993-337872"
+      ]
+    },
+    {
+      "JHALAKHATI CORPORATE BRANCH,JHALAKHATI": [
+        "JHALAKATI,JHALAKATI",
+        null,
+        "049863262"
+      ]
+    },
+    {
+      "JHAUDANGA BR.": [
+        "Jhaudanga, Satkhira",
+        null,
+        "04724-75510"
+      ]
+    },
+    {
+      "JHENAIDAH CORP. BR.": [
+        "Jhinaidah, Jhinaidah .",
+        null,
+        "0451-62404"
+      ]
+    },
+    {
+      "JHITKA BAZAR BR. MANIKGONJ": [
+        "Jhitka ,Horirampur,Manikgonj-1831",
+        null,
+        "7729031"
+      ]
+    },
+    {
+      "JINNAHGARH BR., BHOLA": [
+        "Charfashion,Bhola",
+        null,
+        "01993337932"
+      ]
+    },
+    {
+      "JOHNSON ROAD BR.": [
+        "51 North Brooke Hall Road, Sutrapur Thana, Dhaka - 1100",
+        null,
+        "9533140,9533141, 9576884"
+      ]
+    },
+    {
+      "JOYDEBPUR CORP. BR. GAZIPUR": [
+        "Hossain Shoping Complex(1st Fl.), Joydebpur, Gagipur-1700",
+        null,
+        "02224423217"
+      ]
+    },
+    {
+      "JOYNAGAR BR, GOPALGONJ": [
+        "JOYNAGAR, GOPALGONJ",
+        null,
+        "06652-56503"
+      ]
+    },
+    {
+      "JOYPURHAT CORP.BR, JOYPURHAT": [
+        "Joypurhat, Joypurhat.",
+        null,
+        "0571-62338"
+      ]
+    },
+    {
+      "JUBILEE ROAD BR.": [
+        "365 Jubilee Road,GPO-4000, Kotowali, Chattogram",
+        null,
+        "031-614402"
+      ]
+    },
+    {
+      "K. D. A NEW MARKET BR.": [
+        "K.D.A New Market, Khulna",
+        null,
+        "041-730929"
+      ]
+    },
+    {
+      "K.N.I ROAD BR, RAJSHAHI": [
+        "334-Nur Tower, Shaheb Bazar, Ghoramara, Boalia, Rajshahi.",
+        null,
+        "0721-773211; 0721-770313"
+      ]
+    },
+    {
+      "KABIRAJ HAT BR, DINAJPUR": [
+        "Bijoypur, Bhaboki, Birgonj, Dinajpur.",
+        null,
+        "01993337654"
+      ]
+    },
+    {
+      "KABIRHAT BR. NOAKHALI": [
+        "Kabirhat, Kabirhat, Noakhali-3807",
+        null,
+        "03232-53277"
+      ]
+    },
+    {
+      "KACHAUA BAZAR BR.": [
+        "Kachua Bazar, Bagerhat",
+        null,
+        "04654-56012"
+      ]
+    },
+    {
+      "KACHIJHULI BR. MYMENSINGH": [
+        "Rupali Bank Tower, Mymensingh Sadar, Mymensingh",
+        null,
+        "0916-1520, 0916-1521"
+      ]
+    },
+    {
+      "KACHUA BRANCH, CHANDPUR": [
+        "Chandpur",
+        null,
+        null
+      ]
+    },
+    {
+      "KAHALOO BR,BOGURA": [
+        "Kahaloo, Bogura.",
+        null,
+        "05026-56019"
+      ]
+    },
+    {
+      "KAKONHAT BR, RAJSHAHI": [
+        "Kakonhat, Rajshahi.",
+        null,
+        "0723-451046"
+      ]
+    },
+    {
+      "KALAROA BR.": [
+        "Kalaroa,Satkhira",
+        null,
+        "04724-75313"
+      ]
+    },
+    {
+      "KALIGONJ BR, SYLHET": [
+        "Kaliganj Bazar, Union: Manikpur, PO+PS: Zakiganj, Dist:Sylhet",
+        null,
+        "01730980005"
+      ]
+    },
+    {
+      "KALIGONJ BR.": [
+        "Rafa Plaza, Modhugong Bazar Road,Kaligonj, Jhenaidah",
+        null,
+        "04523-56056"
+      ]
+    },
+    {
+      "KALIHATI BR, TANGAIL": [
+        "KALIHATI,TANGAIL",
+        null,
+        "09227-74008"
+      ]
+    },
+    {
+      "KALISURI BANDAR, PATUAKHALI": [
+        "Kalishuri,Patuakhali.",
+        null,
+        "01727058445; 01993337933"
+      ]
+    },
+    {
+      "Kalukhali Branch,Rajbari": [
+        "Kalukhali Rajbari",
+        null,
+        null
+      ]
+    },
+    {
+      "KALURGHAT BR.": [
+        "Kaptai Raster Matha, Mohora, chadgoan, Chattogram",
+        null,
+        "031-670596"
+      ]
+    },
+    {
+      "KANAI GHAT BR, SYLHET": [
+        "Kanaighat Bazar, PO+PS: Kanaighat, Kanaighat Pourosova, Dist:Sylhet",
+        null,
+        "08233-56256"
+      ]
+    },
+    {
+      "KANAI NAGAR BR., N.GONJ": [
+        "KANAI NAGAR, NARAYANGONJ",
+        null,
+        null
+      ]
+    },
+    {
+      "KAPTAN BAZAR": [
+        "21, Kaptanbazar, 1st Floor, Wari, Dhaka.",
+        null,
+        "47116737"
+      ]
+    },
+    {
+      "KARAIYA BAZAR, FENI": [
+        "Kariaya Bazar, Chagolnya, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "KARAMBOX BAZAR, NOAKHALI": [
+        "Karambox Bazar, Kabirhat, Noakhali-3820",
+        null,
+        null
+      ]
+    },
+    {
+      "KARIHATI BAZAR, NOAKHALI": [
+        "Karihati Bazar, Chatkhil, Noakhali-3877",
+        null,
+        null
+      ]
+    },
+    {
+      "KATHALIA BR., JHALAKHATHI": [
+        "Newmarket, Kathalia Bus Stand, Jhalokati-8400",
+        null,
+        "0495256050"
+      ]
+    },
+    {
+      "KAWKHALI BR., PIROJPUR": [
+        "Kawkhali,Pirojpur",
+        null,
+        "0462456108"
+      ]
+    },
+    {
+      "KAWRIA BAZAR BRANCH, BARISHAL": [
+        "Kawria Bazar, Hizla, Barisal",
+        null,
+        "01762230020; 01993337935"
+      ]
+    },
+    {
+      "KAZIR BAZAR BR, SYLHET": [
+        "Kazir Bazar, Topkhana Road, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821716474"
+      ]
+    },
+    {
+      "KENBARI BAZAR, SUNAMGONJ": [
+        "Sobuj Khan Super Market, Village: Kenabari Bazar, Union: Mirpur, Upazila: Jagannathpur, District: Sunamganj",
+        null,
+        "01787363235"
+      ]
+    },
+    {
+      "KENDUA BR, NETROKONA": [
+        "KENDUA,NETRAKONA",
+        null,
+        "0952-856006"
+      ]
+    },
+    {
+      "KERAMAT NAGAR, MOULVI BAZAR": [
+        "Building Name: Sushoma, Holding No-155, Station Road, Keramatnagar, Kamalganj, District: Moulvibazar",
+        null,
+        "08623-56025"
+      ]
+    },
+    {
+      "KERANIHAT BR.": [
+        "Keranihat (Haji Ula Mia Market), Keranihat, Satkania, Chattogram.",
+        null,
+        "03036-56136"
+      ]
+    },
+    {
+      "KHADIMPUR BR, SYLHET": [
+        "New Market, Khadimpur, PO: Katalkhair, Upazila: Osmaninagar, District: Sylhet",
+        null,
+        "01719-335458"
+      ]
+    },
+    {
+      "KHAGDAHAR BAZAR, MYMENSINGH": [
+        "KHAGDAHAR BAZAR,MYMENSINGH",
+        null,
+        "091-67386"
+      ]
+    },
+    {
+      "Khagrachari Town Branch": [
+        "Khagrachari Town Branch",
+        null,
+        null
+      ]
+    },
+    {
+      "KHAJURA BR.": [
+        "Khajura, Jessore",
+        null,
+        "042152122"
+      ]
+    },
+    {
+      "KHALISHPUR KHULNA": [
+        "KHALISHPUR,KHULNA",
+        null,
+        "041-762656"
+      ]
+    },
+    {
+      "KHALOMUKH BR, SYLHET": [
+        "Khalomukh Bazar, PO: Khalomukh Bazar, PS: Mogla Bazar, Upazila: Dakshin Surma, Dist:Sylhet",
+        null,
+        "01712566321"
+      ]
+    },
+    {
+      "KHAN'S HAT BR. CTG": [
+        "Hazi Revine plaza, 2ndfloor, Chandanaish,ctg",
+        null,
+        "03033-56015"
+      ]
+    },
+    {
+      "KHATUNGONJ": [
+        "254 Sonamiah Market, Khatungonj, Chattogram.",
+        null,
+        "031-611560"
+      ]
+    },
+    {
+      "KHEPUPARA BR, PATUAKHALI": [
+        "KHEPUPARA,PATUAKHALI",
+        null,
+        "044255631"
+      ]
+    },
+    {
+      "KHETLAL BR, JOYPURHAT": [
+        "Khetlal, Joypurhat.",
+        null,
+        "5723-56006"
+      ]
+    },
+    {
+      "KHILGAON BRANCH": [
+        "577/C, Khilgaon Chy para, Dhaka-1219",
+        null,
+        "47214321"
+      ]
+    },
+    {
+      "KICHOK BR, BOGURA": [
+        "Kichak, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "KISHOREGONJ CORP. KISHOREGONJ": [
+        "KISHOREGONJ,KISHOREGONJ",
+        null,
+        "0941-62322"
+      ]
+    },
+    {
+      "KISHORI GONJ BR, NILPHAMARI": [
+        "KISHORIGONJ,NILPHAMARI",
+        null,
+        "0552556014; 01993337579"
+      ]
+    },
+    {
+      "KOLARAI BAZAR BR, SYLHET": [
+        "Abdul Mochabbir Mansion, Kolarai Bazar, PO: Gavurtiki, Upazila: Osmaninagar, District: Sylhet",
+        null,
+        "01810684759"
+      ]
+    },
+    {
+      "KORBANIGONJ BR.": [
+        "Korbanigonj, Jolil Mansion, 37, Korbanigonj, Chattogram.",
+        null,
+        "031-631782"
+      ]
+    },
+    {
+      "KOTCHANDPUR BR.": [
+        "Kotchandpur, Jhinaidah",
+        null,
+        "04524-65008"
+      ]
+    },
+    {
+      "KOWRIKHARA BR., PIROJPUR": [
+        "Kourikhara,Nasarabath,Pirojpur",
+        null,
+        "01993337936; 01752353224"
+      ]
+    },
+    {
+      "KRISHNA MAJUMDER HAT, FENI": [
+        "Kishno Mozumder Hat, Noirajpur, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "KULAURA BR, MOULVI BAZAR": [
+        "Misba-Bari Shopping Complex, Holding No-222, Moulvibazar Road, Ward No-05, Upazila: Kulaura, District: Moulvibazar",
+        null,
+        "08624-57023"
+      ]
+    },
+    {
+      "KUMARKHALI BR.": [
+        "Kurmarkhali, Kustia.",
+        null,
+        "07025-76716"
+      ]
+    },
+    {
+      "KUNJERHAT BR., BHOLA": [
+        "Kunjerhat,Borhanuddin,Bhola.",
+        null,
+        "01752353227; 01993337924"
+      ]
+    },
+    {
+      "KURAR BAZAR BR, SYLHET": [
+        "Kurar Bazar, Union: Kurar Bazar, Upazila: Beanibazar, Dist:Sylhet",
+        null,
+        "01797-087525"
+      ]
+    },
+    {
+      "KURIGRAM CORPORATE BR,KURIGRAM": [
+        "Kurigram Sadar, Kurigram.",
+        null,
+        "058161390"
+      ]
+    },
+    {
+      "KURUA BRANCH, SYLHET": [
+        "Kurua, PO: Kurua, Upazila: Osmaninagar, District: Sylhet",
+        null,
+        "01993337443"
+      ]
+    },
+    {
+      "KUSHTIA BR.": [
+        "Kushtia, Kushtia",
+        null,
+        "071-61868, 071-71134"
+      ]
+    },
+    {
+      "KUSHURA BR., DHAKA": [
+        "Kushura Abbas Ali High School,tepo bari, Bhamrai,Dhaka-1350",
+        null,
+        null
+      ]
+    },
+    {
+      "KUTHIR HAT BR. FENI": [
+        "Kutirhat Bazar, Sonagazi, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "LADIES BRANCH": [
+        "CDA Kazir Dewri Market, Kotwali, Chattogram-4203.",
+        null,
+        "031-614420"
+      ]
+    },
+    {
+      "LADIES BRANCH, BOGURA": [
+        "Ladies Branch, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "Ladies Branch, Boyra,Khulna": [
+        "Ladies Branch, Boyra,Khulna",
+        null,
+        "041-760193"
+      ]
+    },
+    {
+      "LADIES BRANCH, DINAJPUR": [
+        "Basuniapatty, Sadar, Dinajpur.",
+        null,
+        "053164398"
+      ]
+    },
+    {
+      "LADIES BRANCH, RANGPUR": [
+        "DC Mor, Rangpur.",
+        null,
+        "052165397"
+      ]
+    },
+    {
+      "LAKHSMIPUR CORP. BR. LAKHSMIPUR": [
+        "Laxmipur, Sadar, Laxmipur-3700",
+        null,
+        "0381-61449"
+      ]
+    },
+    {
+      "LAKSHAM BRANCH, CUMILLA": [
+        "DAULATGONJ BAZAR,CHANDPUR",
+        null,
+        "08032-51323"
+      ]
+    },
+    {
+      "LALDIGHIRPAR CORP. BR, SYLHET": [
+        "Laldigirpar, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-716767; 0821-717609"
+      ]
+    },
+    {
+      "LALMOHAN BR., BHOLA": [
+        "766-767/01,Hazi Rafiq Mia Plaza,Muktijodha Avenew,Lalmohon Purshova,Bhola.",
+        null,
+        "0492575639"
+      ]
+    },
+    {
+      "LALMONIRHAT CORPORATE BR, LALMONIRHAT": [
+        "BDR Gate, Sadar, Lalmonirhat.",
+        null,
+        "059161239"
+      ]
+    },
+    {
+      "LAUR FATEHPUR BRANCH, B. BARIA": [
+        "Barrister Zakir Ahmed College Laur Fatehpur,Nabinagar,Brahmanbaria Brahmanbaria",
+        null,
+        null
+      ]
+    },
+    {
+      "LAXMIPUR BR, RAJSHAHI": [
+        "Laxmipur, Rajshahi.",
+        null,
+        "0721-773218"
+      ]
+    },
+    {
+      "LICHU BAGAN BR.": [
+        "Haji Alam Market, Dovashi Bazar, Chandraghona, Khondaker Para, Rangunia, Chattogram",
+        null,
+        "0351-51024"
+      ]
+    },
+    {
+      "LOHAGARA BAZAR BR.": [
+        "Narail",
+        null,
+        "04823-56321"
+      ]
+    },
+    {
+      "LOUHAJONG BR. MUNSHIGONJ": [
+        "Moshodgaon, Louhajong, Munshigonj",
+        null,
+        "02-7625010"
+      ]
+    },
+    {
+      "M.K. ROAD CORP. BR.": [
+        "Mistri Khana Road, Jessore",
+        null,
+        "0421-68583; 0421-63395"
+      ]
+    },
+    {
+      "MADAR BAZAR BR, SYLHET": [
+        "Madar Bazar, PO: Latibpur, PS: Osmaninagar, Dist:Sylhet",
+        null,
+        "01993337446"
+      ]
+    },
+    {
+      "MADARIPUR CORPORATE BR, MADARIPUR": [
+        "Super Market, Holding No:01, Puran Bazar, Madaripur",
+        null,
+        "0661-61546"
+      ]
+    },
+    {
+      "MADHABPUR BRANCH, HOBIGONJ": [
+        "Holding No.: 08, Axay Mansion, Road: Dhaka-Sylhet Road, Ward: 07, Upazila: Madhabpur, District: Habiganj",
+        null,
+        "08327-56390"
+      ]
+    },
+    {
+      "MADHAIYA BAZAR, CUMILLA": [
+        "Madhaiya Bazar,Chandina,Cumilla.",
+        null,
+        null
+      ]
+    },
+    {
+      "MADINA MARKET BR, SYLHET": [
+        "Akhter Shopping Complex, Madina Market, PO:Sylhet 3100, PS: Jalalabad, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-728891"
+      ]
+    },
+    {
+      "MAGURA COR. BR.": [
+        "Magura, Magura.",
+        null,
+        "0488-62470"
+      ]
+    },
+    {
+      "MAHAJAN PATTY BR., BHOLA": [
+        "Bhola,Bhola.",
+        null,
+        "049161329"
+      ]
+    },
+    {
+      "MAHIGONJ BR, RANGPUR": [
+        "MAHIGONJ,RANGPUR",
+        null,
+        "052165284"
+      ]
+    },
+    {
+      "MAIDANDIGHI BR, PANCHAGARH": [
+        "Abdul Lotif Bhobon, Maidandighi, Boda, Panchagarh.",
+        null,
+        "01993337581"
+      ]
+    },
+    {
+      "MAIJDEE COURT CORPORATE BR, NOAKHALI": [
+        "Maijdee Court, Sadar, Noakhali-3800",
+        null,
+        "0321-61581"
+      ]
+    },
+    {
+      "MAINAMATI BAZAR, CUMILLA": [
+        "MAINAMATI BAZAR,COMILLA",
+        null,
+        "081-76765"
+      ]
+    },
+    {
+      "MAJHIRGHAT ROAD BR.": [
+        "96 Majhir Ghat road,Chattogram",
+        null,
+        "031-723856"
+      ]
+    },
+    {
+      "MAJIBNAGAR BR.": [
+        "Majibnagar, Meherpur",
+        null,
+        "07923-74015"
+      ]
+    },
+    {
+      "MALIBAGH BR.": [
+        "476/C, DIT road, Malibag, Dhaka",
+        null,
+        "9356775"
+      ]
+    },
+    {
+      "MALLIKBARI BR, MYMENSINGH": [
+        "MALLIKBARI,MYMENSINGH.",
+        null,
+        "01993337560"
+      ]
+    },
+    {
+      "MANDARI BAZAR, LAKHSMIPUR": [
+        "Mandari Bazar, Sadar, Laxmipur-3703",
+        null,
+        null
+      ]
+    },
+    {
+      "MANIKGONJ CORP. MANIKGONJ": [
+        "Manikganj Bazar Road(1st Fl.), P.O.PS. : Manikganj, Manikganj-1800",
+        null,
+        "7710289,7710389"
+      ]
+    },
+    {
+      "MANSHA BAZAR BR.": [
+        "Mansha Bazar, Bagerhat",
+        null,
+        null
+      ]
+    },
+    {
+      "MARKET CORP.BRANCH, MOULVI BAZAR": [
+        "Holding No.: 1034, Road: Kudratullah Road, Ward: 5, Upazila: Moulvibazar Sadar, District: Moulvibazar",
+        null,
+        "0861-52237"
+      ]
+    },
+    {
+      "MATHBARIA BR., PIROJPUR": [
+        "Mothbaria, Pirojpur",
+        null,
+        "0462575546"
+      ]
+    },
+    {
+      "MEHENDIGONJ BR., BARISHAL": [
+        "Mehendigonj, Barisal",
+        null,
+        "0432556006"
+      ]
+    },
+    {
+      "MEHERPUR CORP. BR.": [
+        "Meherpur, Meherpur",
+        null,
+        "0791-62539"
+      ]
+    },
+    {
+      "MELANDAH BR, JAMALPUR": [
+        "MELANDAH,JAMALPUR",
+        null,
+        "09826-56014"
+      ]
+    },
+    {
+      "MIAR HAT BR, NOAKHALI": [
+        "Bijbag, Meyerhat, Senbag, Noakhali",
+        null,
+        null
+      ]
+    },
+    {
+      "MIRABAZAR CORP. BR,SYLHET": [
+        "Rupali Bank Bhaban (Ground Floor), Uddipon-1046, Mira Bazar C/A, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-716119; 0821717609"
+      ]
+    },
+    {
+      "MIRKADIM BR. MUNSHIGONJ": [
+        "MIRKADIM , MUNSHIGONJ",
+        null,
+        "02-7611207"
+      ]
+    },
+    {
+      "MIRPUR CORP,BR, DHAKA.": [
+        "Libarty A.K. Tower(2nd and 3rd Floor),Holding:13-15,Amanat Khan Hospital Road,Road no-01Kolwalapara, Mirpur, Dhaka-1216",
+        null,
+        "9022334,9002314"
+      ]
+    },
+    {
+      "MITFORD ROAD CORP. BR.": [
+        "94,Chawk Mogoltully, Chawkbazar,Dhaka-1211",
+        null,
+        "02-57317645; 02-57317644"
+      ]
+    },
+    {
+      "MOGH BAZAR BR.": [
+        "115, Shahid taj Uddin Ahmed Sarani, Dhaka",
+        null,
+        "9356761"
+      ]
+    },
+    {
+      "MOHAKHALI BR., DHAKA": [
+        "Bibir Plaza(2ndFloor),103 Mohakhali R/A,Dhaka-1213",
+        null,
+        "222289722,222289722"
+      ]
+    },
+    {
+      "MOHAMAYA BAZAR, CHANDPUR": [
+        "MOHAMAYA BAZAR,COMILLA",
+        null,
+        null
+      ]
+    },
+    {
+      "MOHAMMADPUR BR, DHAKA": [
+        "Hazi Dilgoni Market,Bashbari,Sher-e-bangla Road,Mohammadpur,Dhaka-1207",
+        null,
+        "48119222"
+      ]
+    },
+    {
+      "MOHASTAN BR, BOGURA": [
+        "Mohasthan, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "MOKAMTOLA BR, BOGURA": [
+        "Mokamtola, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "MOLAMGARIHAT BR, JOYPURHAT": [
+        "Molamgarihat, Joypurhat.",
+        null,
+        null
+      ]
+    },
+    {
+      "MOLLAHAT BR.": [
+        "Mollahat, Bagerhat",
+        null,
+        "0465556009"
+      ]
+    },
+    {
+      "MOMINPUR BR.": [
+        "Mominpur, Chuadanga",
+        null,
+        "0761-64243"
+      ]
+    },
+    {
+      "MONGLAPORT BR.": [
+        "Monglaport, Bagerhat",
+        null,
+        "04658-73275"
+      ]
+    },
+    {
+      "MONIRAMPUR BR.": [
+        "Monirampur, Jashore",
+        null,
+        "04227-78433"
+      ]
+    },
+    {
+      "MONOHARGONJ BR., CUMILLA": [
+        "MONOHARGANJ,COMILLA",
+        null,
+        "08037-53119"
+      ]
+    },
+    {
+      "MONOHARPUR CORP. Branch CUMILLA": [
+        "MONOHARPUR,COMILLA",
+        null,
+        "081-76021, 081-65521"
+      ]
+    },
+    {
+      "MORRELGANJ BR., BAGERHAT": [
+        "Morrelganj, Bagerhat",
+        null,
+        "0465-656211"
+      ]
+    },
+    {
+      "MOSHAN BR.": [
+        "Moshan, Kushtia",
+        null,
+        "07026-56018"
+      ]
+    },
+    {
+      "MOTIGONJ BR. FENI": [
+        "Motigonj, Sonagazi, Feni.",
+        null,
+        null
+      ]
+    },
+    {
+      "MOTIJHEEL CORP.": [
+        "59,Motijheel C/A",
+        null,
+        "9566073, 9566072"
+      ]
+    },
+    {
+      "Motlob South Branch(City Br.)": [
+        "House:Hossain monjil,Holding:189,Ward:03,Motlob South Branch,Chandpur",
+        null,
+        null
+      ]
+    },
+    {
+      "MOULVIBAZAR BR.": [
+        "31/32, Asrar Mansion Moulovibazar, Chawkbazar, Dhaka",
+        null,
+        "57310340"
+      ]
+    },
+    {
+      "MUDAFFARGONJ BR, CUMILLA": [
+        "MUDAFFARGONJ,COMILLA",
+        null,
+        null
+      ]
+    },
+    {
+      "MUGDA BR.": [
+        "45/1, H, North Mugda, Dhaka",
+        null,
+        "7272719"
+      ]
+    },
+    {
+      "MUKSUDPUR BR.": [
+        "Fultola Shoping Fultola Bazar,Dohar, Dhaka.",
+        null,
+        "01712532075"
+      ]
+    },
+    {
+      "MUKTAGACHA BR, MYMENSINGH": [
+        "MUKTAGACHA,MYMENSINGH",
+        null,
+        "09028-75346"
+      ]
+    },
+    {
+      "MULADI BANDOR BR., BARISHAL": [
+        "Muladi,Barishal.",
+        null,
+        "0432675375"
+      ]
+    },
+    {
+      "MUNSHIGONJ CORP.BR, MUNSHIGONJ": [
+        "Josim Plaza 1st floor ,Bangbhandu road, Kachary, Munshiganj Sador, Munshiganj",
+        null,
+        "02-997731176"
+      ]
+    },
+    {
+      "N. M. NAGAR BR.": [
+        "Nalta Mubaraknagar, Satkhira",
+        null,
+        "04733-51005"
+      ]
+    },
+    {
+      "NABINAGAR BR. B. BARIA": [
+        "Nabinagar, Brahmanbaria",
+        null,
+        "08525-75217"
+      ]
+    },
+    {
+      "NAGARBARI BR, PABNA": [
+        "M E Tower, Nogorbari ghat, Bera, Pabna.",
+        null,
+        null
+      ]
+    },
+    {
+      "NAGER BAZAR BR.": [
+        "Nager Bazar, Bagerhat",
+        null,
+        "0468-62260"
+      ]
+    },
+    {
+      "Nageswari Branch,Kurigram": [
+        "Nagesshori Kurigram",
+        null,
+        null
+      ]
+    },
+    {
+      "NAKALIA BR, PABNA": [
+        "Noor Super Market, Nakalia bazar, Pabna.",
+        null,
+        null
+      ]
+    },
+    {
+      "NALDANGARHAT BR, NATORE": [
+        "Naldangarhat, Natore.",
+        null,
+        "0773-251034"
+      ]
+    },
+    {
+      "NALUARMUKH (KALAR ) BAZAR, MOULVI BAZAR": [
+        "Hazi Muslim Market, Naluarmukh (Kalar) Bazar, Kamalpur, Rajnagar, District: Moulvibazar",
+        null,
+        "01993-337465"
+      ]
+    },
+    {
+      "NAMAJGARH BR, BOGURA": [
+        "Namajgarh, Bogura.",
+        null,
+        "051-63552"
+      ]
+    },
+    {
+      "NAMOSANKERBATI BR, CHAPAI": [
+        "Namasankarbati, Chapai Nawabgonj.",
+        null,
+        "0781-52142"
+      ]
+    },
+    {
+      "NANDAIL BRANCH, MYMENSINGH": [
+        "Hazi Kais Uddin Market,Nandail ,Mymensingh.",
+        null,
+        "0902-964381"
+      ]
+    },
+    {
+      "NAOGAON CORP. BR, NAOGAON": [
+        "Naogaon Corp. Branch, Naogaon Sadar, Naogaon-6500",
+        null,
+        "02588882370"
+      ]
+    },
+    {
+      "NARAIL CORP. BR.": [
+        "Narail , Narail .",
+        null,
+        "0481-62554"
+      ]
+    },
+    {
+      "NARSINGDI CORP. NARSINGDI": [
+        "HOLDING NO.-504, SUTA PATTY, NARSINGDI SADAR, NARSINGDI",
+        null,
+        "02-9462576; 02-9463175"
+      ]
+    },
+    {
+      "Nasirnagar (Polly Branch)": [
+        "Nasirnagar,Brahmanbaria",
+        null,
+        null
+      ]
+    },
+    {
+      "NATIAPARA BR, TANGAIL": [
+        "NATIAPARA,TANGAIL",
+        null,
+        "01715326475"
+      ]
+    },
+    {
+      "NATORE CORP. BR, NATORE": [
+        "Nator Sadar, Staion Road, Natore.",
+        null,
+        "0771-62966; 0771-62967"
+      ]
+    },
+    {
+      "NATUN BAZAR CORP. BR, CHANDPUR": [
+        "NATUN BAZAR,CHANDPUR",
+        null,
+        "0841-63360; 0841-65008"
+      ]
+    },
+    {
+      "NATUN BAZAR BR.": [
+        "Natun Bazar, Khulna",
+        null,
+        "041-722457"
+      ]
+    },
+    {
+      "NATUNBAZAR, MOULVI BAZAR": [
+        "Holding No.: 332, Station Road, Ward: 06, Upazila: Sreemangal, District: Moulvibazar",
+        null,
+        "08626-71359"
+      ]
+    },
+    {
+      "NAVARON BR.": [
+        "Navaran, Jashore",
+        null,
+        "04228-75343"
+      ]
+    },
+    {
+      "NAWABGONJ BR.": [
+        "44,Nawab Gonj Road, Lalbagh.",
+        null,
+        "58611535"
+      ]
+    },
+    {
+      "NAWABPUR ROAD": [
+        "104-106 Imperial Super Market (1st floor), Nawabpur Road, Dhaka",
+        null,
+        "47117680, 47115654"
+      ]
+    },
+    {
+      "NAWBENKI BR.": [
+        "Nawabenky, Satkhira",
+        null,
+        null
+      ]
+    },
+    {
+      "NAYAGOLLA BAZAR BR.": [
+        "Baliadanga, Chapai Nawabgonj.",
+        null,
+        "0781-62538"
+      ]
+    },
+    {
+      "NAYAPALTAN CORP. DHAKA": [
+        "Kazi Tower, 86 Nayapaltan, Dhaka-1000",
+        null,
+        "02-222228984"
+      ]
+    },
+    {
+      "NAYARHAT BR, CHANDPUR": [
+        "Bhaban Name: Rajdhani Market,P.S: Foridgonj, Dist Chadpur",
+        null,
+        null
+      ]
+    },
+    {
+      "NAYATOLA BR.": [
+        "394/4, Modhubag, Sher-e-bangla school, Noyatola, Dhaka",
+        null,
+        "49357191"
+      ]
+    },
+    {
+      "NAZIRHAT BR.": [
+        "Zonkar Moor, Nazirhat Pourashava, Fatikchari, Chattogram.",
+        null,
+        null
+      ]
+    },
+    {
+      "NAZIRPARA BR. CHANDPUR": [
+        "NAZIRPARA,CHANDPUR",
+        null,
+        "0841-63138"
+      ]
+    },
+    {
+      "NETAI GANJ, N.GONJ": [
+        "4,6,7 shasuja road, netaigonj, Narayangonj",
+        null,
+        "02-7631032; 02-7630107"
+      ]
+    },
+    {
+      "NETROKONA CORPORATE BR, NETROKONA": [
+        "NETROKONA,NETRAKONA",
+        null,
+        "0951-61533"
+      ]
+    },
+    {
+      "NEW MARKET BR.": [
+        "307-310, Dhaka New Market.",
+        null,
+        "58614357, 58614438"
+      ]
+    },
+    {
+      "NEW MARKET CORP.": [
+        "34,D.M. Market, H.S.S road, Kotowali, Chattogram",
+        null,
+        "02333363065; 02333366276"
+      ]
+    },
+    {
+      "NEW RANIR HAT, FENI": [
+        "New Ranir Hat, DTM, Feni",
+        null,
+        "033174658"
+      ]
+    },
+    {
+      "NEW TOWN BR. PATUAKHALI": [
+        "DC Bhavon,Patuakhali.",
+        null,
+        "044162298"
+      ]
+    },
+    {
+      "NIAMATPUR BR, NAOGAON": [
+        "Niamatpur, Noagaon.",
+        null,
+        "07427-56001"
+      ]
+    },
+    {
+      "NICHABAZAR Br, NATORE": [
+        "Nicha Bazar, Natore.",
+        null,
+        "0771-62990"
+      ]
+    },
+    {
+      "NIKUNJA CORP. BR, DHAKA": [
+        "Asian Tower, Road-21, Dhaka-Mymensingh Road, Khilkhet, Dhaka",
+        null,
+        "8900267"
+      ]
+    },
+    {
+      "NILGONJ BR. KISHOREGONJ": [
+        "NILGONJ,KISHOREGONJ",
+        null,
+        "01993337892"
+      ]
+    },
+    {
+      "NILPHAMARI CORP. BR,NILPHAMARI": [
+        "Nilphamari Sadar, Nilphamari.",
+        null,
+        "055161304"
+      ]
+    },
+    {
+      "NOJUMIA HAT BR.": [
+        "Neamot Ali Road, Po-Nurali Bari-4337,Ps-Hathazari, Chattogram",
+        null,
+        "031-670433"
+      ]
+    },
+    {
+      "NORTH SOUTH ROAD BR.": [
+        "137, Hazi Osman Goni Road, Kamru Mansion, Alu Bazar, Dhaka",
+        null,
+        "9554730"
+      ]
+    },
+    {
+      "NOWPARA BRANCH, MUNSHIGONJ": [
+        "Amin Complex, Nowpara Bazar, Nowpara, Louhagonj, Munshiganj.",
+        null,
+        "01993337684"
+      ]
+    },
+    {
+      "O.R. NIZAM ROAD CORP. BR": [
+        "O. R. Nizam Road, Panchlish, Chattogram",
+        null,
+        "031-2557220; 031-2557212-13"
+      ]
+    },
+    {
+      "OMAR ALI MARKET BR.": [
+        "Asraf Ali Road, Patharghata, Kotowali, Chattogram",
+        null,
+        "031-633334"
+      ]
+    },
+    {
+      "PABNA CADET COLLEGE BR.PABNA": [
+        "Zalalpur, Pabna",
+        null,
+        "0731-65334"
+      ]
+    },
+    {
+      "PABNA CORPORATE BR.PABNA": [
+        "Biswash commercial complex, Traffic Mor, Pabna",
+        null,
+        "0731-66171; 0731-65365"
+      ]
+    },
+    {
+      "PAHARTALI BRANCH": [
+        "460/1, Hotel Al-Amin Bhaban, D.T Road, P.O- Pahartali, P.S- Double Mooring, Chattogram.",
+        null,
+        "02-43150797; 031-751793"
+      ]
+    },
+    {
+      "PAIKGACHA BR.": [
+        "Paikgacha, Khulna",
+        null,
+        "04027-56006"
+      ]
+    },
+    {
+      "PAJIA BAZAR BR.": [
+        "Pajia Bazar, Jashore",
+        null,
+        "01720094038"
+      ]
+    },
+    {
+      "PAKULLA BR, TANGAIL": [
+        "Pakulla Bazar, Union: Jamurki, Upazila: Mirzapur, Tangail",
+        null,
+        "01712560218"
+      ]
+    },
+    {
+      "PALASH BRANCH, NARSHINGDI": [
+        "Mujib Market,Holding No.-25,sar karkhana Road, Khanepur Mor, Ghorashal,Palash,Narsingdi.",
+        null,
+        "02-9466449"
+      ]
+    },
+    {
+      "PALLA BAZAR, NOAKHALI": [
+        "Palla Bazar, Chatkhil, Noakhali-3871",
+        null,
+        null
+      ]
+    },
+    {
+      "PALLABI BRANCH, DHAKA": [
+        "Plot-21(1st Floor), Main Road-3, Block-A, Section-11, P/o-Mirpur, P/S-Pallabi, Dhaka.",
+        null,
+        "02-48031670"
+      ]
+    },
+    {
+      "PANCHA GARH CORP. BR, PANCHAGARH": [
+        "Panchagarh Sadar, Panchagarh.",
+        null,
+        "0568-61247"
+      ]
+    },
+    {
+      "PANCHLAISH BRANCH": [
+        "21,Sultan mansion, Panchlaish R/A, Chattogram",
+        null,
+        "031-652898"
+      ]
+    },
+    {
+      "PANGSHA BR, RAJBARI": [
+        "Anup Datta Market, Station Road, Pangsha, Rajbari",
+        null,
+        "06424-75204"
+      ]
+    },
+    {
+      "PATGRAM BR, LALMONIRHAT": [
+        "Rasulgonj Bazar, Patgram, Lalmonirhat",
+        null,
+        "0592556214"
+      ]
+    },
+    {
+      "PATHARGHATA BR, PATUAKHALI": [
+        "Patharghata, Barguna.",
+        null,
+        "0445575116; 01993337961"
+      ]
+    },
+    {
+      "PATHERHAT BR.": [
+        "vill: Guzura Noapara,Thana: Roazan, District: Chattogram-4340",
+        null,
+        "0371-670040"
+      ]
+    },
+    {
+      "PATHRAIL BAZAR, TANGAIL": [
+        "PATHRAIL BAZAR,TANGAIL",
+        null,
+        "01783511122"
+      ]
+    },
+    {
+      "PATIYA BRANCH": [
+        "HAZI KABIR MARKET, PATIYA, CHATTOGRAM",
+        null,
+        "030-3556226"
+      ]
+    },
+    {
+      "PATUA BHANGHA DORGA BAZAR, KISHOREGONJ": [
+        "Patuavanga Dorgabazaar, Kisorganj",
+        null,
+        "01993337904"
+      ]
+    },
+    {
+      "PATUAKHALI CORP. PATUAKHALI": [
+        "Natun Bazar,Patuakhali.",
+        null,
+        "044162284; 044165119"
+      ]
+    },
+    {
+      "PATUAKHALI SCI. & TECH. BR.": [
+        "Dumkey,Patuakhali.",
+        null,
+        "0442756211"
+      ]
+    },
+    {
+      "PATUATULLY BR.": [
+        "41, Patuatuli",
+        null,
+        "57393027, 57394723"
+      ]
+    },
+    {
+      "PHULTALA BR.": [
+        "Phultala, Khulna",
+        null,
+        "041-701599"
+      ]
+    },
+    {
+      "PIROJPUR CORPORATE BRANCH, PIROJPUR": [
+        "PIROJPUR, PIROJPUR",
+        null,
+        "0461-62555"
+      ]
+    },
+    {
+      "POSTAGOLA BR.": [
+        "38, DIT plot, Postogola, Dhaka-1204",
+        null,
+        "47441643"
+      ]
+    },
+    {
+      "POURASAVA MARKET BR, RAJBARI": [
+        "POURASHAVA MARKET,RAJBARI",
+        null,
+        "0641-65433"
+      ]
+    },
+    {
+      "POURASAVA MARKET, NOAKHALI": [
+        "Sonapur, Sadar, Noakhali-3802",
+        null,
+        "0321-62197"
+      ]
+    },
+    {
+      "PURABARI BR, MYMENSINGH": [
+        "Purabari Bazar,Khagatipara,Trishal, Mymensingh",
+        null,
+        "01993337906"
+      ]
+    },
+    {
+      "PURANA PALTAN CORP. BR.": [
+        "Monisingh Forhad Smriti Trust Bhaban, 21/2, Purana Paltan, Dhaka-1000",
+        null,
+        "9560544, 9512532"
+      ]
+    },
+    {
+      "PUTIAKHALI BANDAR BR.": [
+        "Hat Putiakhali, Jhalokati",
+        null,
+        "01993337945; 01752353222"
+      ]
+    },
+    {
+      "QUADIRABAD CANT. BR. NATORE": [
+        "Kadirabad Cantt., Doyarampur, Natore.",
+        null,
+        "07722-72051"
+      ]
+    },
+    {
+      "R.K ROAD BR, RANGPUR": [
+        "Mouchawk Complex, Dhap Jail Road, Rangpur.",
+        null,
+        "052165649"
+      ]
+    },
+    {
+      "RAHMATPUR BR., BARISHAL": [
+        "RAHMATPUR,Babugonj,BARISAL",
+        null,
+        "0432773388"
+      ]
+    },
+    {
+      "RAHUTHOR BAZAR, GOPALGONJ": [
+        "Rahuthor Bazar Br. Gopalgong",
+        null,
+        null
+      ]
+    },
+    {
+      "RAILWAYA CROSSING BR, RANGPUR": [
+        "Alamnagar, DRCS Road, Rangpur.",
+        null,
+        "052165402"
+      ]
+    },
+    {
+      "RAIPUR BAZAR BR.": [
+        "Raipur Bazar, Jashore",
+        null,
+        "01720141922"
+      ]
+    },
+    {
+      "RAJA GONJ BR. SYLHET": [
+        "Hazi Jomshed Ali Shopping Complex, Union: Rajagonj, PS: Kanaighat, Dist:Sylhet",
+        null,
+        "01779406027"
+      ]
+    },
+    {
+      "RAJAPUR BR.": [
+        "Rajapur, Khulna",
+        null,
+        "041-800043"
+      ]
+    },
+    {
+      "RAJARBAGH BR.": [
+        "172, Outer Circular Road, Uttar Shahjahanpur, Dhaka-1217",
+        null,
+        "9356656"
+      ]
+    },
+    {
+      "RAJBARI CORPORATE BR, RAJBARI": [
+        "Saleha Akkash Tower, College Road, Rajbari",
+        null,
+        "064165424"
+      ]
+    },
+    {
+      "RAJGONJ BAZAR, NOAKHALI": [
+        "Rajgonj Bazar, Begumgonj, Noakhali-3834",
+        null,
+        null
+      ]
+    },
+    {
+      "RAJGONJ CORPORATE BRANCH, CUMILLA": [
+        "RAJGONJ BR. COMILLA",
+        null,
+        "081-73672,081-76042"
+      ]
+    },
+    {
+      "RAJSHAHI CANTONMENT BR.": [
+        "Uposhohor, Rajshahi.",
+        null,
+        "0721-761126"
+      ]
+    },
+    {
+      "RAJSHAHI CORP. BR. RAJSHAHI": [
+        "GM Tower, Ghoramara, Boalia, Rajshahi.",
+        null,
+        "0721-774150; 0721-772730"
+      ]
+    },
+    {
+      "RAKHALGONJ BR, SYLHET": [
+        "Rakhalgonj Bazar, PO: Rakhalgonj, Upazila: South Surma, Dist:Sylhet",
+        null,
+        "01993337449"
+      ]
+    },
+    {
+      "RAMDIA COLLEGE, GOPALGONJ": [
+        "RAMDIA , GOPALGONJ",
+        null,
+        null
+      ]
+    },
+    {
+      "RAMGARH BRANCH": [
+        "Ramgarh Bazer, PO: Ramgarh,PS: Ramgarh, Dist: khagrachari",
+        null,
+        "0371-46083"
+      ]
+    },
+    {
+      "RAMGOTI BAZAR, LAKHSMIPUR": [
+        "Ramgoti Bazar, Ramgoti, Laxmipur-3730",
+        null,
+        null
+      ]
+    },
+    {
+      "RAMNA CORP. BR.": [
+        "13,B.B. Avenue,gulisthan, Dhaka",
+        null,
+        "02-9551069; 02-9563091"
+      ]
+    },
+    {
+      "RAMPUR BAZAR,CHANDPUR": [
+        "RAMPURA BAZAR,CHANDPUR",
+        null,
+        null
+      ]
+    },
+    {
+      "RAMPURA BR.": [
+        "5/1, DIT Road, West Rampura, Dhaka",
+        null,
+        "02222222937"
+      ]
+    },
+    {
+      "RAMU BR.": [
+        "Hazi Complex(2nd Floor), Chowmohoni, Ramu, Cox's Bazar.",
+        null,
+        "03425-56056"
+      ]
+    },
+    {
+      "RANGAMATI CORP. BR.": [
+        "Jeti Ghat, Reserve Bazar, Rangamati",
+        null,
+        "0351-63110"
+      ]
+    },
+    {
+      "RANGPUR CORP BR,RANGPUR": [
+        "G L Roy Road, Kotowali, Rangpur.",
+        null,
+        "0521-62328; 052162237"
+      ]
+    },
+    {
+      "RANINAGAR BR.": [
+        "Khan Market,Raninagar,Naogoan",
+        null,
+        null
+      ]
+    },
+    {
+      "RANIRBANDOR BR, DINAJPUR": [
+        "Ranirbandar, Chirirbandar, Dinajpur",
+        null,
+        "05342-51043"
+      ]
+    },
+    {
+      "RAOZAN BRANCH": [
+        "City Plaza (2nd Floor) Munshir ghata, Raozan, Chattogram",
+        null,
+        "03026-56011"
+      ]
+    },
+    {
+      "RATANGONJ BAZAR, TANGAIL": [
+        "RATANGONJ BAZAR,TANGAIL.",
+        null,
+        "01715326474"
+      ]
+    },
+    {
+      "RATHKHOLA BR.": [
+        "36, Nawabpur",
+        null,
+        "47116600"
+      ]
+    },
+    {
+      "RAYER BAZAR BR, MYMENSINGH": [
+        "Atharobari,Ishwargonj, Mymenshing",
+        null,
+        "09043-56166"
+      ]
+    },
+    {
+      "REKABI BAZAR BR, SYLHET": [
+        "Raj Plaza, Rekabi Bazar, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821714978"
+      ]
+    },
+    {
+      "ROHANPUR BR, CHAPAI": [
+        "Rohanpur,Chapai Nowabgonj.",
+        null,
+        "07823-74048"
+      ]
+    },
+    {
+      "ROKEYA SARANI BR, DHAKA": [
+        "Hazi Ashraf Ali Super Market, Holding No.888/1, Begum Rokeya Sarani Road, Ward no. 14, DNCC, P.S: Kafrul",
+        null,
+        "02-58050665"
+      ]
+    },
+    {
+      "RUET BR, RAJSHAHI": [
+        "RUET, Matihar, Rajshahi.",
+        null,
+        "02588866800"
+      ]
+    },
+    {
+      "RUPALI SADAN BR.": [
+        "K.D.Ghose Road, Khulna",
+        null,
+        "041-721578; 041-724163"
+      ]
+    },
+    {
+      "RUPALI SADAN CORP.": [
+        "Rupali Bank Tower, Holding no: 442, Laldighir par, Main Road, Sadar, Cox's Bazar",
+        null,
+        "0341-63277; 0341-63278"
+      ]
+    },
+    {
+      "RUPALI SADAN CORP. BR.": [
+        "7/8, Central Insurance Bhaban,(1st Floor) Motijheel, Dhaka-1000",
+        null,
+        "57164330, 47113859"
+      ]
+    },
+    {
+      "RUPALI SADAN CORP. BR. CHATTOGRAM": [
+        "Zila Porisad Tower, Court Road, P.S: Kotowali, Chattogram.",
+        null,
+        "031-619426; 031-630397"
+      ]
+    },
+    {
+      "S.K.ROAD CORP.BRANCH, NARAYANGONJ": [
+        "32, S.K.Road, Narayangonj",
+        null,
+        "7632580,7632581,7632916"
+      ]
+    },
+    {
+      "SADAR ROAD CORP. BARISHAL": [
+        "SADAR ROAD,BARISAL",
+        null,
+        "043163839"
+      ]
+    },
+    {
+      "SADARGHAT BR.": [
+        "642, Hazi Market, Sadarghat Road, Chattogram",
+        null,
+        "031-614443"
+      ]
+    },
+    {
+      "SADARGHAT BR.": [
+        "Jolil mension 77, patuatuli Road",
+        null,
+        "9591982"
+      ]
+    },
+    {
+      "SAFDERPUR BR.": [
+        "Safderpur, Jhinaidah",
+        null,
+        "01720093420"
+      ]
+    },
+    {
+      "SAGARDI BAZAR BR, BARISHAL": [
+        "SAGARDI BAZAR,BARISAL",
+        null,
+        "043171620"
+      ]
+    },
+    {
+      "SAGARIKA ROAD BR.": [
+        "J J Tower; N/557; D T Road; Pahartali; Chattogram.",
+        null,
+        "031-2771451"
+      ]
+    },
+    {
+      "SAKHIPUR BR, TANGAIL": [
+        "Sokhipur, Tangail",
+        null,
+        "09232-56280"
+      ]
+    },
+    {
+      "SALTGOLA CORP.": [
+        "Hajee Nur Hossain Plaza, Eshan Mistree Hat, Saltgola,Bondor-4100, Chattogram.",
+        null,
+        "031-742120; 031-741210"
+      ]
+    },
+    {
+      "SANTHIA BR, PABNA": [
+        "Santia bazar, Santia, Pabna",
+        null,
+        "07327-56142"
+      ]
+    },
+    {
+      "SARISHABARI BR, JAMALPUR": [
+        "SARISHABARI,JAMALPUR.",
+        null,
+        "09827-56011"
+      ]
+    },
+    {
+      "SATKHIRA CORP. BR.": [
+        "Satkhira ,Satkhira",
+        null,
+        "0471-63379"
+      ]
+    },
+    {
+      "SATURIA BR. MANIKGONJ": [
+        "Saturia Adharasha Pilot High School market, Nandessari, Saturia bazar,Manikgonj-1800",
+        null,
+        "7725002"
+      ]
+    },
+    {
+      "SAVAR BUS STAND, DHAKA": [
+        "B/22 Bazer Road(1st Floor),Bilash cinema hall,Savar,Dhaka-1343",
+        null,
+        "02-224443868"
+      ]
+    },
+    {
+      "SAVAR CANT BR. DHAKA": [
+        "Bhai Bhai Super Market(1st Floor),Dendabor,Savar cant. Dhaka-1343",
+        null,
+        "7788648"
+      ]
+    },
+    {
+      "SCIENCE LABORATORY BR.": [
+        "28, Mirpur Road, New Market, Dhaka",
+        null,
+        "58611147"
+      ]
+    },
+    {
+      "SENBAGH BRANCH": [
+        "Bhaban: Abdur Rob Tower, Holding No.:366, Village: Senbagh Bazar, DB Road, Ward No.:03, Senbagh Pourashava, PS: Senbagh, District: Noakhali",
+        null,
+        null
+      ]
+    },
+    {
+      "SHABEKPARA BR, BOGURA": [
+        "Shahekpara, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "SHAHATALI BAZAR, CHANDPUR": [
+        "Shahtali Bazar, Chandpur",
+        null,
+        null
+      ]
+    },
+    {
+      "SHAHEED ABRAR FAHAD AVENUE CORP BR.": [
+        "37, Shaheed Abrar Fahad Avenue, Dhaka-1000",
+        null,
+        "9556102 , 9560395"
+      ]
+    },
+    {
+      "SHAHZADPUR BR. SIRAJGANJ": [
+        "Chandrolekha super Market, Shahzadpurbazar, Sirajgonj",
+        null,
+        "07257-64516"
+      ]
+    },
+    {
+      "SHAILKUPA BR.": [
+        "Madina Super Market,Thana Road,Shailkupa",
+        null,
+        "04526-56055"
+      ]
+    },
+    {
+      "SHAKPURA BR.": [
+        "Hazi Maksuda, Market, Shakpura, Chowmuhani, Boalkhali, chattogram",
+        null,
+        "01534003578"
+      ]
+    },
+    {
+      "SHAMS BUILDING BR.": [
+        "Shams Building, Khulna",
+        null,
+        "041-722064; 041-732301; 041-724240"
+      ]
+    },
+    {
+      "SHANTIRHAT BR.": [
+        "Rahman shopping center,Shantirhat, Mirsarai, Chattogram.",
+        null,
+        null
+      ]
+    },
+    {
+      "SHARIAL BAZAR BRANCH, MANIKGONJ": [
+        "Kalachan Tower, Shahrail, Singair, Manikganj",
+        null,
+        null
+      ]
+    },
+    {
+      "SHARIATPUR CORP. BR. SHARIATPUR": [
+        "Palong Bazar, Main Road, Shariatpur",
+        null,
+        "0601-61543"
+      ]
+    },
+    {
+      "SHARSADI BAZAR, FENI": [
+        "Sharshadi Bazar, Feni",
+        null,
+        null
+      ]
+    },
+    {
+      "SHERPUR TOWN CORPORATE BR, SHERPUR": [
+        "SHERPUR TOWN,SHERPUR.",
+        null,
+        "0931-61524"
+      ]
+    },
+    {
+      "SHIBCHAR BRANCH, MADARIPUR": [
+        "Khalifa Potti, Shibchar Bazar, Shibchar, Madaripur",
+        null,
+        "06624-56309"
+      ]
+    },
+    {
+      "SHIBGONJ BR, BOGURA": [
+        "Shibganj, Bogura.",
+        null,
+        "05033-69004"
+      ]
+    },
+    {
+      "SHIKARIPARA BR.": [
+        "Shikaripari, Nawabganj",
+        null,
+        "01811145934"
+      ]
+    },
+    {
+      "SHIKARPUR BR., BARISHAL": [
+        "SHIKAR PUR,BARISAL.",
+        null,
+        "0432956096"
+      ]
+    },
+    {
+      "SHIKDERHAT BR, DINAJPUR": [
+        "HRS Complex, Shikderhat, Dinajpur.",
+        null,
+        "0531-63448"
+      ]
+    },
+    {
+      "SHIYALKOLE BR, SIRAJGANG": [
+        "Shialkole bazar, Sirajgonj sodor, Sirajgonj.",
+        null,
+        null
+      ]
+    },
+    {
+      "Sholla Bazar Branch": [
+        "Sholla Bazar,Nawabgonj,Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "SHOSHAIR CHAR, CHANDPUR": [
+        "Faridganj,Chandpur",
+        null,
+        null
+      ]
+    },
+    {
+      "SHUKHANPUKUR BR, BOGURA": [
+        "Sukhanpukur, Bogura.",
+        null,
+        null
+      ]
+    },
+    {
+      "SHYAMBAZAR BR.": [
+        "38/A North brook hall road, 2nd floor",
+        null,
+        "47114610"
+      ]
+    },
+    {
+      "SHYAMGONJ BR, MYMENSINGH": [
+        "SHYAMGONJ,NETRAKONA",
+        null,
+        "01810684331"
+      ]
+    },
+    {
+      "SHYAMOLI BR., DHAKA": [
+        "24/ 1& 24/2, Biruttam Anm Nuruzzaman Sarak, Shymoli Sinema Hall Bhabon, P.S.:Mohammadpur, Dhaka-1207P.S.:Mohammadpur, Dhaka-1207",
+        null,
+        "02-48117569; 02-58151953"
+      ]
+    },
+    {
+      "SINGRA BRANCH, NATORE.": [
+        "Singra,Natore.",
+        null,
+        "07726-63044"
+      ]
+    },
+    {
+      "Sirajdikhan": [
+        "sirajdikhan,Munshiganj Branch (Polly Branch)",
+        null,
+        null
+      ]
+    },
+    {
+      "SIRAJGANJ CORP.BR, SIRAJGANJ": [
+        "Noor Market, S S Road, Sirajgonj.",
+        null,
+        "0751-62690"
+      ]
+    },
+    {
+      "SMR ROAD BR.": [
+        "H.M.M. Road, Jashore",
+        null,
+        "0421-68556"
+      ]
+    },
+    {
+      "SONAPUR BR. LAKHSMIPUR": [
+        "Sonapur Bazar, Ramgonj, Laxmipur-3720",
+        null,
+        "03824-75001"
+      ]
+    },
+    {
+      "SREEMANGAL BR, MOULVI BAZAR": [
+        "Al Falah Market, Puran Bazar, Ward No-07, Upazila: Sreemangal, District: Moulvibazar",
+        null,
+        "08626-71504"
+      ]
+    },
+    {
+      "Sreenagar Branch,Munshiganj(Polli Br.)": [
+        "House:Sreenagar Plaza, Sreenagar, Munshiganj",
+        null,
+        "01993337835"
+      ]
+    },
+    {
+      "STATION ROAD BR, SYLHET": [
+        "Green Super Market, Holding No-2717-00, Station Road, PS: Dakshin Surma, Ward-26, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-714830"
+      ]
+    },
+    {
+      "STATION ROAD BR., KHULNA": [
+        "I.W.T.A (Terminal), Khulna",
+        null,
+        "041-721187"
+      ]
+    },
+    {
+      "STATION ROAD CORP.": [
+        "113 Station Road, Abul Hossen Market, Chattogram",
+        null,
+        "031-613886; 031-619259"
+      ]
+    },
+    {
+      "SULTANPUR BR, SYLHET": [
+        "Morarbazar, PO:Gohorpur-3128, PS: Balaganj, Dist:Sylhet",
+        null,
+        "01993-337453"
+      ]
+    },
+    {
+      "SUNAMGONJ CORP. BR, SUNAMGONJ": [
+        "Sarpinia Bhaban (1st Floor), Moddobazar, Upazila: Sunamganj Sadar, District: Sunamganj",
+        null,
+        "087161319"
+      ]
+    },
+    {
+      "SWARUPKATHI BR, PIROJPUR": [
+        "SWARUPKATI,PIROJPUR.",
+        null,
+        "0462756022"
+      ]
+    },
+    {
+      "SWASTIPUR BR.": [
+        "Swastipur, Kushtia",
+        null,
+        null
+      ]
+    },
+    {
+      "SYEDPUR BR, NILPHAMARI": [
+        "SAIDPUR, NILPHAMARI",
+        null,
+        "0552672251"
+      ]
+    },
+    {
+      "SYEDPUR BR, SUNAMGONJ": [
+        "Radish Shopping Complex, Syedpur, Upazila: Jagannathpur, District: Sunamganj",
+        null,
+        "01834866420"
+      ]
+    },
+    {
+      "SYMRAR BAZAR BR. MOULVI BAZAR": [
+        "Montaj Uddin Cottage (2nd Floor), Village: Bangaon (Borman), Ward No-08, Union: 6 No Ekatuna, Post: Ita-Sinkapon-3200, Upazila: Moulvibazar Sadar, District: Moulvibazar",
+        null,
+        "01993-337471"
+      ]
+    },
+    {
+      "TABALCHARI BAZAR BR.": [
+        "Tabalchari Bazar, Kotoali, Rangamati",
+        null,
+        "0351-63176"
+      ]
+    },
+    {
+      "TAJUMUDDIN BR.,BHOLA": [
+        "Tazumuddin, Bhola",
+        null,
+        "0492756167"
+      ]
+    },
+    {
+      "TAL MOHAMMAD (T. M.) HAT BRANCH, NOAKHALI": [
+        "Bamonie, Companygonj, Noakhali",
+        null,
+        null
+      ]
+    },
+    {
+      "TALTOLA BR, SYLHET": [
+        "02, Municipality, Taltola, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-714098"
+      ]
+    },
+    {
+      "TANBAZAR CORP. N.GONJ": [
+        "52 S.M Maleh Road,Tanbazar,Narayangonj",
+        null,
+        "02-7633186"
+      ]
+    },
+    {
+      "TANGAIL CORP. BR, TANGAIL": [
+        "TANGAIL,TANGAIL",
+        null,
+        "092163361; 0921-64304"
+      ]
+    },
+    {
+      "TANORE BR. RAJSHAHI": [
+        "Prodip super market,Tanore, Rajshahi.",
+        null,
+        "0247-851004"
+      ]
+    },
+    {
+      "TARAGONJ BR,RANGPUR": [
+        "TARAGONJ,RANGPUR",
+        null,
+        "0522856196"
+      ]
+    },
+    {
+      "TCB BHABAN CORP. BR. DHAKA": [
+        "TCB Bhaban, 1 No Karwan Bazar, Tejgaon, Dhaka-1215.",
+        null,
+        "9141422, 55013747"
+      ]
+    },
+    {
+      "TENGRABAZAR BR, MOULVI BAZAR": [
+        "Road: Kulaura Road, Union: Tengrabazar, Upazila: Rajnagar, District: Moulvibazar",
+        null,
+        "08625-75071"
+      ]
+    },
+    {
+      "TERRIBAZAR CORP.": [
+        "170, Hardinge Medicene Market, Hazari Lane, Kotowali, Chattogram-4000.",
+        null,
+        "031-611106"
+      ]
+    },
+    {
+      "TETULTALA BR, RANGPUR": [
+        "Alamnagar, Grand Hotel Mor, Rangpur.",
+        null,
+        "052165231"
+      ]
+    },
+    {
+      "THAKURGAON CORPORATE BR,THAKURGAON": [
+        "Shahid Md. Ali Sarak, Thakurgaon.",
+        null,
+        "0561-53402"
+      ]
+    },
+    {
+      "THANAGHAT BR, MYMENSINGH": [
+        "43 Thana Ghat Congress Jubilee Road Sadar,MYMENSINGH",
+        null,
+        "091-67605"
+      ]
+    },
+    {
+      "TMSS BR, BOGURA": [
+        "T.m.s.s br., Bogura.",
+        null,
+        "051-63624"
+      ]
+    },
+    {
+      "TOMALTOLA BAZAR, NATORE": [
+        "Tomaltola Bazar, Natore.",
+        null,
+        "0772-272381"
+      ]
+    },
+    {
+      "TONGI BRANCH, GAZIPUR": [
+        "Jalil Market(1st Fl.), Bata Gait, P.O.: Monnunagar & P.S.: Tongi, Gajipur-1710",
+        null,
+        "02-9810325"
+      ]
+    },
+    {
+      "TRISHAL BRANCH, MYMENSINGH": [
+        "TRISHAL,MYMENSINGH",
+        null,
+        "09032-56013"
+      ]
+    },
+    {
+      "TUNGIPARA, GOPALGONJ": [
+        "Mazar Road, Tungipara, Gopalgonj",
+        null,
+        "02-6656337"
+      ]
+    },
+    {
+      "TUTAIL BR.": [
+        "Totail, Bangla Bazar, Nawabganj, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "URDU ROAD BR.": [
+        "39 Urdu Road, Lalbagh, Dhaka 1100",
+        null,
+        "51315796"
+      ]
+    },
+    {
+      "URKIRCHAR BR.": [
+        "Urkirchar, Raozan, Chattogram",
+        null,
+        "031-671039"
+      ]
+    },
+    {
+      "UTTAR KHAN BRANCH, DHAKA": [
+        "Trim Tower(2nd Floor), 169/A/1, Helal Market,Uttar Khan, Uttara, Dhaka-1230.",
+        null,
+        "48952404"
+      ]
+    },
+    {
+      "UTTARA MODEL TOWN CORPORATE BRANCH, DHAKA": [
+        "Nawab Habibullah Ideal High School Bhabon,Plot no.-02 Shahjalal Avenue,sec-4,Uttara Model Town",
+        null,
+        "02-48963198; 02-58951164"
+      ]
+    },
+    {
+      "VITIBISHARA BRANCH,BRAHMANBARIA": [
+        "Vitibishara,Rotonpur,Brahmanbaria",
+        null,
+        null
+      ]
+    },
+    {
+      "YOUSUF MARKET BR.": [
+        "31/5, Yusuf Market Nawabazar , Dhaka",
+        null,
+        "51931469"
+      ]
+    },
+    {
+      "ZINDABAZAR BRANCH, SYLHET": [
+        "Al Hamra Shopping City (1st Floor), Holding-02-013-1135, PO:Sylhet-3100, PS: Kotwali, Ward-02, Sylhet City Corporation, Dist:Sylhet",
+        null,
+        "0821-716562"
+      ]
+    },
+    {
+      "ZINZIRA BR.": [
+        "Chunkutia, Pakapul, Shubadda, Keraniganj,Dhaka",
+        null,
+        "7764533"
+      ]
+    },
+    {
+      "LOCAL OFFICE": [
+        "Rupali Bhaban, 34-Dilkusha Commercial Area, Dhaka-1000.",
+        null,
+        null
+      ]
+    }
   ],
-  "branch_address": [
-    "Abdulpur, Natore.",
-    "KDS Bhaban, Abu Torab Bazar, Mirsarai, Chattogram",
-    "Holding-19, B/2-C&19, B/2-D, Ring Road,Adabor, Mohammadpur, Dhaka-1207",
-    "ADITMARI,LALMONIRHAT",
-    "Agarpur, Babuganj, Barishal",
-    "SIWAN HOUSE,9, AGRABAD C/A,CHATTOGRAM",
-    "Sylhet Agricultural University Campus, PO:Sylhet 3100, PS: Shahporan (R), Sylhet City Corporation, Dist:Sylhet",
-    "Akkelpur, Joypurhat.",
-    "AR complx(2nd floor),Hai Road,Alamdanga,Chuadanga",
-    "Alfadanga Police Station, Alfadanga, Faridpur",
-    "Alipur bazar, Kalapara,Patuakhali.",
-    "Altafnagar, Bogura.",
-    "6, Ramjoy Mohajon Lane, Khatun gong, Chattogram",
-    "Ahammadpur, Sonagazi, Feni.",
-    "Amishapara, Sonaimuri, Noakhali- 3847",
-    "amtoli, Barguna",
-    "Annadanagar, Pirgacha, Rangpur.",
-    "Kalam Chaiman Market(2nd Floor) Anowara Sadar, Chattogram",
-    "Bhuiyan Plaza, Araihazar, Narayanganj",
-    "G.K. Plaza,1st Floor, Holding:1374,Aramnagar Bazar, Ward No:02, Thana: Sarishabari, Pourashava: Sarishabari, Jamalpur",
-    "Khudeza Hermat Trust ,2 Commercial Plot,Mohammad pur Housing,Dhaka-1207",
-    "Ashuganj, Brahmanbaria",
-    "Mokarrom Market, Ataikula bazar, Santia, Pabna",
-    "Nahar Garden,Sheikh complex,Atrai,Naogaon",
-    "Rashid-Sufia Complex, Aushkandi Bazar, Upazila: Nabiganj, District: Habiganj",
-    "Shorif Market, Autapara bazar, Iswardi, Pabna",
-    "Village: Azimgonj Bazar, Union: Sujanagar, Upazila: Barlekha, District: Moulvibazar",
-    "6, S.S. Road (1st floor) Chamber RoadNarayangonj - 1400",
-    "Haji Abdul Mojid Market (1st Floor), Babur Bazar, Ward-08, Union-5 No. Zakiganj, PO: Thanabazar, Upazila: Zakiganj, Dist:Sylhet",
-    "PURAN BAZAR,CHANDPUR",
-    "77/06,Ward No.06,Madhobdi,Narsingdi",
-    "Badalgachi,Noagoan.",
-    "62, Islampur Road Dhaka.",
-    "Lucky Mansion (1st Floor), House-69, Rajbari Rastar More, P.O:Komorpur, Badarpur, Faridpur",
-    "BADIAKHALI,GAIBANDHA",
-    "PO: Bagachra Bazaar, PS: Sharsha, Dist: Jashore",
-    "Sagor Super Market, Bagbatihat bazar, Sirajgonj sodor, Sirajgonj.",
-    "Bagerhat, Bagerhat",
-    "BAGMARA BAZAR, LALMAI, CUMILLA",
-    "Baherchor,Rangabali,Patuakhali.",
-    "Baira Bazar, Baira,Manikgonj",
-    "A.B. Siddique Tower, Holding No: 457, Haji Ilias Road, Paurosova and Thana: Bajidpur, Dist: Kishoregonj",
-    "Bakergonj,Barishal",
-    "Nekmarad Road, Baliadangi, Thakurgaon.",
-    "Building: Bismillah Plaza, Area: Baligaon Bazar, Union: Arial, P.O: Baligaon, Tongibari, Munshiganj",
-    "BALIPARA,MYMENSINGH",
-    "BALLA BAZAR,TANGAIL",
-    "Balua Chowmuhani, Ramgonj, Laxmipur-3720",
-    "Banaripara, Barishal",
-    "Newcourt building Area, kotowali, Rangamati",
-    "New Oriental Shoping Centre, Holding No-2001-33, Bandarbazar Sarak, Ward No-15, PO:Sylhet, Thana: Kotwali, Sylhet",
-    "Bandarban Branch, Bandarban",
-    "Tokyo Mansion, Bandhura Bazar, Nawabganj",
-    "Joynagor, Bhola",
-    "Bangla Bazar , Begumgonj, Noakhali-3822",
-    "Bangal Bazar, Companygonj, Noakhali.",
-    "Bangla Bazar, Kashipur, Fatullah, Narayanganj-1421",
-    "169, Bangshal Road, Dhaka",
-    "BHANIBAHA BAZAR,RAJBARI.",
-    "Biswash Shopping complex, Foridpur bazar, Foridpur, Pabna.",
-    "Bara Bazar, Khulna",
-    "Alambiditor, Gangachara, Rangpur.",
-    "Barakhata, Hatibandha, Lalmonirhat.",
-    "Mumtaz Uddin Bhuiyan Market (2nd Floor) Badera Bazar Union-Barera, Post Office-Barera Thana-Chandina, District-CUMILLA",
-    "BARGUNA Sador,BARGUNA.",
-    "Hazi Eayed Ali Plaza, Barpa, Rupshi, Rupgonj, Narayangonj",
-    "Suvessa Plaza Main Road Basail Tangail.",
-    "Bashair(Jamalpur) Bazar, Dakhin Bag, Kaligonj, Gazipur-1613.",
-    "Bashur Hat, Companygonj, Noakhali.",
-    "Batiaghata, Khulna",
-    "Polok Super Market, Bawsha Bazar, Bagha, Rajshahi.",
-    "Bazar Ghata, Main Road, Cox’s Bazar.",
-    "BAZAR ROAD,BARISAL",
-    "Bhuiya plaza, Belkuchi bazar, Belkuchi, Sirajgonj.",
-    "Benodpur, Ponchosar, Munshigonj",
-    "Bera bazar, Bera, Pabna",
-    "Betaga Bazar, Bagerhat",
-    "BETAGI,BARGUNA.",
-    "Bonik Market, Betil, Enayetpur,sirajgonj.",
-    "JUGERKANDHA,UGERPUR,BARISAL",
-    "Bhober Bazar, Upazila: Jagannathpur, District: Sunamganj",
-    "Bhairpukur, Bogura.",
-    "BHAIRAB BAZAR,KISHOREGONJ",
-    "Bhandaria,Pirojpur",
-    "Bhendabari, Pirgonj, Rangpur.",
-    "Bheramara, Kushtia",
-    "Natun Bazar,Bhola.",
-    "Bholahat, Chapai Nowabgonj.",
-    "Bhully,THAKURGAON",
-    "Thana Road, Bhurungamari, Kurigram.",
-    "BUSCHI BAZAR,COMILLA",
-    "Rahaman Tower (2nd floor), 1 no Rail Gate, Muradpur, Chattogram",
-    "Bibirhat, Ramgoti, Laxmipur-3730",
-    "Biddut Bhabon 1304/1705 Agrabad C/A,ward-28, P/S: Double Mooring, Chattogram.",
-    "BIPULESWAR,COMILLA",
-    "Chandpud",
-    "Khan Super Market, Birampur, Dinajpur,",
-    "Avijit Plaza, Birgonj, Dinajpur.",
-    "Birol Bazar, Birol, Dinajpur.",
-    "Hazra Tolar More, Goalchamot, Faridpur",
-    "Boalia bazar, Ullapara, Sirajgonj.",
-    "Boalmari Bazar , FARIDPUR",
-    "Bogura contonment.",
-    "Shah Tower, Joleshwari Tola, Bogura.",
-    "BOIRA BAZAR,JAMALPUR.",
-    "Bokshigonj Branch,Jamalpur",
-    "Munshi Market,Bongram bazar, Santia, Pabna.",
-    "UPOZILLA ROAD,BORHANUDDIN,BHOLA",
-    "HOLDING:980, KALAISREE PARA ROAD, SADAR, BRAHMANBARIA",
-    "Budhata,Satkhira",
-    "Burimari, Patgram, Lalmonirhat.",
-    "Bus stand, Bogura.",
-    "C.K. Ghosh,MYMENSINGH",
-    "CENTRAL BUS TERMINAL,BARISAL.",
-    "Central Road, Kotowali, Rangppur",
-    "10, Reazuddin Bazar, Chaitanyagali, Chattogram.",
-    "Usuf Building (1stFloor), New Chaktai, Bakalia, Chattogram.",
-    "Chalna Bazar, Khulna",
-    "Chamtahat, Kaligonj, Lalmonirhat.",
-    "859, Hoque Market, Bahadderhat, Chandgaon, Chattogram",
-    "Chandnighat Bus Stand, Village: Chandnighat, Union: Chandnighat, Upazila: Moulvibazar Sadar, District: Moulvibazar",
-    "42/2, Mango Tower-01, Banten Kha More, Chapai Nawabgonj.",
-    "Charhajigonj Bazar, Charvadrasan, Faridpur",
-    "S Rahman Tower, Charkhai Bazar, Ward No-02, Union: No-02 Charkhai, Upazila: Beanibazar, Dist:Sylhet",
-    "Chatkhil, Chatkhil, Noakhali-3870",
-    "Club Road, Chhatak, Holding No-0478-00, Ward No-07, Upazila: Chhatak, District: Sunamganj",
-    "Chaulia Bus Stand, Jashore",
-    "Kapasgola Road, Chawkbazar, Chattogram.",
-    "203,Water works Road,Chawkbazar, Dhaka",
-    "Dinajpur Sadar, Dinajpur",
-    "Hoque super ,Market 1st Floor,Chakaria ,Pourashava, Cox’s Bazar",
-    "CHETOSHI BAZAR,CHANDPUR",
-    "CHOTO BAZAR,MYMENSINGH",
-    "Chowmuhani, Begumgonj, Noakhali-3821",
-    "CHOWARA BAZAR,COMILLA",
-    "Holding No.: 351, Road: Court Road, Ward: 01, Upazila: Moulvibazar Sadar, District: Moulvibazar",
-    "Chuadanga, Chuadanga",
-    "Colony Bazar, Bogura.",
-    "14/P, Agrabad C/A, Chattogram",
-    "Muradnagar, Comilla.",
-    "Court Bazar , PO-Ratna Palong -4750,P.S-Ukhiya,Dist-Coxs Bazar",
-    "JABBAR MARKET, PAHARTOLI, MOHAMONI, RAOZAN, CHATTOGAM.",
-    "COMILLA CANTONMENT,",
-    "Dalia, Dimla, Nilphamari",
-    "Dalta Bazar, Ramgonj, Laxmipur-3725",
-    "Damurhuda,Chuadanga",
-    "DAPUNIA BAZAR,MYMENSINGH",
-    "Darbesher Bazar, Dagonbhuya, Feni.",
-    "Dattapara, Sadar, Laxmipur-3706",
-    "Dhaka Daskin Bazar, Union: Dhaka Daskin, Upazila: Golapganj, Dist:Sylhet",
-    "Doulatkhan, Bhola",
-    "Doulotpur Bazaar, Manikgonj",
-    "Doulatpur, Khulna",
-    "Daudpur, Nawabganj, Dinajpur.",
-    "Dayamir Bazar, PO: Dayamir, Upazila: Osmaninagar, District: Sylhet",
-    "Debottor bazar, Atghoria, Pabna",
-    "Deliai Bazar, Chatkhil, Noakhali-3708",
-    "321, Dider Market, Dewan Bazar, Chattogram",
-    "30/10-A, Dhaka Cantonment, P.O.PS.: Dhaka Cantonment, Dhaka-1206",
-    "Balaka Building, 1st Floor, Mirpur road, Dhaka",
-    "Dhalia Bazar, Feni.",
-    "1102, Raj Banijjo Bitan, D.T. Road, Dhanialpara, Dobolmuring, Chattogram.",
-    "Bibijan Halima Rashid super Market,kamta golra bus stand,Saturia,Manikgonj",
-    "Nizam Shankar Plaza, (1st Floor), Holding No: 72, Road No: 19 (Old), Shat Masjid Road, Dhanmondi R/A, Dhaka",
-    "Hasanpara, Dhaperhat, Sadullapur, Gaibandha.",
-    "DHARA BAZAR,MYMENSING",
-    "DHARMAKURA BAZAR,JAMALPUR.",
-    "Dhunat, Bogura.",
-    "Bandghat,Patuakhali.",
-    "DIMLA, NILPHAMARI",
-    "Makkah Tower , Dinajpur.",
-    "Dogachi bazar, Pabna",
-    "Lotif Mansion (2nd Floor), Bergupi, Dolar Bazar, Upazila: Chhatak, District: Sunamganj",
-    "Dupchanchia, Bogura.",
-    "DHURMUT BAZAR, JAMALPUR.",
-    "1st Floor, New Market, Eidgaon Bazar, Cox's Bazar",
-    "Eklashpur Bazar, Begumgonj, Noakhali-3822",
-    "ELASIN,TANGAIL",
-    "Aelnga Bus Stand, TANGAIL",
-    "238, New Elephant Road, Dhaka",
-    "Village: Enayetganj, Union: Enayetganj, Upazila: Nabiganj, District: Habiganj",
-    "M.J Tower, 1st Floor, Enayetpur Bazar, Post Office: Enayetpur, Post Code: 4333, Hathazari, Chattogram.",
-    "Jahanara Super Market, EPZ Gate, Pakshi, Iswardi, Pabna.",
-    "119/C, Fakirapool Bazar, Dhaka.",
-    "Fakirhat, Bagerhat",
-    "Mujib Sarak, Faridpur Sadar, Faridpur",
-    "FATEMA NAGAR,MYMENSINGH",
-    "1, DND Road, Fatullah Bazar, Fatullah, Narayanganj",
-    "Fazilpur Bazar, Feni",
-    "Feni Sadar, Feni",
-    "9/G Motijheel C/A, Dhaka-1000",
-    "Waliulla Complex, Fulbari Busstand Road, Kotwali, Dinajpur",
-    "FULBARIA,MYMENSINGH",
-    "Gabtali, Bogura.",
-    "Almas Mansion(1st Fl.), 282/1 1st Colony, Majar Road, Mirpur-1, Dhaka-1218",
-    "Motalab Plaza,Mymensingh",
-    "Kachari Bazar, Sadar, Gaibandha.",
-    "Galachipa,Galachipa,Patuakhali.",
-    "87,K.B Road Gandaria",
-    "GANGCHAR TIMBER MARKET",
-    "Gangni Branch Meherpur(Polli Branch)",
-    "Garaikhali Hat, Khulna",
-    "Gazirhat, Comilla",
-    "Kath Potti, Ghagor Bazar, Kotalipara, Gopalgonj",
-    "Ghatail, Tangail",
-    "Ghior, Manikganj",
-    "GOALANDA TEXTILE MILL",
-    "Village: Gobindapur Bazar, Union: 10 No Nazirabad UP, Upazila: Moulvibazar Sadar, District: Moulvibazar",
-    "Golabari, Bogura.",
-    "Chowmuhani, Begumgonj, Noakhali-3821",
-    "PO: Boalkhali-4366, Thana: Boalkhali, District: Chattogram",
-    "Pannu Mia Supar Market, Kacha Bazar, Natun Bazar Road, Gopalgonj",
-    "A Hamid complex, Abdul Hamid Road, Pabna",
-    "Gopinathpur, joypurhat.",
-    "Goshaibari, Bogura.",
-    "GOSHAIRHAT,SHARIATPUR",
-    "Holding-112, Sajeda Mansion, Green Road, Tejturi Bazar, Dhaka-1215.",
-    "12-14, Land Mark Bhaban,Gulshan-2, Dhaka-1212",
-    "Saleha Soleman Centre, Holding No-3679-02, Badiuzzaman Khan Road, Ward No-05, Habiganj Sadar, District: Habiganj",
-    "Habra Bazar, PO: Daulatpur, Upazila: Bishwanath, District: Sylhet",
-    "HAJIGONJ , CHANDPUR",
-    "City Tower (1St Floor), Plot#12/A, Block#G, Port Connecting Road, Halishahar Housing Estate.",
-    "Haragach, Kaunia, Rangpur",
-    "Hatfulbari, Bogura.",
-    "34, Bir Uttam C. R. Datt Road, Hatirpool, Dhaka",
-    "Hatkhalishpur, Jhinaidah",
-    "7, Hatkhola Road, Dhaka",
-    "20/A, Moneshor Road, 2nd Floor, Hazaribagh",
-    "HEMAYETUDDIN ROAD,BARISAL",
-    "Hospital Road,Naogaon.",
-    "Hossainabad, Kushtia",
-    "HSTU Campus, Dinajpur.",
-    "HULARHAT,PIROJPUR",
-    "SEAM PLAZA,Parangonj Bazar,Porangonj,Bhola.",
-    "46, Imamganj.",
-    "Showhagdal,Nesarabat,Pirojpur",
-    "27, Indira Road (1st Floor), Farmgate, Dhaka-1215",
-    "Indurkani,Pirojpur.",
-    "26. No Bongshal Road, Pathorghata, Chattogram",
-    "Zinna Market, Iswardi bazar, Pabna",
-    "ISWARGONJ, MYMENSINGH",
-    "Islampur, PO:Sylhet-3100, PS: Shahporan (R), Sylhet City Corporation, Dist:Sylhet",
-    "106, MR Bhaban, Islampur Road",
-    "Islampur Road, Feni Sadar, Feni",
-    "Al Arafah Market, Pouro Point, Jagannathpur Bazar, Upazila: Jagannathpur, District: Sunamganj",
-    "Jahangirabad cantt., Bogura",
-    "JAMALPUR,JAMALPUR",
-    "JAMUNA SHAR KARKHANA COMP.",
-    "JHALAKATI,JHALAKATI",
-    "Jhaudanga, Satkhira",
-    "Jhinaidah, Jhinaidah .",
-    "Jhitka ,Horirampur,Manikgonj-1831",
-    "Charfashion,Bhola",
-    "51 North Brooke Hall Road, Sutrapur Thana, Dhaka - 1100",
-    "Hossain Shoping Complex(1st Fl.), Joydebpur, Gagipur-1700",
-    "JOYNAGAR, GOPALGONJ",
-    "Joypurhat, Joypurhat.",
-    "365 Jubilee Road,GPO-4000, Kotowali, Chattogram",
-    "K.D.A New Market, Khulna",
-    "334-Nur Tower, Shaheb Bazar, Ghoramara, Boalia, Rajshahi.",
-    "Bijoypur, Bhaboki, Birgonj, Dinajpur.",
-    "Kabirhat, Kabirhat, Noakhali-3807",
-    "Kachua Bazar, Bagerhat",
-    "Rupali Bank Tower, Mymensingh Sadar, Mymensingh",
-    "Chandpur",
-    "Kahaloo, Bogura.",
-    "Kakonhat, Rajshahi.",
-    "Kalaroa,Satkhira",
-    "Kaliganj Bazar, Union: Manikpur, PO+PS: Zakiganj, Dist:Sylhet",
-    "Rafa Plaza, Modhugong Bazar Road,Kaligonj, Jhenaidah",
-    "KALIHATI,TANGAIL",
-    "Kalishuri,Patuakhali.",
-    "Kalukhali Rajbari",
-    "Kaptai Raster Matha, Mohora, chadgoan, Chattogram",
-    "Kanaighat Bazar, PO+PS: Kanaighat, Kanaighat Pourosova, Dist:Sylhet",
-    "KANAI NAGAR, NARAYANGONJ",
-    "21, Kaptanbazar, 1st Floor, Wari, Dhaka.",
-    "Kariaya Bazar, Chagolnya, Feni.",
-    "Karambox Bazar, Kabirhat, Noakhali-3820",
-    "Karihati Bazar, Chatkhil, Noakhali-3877",
-    "Newmarket, Kathalia Bus Stand, Jhalokati-8400",
-    "Kawkhali,Pirojpur",
-    "Kawria Bazar, Hizla, Barisal",
-    "Kazir Bazar, Topkhana Road, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
-    "Sobuj Khan Super Market, Village: Kenabari Bazar, Union: Mirpur, Upazila: Jagannathpur, District: Sunamganj",
-    "KENDUA,NETRAKONA",
-    "Building Name: Sushoma, Holding No-155, Station Road, Keramatnagar, Kamalganj, District: Moulvibazar",
-    "Keranihat (Haji Ula Mia Market), Keranihat, Satkania, Chattogram.",
-    "New Market, Khadimpur, PO: Katalkhair, Upazila: Osmaninagar, District: Sylhet",
-    "KHAGDAHAR BAZAR,MYMENSINGH",
-    "Khagrachari Town Branch",
-    "Khajura, Jessore",
-    "KHALISHPUR,KHULNA",
-    "Khalomukh Bazar, PO: Khalomukh Bazar, PS: Mogla Bazar, Upazila: Dakshin Surma, Dist:Sylhet",
-    "Hazi Revine plaza, 2ndfloor, Chandanaish,ctg",
-    "254 Sonamiah Market, Khatungonj, Chattogram.",
-    "KHEPUPARA,PATUAKHALI",
-    "Khetlal, Joypurhat.",
-    "577/C, Khilgaon Chy para, Dhaka-1219",
-    "Kichak, Bogura.",
-    "KISHOREGONJ,KISHOREGONJ",
-    "KISHORIGONJ,NILPHAMARI",
-    "Abdul Mochabbir Mansion, Kolarai Bazar, PO: Gavurtiki, Upazila: Osmaninagar, District: Sylhet",
-    "Korbanigonj, Jolil Mansion, 37, Korbanigonj, Chattogram.",
-    "Kotchandpur, Jhinaidah",
-    "Kourikhara,Nasarabath,Pirojpur",
-    "KOYRA BAZAR,JAMALPUR.",
-    "Kishno Mozumder Hat, Noirajpur, Feni.",
-    "Misba-Bari Shopping Complex, Holding No-222, Moulvibazar Road, Ward No-05, Upazila: Kulaura, District: Moulvibazar",
-    "Kurmarkhali, Kustia.",
-    "Kunjerhat,Borhanuddin,Bhola.",
-    "Kurar Bazar, Union: Kurar Bazar, Upazila: Beanibazar, Dist:Sylhet",
-    "Kurigram Sadar, Kurigram.",
-    "Kurua, PO: Kurua, Upazila: Osmaninagar, District: Sylhet",
-    "Kushtia, Kushtia",
-    "Kushura Abbas Ali High School,tepo bari, Bhamrai,Dhaka-1350",
-    "Kutirhat Bazar, Sonagazi, Feni.",
-    "CDA Kazir Dewri Market, Kotwali, Chattogram-4203.",
-    "Ladies Branch, Bogura.",
-    "Ladies Branch, Boyra,Khulna",
-    "Basuniapatty, Sadar, Dinajpur.",
-    "DC Mor, Rangpur.",
-    "Laxmipur, Sadar, Laxmipur-3700",
-    "DAULATGONJ BAZAR,CHANDPUR",
-    "Laldigirpar, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
-    "766-767/01,Hazi Rafiq Mia Plaza,Muktijodha Avenew,Lalmohon Purshova,Bhola.",
-    "BDR Gate, Sadar, Lalmonirhat.",
-    "Barrister Zakir Ahmed College Laur Fatehpur,Nabinagar,Brahmanbaria Brahmanbaria",
-    "Laxmipur, Rajshahi.",
-    "Haji Alam Market, Dovashi Bazar, Chandraghona, Khondaker Para, Rangunia, Chattogram",
-    "Narail",
-    "Moshodgaon, Louhajong, Munshigonj",
-    "Mistri Khana Road, Jessore",
-    "Madar Bazar, PO: Latibpur, PS: Osmaninagar, Dist:Sylhet",
-    "Super Market, Holding No:01, Puran Bazar, Madaripur",
-    "Holding No.: 08, Axay Mansion, Road: Dhaka-Sylhet Road, Ward: 07, Upazila: Madhabpur, District: Habiganj",
-    "Madhaiya Bazar,Chandina,Cumilla.",
-    "Akhter Shopping Complex, Madina Market, PO:Sylhet 3100, PS: Jalalabad, Sylhet City Corporation, Dist:Sylhet",
-    "Magura, Magura.",
-    "Bhola,Bhola.",
-    "MAHIGONJ,RANGPUR",
-    "Abdul Lotif Bhobon, Maidandighi, Boda, Panchagarh.",
-    "Maijdee Court, Sadar, Noakhali-3800",
-    "MAINAMATI BAZAR,COMILLA",
-    "96 Majhir Ghat road,Chattogram",
-    "Majibnagar, Meherpur",
-    "476/C, DIT road, Malibag, Dhaka",
-    "MALLIKBARI,MYMENSINGH.",
-    "Mandari Bazar, Sadar, Laxmipur-3703",
-    "Manikganj Bazar Road(1st Fl.), P.O.PS. : Manikganj, Manikganj-1800",
-    "Mansha Bazar, Bagerhat",
-    "Holding No.: 1034, Road: Kudratullah Road, Ward: 5, Upazila: Moulvibazar Sadar, District: Moulvibazar",
-    "Mothbaria, Pirojpur",
-    "Mehendigonj, Barisal",
-    "Meherpur, Meherpur",
-    "MELANDAH,JAMALPUR",
-    "Bijbag, Meyerhat, Senbag, Noakhali",
-    "Rupali Bank Bhaban (Ground Floor), Uddipon-1046, Mira Bazar C/A, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
-    "MIRKADIM , MUNSHIGONJ",
-    "Libarty A.K. Tower(2nd and 3rd Floor),Holding:13-15,Amanat Khan Hospital Road,Road no-01Kolwalapara, Mirpur, Dhaka-1216",
-    "94,Chawk Mogoltully, Chawkbazar,Dhaka-1211",
-    "115, Shahid taj Uddin Ahmed Sarani, Dhaka",
-    "Bibir Plaza(2ndFloor),103 Mohakhali R/A,Dhaka-1213",
-    "MOHAMAYA BAZAR,COMILLA",
-    "Hazi Dilgoni Market,Bashbari,Sher-e-bangla Road,Mohammadpur,Dhaka-1207",
-    "Mohasthan, Bogura.",
-    "Mokamtola, Bogura.",
-    "Molamgarihat, Joypurhat.",
-    "Mollahat, Bagerhat",
-    "Mominpur, Chuadanga",
-    "Monglaport, Bagerhat",
-    "Monirampur, Jashore",
-    "MONOHARGANJ,COMILLA",
-    "MONOHARPUR,COMILLA",
-    "Morrelganj, Bagerhat",
-    "Moshan, Kushtia",
-    "Motigonj, Sonagazi, Feni.",
-    "59,Motijheel C/A",
-    "House:Hossain monjil,Holding:189,Ward:03,Motlob South Branch,Chandpur",
-    "31/32, Asrar Mansion Moulovibazar, Chawkbazar, Dhaka",
-    "MUDAFFARGONJ,COMILLA",
-    "45/1, H, North Mugda, Dhaka",
-    "Fultola Shoping Fultola Bazar,Dohar, Dhaka.",
-    "MUKTAGACHA,MYMENSINGH",
-    "Muladi,Barishal.",
-    "Josim Plaza 1st floor ,Bangbhandu road, Kachary, Munshiganj Sador, Munshiganj",
-    "Nalta Mubaraknagar, Satkhira",
-    "Nabinagar, Brahmanbaria",
-    "M E Tower, Nogorbari ghat, Bera, Pabna.",
-    "Nager Bazar, Bagerhat",
-    "Nagesshori Kurigram",
-    "Noor Super Market, Nakalia bazar, Pabna.",
-    "Naldangarhat, Natore.",
-    "Hazi Muslim Market, Naluarmukh (Kalar) Bazar, Kamalpur, Rajnagar, District: Moulvibazar",
-    "Namajgarh, Bogura.",
-    "Namasankarbati, Chapai Nawabgonj.",
-    "Hazi Kais Uddin Market,Nandail ,Mymensingh.",
-    "Naogaon Corp. Branch, Naogaon Sadar, Naogaon-6500",
-    "Narail , Narail .",
-    "HOLDING NO.-504, SUTA PATTY, NARSINGDI SADAR, NARSINGDI",
-    "Nasirnagar,Brahmanbaria",
-    "NATIAPARA,TANGAIL",
-    "Nator Sadar, Staion Road, Natore.",
-    "NATUN BAZAR,CHANDPUR",
-    "Natun Bazar, Khulna",
-    "Holding No.: 332, Station Road, Ward: 06, Upazila: Sreemangal, District: Moulvibazar",
-    "Navaran, Jashore",
-    "44,Nawab Gonj Road, Lalbagh.",
-    "104-106 Imperial Super Market (1st floor), Nawabpur Road, Dhaka",
-    "Nawabenky, Satkhira",
-    "Baliadanga, Chapai Nawabgonj.",
-    "Kazi Tower, 86 Nayapaltan, Dhaka-1000",
-    "Bhaban Name: Rajdhani Market,P.S: Foridgonj, Dist Chadpur",
-    "394/4, Modhubag, Sher-e-bangla school, Noyatola, Dhaka",
-    "Zonkar Moor, Nazirhat Pourashava, Fatikchari, Chattogram.",
-    "NAZIRPARA,CHANDPUR",
-    "4,6,7 shasuja road, netaigonj, Narayangonj",
-    "NETROKONA,NETRAKONA",
-    "307-310, Dhaka New Market.",
-    "34,D.M. Market, H.S.S road, Kotowali, Chattogram",
-    "New Ranir Hat, DTM, Feni",
-    "DC Bhavon,Patuakhali.",
-    "Niamatpur, Noagaon.",
-    "Nicha Bazar, Natore.",
-    "Asian Tower, Road-21, Dhaka-Mymensingh Road, Khilkhet, Dhaka",
-    "NILGONJ,KISHOREGONJ",
-    "Nilphamari Sadar, Nilphamari.",
-    "Neamot Ali Road, Po-Nurali Bari-4337,Ps-Hathazari, Chattogram",
-    "137, Hazi Osman Goni Road, Kamru Mansion, Alu Bazar, Dhaka",
-    "Amin Complex, Nowpara Bazar, Nowpara, Louhagonj, Munshiganj.",
-    "O. R. Nizam Road, Panchlish, Chattogram",
-    "Asraf Ali Road, Patharghata, Kotowali, Chattogram",
-    "Zalalpur, Pabna",
-    "Biswash commercial complex, Traffic Mor, Pabna",
-    "460/1, Hotel Al-Amin Bhaban, D.T Road, P.O- Pahartali, P.S- Double Mooring, Chattogram.",
-    "Paikgacha, Khulna",
-    "Pajia Bazar, Jashore",
-    "Pakulla Bazar, Union: Jamurki, Upazila: Mirzapur, Tangail",
-    "Mujib Market,Holding No.-25,sar karkhana Road, Khanepur Mor, Ghorashal,Palash,Narsingdi.",
-    "Palla Bazar, Chatkhil, Noakhali-3871",
-    "Plot-21(1st Floor), Main Road-3, Block-A, Section-11, P/o-Mirpur, P/S-Pallabi, Dhaka.",
-    "Panchagarh Sadar, Panchagarh.",
-    "21,Sultan mansion, Panchlaish R/A, Chattogram",
-    "Anup Datta Market, Station Road, Pangsha, Rajbari",
-    "Rasulgonj Bazar, Patgram, Lalmonirhat",
-    "Patharghata, Barguna.",
-    "vill: Guzura Noapara,Thana: Roazan, District: Chattogram-4340",
-    "PATHRAIL BAZAR,TANGAIL",
-    "HAZI KABIR MARKET, PATIYA, CHATTOGRAM",
-    "Patuavanga Dorgabazaar, Kisorganj",
-    "Natun Bazar,Patuakhali.",
-    "Dumkey,Patuakhali.",
-    "41, Patuatuli",
-    "Phultala, Khulna",
-    "PIROJPUR, PIROJPUR",
-    "Poddar Bazar, Sadar, Laxmipur-3706",
-    "38, DIT plot, Postogola, Dhaka-1204",
-    "POURASHAVA MARKET,RAJBARI",
-    "Sonapur, Sadar, Noakhali-3802",
-    "Purabari Bazar,Khagatipara,Trishal, Mymensingh",
-    "Monisingh Forhad Smriti Trust Bhaban, 21/2, Purana Paltan, Dhaka-1000",
-    "Hat Putiakhali, Jhalokati",
-    "Kadirabad Cantt., Doyarampur, Natore.",
-    "Mouchawk Complex, Dhap Jail Road, Rangpur.",
-    "RAHMATPUR,Babugonj,BARISAL",
-    "Rahuthor Bazar Br. Gopalgong",
-    "Alamnagar, DRCS Road, Rangpur.",
-    "Raipur Bazar, Jashore",
-    "Hazi Jomshed Ali Shopping Complex, Union: Rajagonj, PS: Kanaighat, Dist:Sylhet",
-    "Rajapur, Khulna",
-    "172, Outer Circular Road, Uttar Shahjahanpur, Dhaka-1217",
-    "Saleha Akkash Tower, College Road, Rajbari",
-    "Rajgonj Bazar, Begumgonj, Noakhali-3834",
-    "RAJGONJ BR. COMILLA",
-    "Uposhohor, Rajshahi.",
-    "GM Tower, Ghoramara, Boalia, Rajshahi.",
-    "Rakhalgonj Bazar, PO: Rakhalgonj, Upazila: South Surma, Dist:Sylhet",
-    "RAMDIA , GOPALGONJ",
-    "Ramgarh Bazer, PO: Ramgarh,PS: Ramgarh, Dist: khagrachari",
-    "Ramgoti Bazar, Ramgoti, Laxmipur-3730",
-    "13,B.B. Avenue,gulisthan, Dhaka",
-    "RAMPURA BAZAR,CHANDPUR",
-    "5/1, DIT Road, West Rampura, Dhaka",
-    "Hazi Complex(2nd Floor), Chowmohoni, Ramu, Cox's Bazar.",
-    "Jeti Ghat, Reserve Bazar, Rangamati",
-    "G L Roy Road, Kotowali, Rangpur.",
-    "Khan Market,Raninagar,Naogoan",
-    "Ranirbandar, Chirirbandar, Dinajpur",
-    "City Plaza (2nd Floor) Munshir ghata, Raozan, Chattogram",
-    "RATANGONJ BAZAR,TANGAIL.",
-    "36, Nawabpur",
-    "Atharobari,Ishwargonj, Mymenshing",
-    "Raj Plaza, Rekabi Bazar, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
-    "Rohanpur,Chapai Nowabgonj.",
-    "Hazi Ashraf Ali Super Market, Holding No.888/1, Begum Rokeya Sarani Road, Ward no. 14, DNCC, P.S: Kafrul",
-    "RUET, Matihar, Rajshahi.",
-    "K.D.Ghose Road, Khulna",
-    "Rupali Bank Tower, Holding no: 442, Laldighir par, Main Road, Sadar, Cox's Bazar",
-    "7/8, Central Insurance Bhaban,(1st Floor) Motijheel, Dhaka-1000",
-    "Zila Porisad Tower, Court Road, P.S: Kotowali, Chattogram.",
-    "32, S.K.Road, Narayangonj",
-    "SADAR ROAD,BARISAL",
-    "642, Hazi Market, Sadarghat Road, Chattogram",
-    "Jolil mension 77, patuatuli Road",
-    "Safderpur, Jhinaidah",
-    "SAGARDI BAZAR,BARISAL",
-    "J J Tower; N/557; D T Road; Pahartali; Chattogram.",
-    "Sokhipur, Tangail",
-    "Hajee Nur Hossain Plaza, Eshan Mistree Hat, Saltgola,Bondor-4100, Chattogram.",
-    "Santia bazar, Santia, Pabna",
-    "SARISHABARI,JAMALPUR.",
-    "Satkhira ,Satkhira",
-    "Saturia Adharasha Pilot High School market, Nandessari, Saturia bazar,Manikgonj-1800",
-    "B/22 Bazer Road(1st Floor),Bilash cinema hall,Savar,Dhaka-1343",
-    "Bhai Bhai Super Market(1st Floor),Dendabor,Savar cant. Dhaka-1343",
-    "28, Mirpur Road, New Market, Dhaka",
-    "Bhaban: Abdur Rob Tower, Holding No.:366, Village: Senbagh Bazar, DB Road, Ward No.:03, Senbagh Pourashava, PS: Senbagh, District: Noakhali",
-    "Shahekpara, Bogura.",
-    "Shahtali Bazar, Chandpur",
-    "37, Shaheed Abrar Fahad Avenue, Dhaka-1000",
-    "Chandrolekha super Market, Shahzadpurbazar, Sirajgonj",
-    "Madina Super Market,Thana Road,Shailkupa",
-    "Hazi Maksuda, Market, Shakpura, Chowmuhani, Boalkhali, chattogram",
-    "Shams Building, Khulna",
-    "Rahman shopping center,Shantirhat, Mirsarai, Chattogram.",
-    "Kalachan Tower, Shahrail, Singair, Manikganj",
-    "Palong Bazar, Main Road, Shariatpur",
-    "Sharshadi Bazar, Feni",
-    "Village: Bhramman Gram, Union: 1 No. Khalilpur, Upazila: Moulvibazar Sadar, District: Moulvibazar",
-    "SHERPUR TOWN,SHERPUR.",
-    "Khalifa Potti, Shibchar Bazar, Shibchar, Madaripur",
-    "Shibganj, Bogura.",
-    "Shikaripari, Nawabganj",
-    "SHIKAR PUR,BARISAL.",
-    "HRS Complex, Shikderhat, Dinajpur.",
-    "Shialkole bazar, Sirajgonj sodor, Sirajgonj.",
-    "Sholla Bazar,Nawabgonj,Dhaka",
-    "Faridganj,Chandpur",
-    "Sukhanpukur, Bogura.",
-    "38/A North brook hall road, 2nd floor",
-    "SHYAMGONJ,NETRAKONA",
-    "24/ 1& 24/2, Biruttam Anm Nuruzzaman Sarak, Shymoli Sinema Hall Bhabon, P.S.:Mohammadpur, Dhaka-1207P.S.:Mohammadpur, Dhaka-1207",
-    "Singra,Natore.",
-    "sirajdikhan,Munshiganj Branch (Polly Branch)",
-    "Noor Market, S S Road, Sirajgonj.",
-    "H.M.M. Road, Jashore",
-    "Sonapur Bazar, Ramgonj, Laxmipur-3720",
-    "Al Falah Market, Puran Bazar, Ward No-07, Upazila: Sreemangal, District: Moulvibazar",
-    "House:Sreenagar Plaza, Sreenagar, Munshiganj",
-    "Green Super Market, Holding No-2717-00, Station Road, PS: Dakshin Surma, Ward-26, Sylhet City Corporation, Dist:Sylhet",
-    "I.W.T.A (Terminal), Khulna",
-    "113 Station Road, Abul Hossen Market, Chattogram",
-    "Morarbazar, PO:Gohorpur-3128, PS: Balaganj, Dist:Sylhet",
-    "Sarpinia Bhaban (1st Floor), Moddobazar, Upazila: Sunamganj Sadar, District: Sunamganj",
-    "SWARUPKATI,PIROJPUR.",
-    "Swastipur, Kushtia",
-    "SAIDPUR, NILPHAMARI",
-    "Radish Shopping Complex, Syedpur, Upazila: Jagannathpur, District: Sunamganj",
-    "Montaj Uddin Cottage (2nd Floor), Village: Bangaon (Borman), Ward No-08, Union: 6 No Ekatuna, Post: Ita-Sinkapon-3200, Upazila: Moulvibazar Sadar, District: Moulvibazar",
-    "Tabalchari Bazar, Kotoali, Rangamati",
-    "Tazumuddin, Bhola",
-    "Bamonie, Companygonj, Noakhali",
-    "02, Municipality, Taltola, PO:Sylhet 3100, PS: Kotowali, Sylhet City Corporation, Dist:Sylhet",
-    "52 S.M Maleh Road,Tanbazar,Narayangonj",
-    "TANGAIL,TANGAIL",
-    "Prodip super market,Tanore, Rajshahi.",
-    "TARAGONJ,RANGPUR",
-    "TCB Bhaban, 1 No Karwan Bazar, Tejgaon, Dhaka-1215.",
-    "Road: Kulaura Road, Union: Tengrabazar, Upazila: Rajnagar, District: Moulvibazar",
-    "170, Hardinge Medicene Market, Hazari Lane, Kotowali, Chattogram-4000.",
-    "Alamnagar, Grand Hotel Mor, Rangpur.",
-    "Shahid Md. Ali Sarak, Thakurgaon.",
-    "43 Thana Ghat Congress Jubilee Road Sadar,MYMENSINGH",
-    "T.m.s.s br., Bogura.",
-    "Tomaltola Bazar, Natore.",
-    "Jalil Market(1st Fl.), Bata Gait, P.O.: Monnunagar & P.S.: Tongi, Gajipur-1710",
-    "TRISHAL,MYMENSINGH",
-    "Mazar Road, Tungipara, Gopalgonj",
-    "Totail, Bangla Bazar, Nawabganj, Dhaka",
-    "39 Urdu Road, Lalbagh, Dhaka 1100",
-    "Urkirchar, Raozan, Chattogram",
-    "Trim Tower(2nd Floor), 169/A/1, Helal Market,Uttar Khan, Uttara, Dhaka-1230.",
-    "Nawab Habibullah Ideal High School Bhabon,Plot no.-02 Shahjalal Avenue,sec-4,Uttara Model Town",
-    "Vitibishara,Rotonpur,Brahmanbaria",
-    "31/5, Yusuf Market Nawabazar , Dhaka",
-    "Al Hamra Shopping City (1st Floor), Holding-02-013-1135, PO:Sylhet-3100, PS: Kotwali, Ward-02, Sylhet City Corporation, Dist:Sylhet",
-    "Chunkutia, Pakapul, Shubadda, Keraniganj,Dhaka",
-    "Rupali Bhaban, 34-Dilkusha Commercial Area, Dhaka-1000."
-  ],
-  "branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "branch_contact_number": [
-    null,
-    null,
-    "02-55020282",
-    "0592256007",
-    "01752353221; 01993337983",
-    "031-723959; 031-724571; 02333325211",
-    "0821-761548",
-    null,
-    "07622-56247",
-    "0632256006",
-    "0442856241",
-    null,
-    "031-611240",
-    null,
-    null,
-    "0445256328",
-    "01993337583",
-    "030-2956054; 0302956054",
-    null,
-    "01993-337878",
-    "02-58156742",
-    "08528-74570",
-    null,
-    null,
-    "01715-336101; 01993-337458",
-    "0731-65165",
-    "01993-337459",
-    "7633153",
-    "01993337424",
-    "08424-75203",
-    "02-9446251",
-    "07423-56020",
-    "57392285",
-    "063162752",
-    "01993337640",
-    "0423251220",
-    null,
-    "0468-62332",
-    "01810684802",
-    "01993337916; 01782936501",
-    null,
-    "0942-364025",
-    "01993337955",
-    "0562256004",
-    null,
-    "01993337886",
-    "01731309371",
-    null,
-    "0433256104",
-    "0351-63145",
-    "0821-716297",
-    "0361-62443",
-    "01745528072",
-    "01752353226",
-    "0321-53134",
-    null,
-    "02-7633289",
-    "57317354",
-    null,
-    "07325-64002",
-    "041-725606",
-    "01993337641",
-    "01993337575",
-    null,
-    "044862346",
-    null,
-    "09222-56180",
-    null,
-    null,
-    "04022-56009",
-    null,
-    "0341-63236",
-    "043163824",
-    "0247-318166",
-    "02-7612237",
-    "07323-75011",
-    null,
-    "0445456008",
-    null,
-    "01993337921",
-    "01993337425; 01781317475",
-    null,
-    "02-9470407; 01993337517",
-    "0462356458",
-    "01993337584",
-    "07022-71033",
-    "049161321",
-    null,
-    "01993337650",
-    "01993337497",
-    null,
-    "031-683612",
-    null,
-    "031-715706; 031-2520157",
-    null,
-    null,
-    "05322-56384",
-    "05323-72216",
-    "05324-56008",
-    "0631-62578",
-    null,
-    "06324-56134",
-    "051-82165",
-    "02589902879; 02589902880",
-    "01993-337536",
-    "01716269747",
-    null,
-    "0492256108",
-    "0851-58178",
-    null,
-    "01993337496",
-    "05029-77004",
-    "091-67271",
-    "043163806",
-    "052165384",
-    "031613218",
-    "031-634404",
-    "04023-56008",
-    "01993337493",
-    "031-650625",
-    "0861-52280",
-    "0781-52232",
-    null,
-    "01993337427",
-    "03222-75006",
-    "08723-56227",
-    "0488-62328",
-    "031-655447; 031-655241",
-    "57318724",
-    "0531-63081",
-    "03422-56006",
-    null,
-    "091-66838, 091-67264",
-    "0321-52060",
-    "0804-257350",
-    "0861-52284",
-    "076163140",
-    "051-63596",
-    "031-727146",
-    "0802-659001",
-    "03432-58101",
-    null,
-    "081-76445, 018-65513",
-    "01993337642",
-    null,
-    "07623-56042",
-    "091-66233",
-    null,
-    "01746-634104",
-    "01712543232",
-    "0492456236",
-    "027715015",
-    "041-762451",
-    "01993337570",
-    "01993337430",
-    "07322-56010",
-    null,
-    "031-613078",
-    "8711045,8713293",
-    "58611104",
-    null,
-    "031-728037",
-    "7711009",
-    "02-41022997; 02-41022998",
-    "01993337572",
-    "01993337556",
-    "09824-74015",
-    null,
-    "044162764",
-    "0552256228",
-    "0531-65016; 053164382",
-    "0731-65261",
-    "01712580841",
-    "05024-51004",
-    "01993-337551",
-    "03432-58101",
-    null,
-    "01712529311",
-    "01733273802",
-    "58610022",
-    "01715-336102; 01993-337462",
-    null,
-    "0731-59111",
-    "7194502",
-    "04653-56204",
-    "0661-61546; 0631-63336",
-    "01993337557",
-    "7670155",
-    null,
-    "033174746",
-    "9560858, 9567034",
-    "0531-63181",
-    "0902-373429",
-    "05025-75004",
-    "58055908,58055642",
-    "0902-556580",
-    "054152251",
-    "04424-56244",
-    "47440959",
-    "02334405235",
-    "07922-75016; 07922-75017",
-    null,
-    null,
-    "02-6651289",
-    "09225-56510",
-    "7727409",
-    "0641-65222",
-    "01993-337463",
-    null,
-    "0321-52085",
-    null,
-    "02-6685337",
-    "0731-65159",
-    null,
-    null,
-    "06024-75007",
-    "9112718",
-    "02-222284795; 02-222280106",
-    "0831-61147",
-    "01705630986",
-    "0841-63365",
-    "01993337725",
-    "052165461; 01993337586",
-    null,
-    "58611443",
-    "04525-56403",
-    "02-223350580",
-    "9631225",
-    "043165015",
-    "0741-62460; 07423-56020",
-    "07023-75243",
-    "0531-64328",
-    "046162202",
-    "01993337929; 01714580237",
-    "57310580",
-    "01993337930; 01752353225",
-    "02-48117739; 01810683832; 01810683831",
-    "0462256165; 01993337952",
-    "031-634834",
-    "07326-63662; 07326-63666",
-    "0902-756067",
-    "0821-760702",
-    "57390183",
-    "0331-73353",
-    "08727-56006",
-    null,
-    "0981-63265; 0981-63650",
-    "01993-337872",
-    "049863262",
-    "04724-75510",
-    "0451-62404",
-    "7729031",
-    "01993337932",
-    "9533140,9533141, 9576884",
-    "02224423217",
-    "06652-56503",
-    "0571-62338",
-    "031-614402",
-    "041-730929",
-    "0721-773211; 0721-770313",
-    "01993337654",
-    "03232-53277",
-    "04654-56012",
-    "0916-1520, 0916-1521",
-    null,
-    "05026-56019",
-    "0723-451046",
-    "04724-75313",
-    "01730980005",
-    "04523-56056",
-    "09227-74008",
-    "01727058445; 01993337933",
-    null,
-    "031-670596",
-    "08233-56256",
-    null,
-    "47116737",
-    null,
-    null,
-    null,
-    "0495256050",
-    "0462456108",
-    "01762230020; 01993337935",
-    "0821716474",
-    "01787363235",
-    "0952-856006",
-    "08623-56025",
-    "03036-56136",
-    "01719-335458",
-    "091-67386",
-    null,
-    "042152122",
-    "041-762656",
-    "01712566321",
-    "03033-56015",
-    "031-611560",
-    "044255631",
-    "5723-56006",
-    "47214321",
-    null,
-    "0941-62322",
-    "0552556014; 01993337579",
-    "01810684759",
-    "031-631782",
-    "04524-65008",
-    "01993337936; 01752353224",
-    "01993-337553",
-    null,
-    "08624-57023",
-    "07025-76716",
-    "01752353227; 01993337924",
-    "01797-087525",
-    "058161390",
-    "01993337443",
-    "071-61868, 071-71134",
-    null,
-    null,
-    "031-614420",
-    null,
-    "041-760193",
-    "053164398",
-    "052165397",
-    "0381-61449",
-    "08032-51323",
-    "0821-716767; 0821-717609",
-    "0492575639",
-    "059161239",
-    null,
-    "0721-773218",
-    "0351-51024",
-    "04823-56321",
-    "02-7625010",
-    "0421-68583; 0421-63395",
-    "01993337446",
-    "0661-61546",
-    "08327-56390",
-    null,
-    "0821-728891",
-    "0488-62470",
-    "049161329",
-    "052165284",
-    "01993337581",
-    "0321-61581",
-    "081-76765",
-    "031-723856",
-    "07923-74015",
-    "9356775",
-    "01993337560",
-    null,
-    "7710289,7710389",
-    null,
-    "0861-52237",
-    "0462575546",
-    "0432556006",
-    "0791-62539",
-    "09826-56014",
-    null,
-    "0821-716119; 0821717609",
-    "02-7611207",
-    "9022334,9002314",
-    "02-57317645; 02-57317644",
-    "9356761",
-    "222289722,222289722",
-    null,
-    "48119222",
-    null,
-    null,
-    null,
-    "0465556009",
-    "0761-64243",
-    "04658-73275",
-    "04227-78433",
-    "08037-53119",
-    "081-76021, 081-65521",
-    "0465-656211",
-    "07026-56018",
-    null,
-    "9566073, 9566072",
-    null,
-    "57310340",
-    null,
-    "7272719",
-    "01712532075",
-    "09028-75346",
-    "0432675375",
-    "02-997731176",
-    "04733-51005",
-    "08525-75217",
-    null,
-    "0468-62260",
-    null,
-    null,
-    "0773-251034",
-    "01993-337465",
-    "051-63552",
-    "0781-52142",
-    "0902-964381",
-    "02588882370",
-    "0481-62554",
-    "02-9462576; 02-9463175",
-    null,
-    "01715326475",
-    "0771-62966; 0771-62967",
-    "0841-63360; 0841-65008",
-    "041-722457",
-    "08626-71359",
-    "04228-75343",
-    "58611535",
-    "47117680, 47115654",
-    null,
-    "0781-62538",
-    "02-222228984",
-    null,
-    "49357191",
-    null,
-    "0841-63138",
-    "02-7631032; 02-7630107",
-    "0951-61533",
-    "58614357, 58614438",
-    "02333363065; 02333366276",
-    "033174658",
-    "044162298",
-    "07427-56001",
-    "0771-62990",
-    "8900267",
-    "01993337892",
-    "055161304",
-    "031-670433",
-    "9554730",
-    "01993337684",
-    "031-2557220; 031-2557212-13",
-    "031-633334",
-    "0731-65334",
-    "0731-66171; 0731-65365",
-    "02-43150797; 031-751793",
-    "04027-56006",
-    "01720094038",
-    "01712560218",
-    "02-9466449",
-    null,
-    "02-48031670",
-    "0568-61247",
-    "031-652898",
-    "06424-75204",
-    "0592556214",
-    "0445575116; 01993337961",
-    "0371-670040",
-    "01783511122",
-    "030-3556226",
-    "01993337904",
-    "044162284; 044165119",
-    "0442756211",
-    "57393027, 57394723",
-    "041-701599",
-    "0461-62555",
-    null,
-    "47441643",
-    "0641-65433",
-    "0321-62197",
-    "01993337906",
-    "9560544, 9512532",
-    "01993337945; 01752353222",
-    "07722-72051",
-    "052165649",
-    "0432773388",
-    null,
-    "052165402",
-    "01720141922",
-    "01779406027",
-    "041-800043",
-    "9356656",
-    "064165424",
-    null,
-    "081-73672,081-76042",
-    "0721-761126",
-    "0721-774150; 0721-772730",
-    "01993337449",
-    null,
-    "0371-46083",
-    null,
-    "02-9551069; 02-9563091",
-    null,
-    "02222222937",
-    "03425-56056",
-    "0351-63110",
-    "0521-62328; 052162237",
-    null,
-    "05342-51043",
-    "03026-56011",
-    "01715326474",
-    "47116600",
-    "09043-56166",
-    "0821714978",
-    "07823-74048",
-    "02-58050665",
-    "02588866800",
-    "041-721578; 041-724163",
-    "0341-63277; 0341-63278",
-    "57164330, 47113859",
-    "031-619426; 031-630397",
-    "7632580,7632581,7632916",
-    "043163839",
-    "031-614443",
-    "9591982",
-    "01720093420",
-    "043171620",
-    "031-2771451",
-    "09232-56280",
-    "031-742120; 031-741210",
-    "07327-56142",
-    "09827-56011",
-    "0471-63379",
-    "7725002",
-    "02-224443868",
-    "7788648",
-    "58611147",
-    null,
-    null,
-    null,
-    "9556102 , 9560395",
-    "07257-64516",
-    "04526-56055",
-    "01534003578",
-    "041-722064; 041-732301; 041-724240",
-    null,
-    null,
-    "0601-61543",
-    null,
-    null,
-    "0931-61524",
-    "06624-56309",
-    "05033-69004",
-    "01811145934",
-    "0432956096",
-    "0531-63448",
-    null,
-    null,
-    null,
-    null,
-    "47114610",
-    "01810684331",
-    "02-48117569; 02-58151953",
-    "07726-63044",
-    null,
-    "0751-62690",
-    "0421-68556",
-    "03824-75001",
-    "08626-71504",
-    "01993337835",
-    "0821-714830",
-    "041-721187",
-    "031-613886; 031-619259",
-    "01993-337453",
-    "087161319",
-    "0462756022",
-    null,
-    "0552672251",
-    "01834866420",
-    "01993-337471",
-    "0351-63176",
-    "0492756167",
-    null,
-    "0821-714098",
-    "02-7633186",
-    "092163361; 0921-64304",
-    "0247-851004",
-    "0522856196",
-    "9141422, 55013747",
-    "08625-75071",
-    "031-611106",
-    "052165231",
-    "0561-53402",
-    "091-67605",
-    "051-63624",
-    "0772-272381",
-    "02-9810325",
-    "09032-56013",
-    "02-6656337",
-    null,
-    "51315796",
-    "031-671039",
-    "48952404",
-    "02-48963198; 02-58951164",
-    null,
-    "51931469",
-    "0821-716562",
-    "7764533",
-    null
-  ],
-  "sub_branch_name": [
-    "Chompoknagar Sub-Branch,Brahmanbaria",
-    "Hatkanpara SubBranch,Rajshahi",
-    "Baliadanga SubBranch,Chapai Nawabgonj",
-    "Choubaria SubBranch Naogaon",
-    "Gouripur SubBranch Mymensingh",
-    "Parangonj Bazar SubBranch, Mymensingh",
-    "Daulatpur SubBranch, Kushtia",
-    "Kuti Chowmuhani Sub-Branch, Brahmanbaria",
-    "Jagatpur Bazar Sub-Branch, Chandpur",
-    "Palash Bazar Sub-Branch, Sunamganj",
-    "Shahjibazar Biddut Kendra Sub-Branch, Habiganj",
-    "Paikosha Bazar Sub-Branch, Sirajganj",
-    "Lahini Bottola Sub-Branch, Kushtia",
-    "Kadamtala Sub-Branch, Satkhira",
-    "Kharakandi Sub-Branch, Dhaka",
-    "Bosila Sub-Branch, Dhaka",
-    "Paragram Bazar Sub-Branch, Dhaka",
-    "Ranirhat Sub-Branch, Chattogram",
-    "Austagram Sub Branch, Kishoregonj",
-    "Nomorhat Bazar Sub Branch",
-    "Bhuigor Sub Branch",
-    "Agargaon Sub Branch, Dhaka",
-    "Madarganj Sub Branch, Jamalpur",
-    "Molla Bazar SubBranch, Shariatpur",
-    "Manda Subbranch",
-    "Nazirpur Sub Branch",
-    "Lalpur Sub-Branch, Natore",
-    "Godagari Sub-Branch, Rajshahi",
-    "Belghor Sub-branch, Cumilla",
-    "Kewatkhali Sub-Branch, Mymensingh",
-    "Zero Point Sub-branch, Khulna",
-    "Ichail Natun Bazar Sub-Branch, Mymensingh",
-    "Mirzapur Sub-Branch, Tangail",
-    "Balughat Sub-Branch, Dhaka",
-    "Diabari Metrorail Sub-Branch, Dhaka",
-    "Chunkutia Sub-Branch, Dhaka",
-    "Begum Rokeya University Sub-branch, Rangpur",
-    "Basabo Sub Branch"
-  ],
-  "sub_branch_address": [
-    "Bhaban:western plaza,village:chompoknagar,Union:4 no,P.O.:Nurpur,Brahmanbaria",
-    "Village:Hatkanpara,Ward:07,P.O.:Bokhtiarpur,Rajshahi",
-    "Baliadanga,Chapai Nawabgonj Sadar,Chapai Nawabgonj",
-    "Choubaria Naogaon",
-    "Gouripur Mymensingh",
-    "Parangonj Bazar, Mymensingh",
-    "Daulatpur, Kushtia",
-    "Bhaban: Ekota Plaza, Village: Kuti Chowmuhani, Union: 8 No. Kuti Union, P.O.: Kuti, Upazila: Kasba, Brahmanbaria",
-    "Bhaban: Ishak Super Market, Village: Jagatpur, Union: 12 No. Ashrafpur Union, P.O.: Bazar Jagatpur, Thana: Kachua, Chandpur",
-    "Bhaban: Kalam Market, Sunamganj-Bishwambarpur Road, Village: Palash Bazar, Union: 2 No. Palash Union, Ward: 06, P.O: Meruakhla-3000, Thana: Bishwambarpur, Sunamganj",
-    "Bhaban: Co-operative Building, Village: Fatehpur, Union: Baghasura, Thana: Madhabpur, Habiganj",
-    "Paikosha Bazar, Sirajganj",
-    "Lahini Bottola, Kushtia",
-    "Kadamtala, Satkhira",
-    "Kharakandi, Dhaka",
-    "Bosila, Mohammadpur, Dhaka",
-    "Paragram, Union: Koilail, PO: Paragram, PS: Nowabganj, District: Dhaka",
-    "Hazi Umar Ali Bhaban, Moddho Ghagra, Union: Razanagar Union, Upazilla: Rangunia, District: Chattogram",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "Building name- Omor Molla Market, Village- Molla Bazar, Union- Char Kumaria, Thana- Sakhipur, Upazilla- Bhedorganj, Shariatpur",
-    "Building Name- Kazi Bari, 70 no. Uttar Manda, Manda Main Road, Ward no. 72, Thana: Mugda, Dhaka.",
-    "Building Name- Joyonti Plaza, Village- Nazirpur Bondor, P/O: N.P.School-8253, Union- 2 no Nazirpur, Ward- 04, Thana- Muladi, Barishal.",
-    "Village- Chandpur, P.O: Panchbaria, Union:Kadimchilan, Thana: Lalpur, Natore",
-    "Bhaban: Madhobi Tower, Holding no: 540, Road: Rajshahi-Chapainawabganj Highway, P.O: Mohishalbari, Ward no: 02, Thana: Godagari, Rajshahi",
-    "Building Name- Mokhles Market, Village- Belghor, P.O- Tulatoli Belghor, P.S- Lalmai, Cumilla",
-    "Building Name- Khan Villa, Holding No-40, Road- Mymensingh-Gafargaon-Toke Road, P.O-Sutiakhali-2202, P.S- Thana Sadar, Mymensingh",
-    "Khan Jahan Ali Trade Center, Zero Point, Khulna.",
-    "Building Name- Muktar Market, Village- Deokhola, P.O-Alimnagar, Thana-Fulbaria, Mymensingh",
-    "Building Name: Ramiz Mahal, Road: Mirzapur Bypass, Holding No: 369/2, P.O: Mirzapur, Thana: Mirzapur, Tangail",
-    "High Dreams Tower, ECB Chattar, Dhaka Cantonment-1206",
-    "Dara Center, House-30, Avenue 9, Sector 15, Block-D, P.O- Uttara, P.S- Turag, Dhaka",
-    null,
-    "Begum Rokeya University,cafeteria Bhaban(Ground Floor),Cadet College,Word:28,Rangpur City Corporation,Rangpur.",
-    "Jahangir Tower,75/2/K/2 kodomtola,bashabo,word:5,Thana:Sobugbag"
-  ],
-  "sub_branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sub_branch_contact_number": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "duration_sec": 20.3
+  "sub_branch": [
+    {
+      "Chompoknagar Sub-Branch,Brahmanbaria": [
+        "Bhaban:western plaza,village:chompoknagar,Union:4 no,P.O.:Nurpur,Brahmanbaria",
+        null,
+        null
+      ]
+    },
+    {
+      "Hatkanpara SubBranch,Rajshahi": [
+        "Village:Hatkanpara,Ward:07,P.O.:Bokhtiarpur,Rajshahi",
+        null,
+        null
+      ]
+    },
+    {
+      "Baliadanga SubBranch,Chapai Nawabgonj": [
+        "Baliadanga,Chapai Nawabgonj Sadar,Chapai Nawabgonj",
+        null,
+        null
+      ]
+    },
+    {
+      "Choubaria SubBranch Naogaon": [
+        "Choubaria Naogaon",
+        null,
+        null
+      ]
+    },
+    {
+      "Gouripur SubBranch Mymensingh": [
+        "Gouripur Mymensingh",
+        null,
+        null
+      ]
+    },
+    {
+      "Parangonj Bazar SubBranch, Mymensingh": [
+        "Parangonj Bazar, Mymensingh",
+        null,
+        null
+      ]
+    },
+    {
+      "Daulatpur SubBranch, Kushtia": [
+        "Daulatpur, Kushtia",
+        null,
+        null
+      ]
+    },
+    {
+      "Kuti Chowmuhani Sub-Branch, Brahmanbaria": [
+        "Bhaban: Ekota Plaza, Village: Kuti Chowmuhani, Union: 8 No. Kuti Union, P.O.: Kuti, Upazila: Kasba, Brahmanbaria",
+        null,
+        null
+      ]
+    },
+    {
+      "Jagatpur Bazar Sub-Branch, Chandpur": [
+        "Bhaban: Ishak Super Market, Village: Jagatpur, Union: 12 No. Ashrafpur Union, P.O.: Bazar Jagatpur, Thana: Kachua, Chandpur",
+        null,
+        null
+      ]
+    },
+    {
+      "Palash Bazar Sub-Branch, Sunamganj": [
+        "Bhaban: Kalam Market, Sunamganj-Bishwambarpur Road, Village: Palash Bazar, Union: 2 No. Palash Union, Ward: 06, P.O: Meruakhla-3000, Thana: Bishwambarpur, Sunamganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Shahjibazar Biddut Kendra Sub-Branch, Habiganj": [
+        "Bhaban: Co-operative Building, Village: Fatehpur, Union: Baghasura, Thana: Madhabpur, Habiganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Paikosha Bazar Sub-Branch, Sirajganj": [
+        "Paikosha Bazar, Sirajganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Lahini Bottola Sub-Branch, Kushtia": [
+        "Lahini Bottola, Kushtia",
+        null,
+        null
+      ]
+    },
+    {
+      "Kadamtala Sub-Branch, Satkhira": [
+        "Kadamtala, Satkhira",
+        null,
+        null
+      ]
+    },
+    {
+      "Kharakandi Sub-Branch, Dhaka": [
+        "Kharakandi, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Bosila Sub-Branch, Dhaka": [
+        "Bosila, Mohammadpur, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Paragram Bazar Sub-Branch, Dhaka": [
+        "Paragram, Union: Koilail, PO: Paragram, PS: Nowabganj, District: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Ranirhat Sub-Branch, Chattogram": [
+        "Hazi Umar Ali Bhaban, Moddho Ghagra, Union: Razanagar Union, Upazilla: Rangunia, District: Chattogram",
+        null,
+        null
+      ]
+    },
+    {
+      "Austagram Sub Branch, Kishoregonj": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Nomorhat Bazar Sub Branch": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Bhuigor Sub Branch": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Agargaon Sub Branch, Dhaka": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Madarganj Sub Branch, Jamalpur": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Molla Bazar SubBranch, Shariatpur": [
+        "Building name- Omor Molla Market, Village- Molla Bazar, Union- Char Kumaria, Thana- Sakhipur, Upazilla- Bhedorganj, Shariatpur",
+        null,
+        null
+      ]
+    },
+    {
+      "Manda Subbranch": [
+        "Building Name- Kazi Bari, 70 no. Uttar Manda, Manda Main Road, Ward no. 72, Thana: Mugda, Dhaka.",
+        null,
+        null
+      ]
+    },
+    {
+      "Nazirpur Sub Branch": [
+        "Building Name- Joyonti Plaza, Village- Nazirpur Bondor, P/O: N.P.School-8253, Union- 2 no Nazirpur, Ward- 04, Thana- Muladi, Barishal.",
+        null,
+        null
+      ]
+    },
+    {
+      "Lalpur Sub-Branch, Natore": [
+        "Village- Chandpur, P.O: Panchbaria, Union:Kadimchilan, Thana: Lalpur, Natore",
+        null,
+        null
+      ]
+    },
+    {
+      "Godagari Sub-Branch, Rajshahi": [
+        "Bhaban: Madhobi Tower, Holding no: 540, Road: Rajshahi-Chapainawabganj Highway, P.O: Mohishalbari, Ward no: 02, Thana: Godagari, Rajshahi",
+        null,
+        null
+      ]
+    },
+    {
+      "Belghor Sub-branch, Cumilla": [
+        "Building Name- Mokhles Market, Village- Belghor, P.O- Tulatoli Belghor, P.S- Lalmai, Cumilla",
+        null,
+        null
+      ]
+    },
+    {
+      "Kewatkhali Sub-Branch, Mymensingh": [
+        "Building Name- Khan Villa, Holding No-40, Road- Mymensingh-Gafargaon-Toke Road, P.O-Sutiakhali-2202, P.S- Thana Sadar, Mymensingh",
+        null,
+        null
+      ]
+    },
+    {
+      "Zero Point Sub-branch, Khulna": [
+        "Khan Jahan Ali Trade Center, Zero Point, Khulna.",
+        null,
+        null
+      ]
+    },
+    {
+      "Ichail Natun Bazar Sub-Branch, Mymensingh": [
+        "Building Name- Muktar Market, Village- Deokhola, P.O-Alimnagar, Thana-Fulbaria, Mymensingh",
+        null,
+        null
+      ]
+    },
+    {
+      "Mirzapur Sub-Branch, Tangail": [
+        "Building Name: Ramiz Mahal, Road: Mirzapur Bypass, Holding No: 369/2, P.O: Mirzapur, Thana: Mirzapur, Tangail",
+        null,
+        null
+      ]
+    },
+    {
+      "Balughat Sub-Branch, Dhaka": [
+        "High Dreams Tower, ECB Chattar, Dhaka Cantonment-1206",
+        null,
+        null
+      ]
+    },
+    {
+      "Diabari Metrorail Sub-Branch, Dhaka": [
+        "Dara Center, House-30, Avenue 9, Sector 15, Block-D, P.O- Uttara, P.S- Turag, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Chunkutia Sub-Branch, Dhaka": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Begum Rokeya University Sub-branch, Rangpur": [
+        "Begum Rokeya University,cafeteria Bhaban(Ground Floor),Cadet College,Word:28,Rangpur City Corporation,Rangpur.",
+        null,
+        null
+      ]
+    },
+    {
+      "Basabo Sub Branch": [
+        "Jahangir Tower,75/2/K/2 kodomtola,bashabo,word:5,Thana:Sobugbag",
+        null,
+        null
+      ]
+    }
+  ]
 }

@@ -1,0 +1,24 @@
+{
+  "_bank": "Sammilito Islami Bank PLC",
+  "bank_url": "https://www.sammilitobankbd.com/",
+  "method": "html_cards",
+  "status": "success",
+  "branch": [
+    {
+      "No Branch Available": [
+        "Location information is",
+        null,
+        null
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "No Sub Branch Available": [
+        "Location information is",
+        null,
+        null
+      ]
+    }
+  ]
+}

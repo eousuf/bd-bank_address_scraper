@@ -1,148 +1,233 @@
 {
   "_bank": "ICB Islamic Bank PLC",
-  "website": "https://www.icbislamic-bd.com/",
-  "website_source": "ddg(score=1.00)",
+  "bank_url": "https://www.icbislamic-bd.com/",
   "method": "html_table",
   "status": "success",
-  "branch_name": [
-    "Principal Branch",
-    "Agrabad Branch",
-    "Imamgonj Branch",
-    "Khatungonj Branch",
-    "Kakrail Branch",
-    "Sylhet Branch",
-    "Narayangonj Branch",
-    "Biswanath Branch",
-    "New Market Branch",
-    "Bangshal Branch",
-    "Narsingdi Branch",
-    "Islampur Branch",
-    "Khulna Branch",
-    "Jubilee Road Branch",
-    "Feni Branch",
-    "Rajshahi Branch",
-    "Habigonj Branch",
-    "Moulavi Bazar Branch",
-    "Barisal Branch",
-    "Kawran Bazar Branch",
-    "Gulshan Branch",
-    "Jashore Branch",
-    "Noapara Branch",
-    "Benapole Branch",
-    "Babu Bazar Branch",
-    "Dholaikhal Branch",
-    "Naogaon Branch",
-    "Muradpur Branch",
-    "Mirpur Circle-10 Branch",
-    "Banani Branch",
-    "Dhanmondi Branch",
-    "Uttara Branch"
+  "branch": [
+    {
+      "Principal Branch": [
+        "17, Mothijheel, C/A, Dhaka - 1000, Location",
+        null,
+        "02-223380876"
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "Ground Floor of JOY BANGLA TOWER, 36 Agrabad Commercial Area, Agrabad Chattogram - 4000, Location",
+        null,
+        "02-333310511"
+      ]
+    },
+    {
+      "Imamgonj Branch": [
+        "4, 4/1,5, Gulbadan Super Market (1st Floor) 5,Moulavibazar, Dhaka - 1100, Location",
+        null,
+        "02-57310339; 02-57313707"
+      ]
+    },
+    {
+      "Khatungonj Branch": [
+        "410/411, Mawlana Ispat Bhaban (1st Floor), Khatungonj Main Road, Chattogram, Location",
+        null,
+        "02-333357227"
+      ]
+    },
+    {
+      "Kakrail Branch": [
+        "Green City Regency[2nd Floor], 26–27 Kakrail, Beside SA Paribahan Office, Dhaka - 1205, Location",
+        null,
+        "02-2222221029; 02-48314486"
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "Collectorate Mosque Building (1st floor), Court Point, Zinda Bazar Road, Sylhet - 3100, Location",
+        null,
+        "02-996631264; 02-996631207; 02-996631397; 02-996634469"
+      ]
+    },
+    {
+      "Narayangonj Branch": [
+        "Al-Haj Benu Tower (1st Floor) 152(New), B.B Road, Narayanganj - 1400, Location",
+        null,
+        "02-224432477; 02-7630276"
+      ]
+    },
+    {
+      "Biswanath Branch": [
+        "Plot No. 9545, Thana Road, Biswanath, Sylhet - 3130, Location",
+        null,
+        "02-996645222"
+      ]
+    },
+    {
+      "New Market Branch": [
+        "House no-26, A.B.C Market, Mirpur Road, New Market, Dhaka-1205, Location",
+        null,
+        "02-223366204; 02-58613475; 02-58614105"
+      ]
+    },
+    {
+      "Bangshal Branch": [
+        "13 Bangshal Road(1st Floor), Bangshal, Dhaka - 1100, Location",
+        null,
+        "02-223383007; 02-223382999"
+      ]
+    },
+    {
+      "Narsingdi Branch": [
+        "136,Sharif Mansion,C&B road, Puraton Bus stand, Narsingdi, Location",
+        null,
+        "02-224452194"
+      ]
+    },
+    {
+      "Islampur Branch": [
+        "9,Asian Plaza. Islampur Road ,Islampur, Dhaka,1100, Location",
+        null,
+        "02-57390342; 02-57391485; 02-57390992"
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "Tayamun 181, Upper Jashre Road, Khulna-911, Location",
+        null,
+        "02-44110387; 02-44110386"
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "829, Jubilee Road, Chattogram, Location",
+        null,
+        "02-333365899"
+      ]
+    },
+    {
+      "Feni Branch": [
+        "620 Ammani Tower, 2nd floor, Near Modnina Bus stand, Trunk Road Feni",
+        null,
+        "02-334474065"
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        "120 Natore Road,Shahmukhdum Market, Saheb Bazar(Zero Point), Ghoramara, Boalia, Rajshahi-6100, Location",
+        null,
+        "02-47812416; 02-47812417"
+      ]
+    },
+    {
+      "Habigonj Branch": [
+        "London Tower (1st floor), Kali Bari Road.Habiganj., Location",
+        null,
+        "02-996605557; 02-83161557"
+      ]
+    },
+    {
+      "Moulavi Bazar Branch": [
+        "10, Court Road, Chowmuhana, Moulavibazar, Location",
+        null,
+        "02-996683153"
+      ]
+    },
+    {
+      "Barisal Branch": [
+        "67/65, Katpotty Road, Barishal., Location",
+        null,
+        "02-478863537"
+      ]
+    },
+    {
+      "Kawran Bazar Branch": [
+        "Jahangir Tower, 10, Kazi Nazrul Islam Avenue, Dhaka-1215, Bangladesh, Location",
+        null,
+        "02-55012760; 02-55012761"
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "Suvastu Muskan Tower[1st Floor], 56 Gulshan Avenue(South West Side), Gulshan-1, Dhaka-1212, Location",
+        null,
+        "02-222263005"
+      ]
+    },
+    {
+      "Jashore Branch": [
+        "25 R.N Road, jashore, Location",
+        null,
+        "02-477766683; 02-477760082"
+      ]
+    },
+    {
+      "Noapara Branch": [
+        "Station Bazar, Noapara, Jashore, Location",
+        null,
+        "02-477770024; 02-477770025"
+      ]
+    },
+    {
+      "Benapole Branch": [
+        "265, Kaz Tower, (Infornt of Custom House), Benapole, Jashore., Location",
+        null,
+        "02-477767798"
+      ]
+    },
+    {
+      "Babu Bazar Branch": [
+        "Mona complex (1st floor) 21, Armanian street, Babu Bazar ,Dhaka-1100, Location",
+        null,
+        "02-47391782; 02-47391783"
+      ]
+    },
+    {
+      "Dholaikhal Branch": [
+        "23 No. Goalghat Lane, Kalachand Market[2nd Floor], Dholaikhal, Wari, Dhaka – 1100, Location",
+        null,
+        "02-223359524; 02-223350967"
+      ]
+    },
+    {
+      "Naogaon Branch": [
+        "K.R. Rahman Super Market, Main Road, Naogaon., Location",
+        null,
+        "02-588883375; 02-588881774"
+      ]
+    },
+    {
+      "Muradpur Branch": [
+        "Jumairah Fairmont Trade Center[1st Floor], 815/A CDA Avenue, Muradpur, Chattogram - 4203, Location",
+        null,
+        "02-334451237; 02-334452071"
+      ]
+    },
+    {
+      "Mirpur Circle-10 Branch": [
+        "Maa Amena Plaza, House # 37, Road # 02,Block # Kha, Section # 06, Senpara Parbota, Mirpur-10, Dhaka - 1216, Location",
+        null,
+        "02-58050342"
+      ]
+    },
+    {
+      "Banani Branch": [
+        "Suvastu Muskan Tower[1st Floor], 56 Gulshan Avenue(South West Side), Gulshan-1, Dhaka-1212, Location",
+        null,
+        "02-222274978; 02-222274979"
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "1st Floor of Stamford University Building(beside Star kabab buiding)Holdings No-44, Satmosjid Road, Dhanmondi,Dhaka., Location",
+        null,
+        "02-223371631; 02-223371632"
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "House- 2/A, Road- 13, Sector- 04, Uttara, Dhaka - 1230",
+        null,
+        "02-48962970; 02-48962979"
+      ]
+    }
   ],
-  "branch_address": [
-    "17, Mothijheel, C/A, Dhaka - 1000, Location",
-    "Ground Floor of JOY BANGLA TOWER, 36 Agrabad Commercial Area, Agrabad Chattogram - 4000, Location",
-    "4, 4/1,5, Gulbadan Super Market (1st Floor) 5,Moulavibazar, Dhaka - 1100, Location",
-    "410/411, Mawlana Ispat Bhaban (1st Floor), Khatungonj Main Road, Chattogram, Location",
-    "Green City Regency[2nd Floor], 26–27 Kakrail, Beside SA Paribahan Office, Dhaka - 1205, Location",
-    "Collectorate Mosque Building (1st floor), Court Point, Zinda Bazar Road, Sylhet - 3100, Location",
-    "Al-Haj Benu Tower (1st Floor) 152(New), B.B Road, Narayanganj - 1400, Location",
-    "Plot No. 9545, Thana Road, Biswanath, Sylhet - 3130, Location",
-    "House no-26, A.B.C Market, Mirpur Road, New Market, Dhaka-1205, Location",
-    "13 Bangshal Road(1st Floor), Bangshal, Dhaka - 1100, Location",
-    "136,Sharif Mansion,C&B road, Puraton Bus stand, Narsingdi, Location",
-    "9,Asian Plaza. Islampur Road ,Islampur, Dhaka,1100, Location",
-    "Tayamun 181, Upper Jashre Road, Khulna-911, Location",
-    "829, Jubilee Road, Chattogram, Location",
-    "620 Ammani Tower, 2nd floor, Near Modnina Bus stand, Trunk Road Feni",
-    "120 Natore Road,Shahmukhdum Market, Saheb Bazar(Zero Point), Ghoramara, Boalia, Rajshahi-6100, Location",
-    "London Tower (1st floor), Kali Bari Road.Habiganj., Location",
-    "10, Court Road, Chowmuhana, Moulavibazar, Location",
-    "67/65, Katpotty Road, Barishal., Location",
-    "Jahangir Tower, 10, Kazi Nazrul Islam Avenue, Dhaka-1215, Bangladesh, Location",
-    "Suvastu Muskan Tower[1st Floor], 56 Gulshan Avenue(South West Side), Gulshan-1, Dhaka-1212, Location",
-    "25 R.N Road, jashore, Location",
-    "Station Bazar, Noapara, Jashore, Location",
-    "265, Kaz Tower, (Infornt of Custom House), Benapole, Jashore., Location",
-    "Mona complex (1st floor) 21, Armanian street, Babu Bazar ,Dhaka-1100, Location",
-    "23 No. Goalghat Lane, Kalachand Market[2nd Floor], Dholaikhal, Wari, Dhaka – 1100, Location",
-    "K.R. Rahman Super Market, Main Road, Naogaon., Location",
-    "Jumairah Fairmont Trade Center[1st Floor], 815/A CDA Avenue, Muradpur, Chattogram - 4203, Location",
-    "Maa Amena Plaza, House # 37, Road # 02,Block # Kha, Section # 06, Senpara Parbota, Mirpur-10, Dhaka - 1216, Location",
-    "Suvastu Muskan Tower[1st Floor], 56 Gulshan Avenue(South West Side), Gulshan-1, Dhaka-1212, Location",
-    "1st Floor of Stamford University Building(beside Star kabab buiding)Holdings No-44, Satmosjid Road, Dhanmondi,Dhaka., Location",
-    "House- 2/A, Road- 13, Sector- 04, Uttara, Dhaka - 1230"
-  ],
-  "branch_url": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "branch_contact_number": [
-    "02-223380876",
-    "02-333310511",
-    "02-57310339; 02-57313707",
-    "02-333357227",
-    "02-2222221029; 02-48314486",
-    "02-996631264; 02-996631207; 02-996631397; 02-996634469",
-    "02-224432477; 02-7630276",
-    "02-996645222",
-    "02-223366204; 02-58613475; 02-58614105",
-    "02-223383007; 02-223382999",
-    "02-224452194",
-    "02-57390342; 02-57391485; 02-57390992",
-    "02-44110387; 02-44110386",
-    "02-333365899",
-    "02-334474065",
-    "02-47812416; 02-47812417",
-    "02-996605557; 02-83161557",
-    "02-996683153",
-    "02-478863537",
-    "02-55012760; 02-55012761",
-    "02-222263005",
-    "02-477766683; 02-477760082",
-    "02-477770024; 02-477770025",
-    "02-477767798",
-    "02-47391782; 02-47391783",
-    "02-223359524; 02-223350967",
-    "02-588883375; 02-588881774",
-    "02-334451237; 02-334452071",
-    "02-58050342",
-    "02-222274978; 02-222274979",
-    "02-223371631; 02-223371632",
-    "02-48962970; 02-48962979"
-  ],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "duration_sec": 36.9
+  "sub_branch": []
 }

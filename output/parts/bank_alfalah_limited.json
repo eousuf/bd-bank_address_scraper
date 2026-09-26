@@ -1,0 +1,65 @@
+{
+  "_bank": "Bank Alfalah Limited",
+  "bank_url": "https://www.bankalfalah.com/bd/",
+  "method": "pdf",
+  "status": "success",
+  "branch": [
+    {
+      "Motijheel Islamic Banking Branch": [
+        "Address, Rajuk Avenue, Motijheel, Dhaka, Dhaka, Dhaka",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Country Office": [
+        "Address, Gulshan Avenue, Gulshan, Dhaka, Dhaka, Dhaka",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "Address, Gulshan Avenue, Gulshan, Dhaka, Dhaka, Dhaka",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "Address, 81/A, 8/A Satmasjid Road, Dhanmondi, Dhaka, Dhaka, Dhaka City Corporation, Dhaka",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "Address, Doublemoring, Chittagong, Chittagong, Chittagong City Corporation, Chittagong",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "Address, J. R. Tower 23 Abash, Jail Road, North Bandar Bazar, Kotoali, Sylhet, Sylhet City Corporation, Sylhet",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "Address, House 4, Garib E Newaz Avenue, Sector 11,, Uttara, Uttara (West), Dhaka, Dhaka North City Corporation, Dhaka",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "Address, Lakewood Avenue Plot 01, Avenue 01, Section 11, Block D, Mirpur, Dhaka, Dhaka North City Corporation, Dhaka",
+        "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null
+      ]
+    }
+  ],
+  "sub_branch": []
+}

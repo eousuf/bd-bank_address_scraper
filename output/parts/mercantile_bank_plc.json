@@ -1,17 +1,1480 @@
 {
   "_bank": "Mercantile Bank PLC",
-  "website": null,
-  "website_source": "not_found",
-  "method": null,
-  "status": "failed",
-  "branch_name": [],
-  "branch_address": [],
-  "branch_url": [],
-  "branch_contact_number": [],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "error": "official website not found",
-  "duration_sec": 7.2
+  "bank_url": "https://www.mblbd.com/",
+  "method": "html_table",
+  "status": "success",
+  "branch": [
+    {
+      "Barishal Branch": [
+        "141, Sadar Road, Barishal-8200.",
+        "https://www.mblbd.com/home/view_branch_map/2",
+        "02478866050; 02478866051; 09678-142137; 01713-384496; 01914081334"
+      ]
+    },
+    {
+      "Patuakhali Branch": [
+        "Holding No. - 151 - 152, Ward No. - 06 (Old - 02), Sadar Road, Natun Bazar, Patuakhali Sadar, Patukhali.",
+        "https://www.mblbd.com/home/view_branch_map/3",
+        "02478880907; 09678-142154; 01730340790; 01707653008"
+      ]
+    },
+    {
+      "Bhola Branch": [
+        "Karnaphuli Complex, Holding no. 3373, Sadar Road, Ward no. 06, PO & PS: Bhola, Thana: Bhola Sadar, Dist-Bhola.",
+        "https://www.mblbd.com/home/view_branch_map/4",
+        "02478893720; 09678-142177; 01755-637382; 01798-838356"
+      ]
+    },
+    {
+      "Jhalokathi Branch": [
+        "Al Marzan; 30, Kumarpatti Jhalokathi Pouroshova; Jhalokathi.",
+        "https://www.mblbd.com/home/view_branch_map/5",
+        "02478875911; 01777-759524; 01712-588299; 01634-539898"
+      ]
+    },
+    {
+      "Kalaiya Branch": [
+        "\"Shimon Plaza\" Vill: Kalaiya, Union: Kalaiya P.S: Bauphal, District: Patuakhali",
+        "https://www.mblbd.com/home/view_branch_map/6",
+        "01713369359; 01853167999; +8809678142199"
+      ]
+    },
+    {
+      "Khepupara Branch": [
+        "\"Society Super Market\", Khepupara, Kolapara, Patuakhali",
+        "https://www.mblbd.com/home/view_branch_map/7",
+        "09678142326; 02-478884068-9; 01701209785; 01711358752"
+      ]
+    },
+    {
+      "Mathbaria Branch": [
+        "\"Samabay Bank Limited Authority Building\", Holding - 0007-01, Mathbaria Patharghata Road, Ward - 09, Municipality & Thana - Mathbaria, Pirojpur.",
+        "https://www.mblbd.com/home/view_branch_map/8",
+        "09678-142339; 01713-013786; 01977662541; 01818-592523"
+      ]
+    },
+    {
+      "Patherhat Branch": [
+        "S M Shopping Center Pather Hat, Ward No-04, Union- Noapara Thana-Raojan, District Chattogram",
+        "https://www.mblbd.com/home/view_branch_map/9",
+        "09678142182; 01755637384; 01819377681"
+      ]
+    },
+    {
+      "A. K. Khan Moor Branch": [
+        "Anjuman Tower, A K Khan Moor, Zakir Hossain Road, Holding No. 827, PO- Feroz Shah Colony, PS- Pahartali, Chattogram,",
+        "https://www.mblbd.com/home/view_branch_map/10",
+        "09678142175; 01755533140; 01819828162"
+      ]
+    },
+    {
+      "Ashuganj Branch": [
+        "Aziz Plaza (1st & 2nd Floor), West Bazar, Char Chartala, Ashuganj, Brahamanbaria.",
+        "https://www.mblbd.com/home/view_branch_map/11",
+        "08528-74592-3; 01755533145; 01755828831"
+      ]
+    },
+    {
+      "Maijdee Court Branch": [
+        "Honey Dew Point, 10, Abdul Malek Ukil Sarak, Maijdee Court, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/12",
+        "09678142164; 01730709983; 01713097497"
+      ]
+    },
+    {
+      "Bangla Bazar Branch": [
+        "Banglabazar, Begumganj, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/13",
+        "09678142161; 01709639923; 01730709987; 01863608137"
+      ]
+    },
+    {
+      "Rangamati Branch": [
+        "Hotel Green Castle, 1 No. Pathar Ghata, Reserve Bazar, Rangamati-4500,",
+        "https://www.mblbd.com/home/view_branch_map/14",
+        "09678142160; 01730709986; 01937210141"
+      ]
+    },
+    {
+      "Rajnagar SME/Krishi Branch": [
+        "Balua Chowmuhani, Dholia, Feni Sadar, Feni.",
+        "https://www.mblbd.com/home/view_branch_map/15",
+        "01701209795; 01730340793; 01677859365"
+      ]
+    },
+    {
+      "Patiya SME/Krishi Branch": [
+        "Rahman Menson, 1284/1 Club Road Gobindokhal, Patia, Chattogram",
+        "https://www.mblbd.com/home/view_branch_map/16",
+        "09678142153; 01730320813; 01717124323"
+      ]
+    },
+    {
+      "Amishapara SME/Krishi Branch": [
+        "Mosharaf Plaza (1st Floor), Moddo Bazar, Amishapara, Shonaimuri, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/17",
+        "09678142152; 01730340792; 01777792510; 01730320812; 01719473695"
+      ]
+    },
+    {
+      "Faridganj Branch": [
+        "Saima Abdullah Plaza, Chandra Road, Faridganj Bazar, Chandpur.",
+        "https://www.mblbd.com/home/view_branch_map/18",
+        "09678142149; 01730318187; 01735605824"
+      ]
+    },
+    {
+      "Chattogram EPZ Branch": [
+        "S A Tower, Airport Road, South Halisahar, Bandar, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/19",
+        "09678142148; 01730318185"
+      ]
+    },
+    {
+      "Dagonbhuiyan Branch": [
+        "Mizan Tower, 273, Bashurhat Road, Dagonbhuiyan, Feni.",
+        "https://www.mblbd.com/home/view_branch_map/20",
+        "02334475605; 02334475770; 01730328684; 01713403104"
+      ]
+    },
+    {
+      "Sheikh Mujib Road Branch": [
+        "304, Sk. Mujib Road, Chattogram",
+        "https://www.mblbd.com/home/view_branch_map/21",
+        "031-2514236; 01708494135; 01819632604"
+      ]
+    },
+    {
+      "Cumilla Branch": [
+        "1042/945, Jhautola, Cumilla",
+        "https://www.mblbd.com/home/view_branch_map/22",
+        "09678142139; 02334405275; 02334405276; 01713384498; 01723109312"
+      ]
+    },
+    {
+      "Feni Branch": [
+        "105, S.S. Kaiser Road, PO: Feni Head Post Office, PS: Feni Model Thana, Dist-Feni.",
+        "https://www.mblbd.com/home/view_branch_map/23",
+        "09678142131; 02334473557-9; 01713452994; 01713161483"
+      ]
+    },
+    {
+      "Chowmuhani Branch": [
+        "Morshed Alam Complex, Holding # 0001-01, Ward # 05, Chowmuhani, Begumganj, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/24",
+        "02334492960; 02334492966; 01713036991; 01735749912"
+      ]
+    },
+    {
+      "O. R. Nizam Road Branch": [
+        "191 , CDA Avenue, East Nasirabad, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/25",
+        "09678142125; 01713103663; 01816533856"
+      ]
+    },
+    {
+      "Madam Bibir Hat Branch": [
+        "S.A. Tower, Madam Bibir Hat, Bhatiary, Sitakunda, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/27",
+        "09678142120; 01730076127; 01813034019"
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "Kamal Chamber (2nd Floor), 61, Jubilee Road, Kotwali, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/28",
+        "09678142117; 01711724874; 01812498739"
+      ]
+    },
+    {
+      "Khatunganj Branch": [
+        "599, Ramjoy Mahajon Lane, Khatunganj, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/29",
+        "09678142112; 02-333356101-2; 01711723051; 01819518548"
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "Mishkat Arcade, 21/1, Agrabad C/A, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/30",
+        "09678142104; 02-333316421; 02-333321772; 01755694172; 01712129624"
+      ]
+    },
+    {
+      "Korais Munshi Bazar Branch": [
+        "\"Mamun Super Market\" Korais Munshi Bazar 02 Rajapur Union, P.O: Somaspur Thana: Dagonbhuiyan, District: Feni",
+        "https://www.mblbd.com/home/view_branch_map/32",
+        "09678142195; 01787681252; 01787681254"
+      ]
+    },
+    {
+      "Laxmipur Branch": [
+        "\"R B Tower\" Thana Road, P.O: Laxmipur Thana: Laxmipur, District: Laxmipur",
+        "https://www.mblbd.com/home/view_branch_map/33",
+        "09678142196; 02334441389-90; 01713369352; 01717432755"
+      ]
+    },
+    {
+      "Chandpur Branch": [
+        "\"Techno Hannan Complex\" Haji Mohasin Road, Chayabani Moor Chandpur Sadar Thana: Chandpur Sadar, District: Chandpur",
+        "https://www.mblbd.com/home/view_branch_map/34",
+        "0841-66511-12; 01713369354; 01716168374"
+      ]
+    },
+    {
+      "Bazra Bazar Branch": [
+        "\"Babul Shopping Complex\" Village: Bazra Bazar, Union : Bazra PS: Sonaimuri, District: Noakhali",
+        "https://www.mblbd.com/home/view_branch_map/35",
+        "09678142304; 01713369358"
+      ]
+    },
+    {
+      "SAMIR MUNSHIR HAT BRANCH": [
+        "Patwary Market, Samir Munshir Hat, 6 No. Kabilpur, Senbug, Noakhali",
+        "https://www.mblbd.com/home/view_branch_map/36",
+        "01709652415; 01709633759; 01818803038"
+      ]
+    },
+    {
+      "SUAGANJ BRANCH": [
+        "Noor Mansion, Puratan Road, Sadar Dakkhin, Suaganj Bazar, Cumilla",
+        "https://www.mblbd.com/home/view_branch_map/37",
+        "09678142310; 01709652411; 01717431644"
+      ]
+    },
+    {
+      "BARAIYARHAT BRANCH": [
+        "Feroza Saleh Center, Holding No.05, Asian Highway, Ward No.05, Baraiyarhat Paurashava, P.S: Jorarganj, Mirsharai, Chattogram",
+        "https://www.mblbd.com/home/view_branch_map/38",
+        "09678142312; 01709652417; 01767882583"
+      ]
+    },
+    {
+      "SUBARNACHAR BRANCH": [
+        "Anowara-Ismail Tower, Haris Chowdhury Bazar, 5 no. Charjubilee, Charjabbar, Noakhali",
+        "https://www.mblbd.com/home/view_branch_map/39",
+        "01709652418; 01709652412; 01717431644"
+      ]
+    },
+    {
+      "Sadarghat Branch": [
+        "\"Humayun Heights\" Holding no. 70 Sadarghat Road, Sadarghat Chattogram City Corporation Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/40",
+        "09678142317; 02-333353291-2; 02-333353290; 01708454397; 01818734972"
+      ]
+    },
+    {
+      "Kankirhat Branch": [
+        "\"R.K. Chowdhury Shopping Complex\" Birkot, Matain Union : 3 no. Domurua Union Council Senbag, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/41",
+        "01708494131; 01708454390"
+      ]
+    },
+    {
+      "Mandari Bazar Branch": [
+        "Mandari, Ratanpur Union -14 no. Mandari Union Porishad Chandragonj, Laxmipur.",
+        "https://www.mblbd.com/home/view_branch_map/42",
+        "09678142321; 01708454396; 01819871266"
+      ]
+    },
+    {
+      "Udoy Sadhur Hat": [
+        "\"Malek Bhaban\", Union- 1 no Charmatua, Sadar, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/43",
+        "09678142325; 01708490258; 01701209783; 01719324892"
+      ]
+    },
+    {
+      "Chitoishi Branch": [
+        "\"Rokeya Super Market\", Village - Chitoishi, Union- Chitoishi Purbo Union Parisad, Upazila- Shahrasti, District- Chandpur.",
+        "https://www.mblbd.com/home/view_branch_map/44",
+        "09678142328; 01701209790; 01701209782; 01754400339"
+      ]
+    },
+    {
+      "Chandragonj Branch": [
+        "\"Matrichaya Bhaban\", Mouza- Deopara, Union- 10, Chandragonj Union Parishad, Thana- Chandragonj, District- Lakshmipur.",
+        "https://www.mblbd.com/home/view_branch_map/45",
+        "02334443097; 01701209781; 02334443096; 01716061684"
+      ]
+    },
+    {
+      "Access Road Branch": [
+        "\"Amin Tower\", Holding # 601/722, Agrabad Access Road, Ward # 24, Chattogram City Corporation, Chattogram.",
+        "https://www.mblbd.com/home/view_branch_map/46",
+        "09678142332; 01701209787; 01675727632"
+      ]
+    },
+    {
+      "Munshirhat Branch": [
+        "\"Patwary Tower\", Main Road, Old Munshirhat, Fulgazi, Feni.",
+        "https://www.mblbd.com/home/view_branch_map/47",
+        "09678142333; 01708494137; 01701209789; 01676286089"
+      ]
+    },
+    {
+      "Kabirhat Branch": [
+        "\"Fuad Centre\", Holding - 37, Hospital Road, Ward - 3, Kabirhat Municipality, Noakhali.",
+        "https://www.mblbd.com/home/view_branch_map/48",
+        "09678142336; 01713013790; 01712298070"
+      ]
+    },
+    {
+      "CHHAGALNAIYA BRANCH": [
+        "\"Sofura Arcade\", Holding - 1340/1341, College Road, Ward - 05, Chhagalnaiya Municipality, Feni.",
+        "https://www.mblbd.com/home/view_branch_map/49",
+        "09678142341; 01713013792; 01817208003"
+      ]
+    },
+    {
+      "Chandina Branch": [
+        "Alhaj Abdul Hamid Member Market, Holding No - 0433-00, Thana Road, Ward No. -5, Chandina Municipality, Cumilla",
+        "https://www.mblbd.com/home/view_branch_map/50",
+        "09678142347; 01713048874; 01710928235"
+      ]
+    },
+    {
+      "Hajigonj Branch": [
+        "Canada Tower (Q C Tower), Holding No - 0053-00, Chandpur-Cumila High Way, Ward No - 4, Hajigonj Municipality, Chandpur",
+        "https://www.mblbd.com/home/view_branch_map/51",
+        "09678142348; 01713048876"
+      ]
+    },
+    {
+      "Main Branch": [
+        "Mia Amanullah Bhaban, 63, Dilkusha C/A, Dhaka-1000",
+        "https://www.mblbd.com/home/view_branch_map/52",
+        "01711-409191; 02-223382958; 01730-034866"
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "Sima Blossom (1st Floor), House no. 390 (Old), 3 (New), Road no. 27 (Old), 16 (New), Dhanmondi R/A, Dhaka-1209",
+        "https://www.mblbd.com/home/view_branch_map/53",
+        "02-41021659; 0241021660-63; 01713-199827; 01713-199823"
+      ]
+    },
+    {
+      "Kawran Bazar Branch": [
+        "Dhaka Trade Centre, 99, Kazi Nazrul Islam Avenue, Kawran Bazar, Dhaka-1215.",
+        "https://www.mblbd.com/home/view_branch_map/54",
+        "09678142103; 01711954120; 01730048071"
+      ]
+    },
+    {
+      "Joypara Branch": [
+        "K P Plaza, Holding No.- 411, Joypara Bazar Main Road,Ward No.- 01, Pourashava -Dohar,Thana - Dohar,Dist. - Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/55",
+        "09678142105; 01711535949; 01787661573"
+      ]
+    },
+    {
+      "Aftabnagar Branch": [
+        "Power Grid Company of Bangladesh Limited, Head Office Bhaban, 2nd Floor, Jahurul Islam Avenue, Road-03, Ward No-37, Thana-Badda, Dhaka North City Corporation, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/56",
+        "09678142344; 01713048869; 01714167454"
+      ]
+    },
+    {
+      "Imamganj Branch": [
+        "Mohammad Hossain Complex (1st, 2nd, 3rd Floor) 3, Moulvibazar, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/57",
+        "09678142169; 01755533142; 01755559690"
+      ]
+    },
+    {
+      "Banani Branch": [
+        "Banani DNCC Unique Complex, Holding # 44, Road # Kamal Ataturk Avenue, Word # 19, Dhaka North Corporation , Thana: Banani; District: Dhaka-1213.",
+        "https://www.mblbd.com/home/view_branch_map/58",
+        "09678142106; 01730034866; 01730445987"
+      ]
+    },
+    {
+      "Board Bazar Branch": [
+        "Board Bazar, Gazipur.",
+        "https://www.mblbd.com/home/view_branch_map/59",
+        "09678142110; 01713044846; 01712650605"
+      ]
+    },
+    {
+      "Nayabazar Branch": [
+        "Salambia Chowdhury Market, Holding No. 30, Zindabahar 1st Lane, Nayabazar, Ward No. 32, Dhaka South City Corporation, Kotwali, Dhaka-1100.",
+        "https://www.mblbd.com/home/view_branch_map/60",
+        "09678142111; 02-226657492-3; 02-226657492; 01711535956; 01755616625"
+      ]
+    },
+    {
+      "Mohakhali Branch": [
+        "Green Delta Aims Tower (1st,2nd, 3rd & 4th Floor) 51-52, Mohakhali C/A, Dhaka-1212.",
+        "https://www.mblbd.com/home/view_branch_map/61",
+        "02222288346; 02222291520; 02222260094; 02222263215; 01713-063586; 01755-557127"
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "Razia Mansion, 184 Senpara Parbata, Begum Rokeya Sarani, Mirpur-10, Dhaka- 1216.",
+        "https://www.mblbd.com/home/view_branch_map/62",
+        "09678142114; 02-58052455; 02-48035613; 01730318186"
+      ]
+    },
+    {
+      "Ashulia Branch": [
+        "Abid Shopping Complex, Jamgara Chowrasta, Ashulia, Savar, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/63",
+        "09678142115; 01711535948; 01819234889; 01716179900"
+      ]
+    },
+    {
+      "Malkhanagar Branch": [
+        "Bhuiyan Complex, Taltola Bazar, Malkhanagar, Shirajdikhan, Munshiganj",
+        "https://www.mblbd.com/home/view_branch_map/154",
+        "09678-142357; 01755-596075"
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "House-10 (A), Road-7/D, Sector-9, Uttara Model Town, Uttara, Dhaka -1230.",
+        "https://www.mblbd.com/home/view_branch_map/64",
+        "02-48931729; 02-48958244; 02-48955879; 02-48958177; 02-48931725; 01787681253; 01755569900"
+      ]
+    },
+    {
+      "Elephant Road Branch": [
+        "Osman Plaza, 75, Elephant Road, Dhaka-1205.",
+        "https://www.mblbd.com/home/view_branch_map/65",
+        "09678142118; 01755627571; 02-9614542; 01713199876; 01713248730"
+      ]
+    },
+    {
+      "Motijheel Branch": [
+        "Dhaka Chamber Bhaban, 65-66, Motijheel C/A, Road No-33, Shahid Bir Uttam Ashfakus Samad Road, Ward No-09, Dhaka South City Corporation, Thana-Motijheel, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/66",
+        "02223356987; 02223381178; 01713083617; 01714000003"
+      ]
+    },
+    {
+      "Satmasjid Road Branch": [
+        "MBL Center, Holding # 82/A, Road No. 08/A , Ward # 15, Satmasjid Road, Dhanmondi R/A, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/67",
+        "09678142123; 02-58153553; 02-48118966; 02-5853552; 01713065974; 01755652226"
+      ]
+    },
+    {
+      "Konabari Branch": [
+        "Matiur Rahman Plaza, Konabari Bazar, Union: Konabari, Thana: Joydevpur, District: Gazipur.",
+        "https://www.mblbd.com/home/view_branch_map/68",
+        "09678142128; 01777764999; 01833139977"
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "Hosna Center, (1st Floor), Suite No.-103-109, 106 Gulshan Avenue, Dhaka-1212",
+        "https://www.mblbd.com/home/view_branch_map/69",
+        "02-55068965; 02-55068969; 02-55068968; 01711546396; 01729230542"
+      ]
+    },
+    {
+      "Hemayetpur Branch": [
+        "Madani Super Market, Holding No.46, Bilamalia, Union-Tetuljhora, Thana-Savar, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/70",
+        "09678142130; 01713452995; 01712046844"
+      ]
+    },
+    {
+      "Bijoynagar Branch": [
+        "Akram Centre 3/3-C & 3/3-D, Purana Paltan (Old), 212 S. S. Nazrul Islam Sarani (New), Dhaka-1000.",
+        "https://www.mblbd.com/home/view_branch_map/71",
+        "+880-9678142133; 01335088141; 01755654243"
+      ]
+    },
+    {
+      "Moghbazar Branch": [
+        "Noor- Bhandari Dom-Inno, Holding No.: 217/A, Outer Circular Road, Moghbazar, Ward No.: 35, Dhaka City Corporation (North), Thana: Ramna, District: Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/72",
+        "09678142134; 01713068194; 01713199821"
+      ]
+    },
+    {
+      "Bhojeshwar Bazar Branch": [
+        "Khan Tower, Bhojeshwar Bazar, Naria, Shariatpur",
+        "https://www.mblbd.com/home/view_branch_map/73",
+        "09678142138; 01730048067; 01713384497; 01719777907"
+      ]
+    },
+    {
+      "Green Road Branch": [
+        "151/6, Green Road, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/74",
+        "09678142140; 02-48120754; 01787662617; 02222246218; 01755593961"
+      ]
+    },
+    {
+      "Engineers' Institution Branch": [
+        "IEB Bhaban, 8/A, Ramna, Dhaka-1000.",
+        "https://www.mblbd.com/home/view_branch_map/75",
+        "09678142142; 01755596169; 01819209075"
+      ]
+    },
+    {
+      "Darus Salam Road Branch": [
+        "Holding # 2/A, Darus Salam Road, Ward # 12, Mirpur - 1, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/76",
+        "09678142144; 02-8035529; 02-48035564; 01730328681; 01711164275"
+      ]
+    },
+    {
+      "Pragati Sarani Branch": [
+        "Green Orlando, 42/4, Pragati Sarani, Baridhara, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/77",
+        "09678142147; 02-8411501-2; 01755596176; 01755593960"
+      ]
+    },
+    {
+      "Narayanganj Branch": [
+        "H R Plaza, 64 (Old), 90 (new) Bangabandhu Road, Narayanganj",
+        "https://www.mblbd.com/home/view_branch_map/78",
+        "09678142150; 02-224438241-3; 01713199875; 01755557227"
+      ]
+    },
+    {
+      "Demra SME/Krishi Branch": [
+        "Matuail New Market Bhaban, Konapara, Demra, Dhaka-1362.",
+        "https://www.mblbd.com/home/view_branch_map/79",
+        "09678142156; 02223309466; 01730340795; 01861614161"
+      ]
+    },
+    {
+      "Aganagar Branch": [
+        "Choto Masjid Road (Ispahani), Aganagar, South Keraniganj, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/80",
+        "09678142158; 01730340794; 01730668609"
+      ]
+    },
+    {
+      "Dholaikhal Branch": [
+        "Chisti Bhaban, 72, Lalmohan Shaha Street, Dholaikhal, Dhaka-1100.",
+        "https://www.mblbd.com/home/view_branch_map/81",
+        "09678142159; 02223384529; 02223380286; 01730709985; 01755618787"
+      ]
+    },
+    {
+      "Ring Road Branch": [
+        "Choice A. J. Golden Tower, 2/1, Ring Road, Shyamoli, Dhaka-1207.",
+        "https://www.mblbd.com/home/view_branch_map/82",
+        "09678142165; 01730373896; 01712089188"
+      ]
+    },
+    {
+      "Damudya Branch": [
+        "Synthia Plaza, 318 Main Road, Damudya Bazar P.O. & P.S.- Damudya, Dist-Shariatpur.",
+        "https://www.mblbd.com/home/view_branch_map/83",
+        "09678142166; 01755533146; 01674940082"
+      ]
+    },
+    {
+      "Rampura Branch": [
+        "Ujjal Tower, Holding No. - 362, West Rampura, DIT Road, Ward No-22, Dhaka North City Corporation, Rampura, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/84",
+        "09678142172; 02-48333703; 02-48322584; 01709639920; 01711489690"
+      ]
+    },
+    {
+      "Kishoreganj Branch": [
+        "573, M M Shopping Complex, Gouranga Bazar, Kishoreganj.",
+        "https://www.mblbd.com/home/view_branch_map/85",
+        "09678142178; 01755637381; 01916269306"
+      ]
+    },
+    {
+      "Bhulta Branch": [
+        "Haji A Aziz Super Market, Union: Golakandail, Word No - 4, Bhulta, Thana - Rupganj, Narayanganj",
+        "https://www.mblbd.com/home/view_branch_map/86",
+        "09678142184; 01755637389; 01766679698; 01754205868"
+      ]
+    },
+    {
+      "Shakhipur Branch": [
+        "Sikdar Plaza, Holding No.: NA-133, Kochua Road, Sakhipur, Tangail.",
+        "https://www.mblbd.com/home/view_branch_map/87",
+        "09678142185; 02-997755752; 02-997755751; 01755587439; 01715625595"
+      ]
+    },
+    {
+      "International Airport Road Branch": [
+        "Gulbahar Center, Holding # 154, Int’l Airport Road, Amtali, Mohakhali C/A, Dhaka-1212",
+        "https://www.mblbd.com/home/view_branch_map/88",
+        "+8809678142186; 01755532810; 01755591740"
+      ]
+    },
+    {
+      "Atibazar Branch": [
+        "Haji Edu Market Union: Shakta, Word No: 02, P.S: Keraniganj, District: Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/89",
+        "09678142187; 01755632916; 01613199884"
+      ]
+    },
+    {
+      "Nawabpur Road Branch": [
+        "NBC Tower 24-25, Nawabpur Road, Dhaka-1100",
+        "https://www.mblbd.com/home/view_branch_map/90",
+        "02223352832-3; 01755632917; 01711940339"
+      ]
+    },
+    {
+      "Velanagar Branch": [
+        "Khadiza Mansion Mouza: Nandipara, Union: Chinishpur P.S: Narsingdi Sadar, District: Narsingdi",
+        "https://www.mblbd.com/home/view_branch_map/91",
+        "09678142190; 01713279558; 01914663986"
+      ]
+    },
+    {
+      "Abdullahpur Branch": [
+        "Tojumuddin Plaza Kalakandi, Abdullahpur Bus stand Union: Tegoria, Upazila: Konakhola, P.S: South Keraniganj Dhaka-1311",
+        "https://www.mblbd.com/home/view_branch_map/92",
+        "09678142191; 01755632919; 01716035587"
+      ]
+    },
+    {
+      "Madanpur Branch": [
+        "Ekota Shomobay Super Market Chanpur, Modonpur, Bondor Narayanganj.",
+        "https://www.mblbd.com/home/view_branch_map/93",
+        "09678142193; 01777759526; 01777759525; 01712002713"
+      ]
+    },
+    {
+      "Jhitka Bazar Branch": [
+        "\"City Market\" Vill: Jhitka Bazar, P.O: Jhitka Union: Gala, P.S: Harirampur District: Manikgonj",
+        "https://www.mblbd.com/home/view_branch_map/94",
+        "09678142198; 01713369357"
+      ]
+    },
+    {
+      "Dhania Branch": [
+        "Holding # 661, Dhonia Road Ward# 3, Jatrabari Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/95",
+        "09678142305; 02223340461; 02223340435; 01730377232; 01911240664"
+      ]
+    },
+    {
+      "BAIPAIL BRANCH": [
+        "Zahir Plaza, Baipail, North Gazirchat, Union: Shanirvar Dhamsona, Ashulia, Savar, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/96",
+        "09678142309; 01709652410; 01730720546"
+      ]
+    },
+    {
+      "Gareeb-E-Newaz Avenue Branch": [
+        "Plot # 22, Gareeb-E-Newaz Avenue, Sector # 13, Uttara, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/97",
+        "09678142306; 01709633757; 01713384455"
+      ]
+    },
+    {
+      "Gazipur Chowrasta Branch": [
+        "Shah Jilani Tower, Holding # 34, Block A, Outpara, Ward # 16, Gazipur Sadar, Gazipur City Corporation, Gazipur",
+        "https://www.mblbd.com/home/view_branch_map/98",
+        "09678142307; 01709633758; 01712558553"
+      ]
+    },
+    {
+      "MADARIPUR BRANCH": [
+        "Holding # 137 & 138/1, Ward # - 02 Monohar Potti Puraton Bazar Thana - Sadar District - Madaripur",
+        "https://www.mblbd.com/home/view_branch_map/99",
+        "02-478810898; 02-478810895; 01709652413; 01795430101"
+      ]
+    },
+    {
+      "Asad Gate Branch": [
+        "\"Dream by Icon\", Holding#2/4, Block-A, Mohammadpur Housing Estate Mirpur Road, PS- Mohammadpur Dhaka North City Corporation, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/100",
+        "09678142314; 02-41022460; 02-41022453; 01610983138; 01712694366"
+      ]
+    },
+    {
+      "Shimrail Branch": [
+        "\"S.M. Tower\" Holding No. : B-11/1 Narayangonj City Corporation Siddirganj, Narayangonj",
+        "https://www.mblbd.com/home/view_branch_map/101",
+        "09678142318; 01708454391; 01717740630"
+      ]
+    },
+    {
+      "Goshairhat Branch": [
+        "\"Hazi Super Market\" Mitrasen Potti Edilpur Union Council Goshairhat, Shariatpur.",
+        "https://www.mblbd.com/home/view_branch_map/102",
+        "09678142319; 01708454392; 01736508482"
+      ]
+    },
+    {
+      "Gorai Branch": [
+        "\"S. M. Mansion\" Gorai Moin Nagar, Gorai Mirzapur, Tangail.",
+        "https://www.mblbd.com/home/view_branch_map/103",
+        "09678142322; 01708454393; 01676990666"
+      ]
+    },
+    {
+      "Gouripur Branch": [
+        "\"Raju Plaza\" Gouripur, Gouripur Ashulia Union Council Ashulia, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/104",
+        "09678142323; 01708494132; 01708454394; 01712092401"
+      ]
+    },
+    {
+      "Tejgaon Gulshan Link Road Branch": [
+        "Impetus Center\", Holding # 242/B, Bir Uttam Mir Shawkat Ali Road (Tejgaon Gulshan Link Road), Tejgaon Industrial Area, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/105",
+        "+8809678142327; 01701209784; 01714167454"
+      ]
+    },
+    {
+      "Manikganj Branch": [
+        "\"City Center\", Holding # 16, Ward # 01, Dhaka-Aricha Mahasarak, Manikganj Municipality, Manikganj.",
+        "https://www.mblbd.com/home/view_branch_map/106",
+        "02-996610370; 02-996610329; 01701209786; 01716530096"
+      ]
+    },
+    {
+      "Nawabganj Branch": [
+        "\"Sajeda Complex\", Mouza- Kashimpur, Union - Kolakopa, Upzilla - Nawabgonj, Dhaka.",
+        "https://www.mblbd.com/home/view_branch_map/107",
+        "09678142334; 01713013777; 01714564884"
+      ]
+    },
+    {
+      "Barodi Bazar Branch": [
+        "\"Barodi Plaza\", Mouza & Union - Barodi, Sonargaon, Narayanganj",
+        "https://www.mblbd.com/home/view_branch_map/108",
+        "09678142337; 01713013782; 01913182399"
+      ]
+    },
+    {
+      "Rajbari Branch": [
+        "\"Khorshed Plaza\", Holding - 240, College Road, Ward - 08, Rajbari Municipality, Rajbari",
+        "https://www.mblbd.com/home/view_branch_map/109",
+        "09678142340; 01713013797; 01912690722"
+      ]
+    },
+    {
+      "Arambagh Branch": [
+        "Holding No-190, Inner Circular Road, Word No-09, Dhaka South City Corporation, Motijheel, Dhaka",
+        "https://www.mblbd.com/home/view_branch_map/110",
+        "09678142343; 01713013799; 01552007007"
+      ]
+    },
+    {
+      "Bhedorganj Branch": [
+        "Holding No - 192, High School Road, Ward No - 07, Bhedorganj Municipality, Shariatpur",
+        "https://www.mblbd.com/home/view_branch_map/111",
+        "09678142345; 01713048879; 01715219823"
+      ]
+    },
+    {
+      "Shariatpur Branch": [
+        "Italy Plaza, Holding No - 845, Sadar Road, Ward No - 03, Shariatpur Municipality, Shariatpur",
+        "https://www.mblbd.com/home/view_branch_map/112",
+        "09678142346; 01713048886; 01717765971"
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "Rupsha Plaza, 73, KDA Avenue C/A, Sonadanga, Khulna.",
+        "https://www.mblbd.com/home/view_branch_map/113",
+        "02-44110698; 02-44110700; 02-44110702; 01713400641; 01715408891"
+      ]
+    },
+    {
+      "Jessore Branch": [
+        "A. Ali Complex, 45 R. N. Road, Jessore",
+        "https://www.mblbd.com/home/view_branch_map/114",
+        "02-477764364; 02-477766857; 01730328683; 01716881097"
+      ]
+    },
+    {
+      "Chuadanga Branch": [
+        "Malik Tower, Holding no. 43, 107, Boro Bazar, Shahid Abul Kasem Sarak, Chuadanga.",
+        "https://www.mblbd.com/home/view_branch_map/115",
+        "09678142176; 02477789241; 01755637380; 02477789361; 01715396462"
+      ]
+    },
+    {
+      "Kushtia Branch": [
+        "A. Hamid Market, N. S. Road, Boro Bazar, Kushtia-7000.",
+        "https://www.mblbd.com/home/view_branch_map/116",
+        "09678142163; 02-477782628-30; 01730709984; 01717613204"
+      ]
+    },
+    {
+      "Jhenaidah Branch": [
+        "\"Sultan Market\", Holding - 31, Huseyn Shaheed Suhrawardy Road, Ward - 06, Jhenaidah Municipality, Jhenaidah",
+        "https://www.mblbd.com/home/view_branch_map/117",
+        "09678142338; 01713013781; 01714731828"
+      ]
+    },
+    {
+      "Mymensingh Branch": [
+        "Momen Tower, 65 Choto Bazar, Mymensingh.",
+        "https://www.mblbd.com/home/view_branch_map/118",
+        "09678142157; 01730340791; 01787659091"
+      ]
+    },
+    {
+      "Netrokona Branch": [
+        "\"A Rashid Market\", Holding # 0703-00, Ward # 07, Mukterpara Sarak, Municipality - Netrokona, District - Netrokona.",
+        "https://www.mblbd.com/home/view_branch_map/119",
+        "02996652079-80; 01701209780; 01741428872"
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        "ZODIAC Plaza, Shaheb Bazar, (Zero Point), Rajshahi.",
+        "https://www.mblbd.com/home/view_branch_map/120",
+        "09678142107; 02588857261-2; 01711419079; 01713453018; 01715122223"
+      ]
+    },
+    {
+      "Bogura Branch": [
+        "Barogola, Bogura Sadar, Bogura",
+        "https://www.mblbd.com/home/view_branch_map/121",
+        "09678142126; 02-589903078; 02-589905439; 01713044835; 01717954042"
+      ]
+    },
+    {
+      "Sapahar Branch": [
+        "Saha Plaza, Main Road, Sapahar, Naogaon.",
+        "https://www.mblbd.com/home/view_branch_map/122",
+        "09678142135; 02-58885380-81; 01713068096; 01822448845"
+      ]
+    },
+    {
+      "Dinajpur Branch": [
+        "Dinajpur Plaza, Goneshtola, Dinajpur",
+        "https://www.mblbd.com/home/view_branch_map/123",
+        "09678142145; 02589922217; 02589923912; 01730328682; 01755618592"
+      ]
+    },
+    {
+      "Chapainawabganj Branch": [
+        "65, 66 & 67 Jhilim Road (1st & 2nd Floor), Baro Indara More, Sadar, Chapainawabganj.",
+        "https://www.mblbd.com/home/view_branch_map/124",
+        "09678142162; 01730709982; 01754881200"
+      ]
+    },
+    {
+      "Shishahat Branch": [
+        "Main Road, Porsha, Naogaon.",
+        "https://www.mblbd.com/home/view_branch_map/125",
+        "09678142168; 01755520013; 01755533141; 01717549231"
+      ]
+    },
+    {
+      "Nazipur Branch": [
+        "Noor Market, Harirampur, Nazipur, Patnitola, Naogaon.",
+        "https://www.mblbd.com/home/view_branch_map/126",
+        "09678142180; 02588885993-4; 01755637386; 01718823265"
+      ]
+    },
+    {
+      "Niamatpur Branch": [
+        "Girl's Plaza, Balahore, Niamatpur, Naogaon",
+        "https://www.mblbd.com/home/view_branch_map/127",
+        "09678142181; 02588886956-7; 01755637385; 01719303282"
+      ]
+    },
+    {
+      "Naogaon Branch": [
+        "J.R. Super Market, Old Bus Stand, Chakdev Main Road, Naogaon-6500.",
+        "https://www.mblbd.com/home/view_branch_map/128",
+        "09678142108; 02588882982; 01711419057; 02588883331; 01712854300"
+      ]
+    },
+    {
+      "Pabna Barnch": [
+        "Munshi Complex Holding No. 0136-000 Haji Abdul Gani Sarak, Boro Bazar District: Pabna",
+        "https://www.mblbd.com/home/view_branch_map/129",
+        "01711006043; 01835420033"
+      ]
+    },
+    {
+      "Natore Branch": [
+        "\"Julekha Complex\" Holding No. 81, Dhaka Road Natore Sadar, Natore.",
+        "https://www.mblbd.com/home/view_branch_map/130",
+        "02588871740-41; 01708454398; 01717382016"
+      ]
+    },
+    {
+      "Ishwardi Branch": [
+        "\"Center Point\", Holding # 283/257, Pabna- Ishwardi Main Road, Ward # 08, Ishwardi Municipality, Pabna.",
+        "https://www.mblbd.com/home/view_branch_map/131",
+        "02588847767-8; 01701209788; 01717161593"
+      ]
+    },
+    {
+      "Sirajganj Branch": [
+        "\"Matam Tower\", Holding - 50, S S Road, Ward - 03, Sirajganj Municipality, Sadar, Sirajganj",
+        "https://www.mblbd.com/home/view_branch_map/132",
+        "09678142335; 01713013776; 01749685555"
+      ]
+    },
+    {
+      "KALAI BRANCH": [
+        "\"Samad Talukder Shopping Complex\", Holding - 0048/01, Joypurhat Mokamtola C & B Road, Ward - 02, Kalai Municipality, Joypurhat.",
+        "https://www.mblbd.com/home/view_branch_map/133",
+        "09612142342; 01713013794; 01819687355"
+      ]
+    },
+    {
+      "Gobindaganj Branch": [
+        "Anowara Super Market Thana- Gobindaganj",
+        "https://www.mblbd.com/home/view_branch_map/134",
+        "09678142183; 01755637387; 01738499544"
+      ]
+    },
+    {
+      "Thakurgaon Branch": [
+        "Afsar Uddin Chowdhury Plaza (1st Floor) College Road, 111 Asram Para, Thakurgaon Pouroshava, Thakurgaon.",
+        "https://www.mblbd.com/home/view_branch_map/135",
+        "09678142167; 02-589932368; 01755533143; 01759480820"
+      ]
+    },
+    {
+      "Rangpur Branch": [
+        "Press Club Complex Biponi Bitan, Station Road, Rangpur.",
+        "https://www.mblbd.com/home/view_branch_map/136",
+        "09678142122; 02589964082; 01713201636; 02589964045; 02589964088; 01755526416"
+      ]
+    },
+    {
+      "Nilphamari Branch": [
+        "Bari Plaza (1st & 2nd Floor) Boro Masjid Road, Nilphamari.",
+        "https://www.mblbd.com/home/view_branch_map/137",
+        "09678142173; 01755533144; 01711280870"
+      ]
+    },
+    {
+      "Debiganj Branch": [
+        "Vill- Debiganj Bazar, Holding No. 1892, PO & PS- Debiganj, Dist- Panchagarh.",
+        "https://www.mblbd.com/home/view_branch_map/138",
+        "09678142174; 01787681256; 01755533147; 01716645603"
+      ]
+    },
+    {
+      "Lalmonirhat Branch": [
+        "\"Shahan Shopping Complex\" Holding No. 0369-00 Lalmonirhat, Lalmonirhat Sadar Lalmonirhat",
+        "https://www.mblbd.com/home/view_branch_map/139",
+        "02589986720-21; 01708454395; 01711020535"
+      ]
+    },
+    {
+      "Sylhet Branch": [
+        "Raisot Tower (1st & 2nd floor), Laldighirpar, Sylhet.",
+        "https://www.mblbd.com/home/view_branch_map/140",
+        "02996634652; 01711922810; 02996634650; 01713386896; 01717836961"
+      ]
+    },
+    {
+      "Moulvibazar Branch": [
+        "152/2 (1st Floor), Court Road, Moulvibazar",
+        "https://www.mblbd.com/home/view_branch_map/141",
+        "09678142132; 01713068126"
+      ]
+    },
+    {
+      "Beanibazar Branch": [
+        "Zaman Plaza, Beanibazar, Sylhet.",
+        "https://www.mblbd.com/home/view_branch_map/142",
+        "02996646452-3; 01713384495; 01711126105"
+      ]
+    },
+    {
+      "Nabiganj SME/Krishi Branch": [
+        "Skylite Tower, Nabiganj, Habiganj.",
+        "https://www.mblbd.com/home/view_branch_map/143",
+        "02996607617; 01730320814; 01941588377"
+      ]
+    },
+    {
+      "Sunamganj Branch": [
+        "Zaman Complex, Arpin Nagor (Old Bus Stand), Holding No. 52-1, Ward No. 06, Sunamganj Municipality Sunamganj.",
+        "https://www.mblbd.com/home/view_branch_map/144",
+        "09678142170; 02-996600534-6; 01755533148; 01913585582"
+      ]
+    },
+    {
+      "Subidbazar Branch": [
+        "Prantik-16, Holding no. 407, Sylhet-Sunamganj Road, Subidbazar, Sylhet.",
+        "https://www.mblbd.com/home/view_branch_map/145",
+        "02-996632217-18; 01755637383; 01720146584"
+      ]
+    },
+    {
+      "Rahimanagar Branch": [
+        "Shahjalal Shopping Complex (Rahimanagar Bazar), Mouza - Satbaria, Union - Gohot North, Kachua, Chandpur.",
+        "https://www.mblbd.com/home/view_branch_map/146",
+        "09678142349; 01713048904; 01915873193"
+      ]
+    },
+    {
+      "Senbagh Branch": [
+        "D K Plaza, Holding No - 0347-00, Upazilla Road, Ward No - 3, Senbagh Municipality, Noakhali",
+        "https://www.mblbd.com/home/view_branch_map/147",
+        "09678142350; 01713048870"
+      ]
+    },
+    {
+      "Goala Bazar Branch": [
+        "Bhutu Babu Super Market, Mouza - Kalasara, Union - Goalabazar, Osmaninagar, Sylhet.",
+        "https://www.mblbd.com/home/view_branch_map/148",
+        "09678142351; 01713048903; 01712728318"
+      ]
+    },
+    {
+      "Satkhira Branch": [
+        "Haji Market, Holding No - 0345 - 00, Shahid Kajol Sharani, Ward No - 08, Satkhira Municipality, Satkhira",
+        "https://www.mblbd.com/home/view_branch_map/149",
+        "09678142352; 02-477741730; 01713048902; 01755655156"
+      ]
+    },
+    {
+      "Jhilongja Branch": [
+        "Hotel Sea Palace Ltd., Kalatali Road, Cox's Bazar.",
+        "https://www.mblbd.com/home/view_branch_map/150",
+        "09678142124; 01713-103662; 01815539929"
+      ]
+    },
+    {
+      "Sayedpur Branch": [
+        "Holding No-66, Shaheed Dr. Zohrul Haque Sarak, Ward No.-11, Syedpur Pourosobha, PS-Syedpur, District-Nilphamary",
+        "https://www.mblbd.com/home/view_branch_map/151",
+        "09678142353; 02-589957594; 01749250750; 01721036490"
+      ]
+    },
+    {
+      "Nikunja Branch": [
+        "DSE Tower, Holding # 46, Kobi Faruque Sarani, Road # 21, Ward # 17, Khilkhet, Dhaka North City Corporation, Dhaka-1229",
+        "https://www.mblbd.com/home/view_branch_map/152",
+        "09678142354; 01713044838; 01919429955"
+      ]
+    },
+    {
+      "Mollar Hat Branch": [
+        "Ali Mia Molla Super Market, Mollar Hat, Charkumaria, Shakhipur, Shariatpur",
+        "https://www.mblbd.com/home/view_branch_map/153",
+        "09678142355; 01755596125; 01745618675"
+      ]
+    },
+    {
+      "Currency": [
+        "Selling",
+        null,
+        null
+      ]
+    },
+    {
+      "USD": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "EUR": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "GBP": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "JPY": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Islamic Banking Branch": [
+        "Monir Mansion (1st Floor), 18, Dilkusha C/A, Dhaka-1000",
+        null,
+        "09612142205; 01755-596126; 01708-515519"
+      ]
+    },
+    {
+      "Khulshi Branch": [
+        "Salam Heights, Holding No: 71/B/9/382 Zakir Hossain Road, South Khulshi Chattogram City Corporation, P.O: Khulshi P.S: Khulshi, District: Chattogram.",
+        null,
+        "09678142194; 01787681259; 01729817092"
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "Chatipatti Uposhakha": [
+        "Madina Plaza, Holding No.: 23-24, Rajgonj Road, Ward No.: 12, Cumilla City Corporation, P.S.: Kotwali, Dist.: Cumilla. Contact No. 09612142505",
+        null,
+        null
+      ]
+    },
+    {
+      "Dakpara Uposhakha": [
+        "Dag No.: RS-139, Khatian No.: RS-23, Mouza: Dakpara, Union: Zinzira, P.S.: Keraniganj, Dist.: Dhaka. Contact No. 09612142504",
+        null,
+        null
+      ]
+    },
+    {
+      "Kalisuri Bazar Uposhakha": [
+        "Moulovi Market, Dag No.: SA-1085/1402, Khatian No.: SA-250, Mouza & Union: Kalisuri, P.S.: Bauphal, Dist.: Patuakhali. Contact No. 09678142503.",
+        null,
+        null
+      ]
+    },
+    {
+      "Academy Road Uposhakha": [
+        "Afzal Plaza, Holding No.: 279, Academy Road, Ward No.: 03, Pourashava: Feni, P.S.: Feni Sadar, Dist.: Feni. Contact No. 09612142502",
+        null,
+        null
+      ]
+    },
+    {
+      "Sindurpur Uposhakha": [
+        "Sindurpur Adudia Rawsanul Ulum Islamia Dakhil Madrasa Market, Dag No.: 276, 277, Khatian No.: BS-03, Mouza & Union: Sindurpur, P.S.: Dagonbhuiyan, Dist.: Feni. Contact No. 09612142501",
+        null,
+        null
+      ]
+    },
+    {
+      "Chandra Bazar Uposhakha": [
+        "Abul Bapary Market , Vill.: Kharkhadia, Dag No.: CS & RS-386, BS-951, Khatian No.: CS-222,RS-221, BS-178 Mouja: 77 No. Kharkhadia , Union: 1 No. Balithuba Poschim Union Porishod, P.S.: Faridgonj, Dist.: Chandpur. Contact No. 09612142506",
+        null,
+        null
+      ]
+    },
+    {
+      "Gopalpur Bazar Uposhakha": [
+        "Khan Monjil, Vill.: Betuabag, Dag No.: CS-233, Khatian No.: CS-269, Mouza: 89 no. Betuabag, Union: 2 No. Gopalpur, P.S.: Begumganj, Dist.: Noakhali. Contact No. 09612142507",
+        null,
+        null
+      ]
+    },
+    {
+      "Dakshin khan Uposhakha": [
+        "Sarker R.E.F. Tower, Holding No.: 480, Mozammel Haque Road, Ward No.: 49, Dhaka North City Corporation, P.S.: Dakshinkhan, Dist.: Dhaka. Contact No. 09612142508",
+        null,
+        null
+      ]
+    },
+    {
+      "Baunia Uposhakha": [
+        "Suhita Tower, Badaldi Main Road, Ward No.: 52, Dhaka North City Corporation, P.S.: Turag, Dist.: Dhaka. Contact No. 09612142509",
+        null,
+        null
+      ]
+    },
+    {
+      "Santahar Uposhakha": [
+        "Alta Syndicate Palace, Holding No.: 302, Naogaon Road, Ward No.: 03, Pourashava: Shantahar, P.S.: Adamdighi, Dist.: Bogura. Contact No. 09612142510",
+        null,
+        null
+      ]
+    },
+    {
+      "Dupchanchia Uposhakha": [
+        "Kamrun Nahar Plaza, Holding No.: 127, C.O. Office Road, Ward No.: 05, Pourashava: Dupchanchia, P.S.: Dupchanchia, Dist.: Bogura. Contact No. 09612142511",
+        null,
+        null
+      ]
+    },
+    {
+      "Pallabi Uposhakha": [
+        "Alba Tower, Holding No.: 2/6, Harun Mollah Road, Ward No.: 6, Dhaka North City Corporation,P.S.: Pallabi, Dist.: Dhaka. Contact No. 09612142518",
+        null,
+        null
+      ]
+    },
+    {
+      "Birol Uposhakha": [
+        "Maa Plaza, Holding No.: 24, Birol Narabari Road, Ward No.: 04, Paurashava: Birol, P.S.: Birol, Dist.: Dinajpur. Contact No. 09612142516",
+        null,
+        null
+      ]
+    },
+    {
+      "Thakurgaon Road Uposhakha": [
+        "Kamal Super Market, Holding No.: 263/02, Sugar Mills Gate Road, Ward No.: 12, Pourashava: Thakurgaon, P.S.: Thakurgaon Sadar, Dist.: Thakurgaon. Contact No. 09612142515",
+        null,
+        null
+      ]
+    },
+    {
+      "Ershadnagar Uposhakha": [
+        "Parkway Trade Centre, Holding No.: 4/13, Dhaka-Mymensigh Highway, Ward No.: 50, Gazipur City Corporation, P.S.: Tongi East, Dist.: Gazipur. Contact No. 09612142514",
+        null,
+        null
+      ]
+    },
+    {
+      "Parbatipur Uposhakha": [
+        "Khorshed Mansion, Holding No.: 1134-1135, Main Road, Notun Bazar, Ward No. : 02, Pourashava: Parbatipur, P.S.: Parbatipur, Dist.: Dinajpur",
+        null,
+        null
+      ]
+    },
+    {
+      "Palashbari Uposhakha": [
+        "City Business Tower, Kalibari Bazar Road, Ward No.: 02, Pourashava: Palashbari, P.S.: Palashbari, Dist.: Gaibandha. Contact No. 09612142513",
+        null,
+        null
+      ]
+    },
+    {
+      "Mohammadi Homes Uposhakha": [
+        "Malancha Bhaban, Holding No.: 02, Mohammadi Homes Main Road, Ward No.: 33, Dhaka North City Corporation, P.S.: Mohammadpur, Dist.: Dhaka. Contact No. 09612142519",
+        null,
+        null
+      ]
+    },
+    {
+      "Singra Uposhakha": [
+        "Talukder Complex, Holding No.: 274, Ward No.: 05, Pourashava: Singra, P.S.: Singra, Dist.: Natore. Contact No. 09612142517",
+        null,
+        null
+      ]
+    },
+    {
+      "Khilgaon Sub Branch": [
+        "Holding No.:1414/2/A, Shaheed Baki Sarak, Ward No.: 01, Dhaka South City Corporation, P.S.: Khilgaon, Dist.: Dhaka. Contact No. 09612142520",
+        null,
+        null
+      ]
+    },
+    {
+      "Banasree Uposhakha": [
+        "Saudia Joynul, Holding No.: 22, Main Road, Block-G, Banasree, Ward No : 03, Dhaka South City Corporation, P.S.: Khilgaon, Dist.: Dhaka. Contact No. 09612142521",
+        null,
+        null
+      ]
+    },
+    {
+      "Port Road Uposhakha": [
+        "Jim Villa, Holding No.: 548, New Sadar Ghat Road (Port Road), Ward No.: 6, Barishal City Corporation, P.S.: Kotwali, Dist.: Barishal. Contact No. 09612142525",
+        null,
+        null
+      ]
+    },
+    {
+      "Patuatuli Uposhakha": [
+        "Babuli Islampur Complex, Holding No.: 1, 2 Wise Ghat, Road No.: 57-58 No. Loyal Street, Ward No.: 37, Dhaka South City Corporation, P.S.: Kotwali, Dist.: Dhaka Contact No. 09612142523",
+        null,
+        null
+      ]
+    },
+    {
+      "Bir Protik Shaheed Zakir Hossain Road Uposhakha": [
+        "Holding No.: 51, Bir Protik Shaheed Zakir Hossain Road (new), 9/i, Motijheel Road (old), Ward No.: 09, Dhaka South City Corporation, P.S.: Motijheel, Dist.: Dhaka. Contact No. 09612142522",
+        null,
+        null
+      ]
+    },
+    {
+      "Nazira Bazar Uposhakha": [
+        "Abdullah Tower, Holding No.: 76,76/1,76/2, Road No.: 76, Kazi Alauddin Road, Ward No.: 34, Dhaka South City Corporation, P.S.: Bangshal, Dist.: Dhaka. Contact No. 09612142524",
+        null,
+        null
+      ]
+    },
+    {
+      "Gharishar Bazar Uposhakha": [
+        "Bahir Kushia, Dag No.: BRS 706, Khatian No.: BRS 410, Mouza: Bahir Kushia, Union: Gharishar, P.S.: Naria, Dist.: Shariatpur. Contact No. 09612142526",
+        null,
+        null
+      ]
+    },
+    {
+      "Zigatola Uposhakha": [
+        "Sultana Castle, Holding No.: 33, Zigatola Old Kachabazar Road, Ward No.: 14, Dhaka South City Corporation, P.S.: Hazaribag, Dist.: Dhaka. Contact No. 09612142527",
+        null,
+        null
+      ]
+    },
+    {
+      "Matikata Uposhakha": [
+        "Online Plaza, Holding No.: 75, Matikata Bazar Road, Ward No.: 15, Dhaka North City Corporation, P.S.: Dhaka Cantonment, Dist.: Dhaka. Contact No. 09612142528",
+        null,
+        null
+      ]
+    },
+    {
+      "Panchagarh Uposhakha": [
+        "Central Plaza, Holding No.: 1492-02, Cinema Hall Road, Ward No.: 03, Pourashava: Panchagarh, Dist.: Panchagarh. Contact No. 09612142529",
+        null,
+        null
+      ]
+    },
+    {
+      "Rajendrapur Uposhakha": [
+        "Sheikh Jobed Ali Complex, Rajendrapur, Dag No.: RS- 78, 83-89, 91, Khatian No.: RS- 21, 60, 101, 108, 113, 136, Mouza: Noadda, Union: Tegharia, P.S.: South Keraniganj, Dist.: Dhaka. Contact No. 09612142530",
+        null,
+        null
+      ]
+    },
+    {
+      "Badda Uposhakha": [
+        "Holding No.: L-58, Middle Badda, Pragati Sarani Road, Ward No.: 21, Dhaka North City Corporation, P.S.: Badda, Dist.: Dhaka. Contact No. 09612142531",
+        null,
+        null
+      ]
+    },
+    {
+      "Lalbag Uposhakha": [
+        "Holding No.: 29, Dhakeshwari Road, Ward No.: 26, Dhaka South City Corporation, P.S.: Lalbag, Dist.: Dhaka. Contact No. 09612142533",
+        null,
+        null
+      ]
+    },
+    {
+      "Jamidar Hat Uposhakha": [
+        "Abdul Kader Shopping Complex, Latifpur, Dag No.: BS-582,314, Khatian No.: BS-1653, 1301, Mouza: 327 Latifpur, Union: 13 no. Rosulpur, P.S.: Begumganj, Dist.: Noakhali. Contact No. 09612142532",
+        null,
+        null
+      ]
+    },
+    {
+      "Wari Uposhakha": [
+        "Wari Party Center, Holding No.: 18, Raking Street, Wari, Ward No.: 41, Dhaka South City Corporation, P.S.: Wari, Dist.: Dhaka. Contact No. 09612142534",
+        null,
+        null
+      ]
+    },
+    {
+      "Jatrabari Uposhakha": [
+        "Golenur Tower, Holding No.: 116/1, North Jatrabari, Road: 17, Shaheed Faruk Road, Ward No.: 50, Dhaka South City Corporation, P.S.: Jatrabari, Dist.: Dhaka. Contact No. 09612142535",
+        null,
+        null
+      ]
+    },
+    {
+      "Mirpur Section-6 Uposhakha": [
+        "Ariza Lodge, Holding No.: 9/4, Avenue: 5, Section: 6, Ward No.: 7, Dhaka North City Corporation, P.S.: Mirpur, Dhaka-1216. Contact No. 09612142539",
+        null,
+        null
+      ]
+    },
+    {
+      "Monipuripara Uposhakha": [
+        "Holding No.: 27/A, Monipuripara, Sangsad Bhanban Avenue, Ward No.: 27, Dhaka North City Corporation, P.S.: Tejgaon, Dist.: Dhaka. Contact No. 09612142538",
+        null,
+        null
+      ]
+    },
+    {
+      "Steel Mill Uposhakha": [
+        "Ali Building, 3164/5362, Narikel Tola, South Halishahar, Ward No.: 39, Chattogram City Corporation, Patenga, Chattogram. Contact No. 09678142536",
+        null,
+        null
+      ]
+    },
+    {
+      "Raipura Uposhakha": [
+        "Raipura Trade Center, Holding No.: 234, Thana Sadar Road, Ward No.: 01, Pourashava: Raipura, P.S.: Raipura, Dist.: Narsingdi. Contact No. 09612142537",
+        null,
+        null
+      ]
+    },
+    {
+      "Sarojganj Uposhakha": [
+        "Momtaj Super Market, Sarojganj Bazar, 4 no. Shankarchandra Union, P.S.: Chuadanga Sadar, Dist.: Chuadanga.",
+        null,
+        "09612142540"
+      ]
+    },
+    {
+      "Shyamganj Uposhakha": [
+        "Fakir Bhaban, Mailakanda, 1 no. Mailakanda Union, P.S.: Gouripur, Dist.: Mymensingh. Contact No.09612142541",
+        null,
+        null
+      ]
+    },
+    {
+      "Sreemangal Uposhakha": [
+        "Sabery Tower, Holding No.: 5535, College Road, Ward No.: 09, Pourashava & P.S.: Sreemangal, Dist.: Moulvibazar. Contact No. 09612142542",
+        null,
+        null
+      ]
+    },
+    {
+      "Sonaimuri Uposhakha": [
+        "Sahida Sattar Complex, Holding No.: 403/747, Bank Road, Ward No.: 07, Pourashava: Sonaimuri, P.S.: Sonaimuri, Dist.: Noakhali. Contact: 09678142543",
+        null,
+        null
+      ]
+    },
+    {
+      "Swarupkathi Uposhakha": [
+        "Amena Complex, Holding No.: 424, Sonali Bank Road, Ward No.: 06, Pourashava: Swarupkathi, P.S.: Nesarabad, Dist.: Pirojpur, Contact No. 09678142544",
+        null,
+        null
+      ]
+    },
+    {
+      "Meherpur Uposhakha": [
+        "Main Road, Kashripara, Ward No.:1, Pourashava:Meherpur, P.S.: Meherpur Sadar, Dist.: Meherpur.",
+        null,
+        null
+      ]
+    },
+    {
+      "Naria Uposhakha": [
+        "Naria Bazar Jame Masjid Market, Holding No.: B-254, Naria Chakdha Gharisar Sharak, Ward No.: 1, Pourashava: Naria, P.S.: Naria, Dist.: Shariatpur. Contact No.: 09678142546",
+        null,
+        null
+      ]
+    },
+    {
+      "Fultola Uposhakha": [
+        "Ayesha Tower, Village-Damodor, Union & Thana-Fultola, District-Khulna Controlling Branch: Khulna Branch: IP: 09678-142547",
+        null,
+        null
+      ]
+    },
+    {
+      "Alipur Upashakha": [
+        "Khan Bhaban, Vill-Alipur Bandar, Alipur, Union-7 No. Latachapli, Thana-Mohipur, District-Patuakhali.",
+        null,
+        "09678142548"
+      ]
+    },
+    {
+      "Bhola Banglabazar Uposhakha, Bhola (Rural)": [
+        "Maa Shopping Complex,Village/Area: West Joynagar, Plot no: 5,6, Khatian no: R.S-136, Mouza: West Joynagar, Union: 5 no. South Jounagar, PS: Daulatkhan, Dist: Bhola. IP",
+        null,
+        "09678-142552"
+      ]
+    },
+    {
+      "Miarhat Uposhakha, Pirojpur (Rural)": [
+        "Building name: DK Plaza, Vill: Uttar Kourikhara, Dag no: BRS-1153, Khatian no: BRS-294, Mouza: Kourikhara-12, Union: 9 no Sutiayakathi , PS: Nesarabad (Swarupkhathi), Dist: Pirojpur. IP",
+        null,
+        "09678-142549"
+      ]
+    },
+    {
+      "Merajnagar Uposhakha, Dhaka (Urban)": [
+        "Building name: Akter Garden, Holding No.: 128-129, Road Name: Merajnagar Bazar Road, Ward No.: 59, City Corporation: Dhaka South , P.S: Kadamtali, Dist: Dhaka-1362, IP",
+        null,
+        "09678-142551"
+      ]
+    },
+    {
+      "Shibchar Uposhakha, Madaripur (Urban)": [
+        "Abdul Mojid Khan Market, Holding No.: 0051-00,0051-01, Road Name: Sadar Road, Shibchar bazar, Ward No.: 03 Pourashava.: Shibchar, P.S.: Shibchar, Dist.: Madaripur, IP",
+        null,
+        "09678-142550"
+      ]
+    }
+  ]
 }

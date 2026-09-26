@@ -1,600 +1,983 @@
 {
   "_bank": "Standard Bank PLC",
-  "website": "https://standardbankbd.com/en",
-  "website_source": "ddg(score=1.00)",
-  "method": "html_cards+html_table",
+  "bank_url": "https://www.standardbankbd.com/",
+  "method": "html_cards+html_table+json_api",
   "status": "success",
-  "branch_name": [
-    "Principal Branch",
-    "Khatungonj Branch",
-    "Imamgonj Branch",
-    "Topkhana Road Branch",
-    "Chowdhury Hat Branch",
-    "Agrabad Branch",
-    "Khulna Branch",
-    "Gulshan Branch",
-    "Sylhet Branch",
-    "Munshikhola Branch",
-    "Jubilee Road Branch",
-    "Foreign Exchange Branch",
-    "Dhanmondi Branch",
-    "Uttara Model Town Branch",
-    "Takerhat Bazar Branch",
-    "Panthapath Branch",
-    "Gulshan-1 Branch",
-    "Rajshahi Branch",
-    "Benapole Branch",
-    "Jessore Branch",
-    "Narayangonj Branch",
-    "Cda Avenue Branch",
-    "Ekoria Branch",
-    "Gopalganj Branch",
-    "Banani Branch",
-    "Brahmanbaria Branch",
-    "Dakkhin Khan Branch",
-    "Cepz Branch",
-    "Bahaddarhat Branch",
-    "Mirpur Branch",
-    "Matuail Branch",
-    "Barisal Branch",
-    "Bogra Branch",
-    "Kotalipara Branch",
-    "Pahartali Branch",
-    "Coxs Bazar Branch",
-    "Progati Sharani Branch",
-    "Rangpur Branch",
-    "Beanibazar Branch",
-    "Moulvibazar Branch",
-    "Nawabpur Branch",
-    "Shafipur Branch",
-    "Nangolmora Sme Branch",
-    "Biswanath Sme Branch",
-    "Goalabazar Sme Branch",
-    "Kushtia Branch",
-    "Kamarpara Branch",
-    "Sadarghat Branch",
-    "Gazipur Sme Branch",
-    "Green Road Branch",
-    "Savar Sme Krishi Branch",
-    "Mymensingh Branch",
-    "Bhairab Sme Branch",
-    "Saidpur Sme Branch",
-    "Dinajpur Branch",
-    "Patuakhali Branch",
-    "Faridpur Branch",
-    "Ring Road Branch",
-    "Nilphamari Branch",
-    "Comilla Branch",
-    "Shibchar Branch",
-    "Basurhat Branch",
-    "Satkhira Branch",
-    "Bagerhat Branch",
-    "Mohammadpur Branch",
-    "Nawabgonj Branch",
-    "Malibag Branch",
-    "Oxygen More Branch",
-    "Rohanpur Branch",
-    "Ashkona Branch",
-    "Kanchpur Branch",
-    "Tangail Branch",
-    "Mohakhali Branch",
-    "Gobindagonj Branch",
-    "Bakshigonj Branch",
-    "Chaktai Branch",
-    "Bhojeshwar Branch",
-    "Tungipara Branch",
-    "Gunagari Branch",
-    "New Eskaton Branch",
-    "Sonargaon Janapath Branch",
-    "Hatikumrul Branch",
-    "Sunamgonj Branch",
-    "Pabna Branch",
-    "Patherhat Branch",
-    "Panchlaish Branch",
-    "Ramchandrapur Branch",
-    "Bakolia Branch",
-    "Alamdanga Branch",
-    "Kansat Branch",
-    "Khan Jahan Ali Branch",
-    "· Branch code 093",
-    "Nimshar Branch",
-    "Aganagar Branch",
-    "Feni Branch",
-    "Ashulia Branch",
-    "Chapainawabgonj Branch",
-    "Jhenaidah Branch",
-    "Bunti Bazar Branch",
-    "Karwan Bazar Branch",
-    "Kholamora Branch",
-    "Pirganj Branch",
-    "Kumira Branch",
-    "Kadamtali Branch",
-    "S.K Mujib Road Branch",
-    "Chuadanga Branch",
-    "Hemayetpur Branch",
-    "Chittagong University Branch",
-    "Goalanda Branch",
-    "Madhabdi Branch",
-    "Mathbaria Branch",
-    "Baneswar Branch",
-    "Islampur Branch",
-    "Atrai Branch",
-    "Fulbari Branch",
-    "Hili Branch",
-    "Tungi Branch",
-    "Jamal Khan Road Branch",
-    "Narsingdi Branch",
-    "Bhulta Branch",
-    "Mohadebpur Branch",
-    "Northsouth Road Branch",
-    "· Branch code 223",
-    "· Branch code 224",
-    "Bagichahat Branch",
-    "Afaz Nagar Branch",
-    "Nayanpur Branch",
-    "Sultanpur Branch",
-    "· Branch code 229",
-    "Chandpur Branch",
-    "· Branch code 231",
-    "· Branch code 232",
-    "· Branch code 233",
-    "Sandwip Branch",
-    "Kumarkhali Branch",
-    "Pallabi Branch",
-    "· Branch code 237",
-    "· Branch code 238",
-    "Jahangir Alam Chowdhury",
-    "Md. Abdur Rahman Miah",
-    "Tushar Kanti Bhattacharjaa",
-    "Nurul Alam",
-    "Jasim Uddin",
-    "SETU",
-    "Shazal Medical Hall  Proprietor: Mr. Shazal Hossain"
+  "branch": [
+    {
+      "Topkhana Road Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210276732",
+        "+8801701221515"
+      ]
+    },
+    {
+      "Chowdhury Hat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210152177",
+        "+8801701221739"
+      ]
+    },
+    {
+      "Munshikhola Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210274518",
+        "+8801701221652"
+      ]
+    },
+    {
+      "Uttara Model Town Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210264694",
+        "+8801701221530"
+      ]
+    },
+    {
+      "Takerhat Bazar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210540792",
+        "+8801701221808"
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210811939",
+        "+8801701221712"
+      ]
+    },
+    {
+      "Benapole Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210410280",
+        "+8801701221805"
+      ]
+    },
+    {
+      "Jessore Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210410943",
+        "+8801701221715"
+      ]
+    },
+    {
+      "Cda Avenue Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210151486",
+        "+8801701221778"
+      ]
+    },
+    {
+      "Ekoria Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210272086",
+        "+8801701221673"
+      ]
+    },
+    {
+      "Gopalganj Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210350379",
+        "+8801701221784"
+      ]
+    },
+    {
+      "Brahmanbaria Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210120433",
+        "+8801701221748"
+      ]
+    },
+    {
+      "Dakkhin Khan Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210260919",
+        "+8801701221625"
+      ]
+    },
+    {
+      "Cepz Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210151578",
+        "+8801701221718"
+      ]
+    },
+    {
+      "Bahaddarhat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150795",
+        "+8801701221742"
+      ]
+    },
+    {
+      "Matuail Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210274000",
+        "+8801701221628"
+      ]
+    },
+    {
+      "Barisal Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210060285",
+        "+8801701221772"
+      ]
+    },
+    {
+      "Bogra Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210100374",
+        "+8801701221751"
+      ]
+    },
+    {
+      "Kotalipara Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210350674",
+        "+8801701221787"
+      ]
+    },
+    {
+      "Pahartali Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210155929",
+        "+8801701221924"
+      ]
+    },
+    {
+      "Coxs Bazar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210220254",
+        "+8801701221754"
+      ]
+    },
+    {
+      "Progati Sharani Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210263703",
+        "+8801701221631"
+      ]
+    },
+    {
+      "Rangpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210851452",
+        "+8801701221790"
+      ]
+    },
+    {
+      "Beanibazar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210910319",
+        "+8801701221841"
+      ]
+    },
+    {
+      "Moulvibazar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210581180",
+        "+8801701221844"
+      ]
+    },
+    {
+      "Nawabpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210274750",
+        "+8801701221634"
+      ]
+    },
+    {
+      "Shafipur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210331422",
+        "+8801701221679"
+      ]
+    },
+    {
+      "Nangolmora Sme Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210151752",
+        "+8801701221876"
+      ]
+    },
+    {
+      "Biswanath Sme Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210910430",
+        "+8801701221905"
+      ]
+    },
+    {
+      "Goalabazar Sme Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210911547",
+        "+8801701221847"
+      ]
+    },
+    {
+      "Kushtia Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210500945",
+        "+8801701221745"
+      ]
+    },
+    {
+      "Kamarpara Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210261518",
+        "+8801701221696"
+      ]
+    },
+    {
+      "Sadarghat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210156731",
+        "+8801701221927"
+      ]
+    },
+    {
+      "Gazipur Sme Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210330528",
+        "+8801701221689"
+      ]
+    },
+    {
+      "Savar Sme Krishi Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210264094",
+        "+8801701221682"
+      ]
+    },
+    {
+      "Mymensingh Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210611755",
+        "+8801701221793"
+      ]
+    },
+    {
+      "Bhairab Sme Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210480207",
+        "+8801701221711"
+      ]
+    },
+    {
+      "Dinajpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210280678",
+        "+8801701221721"
+      ]
+    },
+    {
+      "Patuakhali Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210781098",
+        "+8801701221877"
+      ]
+    },
+    {
+      "Faridpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210290521",
+        "+8801701221757"
+      ]
+    },
+    {
+      "Ring Road Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210263974",
+        "+8801701221655"
+      ]
+    },
+    {
+      "Nilphamari Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210730731",
+        "+8801701221849"
+      ]
+    },
+    {
+      "Comilla Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210191154",
+        "+8801701221852"
+      ]
+    },
+    {
+      "Shibchar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210540705",
+        "+8801701221796"
+      ]
+    },
+    {
+      "Basurhat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210750258",
+        "+8801701221799"
+      ]
+    },
+    {
+      "Satkhira Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210871090",
+        "+8801701221855"
+      ]
+    },
+    {
+      "Mohammadpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210263282",
+        "+8801701221637"
+      ]
+    },
+    {
+      "Nawabgonj Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210274697",
+        "+8801701221640"
+      ]
+    },
+    {
+      "Malibag Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210273948",
+        "+8801701221658"
+      ]
+    },
+    {
+      "Oxygen More Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210155903",
+        "+8801701221760"
+      ]
+    },
+    {
+      "Rohanpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210700882",
+        "+8801701221811"
+      ]
+    },
+    {
+      "Ashkona Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210260201",
+        "+8801701221643"
+      ]
+    },
+    {
+      "Kanchpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210670820",
+        "+8801701221670"
+      ]
+    },
+    {
+      "Tangail Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210932292",
+        "+8801701221781"
+      ]
+    },
+    {
+      "Gobindagonj Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210320583",
+        "+8801701221881"
+      ]
+    },
+    {
+      "Bakshigonj Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210390100",
+        "+8801701221884"
+      ]
+    },
+    {
+      "Chaktai Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150087",
+        "+8801701221733"
+      ]
+    },
+    {
+      "Bhojeshwar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210860151",
+        "+8801701221858"
+      ]
+    },
+    {
+      "Tungipara Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210350832",
+        "+8801701221763"
+      ]
+    },
+    {
+      "Gunagari Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210153071",
+        "+8801701221887"
+      ]
+    },
+    {
+      "New Eskaton Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210275025",
+        "+8801701221661"
+      ]
+    },
+    {
+      "Sonargaon Janapath Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210260243",
+        "+8801701221690"
+      ]
+    },
+    {
+      "Hatikumrul Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210880915",
+        "+8801701221814"
+      ]
+    },
+    {
+      "Pabna Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210761784",
+        "+8801701221893"
+      ]
+    },
+    {
+      "Patherhat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210156131",
+        "+8801701221817"
+      ]
+    },
+    {
+      "Panchlaish Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210156049",
+        "+8801701221838"
+      ]
+    },
+    {
+      "Ramchandrapur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210193644",
+        "+8801701221861"
+      ]
+    },
+    {
+      "Bakolia Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150308",
+        "+8801701221820"
+      ]
+    },
+    {
+      "Alamdanga Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210180044",
+        "+8801701221864"
+      ]
+    },
+    {
+      "Kansat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210700529",
+        "+8801701221823"
+      ]
+    },
+    {
+      "Khan Jahan Ali Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210470059",
+        "+8801701221724"
+      ]
+    },
+    {
+      "· Branch code 093": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150324",
+        "+8801701221775"
+      ]
+    },
+    {
+      "Nimshar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210193349",
+        "+8801701221826"
+      ]
+    },
+    {
+      "Aganagar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210270138",
+        "+8801701221646"
+      ]
+    },
+    {
+      "Feni Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210300529",
+        "+8801701221896"
+      ]
+    },
+    {
+      "Ashulia Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210260227",
+        "+8801701221683"
+      ]
+    },
+    {
+      "Chapainawabgonj Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210700253",
+        "+8801701221727"
+      ]
+    },
+    {
+      "Jhenaidah Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210440647",
+        "+8801701221766"
+      ]
+    },
+    {
+      "Karwan Bazar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210262533",
+        "+8801701221649"
+      ]
+    },
+    {
+      "Kholamora Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210270338",
+        "+8801701221702"
+      ]
+    },
+    {
+      "Pirganj Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210851360",
+        "+8801701221867"
+      ]
+    },
+    {
+      "Kumira Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210154454",
+        "+8801701221899"
+      ]
+    },
+    {
+      "S.K Mujib Road Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150511",
+        "+8801701221769"
+      ]
+    },
+    {
+      "Chuadanga Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210180194",
+        "+8801701221870"
+      ]
+    },
+    {
+      "Hemayetpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210260506",
+        "+8801701221705"
+      ]
+    },
+    {
+      "Chittagong University Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210152085",
+        "+8801701221829"
+      ]
+    },
+    {
+      "Goalanda Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210820283",
+        "+8801701221832"
+      ]
+    },
+    {
+      "Madhabdi Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210680678",
+        "+8801701221708"
+      ]
+    },
+    {
+      "Mathbaria Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210790526",
+        "+8801701221873"
+      ]
+    },
+    {
+      "Baneswar Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210810222",
+        "+8801701221902"
+      ]
+    },
+    {
+      "Islampur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210272981",
+        "+8801701221676"
+      ]
+    },
+    {
+      "Atrai Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210640168",
+        "+8801701221835"
+      ]
+    },
+    {
+      "Fulbari Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210281877",
+        "+8801701221912"
+      ]
+    },
+    {
+      "Hili Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210280115",
+        "+8801701221909"
+      ]
+    },
+    {
+      "Tungi Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210331635",
+        "+8801701221686"
+      ]
+    },
+    {
+      "Jamal Khan Road Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210153589",
+        "+8801701221736"
+      ]
+    },
+    {
+      "Narsingdi Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210680852",
+        "+8801701221664"
+      ]
+    },
+    {
+      "Mohadebpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210641091",
+        "+8801701221915"
+      ]
+    },
+    {
+      "Northsouth Road Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210275117",
+        "+8801701221667"
+      ]
+    },
+    {
+      "· Branch code 223": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210350582",
+        "+8801701221906"
+      ]
+    },
+    {
+      "· Branch code 224": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150753",
+        "+8801701221918"
+      ]
+    },
+    {
+      "Bagichahat Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210150740",
+        "+8801701221921"
+      ]
+    },
+    {
+      "Sultanpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210120204",
+        "+8801701221936"
+      ]
+    },
+    {
+      "· Branch code 229": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210670233",
+        "+8801701221939"
+      ]
+    },
+    {
+      "Chandpur Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210130315",
+        "+8801701221948"
+      ]
+    },
+    {
+      "· Branch code 231": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210581722",
+        "+8801701221945"
+      ]
+    },
+    {
+      "· Branch code 232": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210350737",
+        "+8801701221942"
+      ]
+    },
+    {
+      "· Branch code 233": [
+        "North Brook Hall Road",
+        "https://www.standardbankbd.com/en/branch/210275054",
+        "+8801701221954"
+      ]
+    },
+    {
+      "Sandwip Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210156915",
+        "+8801701221951"
+      ]
+    },
+    {
+      "Kumarkhali Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210500882",
+        "+8801701221960"
+      ]
+    },
+    {
+      "Pallabi Branch": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210263587",
+        "+8801701221957"
+      ]
+    },
+    {
+      "· Branch code 237": [
+        "Dhaka Uddan",
+        "https://www.standardbankbd.com/en/branch/210261226",
+        "+8801701221963"
+      ]
+    },
+    {
+      "· Branch code 238": [
+        null,
+        "https://www.standardbankbd.com/en/branch/210220762",
+        "+8801701221966"
+      ]
+    },
+    {
+      "PRINCIPAL": [
+        "Metropolitan Chamber Building (GF) 122-124 Motijheel C/A Dhaka-1000 Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210275359",
+        "02-9513686; 02-9513687; 02-9559044"
+      ]
+    },
+    {
+      "KHATUNGONJ": [
+        "33 Ramjoy Mohajan Lane Khatungonj, Chittagong Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210154270",
+        "031-639593-4; 031-628424"
+      ]
+    },
+    {
+      "IMAMGONJ": [
+        "Bellal Market 79 Moulvi Bazar, Dhaka Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210272802",
+        "02-7312525; 02-7311243"
+      ]
+    },
+    {
+      "TOPKHANA": [
+        "Crescent Centre, 36 Topkhana Road, Dhaka-1000 Bangladesh",
+        null,
+        "02-9571413"
+      ]
+    },
+    {
+      "AGRABAD": [
+        "World Trade Center (2nd Floor), 102-103 Agrabad C/A, Chittagong Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210150137",
+        "031-2513135; 031-713432"
+      ]
+    },
+    {
+      "KHULNA": [
+        "Chamber Building (GF), 5 KDA Avenue, Khulna, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210471540",
+        "041-732655; 041-721289"
+      ]
+    },
+    {
+      "GULSHAN": [
+        "Shezad Palace, 32 Gulshan Avenue, North Commercial Area, Dhaka-1212, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210261721",
+        "02-9852679; 02-9885164"
+      ]
+    },
+    {
+      "JUBILEE ROAD": [
+        "Aziz Chamber, 6 Noor Ahmed Road (Jubilee Road), Chittangong, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210153642",
+        "031-627811; 031-612188"
+      ]
+    },
+    {
+      "FOREIGN EXCHANGE": [
+        "Nick Tower, 55 Dilkusha C/A, Dhaka-1000, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210272323",
+        "02-9571933; 02-9586864"
+      ]
+    },
+    {
+      "UTTARA": [
+        "Plot- 113/C, Road-7, Sector-4, Uttara Model Town, Dhaka-1230, Bangladesh",
+        null,
+        "02-8955171-2; 02-7911469"
+      ]
+    },
+    {
+      "DHANMONDI": [
+        "House-4, Road-27 (Old), Dhanmondi, Dhaka, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210261189",
+        "02-9145737"
+      ]
+    },
+    {
+      "SYLHET": [
+        "Thikana Tower (1st Floor), Naya Sarak, Sylhet, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210913558",
+        "0821-728785; 0821-710434"
+      ]
+    },
+    {
+      "NARAYANGONJ": [
+        "Khan Super Market,47/9 BB Road, DIT, Narayangonj, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210671182",
+        "02-7646153"
+      ]
+    },
+    {
+      "GULSHAN-1": [
+        "Uday Tower, 57/A Gulshan Avenue (South), Circle-1, Dhaka-1212, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210261934",
+        "02-9862111; 02-9840906"
+      ]
+    },
+    {
+      "PANTHAPATH": [
+        "DH Tower, 129 Sheikh Russel Square, Panthapath, Dhaka, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210263611",
+        "02-9667125-6; 02-9666521"
+      ]
+    },
+    {
+      "BANANI": [
+        "Plot-106, Road-11, Block-C, Banani, Dhaka, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210260430",
+        "02-9889545"
+      ]
+    },
+    {
+      "MIRPUR": [
+        "Northern Lion RP Tower, Plot-4, Block-D, Sector-2, Chiriakhana Road, Mirpur, Dhaka, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210262988",
+        "02-9014059-60; 02-9014059"
+      ]
+    },
+    {
+      "MOHAKHALI": [
+        "Green Delta Aims Tower (GF), 51-52 Mohakhali C/A, Dhaka-1212, Bangladesh",
+        "https://www.standardbankbd.com/en/branch/210263190",
+        "02-9855478; 02-9855476"
+      ]
+    },
+    {
+      "Green Road": [
+        "Castle Green(1St floor)142 Green Road. Dhaka-1205",
+        "https://www.standardbankbd.com/en/branch/210261697",
+        "02-9102771; 02-9120366; 02-9120371"
+      ]
+    },
+    {
+      "For a better": [
+        null,
+        null,
+        "/media?id=03338b39-8d42-4686-b97f-663d81381405.webp"
+      ]
+    },
+    {
+      "Bank smarter,": [
+        null,
+        null,
+        "/media?id=b817b06b-964a-4190-81f5-8a7b4a681aa1.webp"
+      ]
+    },
+    {
+      "For simpler, smarter payments.": [
+        null,
+        null,
+        "/media?id=5ae9470f-fea8-432a-888f-05181cdaac4d.webp"
+      ]
+    },
+    {
+      "Together in Trust & Progress": [
+        null,
+        null,
+        "/media?id=148e991f-dc6d-4800-98d1-1e42ade8d56c.webp"
+      ]
+    },
+    {
+      "Banking Made Easy,": [
+        null,
+        null,
+        "/media?id=df4aa65d-f177-4bad-bdc6-ac9e1ed49718.webp"
+      ]
+    },
+    {
+      "Branch POS": [
+        "Express Booth (KIOSK Banking)",
+        null,
+        null
+      ]
+    }
   ],
-  "branch_address": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "North Brook Hall Road",
-    null,
-    null,
-    null,
-    "Dhaka Uddan",
-    null,
-    "Uthura Bazar, Bhaluka, Mymensingh",
-    "Kochua Bazar, Kalia, Shakhipur, Tangail",
-    "Lamakazi, Biswanath, Sylhet",
-    "Hashimpur Moulvi Bazar, Raipura, Narsingdi",
-    "Kutubpur Bazar, Shibchar, Madaripur",
-    "Hazrahati, Mirpur, Kushtia",
-    "Pakulla Bazar, Union: Chilimpur, PO: Shahanshagonj, PS: Tangail Sadar, Dist.: Tangail Link Branch: SBL Tangail Branch"
-  ],
-  "branch_url": [
-    "https://www.standardbankbd.com/en/branch/210275359",
-    "https://www.standardbankbd.com/en/branch/210154270",
-    "https://www.standardbankbd.com/en/branch/210272802",
-    "https://www.standardbankbd.com/en/branch/210276732",
-    "https://www.standardbankbd.com/en/branch/210152177",
-    "https://www.standardbankbd.com/en/branch/210150137",
-    "https://www.standardbankbd.com/en/branch/210471540",
-    "https://www.standardbankbd.com/en/branch/210261721",
-    "https://www.standardbankbd.com/en/branch/210913558",
-    "https://www.standardbankbd.com/en/branch/210274518",
-    "https://www.standardbankbd.com/en/branch/210153642",
-    "https://www.standardbankbd.com/en/branch/210272323",
-    "https://www.standardbankbd.com/en/branch/210261189",
-    "https://www.standardbankbd.com/en/branch/210264694",
-    "https://www.standardbankbd.com/en/branch/210540792",
-    "https://www.standardbankbd.com/en/branch/210263611",
-    "https://www.standardbankbd.com/en/branch/210261934",
-    "https://www.standardbankbd.com/en/branch/210811939",
-    "https://www.standardbankbd.com/en/branch/210410280",
-    "https://www.standardbankbd.com/en/branch/210410943",
-    "https://www.standardbankbd.com/en/branch/210671182",
-    "https://www.standardbankbd.com/en/branch/210151486",
-    "https://www.standardbankbd.com/en/branch/210272086",
-    "https://www.standardbankbd.com/en/branch/210350379",
-    "https://www.standardbankbd.com/en/branch/210260430",
-    "https://www.standardbankbd.com/en/branch/210120433",
-    "https://www.standardbankbd.com/en/branch/210260919",
-    "https://www.standardbankbd.com/en/branch/210151578",
-    "https://www.standardbankbd.com/en/branch/210150795",
-    "https://www.standardbankbd.com/en/branch/210262988",
-    "https://www.standardbankbd.com/en/branch/210274000",
-    "https://www.standardbankbd.com/en/branch/210060285",
-    "https://www.standardbankbd.com/en/branch/210100374",
-    "https://www.standardbankbd.com/en/branch/210350674",
-    "https://www.standardbankbd.com/en/branch/210155929",
-    "https://www.standardbankbd.com/en/branch/210220254",
-    "https://www.standardbankbd.com/en/branch/210263703",
-    "https://www.standardbankbd.com/en/branch/210851452",
-    "https://www.standardbankbd.com/en/branch/210910319",
-    "https://www.standardbankbd.com/en/branch/210581180",
-    "https://www.standardbankbd.com/en/branch/210274750",
-    "https://www.standardbankbd.com/en/branch/210331422",
-    "https://www.standardbankbd.com/en/branch/210151752",
-    "https://www.standardbankbd.com/en/branch/210910430",
-    "https://www.standardbankbd.com/en/branch/210911547",
-    "https://www.standardbankbd.com/en/branch/210500945",
-    "https://www.standardbankbd.com/en/branch/210261518",
-    "https://www.standardbankbd.com/en/branch/210156731",
-    "https://www.standardbankbd.com/en/branch/210330528",
-    "https://www.standardbankbd.com/en/branch/210261697",
-    "https://www.standardbankbd.com/en/branch/210264094",
-    "https://www.standardbankbd.com/en/branch/210611755",
-    "https://www.standardbankbd.com/en/branch/210480207",
-    "https://www.standardbankbd.com/en/branch/210731198",
-    "https://www.standardbankbd.com/en/branch/210280678",
-    "https://www.standardbankbd.com/en/branch/210781098",
-    "https://www.standardbankbd.com/en/branch/210290521",
-    "https://www.standardbankbd.com/en/branch/210263974",
-    "https://www.standardbankbd.com/en/branch/210730731",
-    "https://www.standardbankbd.com/en/branch/210191154",
-    "https://www.standardbankbd.com/en/branch/210540705",
-    "https://www.standardbankbd.com/en/branch/210750258",
-    "https://www.standardbankbd.com/en/branch/210871090",
-    "https://www.standardbankbd.com/en/branch/210010077",
-    "https://www.standardbankbd.com/en/branch/210263282",
-    "https://www.standardbankbd.com/en/branch/210274697",
-    "https://www.standardbankbd.com/en/branch/210273948",
-    "https://www.standardbankbd.com/en/branch/210155903",
-    "https://www.standardbankbd.com/en/branch/210700882",
-    "https://www.standardbankbd.com/en/branch/210260201",
-    "https://www.standardbankbd.com/en/branch/210670820",
-    "https://www.standardbankbd.com/en/branch/210932292",
-    "https://www.standardbankbd.com/en/branch/210263190",
-    "https://www.standardbankbd.com/en/branch/210320583",
-    "https://www.standardbankbd.com/en/branch/210390100",
-    "https://www.standardbankbd.com/en/branch/210150087",
-    "https://www.standardbankbd.com/en/branch/210860151",
-    "https://www.standardbankbd.com/en/branch/210350832",
-    "https://www.standardbankbd.com/en/branch/210153071",
-    "https://www.standardbankbd.com/en/branch/210275025",
-    "https://www.standardbankbd.com/en/branch/210260243",
-    "https://www.standardbankbd.com/en/branch/210880915",
-    "https://www.standardbankbd.com/en/branch/210901128",
-    "https://www.standardbankbd.com/en/branch/210761784",
-    "https://www.standardbankbd.com/en/branch/210156131",
-    "https://www.standardbankbd.com/en/branch/210156049",
-    "https://www.standardbankbd.com/en/branch/210193644",
-    "https://www.standardbankbd.com/en/branch/210150308",
-    "https://www.standardbankbd.com/en/branch/210180044",
-    "https://www.standardbankbd.com/en/branch/210700529",
-    "https://www.standardbankbd.com/en/branch/210470059",
-    "https://www.standardbankbd.com/en/branch/210150324",
-    "https://www.standardbankbd.com/en/branch/210193349",
-    "https://www.standardbankbd.com/en/branch/210270138",
-    "https://www.standardbankbd.com/en/branch/210300529",
-    "https://www.standardbankbd.com/en/branch/210260227",
-    "https://www.standardbankbd.com/en/branch/210700253",
-    "https://www.standardbankbd.com/en/branch/210440647",
-    "https://www.standardbankbd.com/en/branch/210670154",
-    "https://www.standardbankbd.com/en/branch/210262533",
-    "https://www.standardbankbd.com/en/branch/210270338",
-    "https://www.standardbankbd.com/en/branch/210851360",
-    "https://www.standardbankbd.com/en/branch/210154454",
-    "https://www.standardbankbd.com/en/branch/210153734",
-    "https://www.standardbankbd.com/en/branch/210150511",
-    "https://www.standardbankbd.com/en/branch/210180194",
-    "https://www.standardbankbd.com/en/branch/210260506",
-    "https://www.standardbankbd.com/en/branch/210152085",
-    "https://www.standardbankbd.com/en/branch/210820283",
-    "https://www.standardbankbd.com/en/branch/210680678",
-    "https://www.standardbankbd.com/en/branch/210790526",
-    "https://www.standardbankbd.com/en/branch/210810222",
-    "https://www.standardbankbd.com/en/branch/210272981",
-    "https://www.standardbankbd.com/en/branch/210640168",
-    "https://www.standardbankbd.com/en/branch/210281877",
-    "https://www.standardbankbd.com/en/branch/210280115",
-    "https://www.standardbankbd.com/en/branch/210331635",
-    "https://www.standardbankbd.com/en/branch/210153589",
-    "https://www.standardbankbd.com/en/branch/210680852",
-    "https://www.standardbankbd.com/en/branch/210670220",
-    "https://www.standardbankbd.com/en/branch/210641091",
-    "https://www.standardbankbd.com/en/branch/210275117",
-    "https://www.standardbankbd.com/en/branch/210350582",
-    "https://www.standardbankbd.com/en/branch/210150753",
-    "https://www.standardbankbd.com/en/branch/210150740",
-    "https://www.standardbankbd.com/en/branch/210670309",
-    "https://www.standardbankbd.com/en/branch/210330294",
-    "https://www.standardbankbd.com/en/branch/210120204",
-    "https://www.standardbankbd.com/en/branch/210670233",
-    "https://www.standardbankbd.com/en/branch/210130315",
-    "https://www.standardbankbd.com/en/branch/210581722",
-    "https://www.standardbankbd.com/en/branch/210350737",
-    "https://www.standardbankbd.com/en/branch/210275054",
-    "https://www.standardbankbd.com/en/branch/210156915",
-    "https://www.standardbankbd.com/en/branch/210500882",
-    "https://www.standardbankbd.com/en/branch/210263587",
-    "https://www.standardbankbd.com/en/branch/210261226",
-    "https://www.standardbankbd.com/en/branch/210220762",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "branch_contact_number": [
-    "+8801701221500",
-    "+8801701221590",
-    "+8801701221560",
-    "+8801701221515",
-    "+8801701221739",
-    "+8801701221585",
-    "+8801701221570",
-    "+8801701221510",
-    "+8801701221575",
-    "+8801701221652",
-    "+8801701221580",
-    "+8801701221520",
-    "+8801701221525",
-    "+8801701221530",
-    "+8801701221808",
-    "+8801701221565",
-    "+8801701221505",
-    "+8801701221712",
-    "+8801701221805",
-    "+8801701221715",
-    "+8801701221535",
-    "+8801701221778",
-    "+8801701221673",
-    "+8801701221784",
-    "+8801701221540",
-    "+8801701221748",
-    "+8801701221625",
-    "+8801701221718",
-    "+8801701221742",
-    "+8801701221545",
-    "+8801701221628",
-    "+8801701221772",
-    "+8801701221751",
-    "+8801701221787",
-    "+8801701221924",
-    "+8801701221754",
-    "+8801701221631",
-    "+8801701221790",
-    "+8801701221841",
-    "+8801701221844",
-    "+8801701221634",
-    "+8801701221679",
-    "+8801701221876",
-    "+8801701221905",
-    "+8801701221847",
-    "+8801701221745",
-    "+8801701221696",
-    "+8801701221927",
-    "+8801701221689",
-    "+8801701221550",
-    "+8801701221682",
-    "+8801701221793",
-    "+8801701221711",
-    "+8801701221848",
-    "+8801701221721",
-    "+8801701221877",
-    "+8801701221757",
-    "+8801701221655",
-    "+8801701221849",
-    "+8801701221852",
-    "+8801701221796",
-    "+8801701221799",
-    "+8801701221855",
-    "+8801701221802",
-    "+8801701221637",
-    "+8801701221640",
-    "+8801701221658",
-    "+8801701221760",
-    "+8801701221811",
-    "+8801701221643",
-    "+8801701221670",
-    "+8801701221781",
-    "+8801701221555",
-    "+8801701221881",
-    "+8801701221884",
-    "+8801701221733",
-    "+8801701221858",
-    "+8801701221763",
-    "+8801701221887",
-    "+8801701221661",
-    "+8801701221690",
-    "+8801701221814",
-    "+8801701221890",
-    "+8801701221893",
-    "+8801701221817",
-    "+8801701221838",
-    "+8801701221861",
-    "+8801701221820",
-    "+8801701221864",
-    "+8801701221823",
-    "+8801701221724",
-    "+8801701221775",
-    "+8801701221826",
-    "+8801701221646",
-    "+8801701221896",
-    "+8801701221683",
-    "+8801701221727",
-    "+8801701221766",
-    "+8801701221699",
-    "+8801701221649",
-    "+8801701221702",
-    "+8801701221867",
-    "+8801701221899",
-    "+8801701221730",
-    "+8801701221769",
-    "+8801701221870",
-    "+8801701221705",
-    "+8801701221829",
-    "+8801701221832",
-    "+8801701221708",
-    "+8801701221873",
-    "+8801701221902",
-    "+8801701221676",
-    "+8801701221835",
-    "+8801701221912",
-    "+8801701221909",
-    "+8801701221686",
-    "+8801701221736",
-    "+8801701221664",
-    "+8801701221693",
-    "+8801701221915",
-    "+8801701221667",
-    "+8801701221906",
-    "+8801701221918",
-    "+8801701221921",
-    "+8801701221930",
-    "+8801701221933",
-    "+8801701221936",
-    "+8801701221939",
-    "+8801701221948",
-    "+8801701221945",
-    "+8801701221942",
-    "+8801701221954",
-    "+8801701221951",
-    "+8801701221960",
-    "+8801701221957",
-    "+8801701221963",
-    "+8801701221966",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "duration_sec": 20.0
+  "sub_branch": [
+    {
+      "Information Memorandum of Standard Islami Bank 4th Subordinated Bond": [
+        "à§¬à¦·à§à¦ à¦¬à¦¾à¦à¦²à¦¾à¦¦à§à¦¶ à¦¸à¦°à¦à¦¾à¦° à¦¬à¦¿à¦¨à¦¿à¦¯à¦¼à§à¦ à¦¸à§à¦à§à¦",
+        "https://new.standardbankbd.com/NIS.php",
+        null
+      ]
+    }
+  ]
 }

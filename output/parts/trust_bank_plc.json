@@ -1,32 +1,976 @@
 {
   "_bank": "Trust Bank PLC",
-  "website": "https://www.trustbank.com.bd/",
-  "website_source": "override",
-  "method": "html_cards",
+  "bank_url": "https://www.tblbd.com/",
+  "method": "html_cards+html_table",
   "status": "success",
-  "branch_name": [
-    "Branches, ATMs & CDMs",
-    "Find Branches & ATMs",
-    "Find Branches & ATMs"
+  "branch": [
+    {
+      "Agrabad Branch": [
+        "Sena kalyan Trade Centre (1st Floor), Holding No: 29, Agrabad Commercial Area, Commerce College Road, Ward no.: 28, Pathantuli, Chattogram City Corporation, Thana: Double Mooring, Dist:Chattogram, Phone: Direct- Branch Chief Manager: +8801730303141 Branch Op",
+        "https://eservice.tblbd.com/website/Branch?id=0012",
+        "02333324462-63; 02333314708; 031720188; +8801730303141; +8801321141424; 01755521418"
+      ]
+    },
+    {
+      "Alikadam Branch": [
+        "Mujib Market, Village: Alikadam Bazar, Holding No. 16, Ward No. 02, Union: Alikadam Sadar, Thana - Alikadam, Dist - Bandarban-4650 Routing No: 240030043 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0116",
+        null
+      ]
+    },
+    {
+      "Amirabad Lohagara Branch": [
+        "Best Chowdhury Plaza, 1st Floor, Main Road, Amirabad, Lohagara, Chattogram., Branch Manager) & +8802334459016 (Branch Use),01713435896 (Branch Manager) & 01708494250 (Manager-Operation & Credit) Fax: 03034-56512 Routing No: 240150415 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0038",
+        "+8802334459014; +8802334459016; 01713435896; 01708494250; 03034-56512"
+      ]
+    },
+    {
+      "Anowara Branch": [
+        "Nurul Islam Market (1st floor), P.A.B Sarak, Ward No: 06, Union: 08, Thana: Anowara, District: Chattogram-4376 Routing No: 240150523 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0110",
+        "8801332520400"
+      ]
+    },
+    {
+      "Army Stadium Branch": [
+        "Captains world-2, Banani, Airport Road, Cantonment Board, Dhaka North City Corporation, Thana: Dhaka Cantonment, District: Dhaka, Division: Dhaka BM), +8801770272626 (BOM), Loan Department: +8801779976645, General Banking: +8801776075701, Cash Department: +8801713090078 Fax: 0",
+        "https://eservice.tblbd.com/website/Branch?id=0018",
+        "+8801729069550; +8801770272626; +8801779976645; +8801776075701; +8801713090078; 02-9833865"
+      ]
+    },
+    {
+      "Ashkar Dighir Par Branch": [
+        "CPDL Cloud Nine (Ground & 1st floor), 81, SS Khaled Road, Ashkar Dighir Par, Chattogram City Corporation, Thana: Kotwali, Dist:Chattogram Phone: Manager: 02333389553, Manager Operation & Credit: 01730304869 Fax: 002333369825, 01313778474 Routing No: 240152413 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0068",
+        "02333389551; 02333389552; 02333389553; 01730304869; 002333369825; 01313778474"
+      ]
+    },
+    {
+      "Ashuganj Branch": [
+        "Hazi Md.Jahirul Haque Munshi Shoping Complex (1st Floor), Char Chartala, Ashuganj, Brahmanbaria, Bangladesh Routing No: 240120108 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0039",
+        "+8802334431726; +8802334431727"
+      ]
+    },
+    {
+      "Ashulia Branch": [
+        "Chowdhury Bhaban (1st floor), Baipail, EPZ Road, Ashulia, Dhaka. Fax: 02-7790867 Routing No: 240260226 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0046",
+        "+8802996689967; +8802996689943; +8801770790779; 02-7790867"
+      ]
+    },
+    {
+      "Bagerhat Branch": [
+        "7/2, Khan Jahan Ali Road (1st Floor), Bagerhat Sadar, Bagerhat. Branch Manager), Cell: +8801787672377 (Branch Manager),+8801729037531 ( Manager Operation & Credit) Fax: 02477751741 Routing No: 240010076 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0084",
+        "02477751742; +8801787672377; +8801729037531; 02477751741"
+      ]
+    },
+    {
+      "Banani Branch": [
+        "Autograph (Ground Floor), Holding No: 67-68, Kamal Ataturk Avenue, Banani, Dhaka Fax: 02222263053, 02222263107,Ext-100 Routing No: 240260439 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0056",
+        "02222263053; 02222263107; 02222285081; 02222284927"
+      ]
+    },
+    {
+      "Bandarban Branch": [
+        "1st Floor of Chairman Market, Bandarban Bazar Fund, Plot# 240/C, Bandarban Sadar, Bandarban Branch Manager) +8802333303175 (Manager Operation & Credit) +8802333303176 (Branch Use),+8801755-639578 (Branch Use) Routing No: 240030135 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0062",
+        "+8802333303174; +8802333303175; +8802333303176; +8801755-639578"
+      ]
+    },
+    {
+      "Barishal Branch": [
+        "S Rahman Market (Ground floor), 78, Sadar Road, Barishal City Corporation Area, Barishal Fax: 0431-2177323 Routing No: 240060284 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0051",
+        "02478866374; 02478866373; 01729069568; 01730729925; 0431-2177323"
+      ]
+    },
+    {
+      "Barishal Cantonment Branch": [
+        "Barishal Cantonment, Bakerganj, Barishal Branch Manager),01729069564 ( Manager Operation & Credit) Routing No: 240060268 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0105",
+        "01729069565; 01729069564"
+      ]
+    },
+    {
+      "Bashundhara Branch": [
+        "Union Tower (2nd floor), Holding no 440 - 442, Block - A, Bashundhara R/A, Bashundhara, Dhaka- 1229 Routing No: 240263702 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0044",
+        "01730976181; 01793786757"
+      ]
+    },
+    {
+      "Beanibazar Branch": [
+        "Al-Amin Super Market, College Road, Beanibazar Sylhet Branch Manager),01730376188(Manager Operation and Credit) Routing No: 240910318 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0025",
+        "8802996646369; 8802996646368; 01713068370; 01730376188"
+      ]
+    },
+    {
+      "Bhairab Branch": [
+        "Ananda Niketan (Ground & 1st Floor), 169, Biplobi Reboti Barman Sarani, Bhairab, Dist: Kishoreganj Fax: 02-9471500 Routing No: 240480198 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0064",
+        "02224467300; 02224467301; 02224467302; 01332520445; 02-9471500"
+      ]
+    },
+    {
+      "Bhedarganj Branch": [
+        "SEBA Tower (1st floor), Shaheed Mohiuddin Sarak, Bhedarganj Pourashava, PS-Bhedarganj Shariatpur. Manager, Direct) 06022-56122 (PABX) Routing No: 240860105 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0079",
+        "01730304864; 06022-56121; 06022-56122"
+      ]
+    },
+    {
+      "Bhulta Branch": [
+        "Purbachal New Garden City Market, Bhulta, Rupganj, Narayangonj Routing No: 240670229 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0119",
+        null
+      ]
+    },
+    {
+      "Bir Uttam Shaheed Mahboob Cantt. Branch": [
+        "Cantonment Board Market, Bir Uttam Shaheed Mahbub Cantonment, Dinajpur Phone: MANAGER: 01755552688, GB & CREDIT: 01708463945 Routing No: 240280064 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0072",
+        "01755552688; 01708463945"
+      ]
+    },
+    {
+      "Bogura Branch": [
+        "Shonom Complex, Holding No. 1094, Sherpur Road, Ward No-07, Pourashava- Bogura, Thana-Bogura, Sadar, Dist- Bogura, Routing No: 240100373 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0113",
+        "+8801714501080"
+      ]
+    },
+    {
+      "Bogura Cantt. Branch": [
+        "Ullash Sena Complex (1't Floor), Ward/ Mouza : RahimabadUP:, AriaThana: ShahjahanpurBogura, Cantonment (B-Block), Bogura, , Ward No: 01, Union Parishad: Aria, Upazilla: Shajahanpur, Thana/Police Station: Shajahanpur, District: Bogura, Division: Rajshahi. A/C OPN-CARD-CHQ: 0170814",
+        "https://eservice.tblbd.com/website/Branch?id=0004",
+        "02589113178; 01708140987; 02589113179; 01730376195; 01730376194"
+      ]
+    },
+    {
+      "CDA Avenue Branch": [
+        "SANMAR TOWER -1(1st flr) 1850/3319, CDA Avenue, East Nasirabad, P.S-Pachlaish, Chattogram Chief Manager # 02334450938,01729069521 Routing No: 240151485 SWIFT: TTBLBDDH020",
+        "https://eservice.tblbd.com/website/Branch?id=0020",
+        "02334450123; 02334450936; 02334450938; 01729069521"
+      ]
+    },
+    {
+      "Centennial Branch": [
+        "Dream By Icon, 2/4, Block-A, Mohammadpur Housing Estate, Mirpur Road Branch Manager), +8801770790788 (Manager-Operation & Credit) , +88-02-41022768 , +88-02-41022585 , +88-02-41022769 (PABX) Routing No: 240263281 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0094",
+        "+8801729037598; +8801770790788; 02-41022768; 02-41022585; 02-41022769"
+      ]
+    },
+    {
+      "Chandpur Branch": [
+        "1st Floor of Notun Bazar Super Market, Chandpur Fax: 0841-66542 Routing No: 240130314 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0090",
+        "+8802334486543; +8802334486541; 0841-66542"
+      ]
+    },
+    {
+      "Chapainawabganj Branch": [
+        "1st and 2nd Floor of a five storied building at boro Indara Morh, 16 Jhilim Road, Kotwali, Chapai ;02588892686 Fax: 0781-52684-5 Routing No: 240700252 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0095",
+        "02588892684; 02588892685; 02588892686; 0781-52684-5"
+      ]
+    },
+    {
+      "Chattogram Cantt. Branch": [
+        "Bangladesh Tea Board Bhaban, Ground Floor, 171-172 Baijid Bostami Road Nasirabad, Chattogram Phone: Manager), PABX: +8802333375470, Cell: +8801766676623, e-mail: Routing No: 240151993 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0006",
+        "+8802333375471; +8802333375470; +8801766676623"
+      ]
+    },
+    {
+      "Chowmuhani Branch": [
+        "1st & 2nd Floor, Holding No. 309 & 310, Chowmuhani Pourashava Fax: +8802334493194 Routing No: 240750673 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0043",
+        "+8802334493192; +8802334493193; 01708-483165; +8802334493194"
+      ]
+    },
+    {
+      "Companiganj Branch": [
+        "Chitta Ranjan Avenue (1st Floor), Companiganj, UP: Nabipur Patchim, Muradnagar, Cumilla. Routing No: 240191429 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0100",
+        "01709654653; 01708140984"
+      ]
+    },
+    {
+      "Cox's Bazar Branch": [
+        "Diganta Annexure Complex (1st Floor), Cinema Hall Super Market, Thana: Cox’s Bazar, Dist: Cox’s Bazar Fax: 034152110 Routing No: 240220253 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0045",
+        "+8802334462820; 02334462822; 034152110"
+      ]
+    },
+    {
+      "Cumilla Branch": [
+        "Omori Mansion (1st & 2nd floor), Badurtala 1st Lane, Kandirpar, Cumilla General Banking) , +8801766676632 (Credit Operation) Fax: 081-64250 Routing No: 240191153 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0047",
+        "02334404249; 02334404250; +8801729037462; +8801766676632"
+      ]
+    },
+    {
+      "Cumilla Cantt. Branch": [
+        "Mainamati Super Market, (1st floor), Cumilla Cantt. Cumilla Branch Operation Manager-01729069527, Loan Dept.-01709654652, Cash Dept.-01755552691 Routing No: 240191216 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0005",
+        "+8802334405004; +8802334405005; 01729069527; 01709654652; 01755552691"
+      ]
+    },
+    {
+      "Dashuria Branch": [
+        "Abdul Khalaque Market (1st Floor), Dashuria, Ishwardi, Pabna Branch Manager),01730376205 (Manager Operation & Credit),01322905473 (Head Teller) Routing No: 240760797 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0085",
+        "01755690421; 01730376205; 01322905473"
+      ]
+    },
+    {
+      "Daulatpur Branch": [
+        "1/1 Upper Jashore Road, SS Centre (1st Floor), Daulatpur, Khulna. Routing No: 240470708 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0103",
+        "+8802477702620; +8801708494259; +8801708483175"
+      ]
+    },
+    {
+      "Dayarampur Branch": [
+        "M K Shopping Complex, (1st Floor), Dayarampur Bazar, Kadirabad Cantonment Road, Dist: Natore Phone: Mobile: 8801755644397 Routing No: 240690409 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0054",
+        "02588875151; 8801755644397"
+      ]
+    },
+    {
+      "Dhamrai Branch": [
+        "1st Floor of Siddique Super Market, Holding# A-29, Dhamrai Pourashava, Dhamrai, Dhaka Branch Manager),+8801709654650 ( Manager Operation & Credit) Routing No: 240261159 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0070",
+        "02996630026; 02996630027; 02996630028; +8801755636239; +8801709654650"
+      ]
+    },
+    {
+      "Dhanmondi Corporate Branch": [
+        "Delvista Phooljhuri, (1st & 2nd Floor), Holding No: 759, Satmashjid Road, Dhanmondi, Dhaka Direct), 02-41023880, 02-41023881, +8801729069526 (BOM) Routing No: 240261188 SWIFT: TTBLBDDH014",
+        "https://eservice.tblbd.com/website/Branch?id=0014",
+        "02-41023879; 02-41023880; 02-41023881; +8801729069526"
+      ]
+    },
+    {
+      "Dholaikhal SME Service Center": [
+        "31/1 Lalmohan Shah Street, Dholaikhal, Dhaka Routing No: 240271857 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5001",
+        "+8801730323274; +8801730323273; 02-223390841"
+      ]
+    },
+    {
+      "Dilkusha Corporate Branch": [
+        "Peoples Insurance Bhaban, 36, Dilkusha C/A (1st Floor), Dhaka South City Corporation, Zone-2, Ward-9, Post Office- Dilkusha -1000, Thana- Motijheel, Postal Zip code-1223 Fax: 9560793 Routing No: 240271936 SWIFT: TTBLBDDH017",
+        "https://eservice.tblbd.com/website/Branch?id=0017",
+        "Phone: 223356418, 9577186, 223381821 Fax: 9560793"
+      ]
+    },
+    {
+      "Dinajpur Islamic Banking Branch": [
+        "Northern Plaza (Ground Floor) Holding No.: 74169 Ganeshtala (Charu Babur Road) Ward No. 03 Pourashava . Dinajpur Thana . Kotwali Dist.: Dinajpur Direct), 02589923635(ext-101-111), 01708813856(CASH), 01322905480 (GB), 01730304852(BM) Routing No: 240280677 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=3003",
+        "02589923629; 02589923635; 01708813856; 01322905480; 01730304852"
+      ]
+    },
+    {
+      "Faridpur Branch": [
+        "Monmohan Shopping Complex, Holding # 15/18, Chawlk Bazar, Chawl Patti, Kotwali Thana, Faridpur Sadar, Faridpur. Branch Manager), 01755583725 (Manager Operation & Credit) Fax: 0631-65249 Routing No: 240290520 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0059",
+        "02478805249; 01729069556; 01755583725; 0631-65249"
+      ]
+    },
+    {
+      "Feni Branch": [
+        "Kazi Center, Holding-106, SSk Road, Feni 8 Fax: 0331-63535 Routing No: 240300528 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0031",
+        "+8802334472535; +8802334472536; +8802334472537; +8801729037448; 0331-63535"
+      ]
+    },
+    {
+      "Gazipur Cantonment Branch": [
+        "BOF Complex, Shahid Jaman Shorok, Word#24, Gazipur City Corporation, Thana:Joydevpur, Dist:Gazipur Routing No: 240330264 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0104",
+        "01708494254"
+      ]
+    },
+    {
+      "Goalabazar Branch": [
+        "Hazi Nasibullah Market (1st floor), Main Road, Union-Goalabazaar, Thana-Osmaninagar, Sylhet Fax: 08242-56327 Routing No: 240911546 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0027",
+        "+8801730-304858; 02996644653; 08242-56327"
+      ]
+    },
+    {
+      "Golapganj Branch": [
+        "Rahman Shopping Complex (1st Floor), Holding No-75, Ward No-01, Pourashaba + Upazilla- Golapganj Fax: 02996645585 Routing No: 240911609 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0077",
+        "02996645584; 02996645585"
+      ]
+    },
+    {
+      "Gopalganj Branch": [
+        "1st Floor, H#172, Adhunik Shamobay Biponi, Puratan Bazar Road, Ward No- 6, Pourashaba- Gopalganj, Thana + Police Station- Gopalganj Sadar, Gopalganj Branch Manager) & PABX- +8802478821306 (Branch Use),01729069571 (Branch Manager) & 01755540128 (Manager-Operation & Credit) Fax:",
+        "https://eservice.tblbd.com/website/Branch?id=0057",
+        "+8802478821266; +8802478821306; 01729069571; 01755540128; +8802478821315"
+      ]
+    },
+    {
+      "Gulshan Corporate Branch": [
+        "Khandker Tower (1st Floor), 94 Gulshan Avenue, Gulshan-2, Dhaka-1212 PABX), 55068835(PABX), (PABX), 106 (Clearing)123(Local Remittance), 110 (Account Opening) Routing No: 240261812 SWIFT: TTBLBDDH016",
+        "https://eservice.tblbd.com/website/Branch?id=0016",
+        "02-55068834"
+      ]
+    },
+    {
+      "Gulshan North Branch": [
+        "Doreen Tower, Holding No-6 A, North Avenue, Gulshan Circle-2, Ward No-06, Dhaka North City Corporation, Thana: Gulshan, District: Dhaka Routing No: 240261904 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0114",
+        "+8801332520468"
+      ]
+    },
+    {
+      "Habiganj Branch": [
+        "Mannan Shopping Mall, Badiuzzaman Khan Road, Habiganj. Phone: Branch Telephone No:02996605191 ,02996605192,Branch Manager No:01755690420,Manager Op & Cr No: 01730376207 Fax: 02996605193 Routing No: 240360618 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0087",
+        "02996605191; 02996605192; 01755690420; 01730376207; 02996605193"
+      ]
+    },
+    {
+      "Halishahar Branch": [
+        "2030/A, Monirat Plaza, Block-G, Road#4, Port Connecting Road, Boropole, Halishahar , Chattogram. Routing No: 240153162 SWIFT: TTBLBDDH024",
+        "https://eservice.tblbd.com/website/Branch?id=0024",
+        "8801713-431478; +880233312592-93"
+      ]
+    },
+    {
+      "Jahanabad Cantt Branch": [
+        "Cinema Hall Complex, Jahanabad Cantonment, Gilatala, Fultala, Khulna Manager Operation & Credit: 01777-765915, 01313778487 Fax: +88024-77707101 Routing No: 240471057 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0066",
+        "+88024-77707101; 01755552685; 01777-765915; 01313778487"
+      ]
+    },
+    {
+      "Jalalabad Cantt. Branch": [
+        "Jalalabad Cantonment, Botessor, Sylhet., Ward: 9, Union Parishad: 4 no Khadim Para, Upazilla: Sylhet Sadar, Police Station: Shahparan Phone: Mobile:01730376206 Routing No: 240911841 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0011",
+        "02996642613; 01730376206"
+      ]
+    },
+    {
+      "Jamuna Cantonment Branch": [
+        "Jamuna Cantonment, 98 Comp. Bde., Union-Nikrail, Thana-Bhuapur, Dist-Tangail Routing No: 240930156 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0091",
+        "02999213178; 8801729069515"
+      ]
+    },
+    {
+      "Jashore Cantt. Branch": [
+        "Trust Complex (1st Floor), Arabpur MP Check Post, Jashore Cantonment, Jashore Manager Operation & Credit), 01755534692 (Branch Manager), 01755690423(Credit, GB), 01321141435 (Islamic) Fax: 0421 61043 Routing No: 240411033 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0008",
+        "024-79553179; 01313-778515; 01755534692; 01755690423; 01321141435; 0421 61043"
+      ]
+    },
+    {
+      "Jhenaidah Branch": [
+        "Holding No:16, Agnibina Road, Jhenaidah Sadar, Jhenaidah Phone: Manager Operation & Credit: +8802477746585 , +8801729044214 & Branch Manager: +8802477746584, +8801755636233 Routing No: 240440646 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0067",
+        "+8802477746585; +8801729044214; +8802477746584; +8801755636233"
+      ]
+    },
+    {
+      "Jolshiri Branch": [
+        "Daily Needs 17, Holding No-16, Raod # 502, Sector # 17, Ward No-01, Union-Rupganj, Thana: Rupganj, District: Narayanganj Routing No: 240670382 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0115",
+        "+8801720038149"
+      ]
+    },
+    {
+      "Joydebpur Branch": [
+        "Vaowal Point Shopping Complex, Holding no.- A-2 (1st Floor), Ward No. – 15, Vogra, Gazipur City Corporation, Thana-Bason, Gazipur Branch Manager), +8801729069533 (Operation Manager), +8801329691872 (Cash & General Banking), +8801730785331 (Credit & Clearing) Fax: 9262859 Routi",
+        "https://eservice.tblbd.com/website/Branch?id=0033",
+        "+8801708122923; +8801729069533; +8801329691872; +8801730785331"
+      ]
+    },
+    {
+      "Joypara Branch": [
+        "Ansar Uddin, Mozhar Ali and Khair Uddin Plaza Ward No.-02, Joypara, Dohar, Dhaka Routing No: 240273284 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0032",
+        "+8801730334645; +8801730357732"
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "64 Jublee Road, Chattogram, Fax: 0312857213 Routing No: 240153641 SWIFT: TTBLBDDH036",
+        "https://eservice.tblbd.com/website/Branch?id=0036",
+        "+8802333357662; +8802333359061; 0312857213"
+      ]
+    },
+    {
+      "Kabirhat Branch": [
+        "Ward No.-2, Kabirhat Pourushova, Noakhali Routing No: 240751214 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0102",
+        "8801708140988"
+      ]
+    },
+    {
+      "Kadamtali Branch": [
+        "Royal Plaza (1st & 2nd floor), 431, DT Road, Kadamtali Bus Station, Kadamatli, Ward no: 29, Police Station: Sadarghat, Chattogram PABX];+8802333329952 [PABX];+8802333329953 Manager Operation; +8802333329954 Manager Fax: 0312529952 Routing No: 240151951 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0050",
+        "+8802333329951; +8802333329952; +8802333329953; +8802333329954; 0312529952"
+      ]
+    },
+    {
+      "Kafrul Islamic Banking Branch": [
+        "MQ Plaza (1st Floor), 28, DCC North Kafrul, Dhaka Cantonment, Dhaka- 1206 Manager (Direct),+88-02222270339 & 02222270340(PABX No) Routing No: 240262387 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=3001",
+        "02222270345; 02222270339; 02222270340"
+      ]
+    },
+    {
+      "Kakrail Islamic Banking Branch": [
+        "38, Kakrail, Inner Circular Road, Bijoy Nagar, Dhaka. Phone: (Direct)02-222228201), Mobile-01729069557 Fax: 02-222228202 Routing No: 240273376 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=3002",
+        "02-222228201; 02-48316265; 01729069557; 02-222228202"
+      ]
+    },
+    {
+      "Kalabagan Branch": [
+        "Green Landmark, 2nd floor, Holding No-129, Mirpur Road, Ward No-17, Dhaka South City Corporation, Thana-Kalabagan 3756. Routing No: 240261333 SWIFT: TTBLBDDH053",
+        "https://eservice.tblbd.com/website/Branch?id=0053",
+        "01313778494; 01730376203; 02222243754; 02222243755; 02222243756"
+      ]
+    },
+    {
+      "Kanchpur Branch": [
+        "Sonargoan Mega Shopping Complex(1st Floor), Kanchpur, Sonargoan, Narayanganj. Routing No: 240670124 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0086",
+        "01755540561; 01787692851"
+      ]
+    },
+    {
+      "Karwan Bazar Branch": [
+        "EDB Trade Centre, 93 Kazi Nazrul Islam Avenue, Dhaka Manager (Direct); PABX- 02-41010082; Fax: 9126544 Routing No: 240262532 SWIFT: TTBLBDDH030",
+        "https://eservice.tblbd.com/website/Branch?id=0030",
+        "02-41010079; 02-41010082"
+      ]
+    },
+    {
+      "Keraniganj Branch": [
+        "1st Floor, Azhar Plaza, Ferry Ghat, Bus Road, Zinjira, Keraniganj, Dhaka Routing No: 240273642 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0065",
+        "02-7764268; 02-7764267; 8801708494249"
+      ]
+    },
+    {
+      "Khagrachari Branch": [
+        "Ananda Complex, (1st Floor), Mahajanpara, Main Road, Khagrachari Pourashava, Khagrachari (4400) opt. & cr), 02333343740(manager), 02333343390(GB & clearing) Fax: 037161374 Routing No: 240460071 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0063",
+        "02333343772; 02333343740; 02333343390; 037161374"
+      ]
+    },
+    {
+      "Khatunganj Branch": [
+        "205, Main Road, Plot No-218, Kahtunganj, Chattogram Phone: Chief Manager:02333361718 (Direct),Manager Operation:02333361719 (Direct), Mobile No:01755552687 (M-OP) Fax: 02333357860 Routing No: 240154279 SWIFT: TTBLBDDH015",
+        "https://eservice.tblbd.com/website/Branch?id=0015",
+        "02333361718; 02333361719; 02333363235-36; 01755552687; 02333357860"
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "Shena Kalyan Bhaban, 1st Floor, 1 KDA Avenue, Khulna PABX); 02477729571 (PABX); 01313778490( Manager),01313778489(Manager Operation & Credit),01309015703(Islamic Banking),01708813857(Cash Department) Fax: 02477729573 Routing No: 240471549 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0040",
+        "02477729570; 02477729571; 01313778490; 01313778489; 01309015703; 01708813857; 02477729573"
+      ]
+    },
+    {
+      "Khwaja Garib-E-Nawaz Avenue Branch": [
+        "Tropical Akhand Tower (1st & 2nd floor), Plot-23, Sector- 11, Khwaja Garib-E-Nawaz Avenue, Ward no. 51, Police Station: Uttara West, Dhaka North City Corporation, Uttara, Dhaka-1230 & 02-48964667 (PABX), 02-48964668 (Direct), 01730375144 (Manager Operation) Fax: 02-48964667 (FAX)",
+        "https://eservice.tblbd.com/website/Branch?id=0055",
+        "02-48964666; 02-48964667; 02-48964668; 01730375144"
+      ]
+    },
+    {
+      "Kishoreganj Branch": [
+        "Holding No: 596, Haji Akkas Market (1st Floor), Boro Bazar, Kishoreganj Sadar Fax: 02997761877 Routing No: 240480677 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0058",
+        "01755583726; 02997761874; 02997761877"
+      ]
+    },
+    {
+      "Kushtia Branch": [
+        "1st floor of Shatabdi Bhaban, Holding No-92/A, Nabab Siraj-Ud-Doula Road, PS-Kushtia Sadar, Kushtia Manager Direct), 02477782258 (Account Opening),01730-304851(Branch Manager),01313-778497(Manager - Operation & Credit),01313-778499(Head Teller) Routing No: 240500944 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0075",
+        "02477782638; 02477782258; 01730-304851; 01313-778497; 01313-778499"
+      ]
+    },
+    {
+      "KYAMCH Branch": [
+        "Khwaja Yunus Ali Medical College & Hospital, Enayetpur-6751, Chauhali, Sirajganj 23, Routing No: 240881184 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0019",
+        "+8801708483166; +8801730343855; +8801730343856; +8801332520423"
+      ]
+    },
+    {
+      "Laksam Branch": [
+        "AG Tower, Holding No- 1541-1542, Doulatganj Bazar Road, Ward No- 4, Pourashava- Laksam, Thana- Laksam, District- Cumilla-3570, , Routing No: 240192710 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0112",
+        "01132520434; 01746603705"
+      ]
+    },
+    {
+      "Lalmonirhat Branch": [
+        "Simanto Shopping Complex (1st floor), Holding No-755, Misson More Zero Point, PS-Lalmonirhat Sadar, Lalmonirhat Branch Manager) +8802589986718 (Branch Use),+8801730304865 (Branch Manager) +8801729069543 (Manager-Op. & Credit) +8801708483178 ( Cash In Charge) Routing No: 240520",
+        "https://eservice.tblbd.com/website/Branch?id=0081",
+        "+8802589986717; +8802589986718; +8801730304865; +8801729069543; +8801708483178"
+      ]
+    },
+    {
+      "Madhabdi SME/Krishi Branch": [
+        "JM Tower, Holding No-258, Girls School Road, Ward No-8, Madhabdi, Narsingdi Routing No: 240680680 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5003",
+        "02-224457223-4; 02-224457226"
+      ]
+    },
+    {
+      "Madina Market Branch": [
+        "Akther Shopping City Complex (1st Floor), Madina Market, Sylhet City Corporation, Sylhet Sadar, Sylhet. Branch Manager),01321141341 (Manager Operation & Credit) Routing No: 240912545 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5005",
+        "02997700333; 01713436096; 01321141341"
+      ]
+    },
+    {
+      "Maligaon Branch": [
+        "Maligaon Hospital Medicine Market (1st Floor), Maligaon Branch Manager) +8801787672380 (Office) (Manager Operation & Credit) Routing No: 240190262 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0083",
+        "+8801313778510; +8801787672380"
+      ]
+    },
+    {
+      "Manikganj SME/Krishi Branch": [
+        "Anjoli Super Market(1st Floor), 75 Shaheed Rafik Sarak, Kali Bari, Manikganj Fax: 88-02-7711067 Routing No: 240560621 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5007",
+        "02-7711067"
+      ]
+    },
+    {
+      "Matuail Branch": [
+        "1st F, Mainuddin Bhaban, South Matuail, Kadamtali, Dhaka-1213 Fax: +8801787672384 Routing No: 240274009 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0082",
+        "+8801708813850; +8801787672384"
+      ]
+    },
+    {
+      "Millennium Corporate Branch": [
+        "Shadhinata Tower (Level 2), Bir Srestha Shaheed Jahangir Gate, Dhaka Cantonment, Dhaka-1206 Fax: 88-02-44870127 Routing No: 240262958 SWIFT: TTBLBDDH022",
+        "https://eservice.tblbd.com/website/Branch?id=0022",
+        "02-44870126; 02-44870127"
+      ]
+    },
+    {
+      "Mirerbazar SME/Krishi Branch": [
+        "52, Istiak Commercial Complex(1st Floor), Mirerbazar Chowrasta, Pubail , Gazipur, Bangladesh., Mobile:+8801729069609 (Branch Manager) , +8801755552686 (Manager Operation & Credit) Fax: 9816766 Routing No: 240331050 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5002",
+        "+8801729069609; +8801755552686"
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "Road-3, Block-A, Section-11, Mirpur, Dhaka Direct number), +880258056396 (PABX),+8801770790780 Fax: 9008359 Routing No: 240262987 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0028",
+        "+880258056360; +880258056396; +8801770790780"
+      ]
+    },
+    {
+      "Mirpur DOHS Branch": [
+        "Cultural Centre Bhaban, Road No-09, Mirpur DOHS, Pallabi, Dhaka-1216 Phone: Direct: 44806520,+8801313778473 Routing No: 240261283 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0106",
+        "+8801313778473"
+      ]
+    },
+    {
+      "Mohakhali Branch": [
+        "Holding No. 100 (1st Floor), Bir Uttam A K Khandaker Road, Mohakhali C/A, Dhaka-1212 Phone: Manager (Direct) : +8802222281750, Fax: 02-9881350, 02-9881360, EXT- 100 Routing No: 240263199 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0074",
+        "+8802222281750; +8802222281350; +8802222281360; 02-9881350; 02-9881360"
+      ]
+    },
+    {
+      "Mongla Branch": [
+        "1st Floor of BN School & College Campus, Mongla, Bagerhat Fax: 04662-75396 Routing No: 240010942 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0061",
+        "01755552101; 01770790778; 04662-75396"
+      ]
+    },
+    {
+      "Moulvibazar Branch": [
+        "Holding NO # 426/2, Court Road, Hafiza Khatun Girl''s School More, Thana-Kotwali, Dist-Moulvibazar Fax: 02996682883 Routing No: 240581189 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0026",
+        "01755690427; 02996682883; 0861-62981"
+      ]
+    },
+    {
+      "Munshiganj Branch": [
+        "Vill: Munshiganj, PO-Kalinagar, PS-Shyamnagar, Satkhira Routing No: 240870874 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0069",
+        "01755552689; 01708494247"
+      ]
+    },
+    {
+      "Mymensingh Cantt. Branch": [
+        "Mymensingh Cantonment, Ward No: 04, Upazilla: Kotwali, Thana/Police Station: Kotwali, City Corporation: Mymensingh, District: Mymensingh, Division: Mymensingh Branch Manager),01730328688(Office and Manager Operation & Credit),01313778507(Head Teller) Routing No: 240",
+        "https://eservice.tblbd.com/website/Branch?id=0009",
+        "+8802999203178; 01713039178; 01730328688; 01313778507"
+      ]
+    },
+    {
+      "Naogaon Branch": [
+        "Gour Plaza, Holding No 1527, 3820, 3054, 3722, 3858, Sadar Road, Ward No. 03, Pourashava - Naogaon, Thana - Naogaon, Dist - Naogaon-6500 Manager) Routing No: 240641182 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0117",
+        "+8801777951732"
+      ]
+    },
+    {
+      "Narail Lohagara Branch": [
+        "Khan Complex, Holding No-158, Pourashava-Lohagara, Thana-Lohagara, District-Narail-7511 Phone: Branch Manager: +8801332520402, General Banking: +8801332520404, Cash Department: +8801332520403 Routing No: 240650065 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0111",
+        "+8801332520402; +8801332520404; +8801332520403"
+      ]
+    },
+    {
+      "Narayanganj Branch": [
+        "1 No. Alam Khan Lane (1st & 2nd Floor), B. B. Road, Narayanganj-1400. 1 Routing No: 240671181 SWIFT: TTBLBDDH035",
+        "https://eservice.tblbd.com/website/Branch?id=0035",
+        "+8802224438282; +8802224438283; +8802224438208; +8801787672371"
+      ]
+    },
+    {
+      "Narsingdi Branch": [
+        "Salam Mension, Holding-13/9, Thana-Narsingdi, Dist-Narsingdi Fax: 8802-224451685 Routing No: 240680851 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0034",
+        "8802-224451686; 8802-224451684; 01713436152; 8802-224451685"
+      ]
+    },
+    {
+      "Natore SME/Krishi Branch": [
+        "Shahara Plaza (1st floor), Kanai Khali, Natore Fax: 02588873942 Routing No: 240691116 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5006",
+        "02588873889; 02588873916; 02588873942"
+      ]
+    },
+    {
+      "Naval Base Branch": [
+        "Nou Kalyan Foundation Bhaban(lst & 2nd floor) Sailors Residential Area-2, Thana- EPZ, Ward #39, Chattogram City Corporation District- Chattogram-4223, Phone: Branch Manager: +8801708813896, Direct Manager : +880241340181 Branch Operation Manager : +88 01755563997, +880241340182 [PABX],+880241340183",
+        "https://eservice.tblbd.com/website/Branch?id=0029",
+        "+8801708813896; +880241340181; 01755563997; +880241340182; +880241340183; +880241340184"
+      ]
+    },
+    {
+      "Padma Cantonment Branch": [
+        "Padma Cantonment, Union: Naodoba, Thana : Zajira, Post Code:8010, District: Shariatpur Branch Manager) , +8801329691839 (For General Banking & Cash) Routing No: 240860213 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0109",
+        "+8801329691838; +8801329691839"
+      ]
+    },
+    {
+      "Pangsha Branch": [
+        "Mahamud Plaza, (1st Floor), College Road, Pangsha Sadar, Pangsha, Rajbari Routing No: 240820679 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0092",
+        "01730376200"
+      ]
+    },
+    {
+      "Patuatuly Branch": [
+        "Babuli Islampur Complex (2nd Floor), 57-58, Loyal Street, Patuatuly Road, Dhaka South City Corporation, Katwali, Dhaka 96494 Routing No: 240275237 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0073",
+        "+8801730357729; +8801730795585; 02-57396167; 02-57396494"
+      ]
+    },
+    {
+      "Payra Port Branch": [
+        "Mouza-Itbaria; Union-Kolapara; Upazilla-Kolapara; Zilla-Patuakhali Branch Manager) , +8801321141429 (Manager Operation & Credit) , +8801729069569 (For General Banking & Cash) Routing No: 240780148 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0107",
+        "+8801708813888; +8801321141429; +8801729069569"
+      ]
+    },
+    {
+      "Pekua Branch": [
+        ".R.A Center, Village: Shekerkilla Gona, Road: Mognama Sarak, Ward No.:05, Union: 04 No. Pekua Sadar Union, Thana :Pekua, Dist: Cox's Bazar Phone: Branch Manager : 01335197734 ,Manager Operation: 01335197735 , Head Routing No: 240220053 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0118",
+        "01335197734; 01335197735; 01335197736"
+      ]
+    },
+    {
+      "Principal Branch": [
+        "CSD Tower (Ground & 1st Floor), 98, Shaheed Sarani, Bir Uttam Mir Shawkat Sarak, Dhaka Cantonment Board, Dhaka North City Corporation, Dhaka Cantonment, Dhaka-1206 Routing No: 240275358 SWIFT: TTBLBDDH002",
+        "https://eservice.tblbd.com/website/Branch?id=0002",
+        "02-8712751-53"
+      ]
+    },
+    {
+      "Radisson Blu Chattogram Bay View Hotel Branch": [
+        "Road- S.S Khaled; Ward no-15; Chattogram City Corporation; Thana-Kotwali; Zilla- Chattogram Manager), 01313778492 Routing No: 240150394 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0093",
+        "0241360513; 01313778492"
+      ]
+    },
+    {
+      "Rajendrapur Cantt. Branch": [
+        "MODC Welfare & Rehabilitation Complex, Rajendrapur Cantonment, Cantonment Board, Thana - Gazipur Sadar, District - Gazipur -1700 Branch Manager) , +8801755639579 (Manager-Operation & Credit) Routing No: 240331339 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0052",
+        "+8801755521417; +8801755639579"
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        "Dainik Bartta Complex (1st floor), Alupatty, Ghoramara, Rajshahi. manager), 02588854051, 02588860655 Fax: 02588857820 Routing No: 240811938 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0049",
+        "02588860958; 02588854051; 02588860655; 02588857820"
+      ]
+    },
+    {
+      "Ramu Branch": [
+        "Alhaj Zahed Shopping Complex, 1st Floor, Infront of Ramu Girl’s School, Chowmuhony, Ramu, Cox’s Bazar. Phone: Manager: 88-02-334465800 [Direct], 88-02-334465871, Mob: 01770790783 Routing No: 240220853 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0096",
+        "02-334465800; 02-334465871; 01770790783"
+      ]
+    },
+    {
+      "Ramu Cantonment Branch": [
+        "Ramu Sena Market, Ramu Cantonment, Ward No. 02, Union: Khuniapalong, Thana: Ramu, Dist:Cox's Bazar-4730, Phone: BM: +8801729037534, Manager (Ops): +8801729037476 Routing No: 240220158 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4001",
+        "+8801729037534; +8801729037476"
+      ]
+    },
+    {
+      "Rangamati Branch": [
+        "SR Tower (1st Floor), 107, Shahid Abdur Rashid Sarak, Banarupa, Rangamati-4500 ; Cell: 01708494248, 01332520442 Fax: 035161932 Routing No: 240840525 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0048",
+        "02333371495; 02333372528; 02333371524; 01708494248; 01332520442; 035161932"
+      ]
+    },
+    {
+      "Rangpur Cantt. Branch": [
+        "Sena Shamver Building, 3rd Floor, (Beside Cantt. Public School & College, Rangpur), Dhap, Medical More, Rangpur., Ward No 16 , Rangpur City Corporation , Kotwali Thana , Rangpur District , Rangpur Division Branch Manager), 01713-244906 (Manager- Operation & Credit), 01709-639914",
+        "https://eservice.tblbd.com/website/Branch?id=0007",
+        "01730-056422; 01713-244906; 01709-639914; 01709-639915; 0521-67371"
+      ]
+    },
+    {
+      "Saidpur Cantonment Branch": [
+        "Shaheed Sharani Market, Airport Road, Saidpur-5310., Nilphamari, Bangladesh. Branch Manager), +8801730795580 (Manager-Operation & Credit) Routing No: 240730822 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0060",
+        "+8802589957201; +8802589957202; +8801713436095; +8801730795580"
+      ]
+    },
+    {
+      "Satkhira Branch": [
+        "Holding No:8, Mollah Tower, Abul Kashem Road, Upazilla: Satkhira Sadar, Post Code -9400, District: Satkhira Branch Manager, +8801321141378 General Banking, +8801321141379 Cash Routing No: 240871099 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0108",
+        "+8801321141377; +8801321141378; +8801321141379"
+      ]
+    },
+    {
+      "Savar Cantt. Branch": [
+        "Bank Complex, Nabinagar, Savar, Dhaka, Bangladesh, Branch Manager) ,+8801766676637 (Manager Operation & Credit) ,+88001321141372(Account opening) , +88001321141371 (Credit Department) , +8801729069558 (Head Teller) Fax: 224491263 Routing No: 2",
+        "https://eservice.tblbd.com/website/Branch?id=0010",
+        "+8802-224491263; +8802-224491931; +8801729069559; +8801766676637; +88001321141372; +88001321141371; +8801729069558"
+      ]
+    },
+    {
+      "Sena Kalyan Bhaban Branch": [
+        "Sena Kalyan Bhaban, 195 Motijheel C/A, Dhaka-1000 Fax: +880247114019 Routing No: 240276199 SWIFT: TTBLBDDH003",
+        "https://eservice.tblbd.com/website/Branch?id=0003",
+        "+88029513086; +880247114019"
+      ]
+    },
+    {
+      "Shaheed Salahuddin Cantonment Branch": [
+        "Shaheed Salahuddin Cantonment, Ghatail, Tangail, Branch Manager, 01730376193 Manager Opearation, Telephone - 8802999193178 Fax: 09225-56141 Routing No: 240930943 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0013",
+        "01730057301; 01730376193; 8802999193178; 09225-56141"
+      ]
+    },
+    {
+      "Shahjalal Uposhahor Branch": [
+        "BODOR TOWER, HOLDING# 14 BLOCK-E, MAIN ROAD, SHAHJALAL UPOSHAHAR, SYLHET Routing No: 240913252 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0037",
+        "02996635803; +8801787692866"
+      ]
+    },
+    {
+      "Shambhuganj Branch": [
+        "1st Floor of Hazi Nurul Islam Tower, Shambugonj Main Road, Shambhuganj, Mymensingh. Branch Manager) , +8801321141338 (Office) (Manager Operation & Credit) , +8801708453966 (Head Teller) Routing No: 240610092 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0088",
+        "+8801755690426; +8801321141338; +8801708453966"
+      ]
+    },
+    {
+      "Shatibari Branch": [
+        "Atique Market (1st floor), Shathi Bari Bazar, PS- Mithapukur, Rangpur Branch Manager), +8801729037621 (Manager Operation & Credit), +8801708483162 (Head Teller) Fax: 0522- 556314 Routing No: 240851785 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0080",
+        "01730304863; +8801729037621; +8801708483162"
+      ]
+    },
+    {
+      "Sherpur Branch": [
+        "1st Floor, Shah Turkan Plaza, Sherua Bot Tola, Sherpur, Bogura Phone: Manager Operation & Credit:01770790786, Office (General Banking & Credit): 01770790787 Routing No: 240102742 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0097",
+        "01770790786; 01770790787"
+      ]
+    },
+    {
+      "Sreenagar Branch": [
+        "1st Floor, M Rahman Complex, Sreenagar Bazar, Bhagyakul Road, Sreenagar, Munshiganj manager),02997733779(sub manager) Fax: 02997733779 Routing No: 240591429 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0071",
+        "02997733775; 02997733779"
+      ]
+    },
+    {
+      "Sunamganj Branch": [
+        "Alfat Bhaban, 1st floor, old Bus Station, Kotowali, Sunamganj. Routing No: 240901127 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0099",
+        "+8802996600518; +8802996600519"
+      ]
+    },
+    {
+      "Sylhet Corporate Branch": [
+        "BMA Bhaban, Chowatta, Kotoewali, Sylhet Branch Manager), +8801730056423 (Manager Operation & Credit) , +8801787672373 (Head Teller) Fax: 02996635139 Routing No: 240913649 SWIFT: TTBLBDDH021",
+        "https://eservice.tblbd.com/website/Branch?id=0021",
+        "02996635546; 02996635139; 02996634831; +8801321141384; +8801730056423; +8801787672373"
+      ]
+    },
+    {
+      "Takerhat Branch": [
+        "1st Floor of Sahabuddin Molla Complex, Takerhat, Rajoir, Madaripur. Routing No: 240540762 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0101",
+        "01708494245"
+      ]
+    },
+    {
+      "Tamai SME/Krishi Branch": [
+        "Tamai Bazar, Belkuchi, Sirajgonj Branch Manager),01730795591 ( Manager Operation & Credit),01708140983 (Head Teller) Routing No: 240882154 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=5004",
+        "01730334646; 01730795591; 01708140983"
+      ]
+    },
+    {
+      "Taranagar Branch": [
+        "Holding: 4847, Hazi Bapari Market, Ghatarchar, Shaheed Budhujibi Sharak, Taranagar, Keraniganj. BM), +8801760607383 (BOM) Routing No: 240270353 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0098",
+        "+8801729037594; +8801760607383"
+      ]
+    },
+    {
+      "Titas Branch": [
+        "Four Star Tower, Karikandi Bazar, Ward No- 01, 04 No Karikandi Sadar Union Porishod, Thana- Titas, District- Cumilla, Branch Manager), 01729069536(Office and Manager Operation & Credit), 01313778509(Head Teller) Routing No: 240190183 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0078",
+        "01730304862; 01729069536; 01313778509"
+      ]
+    },
+    {
+      "Tongi Branch": [
+        "Sena Kalyan Commercial Complex ( 1st Floor), Plot # 09, Block # F Tongi, Gazipur. Direct), +88-02-224411339 (PABX), +88-02-224411340 (PABX) Fax: +88-02-224411341 Routing No: 240331634 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=0042",
+        "02-224461338; 02-224411339; 02-224411340; 02-224411341"
+      ]
+    },
+    {
+      "Uttara Corporate Branch": [
+        "Mashihata Business Tower (1st & 2nd floor), Holding No: 05, Sector: 3 Uttara Model Town, Uttara, Dhaka North City Corporation Uttara, Dhaka PABX), 48964658 (PABX), 48964732(PABX), 58957312 (Chief Manager), 58951650 (BOM) Fax: 48963335 Routing No: 240264664 SWIFT: TTBLBDDH023",
+        "https://eservice.tblbd.com/website/Branch?id=0023",
+        "Phone: 48963335 (PABX), 48964658 (PABX), 48964732(PABX), 58957312 (Chief Manager), 58951650 (BOM) Fax: 48963335"
+      ]
+    },
+    {
+      "TBL Branch": [
+        "Location Type",
+        null,
+        null
+      ]
+    }
   ],
-  "branch_address": [
-    "Find Your Nearest Branch, ATM, CDM",
-    "Book an Appointment",
-    "We are on The Map"
-  ],
-  "branch_url": [
-    "https://www.trustbank.com.bd/locator/",
-    "https://www.trustbank.com.bd/locator/",
-    "https://www.trustbank.com.bd/locator/"
-  ],
-  "branch_contact_number": [
-    null,
-    "09611016201",
-    null
-  ],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "duration_sec": 145.1
+  "sub_branch": [
+    {
+      "Batakandi Bazar Sub Branch": [
+        "Chairman Villa, Batakandi, Ward No 09, Union: Jagatpur, Thana: Titas, Dist :Cumilla, Routing No: 240190183 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4012",
+        null
+      ]
+    },
+    {
+      "Chawkbazar Sub Branch": [
+        "System Imperial Complex (1st Floor), Kapashgola Road, Chawkbazar, Chattogram Routing No: 240152413 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4007",
+        "+8801329691836"
+      ]
+    },
+    {
+      "Chondipul Sub Branch": [
+        "Iqbal Tower Center (1st Floor), Chondipul, Mouza: Boldi, Union: Boroikandi, Thana: South Surma, Dist: Sylhet Routing No: 240913649 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4004",
+        "+8801309015698"
+      ]
+    },
+    {
+      "Dewanhat Sub Branch": [
+        "545, Sekandar Bhaban (1st Floor), Sheikh Mujib Road, Dewanhat, Chattogram, Routing No: 240150136 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4009",
+        "01332520429; 01332520430"
+      ]
+    },
+    {
+      "Hemayetpur Sub Branch": [
+        "Abdus Sattar Market (1st Floor), Ward No 01, Hemayetpur, Pabna Routing No: 240760797 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4011",
+        null
+      ]
+    },
+    {
+      "Jashore Sub Branch": [
+        "Holding # 30, RN Road, Ward # 08, Pourashava : Jashore, Thana:Kotwali, District: Jashore Sub Branch In Charge) ,+8801332520484 (Cash In Charge) Routing No: 240411033 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4010",
+        "+8801332520448; +8801332520484"
+      ]
+    },
+    {
+      "Khulna Sub Branch": [
+        "Mowla Tower (1st Floor), Holding No: 07, Islampur Road, Khulna City Corporation, Khulna. Phone: In-Charge : +8801329691873 Cash in-Charge: +8801329691874 Routing No: 240471549 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4008",
+        "+8801329691873; +8801329691874"
+      ]
+    },
+    {
+      "Khulshi Sub Branch": [
+        "Rubiya Heights, Road # 3, Zakir Hossain Road, Thana: Khulshi, District: Chattogram Routing No: 240151485 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4003",
+        "+8801309015696"
+      ]
+    },
+    {
+      "Matikata Sub Branch": [
+        "Online Wasi Tower, Holding No: 572/Ka, Mirpur DOHS Road Ward No: 15, Dhaka North City Corporation, Thana: Dhaka Cantonment Routing No: 240275358 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4002",
+        "+8801309015697"
+      ]
+    },
+    {
+      "Rangpur Sub Branch": [
+        "R A Plaza (1st Floor), Dewan Bari Road, Upazilla: Rangpur Sadar, District: Rangpur Routing No: 240851480 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4006",
+        "+8801711364896; 01709639915"
+      ]
+    },
+    {
+      "Rupnagar Sub Branch": [
+        "Holding No.: 58, Road No.: 22, Ward No.: 7, Dhaka North City Corporation, Thana: Rupnagar, Dist.: Dhaka-1216, , Routing No: 240262987 SWIFT:",
+        "https://eservice.tblbd.com/website/Branch?id=4005",
+        "+8801321141355"
+      ]
+    }
+  ]
 }

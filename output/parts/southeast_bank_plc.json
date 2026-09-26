@@ -1,17 +1,926 @@
 {
   "_bank": "Southeast Bank PLC",
-  "website": "https://www.southeastbank.com.bd/",
-  "website_source": "ddg(score=1.00)",
-  "method": "html_cards",
-  "status": "failed",
-  "branch_name": [],
-  "branch_address": [],
-  "branch_url": [],
-  "branch_contact_number": [],
-  "sub_branch_name": [],
-  "sub_branch_address": [],
-  "sub_branch_url": [],
-  "sub_branch_contact_number": [],
-  "error": "no branch data extracted (site may need JS rendering)",
-  "duration_sec": 10.0
+  "bank_url": "https://www.southeastbank.com.bd/",
+  "method": "pdf+validator_key_ajax",
+  "status": "success",
+  "branch": [
+    {
+      "Haidergonj Branch(Rural)": [
+        "Gazi Super Market Haidergonj Bazar, Mouza : Char Ababil Union : Char Ababil, Upazila : Raypur Dist.: Laxmipur",
+        null,
+        null
+      ]
+    },
+    {
+      "Teknaf Branch(Rural)": [
+        "Alo Shopping Complex, PC-177, K K Para, Main Road Ward No.: 03, Pourashova: Teknaf, Thana: Teknaf Dist.: Cox's Bazar",
+        null,
+        null
+      ]
+    },
+    {
+      "Gunabati Branch(Rural)": [
+        "Mouza: Gunabati, Union: 12 No. Gunabati P.S.: Chouddogram, Dist.: Comilla",
+        null,
+        null
+      ]
+    },
+    {
+      "Bogra Branch": [
+        "Bhandari Monzil, (2nd Floor), 776-777 Barogola, Bogra",
+        null,
+        null
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        "Plot # 447, Mangol Bhaban, Alupatti Mour, P.O. Ghoramara, P.S.: Boalia, Dist.: Rajshahi",
+        null,
+        null
+      ]
+    },
+    {
+      "Naogaon Branch": [
+        "Kazi Habibur Rahman Market, Holding #301, Ward # 2, Old Hospital Road, (Bridge Mour), Pauroshava: Naogaon, Thana: Naogaon Sadar, Dist.: Naogaon",
+        null,
+        null
+      ]
+    },
+    {
+      "Chapainawabganj Branch": [
+        "Holding # 8, Boro Indara More, Ward # 15, Chapainawabganj Municipality Corporation. Thana: Chapainawabganj Sadar, Dist: Chapainawabganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Sirajganj Branch": [
+        "Basak Plaza 947-948, Shaheed Suharawardy Road Sirajganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Baneshwar Branch(Rural)": [
+        "Al-Haj Amzad Hossain Market Mouza : Shibpur, Union : Baneshwar Thana : Puthia, Dist.: Rajshahi",
+        null,
+        null
+      ]
+    },
+    {
+      "Pabna Branch": [
+        "Khairul Tower 116, Mawlana Mohammed Ali Road (Narikel Bagan Road), Ward # 3 (Shibrampur) Pabna Pauroshava, Thana: Pabna Sadar, Dist.: Pabna",
+        null,
+        null
+      ]
+    },
+    {
+      "Ishwardi Branch": [
+        "Adib Rana Plaza 994/930 &1017, Station Road Ward # 07, Thana: Ishwardi Pauroshava : Ishwardi, Dist.: Pabna",
+        null,
+        null
+      ]
+    },
+    {
+      "Natore Branch": [
+        "Lily Plaza, Holding No.: 838, Kanaikhali Ward No.: 04, Pourasava: Natore P.S.: Natore Sadar, Dist.: Natore",
+        null,
+        null
+      ]
+    },
+    {
+      "Laldighirpaar Branch": [
+        "Mubarak Tower, 1794/1788, New Market, Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Moulvibazar Branch": [
+        "Jarif Tower 199/2, M. Saifur Rahman Road, Thana - Moulvibazar, Dist.: Moulvibazar",
+        null,
+        null
+      ]
+    },
+    {
+      "Chouhatta Branch": [
+        "Manru Shopping City, Plot# 4953/4943 (1st Floor), Chouhatta Mirboxtola Road, Chouhatta, Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Shahjalal Uposhahar Branch": [
+        "Plot # 07, Block# D, Main Road, Shahjalal Uposhahar, Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Bandar Bazar Branch(Islamic Banking)": [
+        "Karim Ullah Market, (1st Floor), Bandar Bazar, Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Kulaura Branch(Rural)": [
+        "Aziz Roushan Shopping Center and Garden City, Holding No: 334, Pouroshova: Kulaura, Thana: Kulaura, Dist.: Moulvibazar Bazar",
+        null,
+        null
+      ]
+    },
+    {
+      "Hetimgonj Branch(Rural)": [
+        "Khoyruganj Jame Masjid Market Complex (1st Floor), Dag# 2551, 2552,2 553 and 2554, J.L# 37, Khatian# 649, Mouza-Maizbag, Union-Fulbari, Hetimgonj Chourasta, Thana: Golapgonj, Dist. - Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Pathantula Branch": [
+        "Haque Mansion of Modina Market, Holding No. 704, Pathantula Ward No. 8, sylhet City Corporation, Thana ; Jalalabad, Dist : Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Beanibazar SME/Krishi Branch": [
+        "Panchakhanda Haragovinda High School Market, Beanibazar - Sylhet Road, Holding No-834, Ward No-6, Thana and Pourashava : Beanibazar, Zilla Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Tazpur SME/Krishi Branch": [
+        "Khatian # 607, Dag # 583, J L # 112, Tazpur Bazar, Mouza: Boraya, Union: 8 no Tazpur, Thana: Balagonj, Dist: Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Biswanath SME/Krishi Branch": [
+        "Haji Munir Uddin Market, Natun Bazar, Biswanath, Mouza: Mashala, Union / Paurashova: Biswanath, Thana: Biswanath, Dist: Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Charkhai Branch(Rural)": [
+        "Anisha Complex Mouza : Kamar Gram, Union : 2 No. Charkhai Thana : Beanibazar, Dist.: Sylhet",
+        null,
+        null
+      ]
+    },
+    {
+      "Khulna Branch": [
+        "Haji Hanif Complex (1st floor),12 & 13, Khan Jahan Ali Road,Khulna",
+        null,
+        null
+      ]
+    },
+    {
+      "Jessore SME/Krishi Branch": [
+        "11, R.N. Road, Thana : Kotwali, Dist.: Jessore",
+        null,
+        null
+      ]
+    },
+    {
+      "Satkhira SME/Krishi Branch": [
+        "Holding # 5896, Palash Pole (1st Floor), Shahid Nazmul Sarak (Satkhira Bus Stand), Ward # 08, Satkhira Pouroshova, Thana: Satkhira, District: Satkhira",
+        null,
+        null
+      ]
+    },
+    {
+      "Sir Iqbal Road Branch": [
+        "Noor Jahan Plaza Holding # 155, Sir Iqbal Road Ward # 21, Khulna City Corporation Thana: Kotwali, Dist.: Khulna",
+        null,
+        null
+      ]
+    },
+    {
+      "Rupdia Bazar Branch(Rural)": [
+        "Bhowmik Super Market, Mouza: Zirat Union: 12 No. Norendrapur P.S.: Jessore Sadar, Dist.: Jessore",
+        null,
+        null
+      ]
+    },
+    {
+      "Dumuria Branch(Rural)": [
+        "R. R. Plaza, Mouza: Araji Sajiyara Union: 11 No. Dumuria P.S.: Dumuria, Dist.: Khulna",
+        null,
+        null
+      ]
+    },
+    {
+      "Kushtia Branch(Rural)": [
+        "Aneek Tower, 295, Nowab Sirajuddoula Road Ward # 03, Pauroshava : Kushtia P.S.: Kushtia Sadar, Dist.: Kushtia",
+        null,
+        null
+      ]
+    },
+    {
+      "Chuadanga Branch": [
+        "Brothers Tower, Holding No.: 686-06, Thana Road, Ward No.: 03, Pourasava: Chuadanga, P.S.: Chuadanga Sadar, Dist.: Chuadanga",
+        null,
+        null
+      ]
+    },
+    {
+      "Barisal Branch": [
+        "54, Sadar Road (1st Floor), Kotowali, Barisal",
+        null,
+        null
+      ]
+    },
+    {
+      "Rangpur Branch": [
+        "RDRS Complex Hodling # 9416, Jail Road, Radhaballab, Rangpur",
+        null,
+        null
+      ]
+    },
+    {
+      "Dinajpur Branch": [
+        "Holding # 808/837, Ganesh Tola Jail Road, Dinajpur Municipal Corporation, Ward # 3, Thana: Dinajpur Sadar, Dist: Dinajpur",
+        null,
+        null
+      ]
+    },
+    {
+      "Mymensingh Branch": [
+        "Minar Complex, Holding # 09 Mukti Joddha Sarani (Choto Bazar) Ward # 08, Pauroshava : Mymensingh Thana: Kotwali Sadar, Dist.: Mymensingh",
+        null,
+        null
+      ]
+    },
+    {
+      "Sherpur Branch": [
+        "Muslim Market Holding # 166, Shahid Bulbul Sarak Munshi Bazar, Ward No. 02, Pourasava: Sherpur Thana: Sherpur Sadar, Dist.: Sherpur",
+        null,
+        null
+      ]
+    },
+    {
+      "Gouripur Branch": [
+        "Jinnot Ali Market,Homna Road,Gouripur Bazar Daudkandi,Cumilla",
+        null,
+        null
+      ]
+    },
+    {
+      "Principal Branch": [
+        "1, Dilkusha C/A, Dhaka - 1000",
+        null,
+        null
+      ]
+    },
+    {
+      "Corporate Branch": [
+        "Eunoos Trade Centre (Ground Floor), Plot #52-53, Dilkusha C/A, Dhaka-1000",
+        null,
+        null
+      ]
+    },
+    {
+      "Motijheel Branch (Islamic Banking)": [
+        "125, Motijheel C/A, (1st Floor), Thana - Motijheel, Dhaka - 1000",
+        null,
+        null
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "01,, Rd No. 11, Dhaka 1230, Bangladesh",
+        null,
+        null
+      ]
+    },
+    {
+      "Banani Branch": [
+        "Plot 71, Block B, Kemal Ataturk Ave, Dhaka, Bangladesh",
+        null,
+        null
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "Hena Suvastu Skyline Avenue (1st and 2nd Floor), Plot #55 Road #123 Block CES(A), Gulshan Avenue, Dhaka -1212",
+        null,
+        null
+      ]
+    },
+    {
+      "Bashundhara Branch": [
+        "Plot#142, Block# B, Bashundhara R/A, Baridhara, Dhaka -1212",
+        null,
+        null
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "Navana New Berry Place, 1st floor, 4/1/A, Mirpur Road, Sobhanbag, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Kawran Bazar Branch": [
+        "Jamuna Bhaban (1st Floor) 2, Kawran Bazar C/A,Dhaka-1215",
+        null,
+        null
+      ]
+    },
+    {
+      "Mohammadpur Branch": [
+        "Axis Delvista (1st Floor), Holding No:7/1, Block - A, Aurongajeb Road, Mohmmadpur Housing Estate, Mohammadpur, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Satmasjid Road Branch": [
+        "ADC Empire Plaza (1st & 2nd Floor), Plot#183 (Old) 91 (New), Road# 22 (Old) 12/A (New), Satmasjid Road , Dhanmondi, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Imamganj Branch": [
+        "Bhuiyan Market, 163/2, Metford Road, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Bangshal Branch": [
+        "14/3, North South Road, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "New Eskaton Branch": [
+        "Chowdhury Center, 23/Ka, New Eskaton Road (1st Floor), P.S. : Ramna, Dhaka - 1000",
+        null,
+        null
+      ]
+    },
+    {
+      "New Elephant Road Branch": [
+        "Kazi Bhaban 39, New Elephant Road, (1st & 2nd Floor), P.S. : Dhanmondi, Dhaka - 1205",
+        null,
+        null
+      ]
+    },
+    {
+      "Agargaon Branch": [
+        "Plot # E-4/B (1st Floor), Agargaon Administrative Area, Shere-e-Bangla Nagar, P.S. Mohammadpur, Dhaka - 1207",
+        null,
+        null
+      ]
+    },
+    {
+      "Aganagar Branch(Rural)": [
+        "Hassan Market (1st Floor), Dag#506, Khatian#25, Mouza : Zinjira, Union: Aganagar, Thana: Keranigonj, Dist: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Shyamoli Branch": [
+        "ASA Tower (2nd Floor), 23/3 & 23/14, Khilji Road, Block # B, Mohammadpur, Shyamoli, Thana: Mohammadpur, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Kazi Nazrul Islam Avenue Branch": [
+        "Rupayan Trade Centre,114, Kazi Nazrul Islam Avenue (1st & 2nd Floor), Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Malibagh Branch": [
+        "ABN Tower, 45, Siddheswari Circular Road, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Dhanmondi Ladies Branch": [
+        "Rupayan Khan Plaza Plot # 500/A (Old) / 18 (New) Road # 7, Dhanmondi R/A Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Moghbazar Ladies Branch": [
+        "Hall Mars, Holding # 66 (Old) Outer Circular Road 05 (New) Shahid Sangbadik Salina Parvin Sarak Boro Mogbazar, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Mouchak Branch": [
+        "Karnaphuli Point (1st Floor), 70 Shaheed Sangbadik Selina Parveen Sarak,Malibagh, Dhaka-1217",
+        null,
+        null
+      ]
+    },
+    {
+      "Kakrail Branch": [
+        "\"Toma Tower\", Holding No:-77/1, Anjuman Mofidul Islam Road (VIP Road), Kakrail, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Pragati Sarani Branch": [
+        "Pearl Trade Center (2nd Floor), Cha-90/3, Pragati Sarani, Badda, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Rokeya Sarani Branch": [
+        "\"Kusholi Bhaban\", Holding # 238/1, West Kafrul Rokeya Sarani, Ward # 16, Dhaka City Corporation, Thana: Sher -e-Bangla Nagar, Mirpur, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "Simpletree, Plot # 01, Road # 08, Block - C Section-06, Mirpur Housing Estate Pallabi, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Islampur Branch": [
+        "Adel Complex (1st,2nd & 3rd floor),Holding#40,Islampur Road,Ward#72,Thana-Kotowali,Dhaka-1100",
+        null,
+        null
+      ]
+    },
+    {
+      "Rupnagar Branch": [
+        "Rangan, Plot # 14, Road # 11,Ward # 7, Rupnagar Residential Area,Mirpur Housing Estate, Dhaka City Corporation,Thana: Mirpur, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Donia Branch": [
+        "Chowdhury Complex (1st & 2nd Floor) 440-441,Noyapara, Donia, Jatrabari, Dhaka - 1236",
+        null,
+        null
+      ]
+    },
+    {
+      "Kamrangirchar Branch": [
+        "Elham Square, Rony Market Road, Mouza: Char Kamrangirchar, Union: Sultangonj, Thana: Kamrangirchar, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Mohakhali Branch": [
+        "\"Bay's\" (1st Floor), 50 Mohakhali C/A, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Banasree Branch": [
+        "Twin Tower, Plot No. 13, Block No. C, Banasree Main Road, Banasree R/A, Rampura, Dhaka -1219",
+        null,
+        null
+      ]
+    },
+    {
+      "Sarulia Branch": [
+        "Samsul Haque Nilu Shopping Complex,Mouza : Sarulia, Union : Sarulia,Thana : Demra, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Kapasia Branch": [
+        "Akter Market Kapasia Main Road Mouza : Banarhowla Union : 9 No. Kapasia Thana : Kapasia, Dist.: Gazipur",
+        null,
+        null
+      ]
+    },
+    {
+      "R.K.Mission Road Branch": [
+        "Nir Chhayabithi, 53, 53/1, R. K. Mission Road, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Ashulia Bazar Branch": [
+        "Shahid Sona Mia Plaza, Bangabandhu Road, Village : Ashulia Bazar, Union : Ashulia, Thana: Ashulia, District : Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Hasnabad Branch(Rural)": [
+        "Ekuria Union: Subatta, Thana: Keranigonj, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Savar Branch(Rural)": [
+        "Plot # A -109, Bazar Road (1st Floor), Pauroshava & P.S.: Savar, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Konabari Branch(Rural)": [
+        "Plot # A-147/148, BSCIC I/R, VUnion: Konabari, P.S. - Joydebpur, Dist - Gazipur",
+        null,
+        null
+      ]
+    },
+    {
+      "Tongi Branch(Rural)": [
+        "8/B, Anarkoli Road (1st Floor), Tongi Bazar, Gazipur",
+        null,
+        null
+      ]
+    },
+    {
+      "Joypara Branch": [
+        "Begum Aysha Shopping Complex ( 1st Floor), Holding # 222, Joypara Pourasava, Thana - Dohar, District - Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Madhabdi Branch(Rural)": [
+        "Khatian # 28 (1st Floor), Dag # 233, Mouza: Par Kashipur, Madhabdi Pauroshava, Thana: Narsingdi, Dist: Narsingdi",
+        null,
+        null
+      ]
+    },
+    {
+      "Munshigonj Branch": [
+        "B. M Complex (1st Floor),House # 55, Jubillee Road, Ward # 3,Munshigonj Pauroshava,Thana: Munshigonj, Dist.: Munshigonj",
+        null,
+        null
+      ]
+    },
+    {
+      "Bhulta Branch": [
+        "Bhulta Bus Stand, Union: Golakandail,Thana: Rupgonj, Dist.: Narayanganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Narayanganj Branch": [
+        "Holding #26-29, S.M. Maleh Road, Tan Bazar, Narayanganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Ashulia Branch(Rural)": [
+        "Helim Shopping Complex, (Opposite Fantasy Kingdom), Ashulia, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Mawna SME/Krishi Branch": [
+        "Holding # 1497, Mawna Bazar Road, 1st Floor, Sreepur Pauroshava, Ward# 8, Thana: Sreepur, Dist: Gazipu",
+        null,
+        null
+      ]
+    },
+    {
+      "Tangail SME/Krishi Branch": [
+        "Noor Plaza, Holding # 263, Main Road, Tangail Sadar, Tangail-1900",
+        null,
+        null
+      ]
+    },
+    {
+      "Madanpur SME/Krishi Branch": [
+        "Ekata Samabay Super Market (2nd Floor), C.S. Dag # 83, Khatian # 165, S.A. Dag # 56, Mouza: Chandpur, Union: Madanpur, Thana: Bandar, District: Narayanganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Narsingdi SME/Krishi Branch": [
+        "Islam Plaza (1st Floor), Holding # 1, Maddha Kanda Para , Sadar Road, Ward # 4, Narsingdi Pauroshava, Thana: Narsingdi Sadar, Dist.: Narsingdi",
+        null,
+        null
+      ]
+    },
+    {
+      "Dakhin Khan Branch(Rural)": [
+        "Faisal Mansion Shah Kabir Mazar Road Village : Moshair, Mouza: Uttar Khan Union: Dakhin Khan Adarsha Union Parishad Thana: Dakhin Khan, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Gopaldi Branch": [
+        "Gopaldi Bazar, Union: Sadasadi Thana: Araihazar, Dist.: Narayanganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Ati Bazar Branch(Rural)": [
+        "Mouza: Ati, Union: Sakta Thana: Keranigonj, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Bandura Branch(Rural)": [
+        "Puraton Bandura Bazar,Mouza : Puraton Bandura,Union : Bandura,Thana : Nawabgonj,Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Offshore Banking Unit DEPZ": [
+        "Zone Service Building No.1, Room No. 77 (3rd Floor), Dhaka EPZ, Ganak Bari, Savar, Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Balivadra Branch(Rural)": [
+        "Vhandari Latif Super Market, Balivadra Bazar Mouza: Ganakbari, Union: Damsona Thana: Ashulia, Dist.: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Kalibari Branch(Rural)": [
+        "Sobur Market, Duptara Adorsha Bazar Sattabhandi Bhuiyan Para (Kalibari) Mouza & Union: Duptara, Thana: Araihazar Dist.: Narayanganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Rajbari Branch": [
+        "Saleha Akkas Tower Holding # 237, Binodpur (College Road) Ward # 08, Thana : Rajbari Sadar Pauroshava : Rajbari, Dist.: Rajbari",
+        null,
+        null
+      ]
+    },
+    {
+      "Ghior Branch(Rural)": [
+        "Mouza+Union: Ghior, Upazila : Ghior Dist.: Manikganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Balla Branch(Rural)": [
+        "Mouza & Union: Balla P.S.: Kalihati, Dist.: Tangail",
+        null,
+        null
+      ]
+    },
+    {
+      "Hemayetpur Branch(Rural)": [
+        "Hemayetpur Super Market (2nd Floor),Hemayetpur,S.A Dag # 25, Khatian # 31,Mouza: Kulashur, Union: Tetuljora,Thana: Savar,District: Dhaka",
+        null,
+        null
+      ]
+    },
+    {
+      "Joydebpur Branch(Rural)": [
+        "Holding # 235, Block # K, Shib Bari More,B.I.D.C Road, Ward # 3, Gazipur Pauroshova,Thana: Joydebpur, Dist.: Gazipur",
+        null,
+        null
+      ]
+    },
+    {
+      "Singair Branch(Rural)": [
+        "Singair New Market, Holding No.: 2/2, Kansha Road, Ward No.: 04, Pourasava + P.S.: Singair, Dist.: Manikganj",
+        null,
+        null
+      ]
+    },
+    {
+      "Monipur Bazar Branch(Rural)": [
+        "Isha Chowdhury Tower, Mouza : Bokran Monipur, Union: Bhawal Gor, P.S.: Gazipur Sadar, Dist.: Gazipur.",
+        null,
+        null
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "Faruk Mahal, 93, Agrabad Commercial Area, Chittagong.",
+        null,
+        null
+      ]
+    },
+    {
+      "Khatunganj Road": [
+        "410/411, Khatunganj, Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "Haji Golam Rasul Market, 96 Jubilee Road, Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Halishahar Branch": [
+        "House # 03, Block - G, Port Connecting Road, Halishahar Housing Estate, Halishahar, Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Chhagalnaiya Branch(Islamic Banking)": [
+        "Mir Shopping Complex (1st Floor), Dag # 2741/2974, Chhagalnaiya Bazar, P.S.:Chhagalnaiya, Feni",
+        null,
+        null
+      ]
+    },
+    {
+      "Feni Branch": [
+        "Surma Sadan, (1st and 2nd Floor), 176,177 and 178 Trunk Road, P.S.: Feni Sadar, Dist. - Feni",
+        null,
+        null
+      ]
+    },
+    {
+      "CDA Avenue Branch(Islamic Banking)": [
+        "Ali Villa, 1640/1861 (New), CDA Avenue, Asian Highway, East Nasirabad, Thana - Panchliash, Dist.: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Chowmuhani Branch(Rural)": [
+        "Hossain Market, Holding # 276-284, D.B Road, Chowmuhani Pauroshava, Thana: Begumganj, Dist.: Noakhali",
+        null,
+        null
+      ]
+    },
+    {
+      "Pahartali Branch": [
+        "Hajrat Taiyabia Complex, Holding # 801(New), D.T. Road, Alongkar Mour, Abdul Alir Hat, Pahartoli, Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Bashurhat Branch(Rural)": [
+        "Ayesha Motaleb New Market, Holding # 428,Main Road, Ward # 5, Bashurhat Pauroshava,Thana: Companyganj, Dist: Noakhali",
+        null,
+        null
+      ]
+    },
+    {
+      "Momin Road Branch": [
+        "Equity Central, 42-43, Momin Road, Chittagong.",
+        null,
+        null
+      ]
+    },
+    {
+      "Madambibir Hat Branch(Rural)": [
+        "Madambibir Hat Union, Bhatiary, P.S.:Sitakunda, Dist.:Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Cox's Bazar Branch(Islamic Banking)": [
+        "Asha Shopping Complex 430-431, Bazar Ghata (1st Floor), Cox's Bazar",
+        null,
+        null
+      ]
+    },
+    {
+      "Comilla Branch": [
+        "359/328, Jhawtala, 1st Kandir Paar, Thana: Kotwali, Dist.: Comilla",
+        null,
+        null
+      ]
+    },
+    {
+      "Oxygen More Branch": [
+        "Holding 405, Kulgaon Chittagong City Corporation Oxygen More, Thana: Bayezid Bostami, Dist: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Fatikchari Branch(Rural)": [
+        "Mir Jahanara Complex, (1st Floor), College Road (Bibirhat), Khatian # 4989,Dag # 7622, Union:Dhurung, Thana: Fatikchari, District: Chittagong.",
+        null,
+        null
+      ]
+    },
+    {
+      "Potherhat Branch(Rural)": [
+        "Khaiz Ahmed Shopping Centre (1st Floor) Khatian # 5820, Dag # 37 & 38 Village: Noapara, Mouza: Noapara P.O: Gujra Noapara, Union: 13 No. Noapara Thana: Raujan, District: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Brahmanbaria SME/Krishi Branch": [
+        "Sikder Plaza, 1001, Dr. Faridul Huda Road, Brahmanbaria Pourashava, Brahmanbaria",
+        null,
+        null
+      ]
+    },
+    {
+      "Lohagara SME/Krishi Branch": [
+        "Mostafa City Center, Mouza: Amirabad, Thana: Lohagara, Union: Amirabad, Dist: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Shebarhat SME/Krishi Branch": [
+        "Khatian # 998, J.L # 420, Dag # 3181, Shebarhat Bazar, Mouza: Razarampur, Feni,Chowmuhani Sarak (1st Floor), Thana Shenbag, Dist: Noakhali.",
+        null,
+        null
+      ]
+    },
+    {
+      "Hathazari SME/Krishi Branch": [
+        "S. A. Shopping Complex Hathazari Bus Stand, Rangamati Road, Plot # 14238, Khatian # 2517, Mouza: Fatika, Union: Fatehpur, Thana: Hathazari, Dist: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Sonagazi SME/Krishi Branch": [
+        "Holding # 431, Ward # 4, Dag # 565, Khatian # 433, Mouza: Char Ganesh Pauroshava & Thana: Sonagazi, Dist: Feni",
+        null,
+        null
+      ]
+    },
+    {
+      "Chowdhury Hat SME/Krishi Branch": [
+        "Halim Mansion, (1st Floor), R.S Plot # 6286, B.S Khatian # 3363, Chowdhury Hat, Mouza: Chikandandi, Union: Fateyabad, Thana: Hathazari, Dist.: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Kotwali Branch": [
+        "Equity Anitri (1st Floor) Holding # 32, Shahid Sohrawardy Road Ward # 33, Chittagong City Corporation Thana: Kotwali, Dist.: Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Companigonj Branch(Rural)": [
+        "Saudia Manjil (1st & 2nd Floor),Dag # 742, R.S Khatian # 395, Companigonj,Mouza: North Tirish, Union: 15 No. Nobipur (West),Nabinagar Road, Thana: Muradnagar,Dist.: Comilla",
+        null,
+        null
+      ]
+    },
+    {
+      "Chakaria Branch(Rural)": [
+        "Society Jame Mosque Complex,R.S Khatian # 76, R.S Dag # 154,Mouza: Chiringa, Chakaria Pauroshova,Thana: Chakaria, Dist.: Cox's Bazar",
+        null,
+        null
+      ]
+    },
+    {
+      "Off-Shore Banking Unit,CEPZ": [
+        "Zone Service Complex (1st Floor), East Wing North Chittagong EPZ, Chittagong",
+        null,
+        null
+      ]
+    },
+    {
+      "Miabazar Branch(Rural)": [
+        "Haji Siraj Mansion Mouza : Ashrabpur, Union : 2 No. Ujirpur Thana : Chauddagram, Dist.: Comilla",
+        null,
+        null
+      ]
+    }
+  ],
+  "sub_branch": []
 }
