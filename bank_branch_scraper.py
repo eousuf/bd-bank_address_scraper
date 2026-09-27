@@ -165,6 +165,7 @@ def polite_sleep():
     time.sleep(d * (0.7 + random.random() * 0.6))
 
 PHONE_RE = re.compile(r"(?<!\d)(?:\+?880|0)(?:[\s\-().]?\d){8,12}(?!\d)")
+ROUTING_LINE_RE = re.compile(r"routing\s*(?:no|number)?\s*[:\-]?\s*(\d{6,9})", re.I)
 
 def find_phones(text):
     out = []
@@ -222,7 +223,11 @@ GENERIC_NAME_RE = re.compile(
     # table titles / locator-widget junk rows that leak as records
     r"no\s+branch(?:es)?\s+available.*|online\s+branch\s+visit\s+appointment.*|"
     r"book\s+an?\s+appointment.*|we\s+are\s+on\s+the\s+map.*|"
-    r"(?:search|find|locate)\s+(?:for\s+)?your\s+nearest.*)$", re.I)
+    r"(?:search|find|locate)\s+(?:for\s+)?your\s+nearest.*|"
+    # marketing / notice-board rows that leak through embedded JSON
+    r"branch\s+pos\b.*|express\s+booth.*|.*\bkiosk\b.*|"
+    r"information\s+memorandum.*|.*subordinated\s+bond.*|"
+    r"[·|:;.-]?\s*(?:branch\s+code|routing\s*(?:no|number)?)\s*[:\-]?\d*.*)$", re.I)
 BENGALI_RE = re.compile(r"[\u0980-\u09ff]")
 # address fragments captured as names (Uttara "Holding No.241", EXIM
 # "Ranu Plaza Holding No.136" premises cells) — no branch name ever contains
@@ -702,15 +707,34 @@ def smart_fetch(url):
     code = r.status_code if r is not None else "error"
     return None, None, f"http_{code}"
 
+def _pick_addr_line(lines, name):
+    """Best address line among a card's/row's lines: prefer lines hitting
+    several address keywords and real content over bare district labels
+    ('Dhaka', 'Chattogram') that would otherwise win by first-match and be
+    blanked later as generic."""
+    best, best_sc = None, 0
+    for ln in lines:
+        if not ln or ln == name or GENERIC_ADDR_RE.match(ln):
+            continue
+        kws = sum(1 for k in ADDR_KWS if k in ln.lower())
+        if not kws and "routing number" not in ln.lower():
+            continue
+        sc = kws * 10 + min(len(ln), 60)
+        if sc > best_sc:
+            best, best_sc = ln, sc
+    return best
+
 NAME_STRONG_COL = re.compile(r"branch[\s_-]*name|^name$|শাখা", re.I)
 NAME_COL = re.compile(r"branch(?!\s*(code|no|number|manager|type))|name|place|outlet|"
                       r"office|শাখা", re.I)
 ADDR_COL = re.compile(r"address|location|ঠিকানা|অবস্থান", re.I)
 PHONE_COL = re.compile(r"phone|tel|mobile|contact|hotline|যোগাযোগ", re.I)
 TYPE_COL = re.compile(r"type|category|nature|ধরন", re.I)
+ROUTING_COL = re.compile(r"rout(?:ing)?\s*(?:no|nr|number)?|brstn", re.I)
 
 def map_columns(headers):
-    colm = {"name": None, "address": [], "phone": None, "type": None}
+    colm = {"name": None, "address": [], "phone": None, "type": None,
+            "routing": None}
     skip = set()
     for i, h in enumerate(headers):
         if not h:
@@ -721,6 +745,10 @@ def map_columns(headers):
         elif PHONE_COL.search(h):
             if colm["phone"] is None:
                 colm["phone"] = i
+            skip.add(i)
+        elif ROUTING_COL.search(h):
+            if colm["routing"] is None:
+                colm["routing"] = i
             skip.add(i)
         elif TYPE_COL.search(h):
             if colm["type"] is None:
@@ -757,10 +785,15 @@ def row_record(texts, colm, page_sub, url="", alts=None):
     if not phones and re.search(r"\d{3}", phone_raw):
         phones = [clean_ws(phone_raw)]
     type_val = txt(colm.get("type"))
+    rt_raw = txt(colm.get("routing"))
+    rtm = ROUTING_LINE_RE.search(rt_raw)
+    routing = (rtm.group(1) if rtm
+               else (rt_raw if re.fullmatch(r"\d{6,9}", rt_raw or "") else ""))
     if not name and not address:
         return None
     return {"name": name[:150], "address": address[:300], "url": url or "",
             "phone": "; ".join(dict.fromkeys(phones))[:120],
+            "routing": routing or None,
             "is_sub": classify_sub(name, type_val, page_sub)}
 
 def heuristic_row(texts, page_sub, url=""):
@@ -792,6 +825,12 @@ def heuristic_row(texts, page_sub, url=""):
         if any(k in t.lower() for k in ADDR_KWS):
             addr_idx = i
             break
+    if addr_idx is not None and texts[addr_idx]:
+        better = _pick_addr_line(
+            [t for j, t in enumerate(texts)
+             if j not in (phone_idx, name_idx)], texts[addr_idx])
+        if better:
+            addr_idx = texts.index(better)
     if addr_idx is None:
         cands = [(len(t), i) for i, t in enumerate(texts)
                  if t and i not in (phone_idx, name_idx)]
@@ -801,7 +840,14 @@ def heuristic_row(texts, page_sub, url=""):
     name = clean_ws(texts[name_idx]) if name_idx is not None else ""
     if not name and not addr:
         return None
+    routing = ""
+    for t in texts:
+        m = ROUTING_LINE_RE.search(t)
+        if m:
+            routing = m.group(1)
+            break
     return {"name": name[:150], "address": addr[:300], "url": url or "",
+            "routing": routing or None,
             "phone": phone[:120], "is_sub": classify_sub(name, "", page_sub)}
 
 def row_url(row_el, base_url):
@@ -809,7 +855,8 @@ def row_url(row_el, base_url):
         return ""
     for a in row_el.find_all("a", href=True):
         u = absolutize(a["href"], base_url)
-        if u and domain_of(u) == domain_of(base_url):
+        if (u and domain_of(u) == domain_of(base_url)
+                and not BAD_EXT_RE.search(u)):  # promo carousels link images
             return u
     return ""
 
@@ -1002,22 +1049,20 @@ def extract_html_cards(html, base_url, page_sub=False):
         # tightest element first: a wrapping div's get_text() would smear the
         # title + routing number into the address line (NRBC cards)
         for tag in ("p", "span", "div"):
-            for p in card.find_all(tag):
-                ptxt = clean_ws(p.get_text(" ", strip=True))
-                if not ptxt or ptxt == title:
-                    continue
-                if any(k in ptxt.lower() for k in ADDR_KWS) or "cell:" in ptxt.lower() or "routing number" in ptxt.lower():
-                    addr = ptxt
-                    break
+            ptxts = [clean_ws(p.get_text(" ", strip=True))
+                     for p in card.find_all(tag)]
+            addr = _pick_addr_line([t for t in ptxts if t and t != title], title)
             if addr is not None:
                 break
         if addr is None:
             cands = [clean_ws(x) for x in card.get_text("\n").split("\n") if clean_ws(x) and clean_ws(x) != title]
             if cands:
                 addr = max(cands, key=len)
+        rtm = ROUTING_LINE_RE.search(text)
         out.append({"name": title.strip(" -|,")[:150],
                     "address": clean_ws(addr or "")[:300], "url": row_url(card, base_url),
                     "phone": "; ".join(dict.fromkeys(phones))[:120],
+                    "routing": rtm.group(1) if rtm else None,
                     "is_sub": classify_sub(title, "", page_sub)})
 
     # fall back to the original generic card scan, but skip duplicate names created
@@ -1048,20 +1093,18 @@ def extract_html_cards(html, base_url, page_sub=False):
         if nk in seen:
             continue
         seen.add(nk)
-        addr = None
-        for ln in lines:
-            if ln != name and any(k in ln.lower() for k in ADDR_KWS):
-                addr = ln
-                break
+        addr = _pick_addr_line(lines, name)
         if addr is None:
             cands = [ln for ln in lines if ln != name and not find_phones(ln)]
             if cands:
                 addr = max(cands, key=len)
         if not phones and not addr:
             continue
+        rtm = ROUTING_LINE_RE.search(joined)
         out.append({"name": name.strip(" -|,")[:150],
                     "address": clean_ws(addr or "")[:300], "url": row_url(el, base_url),
                     "phone": "; ".join(dict.fromkeys(phones))[:120],
+                    "routing": rtm.group(1) if rtm else None,
                     "is_sub": classify_sub(name, "", page_sub)})
     return out
 
@@ -1118,9 +1161,11 @@ def json_records(lst, base_url, page_sub=False):
         if NON_BRANCH_FEED_RE.search(nm):
             continue  # agent outlets / atm booths leaking through a locator feed
         if not (addr or phone):
-            # keep name-only records only if they look like branch names,
-            # not SEO page titles ("X - Bank | Excellence in Banking")
-            if " | " in nm or len(nm) > 70 or not nm:
+            # keep name-only records only if they look like branch names —
+            # not SEO titles ("X - Bank | Excellence in Banking") and not
+            # promo carousel copy ("For a better", "Bank smarter,")
+            if (" | " in nm or len(nm) > 70 or not nm
+                    or not (BRANCH_NAME_RE.search(nm) or SUB_RE.search(nm))):
                 continue
         if not nm and not addr:
             continue
@@ -1292,8 +1337,7 @@ def records_from_lines(lines, page_sub=False, base_url=""):
                      if BRANCH_NAME_RE.search(ln) and len(ln) < 110), None)
         if not name:
             continue
-        addr = next((ln for ln in b
-                     if ln != name and any(k in ln.lower() for k in ADDR_KWS)), None)
+        addr = _pick_addr_line(b, name)
         if addr is None:
             cands = [ln for ln in b if ln != name and not find_phones(ln) and len(ln) > 8]
             if cands:
@@ -1870,6 +1914,12 @@ def dedupe_records(records):
         nm = re.sub(r"<br\s*/?>", " ", nm, flags=re.I)
         r["name"] = nm
         addr = (r.get("address") or "").strip()
+        ph_raw = r.get("phone") or ""
+        if "http" in ph_raw or "/media" in ph_raw or ".webp" in ph_raw.lower():
+            r["phone"] = "; ".join(  # promo carousels leak media links
+                p for p in ph_raw.split(";")   # into the phone field
+                if p.strip() and "http" not in p and "/media" not in p
+                and ".webp" not in p.lower())
         if not nm and addr:
             # gov-portal blobs bury the branch name inside the address text
             m = (re.search(r"([A-Za-z][^,]{1,44}?)\s+[Bb]ranch\b", addr)
@@ -1886,6 +1936,16 @@ def dedupe_records(records):
                 or re.fullmatch(r"[\d\W]+", nm)        # "9", "#12", "-"
                 or not nm):                            # nothing salvageable
             continue
+        if ((nm.endswith((",", ";")) and not find_phones(addr))
+                or (addr and len(addr) <= 60
+                    and re.search(r"(?<![a-z0-9])(booth|kiosk)(?![a-z0-9])",
+                                  addr, re.I))):
+            continue  # sliced promo copy ("Bank smarter,") / booth listings
+        if (not BRANCH_NAME_RE.search(nm) and not SUB_RE.search(nm)
+                and not (r.get("phone") or "").strip()
+                and not (addr and (any(k in addr.lower() for k in ADDR_KWS)
+                                   or len(addr) >= 40))):
+            continue  # promo copy: no branch marker, no phone, no real address
         k = key(r)
         if k == "|":
             continue
@@ -2006,6 +2066,11 @@ def dedupe_records(records):
                     ex["address"] = r.get("address")
                 if not ex.get("phone") and r.get("phone"):
                     ex["phone"] = r["phone"]
+                if (BRANCH_NAME_RE.search(r.get("name") or "")
+                        and not BRANCH_NAME_RE.search(ex.get("name") or "")):
+                    ex["name"] = r.get("name")  # 'Gulshan Branch' beats 'GULSHAN'
+                if not ex.get("routing") and r.get("routing"):
+                    ex["routing"] = r["routing"]
                 continue
         keep.append(r)
         if nk:
@@ -2037,11 +2102,26 @@ def dedupe_records(records):
                 close = _lev_ratio(na, nb) >= 0.8
                 prefix = (na.startswith(nb) or nb.startswith(na)) and \
                     min(len(na), len(nb)) >= 0.5 * max(len(na), len(nb))
-                if not (close or prefix) or not _addr_compat(a, b):
+                # 'PANTHAPATH' (stale embedded-feed copy) vs 'Panthapath
+                # Branch' (listing row): same outlet when the base names
+                # match and one copy carries no detail URL — feed and page
+                # addresses legitimately differ
+                base_same = (branch_key(a.get("name") or "")
+                             == branch_key(b.get("name") or "")) \
+                    and (not a.get("url") or not b.get("url"))
+                if not ((close or prefix or base_same)
+                        and (base_same or _addr_compat(a, b))):
                     continue
-                if len(b.get("address") or "") > len(a.get("address") or ""):
-                    a, b = b, a  # a survives: the record with the richer data
-                for f in ("phone", "url"):
+                a_url, b_url = bool(a.get("url")), bool(b.get("url"))
+                if b_url and not a_url:
+                    a, b = b, a  # a survives: the listing record with its URL
+                elif a_url == b_url and \
+                        len(b.get("address") or "") > len(a.get("address") or ""):
+                    a, b = b, a  # richer address
+                if (BRANCH_NAME_RE.search(b.get("name") or "")
+                        and not BRANCH_NAME_RE.search(a.get("name") or "")):
+                    a["name"] = b.get("name")  # keep the proper '… Branch' name
+                for f in ("phone", "url", "routing"):
                     if not a.get(f) and b.get(f):
                         a[f] = b[f]
                 keep.remove(b)
@@ -2069,7 +2149,8 @@ BANK_KEY_STOP = {"the", "and", "of", "for", "plc", "ltd", "limited",
 # abbreviated banks still pick up their Bank ID / FI Branch IDs
 BB_BANK_ALIASES = {"exim": "export import",
                    "hsbc": "hong kong shanghai banking corporation",
-                   "ncc": "national credit commerce"}
+                   "ncc": "national credit commerce",
+                   "standard": "standard islami"}  # renamed 2025
 
 def norm_key(s, drop_parens=True):
     """Canonical bank-name matching key (shared with bb_registry.py)."""
@@ -2121,11 +2202,14 @@ def _bb_bank_lookup(bank):
         if e:
             return e["bank_id"], e["rkey"]
     if k:
-        for bk in banks:  # containment: "dhaka bank" ~ "dhaka bank plc"
-            if len(k) >= 6 and (k in bk or bk in k):
-                e = _BB_BANK_IDX[bk]
-                return e["bank_id"], e["rkey"]
         import difflib
+        cands = [bk for bk in banks if len(k) >= 6 and (k in bk or bk in k)]
+        if cands:  # closest containment wins — 'standard' -> 'standard
+            best = max(cands, key=lambda bk: (  # islami', never first-hit
+                difflib.SequenceMatcher(None, k, bk).ratio(),
+                (banks[bk] or {}).get("branch_count") or 0))
+            e = _BB_BANK_IDX[best]
+            return e["bank_id"], e["rkey"]
         best, best_r = None, 0.0
         for bk in banks:
             r = difflib.SequenceMatcher(None, k, bk).ratio()
@@ -2394,9 +2478,12 @@ def build_bb_registry():
 SUB_RE_LOOSE = re.compile(r"sub[\s._-]*(?:br|b|o)", re.I)
 
 def _part_junk_name(nm):
-    nm = (nm or "").rstrip(" :;,.|-")
+    raw = nm or ""
+    nm = raw.rstrip(" :;,.|-")
     if not nm:
         return False
+    if raw.endswith((",", ";")):
+        return True  # sliced promo copy ("Bank smarter,")
     addr_hit = ADDR_NAME_RE.search(nm)
     if (addr_hit and BRANCH_NAME_RE.search(nm)
             and not re.search(r"holding|plot|house|shop|ward|post\s*al?\s*code",
@@ -2439,7 +2526,30 @@ def upgrade_parts(dry_run=False):
                     stats["dropped"] += 1
                     LOG.info("  junk dropped [%s]: %r", bank[:30], name)
                     continue
+                url_v = str((list(entry[name] or []) + ["", ""])[1] or "")
+                if url_v and BAD_EXT_RE.search(url_v):
+                    stats["dropped"] += 1  # promo rows linked to images
+                    LOG.info("  junk dropped [%s]: %r (media url)", bank[:30], name)
+                    continue
                 val = list(entry[name] or [])[:3]
+                if len(val) > 2 and isinstance(val[2], str) and (
+                        "http" in val[2] or "/media" in val[2]
+                        or ".webp" in val[2].lower()):
+                    val[2] = "; ".join(  # promo carousels leak media links
+                        p for p in val[2].split(";")   # into the phone field
+                        if p.strip() and "http" not in p
+                        and "/media" not in p and ".webp" not in p.lower())
+                ph0 = str(val[2]) if len(val) > 2 else ""
+                addr0 = str(val[0]) if val else ""
+                if (not BRANCH_NAME_RE.search(str(name))
+                        and not SUB_RE.search(str(name)) and not ph0.strip()
+                        and not (addr0 and
+                                 (any(k in addr0.lower() for k in ADDR_KWS)
+                                  or len(addr0) >= 40))):
+                    stats["dropped"] += 1
+                    LOG.info("  junk dropped [%s]: %r (promo, no marker)",
+                             bank[:30], name)
+                    continue
                 fid, routing = _bb_branch_lookup(rkey, str(name)) or (None, None)
                 if fid:
                     stats["with_ids"] += 1
@@ -2498,7 +2608,8 @@ def build_result(result, records, methods, bank=""):
         if SUB_RE.search(r.get("name") or ""):
             r["is_sub"] = True
         p = "sub_branch" if r.get("is_sub") else "branch"
-        fid, routing = _bb_branch_lookup(rkey, r.get("name") or "") or (None, None)
+        fid, brtn = _bb_branch_lookup(rkey, r.get("name") or "") or (None, None)
+        routing = r.get("routing") or brtn  # site-published routing wins ties
         result[p].append({(r.get("name") or ""): [
             r.get("address") or None,
             r.get("url") or None,

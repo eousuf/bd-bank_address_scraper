@@ -115697,49 +115697,139 @@
     "bank_url": "https://www.standardbankbd.com/",
     "method": "html_cards+html_table+json_api",
     "status": "success",
-    "bank_id": "23",
-    "total_branch": 139,
+    "bank_id": "61",
+    "total_branch": 131,
     "total_sub_branch": 0,
     "branch": [
       {
+        "Principal Branch": [
+          "MCCI Building (1st Floor), 122-124, Motijheel C/A",
+          "https://www.standardbankbd.com/en/branch/210275359",
+          "+8801701221500",
+          "610100",
+          "210275359"
+        ]
+      },
+      {
+        "Khatungonj Branch": [
+          "Khatungonj Trade Centre (1st Floor),, Ramjoy Mohajan Lane (Post Office Goli), Khatungonj",
+          "https://www.standardbankbd.com/en/branch/210154270",
+          "+8801701221590",
+          "610001",
+          "210154270"
+        ]
+      },
+      {
+        "Imamgonj Branch": [
+          "79, Bellal Market,, Moulovibazar (Near Chakbazar)",
+          "https://www.standardbankbd.com/en/branch/210272802",
+          "+8801701221560",
+          "610101",
+          "210272802"
+        ]
+      },
+      {
         "Topkhana Road Branch": [
-          null,
+          "36, Crescent Center (1st Floor),, Topkhana Road",
           "https://www.standardbankbd.com/en/branch/210276732",
           "+8801701221515",
-          null,
-          null
+          "610102",
+          "210276732"
         ]
       },
       {
         "Chowdhury Hat Branch": [
-          null,
+          "Routing number",
           "https://www.standardbankbd.com/en/branch/210152177",
           "+8801701221739",
-          null,
+          "610002",
           "210152177"
         ]
       },
       {
+        "Agrabad Branch": [
+          "World Trade Center (2nd floor),, Agrabad C/A",
+          "https://www.standardbankbd.com/en/branch/210150137",
+          "+8801701221585",
+          "610003",
+          "210150137"
+        ]
+      },
+      {
+        "Khulna Branch": [
+          "Chamber Building (Ground Floor),, 5, K.D.A. C/A",
+          "https://www.standardbankbd.com/en/branch/210471540",
+          "+8801701221570",
+          "610201",
+          "210471540"
+        ]
+      },
+      {
+        "Gulshan Branch": [
+          "Shezad Palace (1st & 2nd Floor),, 32, Gulshan Avenue,, North Commercial Area",
+          "https://www.standardbankbd.com/en/branch/210261721",
+          "+8801701221510",
+          "610103",
+          "210261721"
+        ]
+      },
+      {
+        "Sylhet Branch": [
+          "Thikana Tower (1st Floor),, Nayasarak Road",
+          "https://www.standardbankbd.com/en/branch/210913558",
+          "+8801701221575",
+          "610066",
+          "210913558"
+        ]
+      },
+      {
         "Munshikhola Branch": [
-          null,
+          "Dhaka-Narayangonj Road,, Munshikhola, Shampur",
           "https://www.standardbankbd.com/en/branch/210274518",
           "+8801701221652",
-          null,
-          null
+          "610104",
+          "210274518"
+        ]
+      },
+      {
+        "Jubilee Road Branch": [
+          "6, Aziz Chamber (1st Floor),, Noor Ahmed Road,, Jubilee Road",
+          "https://www.standardbankbd.com/en/branch/210153642",
+          "+8801701221580",
+          "610004",
+          "210153642"
+        ]
+      },
+      {
+        "Foreign Exchange Branch": [
+          "PFI Tower, 1st Floor,, 56-57, Dilkusha C/A",
+          "https://www.standardbankbd.com/en/branch/210272323",
+          "+8801701221520",
+          "610106",
+          "210272323"
+        ]
+      },
+      {
+        "Dhanmondi Branch": [
+          "House # 4, Road # 27(Old),, 16 (New), Dhanmondi R/A",
+          "https://www.standardbankbd.com/en/branch/210261189",
+          "+8801701221525",
+          "610105",
+          "210261189"
         ]
       },
       {
         "Uttara Model Town Branch": [
-          null,
+          "Plot #113/C, Road-7, Sector-4,, Uttara Model Town",
           "https://www.standardbankbd.com/en/branch/210264694",
           "+8801701221530",
-          "230010",
-          null
+          null,
+          "210264694"
         ]
       },
       {
         "Takerhat Bazar Branch": [
-          null,
+          "UP Road, Takerhat Bazar,, Rajoir",
           "https://www.standardbankbd.com/en/branch/210540792",
           "+8801701221808",
           null,
@@ -115747,233 +115837,278 @@
         ]
       },
       {
+        "Panthapath Branch": [
+          "77, Bir Uttam C.R. Dutta Road,, Free School Street, Hatirpool",
+          "https://www.standardbankbd.com/en/branch/210263611",
+          "+8801701221565",
+          "610108",
+          "210263611"
+        ]
+      },
+      {
+        "Gulshan-1 Branch": [
+          "57 & 57/A, Uday Tower,, Gulshan Avenue (South),, Circle-1",
+          "https://www.standardbankbd.com/en/branch/210261934",
+          "+8801701221505",
+          "610109",
+          "210261934"
+        ]
+      },
+      {
         "Rajshahi Branch": [
-          null,
+          "M.K Tower (1st & 2nd Floor),, 28 Ganakpara, Tulapatti",
           "https://www.standardbankbd.com/en/branch/210811939",
           "+8801701221712",
-          null,
+          "610251",
           "210811939"
         ]
       },
       {
         "Benapole Branch": [
-          null,
+          "Nahar Tower,13 Main Road,, Benapole Bazar, Benapole",
           "https://www.standardbankbd.com/en/branch/210410280",
           "+8801701221805",
-          null,
+          "610211",
           "210410280"
         ]
       },
       {
         "Jessore Branch": [
-          null,
+          "Utshab Bhaban, 6/D, R.N. Road,, Katwali",
           "https://www.standardbankbd.com/en/branch/210410943",
           "+8801701221715",
-          null,
+          "610212",
           "210410943"
         ]
       },
       {
+        "Narayangonj Branch": [
+          "47/9, Khan Super Market, B.B Road, DIT",
+          "https://www.standardbankbd.com/en/branch/210671182",
+          "+8801701221535",
+          "610121",
+          "210671182"
+        ]
+      },
+      {
         "Cda Avenue Branch": [
-          null,
+          "1000/A, Hosneara Villa (1st floor),, Nasirabad, CDA Avenue",
           "https://www.standardbankbd.com/en/branch/210151486",
           "+8801701221778",
-          null,
+          "610005",
           "210151486"
         ]
       },
       {
         "Ekoria Branch": [
-          null,
+          "Routing number",
           "https://www.standardbankbd.com/en/branch/210272086",
           "+8801701221673",
-          null,
-          null
+          "610110",
+          "210272086"
         ]
       },
       {
         "Gopalganj Branch": [
-          null,
+          "City Square Shopping Mall,, College Road",
           "https://www.standardbankbd.com/en/branch/210350379",
           "+8801701221784",
-          null,
+          "610131",
           "210350379"
         ]
       },
       {
+        "Banani Branch": [
+          "Hakam Foundation, Plot-98, Road-11,, Block-C, Banani",
+          "https://www.standardbankbd.com/en/branch/210260430",
+          "+8801701221540",
+          "610111",
+          "210260430"
+        ]
+      },
+      {
         "Brahmanbaria Branch": [
-          null,
+          "Peara Miah Tower (1st Floor),, 1034, Court Road",
           "https://www.standardbankbd.com/en/branch/210120433",
           "+8801701221748",
-          null,
+          "610011",
           "210120433"
         ]
       },
       {
         "Dakkhin Khan Branch": [
-          null,
+          "57, Sultan Market,, Dakkhin Khan Bazar",
           "https://www.standardbankbd.com/en/branch/210260919",
           "+8801701221625",
-          null,
-          null
+          "610112",
+          "210260919"
         ]
       },
       {
         "Cepz Branch": [
-          null,
+          "Gazi Complex (1st Floor),, Airport Road, EPZ Gate,, Bandar",
           "https://www.standardbankbd.com/en/branch/210151578",
           "+8801701221718",
-          "230001",
-          null
+          "610006",
+          "210151578"
         ]
       },
       {
         "Bahaddarhat Branch": [
-          null,
+          "Manila Tower(1st Floor),, Bahaddarhat Moor",
           "https://www.standardbankbd.com/en/branch/210150795",
           "+8801701221742",
-          null,
+          "610007",
           "210150795"
         ]
       },
       {
+        "Mirpur Branch": [
+          "Northern Lion R.P. Tower (1st Floor),, Plot-4, Block-D, Section-2,, Chiriakhana Road, Mirpur",
+          "https://www.standardbankbd.com/en/branch/210262988",
+          "+8801701221545",
+          "610113",
+          "210262988"
+        ]
+      },
+      {
         "Matuail Branch": [
-          null,
+          "Momenbagh Chowrasta,, Paradogair Konapara,, Matuail, Demra",
           "https://www.standardbankbd.com/en/branch/210274000",
           "+8801701221628",
-          null,
-          null
+          "610114",
+          "210274000"
         ]
       },
       {
         "Barisal Branch": [
-          null,
+          "Mannan Plaza, 84, Sadar Road",
           "https://www.standardbankbd.com/en/branch/210060285",
           "+8801701221772",
-          null,
+          "610076",
           "210060285"
         ]
       },
       {
         "Bogra Branch": [
-          null,
+          "Helal Mansion (1st Floor),, Sherpur Road, Sutrapur,, Bogra Sadar",
           "https://www.standardbankbd.com/en/branch/210100374",
           "+8801701221751",
-          null,
+          "610260",
           "210100374"
         ]
       },
       {
         "Kotalipara Branch": [
-          null,
+          "K. M. Super Market (1st Floor),, Ghagor Bazar, Kotalipara",
           "https://www.standardbankbd.com/en/branch/210350674",
           "+8801701221787",
-          null,
+          "610132",
           "210350674"
         ]
       },
       {
         "Pahartali Branch": [
-          null,
+          "Abul Khair Bhaban, 20/44,, D.T. Road, CDA Market,, Pahartali",
           "https://www.standardbankbd.com/en/branch/210155929",
           "+8801701221924",
-          null,
+          "610008",
           "210155929"
         ]
       },
       {
         "Coxs Bazar Branch": [
-          null,
+          "Hefazat Market (1st Floor),, 103, Main Road,, East Bazar Ghata",
           "https://www.standardbankbd.com/en/branch/210220254",
           "+8801701221754",
-          null,
-          "210220762"
+          "610031",
+          "210220254"
         ]
       },
       {
         "Progati Sharani Branch": [
-          null,
+          "KA-70, Hazi Ahmed Plaza (1st Floor),, Pragati Sharani, Kuril,, PO-Khilkhet, PS-Vatara",
           "https://www.standardbankbd.com/en/branch/210263703",
           "+8801701221631",
-          null,
-          null
+          "610117",
+          "210263703"
         ]
       },
       {
         "Rangpur Branch": [
-          null,
+          "Shah Jamal Market (1st Floor),, Station Road",
           "https://www.standardbankbd.com/en/branch/210851452",
           "+8801701221790",
-          null,
+          "610271",
           "210851452"
         ]
       },
       {
         "Beanibazar Branch": [
-          null,
+          "Holding. 1803, Ward no - 3,, Zaman Plaza (1st floor),, Beanibazar Pourashava",
           "https://www.standardbankbd.com/en/branch/210910319",
           "+8801701221841",
-          null,
+          "610067",
           "210910319"
         ]
       },
       {
         "Moulvibazar Branch": [
-          null,
+          "Kusumbag , Sylhet Road, Moulvibazar Sadar",
           "https://www.standardbankbd.com/en/branch/210581180",
           "+8801701221844",
-          null,
-          null
+          "610070",
+          "210581180"
         ]
       },
       {
         "Nawabpur Branch": [
-          null,
+          "Shahi Bhaban (1st floor), 106 BCC Road,, Thatari Bazar",
           "https://www.standardbankbd.com/en/branch/210274750",
           "+8801701221634",
-          null,
-          null
+          "610118",
+          "210274750"
         ]
       },
       {
         "Shafipur Branch": [
-          null,
+          "Shapna Joy Tower (1st Floor),, Shafipur Bazar, Kaliakair",
           "https://www.standardbankbd.com/en/branch/210331422",
           "+8801701221679",
-          null,
+          "610141",
           "210331422"
         ]
       },
       {
         "Nangolmora Sme Branch": [
-          null,
+          "Nangalmora High School Market (1st floor), Nangalmora Bazar, Hathazari",
           "https://www.standardbankbd.com/en/branch/210151752",
           "+8801701221876",
-          null,
-          null
+          "610010",
+          "210151752"
         ]
       },
       {
         "Biswanath Sme Branch": [
-          null,
+          "Tanni Complex (1st Floor), Jagannathpur Road, Bishwanath, Sylhet",
           "https://www.standardbankbd.com/en/branch/210910430",
           "+8801701221905",
           null,
-          null
+          "210910430"
         ]
       },
       {
         "Goalabazar Sme Branch": [
-          null,
+          "Kaher Mansion (1st & 2nd Floors), Borogoli, Near Public Stand, Osmaninagar, Goalabazar, Sylhet",
           "https://www.standardbankbd.com/en/branch/210911547",
           "+8801701221847",
-          null,
-          null
+          "610068",
+          "210911547"
         ]
       },
       {
         "Kushtia Branch": [
-          null,
+          "43 N.S. Road (1st floor),, Amlapara",
           "https://www.standardbankbd.com/en/branch/210500945",
           "+8801701221745",
           null,
@@ -115982,223 +116117,259 @@
       },
       {
         "Kamarpara Branch": [
-          null,
+          "A. R. Complex, 75 Kamarpara,, Turag, Uttara",
           "https://www.standardbankbd.com/en/branch/210261518",
           "+8801701221696",
-          null,
-          null
+          "610120",
+          "210261518"
         ]
       },
       {
         "Sadarghat Branch": [
-          null,
+          "291,Hourbourage Dream,, Sadarghat Road",
           "https://www.standardbankbd.com/en/branch/210156731",
           "+8801701221927",
-          null,
+          "610012",
           "210156731"
         ]
       },
       {
         "Gazipur Sme Branch": [
-          null,
+          "Shahabuddin Complex,, 168, Joydebpur Bazar,, Gazipur Sadar",
           "https://www.standardbankbd.com/en/branch/210330528",
           "+8801701221689",
-          null,
+          "610116",
           "210330528"
         ]
       },
       {
+        "Green Road Branch": [
+          "Castle Green (1st floor),, 142 Green Road",
+          "https://www.standardbankbd.com/en/branch/210261697",
+          "+8801701221550",
+          "610122",
+          "210261697"
+        ]
+      },
+      {
         "Savar Sme Krishi Branch": [
-          null,
+          "B-66, Bazar Road, Savar",
           "https://www.standardbankbd.com/en/branch/210264094",
           "+8801701221682",
-          "230017",
-          null
+          "610123",
+          "210264094"
         ]
       },
       {
         "Mymensingh Branch": [
-          null,
+          "Canada Square Shopping Center,, 27 Rambabu Road",
           "https://www.standardbankbd.com/en/branch/210611755",
           "+8801701221793",
-          null,
+          "610156",
           "210611755"
         ]
       },
       {
         "Bhairab Sme Branch": [
-          null,
+          "806,807 Ranir Bazar,Bhairab bazar, Bhairab",
           "https://www.standardbankbd.com/en/branch/210480207",
           "+8801701221711",
-          null,
-          null
+          "610150",
+          "210480207"
+        ]
+      },
+      {
+        "Saidpur Sme Branch": [
+          "Khaled Market (1st floor),, Shahed Dr. Zhikrul Haque Road,, Saidpur",
+          "https://www.standardbankbd.com/en/branch/210731198",
+          "+8801701221848",
+          "610265",
+          "210731198"
         ]
       },
       {
         "Dinajpur Branch": [
-          null,
+          "Northern Plaza, Goneshtala, Dinajpur sadar",
           "https://www.standardbankbd.com/en/branch/210280678",
           "+8801701221721",
-          null,
+          "610281",
           "210280678"
         ]
       },
       {
         "Patuakhali Branch": [
-          null,
+          "Gazi Plaza (1st floor), 02 Sadar Road",
           "https://www.standardbankbd.com/en/branch/210781098",
           "+8801701221877",
-          null,
+          "610521",
           "210781098"
         ]
       },
       {
         "Faridpur Branch": [
-          null,
+          "R.K. Plaza (1st floor), 244 Goalchamot, Hazralota, Sadar",
           "https://www.standardbankbd.com/en/branch/210290521",
           "+8801701221757",
-          null,
+          "610171",
           "210290521"
         ]
       },
       {
         "Ring Road Branch": [
-          null,
+          "Probal Tower (1st floor), House-45, Ring Road , Shamoly, Mohammadpur",
           "https://www.standardbankbd.com/en/branch/210263974",
           "+8801701221655",
-          null,
-          null
+          "610124",
+          "210263974"
         ]
       },
       {
         "Nilphamari Branch": [
-          null,
+          "Nilphamari Chamber of Commerce & Industry Bhaban,, (1st floor), Hazi Mohsin Sarak,, Nilphamari Bazar",
           "https://www.standardbankbd.com/en/branch/210730731",
           "+8801701221849",
-          null,
+          "610266",
           "210730731"
         ]
       },
       {
         "Comilla Branch": [
-          null,
+          "4/4 Kapariapatti (1st floor), Chawk Bazar",
           "https://www.standardbankbd.com/en/branch/210191154",
           "+8801701221852",
-          null,
+          "610041",
           "210191154"
         ]
       },
       {
         "Shibchar Branch": [
-          null,
+          "286 Iman Gomosta Market (1st floor), Guatola, Shibchar",
           "https://www.standardbankbd.com/en/branch/210540705",
           "+8801701221796",
-          null,
+          "610127",
           "210540705"
         ]
       },
       {
         "Basurhat Branch": [
-          null,
+          "Noakhali Rupali Plaza (1st floor), Rupali Chattar, Bashurhat, Companigonj",
           "https://www.standardbankbd.com/en/branch/210750258",
           "+8801701221799",
           null,
-          null
+          "210750258"
         ]
       },
       {
         "Satkhira Branch": [
-          null,
+          "Islam Tower, Holding No.-5043, Ward No.-8, Pourashava Satkhira, Polashpole Sadar",
           "https://www.standardbankbd.com/en/branch/210871090",
           "+8801701221855",
-          null,
+          "610226",
           "210871090"
         ]
       },
       {
+        "Bagerhat Branch": [
+          "Haider Plaza (1st floor), 119/2 K Ali Road, Mithapukurpar, Amlapara",
+          "https://www.standardbankbd.com/en/branch/210010077",
+          "+8801701221802",
+          "610231",
+          "210010077"
+        ]
+      },
+      {
         "Mohammadpur Branch": [
-          null,
+          "14/23, Shahjahan Road, Block-A, Mohammadpur",
           "https://www.standardbankbd.com/en/branch/210263282",
           "+8801701221637",
-          null,
-          null
+          "610181",
+          "210263282"
         ]
       },
       {
         "Nawabgonj Branch": [
-          null,
+          "Nawabgonj Adhunik Biponi, Zilla Parishad Market (1st floor), Nawabgonj",
           "https://www.standardbankbd.com/en/branch/210274697",
           "+8801701221640",
-          null,
-          null
+          "610182",
+          "210274697"
         ]
       },
       {
         "Malibag Branch": [
-          null,
+          "Faith Tower (1st Floor & 2nd Floor), 476/A, DIT Road, Malibagh",
           "https://www.standardbankbd.com/en/branch/210273948",
           "+8801701221658",
-          null,
-          null
+          "610183",
+          "210273948"
         ]
       },
       {
         "Oxygen More Branch": [
-          null,
+          "Ali Noor Complex (1st floor),, Oxyzen More",
           "https://www.standardbankbd.com/en/branch/210155903",
           "+8801701221760",
-          null,
-          null
+          "610013",
+          "210155903"
         ]
       },
       {
         "Rohanpur Branch": [
-          null,
+          "Alhaz Abdul Latib Super Market (1st Floor),, Rohanpur Boro Bazar, Gomostapur,, Rohanpur",
           "https://www.standardbankbd.com/en/branch/210700882",
           "+8801701221811",
-          null,
-          null
+          "610301",
+          "210700882"
         ]
       },
       {
         "Ashkona Branch": [
-          null,
+          "247 Dana Plaza (1st floor), Ashkona, Dakkhinkhan",
           "https://www.standardbankbd.com/en/branch/210260201",
           "+8801701221643",
-          null,
-          null
+          "610125",
+          "210260201"
         ]
       },
       {
         "Kanchpur Branch": [
-          null,
+          "Narayangonj Jamir Khan Complex (1st Floor), Kanchpur Bus Stand, Kanchpur, Sonargoan",
           "https://www.standardbankbd.com/en/branch/210670820",
           "+8801701221670",
-          null,
-          null
+          "610128",
+          "210670820"
         ]
       },
       {
         "Tangail Branch": [
-          null,
+          "Khan Super Market (1st floor),, Holding -533, Ward-13,, Tangail Pouroshova",
           "https://www.standardbankbd.com/en/branch/210932292",
           "+8801701221781",
-          null,
+          "610129",
           "210932292"
         ]
       },
       {
+        "Mohakhali Branch": [
+          "Green Delta Aims Tower (GF),, 51-52, Mohakhali C/A, Mohakhali",
+          "https://www.standardbankbd.com/en/branch/210263190",
+          "+8801701221555",
+          "610130",
+          "210263190"
+        ]
+      },
+      {
         "Gobindagonj Branch": [
-          null,
+          "211/1, Shila Plaza (1st floor),, Gobindagonj,, Dhaka-Rangpur Highway",
           "https://www.standardbankbd.com/en/branch/210320583",
           "+8801701221881",
-          null,
+          "610601",
           "210320583"
         ]
       },
       {
         "Bakshigonj Branch": [
-          null,
+          "Sawdagor Shopping Complex (1st floor), Old Bus Stand Road, Bakshigonj",
           "https://www.standardbankbd.com/en/branch/210390100",
           "+8801701221884",
           null,
@@ -116207,106 +116378,115 @@
       },
       {
         "Chaktai Branch": [
-          null,
+          "Routing number",
           "https://www.standardbankbd.com/en/branch/210150087",
           "+8801701221733",
-          null,
+          "610014",
           "210150087"
         ]
       },
       {
         "Bhojeshwar Branch": [
-          null,
+          "Shahnoor Shopping Complex (1st floor), Bhojeshwar Bazar, College Road, Naria",
           "https://www.standardbankbd.com/en/branch/210860151",
           "+8801701221858",
           null,
-          null
+          "210860151"
         ]
       },
       {
         "Tungipara Branch": [
-          null,
+          "Rahima-Rangu Plaza (1st Floor), Patgati Bazar, Tungipara",
           "https://www.standardbankbd.com/en/branch/210350832",
           "+8801701221763",
           null,
-          null
+          "210350832"
         ]
       },
       {
         "Gunagari Branch": [
-          null,
+          "S. M. Chowdhury Super Market, Khasmohol, Gunagari, Kalipur, Banskhali",
           "https://www.standardbankbd.com/en/branch/210153071",
           "+8801701221887",
-          null,
+          "610015",
           "210153071"
         ]
       },
       {
         "New Eskaton Branch": [
-          null,
+          "129, New Eskaton Road, Eskaton Tower, Mogbazar, Ramna",
           "https://www.standardbankbd.com/en/branch/210275025",
           "+8801701221661",
-          null,
-          null
+          "610136",
+          "210275025"
         ]
       },
       {
         "Sonargaon Janapath Branch": [
-          null,
+          "Muktijoddha K.S. Tower (1st Floor), Sonargaon Janapath Avenue, House-01, Road-17/B, Sector-12",
           "https://www.standardbankbd.com/en/branch/210260243",
           "+8801701221690",
-          null,
-          null
+          "610137",
+          "210260243"
         ]
       },
       {
         "Hatikumrul Branch": [
-          null,
+          "Sabuj Bilab Super Market (1st floor), Hatikumrul Goal Chattar, Ullapara",
           "https://www.standardbankbd.com/en/branch/210880915",
           "+8801701221814",
-          null,
+          "610302",
           "210880915"
         ]
       },
       {
+        "Sunamgonj Branch": [
+          "Nasir Plaza, Station Road",
+          "https://www.standardbankbd.com/en/branch/210901128",
+          "+8801701221890",
+          "610501",
+          "210901128"
+        ]
+      },
+      {
         "Pabna Branch": [
-          null,
+          "BGC Complex (1st Floor), Thana Road, Pabna Sadar",
           "https://www.standardbankbd.com/en/branch/210761784",
           "+8801701221893",
-          null,
-          null
+          "610303",
+          "210761784"
         ]
       },
       {
         "Patherhat Branch": [
-          null,
+          "School Market (1st Floor), Noapara, Raozan",
           "https://www.standardbankbd.com/en/branch/210156131",
           "+8801701221817",
-          null,
+          "610016",
           "210156131"
         ]
       },
       {
         "Panchlaish Branch": [
-          null,
+          "S.F.A. Tower (Ground Floor),, 132 Probortak More, Panchlaish",
           "https://www.standardbankbd.com/en/branch/210156049",
           "+8801701221838",
-          null,
+          "610018",
           "210156049"
         ]
       },
       {
         "Ramchandrapur Branch": [
-          null,
+          "NGS Bhaban (1st Floor), Ramchandrapur Bazar, Muradnagor",
           "https://www.standardbankbd.com/en/branch/210193644",
           "+8801701221861",
-          null,
+          "610017",
           "210193644"
         ]
       },
       {
         "Bakolia Branch": [
-          null,
+          "Hossain Tower (1st Floor), 3615/A,Shah Amanat Bridge Connecting Road, Kalamia Bazar, Bakalia",
           "https://www.standardbankbd.com/en/branch/210150308",
           "+8801701221820",
           null,
@@ -116315,25 +116495,25 @@
       },
       {
         "Alamdanga Branch": [
-          null,
+          "640/A, London Tower (1st floor), Alif Uddin Road, Alamdanga",
           "https://www.standardbankbd.com/en/branch/210180044",
           "+8801701221864",
-          null,
+          "610202",
           "210180044"
         ]
       },
       {
         "Kansat Branch": [
-          null,
+          "Idris Market (2nd floor), Gopalnagarmore, kansat, shibganj",
           "https://www.standardbankbd.com/en/branch/210700529",
           "+8801701221823",
-          null,
-          null
+          "610304",
+          "210700529"
         ]
       },
       {
         "Khan Jahan Ali Branch": [
-          null,
+          "Haji Hanif Complex (2nd & 3rd floor),, 12-13, Khan Jahan Ali Road",
           "https://www.standardbankbd.com/en/branch/210470059",
           "+8801701221724",
           null,
@@ -116341,89 +116521,89 @@
         ]
       },
       {
-        "· Branch code 093": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210150324",
-          "+8801701221775",
-          null,
-          null
-        ]
-      },
-      {
         "Nimshar Branch": [
-          null,
+          "Insaf Super Market (1st Floor), Nimsar, Burichong",
           "https://www.standardbankbd.com/en/branch/210193349",
           "+8801701221826",
-          null,
+          "610021",
           "210193349"
         ]
       },
       {
         "Aganagar Branch": [
-          null,
+          "Haji Alim Ullah Complex, East Aganagar,, South Keranigonj",
           "https://www.standardbankbd.com/en/branch/210270138",
           "+8801701221646",
-          null,
-          null
+          "610138",
+          "210270138"
         ]
       },
       {
         "Feni Branch": [
-          null,
+          "Sayed Ambia Tower (1st & 2nd floor),, 74-75, Trank Road,, Rajbari Gate",
           "https://www.standardbankbd.com/en/branch/210300529",
           "+8801701221896",
-          null,
+          "610022",
           "210300529"
         ]
       },
       {
         "Ashulia Branch": [
-          null,
+          "Bhai Bhai Plaza (1st floor),, Bogabari, Baipail,, Ashulia",
           "https://www.standardbankbd.com/en/branch/210260227",
           "+8801701221683",
-          null,
-          null
+          "610139",
+          "210260227"
         ]
       },
       {
         "Chapainawabgonj Branch": [
-          null,
+          "Routing number",
           "https://www.standardbankbd.com/en/branch/210700253",
           "+8801701221727",
-          null,
-          null
+          "610305",
+          "210700253"
         ]
       },
       {
         "Jhenaidah Branch": [
-          null,
+          "Mokbul Hossain Plaza (1st Floor),, 250, H.S.S. Road",
           "https://www.standardbankbd.com/en/branch/210440647",
           "+8801701221766",
-          null,
+          "610204",
           "210440647"
         ]
       },
       {
-        "Karwan Bazar Branch": [
+        "Bunti Bazar Branch": [
+          "Musa Plaza, Bantibazar",
+          "https://www.standardbankbd.com/en/branch/210670154",
+          "+8801701221699",
           null,
+          "210670154"
+        ]
+      },
+      {
+        "Karwan Bazar Branch": [
+          "Hasney Tower (1st Floor), 3/A,, Karwan Bazar C/A",
           "https://www.standardbankbd.com/en/branch/210262533",
           "+8801701221649",
-          null,
-          "215262538"
+          "610140",
+          "210262533"
         ]
       },
       {
         "Kholamora Branch": [
-          null,
+          "Abdul Aziz Super Market, Samaruddin Nagar, South Keraniganj, Kholamora Launch Ghat, Kerarigonj",
           "https://www.standardbankbd.com/en/branch/210270338",
           "+8801701221702",
-          null,
-          null
+          "610143",
+          "210270338"
         ]
       },
       {
         "Pirganj Branch": [
-          null,
+          "Muktijoddha Complex, Thana Road, Pirgonj",
           "https://www.standardbankbd.com/en/branch/210851360",
           "+8801701221867",
           null,
@@ -116432,317 +116612,254 @@
       },
       {
         "Kumira Branch": [
-          null,
+          "S A Tower (1st Floor), Gahtghar,, Boro Kumira, Sitakunda",
           "https://www.standardbankbd.com/en/branch/210154454",
           "+8801701221899",
-          null,
+          "610023",
           "210154454"
         ]
       },
       {
+        "Kadamtali Branch": [
+          "Rahat Center, 295 D. T. Road, Kadamtoli",
+          "https://www.standardbankbd.com/en/branch/210153734",
+          "+8801701221730",
+          "610024",
+          "210153734"
+        ]
+      },
+      {
         "S.K Mujib Road Branch": [
-          null,
+          "Sekander Bhaban (1st Floor), 545, Sheikh Mujib Road, Dewanhat",
           "https://www.standardbankbd.com/en/branch/210150511",
           "+8801701221769",
           null,
-          null
+          "210150511"
         ]
       },
       {
         "Chuadanga Branch": [
-          null,
+          "Routing number",
           "https://www.standardbankbd.com/en/branch/210180194",
           "+8801701221870",
-          null,
+          "610205",
           "210180194"
         ]
       },
       {
         "Hemayetpur Branch": [
-          null,
+          "Maolana Shopping Complex, Hemayetur, Savar",
           "https://www.standardbankbd.com/en/branch/210260506",
           "+8801701221705",
-          null,
-          null
+          "610144",
+          "210260506"
         ]
       },
       {
         "Chittagong University Branch": [
-          null,
+          "Abul Hossain Building (1st Floor),, Chittagong University Gate No. 1,, Hathazari Road",
           "https://www.standardbankbd.com/en/branch/210152085",
           "+8801701221829",
-          null,
+          "610026",
           "210152085"
         ]
       },
       {
         "Goalanda Branch": [
-          null,
+          "Akbar Plaza (1st Floor), Ahladipur, Goalanda More, Rajbari",
           "https://www.standardbankbd.com/en/branch/210820283",
           "+8801701221832",
-          null,
+          "610145",
           "210820283"
         ]
       },
       {
         "Madhabdi Branch": [
-          null,
+          "MMK Tower (1st Floor), Madhabdi Bazar, College Road, Anondimoor, Madhabdi",
           "https://www.standardbankbd.com/en/branch/210680678",
           "+8801701221708",
-          null,
-          null
+          "610146",
+          "210680678"
         ]
       },
       {
         "Mathbaria Branch": [
-          null,
+          "Haji Adam Ali Khan Supar Market (1st & 2nd Floor), 288 Pharmacy Road, Mathbaria.",
           "https://www.standardbankbd.com/en/branch/210790526",
           "+8801701221873",
-          null,
+          "610401",
           "210790526"
         ]
       },
       {
         "Baneswar Branch": [
-          null,
+          "Mahi Plaza, Baneswar Bazar, Puthia",
           "https://www.standardbankbd.com/en/branch/210810222",
           "+8801701221902",
-          null,
+          "610306",
           "210810222"
         ]
       },
       {
         "Islampur Branch": [
-          null,
+          "Textile Center, 12 Islampur Road, Kotowali",
           "https://www.standardbankbd.com/en/branch/210272981",
           "+8801701221676",
-          null,
-          null
+          "610147",
+          "210272981"
         ]
       },
       {
         "Atrai Branch": [
-          null,
+          "Sayma Plaza (1st Floor), Sahebgonj Bazar, Atrai, Naogaon.",
           "https://www.standardbankbd.com/en/branch/210640168",
           "+8801701221835",
-          null,
+          "610307",
           "210640168"
         ]
       },
       {
         "Fulbari Branch": [
-          null,
+          "Mantri Market (1st & 2nd Floor) 24/35, Dhaka-Dinajpur Highway Road, Fulbari",
           "https://www.standardbankbd.com/en/branch/210281877",
           "+8801701221912",
-          null,
+          "610603",
           "210281877"
         ]
       },
       {
         "Hili Branch": [
-          null,
+          "Alhaj Shafi Uddin Mondal Tower(1st Floor), Charmatha More, Bus stand Road, Bangla Hili Hakimpur, Via Joypurhat",
           "https://www.standardbankbd.com/en/branch/210280115",
           "+8801701221909",
-          null,
+          "610604",
           "210280115"
         ]
       },
       {
         "Tungi Branch": [
-          null,
+          "Amin Bhaban, 12 Cherag Ali Market, Tongi",
           "https://www.standardbankbd.com/en/branch/210331635",
           "+8801701221686",
           null,
-          null
+          "210331635"
         ]
       },
       {
         "Jamal Khan Road Branch": [
-          null,
+          "370/ A-378, Moitree bhaban (1st Floor), Momin Road, Jamal Khan",
           "https://www.standardbankbd.com/en/branch/210153589",
           "+8801701221736",
-          null,
+          "610027",
           "210153589"
         ]
       },
       {
         "Narsingdi Branch": [
-          null,
+          "Jewellery potti, Kalibari Road,, Narsingdi Sadar",
           "https://www.standardbankbd.com/en/branch/210680852",
           "+8801701221664",
-          null,
+          "610149",
           "210680852"
         ]
       },
       {
+        "Bhulta Branch": [
+          "Rabet-Al-Hasan Shopping Center (2nd Floor), Bhulta Bus Stand, Rupgonj",
+          "https://www.standardbankbd.com/en/branch/210670220",
+          "+8801701221693",
+          "610151",
+          "210670220"
+        ]
+      },
+      {
         "Mohadebpur Branch": [
-          null,
+          "Shafali Market, Mach Chatter, Mohadevpur",
           "https://www.standardbankbd.com/en/branch/210641091",
           "+8801701221915",
-          null,
+          "610308",
           "210641091"
         ]
       },
       {
         "Northsouth Road Branch": [
-          null,
+          "43/44, Malitola Road",
           "https://www.standardbankbd.com/en/branch/210275117",
           "+8801701221667",
-          null,
-          null
-        ]
-      },
-      {
-        "· Branch code 223": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210350582",
-          "+8801701221906",
-          null,
-          null
-        ]
-      },
-      {
-        "· Branch code 224": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210150753",
-          "+8801701221918",
-          null,
-          null
+          "610152",
+          "210275117"
         ]
       },
       {
         "Bagichahat Branch": [
-          null,
+          "Bilkis Super Market (1st Floor),, 8, Hashimpur,, Chandanaish",
           "https://www.standardbankbd.com/en/branch/210150740",
           "+8801701221921",
-          null,
+          "610029",
           "210150740"
         ]
       },
       {
+        "Afaz Nagar Branch": [
+          "Rezia Tower (1st Floor), Afaznagar Residential Area, Gate No: 01, Fatullah",
+          "https://www.standardbankbd.com/en/branch/210670309",
+          "+8801701221930",
+          "610154",
+          "210670309"
+        ]
+      },
+      {
+        "Nayanpur Branch": [
+          "Alhaj Nizamuddin Tower (1st Floor), Nayanpur Bazar, Sreepur",
+          "https://www.standardbankbd.com/en/branch/210330294",
+          "+8801701221933",
+          "610155",
+          "210330294"
+        ]
+      },
+      {
         "Sultanpur Branch": [
-          null,
+          "Haji Market (1st Floor),, Yakubnagar, Sultanpur",
           "https://www.standardbankbd.com/en/branch/210120204",
           "+8801701221936",
-          null,
+          "610030",
           "210120204"
         ]
       },
       {
-        "· Branch code 229": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210670233",
-          "+8801701221939",
-          null,
-          null
-        ]
-      },
-      {
         "Chandpur Branch": [
-          null,
+          "South Plaza (1st Floor),, Shahid Muktijoddah Sarak,, Chandpur Sadar",
           "https://www.standardbankbd.com/en/branch/210130315",
           "+8801701221948",
-          null,
+          "610032",
           "210130315"
         ]
       },
       {
-        "· Branch code 231": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210581722",
-          "+8801701221945",
-          null,
-          null
-        ]
-      },
-      {
-        "· Branch code 232": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210350737",
-          "+8801701221942",
-          null,
-          null
-        ]
-      },
-      {
-        "· Branch code 233": [
-          "North Brook Hall Road",
-          "https://www.standardbankbd.com/en/branch/210275054",
-          "+8801701221954",
-          null,
-          null
-        ]
-      },
-      {
         "Sandwip Branch": [
-          null,
+          "Abdul Mannan Complex (1st Floor),, Haramia, Sandwip",
           "https://www.standardbankbd.com/en/branch/210156915",
           "+8801701221951",
-          null,
+          "610033",
           "210156915"
         ]
       },
       {
         "Kumarkhali Branch": [
-          null,
+          "Kumarkhali Tower (1st floor), Holding. 43-10, Shahid Golam Kibria Sarak, Kumarkhali",
           "https://www.standardbankbd.com/en/branch/210500882",
           "+8801701221960",
-          null,
+          "610206",
           "210500882"
         ]
       },
       {
         "Pallabi Branch": [
-          null,
+          "Alam Tower (1st & 2nd floor), Plot-18, Road-03, Section-07, Pallabi Main Road, Mirpur",
           "https://www.standardbankbd.com/en/branch/210263587",
           "+8801701221957",
-          null,
-          null
-        ]
-      },
-      {
-        "· Branch code 237": [
-          "Dhaka Uddan",
-          "https://www.standardbankbd.com/en/branch/210261226",
-          "+8801701221963",
-          null,
-          null
-        ]
-      },
-      {
-        "· Branch code 238": [
-          null,
-          "https://www.standardbankbd.com/en/branch/210220762",
-          "+8801701221966",
-          null,
-          null
-        ]
-      },
-      {
-        "PRINCIPAL": [
-          "Metropolitan Chamber Building (GF) 122-124 Motijheel C/A Dhaka-1000 Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210275359",
-          "02-9513686; 02-9513687; 02-9559044",
-          null,
-          null
-        ]
-      },
-      {
-        "KHATUNGONJ": [
-          "33 Ramjoy Mohajan Lane Khatungonj, Chittagong Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210154270",
-          "031-639593-4; 031-628424",
-          null,
-          "210154270"
-        ]
-      },
-      {
-        "IMAMGONJ": [
-          "Bellal Market 79 Moulvi Bazar, Dhaka Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210272802",
-          "02-7312525; 02-7311243",
-          null,
-          null
+          "610160",
+          "210263587"
         ]
       },
       {
@@ -116750,52 +116867,7 @@
           "Crescent Centre, 36 Topkhana Road, Dhaka-1000 Bangladesh",
           null,
           "02-9571413",
-          null,
-          null
-        ]
-      },
-      {
-        "AGRABAD": [
-          "World Trade Center (2nd Floor), 102-103 Agrabad C/A, Chittagong Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210150137",
-          "031-2513135; 031-713432",
-          null,
-          "215150132"
-        ]
-      },
-      {
-        "KHULNA": [
-          "Chamber Building (GF), 5 KDA Avenue, Khulna, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210471540",
-          "041-732655; 041-721289",
-          "230020",
-          "210471540"
-        ]
-      },
-      {
-        "GULSHAN": [
-          "Shezad Palace, 32 Gulshan Avenue, North Commercial Area, Dhaka-1212, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210261721",
-          "02-9852679; 02-9885164",
-          "230031",
-          null
-        ]
-      },
-      {
-        "JUBILEE ROAD": [
-          "Aziz Chamber, 6 Noor Ahmed Road (Jubilee Road), Chittangong, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210153642",
-          "031-627811; 031-612188",
-          null,
-          "210153642"
-        ]
-      },
-      {
-        "FOREIGN EXCHANGE": [
-          "Nick Tower, 55 Dilkusha C/A, Dhaka-1000, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210272323",
-          "02-9571933; 02-9586864",
-          null,
+          "610102",
           null
         ]
       },
@@ -116804,151 +116876,7 @@
           "Plot- 113/C, Road-7, Sector-4, Uttara Model Town, Dhaka-1230, Bangladesh",
           null,
           "02-8955171-2; 02-7911469",
-          "230010",
-          null
-        ]
-      },
-      {
-        "DHANMONDI": [
-          "House-4, Road-27 (Old), Dhanmondi, Dhaka, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210261189",
-          "02-9145737",
-          null,
-          "215261218"
-        ]
-      },
-      {
-        "SYLHET": [
-          "Thikana Tower (1st Floor), Naya Sarak, Sylhet, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210913558",
-          "0821-728785; 0821-710434",
-          "230007",
-          "210913558"
-        ]
-      },
-      {
-        "NARAYANGONJ": [
-          "Khan Super Market,47/9 BB Road, DIT, Narayangonj, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210671182",
-          "02-7646153",
-          "230015",
-          "210671182"
-        ]
-      },
-      {
-        "GULSHAN-1": [
-          "Uday Tower, 57/A Gulshan Avenue (South), Circle-1, Dhaka-1212, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210261934",
-          "02-9862111; 02-9840906",
-          "230031",
-          null
-        ]
-      },
-      {
-        "PANTHAPATH": [
-          "DH Tower, 129 Sheikh Russel Square, Panthapath, Dhaka, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210263611",
-          "02-9667125-6; 02-9666521",
-          null,
-          null
-        ]
-      },
-      {
-        "BANANI": [
-          "Plot-106, Road-11, Block-C, Banani, Dhaka, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210260430",
-          "02-9889545",
-          "230006",
-          null
-        ]
-      },
-      {
-        "MIRPUR": [
-          "Northern Lion RP Tower, Plot-4, Block-D, Sector-2, Chiriakhana Road, Mirpur, Dhaka, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210262988",
-          "02-9014059-60; 02-9014059",
-          null,
-          "215262983"
-        ]
-      },
-      {
-        "MOHAKHALI": [
-          "Green Delta Aims Tower (GF), 51-52 Mohakhali C/A, Dhaka-1212, Bangladesh",
-          "https://www.standardbankbd.com/en/branch/210263190",
-          "02-9855478; 02-9855476",
-          null,
-          null
-        ]
-      },
-      {
-        "Green Road": [
-          "Castle Green(1St floor)142 Green Road. Dhaka-1205",
-          "https://www.standardbankbd.com/en/branch/210261697",
-          "02-9102771; 02-9120366; 02-9120371",
-          null,
-          null
-        ]
-      },
-      {
-        "For a better": [
-          null,
-          null,
-          "/media?id=03338b39-8d42-4686-b97f-663d81381405.webp",
-          null,
-          null
-        ]
-      },
-      {
-        "Bank smarter,": [
-          null,
-          null,
-          "/media?id=b817b06b-964a-4190-81f5-8a7b4a681aa1.webp",
-          null,
-          null
-        ]
-      },
-      {
-        "For simpler, smarter payments.": [
-          null,
-          null,
-          "/media?id=5ae9470f-fea8-432a-888f-05181cdaac4d.webp",
-          null,
-          null
-        ]
-      },
-      {
-        "Together in Trust & Progress": [
-          null,
-          null,
-          "/media?id=148e991f-dc6d-4800-98d1-1e42ade8d56c.webp",
-          null,
-          null
-        ]
-      },
-      {
-        "Banking Made Easy,": [
-          null,
-          null,
-          "/media?id=df4aa65d-f177-4bad-bdc6-ac9e1ed49718.webp",
-          null,
-          null
-        ]
-      },
-      {
-        "Branch POS": [
-          "Express Booth (KIOSK Banking)",
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "Information Memorandum of Standard Islami Bank 4th Subordinated Bond": [
-          "à§¬à¦·à§à¦ à¦¬à¦¾à¦à¦²à¦¾à¦¦à§à¦¶ à¦¸à¦°à¦à¦¾à¦° à¦¬à¦¿à¦¨à¦¿à¦¯à¦¼à§à¦ à¦¸à§à¦à§à¦",
-          "https://new.standardbankbd.com/NIS.php",
-          null,
-          null,
+          "610107",
           null
         ]
       }
