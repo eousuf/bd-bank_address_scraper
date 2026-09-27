@@ -3,10 +3,15 @@
   "bank_url": "https://www.nccbank.com.bd/",
   "method": "html_table",
   "status": "success",
+  "bank_id": "53",
+  "total_branch": 69,
+  "total_sub_branch": 0,
   "branch": [
     {
       "Haji Nur Market (2 nd Floor)": [
         "Sarak bazar,Main Road,Akhaura,Brahmanbaria",
+        null,
+        null,
         null,
         null
       ]
@@ -15,6 +20,8 @@
       "AD Branch": [
         "No",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -22,12 +29,16 @@
       "SME/Agri Branch": [
         "No",
         null,
+        null,
+        "531602",
         null
       ]
     },
     {
       "Chikondondi": [
         "Hathazari, Chattogram.",
+        null,
+        null,
         null,
         null
       ]
@@ -36,12 +47,16 @@
       "Hara Kishore Chowdhury Trust": [
         "1209, K.B Aman Ali Road, Kotwali,Chattogram",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Reaz Medicine Market": [
         "57, Mitford Road, Babubazar",
+        null,
+        null,
         null,
         null
       ]
@@ -50,12 +65,16 @@
       "AD Branch": [
         "Yes. Swift Code:NCCLBDDHBBB",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tower 52": [
         "1st & 2nd floor, House No.52, Road No.11, Block C, Banani, Dhaka-1213",
+        null,
+        null,
         null,
         null
       ]
@@ -64,12 +83,16 @@
       "Dhakhhinbazar": [
         "Main Road, Baralekha , Moulvibazar-3250",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Upandra Bhaban": [
         "102/103,Sadar Road,Barisal",
+        null,
+        null,
         null,
         null
       ]
@@ -78,12 +101,16 @@
       "Saiham Sky View Tower (1st floor)": [
         "45, Bijoy Nagar, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Al Amin Plaza (1st floor)": [
         "T.A Road, Brahmanbaria",
+        null,
+        null,
         null,
         null
       ]
@@ -92,12 +119,16 @@
       "SME/Agri Branch": [
         "Yes",
         null,
+        null,
+        "531602",
         null
       ]
     },
     {
       "Ali Plaza(1st Floor)": [
         "CEPZ Gate, Airport Road, South Halishahar, Bander, Chattogram.",
+        null,
+        null,
         null,
         null
       ]
@@ -106,12 +137,16 @@
       "Haji Ahasan Ullah Bhuiyan Tower (1st floor)": [
         "1422, Main Road,,Chagalnaiya,Dist-Feni",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Al-Aksha Shopping Tower": [
         "57, Chringa Bus Station, Chakaria, Cox's Bazar",
+        null,
+        null,
         null,
         null
       ]
@@ -120,12 +155,16 @@
       "Chaumuhani Plaza (2nd & 3rd Floor)": [
         "51, DB Road, Chaumuhani , Noakhali",
         null,
+        null,
+        "530282",
         null
       ]
     },
     {
       "Sayed Complex": [
         "Airport Road, Ambarkhana, Sylhet",
+        null,
+        null,
         null,
         null
       ]
@@ -134,12 +173,16 @@
       "K.C. Plaza (1st Floor)": [
         "Dhakhinkhan, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Quality Center": [
         "744, Shat Masjid Road, Dhanmondi, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -148,12 +191,16 @@
       "Hossain Chamber": [
         "43,Dilkusha C/A, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Taj Bhaban (1st Floor)": [
         "Munshipara, Dinajpur",
+        null,
+        null,
         null,
         null
       ]
@@ -162,12 +209,16 @@
       "Hazi Ibrahim Hossain Market": [
         "10 Trank Road, Feni",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "29/A": [
         "Toyenbee Circular Road, Motijheel C/A, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -176,12 +227,16 @@
       "51 Gulshan Avenue": [
         "Circle-1, Gulshan, Dhaka",
         null,
+        null,
+        "530426",
         null
       ]
     },
     {
       "Latif Tower": [
         "2/3, Ahsanullah Road (2nd Floor). Islampur, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -190,12 +245,16 @@
       "Liberty Tower": [
         "348, Hatkhola Road, Jashore",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Dominion Plaza (1st Floor)": [
         "5 Jubilee Road, Chattogram",
+        null,
+        null,
         null,
         null
       ]
@@ -204,12 +263,16 @@
       "Juri New Market Bhaban (1st Floor)": [
         "Juri, Moulvibazar",
         null,
+        null,
+        "530501",
         null
       ]
     },
     {
       "Shahabuddin Trade Center": [
         "Holding No.1230, D.T Road, Dhanialapara,Thana-Doublemooring, Ward No.23, Chattogram City Corporation, District- Chattogram",
+        null,
+        null,
         null,
         null
       ]
@@ -218,12 +281,16 @@
       "Shyamlal Market (1st floor)": [
         "Holding No.37, Shaheed Moyez Uddin Road, Kaligonj Pouroshova, Thana-Kaligonj, District- Gazipur",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Karnafully Centre": [
         "Arkan Road, Holding no.4902/A, P.O-Mohora, Ward No-05, P.S-Chandgaon, Chattogram.",
+        null,
+        null,
         null,
         null
       ]
@@ -232,12 +299,16 @@
       "Haque Tower Shopping Complex(1st Floor)": [
         "Plot No. 9712, Satkania, Chattogram",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jahangir Tower": [
         "10 Kazi Nazrul Islam Avenue, Kawran Bazar C/A, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -246,12 +317,16 @@
       "Mostafa Tower (1st floor)": [
         "A/36 Kumarpara, Sylhet",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Idrish Bhaban": [
         "Mohajan Pattay Laldihgirpar, Sylhet",
+        null,
+        null,
         null,
         null
       ]
@@ -260,12 +335,16 @@
       "Chowdhury Super Market": [
         "College Road, Laxmipur",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bhatiary": [
         "Sitakunda, Chattogram.",
+        null,
+        null,
         null,
         null
       ]
@@ -274,6 +353,8 @@
       "MadaripurNew Market (1st Floor)": [
         "488, Main Road, Puran Bazar, Madaripur",
         null,
+        null,
+        "530538",
         null
       ]
     },
@@ -281,12 +362,16 @@
       "P.O Madunaghat Bazar": [
         "Rashir Bari, Hathazari, Chattogram",
         null,
+        null,
+        "530068",
         null
       ]
     },
     {
       "Janata Shoping Center & Nizam Plaza": [
         "Word no-01,main road,Maijdee,Noakhali",
+        null,
+        null,
         null,
         null
       ]
@@ -295,12 +380,16 @@
       "B-63": [
         "Malibagh Chowdhury Para, DIT Road, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Paradise Bhaban": [
         "34 Mitford Road (1st Floor), Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -309,12 +398,16 @@
       "N.R. Tower (1st & 2nd Floor)": [
         "151, S.S.K. Road, Mohipal, Feni",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Yakub Mansion": [
         "Sylhet Road, Moulvibazar",
+        null,
+        null,
         null,
         null
       ]
@@ -323,12 +416,16 @@
       "Shopnil Plaza (1st floor)": [
         "Holding No. 189, Bus Stand Road, Nandail Mymensingh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Zahir Plaza(1st floor)": [
         "246, Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -337,6 +434,8 @@
       "Tara Miah Mansion": [
         "187, Bangabandhu Road, Narayangonj",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -344,12 +443,16 @@
       "NCC Bank Bhaban": [
         "13/1 & 13/2 Toyenbee Circular Road, Motijheel C/A, Dhaka",
         null,
+        null,
+        "530107",
         null
       ]
     },
     {
       "Monem Business District (Level-3)": [
         "111, Bir Uttam C.R. Dutta Road, Panthapath, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -358,12 +461,16 @@
       "Badda Tower": [
         "Cha 72/1, North Badda, Pragoti Sarani, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Monjuri Plaza (1st floor)": [
         "8/9, G.L. Roy Road, Rangpur",
+        null,
+        null,
         null,
         null
       ]
@@ -372,12 +479,16 @@
       "Haji Abdul Razzak Tower (1st Floor)": [
         "2/2, South Kallayanpur Mirpur Road Dhaka-1207",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Haji Rahimullah Complex (1st floor)": [
         "Main road, Sonagaji, Feni",
+        null,
+        null,
         null,
         null
       ]
@@ -386,12 +497,16 @@
       "Kohinoor Mansion (1st Floor)": [
         "Shaheed Dr. Zikrul Haque Road, Syedpur, Nilphamari",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Masjid Road": [
         "Pachani Bazar, P.S- Tangail, Dist.- Tangail",
+        null,
+        null,
         null,
         null
       ]
@@ -400,12 +515,16 @@
       "House - 1": [
         "Road - 12,Sector-6, Uttara Model Town, Uttara, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Toslim Tower (1st floor)": [
         "Holding No.15, Sadar Hospital More, Academy Road, Feni pourashava, Feni",
+        null,
+        null,
         null,
         null
       ]
@@ -414,12 +533,16 @@
       "Islamic Banking Window": [
         "No",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Akash Avenue (2nd floor)": [
         "12 Kemal Ataturk Avenue, Gulshan, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -428,12 +551,16 @@
       "A. H. Paragon": [
         "282 CDA Avenue, Muradpur, Chattogram City Corporation, Ward No. 08, Thana- Panchlaish, Chattogram",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "R.H Plaza (1st floor)": [
         "Holding No.753 & 755, Bangabandhu Road, Thakurgaon Pourashava, Thakurgaon",
+        null,
+        null,
         null,
         null
       ]
@@ -442,12 +569,16 @@
       "Neom Tower (1st Floor)": [
         "Holding No. 0445-000, Chairmanpara, Bandarban Pouroshova, Bandarban Sadar, Bandarban",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Moitree Tower": [
         "Holding No.19, Teripatty Road, Cumilla.",
+        null,
+        null,
         null,
         null
       ]
@@ -456,12 +587,16 @@
       "Sufain Market (1st floor)": [
         "Holding No.498-01, Faziler Ghat Road, Daganbhuiyan Pourashava, Daganbhuiyan, Feni.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Hazi Anower Mansion(1st Floor)": [
         "Holding No: 532, 535, Goalbari Moor, Donia, Jatrabari, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -470,6 +605,8 @@
       "Hussain Trading Company Ltd.": [
         "71, KDA Avenue, Ward No.19, Khulna City Corporation, Khulna",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -477,12 +614,16 @@
       "Alam Market (1st floor)": [
         "Korerhat, Thana-Jorargonj, District- Chattogram",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Lalbagh Classic Tower (1st Floor)": [
         "House: 27/4/Ka, Dhakeshwari road, Lalbagh, Dhaka",
+        null,
+        null,
         null,
         null
       ]

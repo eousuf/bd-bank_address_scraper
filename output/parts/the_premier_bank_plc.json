@@ -3,18 +3,25 @@
   "bank_url": "https://thepremierbankplc.com/",
   "method": "html_cards+markdown",
   "status": "success",
+  "bank_id": "66",
+  "total_branch": 207,
+  "total_sub_branch": 70,
   "branch": [
     {
       "Dilkusha Branch (0101)": [
         "Raj Bhaban (1st & 2nd floor), 29 Dilkusha C/A, Dhaka South City Corporation, Thana-Motijheel, Dhaka - 1000",
         null,
-        "02-47122939; 02-02223350211"
+        "02-47122939; 02-02223350211",
+        "660101",
+        null
       ]
     },
     {
       "Gulshan Branch (0102)": [
         "78, Gulshan Avenue, Ward No. 19, Dhaka North City Corporation, Gulshan, Dhaka - 1212",
         null,
+        null,
+        "660100",
         null
       ]
     },
@@ -22,13 +29,17 @@
       "Banani Branch (0104)": [
         "Iqbal Centre (2nd Floor), 42 Kemal Ataturk Avenue, Banani, Dhaka -1213",
         null,
-        "02-222274844-8"
+        "02-222274844-8",
+        "660102",
+        null
       ]
     },
     {
       "Imamgonj Branch (0106)": [
         "75, Mitford Road, Imamgonj, Thana-Lalbag, Dhaka - 1100",
         null,
+        null,
+        "660103",
         null
       ]
     },
@@ -36,34 +47,44 @@
       "Kawran Bazar Branch (0107)": [
         "BTMC Bhaban, (North East Side) 07-09, Kawran Bazar, Thana-Tejgaon, Dhaka - 1215",
         null,
-        "02 55013341-43"
+        "02 55013341-43",
+        "660104",
+        null
       ]
     },
     {
       "Motijheel Branch (0108)": [
         "81, Motijheel C/A, Dhaka - 1000",
         null,
-        "8802223390114"
+        "8802223390114",
+        "660105",
+        null
       ]
     },
     {
       "Meghnaghat Branch (109)": [
         "New Town Commercial Complex (1st Floor), Meghnaghat, Union-Pirojpur, Thana-Sonargoan, Narayanganj - 1440",
         null,
-        null
+        null,
+        "660150",
+        "235671004"
       ]
     },
     {
       "Dhanmondi Branch (0110)": [
         "House-84(1st Floor), Road No. 7/A, Dhanmondi, Dhaka - 1209",
         null,
-        "02-9102045"
+        "02-9102045",
+        "660106",
+        null
       ]
     },
     {
       "Uttara Branch (0112)": [
         "\"Siam Tower'', Holding No. 15, Sector No. 03, Dhaka Mymensingh Road, Ward No. 1, Dhaka Norty City Corporation, Thana-Uttara, Dhaka - 1230",
         null,
+        null,
+        "660107",
         null
       ]
     },
@@ -71,19 +92,25 @@
       "Elephant Road Branch (0114)": [
         "Holding No. 209/2 (1st & 2nd Floor), Elephant Road, Ward No. 18, Dhaka South City Corporation, Thana-New Market,Dhaka - 1205",
         null,
-        "0258611883; 0258616803; 01730002661"
+        "0258611883; 0258616803; 01730002661",
+        "660108",
+        null
       ]
     },
     {
       "Dhaka EPZ Branch (0115)": [
         "Hashem Plaza (1st Floor), DEPZ Gate, Ganakbari, Union-Dhamsona, Thana-Savar, Dhaka - 1339",
         null,
-        "02-996688408; 02-996688409"
+        "02-996688408; 02-996688409",
+        "660151",
+        null
       ]
     },
     {
       "Mohakhali Branch (0116)": [
         "99, Mohakhali C/A, Dhaka - 1212",
+        null,
+        null,
         null,
         null
       ]
@@ -92,12 +119,16 @@
       "Bangshal Branch (0119)": [
         "70, Shahid Syed Nazrul Islam Sarani (1st Floor), Bangshal, Dhaka - 1100",
         null,
-        "02223385738"
+        "02223385738",
+        "660110",
+        null
       ]
     },
     {
       "Narayangonj Branch (0120)": [
         "Al Joynal Plaza, Holding No. 56, S. M. Maleh Road, Tanbazar, Ward No. 15, Narayanganj City Corporation, Thana-Narayanganj Sadar, Narayangonj - 1400",
+        null,
+        null,
         null,
         null
       ]
@@ -106,104 +137,134 @@
       "Joydebpur Branch (0121)": [
         "Islam Plaza (1st floor), Holding No. 940, Gazipur Chowrasta, Ward No. 16, Gazipur City Corporation, Thana-Joydebpur, Gazipur - 1702",
         null,
-        "01711269191; 01674432658"
+        "01711269191; 01674432658",
+        "660153",
+        "235330732"
       ]
     },
     {
       "Bhairab Bazar Branch (0122)": [
         "Holding no. 172 (1st floor), West Kalibari Road, Paurashava & Thana-Bhairab, Kishoregonj - 2350",
         null,
-        null
+        null,
+        "660154",
+        "235480224"
       ]
     },
     {
       "Kakrail Branch (0124)": [
         "46/A (1st floor), VIP Road, Kakrail, Thana-Ramna, Dhaka -1000",
         null,
-        "+8802222220042; +8802222224628; +8802222224286"
+        "+8802222220042; +8802222224628; +8802222224286",
+        "660111",
+        null
       ]
     },
     {
       "Tongi Branch (0126)": [
         "175, Kazi Market (1st Floor), Mymensing Road, Tongi Paurashava, Thana-Tongi, Gazipur - 1710",
         null,
-        null
+        null,
+        "660155",
+        "235331636"
       ]
     },
     {
       "Zinzira Branch (0127)": [
         "Haji Nannu Bepari Manson (1st floor), 2nd Buriganga Bridge Road, Zinzira, Union-Suvadda, Thana-Keraniganj, Dhaka - 1310",
         null,
-        "01730000466"
+        "01730000466",
+        "660156",
+        null
       ]
     },
     {
       "Rokeya Sarani Branch (0129)": [
         "Oreintal Arabian Tower (Ground & 1st floor) 849/3, Begum Rokeya Sarani, Shawrapara, Thana-Kafrul, Dhaka - 1216",
         null,
-        "02 48037132; 02 58054753; 02 48037131"
+        "02 48037132; 02 58054753; 02 48037131",
+        "660112",
+        null
       ]
     },
     {
       "Savar Branch, Savar (0130)": [
         "Savar New Market (Ground floor), Holding No. 03, Savar Bazar Bus Stand, Pourashabha & Thana-Savar, Dhaka - 1340",
         null,
-        "02224443753; 02224443754"
+        "02224443753; 02224443754",
+        "660157",
+        null
       ]
     },
     {
       "Mymensingh Branch (0131)": [
         "Holding No-29 (1st Floor & 2nd Floor), Chotto Bazar, Ward No. 8, Mymensingh Pourashave, Thana-Kotwali, Mymensingh - 2200",
         null,
-        "01730000487"
+        "01730000487",
+        "660158",
+        "235611756"
       ]
     },
     {
       "Kalabagan Branch (0134)": [
         "Holding No. 2, Sultana Tower (1st Floor), Mirpur Road, Ward No. 51, Kalabagan, Thana-Dhanmondi, Dhaka - 1205",
         null,
-        "02 8141052"
+        "02 8141052",
+        "660113",
+        null
       ]
     },
     {
       "Konabari Branch (0135)": [
         "Plot no. A-138, BSCIC I/E, Union-Konabari, Thana-Gazipur Sadar, Gazipur - 1346",
         null,
-        "02996697886; 02996697887; 01730-002633"
+        "02996697886; 02996697887; 01730-002633",
+        "660159",
+        "235330945"
       ]
     },
     {
       "Rampura Branch (0136)": [
         "Holding No. 1/2, West Hazipara, DIT Road, Ward No. 22, Dhaka Norty City Corporation, Thana-Ramna, Dhaka - 1219",
         null,
-        "02-222222370; 02-222222013; 02-222222399"
+        "02-222222370; 02-222222013; 02-222222399",
+        "660114",
+        null
       ]
     },
     {
       "Bhulta Branch (0138)": [
         "Bhuiya Mansion Market (1st floor), Union-Golakandail, Bhulta, Thana-Rupganj, Narayanganj - 1462",
         null,
-        "01730002669; 01730781854"
+        "01730002669; 01730781854",
+        "660160",
+        "235670221"
       ]
     },
     {
       "Nawabpur Road Branch (0139)": [
         "Holding No. 243-244, Nawabpur Road, Word No. 71, Dhaka City Corporation, Thana-Kotwali, District: Dahaka - 1100",
         null,
-        "02-223389759; 02-223359316"
+        "02-223389759; 02-223359316",
+        "660120",
+        null
       ]
     },
     {
       "Pagla Branch (0141)": [
         "Al-Hajj Afsar Karim Bhaban (Ground Floor), D.N. Road, Pagla, Union-Kutubpur, Thana-Fatulla, Narayangonj - 1421",
         null,
-        "02-47696691"
+        "02-47696691",
+        "660161",
+        "235671309"
       ]
     },
     {
       "Panthapath Branch (0144)": [
         "Envoy Tower (1st Floor), 18/E, Panthapath, North Dhanmondi, Thana-Kalabagan, District-Dhaka - 1205",
         null,
+        null,
+        "660122",
         null
       ]
     },
@@ -211,26 +272,34 @@
       "Board Bazar Branch (0146)": [
         "�Monsur Plaza� (1st floor) Holding No. 2002/6, Dhaka Mymensingh High Way Road, Ward No. 35, Gazipur City Corporation, Thana-Joydebpur, Gazipur - 1704",
         null,
-        null
+        null,
+        "660162",
+        "235330224"
       ]
     },
     {
       "Askona Branch (0148)": [
         "Hazi Kamar Uddin Tower, 27 (1st Floor-East Side), Ashkona, Ward No. 03, Union-Dakkhin Khan, Thana-Dakkhin Khan, Dhaka - 1230",
         null,
-        "01641381359"
+        "01641381359",
+        null,
+        null
       ]
     },
     {
       "Gulshan Circle-2 Branch (0149)": [
         "Doreen Tower (Level-2), 6-A, North Avenue, Gulshan-2, Ward No.19, Dhaka Norty City Corporation, Thana-Gulshan, Dhaka - 1212",
         null,
-        "+88028831732; +88028831701"
+        "+88028831732; +88028831701",
+        "660100",
+        null
       ]
     },
     {
       "Shyamoli Branch (0150)": [
         "Shyamoli Cinema Complex, (1st Floor), 23/8-B, 8-C, Shyamoli, Mirpur Road, Ward No. 45, Thana-Mohammadpur, Dhaka - 1207",
+        null,
+        null,
         null,
         null
       ]
@@ -239,76 +308,98 @@
       "Tangail Branch (0151)": [
         "Tangail Pouroshova Bhaban, Holding No. 61, Zilla Sadar Road, Ward No. 16, Tangail Pourashava, Thana-Tangail Sadar, Tangail - 1900",
         null,
-        "0921-62342; 0921-62054"
+        "0921-62342; 0921-62054",
+        "660163",
+        "235932293"
       ]
     },
     {
       "Dilkusha Corporate Branch (0152)": [
         "Moon Mansion, Plot No-12, Dilkusha C/A, Ward-32, Thana-Motijheel, Dhaka - 1000",
         null,
-        "02-47110834"
+        "02-47110834",
+        "660127",
+        null
       ]
     },
     {
       "Narsingdi Branch (0154)": [
         "Holding No-10, CNB Road, Woard No-5, Narsingdi Pourashava, Thana-Narsingi Sadar, Narsingdi - 1600",
         null,
-        "+8802224452237; +8802224451838"
+        "+8802224452237; +8802224451838",
+        null,
+        null
       ]
     },
     {
       "Bashundhara Branch (0155)": [
         "Plot # 189. (Ground Floor) Block B, Basundhara Resident Area, Main Road, Thana-Badda, District- Dhaka - 1229",
         null,
-        "02-8432534"
+        "02-8432534",
+        "660128",
+        null
       ]
     },
     {
       "Bhaluka Branch (0156)": [
         "Holding No-251, (First Floor), Block-B, Bhaluka Bus Stand, Ward No. 2, Bhaluka Pourashava, Thana-Bhaluka, Mymensingh - 2240",
         null,
-        null
+        null,
+        "660165",
+        "235610315"
       ]
     },
     {
       "Madanpur Branch (0157)": [
         "Madanpur Shopping Complex, Union-Madanpur, Thana-Bandar, Narayangonj - 1411",
         null,
-        null
+        null,
+        "660166",
+        "235670971"
       ]
     },
     {
       "Munshigonj Branch (0158)": [
         "A.K. Chowdhury Bhaban (1st Floor), Sadar Road, Munshigonj - 1500, Bangladesh",
         null,
-        "+880 01755608394"
+        "+880 01755608394",
+        "660133",
+        null
       ]
     },
     {
       "Matuail Branch (0159)": [
         "Purbani Plaza (1st Floor), House # 06, Block-A, Road: Para Dogair, Konapara, Union: Matuail, Demra, Dhaka - 1362",
         null,
-        "880-2-7559756; 880-2-7559752"
+        "880-2-7559756; 880-2-7559752",
+        "660134",
+        null
       ]
     },
     {
       "Dhaka New Market Branch (0160)": [
         "New Market City Complex (1st Floor), 44/1, Rahim Square, New Market, Dhaka - 1205",
         null,
-        "02-9634923; 01755608393"
+        "02-9634923; 01755608393",
+        "660131",
+        null
       ]
     },
     {
       "Danga Branch (0161)": [
         "Danga Bazar, (1st Floor), Union: Danga, Thana-Polash, Narsingdi - 1720",
         null,
-        null
+        null,
+        "660132",
+        "235680437"
       ]
     },
     {
       "Dhanmondi Satmasjid Road Branch (0162)": [
         "House#48( New), 748( Old), Satmosjid Road, Dhanmondi, Ward No. 15, Dhaka South City Corporation, Thana-Dhanmondi, Dhaka - 1209",
         null,
+        null,
+        "660106",
         null
       ]
     },
@@ -316,34 +407,44 @@
       "Ashulia Branch (0164)": [
         "\"Sagar Super Market'' (1st Floor), Union-Yearpur, Thana-Ashulia, District-Dhaka - 1349",
         null,
-        "+8801625-420688"
+        "+8801625-420688",
+        "660130",
+        null
       ]
     },
     {
       "Satarkul Branch (0165)": [
         "Holding No. 238 (1st Floor), Abdullahbag Mor, Satarkul Road, Ward No. 38, Dhaka North City Croporation, Thana-Badda, District-Dhaka - 1212",
         null,
-        "02-55056925"
+        "02-55056925",
+        "660136",
+        null
       ]
     },
     {
       "Garib E Newaz Avenue Branch (0166)": [
         "Plot # 32 (1st floor), Garib E Newaz Avenue, Sector-11, Uttara, Dhaka - 1230",
         null,
-        "02-8991402; 02-8991558"
+        "02-8991402; 02-8991558",
+        "660135",
+        null
       ]
     },
     {
       "Gulshan Link Road Branch (0168)": [
         "��Irving Rista�� House no. Ga 82 & Ga 90/1, Gulshan Link Road, Word No. 21, Dhaka North City Corporation, Thana- Badda, Dhaka - 1212",
         null,
-        "02222291795; 02222291796"
+        "02222291795; 02222291796",
+        "660138",
+        null
       ]
     },
     {
       "Baridhara Branch (0169)": [
         "Holding no. # 06 (Gr. & 1st floor), Road no.# 2/B, Block # J, Word no. 18, Baridhara, Dhaka North City Corporation, Thana-Vatara, District- Dhaka - 1212",
         null,
+        null,
+        "660137",
         null
       ]
     },
@@ -351,19 +452,25 @@
       "Madhabdi Branch (0170)": [
         "�Nannu Latif Tower� (1st & 2nd flr.), Holding No. # 215/216, Police Fari Road, Ward No. 7, Madhabdi Paurashava, Thana-Madhabdi, District-Narsingdi - 1604",
         null,
-        "0175-5557768; 0171-7194174; 0193-3345772"
+        "0175-5557768; 0171-7194174; 0193-3345772",
+        "660141",
+        "235680679"
       ]
     },
     {
       "Elenga Branch (0172)": [
         "�Molla Bhaban� (1st floor), Holding No. # 1390, Old Bhuapur Road, Ward No. 6, Paurashava-Elenga, Thana-Kalihati, District- Tangail - 1974",
         null,
-        "01985551852; 01755558825"
+        "01985551852; 01755558825",
+        "660139",
+        "235930824"
       ]
     },
     {
       "Shyamgonj Bazar Branch (0173)": [
         "Shyamgonj Bazar, Union- Mailakanda, Thana-Gouripur, District- Mymensingh - 2411",
+        null,
+        null,
         null,
         null
       ]
@@ -372,76 +479,98 @@
       "Kalibari Bazar Branch (0174)": [
         "Kalibari Adarsha Bazar, Union- Dhuptara, Thana-Araihazar, District-Narayangonj - 1460",
         null,
-        null
+        null,
+        "660142",
+        "235670092"
       ]
     },
     {
       "Ati Bazar Branch (0175)": [
         "Ati Bazar, Dag No. RS. 72, Khatian No. - RS 74, Mouza- Ati, Union- Shakta, Thana-Keranigonj, District- Dhaka - 1312",
         null,
-        "01755-599965; 01985552811; 02-5510311"
+        "01755-599965; 01985552811; 02-5510311",
+        "660143",
+        null
       ]
     },
     {
       "Kapasia Branch (0177)": [
         "Kapasia Bazar, Main Road, Union- Kapasia, Upzila- Kapasia, District- Gazipur - 1730",
         null,
-        null
+        null,
+        "660146",
+        "235330882"
       ]
     },
     {
       "Gulshan-Tejgaon Link Road Branch (0178)": [
         "SPL-Western Tower, Plot-186, Bir Uttam Shawkat Ali Sharak, Gulshan-Tejgaon Link Road, Tejgaon Industrial Area, Ward No-24, Dhaka North City Corporation, Thana-Tejgaon, District-Dhaka - 1208",
         null,
-        "01985552824"
+        "01985552824",
+        "660145",
+        null
       ]
     },
     {
       "Mirpur Section-1 Branch (0179)": [
         "Maa Plaza ( 1st Floor), Plot- C/2, Road No-1, Section-1, Ward No-8, Dhaka North City Corporation, Thana-Shah Ali, District-Dhaka - 1216",
         null,
-        "02-55075327; 02-55075328"
+        "02-55075327; 02-55075328",
+        "660144",
+        null
       ]
     },
     {
       "Faridpur Branch (0180)": [
         "Khan Trade Centre (1st Floor), Holding No. 95-97, Mujib Sarak, Ward No-15, Faridpur Pouroshova, Thana- Kotwali, District- Faridpur - 7800",
         null,
-        null
+        null,
+        "660147",
+        "235290522"
       ]
     },
     {
       "Bashgari Branch (0181)": [
         "�Z. Rahman PBL School & College� premises, Dag No. S.A 526,528,529,508 Khatian no. S.A 436, Mouza: Bashgari, Union: Gozariya, Thana: Bhairab, District: Kishoregonj - 2350",
         null,
-        null
+        null,
+        "660148",
+        "235480129"
       ]
     },
     {
       "Mawna Branch (0183)": [
         "Kitab Ali Plaza, Mawna Chowrasta, Dag No. R.S 1925, Khatian No. R.S 249, Mouza: Mulaid, Union: Telihati, Thana: Sreepur, District: Gazipur - 1740",
         null,
-        null
+        null,
+        "660149",
+        "235331007"
       ]
     },
     {
       "Hemayetpur Branch (0184)": [
         "�Madani Supermarket�, Dhaka-Aricha Highway, Hemayetpur, Dag No: R.S 121, Khatian No: R.S 1579, Mouza: Bilamalia, Union: Tetuljhora, Thana: Savar Model, District- Dhaka - 1340",
         null,
-        "01985551861; 01985551876"
+        "01985551861; 01985551876",
+        "660167",
+        null
       ]
     },
     {
       "Tungipara Branch (0185)": [
         "�Sheikh Lipu Complex�� Holding #168,Tungipara Mazar Road,Ward No-5, Tungipara Paurashava, Thana: Tungipara District: Gopalgonj - 8120",
         null,
-        "026656241; 01730000491"
+        "026656241; 01730000491",
+        "660168",
+        null
       ]
     },
     {
       "Pallabi Branch (0186)": [
         "�Midtown Shopping Mall�, Holding No# 22, Main Road, Section-7, Pallabi, Mirpur, Ward No-6, Dhaka North City Corporation, Thana: Pallabi, District: Dhaka - 1216",
         null,
+        null,
+        "660169",
         null
       ]
     },
@@ -449,83 +578,107 @@
       "Gulshan Glass House Branch (0189)": [
         "�The Glass House�, Plot No. 38, Gulshan Avenue, Gulshan Circle-1, Ward No. 19, Dhaka North City Corporation, Thana: Gulshan, District: Dhaka - 1212",
         null,
-        "+880-02-48810530-2"
+        "+880-02-48810530-2",
+        "660100",
+        null
       ]
     },
     {
       "Kalakopa Branch (0190)": [
         "�Sajeda Complex�, Dag No. R.S 435, 436, Khatian No. 258.80, Mouza: Kashimpur. Union: Kalakopa, Thana: Nababgonj, District: Dhaka - 1320",
         null,
-        "01985551880; 01858439939"
+        "01985551880; 01858439939",
+        "660171",
+        null
       ]
     },
     {
       "Sarishabari Branch (0191)": [
         "�Sarkar Plaza�, Holding No. 1832, Sarishabari Main Road, Ward No.-02, Pouroshova: Sarishabari, Upazila: Sarishabari, District: Jamalpur - 2050",
         null,
-        null
+        null,
+        null,
+        "235391489"
       ]
     },
     {
       "Kuliarchar Branch (0195)": [
         "�Kuliarchar Shopping Complex�, Holding No. 297/1, Thana Road, Ward No. 3 (Kuliarchar) & 4 (Gailkata Betiarkandi), Pouroshova: Kuliarchar, Upazila: Kuliarchar, District: Kishoregonj - 2340",
         null,
-        "+8802997764265; +8801313046497"
+        "+8802997764265; +8801313046497",
+        "660173",
+        null
       ]
     },
     {
       "Nikunja Branch (0197)": [
         "Holding No. 73/A, Airport Road, Nikunja (North) Ward No-17, Dhaka North City Corporation, Thana: Khilkhet, District: Dhaka - 1229",
         null,
-        "02-55098257; 01315388855"
+        "02-55098257; 01315388855",
+        "660172",
+        null
       ]
     },
     {
       "Baluchar Branch (0198)": [
         "�Bhai Bhai Molla Super Market�, Baluchar Bazar, Dag No. 709 & 710, Khatian No. 5084, Mouza-Baluchar, Union: Baluchar, Upazila: Sirajdikhan, District: Munshigonj - 1543",
         null,
-        "01785-699918"
+        "01785-699918",
+        "660174",
+        "235590143"
       ]
     },
     {
       "Netrokona Branch (0199)": [
         "�Khan Squire�, Holding No. 350, Barhatta Road, Ward No. 4, Pouroshova: Netrokona, Upazila: Netrokona Sadar, District: Netrokona - 2400",
         null,
-        null
+        null,
+        "660702",
+        "235720739"
       ]
     },
     {
       "Asad Gate Branch (0204)": [
         "Holding No. 1, Asad Gate, Ward No. 32, Thana: Muhammadpur, Dhaka South City Corporation, District: Dhaka - 1207",
         null,
-        "02-55027171"
+        "02-55027171",
+        "660175",
+        null
       ]
     },
     {
       "Nimtala Branch (0205)": [
         "�Z.H. Shikder Shopping Complex-1�, Nimtala, Dag No. 627/480, 629/478 & 739/451, Khatian No. 1160, 1161, 1130 & 1380, Mouza: Barihazi, Union: Keyain, Upazila: Sirajdikhan, District: Munshiganj - 1540",
         null,
-        null
+        null,
+        "660176",
+        "235591663"
       ]
     },
     {
       "Kalampur Branch (0208)": [
         "Kalampur Bazar, Dag No. 1703, Khatian No. 35, Mouza: Bhalum, Union: Sutipara, Thana: Dhamrai, District: Dhaka - 1351",
         null,
-        "01313046541; 01313046568"
+        "01313046541; 01313046568",
+        "660177",
+        null
       ]
     },
     {
       "Mirzapur Branch (0210)": [
         "Holding No. 219, Mirzapur Bazar, Ward No. 3, Mirzapur Paurasabha, Thana: Mirzapur, District: Tangail - 1940",
         null,
-        "8801313046525"
+        "8801313046525",
+        "660178",
+        "235931515"
       ]
     },
     {
       "Ruhitpur Branch, Dhaka (0212)": [
         "�A. K. Zilani Plaza� (1st Floor), Ruhitpur Bazar Road, Dag No. R.S.475, Khatian No. R.S.146/1, Mouza-Ruhitpur, Union-Ruhitpur, Thana-Keraniganj, District-Dhaka - 1310",
         null,
+        null,
+        "660179",
         null
       ]
     },
@@ -533,13 +686,17 @@
       "Gopalganj Branch, Gopalganj (0214)": [
         "�Adhunik Shamobay Biponi� (1st Floor), Holding No. 172, Puratan Bazar Road, Ward No. 02, Paurasabha-Gopalganj, Thana-Gopalganj Sadar, District-Gopalganj - 8100",
         null,
-        null
+        null,
+        "660180",
+        "235350370"
       ]
     },
     {
       "Uttara Isha Kha Avenue Branch (0215)": [
         "House No. 18 (1st Floor), Road No. 12, Sector No. 06, House Building, Ward No. 1, Dhaka North City Corporation, Thana-Uttara, District-Dhaka - 1230",
         null,
+        null,
+        "660107",
         null
       ]
     },
@@ -547,62 +704,80 @@
       "Kanchan Branch, Narayanganj (0217)": [
         "'Hazi Abdul Malek Bhuiya Shopping Complex'' (1st Floor), Kanchan Modho Bazar. Ward No. 6, Kanchan Pouroshabha, Thana-Rupganj, District-Narayanganj - 1461",
         null,
-        "01913-825277"
+        "01913-825277",
+        "660152",
+        "235671183"
       ]
     },
     {
       "Nagarpur Branch, Tangail (0218)": [
         "Holding No. 180 (1st Floor), Mouza-Babnapara, Union-Nagarpur, Thana-Nagarpur, District-Tangail - 1936",
         null,
-        null
+        null,
+        "660163",
+        "235932293"
       ]
     },
     {
       "Farmgate Branch, Dhaka (0220)": [
         "�Babul Tower� (Ground and 1st Floor), Holding No. 76/A, Kazi Nazrul Islam Avenue, Farmgate, Ward No. 26, Dhaka South City Corporation, Thana-Tejgaon, District: Dhaka - 1215",
         null,
-        "01906796964"
+        "01906796964",
+        "660184",
+        null
       ]
     },
     {
       "Donia SME/Agriculture Branch, Dhaka (0508)": [
         "�Akand Villa�, (1st Floor), Union-Donia, Thana-Kadamtali, District-Dhaka - 1236",
         null,
-        "02-223344116; 02-223344093"
+        "02-223344116; 02-223344093",
+        null,
+        null
       ]
     },
     {
       "Keranigonj SME/Agriculture Branch, Dhaka (0510)": [
         "'Shaba Complex'' (2nd Floor), Zinzira, Union-Aganagar, Thana-South Keraniganj, District-Dhaka - 1310",
         null,
-        "02-7764010"
+        "02-7764010",
+        "660123",
+        null
       ]
     },
     {
       "Hasnabad Branch (0221)": [
         "Nazim Uddin Complex (1st Floor) Hasnabad, South Keranigonj, Dhaka-1311, Bangladesh",
         null,
-        "01958194111"
+        "01958194111",
+        "660185",
+        null
       ]
     },
     {
       "Gulshan Avenue Branch": [
         "Simple Tree Anarkoli, (Ground Floor) 89 Gulshan Avenue Dhaka-1212",
         null,
-        "+8801711-443108"
+        "+8801711-443108",
+        "660186",
+        null
       ]
     },
     {
       "Agrabad Branch (0103)": [
         "Tower 71 ( 1st Floor), 71, Ward No. 28, Agrabad C/A, Chattogram City Croporation, Thana-Doublemoring, Chattogram - 4100",
         null,
-        "8802333322747"
+        "8802333322747",
+        "660001",
+        "235150138"
       ]
     },
     {
       "Ashugonj Branch (0105)": [
         "Station Road, Ashugonj, Brahmanbaria - 3402",
         null,
+        null,
+        "660021",
         null
       ]
     },
@@ -610,55 +785,71 @@
       "Khatungonj Branch (0111)": [
         "Nabi Super Market (1st floor), 232, Khatungonj, Thana-Kotwali, Chattogram - 4000",
         null,
-        "031-639523; 031-618259; 01711723119"
+        "031-639523; 031-618259; 01711723119",
+        "660002",
+        null
       ]
     },
     {
       "O.R. Nizam Road Branch (0123)": [
         "Holding No. 721, Premier Bank Building, CDA Avenue, Nasirabad, Chattogram City Corporation, Thana-Kotwali, Chattogram - 4203",
         null,
-        "+8802333352434-7"
+        "+8802333352434-7",
+        "660003",
+        "235155809"
       ]
     },
     {
       "Pahartoli Branch (0132)": [
         "Alonkar Shopping Complex (1st & 2nd floor), CDA Plot # P-7, Alonkar More, Ward No.10, Chattogram City Corporation, Thana-Pahartoli, Chattogram - 4202",
         null,
-        "+880243150514-17"
+        "+880243150514-17",
+        "660004",
+        null
       ]
     },
     {
       "Cumilla Branch (0137)": [
         "Salam Builders Mansion (1st floor), Holding No. 309, Rajganj, Thana-Kotwali, Cumilla - 3500",
         null,
-        "+8802334404972; +8802334405949; 01730000364"
+        "+8802334404972; +8802334405949; 01730000364",
+        "660051",
+        null
       ]
     },
     {
       "Feni Branch (0142)": [
         "933 (1st & 2nd Floor), S.S.K Road, Ward No. 17, Feni Pourashava, Thana-Feni Sadar, District-Feni - 3900",
         null,
-        "+8802334473107; +8802334473108"
+        "+8802334473107; +8802334473108",
+        "660061",
+        "235300520"
       ]
     },
     {
       "Jubilee Road Branch (0147)": [
         "�J.K. Tower� , Holding No. 14, K.C. Dey Road, Ward No.22, Chattogram City Croporation, Thana-Kotwali, District-Chattogram - 4000",
         null,
-        "8802333358242"
+        "8802333358242",
+        "660005",
+        "235153643"
       ]
     },
     {
       "Kadamtali Branch (0153)": [
         "Rafique Plaza (1st Floor), Holding No. 1151, D.T. Road, Kadamtoli, Ward No. 23, Chattogram City Corporation, Thana-Doublemooring, Chattogram - 4100",
         null,
-        "02333324409; 02333324410"
+        "02333324409; 02333324410",
+        null,
+        "235153735"
       ]
     },
     {
       "Nazirhat Branch (0163)": [
         "Sajib Plaza (1st Floor), Nazirhat Bazar, Union-Doulatpur, Thana-Fatikchhari, Chattogram - 4353",
         null,
+        null,
+        "660007",
         null
       ]
     },
@@ -666,20 +857,26 @@
       "Chittagong EPZ Branch (0167)": [
         "Grand Biz� (1st Floor), Holding No. 1685/A, Airport Road, CEPZ Circle, Chattogram EPZ, Ward no. 39, Chattogram City Corporation, Thana-Chattogram EPZ, Chattogram - 4100",
         null,
-        null
+        null,
+        "660008",
+        "235152002"
       ]
     },
     {
       "Chawk Bazar Branch (0176)": [
         "�K. B. Plaza� (1st Floor), Holding # 172/232, Golzar More, Chawkbazar, Chawteshary Road, Ward No-16, Chittagong City Corporation, Thana-Chawkbazar, District- Chittagong - 4302",
         null,
-        "02333351071"
+        "02333351071",
+        "660009",
+        "235151937"
       ]
     },
     {
       "Shantirhat Branch (0182)": [
         "Gomastar Para, Shantirhat, Union: Pomra, Thana: Rangunia, District: Chittagong - 4360",
         null,
+        null,
+        "660010",
         null
       ]
     },
@@ -687,34 +884,44 @@
       "Bahaddarhat Branch (0193)": [
         "Holding No. 4508, Bahaddarhat, Arakan Road, Ward No. 4, Chattogram City Corporation, Thana-Chandgaon, District: Chattogram - 4212",
         null,
-        "+880241388066; 0880241388067"
+        "+880241388066; 0880241388067",
+        "660011",
+        null
       ]
     },
     {
       "Manikarchar Branch (0196)": [
         "�Enam Super Market�, Manikarchar Bazar, Dag No. 4097, Khatian No. 1125, Mouza- Manikarchar, Union: Manikarchar, Upazila: Meghna, District: Cumilla - 3515",
         null,
-        "01313046498; 01317640400"
+        "01313046498; 01317640400",
+        "660012",
+        "235190543"
       ]
     },
     {
       "Cumilla Cantonment Branch (0203)": [
         "Gomti Tower (ground floor),Cumilla Cantonment, Cumilla, Bangladesh.",
         null,
-        "01332810009"
+        "01332810009",
+        "660051",
+        null
       ]
     },
     {
       "Mirsarai Branch (0209)": [
         "�Azmir Market��, Mirsarai Bazar, Ward No. 2, Paurasabha: Mirsarai, Thana: Mirsarai, District: Chattogram - 4320",
         null,
-        "01313046523"
+        "01313046523",
+        "660014",
+        "235155054"
       ]
     },
     {
       "Gouripur Branch, Cumilla (0216)": [
         "�Nurul Alam Plaza� (1st Floor), Union-Gouripur, Thana-Daudkandi, District: Cumilla - 3500",
         null,
+        null,
+        "660051",
         null
       ]
     },
@@ -722,69 +929,89 @@
       "Brahmanbaria SME/Agriculture Branch, Brahmanbaria (0507)": [
         "Holding No.37/34, Ward No 2, Brahmanbaria Pourasava, Thana-Brahmanbaria Sadar , District-Brahmanbaria - 3400",
         null,
-        "0851-61510; 0851-61511; 01730002779"
+        "0851-61510; 0851-61511; 01730002779",
+        null,
+        "235120447"
       ]
     },
     {
       "Chowmuhuni SME/Agriculture Branch, Noakhali (0509)": [
         "Rupsha Complex, Holding No. 1485, Ward No.4, Chowmuhuni Pourashabha, Thana-Begumganj, District-Noakhali - 3820",
         null,
-        "023344-92567; 01313046566"
+        "023344-92567; 01313046566",
+        null,
+        null
       ]
     },
     {
       "Cox's Bazar SME/Agriculture Branch, Cox's Bazar (0512)": [
         "'Ocean City'' (1st Floor), Holding No. 100/1, West Bazarghata, Main Road, Ward No.8, Cox's Bazar Pourasabha, Thana-Cox's Bazar Sadar, District-Cox's Bazar - 4700",
         null,
-        "+880 2333346974; 01332-810025"
+        "+880 2333346974; 01332-810025",
+        null,
+        null
       ]
     },
     {
       "Maijdee Branch (0223)": [
         "Baitul Aman Court Moshjid Market (1st floor), DC,Office Road,Maijdee Court Noakhali- 3800, Bangladesh",
         null,
-        "+88023344-91158; +88023344-91159; 01712-928980"
+        "+88023344-91158; +88023344-91159; 01712-928980",
+        "660017",
+        "235750062"
       ]
     },
     {
       "Companiganj Branch": [
         null,
         null,
-        "+880 1958194116; +8801908414517"
+        "+880 1958194116; +8801908414517",
+        "660016",
+        "235191421"
       ]
     },
     {
       "Bogra Branch (0133)": [
         "Holding No. 83/86, Sherpur Road, Ward No. 7, Bogura Pourashava, Thana-Kotwali, Bogura - 5800",
         null,
-        "02-589902628-9"
+        "02-589902628-9",
+        "660311",
+        "235100375"
       ]
     },
     {
       "Baghabarighat Branch (0187)": [
         "�Milk Vita Market Bhaban� Bhaghabarighat, Dag No-S.A 190,Khatian No- S.A 190, Mouza: Shaktola, Union: Potazia, Thana: Shahzadpur, District: Sirajgonj - 6770",
         null,
-        "01713-444622"
+        "01713-444622",
+        "660303",
+        "235880132"
       ]
     },
     {
       "Ishwardi Branch (0192)": [
         "Holding No. 1120/1/1026 & 1120/2, Station Road, Ward No-07, Pouroshova: Ishwardi, Upazila: Ishwardi, District: Pabna - 6620",
         null,
-        "+8802588847324; 02588847325"
+        "+8802588847324; 02588847325",
+        "660304",
+        "235761219"
       ]
     },
     {
       "Pabna Branch (0206)": [
         "Holding No. 258, Abdul Hamid Road, Ward No. 2, Pabna Paurasabha, Thana: Pabna Sadar, District: Pabna - 6600",
         null,
-        "02 588842913; 02 588842914"
+        "02 588842913; 02 588842914",
+        "660305",
+        "235761785"
       ]
     },
     {
       "Borogola SME/Agriculture Branch, Bogura (0506)": [
         "Holding No.370/406, Rangpur Road, Borogola Ward No-07, Bogura Pourasava, Thana- Bogura Sadar, District-Bogura - 5800",
         null,
+        null,
+        "660312",
         null
       ]
     },
@@ -792,26 +1019,34 @@
       "Sirajgonj SME/Agriculture Branch, Sirajgonj (0511)": [
         "Holding No. 506 & 507, SS Road, Ward No.3, Pourashabha-Sirajganj, Thana-Sirajganj Sadar, Sirajganj - 6700",
         null,
-        "+8802588831802-3"
+        "+8802588831802-3",
+        "660321",
+        null
       ]
     },
     {
       "Naogaon Branch (0171)": [
         "�Ayen Molla Tower� (1st floor), Holding No. 3352, Old Bus Stand Road, Ward No. 3, Paurashava-Naogaon, Thana- Naogaon, District- Naogaon - 6500",
         null,
-        "+880741-81343"
+        "+880741-81343",
+        "660302",
+        "235641184"
       ]
     },
     {
       "Rajshahi Branch (0128)": [
         "M. M. Plaza (1st Floor), Holding No. 222, Kumarpara, Alupatti, Boalia, Rajshahi – 6100",
         null,
-        "02588853408-9; 01716587281"
+        "02588853408-9; 01716587281",
+        "660301",
+        "235811930"
       ]
     },
     {
       "Sylhet Branch (0117)": [
         "Plot # 1835/1836, Laldighirpar, Ward No. 14, Sylhet City Corporation, Thana-Kotwali, Sylhet - 3100",
+        null,
+        null,
         null,
         null
       ]
@@ -820,6 +1055,8 @@
       "Moulovi Bazar Branch (0125)": [
         "Aron Tower, Holding no. 121, Central Road, Ward No. 5, Moulvi Bazar Pauroshva, Thana-Moulovibazar Sadar, Moulovibazar - 3200",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -827,34 +1064,44 @@
       "Ambarkhana Branch (0143)": [
         "Central Plaza (1st Floor), Holding No. 1163, Amberkhana, Ward No. 17, Sylhet City Corporation, Thana-Kotwali, Sylhet - 3100",
         null,
-        null
+        null,
+        null,
+        "235910044"
       ]
     },
     {
       "Habiganj Branch (0207)": [
         "Motalib Plaza�, Holding No. 3820, Ward No. 5, Habiganj Paurasabha, Thana: Habiganj Sadar, District: Habiganj - 3300",
         null,
-        null
+        null,
+        "660504",
+        "235360610"
       ]
     },
     {
       "Barisal Branch (0118)": [
         "54, Sadar Road, Barishal - 8200",
         null,
-        "+880247-8863793; 01713450651; 01710496315"
+        "+880247-8863793; 01713450651; 01710496315",
+        null,
+        "235060286"
       ]
     },
     {
       "Kalapara Branch (0188)": [
         "Holding No. 306 (1st Floor), Shahid Surendra Mohon Chowdhury Road, Ward No. 2, Kalapara Pourasabha, Thana-Kalapara, District-Patuakhali - 8650",
         null,
-        "+8802478884066; +8802478884067"
+        "+8802478884066; +8802478884067",
+        "660402",
+        "235780524"
       ]
     },
     {
       "B. M. College Road Branch, Barishal (0219)": [
         "Holding No. 1582 (1st Floor), B. M. College Road, Nathullabad, Ward No. 29, Barishal City Corporation, Thana-Bimanbandar, District-Barishal - 8200",
         null,
+        null,
+        "660401",
         null
       ]
     },
@@ -862,12 +1109,16 @@
       "Khulna Branch (0113)": [
         "141, Sir Iqbal Road, khulna - 9100",
         null,
-        "880244110253"
+        "880244110253",
+        "660251",
+        "235471541"
       ]
     },
     {
       "Jashore Branch (0145)": [
         "Holding No 29/A (1st floor), R.N. Road, Ward No. 8, Jashore Pourashava, Thana-Kotwali, District-Jashore - 7400",
+        null,
+        null,
         null,
         null
       ]
@@ -876,47 +1127,61 @@
       "Amla Branch (0194)": [
         "�Western Engineering General Hospital�, Holding No. 1776, Amla Bazar, Dag No. 268/335, Khatian No. 548, Mouza-75/74 Amla, Union: Amla, Upazila: Mirpur, District: Kushtia - 7032",
         null,
-        "01719477420; 01313046502"
+        "01719477420; 01313046502",
+        "660201",
+        "235500104"
       ]
     },
     {
       "Kushtia Branch, Kushtia (0211)": [
         "�Tomij Uddin Super Market�, Holding No. 176, 177 & 178, N. S. Road, Ward No. 1, Paurasabha-Kushtia, Thana-Kushtia Sadar, District-Kushtia - 7000",
         null,
-        "01719205126; 01313046538"
+        "01719205126; 01313046538",
+        "660202",
+        "235500946"
       ]
     },
     {
       "Mongla Branch, Bagerhat": [
         "Ray Market-2 (1st Floor) Digraj Bazar,Mongla Port, Bagerhat, Bangladesh",
         null,
-        null
+        null,
+        "660204",
+        "235010944"
       ]
     },
     {
       "Lohagara Branch (0224)": [
         "Holding No. 354, Lohagara Bazar, Narail. Bangladesh",
         null,
-        "01908414510"
+        "01908414510",
+        null,
+        "235650467"
       ]
     },
     {
       "Rangpur Branch (0140)": [
         "Holdig No. 286 (1st floor), Station Road, Ward No.9, Rangpur Pourashava, Thana-Kotwali, District-Rangpur - 5400",
         null,
-        "+8802589966056; +8802589965962"
+        "+8802589966056; +8802589965962",
+        "660601",
+        "235851453"
       ]
     },
     {
       "Dinajpur Branch (0202)": [
         "Y.Z. Tower, Holding No. 47/45 & 48/46, Ward No. 3, Paurashava: Dinajpur, Upazila: Dinajpur Sadar, District: Dinajpur - 5200",
         null,
-        "02589924127; 02589924125"
+        "02589924127; 02589924125",
+        "660602",
+        "235280679"
       ]
     },
     {
       "Saidpur Branch, Nilphamari (0213)": [
         "Shadhinata Bhaban (1st and 2nd Floor), Holding No. 352, Shahid Dr. Zikrul Hoq Sarak, Ward No. 11, Paurasabha-Saidpur, Thana-Saidpur, District-Nilphamari - 5310",
+        null,
+        null,
         null,
         null
       ]
@@ -925,111 +1190,143 @@
       "B. M. College Road Branch (0219)": [
         null,
         null,
-        "02 478861779"
+        "02 478861779",
+        "660403",
+        "235060273"
       ]
     },
     {
       "Farmgate Branch (0220)": [
         null,
         null,
-        "01906796964"
+        "01906796964",
+        "660184",
+        null
       ]
     },
     {
       "Gopalganj Branch (0214)": [
         null,
         null,
-        "01313046585"
+        "01313046585",
+        "660180",
+        "235350370"
       ]
     },
     {
       "Gouripur Branch (0216)": [
         null,
         null,
-        "01958579452"
+        "01958579452",
+        "660015",
+        "235192112"
       ]
     },
     {
       "Gulshan Avenue Branch (0226)": [
         null,
         null,
-        "01711443108"
+        "01711443108",
+        "660100",
+        null
       ]
     },
     {
       "Kanchan Branch (0217)": [
         null,
         null,
-        "01913-825277"
+        "01913-825277",
+        "660182",
+        "235670797"
       ]
     },
     {
       "Kushtia Branch (0211)": [
         null,
         null,
-        "01719205126; 01313046538"
+        "01719205126; 01313046538",
+        "660202",
+        "235500946"
       ]
     },
     {
       "Meghnaghat Branch (0109)": [
         null,
         null,
-        "01819249836"
+        "01819249836",
+        "660150",
+        "235671004"
       ]
     },
     {
       "Mongla Branch (0225)": [
         null,
         null,
-        "01818227771"
+        "01818227771",
+        "660204",
+        "235010944"
       ]
     },
     {
       "Nagarpur Branch (0218)": [
         null,
         null,
-        "01958579483"
+        "01958579483",
+        "660183",
+        "235931694"
       ]
     },
     {
       "Ruhitpur Branch (0212)": [
         null,
         null,
-        "01906796952"
+        "01906796952",
+        "660179",
+        null
       ]
     },
     {
       "Saidpur Branch (0213)": [
         null,
         null,
-        "01313046535"
+        "01313046535",
+        null,
+        null
       ]
     },
     {
       "Savar Branch (0130)": [
         null,
         null,
-        "02 224443753; 02 224443754"
+        "02 224443753; 02 224443754",
+        "660157",
+        null
       ]
     },
     {
       "Tag Branch : Barisal Branch": [
         "Askor Notun Kali Bari Bazar Agent Outlet",
         null,
-        null
+        null,
+        null,
+        "235060286"
       ]
     },
     {
       "Tag Branch : B. M. College Road Branch": [
         "Stimar Ghat, Band Road, Barishal.",
         null,
-        null
+        null,
+        "660403",
+        "235060273"
       ]
     },
     {
       "Tag Branch : Ashugonj Branch": [
         "Dewan Mokarram Ali Shopping Complex, Dewan Habali, Sarail, Brahmanbaria",
         null,
+        null,
+        "660021",
         null
       ]
     },
@@ -1037,27 +1334,35 @@
       "Tag Branch : Brahmanbaria SME Branch": [
         "Austagram Bazar Agent Outlet",
         null,
-        null
+        null,
+        null,
+        "235120447"
       ]
     },
     {
       "Tag Branch : Meghnaghat Branch": [
         "Baganbari Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660150",
+        "235671004"
       ]
     },
     {
       "Tag Branch : Jubilee Road Branch": [
         "Chittagong Mahanagar Zone Outlet",
         null,
-        null
+        null,
+        "660005",
+        "235153643"
       ]
     },
     {
       "Tag Branch : Shantirhat Branch": [
         "Shahabdinagar, 5No Parua, Rangunia, Chittagong",
         null,
+        null,
+        "660010",
         null
       ]
     },
@@ -1065,12 +1370,16 @@
       "Tag Branch : Bahaddarhat Branch": [
         "Masterhat Bazar Agent Outlet",
         null,
+        null,
+        "660011",
         null
       ]
     },
     {
       "Tag Branch : Coxs Bazar SME Branch": [
         "Haji Badiul Alam Market, Chowmuhuni Mor, Pekua, CoxS Bazar.",
+        null,
+        null,
         null,
         null
       ]
@@ -1079,6 +1388,8 @@
       "Tag Branch : Cumilla Branch": [
         "Islam Complex (2Nd Floor), Thana Road, Po+Ps- Burichong",
         null,
+        null,
+        "660051",
         null
       ]
     },
@@ -1086,6 +1397,8 @@
       "Tag Branch : Cumilla Cantonment Branch": [
         "Belghor Moddo Bazar Agent Outlet",
         null,
+        null,
+        "660051",
         null
       ]
     },
@@ -1093,19 +1406,25 @@
       "Tag Branch : Manikarchar Branch": [
         "Sennagar Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660012",
+        "235190543"
       ]
     },
     {
       "Tag Branch : Feni Branch": [
         "Haji Rouf Plaza(2Nd Floor), Dack Bangla Road, Po. & Ps: Chhagalnaiya",
         null,
-        null
+        null,
+        "660061",
+        "235300520"
       ]
     },
     {
       "Tag Branch : Chowmuhuni SME/Agricultural Branch": [
         "Gabua Bazar Agent Outlet",
+        null,
+        null,
         null,
         null
       ]
@@ -1114,13 +1433,17 @@
       "Tag Branch : Maijdee Branch": [
         "Shaheber Hat, Pak Kishoreganj, Sudharampur, Noakhali Sadar, Noakhali.",
         null,
-        null
+        null,
+        "660017",
+        "235750062"
       ]
     },
     {
       "Tag Branch : Mirpur Section-1 Branch": [
         "Hadi Plaza (Level-2), Majar Road, 4-E/A, First Colony, P.O: Mirpur, Ps: Darussalam",
         null,
+        null,
+        "660144",
         null
       ]
     },
@@ -1128,6 +1451,8 @@
       "Tag Branch : Dhaka EPZ Branch": [
         null,
         null,
+        null,
+        "660151",
         null
       ]
     },
@@ -1135,6 +1460,8 @@
       "Tag Branch : Ashulia Branch": [
         "Altab Plaza (Level# 3)), Bipal - Abdullahpur Road, Vill: Jamgora, P.O: Gazirchat Alia Madrasha-1349, P.S: Ashulia",
         null,
+        null,
+        "660130",
         null
       ]
     },
@@ -1142,12 +1469,16 @@
       "Tag Branch : Tongi Branch": [
         "Shop # 08, Hazi Mohammed Liakot Ali Market, Bhuiyan Para, Uttorkhan, Dhaka",
         null,
-        null
+        null,
+        "660155",
+        "235331636"
       ]
     },
     {
       "Tag Branch : Kolakopa Branch": [
         "Daudpur Bazar Agent Outlet",
+        null,
+        null,
         null,
         null
       ]
@@ -1156,6 +1487,8 @@
       "Tag Branch : Satarkol Branch": [
         "119/C, Kuril, Biswa Road, Vatara, Dhaka - 1229",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -1163,6 +1496,8 @@
       "Tag Branch : Kalampur Branch": [
         "Bijoynogor, Dhamrai, Dhaka",
         null,
+        null,
+        "660177",
         null
       ]
     },
@@ -1170,12 +1505,16 @@
       "Tag Branch : Gulshan Glass House Branch": [
         "Dcc-7 (North) Ibrahimpur, Thana- Kafrul, Dhaka Cantonment, Dhaka- 1206",
         null,
+        null,
+        "660100",
         null
       ]
     },
     {
       "Tag Branch : Shymoli Branch": [
         "Mirpur 2 Mosjid Market Agent Outlet",
+        null,
+        null,
         null,
         null
       ]
@@ -1184,6 +1523,8 @@
       "Tag Branch : Matuail Branch": [
         "Vutto Chattar,Konapara,Sarulia,Demra,Dhaka",
         null,
+        null,
+        "660134",
         null
       ]
     },
@@ -1191,6 +1532,8 @@
       "Tag Branch : Banani Branch": [
         "Assurance Nazir Tower (Ground Floor), Plot 65, B ock B, Kemal Ataturk Avenue, Banani, Dhaka L213.",
         null,
+        null,
+        "660102",
         null
       ]
     },
@@ -1198,12 +1541,16 @@
       "Tag Branch : Dhaka New Market Branch": [
         "Kalunagar Agent Outlet",
         null,
+        null,
+        "660131",
         null
       ]
     },
     {
       "Tag Branch : Basundhara Branch": [
         "SAR Bhaban, Ka-78 Pragati Sarani main Road, Kuril Chowrasta, Vatara, Dhaka-1229.",
+        null,
+        null,
         null,
         null
       ]
@@ -1212,12 +1559,16 @@
       "Tag Branch : Nimtala Branch": [
         "Sonakanda, Ruhitpur, Keraniganj, Dhaka",
         null,
-        null
+        null,
+        "660176",
+        "235591663"
       ]
     },
     {
       "Tag Branch : Rokeya Saroni Branch": [
         "Poschim Shewrapara Agent Outlet",
+        null,
+        null,
         null,
         null
       ]
@@ -1226,6 +1577,8 @@
       "Tag Branch : Garib E Newaz Avenue Branch": [
         "Sector 13 Agent Outlet",
         null,
+        null,
+        "660135",
         null
       ]
     },
@@ -1233,6 +1586,8 @@
       "Tag Branch : Savar Branch": [
         "Badda Vatpara Agent Outlet",
         null,
+        null,
+        "660157",
         null
       ]
     },
@@ -1240,6 +1595,8 @@
       "Tag Branch : Ruhitpur Branch": [
         "Kharakandi Chowrasta, Char Chamardoho, Keraniganj, Dhaka.",
         null,
+        null,
+        "660179",
         null
       ]
     },
@@ -1247,55 +1604,71 @@
       "Tag Branch : Faridpur Branch": [
         "Charbhadrason Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660147",
+        "235290522"
       ]
     },
     {
       "Tag Branch : Joydebpur Branch": [
         "Chandana Plaza (Level# 3), Chandana Chowrasta, Gazipur City-6,P.O: Joydebpur, P.S: Sadar, Dist: Gazipur.",
         null,
-        null
+        null,
+        "660153",
+        "235330732"
       ]
     },
     {
       "Tag Branch : Kapasia Branch": [
         "Kashem Market (Ground Floor),Ranigonj Bus Stand Road,Po: Ranigong Bazar",
         null,
-        null
+        null,
+        "660146",
+        "235330882"
       ]
     },
     {
       "Tag Branch : Mawna Branch": [
         "Zhorna Khan Villa, Ground Floor, D.B Rood, Bormi Bus Stand, Po: Bormi Bazar, Ps: Shreepur",
         null,
-        null
+        null,
+        "660149",
+        "235331007"
       ]
     },
     {
       "Tag Branch : Konabari Branch": [
         "Darus Salam Bhaban (1St Floor), P.O -� Sardagonj, Kasimpur",
         null,
-        null
+        null,
+        "660159",
+        "235330945"
       ]
     },
     {
       "Tag Branch : Board Bazar Branch": [
         "Sataish Chaurasta Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660162",
+        "235330224"
       ]
     },
     {
       "Tag Branch : Gopalganj Branch": [
         "Gopinathpur Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660180",
+        "235350370"
       ]
     },
     {
       "Tag Branch : Munshigonj Branch": [
         "Hawlader Enterprise (1St Floor), Holding No: 310, Thana Road, Near To Post Office, Tongibari, Munshiganj.",
         null,
+        null,
+        "660133",
         null
       ]
     },
@@ -1303,12 +1676,16 @@
       "Tag Branch : Kanchan Branch": [
         "Voktobari Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660182",
+        "235670797"
       ]
     },
     {
       "Tag Branch : Narsingdi Branch": [
         "Arif Complex (1St Floor), Char Subuddhi Maddrasa Road, Po: Char Subuddhi Bazar, Ps: Raipura",
+        null,
+        null,
         null,
         null
       ]
@@ -1317,61 +1694,79 @@
       "Tag Branch : Tangail Branch": [
         "Holding No# B-24/10, Pantho Prova (Gf), Dhaka Road, Vill:� Biswash Betka, P.O: Tangail-1900, P.S: Tangail Sadar",
         null,
-        null
+        null,
+        "660163",
+        "235932293"
       ]
     },
     {
       "Tag Branch : Elenga Branch": [
         "Gobindashi Kacha Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660139",
+        "235930824"
       ]
     },
     {
       "Tag Branch : Khulna Branch": [
         "BrotherS Market (1St Floor), Vill: Altapol, Po & Ps: Keshabpur",
         null,
-        null
+        null,
+        "660251",
+        "235471541"
       ]
     },
     {
       "Tag Branch : Jessore Branch": [
         "Modhumoti Villa (Level # 1), Vill: Krishno Nagar, Po & Ps: Jhikargachha,",
         null,
-        null
+        null,
+        "660261",
+        "235410944"
       ]
     },
     {
       "Tag Branch : Lohagara Branch": [
         "Agdia Chowrasta, Shimulia, Narail Sadar, Narail.",
         null,
-        null
+        null,
+        null,
+        "235650467"
       ]
     },
     {
       "Tag Branch : Sarishabari Branch": [
         "Bogabaid Boardghor Bazar Agent Outlet",
         null,
-        null
+        null,
+        null,
+        "235391489"
       ]
     },
     {
       "Tag Branch : Mymensingh Branch": [
         "Dhanikhola Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660158",
+        "235611756"
       ]
     },
     {
       "Tag Branch : Bhaluka Branch": [
         "Shahid Abdul Bepari Complex, 2Nd Floor Of Krishi Bank, Gafargaon Modhya Bazar, Po & Ps: Gaffargaon",
         null,
-        null
+        null,
+        "660165",
+        "235610315"
       ]
     },
     {
       "Tag Branch : Shyamgonj Bazar Branch": [
         "Hironpur Bazar Agent Outlet",
+        null,
+        null,
         null,
         null
       ]
@@ -1380,12 +1775,16 @@
       "Tag Branch : Netrokona Branch": [
         "Satpai, Netrokona Sadar, Netrokona.",
         null,
-        null
+        null,
+        "660702",
+        "235720739"
       ]
     },
     {
       "Tag Branch : Bogura Branch": [
         "Azad Mansion (1St Floor), House No: 2100, Santahar To Bogra Road, Vill+Po + Ps: Dupchanchia, Dist: Bogra",
+        null,
+        null,
         null,
         null
       ]
@@ -1394,63 +1793,81 @@
       "Tag Branch : Naogaon Branch": [
         "Chatra Bazar Agent Outlet",
         null,
-        null
+        null,
+        "660302",
+        "235641184"
       ]
     },
     {
       "Tag Branch : Rajshahi Branch": [
         "Molla Bari, House No: 147, Hatkanpara Raod, Vill: Mohangonj, Po: Mohanganj, P.S: Bagmara",
         null,
-        null
+        null,
+        "660301",
+        "235811930"
       ]
     },
     {
       "Borogola SME Branch (0506)": [
         "Holding No.370/406, Rangpur Road, Borogola Ward No-07, Bogura Pourasava, Thana- Bogura Sadar, District-Bogura.",
         null,
-        "01985552812"
+        "01985552812",
+        null,
+        "235100504"
       ]
     },
     {
       "Brahmanbaria SME Branch (0507)": [
         "Holding No.37/34, Ward No 2, Brahmanbaria Pourasava, Thana-Brahmanbaria Sadar , District-Brahmanbaria.",
         null,
-        "0851 61510; 0851 61511; 01730002779"
+        "0851 61510; 0851 61511; 01730002779",
+        null,
+        "235120447"
       ]
     },
     {
       "Chowmuhuni SME Branch (0509)": [
         "Ahsan City Center\" (1st Floor), Karimpur Road, Ward No.4, Chowmuhuni Pourashabha, Thana-Begumganj, District-Noakhali",
         null,
-        "01313046566"
+        "01313046566",
+        null,
+        null
       ]
     },
     {
       "Cox's Bazar SME Branch (0512)": [
         "Ocean City'' (1st Floor), Holding No. 100/1, West Bazarghata, Main Road, Ward No.8, Cox's Bazar Pourasabha, Thana-Cox's Bazar Sadar, District-Cox's Bazar.",
         null,
-        "+880 2333346974; 01332-810025"
+        "+880 2333346974; 01332-810025",
+        null,
+        null
       ]
     },
     {
       "Donia SME Branch (0508)": [
         "Akand Villa, (1st Floor), Union-Donia, Thana-Kadamtali, District-Dhaka.",
         null,
-        "02 223344116; 02 223344093"
+        "02 223344116; 02 223344093",
+        null,
+        null
       ]
     },
     {
       "Keranigonj SME Branch (0510)": [
         "'Shaba Complex'' (2nd Floor), Zinzira, Union-Aganagar, Thana-South Keraniganj, District-Dhaka.",
         null,
-        "02 7764010"
+        "02 7764010",
+        null,
+        null
       ]
     },
     {
       "Sirajgonj SME/Agriculture Branch (0511)": [
         "Holding No. 506 & 507, SS Road, Ward No.3, Pourashabha-Sirajganj, Thana-Sirajganj Sadar, Sirajganj.",
         null,
-        "02 588831802; 02 588831803"
+        "02 588831802; 02 588831803",
+        "660321",
+        null
       ]
     }
   ],
@@ -1459,475 +1876,611 @@
       "Chuna Factory Sub Branch (010301)": [
         null,
         null,
-        "01816672075"
+        "01816672075",
+        null,
+        null
       ]
     },
     {
       "Nakhalpara Sub Branch (010701)": [
         null,
         null,
-        "02 9830755"
+        "02 9830755",
+        null,
+        null
       ]
     },
     {
       "Sabujbag Sub Branch (010101)": [
         null,
         null,
-        "02 7275823; 01906796950"
+        "02 7275823; 01906796950",
+        null,
+        null
       ]
     },
     {
       "Mothertek Sub Branch (010102)": [
         null,
         null,
-        "01906796951"
+        "01906796951",
+        null,
+        null
       ]
     },
     {
       "Nimtala Sub Branch (010302)": [
         null,
         null,
-        "01602777140"
+        "01602777140",
+        "660176",
+        "235591663"
       ]
     },
     {
       "Kachukhet Sub Branch (010401)": [
         null,
         null,
-        "01313046531"
+        "01313046531",
+        null,
+        null
       ]
     },
     {
       "Benarashi Palli Sub Branch (010402)": [
         null,
         null,
-        "01313046534"
+        "01313046534",
+        null,
+        null
       ]
     },
     {
       "Vashantek Sub Branch (010403)": [
         null,
         null,
-        "01958579456"
+        "01958579456",
+        null,
+        null
       ]
     },
     {
       "Rupnagar Sub Branch (010404)": [
         null,
         null,
-        "01738603230"
+        "01738603230",
+        null,
+        null
       ]
     },
     {
       "Culvert Road Sub Branch (010801)": [
         null,
         null,
-        "01819633866"
+        "01819633866",
+        null,
+        null
       ]
     },
     {
       "Shahid Faruk Road Sub Branch (010802)": [
         null,
         null,
-        "01958579495"
+        "01958579495",
+        null,
+        null
       ]
     },
     {
       "Baidder Bazar Sub Branch (010901)": [
         "Satvaiya Para, Union Baidder Bazar, Sonargaon, District-Narayanganj.",
         null,
-        "01313046524"
+        "01313046524",
+        null,
+        null
       ]
     },
     {
       "Kaderabad Sub Branch (011001)": [
         null,
         null,
-        "01313046532"
+        "01313046532",
+        null,
+        null
       ]
     },
     {
       "BGB Gate No. 01 Sub Branch (011002)": [
         null,
         null,
-        "01906796953"
+        "01906796953",
+        null,
+        null
       ]
     },
     {
       "Laldighirpar Sub Branch (011101)": [
         null,
         null,
-        "02 333388217"
+        "02 333388217",
+        null,
+        null
       ]
     },
     {
       "Dakkhinkhan Sub Branch (011201)": [
         null,
         null,
-        "01906796955"
+        "01906796955",
+        null,
+        null
       ]
     },
     {
       "Faidabad Sub Branch (011202)": [
         null,
         null,
-        "01923701915"
+        "01923701915",
+        null,
+        null
       ]
     },
     {
       "Azampur Rail Gate Sub Branch (011203)": [
         null,
         null,
-        "01726326501"
+        "01726326501",
+        null,
+        null
       ]
     },
     {
       "Uttarkhan Sub Branch (011204)": [
         null,
         null,
-        "01958579451"
+        "01958579451",
+        null,
+        null
       ]
     },
     {
       "Rupsha Sub Branch (011301)": [
         null,
         null,
-        "01711346444"
+        "01711346444",
+        null,
+        null
       ]
     },
     {
       "Hatirpool Sub Branch (011401)": [
         null,
         null,
-        "01711936969"
+        "01711936969",
+        null,
+        null
       ]
     },
     {
       "Gendaria Sub Branch (011901)": [
         null,
         null,
-        "02 47440006; 02 47440007"
+        "02 47440006; 02 47440007",
+        null,
+        null
       ]
     },
     {
       "Urdu Road Sub Branch (011902)": [
         null,
         null,
-        "02 57315718"
+        "02 57315718",
+        null,
+        null
       ]
     },
     {
       "Babu Bazar Sub Branch (011903)": [
         null,
         null,
-        "02 47391695"
+        "02 47391695",
+        null,
+        null
       ]
     },
     {
       "Sanarpar Sub Branch (012001)": [
         null,
         null,
-        "01319682912"
+        "01319682912",
+        null,
+        null
       ]
     },
     {
       "Netaiganj Sub Branch (012002)": [
         null,
         null,
-        "01301710744"
+        "01301710744",
+        null,
+        null
       ]
     },
     {
       "Shibu Market Sub Branch (012003)": [
         null,
         null,
-        "01312941428"
+        "01312941428",
+        null,
+        null
       ]
     },
     {
       "Adamji EPZ Sub Branch (012004)": [
         null,
         null,
-        "01312941429"
+        "01312941429",
+        null,
+        null
       ]
     },
     {
       "Link Road Sub Branch (012005)": [
         null,
         null,
-        "01311220592"
+        "01311220592",
+        null,
+        null
       ]
     },
     {
       "Chowdhury Bari Sub Branch (012006)": [
         null,
         null,
-        "01763109282"
+        "01763109282",
+        null,
+        null
       ]
     },
     {
       "Bandar Sub Branch (012007)": [
         null,
         null,
-        "01894255712"
+        "01894255712",
+        null,
+        null
       ]
     },
     {
       "Langalbandh Sub Branch (012008)": [
         null,
         null,
-        "01783878001"
+        "01783878001",
+        null,
+        null
       ]
     },
     {
       "Shalna Bazar Sub Branch (012101)": [
         null,
         null,
-        "01911040360"
+        "01911040360",
+        null,
+        null
       ]
     },
     {
       "Jor Pukur Road Sub Branch (012102)": [
         null,
         null,
-        "02 9261836; 02 9261837"
+        "02 9261836; 02 9261837",
+        null,
+        null
       ]
     },
     {
       "TnT Bazar Sub Branch (012601)": [
         null,
         null,
-        "01723626874; 01553222729"
+        "01723626874; 01553222729",
+        null,
+        null
       ]
     },
     {
       "Pagar Sub Branch (012602)": [
         null,
         null,
-        "01781152163"
+        "01781152163",
+        null,
+        null
       ]
     },
     {
       "Mil Gate Sub Branch (012603)": [
         null,
         null,
-        "01911164819"
+        "01911164819",
+        null,
+        null
       ]
     },
     {
       "Akbar Shah Road Sub Branch (013201)": [
         null,
         null,
-        "01819855198"
+        "01819855198",
+        null,
+        null
       ]
     },
     {
       "Bhatiari Sub Branch (013202)": [
         null,
         null,
-        "01764494895"
+        "01764494895",
+        null,
+        null
       ]
     },
     {
       "Pahartoli Bazar Sub Branch (013203)": [
         null,
         null,
-        "01670518435"
+        "01670518435",
+        "660004",
+        null
       ]
     },
     {
       "Anwer Khan Modren Hospital Sub Branch (013401)": [
         null,
         null,
-        "01728921454"
+        "01728921454",
+        null,
+        null
       ]
     },
     {
       "Panchrukhi Sub Branch (013801)": [
         null,
         null,
-        "01859270779"
+        "01859270779",
+        null,
+        null
       ]
     },
     {
       "Murapara Sub Branch (013802)": [
         null,
         null,
-        "01927456868"
+        "01927456868",
+        null,
+        null
       ]
     },
     {
       "Dhap Sub Branch (014001)": [
         null,
         null,
-        "01726740097"
+        "01726740097",
+        null,
+        null
       ]
     },
     {
       "Gaibandha Sub Branch (014002)": [
         null,
         null,
-        "01939343212"
+        "01939343212",
+        null,
+        null
       ]
     },
     {
       "Green Road Sub Branch (014401)": [
         null,
         null,
-        "01796350284"
+        "01796350284",
+        null,
+        null
       ]
     },
     {
       "Maleker Bari Sub Branch (014601)": [
         null,
         null,
-        "01725522909; 01916302970"
+        "01725522909; 01916302970",
+        null,
+        null
       ]
     },
     {
       "Gazipura Sub Branch (014602)": [
         null,
         null,
-        "01916839904"
+        "01916839904",
+        null,
+        null
       ]
     },
     {
       "Aftab Nagar Sub Branch (014901)": [
         null,
         null,
-        "01906796961"
+        "01906796961",
+        null,
+        null
       ]
     },
     {
       "Khilkhet Bot Tala Sub Branch (014902)": [
         null,
         null,
-        "01648493500"
+        "01648493500",
+        null,
+        null
       ]
     },
     {
       "Khilkhet Bazar Sub Branch (014903)": [
         null,
         null,
-        "01911805936"
+        "01911805936",
+        null,
+        null
       ]
     },
     {
       "Mohanagar Sub Branch (014904)": [
         null,
         null,
-        "01958579490"
+        "01958579490",
+        null,
+        null
       ]
     },
     {
       "Banasree Sub Branch (014905)": [
         null,
         null,
-        "01781720060"
+        "01781720060",
+        null,
+        null
       ]
     },
     {
       "Manda Sub Branch (015201)": [
         null,
         null,
-        "01906796957"
+        "01906796957",
+        null,
+        null
       ]
     },
     {
       "Kamrangirchar Sub Branch (016001)": [
         null,
         null,
-        "01958579454"
+        "01958579454",
+        null,
+        null
       ]
     },
     {
       "Atlapur Bazar Sub Branch (016101)": [
         null,
         null,
-        "01946622323"
+        "01946622323",
+        null,
+        null
       ]
     },
     {
       "Mohammadpur Krishi Market Sub Branch (016201)": [
         null,
         null,
-        "01715692828"
+        "01715692828",
+        null,
+        null
       ]
     },
     {
       "Sadek Khan Wholesale Market Sub Branch (016202)": [
         null,
         null,
-        "01719853587"
+        "01719853587",
+        null,
+        null
       ]
     },
     {
       "Fulbaria Bazar Sub Branch (016601)": [
         null,
         null,
-        "01712119827"
+        "01712119827",
+        null,
+        null
       ]
     },
     {
       "Kalshi Dighi Par Sub Branch (016701)": [
         null,
         null,
-        "02333340519"
+        "02333340519",
+        null,
+        null
       ]
     },
     {
       "Mirpur Section-6 Sub Branch (017901)": [
         null,
         null,
-        "01906796962"
+        "01906796962",
+        null,
+        null
       ]
     },
     {
       "Ibrahimpur Sub Branch (017902)": [
         null,
         null,
-        "01819840875"
+        "01819840875",
+        null,
+        null
       ]
     },
     {
       "Bhairabpur Sub Branch (018101)": [
         null,
         null,
-        "01313046578"
+        "01313046578",
+        null,
+        null
       ]
     },
     {
       "Bajitpur Sub Branch (018102)": [
         null,
         null,
-        "01751644852"
+        "01751644852",
+        null,
+        null
       ]
     },
     {
       "Rooppur Sub Branch (019201)": [
         null,
         null,
-        "01313046559"
+        "01313046559",
+        null,
+        null
       ]
     },
     {
       "Shantirhat Bazar Sub Branch (020901)": [
         null,
         null,
-        "01958579472"
+        "01958579472",
+        "660010",
+        null
       ]
     },
     {
       "Jamaldi Sub Branch (010902)": [
         null,
         null,
-        "01958579494"
+        "01958579494",
+        null,
+        null
       ]
     },
     {
       "SHANTIRHAT SUB BRANCH 01": [
         "SAYEMAN PLAZA, SHANTIRHAT BAZAR, CHITTAGONG",
         null,
+        null,
+        "660010",
         null
       ]
     },
@@ -1935,12 +2488,16 @@
       "SHIBU MARKET SUB BRANCH 01": [
         "RANIMA PLAZA (GROUND FLOOR), SHIBU MARKET, FATULLAH, NARAYANGONJ",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "SHIBU MARKET SUB BRANCH 02": [
         "RANIMA PLAZA (GROUND FLOOR), SHIBU MARKET, FATULLAH, NARAYANGONJ",
+        null,
+        null,
         null,
         null
       ]

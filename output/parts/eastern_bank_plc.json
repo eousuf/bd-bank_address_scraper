@@ -3,612 +3,789 @@
   "bank_url": "https://www.ebl.com.bd/",
   "method": "html_cards+html_table",
   "status": "success",
+  "bank_id": "5592",
+  "total_branch": 88,
+  "total_sub_branch": 54,
   "branch": [
     {
       "Principal Branch": [
         "10, Dilkusha C/A (Ground Floor), Jiban Bima Bhaban, Dhaka.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520101",
+        null
       ]
     },
     {
       "Motijheel Branch": [
         "Meghna Life–Karnaphuli Bima Bhaban, 11/B/D, Toyenbee Circular Road (Level 2), Motijheel C/A, Dhaka-1000",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "+8809666777325"
+        "+8809666777325",
+        "520102",
+        null
       ]
     },
     {
       "Gulshan Branch": [
         "100, Gulshan Avenue, Dhaka-1212",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520104",
+        null
       ]
     },
     {
       "Bashundhara Branch": [
         "Plot No. 832/B, Road:14, Block: I, Bashundhara R/A, Dhaka-1229",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "+8809666777325"
+        "+8809666777325",
+        "520115",
+        null
       ]
     },
     {
       "Mirpur Branch": [
         "Naz La Marveli Holding # 11, Main Road # 3, Harun Molla Sarak, Section-11, Block-A, Pallabi, Mirpur, Dhaka – 1216",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "0248034537; 09666777325"
+        "0248034537; 09666777325",
+        "520107",
+        null
       ]
     },
     {
       "Shyamoli Branch": [
         "16-A/5 Ring Road, Shyamoli, Dhaka-1207",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "0255020452; 0255020471; 09666777325"
+        "0255020452; 0255020471; 09666777325",
+        "520111",
+        null
       ]
     },
     {
       "Dhanmondi Branch": [
         "House-21, Road-08, Dhanmondi R/A, Dhaka-1205",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520106",
+        null
       ]
     },
     {
       "Sonargaon Road Branch": [
         "A H N Tower ( 1st Floor), 13 & 15 Bir Uttam C R Datta Road ( Sonargaon Road), Biponon C/A, Bangla Motor, Shahbag, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520105",
+        null
       ]
     },
     {
       "Shantinagar Branch": [
         "Iris Noorjehan (1st Floor), Plot no. 104, Kakrail Road Ramna, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-8300028; 02-8300053; 02-8300218; 09666777325"
+        "02-8300028; 02-8300053; 02-8300218; 09666777325",
+        "520114",
+        null
       ]
     },
     {
       "Moghbazar Branch": [
         "Shafi Complex, Holding No-1/A, West Moghbazar, New Circular Road, Ramna, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520117",
+        null
       ]
     },
     {
       "English Road Branch": [
         "68, Shahid Sayed Nazrul Islam Sarani (1st-3rd floor), North South Road, Dhaka-1100",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520103",
+        null
       ]
     },
     {
       "Chawkbazar Branch": [
         "Sakib Anowar Tower. (2nd Floor) 46, Urdu Road, Chawkbazar, Dhaka-1211.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325; 02-57314364"
+        "09666777325; 02-57314364",
+        "520110",
+        null
       ]
     },
     {
       "Narayanganj SME-AGRI Branch": [
         "S S Tower, 30/14 Loyal Tank Road,Tanbazar, Narayagonj",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520151",
+        null
       ]
     },
     {
       "Keraniganj Branch": [
         "Jahanara Plaza, Bandha Dakpara,Zinzira, Keraniganj, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520155",
+        null
       ]
     },
     {
       "Board Bazar Branch": [
         "Omar Ali Plaza, House No – 1, Block – C, Kamalasher, Gacha, Gazipur",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520160",
+        "095330222"
       ]
     },
     {
       "Savar Branch": [
         "Bristi Villa, E/4, Talbagh, Abul Kashem Sandip Sarak, Savar, Dhaka.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-224444757; 02-224444758; 09666777325"
+        "02-224444757; 02-224444758; 09666777325",
+        "520170",
+        null
       ]
     },
     {
       "Satmosjid Road Branch": [
         "ANZ Square, Plot No, 53,Road No, 3/A, Satmosjid Road, Dhanmondi, Dhaka-1209.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-44611641; 02-44611642; 02-44611643; 09666777325"
+        "02-44611641; 02-44611642; 02-44611643; 09666777325",
+        "520108",
+        null
       ]
     },
     {
       "Banasree Branch": [
         "Plot No: C-10 (1st Floor & ATM at GF), Block : C, Eastern Housing Banasree Project, Main Road Rampura, Dhaka.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520109",
+        null
       ]
     },
     {
       "Uttara Sonargaon Janapath Branch": [
         "Canyon Tower (1st and 2nd Floor) Plot # 24 & 26, Sector # 12, Sonargaon Janapath Road, Uttara Model Town, Dhaka 1230",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "+8809666777325"
+        "+8809666777325",
+        "520128",
+        "095671699"
       ]
     },
     {
       "Banani Branch": [
         "House- 25, Road- 11, Block- F, Bir Uttam Khademul Bashar Sarak, Banani, Dhaka-1213.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "+8809666777325"
+        "+8809666777325",
+        "520116",
+        null
       ]
     },
     {
       "Faridpur Branch": [
         "Golpukur Dream Shopping Complex, 7-216 Mujib Sarak, Faridpur Municipality, Kotwali, Faridpur",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520159",
+        "095290520"
       ]
     },
     {
       "Mirpur Darus Salam Road Branch": [
         "Chand Plaza, 10 Dar-Us- Salam Road, Mirpur-01, Dhaka-1216",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-48032269; 02-48041046; 02-58055985; 09666777325"
+        "02-48032269; 02-48041046; 02-58055985; 09666777325",
+        "520107",
+        null
       ]
     },
     {
       "Narayangonj Branch": [
         "Islam Plaza, 64/1 (Old), 90/1/A (New), BangaBandhu Road, Narayangonj.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        null,
+        "095671202"
       ]
     },
     {
       "Tangail Branch": [
         "“Rahman Center” ( 1st floor), 55 Victoria Road, Tangail.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02997752896; 09666777325"
+        "02997752896; 09666777325",
+        "520165",
+        "095932291"
       ]
     },
     {
       "Mymensingh SME-AGRI Branch": [
         "Himel Hawa, Holding No-41, Boro Bazar, Ward No-08, Mymensingh City Corporation, Thana-Mymensingh Sadar, Dist: Mymensingh",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        null,
+        "095611770"
       ]
     },
     {
       "Agrabad Branch": [
         "33 Agrabad C/A, Chattogram, Bangladesh",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02333320755; 02333320757; 02333320758; 02333320759; 09666777325"
+        "02333320755; 02333320757; 02333320758; 02333320759; 09666777325",
+        "559210104041",
+        "095150136"
       ]
     },
     {
       "New Market Branch": [
         "904/731, H S S Road (New Market More),Alkaran, Kotwali, Chattogram-4000",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "031-621898; 031-620519; 09666777325"
+        "031-621898; 031-620519; 09666777325",
+        "520004",
+        null
       ]
     },
     {
       "Khatungonj Branch": [
         "173 Khatunganj, Badsha Market, Chattogram.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "031-621316; 031-630229; 09666777325"
+        "031-621316; 031-630229; 09666777325",
+        "520002",
+        "095154279"
       ]
     },
     {
       "O.R. Nizam Road Branch": [
         "Avenue Centre, 787 CDA Avenue, Chattogram",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520005",
+        "095155807"
       ]
     },
     {
       "Jubilee Road Branch": [
         "Mannan Bhaban (Ground Floor), 156, Nur Ahmed Sarak, Jubilee Road, Chattogram",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-333358471; 09666777325"
+        "02-333358471; 09666777325",
+        "520003",
+        "095153641"
       ]
     },
     {
       "Chandgaon Branch": [
         "House No-16, Road No-01, Block-A, Chandgaon R/A, Chattogram-4212",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "8802334470148; +8802334471606; +8802334470396; 09666777325"
+        "8802334470148; +8802334471606; +8802334470396; 09666777325",
+        "520007",
+        "095151485"
       ]
     },
     {
       "Panchlaish Branch": [
         "Ashish Tower (1st Floor), Holding No. 5/A, O.R Nizam Road, Panchlaish, Chattogram, Bangladesh",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520008",
+        "095156048"
       ]
     },
     {
       "Raozan Branch": [
         "Bharetoshowri Market, Kaptai Road, Noapara, Raozan, Chattogram – 4346",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520006",
+        "095156493"
       ]
     },
     {
       "Cox's Bazar Branch": [
         "10, Hotel Motel Zone, Kolatali Road, Coxs Bazar",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520009",
+        null
       ]
     },
     {
       "Feni SME-AGRI Branch": [
         "“Kazi Alamgir Center”, Holding # 26, Shahid Shahidullah Kaisar Road, Feni.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "023344-73562; 09666777325"
+        "023344-73562; 09666777325",
+        "520012",
+        null
       ]
     },
     {
       "Halishahar Branch": [
         "House # 01, 1st Floor, Road # 01, Block # L, Halishahar Housing Estate, Chattogram",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "8802333314392; 09666777325"
+        "8802333314392; 09666777325",
+        "520013",
+        "095153162"
       ]
     },
     {
       "Sirajuddowla Road Branch": [
         "94 Sirajuddowla Road, Dewan Bazar, Chandanpura, Chattogram.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "031-2865261; 031-2865263-4; 09666777325"
+        "031-2865261; 031-2865263-4; 09666777325",
+        "520010",
+        "095157368"
       ]
     },
     {
       "Bhairab SME–AGRI Branch": [
         "Holding no: 356,West Tin Potty,Shahid Ashuranjan Road,Bhairab Bazar,PS: Bhairab,Dist: Kishoregonj",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "+8809666777325"
+        "+8809666777325",
+        "520145",
+        null
       ]
     },
     {
       "Upashahar Branch": [
         "N.K. Trade Center, Holding No. 3/3 (1ST floor), Block-D, Main Road, Shahjalal Upashahar Road, Sylhet",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520091",
+        null
       ]
     },
     {
       "Chouhatta Branch": [
         "Tea Board Building, Holding # 486, Plot No. - 01, Zindabazar Road, Chouhatta Point, Sylhet",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-996639242; 02-996633602; 09666777325"
+        "02-996639242; 02-996633602; 09666777325",
+        "520092",
+        null
       ]
     },
     {
       "Moulvibazar Branch": [
         "Jubel Mall, 1165, Sylhet Trunk Road, Kusumbagh, Moulvibazar",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02996682034; 09666777325"
+        "02996682034; 09666777325",
+        "520085",
+        null
       ]
     },
     {
       "Khulna Branch": [
         "Tayamun Centre & Properties, 181, Jashore Road, Khulna, Bangladesh.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520200",
+        "095471549"
       ]
     },
     {
       "Jashore Branch": [
         "Hatem Chamber, Holding # 25/A, R.N. Road (1st Floor), Jashore, Khulna, Bangladesh",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02477760181; 02477760182; 09666777325"
+        "02477760181; 02477760182; 09666777325",
+        "520195",
+        null
       ]
     },
     {
       "Rajshahi Branch": [
         "Doinik Barta Complex (Ground Floor), Alupotti, Natore Road, Rajshahi-6000.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520301",
+        "095811938"
       ]
     },
     {
       "Bogura Branch": [
         "1020/1092, Satani Mega Centre, Sherpur Road, Bogura-5800",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-589903931; 02-589903932; 09666777325"
+        "02-589903931; 02-589903932; 09666777325",
+        "520331",
+        null
       ]
     },
     {
       "Keraniganj SME - AGRI Branch": [
         "Shet Mohol Market (1st Floor), Nogor Mohol Road, Aganagar, South Keraniganj, Dhaka –1310",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520156",
+        null
       ]
     },
     {
       "Dohar Branch": [
         "Ahmed Shopping Complex, Holding: 77, Ward: 5, Joypara, Dohar, Dhaka-1330.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02 7768208; 09666777325"
+        "02 7768208; 09666777325",
+        "520158",
+        null
       ]
     },
     {
       "Progoti Sarani Branch": [
         "Azahar Comfort Complex, Holding no.- 130/A, Road- Progoti Sarani, Middle Badda, Gulshan, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-41080741; 02-41080742; 02-41080743; 09666777325"
+        "02-41080741; 02-41080742; 02-41080743; 09666777325",
+        "520122",
+        null
       ]
     },
     {
       "Azimpur Branch": [
         "Tulip Feroza Dream, 104, Azimpur Road, Hazaribagh, Dhaka-1000 Bangladesh",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520121",
+        null
       ]
     },
     {
       "CEPZ Branch": [
         "Saleh Complex, Holding No-1279 A, Airport Road, South Halishahar, Bander, Chattogram",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02333340195-96; 09666777325"
+        "02333340195-96; 09666777325",
+        "520014",
+        null
       ]
     },
     {
       "Lohagara Branch": [
         "M. K. Shopping Center (01st FL), Bottali, Lohagara, Chattogram,",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "0303 456681; 0303 456682; 09666777325"
+        "0303 456681; 0303 456682; 09666777325",
+        "520015",
+        null
       ]
     },
     {
       "Hathazari Branch": [
         "Haji Sultan Market, Hathazari Bus Stand, Hathazari, Chattogram.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-334460193-95; 09666777325"
+        "02-334460193-95; 09666777325",
+        "520016",
+        "095153225"
       ]
     },
     {
       "Rangpur Branch": [
         "House # 11, Road # 01, Dhap Jail Road, Rangpur",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02589965231; 09666777325"
+        "02589965231; 09666777325",
+        "520401",
+        "095851451"
       ]
     },
     {
       "Chowmuhani Branch": [
         "“KIRON IMPERIAL” (GF, 1st and 2nd Floor), 1460 Karimpur Road, Choumuhoni, Begumgonj, Noakhali",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "023344-93496; 023344-93495; 023344-93497; 09666777325"
+        "023344-93496; 023344-93495; 023344-93497; 09666777325",
+        null,
+        null
       ]
     },
     {
       "Cumilla SME-AGRI Branch": [
         "Chowdhury Plaza, 195 Jail Road, Jhawtola, Cumilla.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520017",
+        null
       ]
     },
     {
       "Madhabdi SME-AGRI Branch": [
         "242/1 Algi Road, Parkshipur, Madhabdi Bazar, Madhabdi, Narsingdi",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02224457217; 02224457216; 02224457215; 09666777325"
+        "02224457217; 02224457216; 02224457215; 09666777325",
+        "520180",
+        null
       ]
     },
     {
       "DEPZ Branch": [
         "Mazid Tower, P.O : Gazir chat, P.S: Ashulia, Baipail, Savar, Dhaka.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02996688026; 09666777325"
+        "02996688026; 09666777325",
+        "520123",
+        null
       ]
     },
     {
       "Nazirhat Branch": [
         "Zaria Community Center (Adjacent to Darbar Gate),Nazirhat, Fatikchari, Chattogram.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520018",
+        null
       ]
     },
     {
       "Brahmanbaria Branch": [
         "Malek Khayer Plaza; 95, Paik Para, Jame Masjid Road (North Side of Kumarshil Point), Brahmanbaria",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520019",
+        "095120432"
       ]
     },
     {
       "Mehedibag Branch": [
         "Epic Emdad Heights, 38 Chatteshwari Circle, Mehdibagh, Chattogram.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02333369451-2; 09666777325"
+        "02333369451-2; 09666777325",
+        null,
+        null
       ]
     },
     {
       "Wari Branch": [
         "40/1 Rankin street ( GF, 1st & 2nd Floor), Wari, Dhaka.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "0241051730; 0241051731; 0241051733; 09666777325"
+        "0241051730; 0241051731; 0241051733; 09666777325",
+        "520125",
+        null
       ]
     },
     {
       "Maijdee Branch": [
         "Alif Plaza, Holding No. - 080701-4, Main Road, Maijdee, Noakhali.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02334492015; 02334491716; 09666777325"
+        "02334492015; 02334491716; 09666777325",
+        "520022",
+        "095750060"
       ]
     },
     {
       "Bhatiary Branch": [
         "Sajeda Bhaban, Beside H.Akbar Ali Road, Opposite Bhatairy Rail Station road Bhatiary, Chattogram-4315.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02333398020; 09666777325"
+        "02333398020; 09666777325",
+        "520021",
+        "095151214"
       ]
     },
     {
       "Jashim Uddin Road Branch": [
         "Giant Business Tower, Holding # 3 & 3/A (First Floor), Dhaka Mymensingh Road, Sector # 03,Uttara, Dhaka-1230.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520112",
+        null
       ]
     },
     {
       "Jamal Khan Branch": [
         "CPDL AM Majesta(1st Floor), 84, Jamal Khan Road, Chattogram.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520024",
+        "095150178"
       ]
     },
     {
       "Ponchoboti Branch": [
         "S.M Tower (1st Floor),Lalpur,Fatullah,Narayanganj",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-47670237; 09666777325"
+        "02-47670237; 09666777325",
+        "520126",
+        null
       ]
     },
     {
       "Fulbarigate Branch": [
         "Altaf Plaza, Jogipole, Fulbari Gate, Khan Jahan Ali, Khulna.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "+880 2477733273; +880 2477733293; 09666777325"
+        "+880 2477733273; +880 2477733293; 09666777325",
+        "520201",
+        "095470858"
       ]
     },
     {
       "Barishal Branch": [
         "Bishnu Priya Bhaban, 69, Sadar Road, Barishal",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520402",
+        null
       ]
     },
     {
       "Fenchuganj Branch": [
         "Tuta Miah Mansion (1st Floor), Fenchuganj Bazar, Fenchuganj, Sylhet",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520501",
+        "095911362"
       ]
     },
     {
       "Sonargaon Branch": [
         "Bhuiyan Plaza, Habibpur, Mograpara, Sonargaon, Narayangonj.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520128",
+        "095671699"
       ]
     },
     {
       "Gulshan North Branch": [
         "Holding No. 175, Gulshan Avenue, Gulshan-2, Dhaka-1212",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-222296316; 09666777325"
+        "02-222296316; 09666777325",
+        "520127",
+        null
       ]
     },
     {
       "Khulshi Branch": [
         "Yousuf Minar, Holding No. 51/B Zakir Hossain Road, Ward No. 13, Khulshi, Chattogram – 4212",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "0233335411-12; 02333353410; 09666777325"
+        "0233335411-12; 02333353410; 09666777325",
+        "520025",
+        "095154361"
       ]
     },
     {
       "Khilgaon Branch": [
         "Farid Community Center (1st Floor and 2nd Floor), 574/C, Khilgaon Chowdhury Para,, Khilgaon, Dhaka.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-55121933; 02-55121934; 09666777325"
+        "02-55121933; 02-55121934; 09666777325",
+        "520129",
+        null
       ]
     },
     {
       "Mawna Branch": [
         "A. S Tower, (1st Floor) , Pollibidyut, Mawna Chowrasta, Sreepur, Gazipur.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520131",
+        "095331005"
       ]
     },
     {
       "BHULTA BRANCH": [
         "Rabet Al Haasan Shopping Center(Pvt) Ltd., Bhulta Bus Stand, Rupgonj, Narayangonj.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520130",
+        "095670229"
       ]
     },
     {
       "Ashkona Branch": [
         "Hazi Komoruddin Tower 27, Ashkona, Dakshinkhan Uttara, Dhaka-1230",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520124",
+        null
       ]
     },
     {
       "MURADPUR BRANCH": [
         "Jumairah Fairmont Trade Centre, 327 (Old), CDA Avenue Muradpur, Chattogram-4203",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520026",
+        "095155328"
       ]
     },
     {
       "ASHULIA BRANCH": [
         "Ashraf Plaza ,DEPZ road, Jamgora ,Ashulia ,Dhaka,1341",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-09666777325"
+        "02-09666777325",
+        "520132",
+        null
       ]
     },
     {
       "Gulshan Avenue Branch": [
         "Z N Tower (Ground Floor), Holding-02, Block-S W (I), Road-08,Gulshan Avenue, Gulshan-01, Dhaka-1212",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02222260228; 02222298059; 09666777325"
+        "02222260228; 02222298059; 09666777325",
+        "520133",
+        null
       ]
     },
     {
       "Begum Rokeya Sarani Branch": [
         "Kazi Complex, Holding No. 843, Begum Rokeya Sarani, East Kazipara, Mirpur, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520134",
+        null
       ]
     },
     {
       "Mouchak Branch": [
         "Siddique Shopping Complex (Ground Floor), Mouchak, Kaliakair, Gazipur.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520135",
+        "095330127"
       ]
     },
     {
       "Uttara Branch": [
         "House 1, Road 5, Sector 4, Uttara, Dhaka",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520113",
+        null
       ]
     },
     {
       "Dhanmondi Main Branch": [
         "Suvastu Zenim Plaza, Holding No. 312 (Old), Road# 37, (Old 27), Dhanmondi, Bangladesh",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "02-41021824; 09666777325"
+        "02-41021824; 09666777325",
+        "520136",
+        null
       ]
     },
     {
       "Mongla Branch": [
         "Pouro Multi-purpose Building (1st floor),, Mongla Port Pourashava, Digraj Bazar, P.S: Mongla, Dist: Bagerhat.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520202",
+        "095010942"
       ]
     },
     {
       "National Special Economic Zone Branch": [
         "Administrative Building (1st Floor), National Special Economic Zone, Union: Ichakhali, Ward No-06, P.S: Mirsarai, District: Chattogram",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520027",
+        null
       ]
     },
     {
       "Sherpur Branch": [
         "S.K. Tower (1st Floor),Holding No: 07,Khondoker Tolla Mazar Gate, Sherpur, Bogura.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        "520302",
+        null
       ]
     },
     {
       "EBL branch area head Istiak Ahmed, other senior officials, and local dignitaries were also present.": [
         "M Khorshed Anowar, deputy managing director and head of retail and SME banking, Eastern Bank PLC, (EBL) opened the 37th sub-branch of the bank at Nabharan, Jessore on August 27, 2024.",
+        null,
+        null,
         null,
         null
       ]
@@ -616,6 +793,8 @@
     {
       "EBL Insta Account-Branch": [
         "Retail",
+        null,
+        null,
         null,
         null
       ]
@@ -626,378 +805,486 @@
       "Chandra Sub-Branch": [
         "Momota Super Market, House No. 86/2, Block: H, Ward-7, Sattar Road, Palli Bidyut, Chandra, Gazipur.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Kanchpur Sub-Branch": [
         "Hazi Azam Khan Complex (1st Floor), Gangapur Road, Kanchpur, Sonargaon, Narayanganj",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Mirsarai Sub-Branch": [
         "Hazi Renu Miah Master Shopping Complex, Holding No. 183-0069, Ward No. 02, Mirsarai, Chattogram",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Daulatpur Sub-branch": [
         "SS Center Shopping Mall. Holdimg : 1/1 Ward # 6 Jessore Khulna Highway Road, Daulatpur Khulna",
         null,
-        "041-760222; 09666777325"
+        "041-760222; 09666777325",
+        null,
+        null
       ]
     },
     {
       "Karnaphuli EPZ Sub-Branch": [
         "Old Zone Services Building (Ground Floor), KEPZ Complex, Ward No-40, Patenga, Chattogram",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Bishwanath Sub-Branch": [
         "Grand Complex , Mosula,Ward No- 02, Notun Bazar, Bishwanath, Sylhet",
         null,
-        "08224-56005; 09666777325"
+        "08224-56005; 09666777325",
+        null,
+        "095910439"
       ]
     },
     {
       "Patiya Sub-branch": [
         "Hajee Amju Miah Tower, Holding No. 584, Arakan Road, Ward No: 07, Patiya, Chattogram.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Tejgaon Sub-Branch": [
         "Sheikh Abdul Motin Complex, Holding No. 189/A, East Nakhalpara, Hazi Moron Ali Road, Tejgaon, Dhaka.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Kochukhet Sub-Branch": [
         "234/6, Kochukhet Road, Dhaka Cantonment, Dhaka – 1206",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Doyaganj Sub-Branch": [
         "Jannat Villa, Holding No: 30/1, Monir Hossian Lane, Doyagonj, Ward No: 40, Gandaria, Dhaka.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Kallyanpur Sub-Branch": [
         "1/5, Kallyanpur, Main Road, Mizan Tower( 1st floor), Mirpur, Dhaka- 1216.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Pallabi Sub-Branch": [
         "M.M Complex, Holding No. 11, Road No. 02, Harun Mollah Road, Ward No. 06, Dhaka North City Corporation, PS: Pallabi, Mirpur, Dhaka-1216.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Tongi Sub-Branch": [
         "Kutub Complex, Holding No-65, Anarkoli Road, Ward – 57 , Gazipur City Corporation, Tongi, Gazipur.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Mirpur DOHS Sub-Branch": [
         "Mirpur DOHS Shopping Complex 3rd Floor, Shop No-32, Road No-09, Ward No-02, Pallabi, Dhaka-1216.",
         null,
-        "09666777325"
+        "09666777325",
+        "520107",
+        null
       ]
     },
     {
       "Nawabganj Sub Branch": [
         "“Chamak Plaza” , Baghmara,Kolakopa, Nawabgonj, Dhaka-1320.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        "095274696"
       ]
     },
     {
       "Dohazari Sub Branch": [
         "Hazari Tower (1st Floor), Dohazari, Chandanaish, Chattogram.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        "095152563"
       ]
     },
     {
       "Laksam Sub-Branch": [
         "M.M Tower (1st Floor), Holding No1550 Chouddhagram Road, Ward No.04, Laksam Pourashava,Thana:Laksam, Cumilla",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Syedpur Sub-Branch": [
         "Holding No.0043-00, Naya Bazar, Tulshiram Road, Ward No. 02, Syedpur Pourashava, Syedpur, Nilphamari.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Satkhira Sadar Sub-Branch": [
         "Holding No # 0657, Tufan Companyr More, Abul Kashem Road, P.O & P.S : Satkhira Sadar, Satkhira.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Dinajpur Sub-Branch": [
         "Northan Plaza ( 1st floor), Holding No-1019-984/1, Goneshtola, Kotowali, Dinajpur",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Nikunja Sub-Branch": [
         "DSE Tower (Ground Floor), Holdng#46, Road#21, Ward#17, Dhaka North City Corporation, Thana: Khilkhet, Nikunjo-2, Dhaka-1229.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Kushtia Sadar Sub-Branch": [
         "Holding No. 176-178, Tamij Uddin Super Market, 1st Floor N S Road, Kushtia Sadar, Kushtia",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Narsingdi Sadar Sub-branch": [
         "Holding-406, Fulmia Super Market (1st Floor), Central Mosjid Road, Narsingdi Bazar, Narsingdi",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Manikganj Sub Branch": [
         "Kalims Tower (1st floor), Holding-40, 41 & 42, Shahid Rafique Sarak, P.O & P.S: Manikganj Sadar, Dist: Manikganj.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Chauddagram Sub Branch": [
         "Holding No-102, Wapda Road, Ward-04, Chauddagram pourashava, Chauddagram, Cumilla.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Munshiganj Sadar Sub Branch": [
         "R.K Tower (1st floor), Holding # 605, Bagh Mahmud Ali, Sadar Hospital Road P.O: Munshiganj, P.S: Munshiganj Sadar, District: Munshiganj",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Anowara Sub-Branch": [
         "S.R Super Market, Thana Road, Sadar Union, Ward-04, P.O & P.S-Anowara, District: Chattogram",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Chandpur Sub-Branch": [
         "Holding- 812, Hazi Mohasin Road, Chitrolekha More, Chandpur Sadar, Chandpur.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Mughda Sub Branch": [
         "Holding No: 44/4 (1st Floor), Atish Dipankar Road, Mughda, Ward No: 06, Dhaka South City Corporation, Thana: Mughda, Dis: Dhaka",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Sreemangal Sub-Branch": [
         "Holding No-491, Al Hera Tower (1st Floor), Moulvibazar Road Sreemangal, Moulvibazar, Bangladesh.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Pabna Sub Branch": [
         "619/6, P.K. Shaha Road, Manama A.M.Plaza, first floor, Dilalpur, Pabna.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Olipur Sub-Branch": [
         "Habiganj Industrial Park,Holding No-65, Olipur, Shayestaganj, Habiganj.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Daudkandi Sub-branch": [
         "“Abid Plaza”, Holding No.045-3-16, Daudkandi Bisshoroad, Ward no. 04 Daudkandi Pouroshova P.S: Daudkandi,District: Cumilla,Bangladesh.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Araihazar Sub-branch": [
         "Abdul Kadir Mansion”, Holding No – 677, 1st Floor, Araihazar General Hospital Road, Ward No – 08, Pouroshova, P.S & P.O – Araihazar, District – Narayangonj",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Boalkhali Sub-branch": [
         "T.T.K.A Bhaban”, Ground Floor, Holding # Bah/41; W.06, Pouroshova: Boalkhali, P.O: Boalkhali, Dist: Chattogram.",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Banshkhali Sub-Branch": [
         "“Mukter Tower”, Union -5 No. Kalipur. P.O- Gunagari, PS Banshkhali, District-Chattogram",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Nabharan Sub Branch": [
         "Shahida Zaman Super Market, Nabharan Rail Bazar, Nabharan, Jashore.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Chandaikona Sub Branch": [
         "Bashar Tower (1st Floor), Fakir Bari Road, Chandaikona Bazar, Ward No: 01, Police Station: Raiganj, Sirajganj",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Mandari Sub Branch": [
         "Zillur Rahim Market, 1st Floor, Holding: 225, Union: 14 No. Mandari Bazar, P.S: Chandragonj, Dist: Lakshmipur",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Nawabpur Sub Branch": [
         "Mazed Sardar Tower, (Tower 2), 2nd Floor 154, Hazi Osman Gani Road, Nawabpur, Dhaka",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Chuadanga Sub-Branch": [
         "Anik tower (1st floor), Daulotdiar, Chuadanga",
         null,
-        "+8809666777325"
+        "+8809666777325",
+        null,
+        null
       ]
     },
     {
       "Bantibazar Sub Branch": [
         "Tarazuddin Plaza, Bantibazar, Araihazar, Narayanganj",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Lake Drive Road Uttara Sub-Branch": [
         "Kanchan Niketan, Holding Number # 5, Lake Drive Road, Sector # 07, Uttara. Dhaka North City Corporation, Thana: North West, District: Dhaka",
         null,
-        "09666777325"
+        "09666777325",
+        "520113",
+        null
       ]
     },
     {
       "Gazipur Chowrasta Sub-Branch": [
         "Amanta Tower(1st Floor), Noljani, Basan, Gazipur City Corporation",
         null,
-        "+880 9666777325"
+        "+880 9666777325",
+        null,
+        null
       ]
     },
     {
       "Rupnagar Sub-branch": [
         "Holding No. 60, Road No. 02, Rupnagar Abasik More, Mirpur. 07, Police Station: Rupnagar, Dhaka",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Hemayetpur Sub-Branch": [
         "Holding # 46,Madani Super Market (Hemayetpur Bus Stand.)Hemayetpur, Savar ,Dhaka.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "COX’S BAZAR SADAR SUB-BRANCH": [
         "ALO CHAYA POINT (1ST FLOOR), HOLDING # 851-00, WARD # 04, COX’S BAZAR POURASHAVA, PO &PS: COX’S BAZAR SADAR, DIST- COX’S BAZAR",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "PALASHBARI SUB BRANCH": [
         "MOHAMMAD ALI PLAZA (1ST FLOOR), HOLDING NO-17, JAMALPUR, KALIBARI ROAD, PALASHBARI POUROSHAVA, PALASHBARI, GAIBANDHA.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "SREENAGAR SUB-BRANCH": [
         "Zom Zom Tower ( 1st Floor ), Bhgyakul Road, Ward No:05, Sreenagar Union, Sreenagar, Munshigonj.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Pahartali Sub Branch": [
         "Foysal Dastagir Complex (1st Floor) Holding# 10/137, D T Road, Pahartali CDA market, CDA Uttar Pahartali, Ward # 09, Chattogram.",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Mirpur 10 Sub Branch": [
         "Central Plaza, (1st floor), Holding NO. 231, Begum Rokeya Sarani, Ward No. 14, Dhaka North City Corporation, Police Station: Kafrul, District: Dhaka.",
         null,
-        "09666777325"
+        "09666777325",
+        "520107",
+        null
       ]
     },
     {
       "KANSAT SUB-BRANCH": [
         "Alhaj Md.Abdul Qayum Market(1st Floor),Vill:Kansat,Dag No: 483,Khatian No:85/1,Mouza: Kansat,Union: Kansat,Police Station: Shibganj, District: Chapai Nawabganj",
         null,
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Dhaka Cantonment Sub Branch": [
         "Building Name: Falcon Mart (Ground Floor), Road: Bangladesh Air Force Base Basher, Ward # 27, Dhaka Cantonment, Dhaka-1206.",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     },
     {
       "Bibirhat Sub Branch": [
         "Mir Jahanara Complex (1st Floor), College Road, Bibirhat, Fatikchari, PO: Fatikchari 4350, PS: Fatikchari, Chattogram..",
         "https://www.ebl.com.bd/cdn-cgi/l/email-protection",
-        "09666777325"
+        "09666777325",
+        null,
+        null
       ]
     }
   ]

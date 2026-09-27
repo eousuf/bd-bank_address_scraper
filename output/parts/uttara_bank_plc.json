@@ -3,11 +3,16 @@
   "bank_url": "https://www.uttarabank-bd.com/",
   "method": "html_table",
   "status": "success",
+  "bank_id": "48",
+  "total_branch": 195,
+  "total_sub_branch": 48,
   "branch": [
     {
       "DEPZ Ganakbari": [
         "PO- DEPZ, PS- Ashulia, Dhaka-1349",
         "https://www.uttarabank-bd.com/home/branch_info/62",
+        null,
+        null,
         null
       ]
     },
@@ -15,6 +20,8 @@
       "Eastern Plaza (1st Floor)": [
         "Airport Road, Ambarkhana, Sylhet-3100",
         "https://www.uttarabank-bd.com/home/branch_info/280",
+        null,
+        "480158",
         null
       ]
     },
@@ -22,6 +29,8 @@
       "Afzal Bepary Market (1st floor)": [
         "Amin Bazar, Savar, Dhaka-1348",
         "https://www.uttarabank-bd.com/home/branch_info/76",
+        null,
+        null,
         null
       ]
     },
@@ -29,20 +38,26 @@
       "Araihazar Branch": [
         "Bhai Bhai Hazi Super Market, North Side, Araihazer",
         "https://www.uttarabank-bd.com/home/branch_info/316",
-        "01404450192"
+        "01404450192",
+        "480185",
+        "250670048"
       ]
     },
     {
       "Ashuganj Branch": [
         "Four Star Plaza (1st floor) ChalBazar, Ashuganj Brahmanbaria",
         "https://www.uttarabank-bd.com/home/branch_info/318",
-        "01404450207"
+        "01404450207",
+        "480037",
+        null
       ]
     },
     {
       "Shahalom Tower (1st Floor)": [
         "Bogabari Bazar, Ashulia, Savar, Dhaka-1349",
         "https://www.uttarabank-bd.com/home/branch_info/299",
+        null,
+        null,
         null
       ]
     },
@@ -50,13 +65,17 @@
       "Atia Branch": [
         "Silimpur Bazar, PO- Hinganagor, P.S: Delduar, Tangail-1914.",
         "https://www.uttarabank-bd.com/home/branch_info/290",
-        "01991144246; 01991144247"
+        "01991144246; 01991144247",
+        "480245",
+        "250930225"
       ]
     },
     {
       "Aulad Hossain Market (1st Floor)": [
         "104 Tejkunipara, Old Airport Road, Tejgaon, Dhaka -1215",
         "https://www.uttarabank-bd.com/home/branch_info/64",
+        null,
+        null,
         null
       ]
     },
@@ -64,6 +83,8 @@
       "3/4/A": [
         "Gopinath Dutta Kabiraj Street, Babu Bazar, Dhaka-1100.",
         "https://www.uttarabank-bd.com/home/branch_info/66",
+        null,
+        null,
         null
       ]
     },
@@ -71,6 +92,8 @@
       "F-15": [
         "Jahanara Plaza, Progoti Sarani, Middle Badda, Dhaka-1212",
         "https://www.uttarabank-bd.com/home/branch_info/109",
+        null,
+        null,
         null
       ]
     },
@@ -78,6 +101,8 @@
       "B.H. Nibash (1st Floor)": [
         "Block-A, House No.22, Titas Road, South Banasree, Khilgaon, Dhaka-1219",
         "https://www.uttarabank-bd.com/home/branch_info/110",
+        null,
+        null,
         null
       ]
     },
@@ -85,6 +110,8 @@
       "Alim Ullah Tower (1st Floor)": [
         "Mahabubur Rahaman Road, Bandarban Sadar, Bandarban",
         "https://www.uttarabank-bd.com/home/branch_info/300",
+        null,
+        null,
         null
       ]
     },
@@ -92,6 +119,8 @@
       "House-34": [
         "Garib-E-Newaz Avenue, Sector-13, Uttara Model Town, Dhaka-1230",
         "https://www.uttarabank-bd.com/home/branch_info/68",
+        null,
+        null,
         null
       ]
     },
@@ -99,6 +128,8 @@
       "47 Hawa Bhaban": [
         "Baraiyarhat Pourashova, Jorarganj, Mirsharai, Chattogram-4326",
         "https://www.uttarabank-bd.com/home/branch_info/26",
+        null,
+        null,
         null
       ]
     },
@@ -106,6 +137,8 @@
       "Advocate Ansar Plaza (1st Floor)": [
         "Nazrul Islam Road, Barguna Sadar, Barguna-8700",
         "https://www.uttarabank-bd.com/home/branch_info/4",
+        null,
+        null,
         null
       ]
     },
@@ -113,6 +146,8 @@
       "Aryya Laxmi Bhaban": [
         "99, Sadar Road, Ward No.17, Barishal City Corporation, Kotwali, Barishal-8200",
         "https://www.uttarabank-bd.com/home/branch_info/5",
+        null,
+        null,
         null
       ]
     },
@@ -120,6 +155,8 @@
       "Hazi Memorial Market (1st Floor)": [
         "Middle Bazar, Barlekha -3250, Moulvibazar",
         "https://www.uttarabank-bd.com/home/branch_info/166",
+        null,
+        null,
         null
       ]
     },
@@ -127,6 +164,8 @@
       "Mohammadi Super Market": [
         "(1st Floor), Bashurhat, Companigonj, Noakhali",
         "https://www.uttarabank-bd.com/home/branch_info/198",
+        null,
+        null,
         null
       ]
     },
@@ -134,6 +173,8 @@
       "Shapla Mension (1st Floor)": [
         "Main Road, Beanibazar, Sylhet-3170",
         "https://www.uttarabank-bd.com/home/branch_info/283",
+        null,
+        null,
         null
       ]
     },
@@ -141,13 +182,17 @@
       "Begumganj Branch": [
         "Zila Parishad Super Market (1st Floor), Begumganj Chowrasta, Chowmuhani Pourashava, Begumganj, Noakhali-3821",
         "https://www.uttarabank-bd.com/home/branch_info/199",
-        "0321)52379; 01991144302"
+        "0321)52379; 01991144302",
+        "480065",
+        "250750342"
       ]
     },
     {
       "BGDCL Head Office Complex": [
         "Chapapur, Cumilla-3500",
         "https://www.uttarabank-bd.com/home/branch_info/42",
+        null,
+        "480118",
         null
       ]
     },
@@ -155,13 +200,17 @@
       "Bhagalpur Branch": [
         "Jahurul Islam Medical College & Hospital Campus, Bhagalpur, PS-Bajitpur, Kishoregonj-2336",
         "https://www.uttarabank-bd.com/home/branch_info/151",
-        "01991144248"
+        "01991144248",
+        "480183",
+        "250480162"
       ]
     },
     {
       "Roy Market, Bazar road": [
         "Bhaluka, Mymensingh-2240",
         "https://www.uttarabank-bd.com/home/branch_info/314",
+        null,
+        null,
         null
       ]
     },
@@ -169,6 +218,8 @@
       "Mondol Plaza (1st Floor)": [
         "Shoratnagar Bazar, Bhangura, Pabna",
         "https://www.uttarabank-bd.com/home/branch_info/305",
+        null,
+        null,
         null
       ]
     },
@@ -176,6 +227,8 @@
       "K": [
         "Jahan Shopping Complex, Sadar Road, Bhola-8300",
         "https://www.uttarabank-bd.com/home/branch_info/12",
+        null,
+        null,
         null
       ]
     },
@@ -183,20 +236,26 @@
       "Bhulta Branch": [
         "Rabet Al-Hasan Shopping Center (2nd floor), Bhulta, PS-Rupganj, Narayanganj-1462",
         "https://www.uttarabank-bd.com/home/branch_info/180",
-        "01991144222; 01991144223"
+        "01991144222; 01991144223",
+        "480213",
+        "250670222"
       ]
     },
     {
       "Bibirhat Branch": [
         "12-13, NF Market, Eidgaon Road, Fatikchhari Pourasava, Chattagram",
         "https://www.uttarabank-bd.com/home/branch_info/313",
-        "01404450221"
+        "01404450221",
+        "480034",
+        "250151246"
       ]
     },
     {
       "College Road": [
         "Feni Sadar, Feni-3900",
         "https://www.uttarabank-bd.com/home/branch_info/125",
+        null,
+        null,
         null
       ]
     },
@@ -204,6 +263,8 @@
       "Latifullah Market (1st Floor)": [
         "Jagannathpur Road, Puran Bazar, Bishwanath, Sylhet-3130",
         "https://www.uttarabank-bd.com/home/branch_info/279",
+        null,
+        null,
         null
       ]
     },
@@ -211,6 +272,8 @@
       "Forzan Plaza (1st Floor)": [
         "Holding No.43, Block-B, West Panishail, PS-Kashimpur, P.O: PTC Zirani, Gazipur-1349",
         "https://www.uttarabank-bd.com/home/branch_info/128",
+        null,
+        null,
         null
       ]
     },
@@ -218,6 +281,8 @@
       "Habib Mansion (1st floor)": [
         "Kabi Nazrul Islam Road, Bogura-5800",
         "https://www.uttarabank-bd.com/home/branch_info/14",
+        null,
+        null,
         null
       ]
     },
@@ -225,13 +290,17 @@
       "Bonpara Poura Bhaban, Pabna Road": [
         ", P.O-Haroa, P.S.-Baraigram, Natore-6430",
         "https://www.uttarabank-bd.com/home/branch_info/191",
-        null
+        null,
+        "480391",
+        "250761786"
       ]
     },
     {
       "Safe Ocean City": [
         "1st floor, Holding No.1420, Ward no.08, COX'S Bazar High way road, Chiringa, Chakaria, Cox's Bazar.",
         "https://www.uttarabank-bd.com/home/branch_info/315",
+        null,
+        null,
         null
       ]
     },
@@ -239,13 +308,17 @@
       "Chanchkoir Branch": [
         "P.O : Chanchkoir Bazar, P.S: Gurudaspur, Dist : Natore -6440",
         "https://www.uttarabank-bd.com/home/branch_info/303",
-        "02588874430; 01404450242"
+        "02588874430; 01404450242",
+        "480301",
+        null
       ]
     },
     {
       "Haji Abdul Hamid Member Market": [
         "Thana Road, Chandina Pourashova, Chandina, Cumilla-3510",
         "https://www.uttarabank-bd.com/home/branch_info/43",
+        null,
+        null,
         null
       ]
     },
@@ -253,6 +326,8 @@
       "Jashim Uddiner Building": [
         "Moddho Bazar, Chandraganj, Laxmipur",
         "https://www.uttarabank-bd.com/home/branch_info/154",
+        null,
+        null,
         null
       ]
     },
@@ -260,6 +335,8 @@
       "Abdullah Complex (1st Floor)": [
         "12 No. Purohitpara, Charpara, Mymensingh",
         "https://www.uttarabank-bd.com/home/branch_info/304",
+        null,
+        null,
         null
       ]
     },
@@ -267,6 +344,8 @@
       "Jonaki Shopping Complex (1st floor). Ward-09": [
         "Chawkbazar, Kotwali, Barishal-8200",
         "https://www.uttarabank-bd.com/home/branch_info/7",
+        null,
+        null,
         null
       ]
     },
@@ -274,6 +353,8 @@
       "Hossain Complex (1st Floor)": [
         "404, Kapasgola Road, PO-Chawkbazar, Chattogram-4203",
         "https://www.uttarabank-bd.com/home/branch_info/37",
+        null,
+        null,
         null
       ]
     },
@@ -281,6 +362,8 @@
       "Mehtaj Shopping Complex (1st floor)": [
         "Girls School Road, Chhatak, Sunamgonj-3080",
         "https://www.uttarabank-bd.com/home/branch_info/274",
+        null,
+        null,
         null
       ]
     },
@@ -288,6 +371,8 @@
       "Anower Tower(1st Floor)": [
         "634, Ferryghat Road, Chuadanga-7200",
         "https://www.uttarabank-bd.com/home/branch_info/41",
+        null,
+        null,
         null
       ]
     },
@@ -295,6 +380,8 @@
       "Niranjan City": [
         "Holding No.:95, Moddho Bazar Sarak, Chunarughat Pourashava, Chunarughat, Habiganj-3320.",
         "https://www.uttarabank-bd.com/home/branch_info/307",
+        null,
+        null,
         null
       ]
     },
@@ -302,6 +389,8 @@
       "Gias Uddin Tower (1st floor)": [
         "Holding No. AV-31, G.S.C.A, Bir Uttam Khandakar Sarak, Gulshan-1, Dhaka-1212",
         "https://www.uttarabank-bd.com/home/branch_info/296",
+        null,
+        null,
         null
       ]
     },
@@ -309,6 +398,8 @@
       "Hazi Idris Tower (1st Floor)": [
         "Companigonj Bazar, Nabipur (West), Muradnagar, Cumilla-3542",
         "https://www.uttarabank-bd.com/home/branch_info/44",
+        null,
+        null,
         null
       ]
     },
@@ -316,6 +407,8 @@
       "Rahman Mansion (1st Floor)": [
         "Thana Bazar, Companigonj, Sylhet-3140",
         "https://www.uttarabank-bd.com/home/branch_info/285",
+        null,
+        null,
         null
       ]
     },
@@ -323,6 +416,8 @@
       "Zia Complex": [
         "Main Road, South Laldighirpar, Cox's Bazar-4700",
         "https://www.uttarabank-bd.com/home/branch_info/49",
+        null,
+        null,
         null
       ]
     },
@@ -330,6 +425,8 @@
       "Upper Jashore Road": [
         "Daulatpur, Khulna-9202",
         "https://www.uttarabank-bd.com/home/branch_info/143",
+        null,
+        null,
         null
       ]
     },
@@ -337,6 +434,8 @@
       "Ali Market & Wali Bhaban (1st Floor)": [
         "Dhakadakshin, PS: Golapganj, Sylhet-3161",
         "https://www.uttarabank-bd.com/home/branch_info/277",
+        null,
+        null,
         null
       ]
     },
@@ -344,6 +443,8 @@
       "Nizam Uddin Market (1st Floor)": [
         "Tantor Bazar, Akhaura, Brahmanbaria-3452",
         "https://www.uttarabank-bd.com/home/branch_info/15",
+        null,
+        null,
         null
       ]
     },
@@ -351,13 +452,17 @@
       "Dinajpur Branch": [
         "Mokbul Mansion (1st Floor), Maldahpatty, Dinajpur-5200",
         "https://www.uttarabank-bd.com/home/branch_info/120",
-        "0531)63230; 0531)63549; 01991144357"
+        "0531)63230; 0531)63549; 01991144357",
+        "480343",
+        "250280670"
       ]
     },
     {
       "Eastern Plaza (4th Floor)": [
         "70/5/48, Bir Uttam CR Dutta Sarak, Hatirpool, Dhaka-1205",
         "https://www.uttarabank-bd.com/home/branch_info/70",
+        null,
+        "480158",
         null
       ]
     },
@@ -365,6 +470,8 @@
       "Sky View Trade Valley (1st loor)": [
         "66-66/1, Naya Paltan, VIP Road, Dhaka-1000",
         "https://www.uttarabank-bd.com/home/branch_info/79",
+        null,
+        null,
         null
       ]
     },
@@ -372,13 +479,17 @@
       "Faridpur Branch": [
         null,
         "https://www.uttarabank-bd.com/home/branch_info/123",
-        "0631)63437; 0631)66646; 01991144422"
+        "0631)63437; 0631)66646; 01991144422",
+        "480161",
+        "250290523"
       ]
     },
     {
       "A.Sattar Shopping Center (1st Floor)": [
         "Thana Road, Fenchugonj, Sylhet-3116",
         "https://www.uttarabank-bd.com/home/branch_info/281",
+        null,
+        null,
         null
       ]
     },
@@ -386,13 +497,17 @@
       "Foreign Exchange Branch": [
         "69. Dilkusha C/A, Dhaka-1000",
         "https://www.uttarabank-bd.com/home/branch_info/80",
-        "02223351745; 02223382375; 01991144124"
+        "02223351745; 02223382375; 01991144124",
+        "480151",
+        null
       ]
     },
     {
       "Hannan Mansion (1st Floor)": [
         "174, Siddique Bazar, Fulbaria, Dhaka-1000",
         "https://www.uttarabank-bd.com/home/branch_info/61",
+        null,
+        null,
         null
       ]
     },
@@ -400,13 +515,17 @@
       "Gaibandha Branch": [
         "Park Road, Gaibandha-5700, Bangladesh.",
         "https://www.uttarabank-bd.com/home/branch_info/126",
-        "02588877644; 02588877645; 01991144358"
+        "02588877644; 02588877645; 01991144358",
+        "480350",
+        "250320527"
       ]
     },
     {
       "Mowla Bhaban (1st Floor)": [
         "719, Thana Road, Ward-04, Galachipa, Patuakhali-8640",
         "https://www.uttarabank-bd.com/home/branch_info/252",
+        null,
+        null,
         null
       ]
     },
@@ -414,6 +533,8 @@
       "Umme Solaiman Garden": [
         "70, Dhaka Mymensingh Highway Road, Gazipura Bus Stand, Gazipura, Tongi, Gazipur-1712",
         "https://www.uttarabank-bd.com/home/branch_info/129",
+        null,
+        null,
         null
       ]
     },
@@ -421,6 +542,8 @@
       "Dr. Shahjahan House (1st Floor)": [
         "Gheor Bazar, PO & PS-Gheor, Manikgonj-1840",
         "https://www.uttarabank-bd.com/home/branch_info/63",
+        null,
+        null,
         null
       ]
     },
@@ -428,13 +551,17 @@
       "Ghorasal Branch": [
         "Ghorasal Bazar PS.-Palash, Dist.-Narsingdi-1613",
         "https://www.uttarabank-bd.com/home/branch_info/188",
-        "02)9466242; 01991144225"
+        "02)9466242; 01991144225",
+        "480221",
+        "250680496"
       ]
     },
     {
       "Al-Hasan Market (1st Floor)": [
         "PO: Goalabazar, PS: Osmaninagar, Dist: Sylhet-3124",
         "https://www.uttarabank-bd.com/home/branch_info/286",
+        null,
+        null,
         null
       ]
     },
@@ -442,13 +569,17 @@
       "Gopinathpur Bazar": [
         "P.O- Gopinathpur, P.S- Kasba, Brahmanbaria-3464",
         "https://www.uttarabank-bd.com/home/branch_info/16",
-        null
+        null,
+        "480003",
+        "250120822"
       ]
     },
     {
       "2 No. Metropolitan Shopping Plaza (1st Floor)": [
         "Gulshan Circle-2, Gulshan-2, Dhaka-1212",
         "https://www.uttarabank-bd.com/home/branch_info/59",
+        null,
+        null,
         null
       ]
     },
@@ -456,6 +587,8 @@
       "Tamizur Rahman Plaza": [
         "Holding no. 3113/4514 Halishahar Road, Ward no-12, P.S.-Pahartali, Chattogram",
         "https://www.uttarabank-bd.com/home/branch_info/25",
+        null,
+        null,
         null
       ]
     },
@@ -463,6 +596,8 @@
       "Uttar Bazar": [
         "Haluaghat, Mymensingh-2260",
         "https://www.uttarabank-bd.com/home/branch_info/225",
+        null,
+        null,
         null
       ]
     },
@@ -470,6 +605,8 @@
       "Akram Tower": [
         "Tamaruddin Road, Oskhali Bazar, Hatiya, Noakhali",
         "https://www.uttarabank-bd.com/home/branch_info/308",
+        null,
+        null,
         null
       ]
     },
@@ -477,6 +614,8 @@
       "BSL Building No.2": [
         "(1st Floor), 1, Minto Road, Shahbagh, Dhaka-1000",
         "https://www.uttarabank-bd.com/home/branch_info/115",
+        null,
+        null,
         null
       ]
     },
@@ -484,6 +623,8 @@
       "Ichhapura Chowrasta": [
         "Abdul Matin Hawlader Supar Market, (1st Floor), P.O-Ichhapura, P.S-Sirajdikhan, Dist: Munshiganj",
         "https://www.uttarabank-bd.com/home/branch_info/171",
+        null,
+        "480170",
         null
       ]
     },
@@ -491,13 +632,17 @@
       "Ishwardi Branch": [
         "Station Road, PO+PS Ishwardi, Pabna-6620",
         "https://www.uttarabank-bd.com/home/branch_info/200",
-        "02588846663; 01991144338"
+        "02588846663; 01991144338",
+        "480390",
+        "250761210"
       ]
     },
     {
       "Babuly Islampur Complex": [
         "1,2 no Waiz Ghat and 57-58 no Loyal Street, Patuatuly Road, Kotowali, Dhaka",
         "https://www.uttarabank-bd.com/home/branch_info/73",
+        null,
+        "480120",
         null
       ]
     },
@@ -505,13 +650,17 @@
       "Jagannathpur Branch": [
         "Habibur Mansion (1st Floor), Chilaura Point, Jagannathpur-3060, Sunamganj",
         "https://www.uttarabank-bd.com/home/branch_info/276",
-        "08727)56037; 01991144461"
+        "08727)56037; 01991144461",
+        "480073",
+        "250900497"
       ]
     },
     {
       "A.K Tower": [
         "Fateh Kha Road, Jaintapur, Sylhet-3156",
         "https://www.uttarabank-bd.com/home/branch_info/295",
+        null,
+        null,
         null
       ]
     },
@@ -519,6 +668,8 @@
       "Ishaque Tower (1st Floor)": [
         "43, M.K Road, Jashore -7400",
         "https://www.uttarabank-bd.com/home/branch_info/137",
+        null,
+        null,
         null
       ]
     },
@@ -526,13 +677,17 @@
       "Jhenaidah Branch": [
         "Malita Plaza (1st Floor) Sher-e-Bangla Road, Jhenaidah-7300",
         "https://www.uttarabank-bd.com/home/branch_info/140",
-        "0451)61436; 0451)62469; 01991144390"
+        "0451)61436; 0451)62469; 01991144390",
+        "480290",
+        "250440649"
       ]
     },
     {
       "Sarwardi Market (1st Floor)": [
         "Sadar Road, Joypurhat-5900",
         "https://www.uttarabank-bd.com/home/branch_info/141",
+        null,
+        null,
         null
       ]
     },
@@ -540,6 +695,8 @@
       "Pedrollo Plaza (1st Floor)": [
         "5, Jubilee Road, Chattogram-4000",
         "https://www.uttarabank-bd.com/home/branch_info/35",
+        null,
+        null,
         null
       ]
     },
@@ -547,6 +704,8 @@
       "Awal Market (2nd Floor)": [
         "Keranigonj, Dhaka-1310",
         "https://www.uttarabank-bd.com/home/branch_info/294",
+        null,
+        null,
         null
       ]
     },
@@ -554,13 +713,17 @@
       "Kansat Branch": [
         "Kansat Gopalnagar Eidgah Market, Kansat, Shibgonj, Chapainawabgonj",
         "https://www.uttarabank-bd.com/home/branch_info/20",
-        "01991144339"
+        "01991144339",
+        "480382",
+        null
       ]
     },
     {
       "Hasna Plaza (1st floor)": [
         "Pat Mahal, Karimganj Bazar, Karimganj, Dist-Kishoreganj",
         "https://www.uttarabank-bd.com/home/branch_info/302",
+        null,
+        null,
         null
       ]
     },
@@ -568,6 +731,8 @@
       "A.K.M Jaman Plaza": [
         "Holding no-209/1, Betal Road, Katiadi, Kishoregonj",
         "https://www.uttarabank-bd.com/home/branch_info/301",
+        null,
+        null,
         null
       ]
     },
@@ -575,6 +740,8 @@
       "Jamuna Bhaban": [
         "2, Kawran Bazar,Tejgaon, Dhaka-1215",
         "https://www.uttarabank-bd.com/home/branch_info/83",
+        null,
+        null,
         null
       ]
     },
@@ -582,13 +749,17 @@
       "Keshorhat High School Market": [
         "1st Floor, Holding-43/1, Word-3, Rajshahi Naogaon Highway Road, Keshorhat Bazar, PS-Mohonpur, Rajshahi",
         "https://www.uttarabank-bd.com/home/branch_info/306",
-        null
+        null,
+        "480304",
+        "250810158"
       ]
     },
     {
       "Hoque Tower (1st Floor)": [
         "Masjid Road, Khagrachari Sadar, Khagrachari-4400",
         "https://www.uttarabank-bd.com/home/branch_info/298",
+        null,
+        null,
         null
       ]
     },
@@ -596,6 +767,8 @@
       "M. J. Trade Centre (2nd Floor)": [
         "263/284 Khatungonj, Kotwali, Chattogram-4000",
         "https://www.uttarabank-bd.com/home/branch_info/38",
+        null,
+        null,
         null
       ]
     },
@@ -603,6 +776,8 @@
       "M.M Plaza (1st Floor)": [
         "114, Notun Bazar Road, Khepupara, Kalapara, Patuakhali",
         "https://www.uttarabank-bd.com/home/branch_info/254",
+        null,
+        null,
         null
       ]
     },
@@ -610,6 +785,8 @@
       "Noor Mansion (1st Floor)": [
         "Dhaka-Tangail Road, Konabari, Gazipur-1346",
         "https://www.uttarabank-bd.com/home/branch_info/130",
+        null,
+        null,
         null
       ]
     },
@@ -617,6 +794,8 @@
       "M.R.H Shopping City (1st Floor)": [
         "Dhaka-Sylhet Main Road, Kulaura-3230, Moulvibazar",
         "https://www.uttarabank-bd.com/home/branch_info/169",
+        null,
+        null,
         null
       ]
     },
@@ -624,6 +803,8 @@
       "N.R. Plaza": [
         "Bazar Road, Kurigram-5600",
         "https://www.uttarabank-bd.com/home/branch_info/152",
+        null,
+        null,
         null
       ]
     },
@@ -631,6 +812,8 @@
       "House-1258": [
         "(1st Floor), 27, N. S Road, Ward-02, Kushtia-7000",
         "https://www.uttarabank-bd.com/home/branch_info/153",
+        null,
+        null,
         null
       ]
     },
@@ -638,6 +821,8 @@
       "1 NO": [
         "New Baily Road, Dhaka-1000",
         "https://www.uttarabank-bd.com/home/branch_info/51",
+        null,
+        null,
         null
       ]
     },
@@ -645,6 +830,8 @@
       "Jalal Market": [
         "Bank Road, Daulatganj Bazar, Laksam, Cumilla -3570",
         "https://www.uttarabank-bd.com/home/branch_info/317",
+        null,
+        null,
         null
       ]
     },
@@ -652,6 +839,8 @@
       "K.S.R City Center": [
         "J.M Sen Avenue, Kotowali, Chattogram",
         "https://www.uttarabank-bd.com/home/branch_info/23",
+        null,
+        null,
         null
       ]
     },
@@ -659,6 +848,8 @@
       "Ali Biponi (1st Floor)": [
         "Laldighirpar, Sylhet-3100",
         "https://www.uttarabank-bd.com/home/branch_info/278",
+        null,
+        null,
         null
       ]
     },
@@ -666,6 +857,8 @@
       "Ayub Plaza (1st floor)": [
         "597/576, Motijharna Road, Lalkhan Bazar, Khulshi, Chattogram-4000",
         "https://www.uttarabank-bd.com/home/branch_info/36",
+        null,
+        null,
         null
       ]
     },
@@ -673,6 +866,8 @@
       "Mia Plaza (1st Floor)": [
         "878-879, Sadar Road, Ward-06, Lalmohon Pourosova, Bhola",
         "https://www.uttarabank-bd.com/home/branch_info/9",
+        null,
+        null,
         null
       ]
     },
@@ -680,20 +875,26 @@
       "Lalmonirhat Branch": [
         "Goshala Road, Ward No. -07, Holding No.-1255 Lalmonirhat-5500, Bangladesh",
         "https://www.uttarabank-bd.com/home/branch_info/157",
-        "0591)61337; 01991144361"
+        "0591)61337; 01991144361",
+        null,
+        "250520464"
       ]
     },
     {
       "Lalpur Branch": [
         "Kafiluddin Super Market (1st Floor), PO & PS- Lalpur, Natore-6421",
         "https://www.uttarabank-bd.com/home/branch_info/190",
-        "02588875469; 01991144340"
+        "02588875469; 01991144340",
+        "480371",
+        "250690910"
       ]
     },
     {
       "Siddique Tower (1st floor)": [
         "Uttar Bazar, Main Road, Laxmipur-3700",
         "https://www.uttarabank-bd.com/home/branch_info/156",
+        null,
+        null,
         null
       ]
     },
@@ -701,6 +902,8 @@
       "Al Amin Shoping Complex": [
         "1st Floor, Lohagara,Chattogram-4396",
         "https://www.uttarabank-bd.com/home/branch_info/39",
+        null,
+        null,
         null
       ]
     },
@@ -708,13 +911,17 @@
       "Lower Jashore Road Branch": [
         "Lower Jashore Road, Khulna-9100",
         "https://www.uttarabank-bd.com/home/branch_info/144",
-        "02477721378; 01991144394"
+        "02477721378; 01991144394",
+        "480297",
+        "250471847"
       ]
     },
     {
       "Goura Complex": [
         "Puran Bazar, Main Road, Madaripur-7900",
         "https://www.uttarabank-bd.com/home/branch_info/158",
+        null,
+        null,
         null
       ]
     },
@@ -722,6 +929,8 @@
       "M.R Road (College Road)": [
         "Magura Sadar, Magura-7600",
         "https://www.uttarabank-bd.com/home/branch_info/159",
+        null,
+        null,
         null
       ]
     },
@@ -729,6 +938,8 @@
       "Mahisalbari Bazar": [
         "PS- Godagari, Rajshahi-6290",
         "https://www.uttarabank-bd.com/home/branch_info/259",
+        null,
+        null,
         null
       ]
     },
@@ -736,13 +947,17 @@
       "Maijdee Court Branch": [
         "Main Road, Maijdee Court, Noakhali-3800",
         "https://www.uttarabank-bd.com/home/branch_info/197",
-        "0321)61407; 0321)61408; 01991144316"
+        "0321)61407; 0321)61408; 01991144316",
+        "480068",
+        "250751570"
       ]
     },
     {
       "90-B": [
         "Malibagh Chowdhury Para (1st Floor), Dhaka-1219",
         "https://www.uttarabank-bd.com/home/branch_info/91",
+        null,
+        null,
         null
       ]
     },
@@ -750,13 +965,17 @@
       "Manikganj Branch": [
         null,
         "https://www.uttarabank-bd.com/home/branch_info/161",
-        "02-996610413; 01991144164"
+        "02-996610413; 01991144164",
+        "480193",
+        "250560611"
       ]
     },
     {
       "Aziz Super Market": [
         "Holding No-206, Farmacy Road, Mathbaria, Pirojpur.",
         "https://www.uttarabank-bd.com/home/branch_info/255",
+        null,
+        null,
         null
       ]
     },
@@ -764,6 +983,8 @@
       "Main Road": [
         "336/2 Hotel Bazar ( 1st Floor ), P.O. & P.S. - Meherpur-7100",
         "https://www.uttarabank-bd.com/home/branch_info/164",
+        null,
+        null,
         null
       ]
     },
@@ -771,6 +992,8 @@
       "Gani Jahan Complex (1st Floor)": [
         "Mirpurbazar, PS-Bahubal, Habiganj-3301",
         "https://www.uttarabank-bd.com/home/branch_info/134",
+        null,
+        null,
         null
       ]
     },
@@ -778,6 +1001,8 @@
       "Grand Plaza Shopping Mall (2nd Floor)": [
         "185, Shahid Sangbadik Salina Parvin Sarak, Moghbazar, Dhaka-1217",
         "https://www.uttarabank-bd.com/home/branch_info/104",
+        null,
+        null,
         null
       ]
     },
@@ -785,6 +1010,8 @@
       "JA-146 (1st Floor)": [
         "Mohakhali Wireless Gate, Banani, Dhaka-1213",
         "https://www.uttarabank-bd.com/home/branch_info/105",
+        null,
+        null,
         null
       ]
     },
@@ -792,6 +1019,8 @@
       "88/A (1st Floor)": [
         "Sher Shah Suri Road, Mohammadpur, Dhaka-1207",
         "https://www.uttarabank-bd.com/home/branch_info/114",
+        null,
+        null,
         null
       ]
     },
@@ -799,6 +1028,8 @@
       "Vision Coplex (1st Floor)": [
         "Sreemangol Road, Mostafapur, Moulovibazar-3200",
         "https://www.uttarabank-bd.com/home/branch_info/167",
+        null,
+        null,
         null
       ]
     },
@@ -806,6 +1037,8 @@
       "RFS Mothkhola Plaza (1st Floor)": [
         "Mothkhola Bazar, Mothkhola, PS-Pakundia, Kishoreganj",
         "https://www.uttarabank-bd.com/home/branch_info/148",
+        null,
+        "480173",
         null
       ]
     },
@@ -813,6 +1046,8 @@
       "Western Plaza (1st Floor)": [
         "Central Road, Moulvibazar-3200",
         "https://www.uttarabank-bd.com/home/branch_info/165",
+        null,
+        null,
         null
       ]
     },
@@ -820,6 +1055,8 @@
       "Jabbar Super Market (1st Floor)": [
         "Mudaforgonj Bazar, PS- Laksham, Cumilla",
         "https://www.uttarabank-bd.com/home/branch_info/47",
+        null,
+        null,
         null
       ]
     },
@@ -827,6 +1064,8 @@
       "Awal Super Market (1st Floor)": [
         "126/2, North Mugdapara, Dhaka-1214",
         "https://www.uttarabank-bd.com/home/branch_info/89",
+        null,
+        null,
         null
       ]
     },
@@ -834,6 +1073,8 @@
       "Munshigonj Plaza (1st floor)": [
         "Old Kachari Road, Munshigonj-1500",
         "https://www.uttarabank-bd.com/home/branch_info/172",
+        null,
+        null,
         null
       ]
     },
@@ -841,6 +1082,8 @@
       "41/A": [
         "Chotta Bazar (1st Floor), Bipin Sen Road, Mymensingh sadar, Mymensingh -2200",
         "https://www.uttarabank-bd.com/home/branch_info/173",
+        null,
+        null,
         null
       ]
     },
@@ -848,13 +1091,17 @@
       "Vill & PO: Nabagram": [
         "PS: Manikganj Sadar, Dist: Manikganj-1800",
         "https://www.uttarabank-bd.com/home/branch_info/163",
-        null
+        null,
+        "480195",
+        "250560732"
       ]
     },
     {
       "Al Hadi Plaza (1st Floor)": [
         "Osmani Road, Nabiganj-3370, Habiganj",
         "https://www.uttarabank-bd.com/home/branch_info/135",
+        null,
+        null,
         null
       ]
     },
@@ -862,6 +1109,8 @@
       "Mofizuddin Market": [
         "Main road, Naogaon Sadar, Naogaon-6500",
         "https://www.uttarabank-bd.com/home/branch_info/176",
+        null,
+        null,
         null
       ]
     },
@@ -869,6 +1118,8 @@
       "Shirin Super Market": [
         "Shorno Potty, Rupganj Bazar, Narail sadar, Narail",
         "https://www.uttarabank-bd.com/home/branch_info/177",
+        null,
+        null,
         null
       ]
     },
@@ -876,13 +1127,17 @@
       "Narayanganj Branch": [
         "Uttara Bank Bhaban, 231/34, Bangabandhu Road Narayangonj City Corporation, Narayangonj",
         "https://www.uttarabank-bd.com/home/branch_info/178",
-        "02)7633655; 02)7633653; 01991144229"
+        "02)7633655; 02)7633653; 01991144229",
+        "480215",
+        "250671184"
       ]
     },
     {
       "Shashi Plaza (1st floor)": [
         "138, C & B Road, Narsingdi Sadar, Narsingdi-1600",
         "https://www.uttarabank-bd.com/home/branch_info/186",
+        null,
+        null,
         null
       ]
     },
@@ -890,6 +1145,8 @@
       "Khan Complex": [
         "PO&PS;-Nawagonj, Dhaka-1320",
         "https://www.uttarabank-bd.com/home/branch_info/84",
+        null,
+        null,
         null
       ]
     },
@@ -897,6 +1154,8 @@
       "153 Hazi Osman Gani Road": [
         "Mazed sarder Tower, Bangshal, Dhaka",
         "https://www.uttarabank-bd.com/home/branch_info/100",
+        null,
+        null,
         null
       ]
     },
@@ -904,6 +1163,8 @@
       "Juber Mansion (1st floor)": [
         "PO: Nazir Bazar, PS-South Surma, Sylhet-3100",
         "https://www.uttarabank-bd.com/home/branch_info/282",
+        null,
+        null,
         null
       ]
     },
@@ -911,6 +1172,8 @@
       "Bhuiyan Plaza (1st Floor)": [
         "Boro Bazar, Netrokona Sadar, Netrokona-2400",
         "https://www.uttarabank-bd.com/home/branch_info/192",
+        null,
+        null,
         null
       ]
     },
@@ -918,20 +1181,26 @@
       "Nilphamari Branch": [
         "Poura Market, Nilphamari-5300",
         "https://www.uttarabank-bd.com/home/branch_info/193",
-        "0551)61332; 01991144362"
+        "0551)61332; 01991144362",
+        "480385",
+        "250730733"
       ]
     },
     {
       "Noapara Bazar": [
         "Noapara, Abhoynagar, Jashore-7460",
         "https://www.uttarabank-bd.com/home/branch_info/138",
-        null
+        null,
+        "480281",
+        "250411636"
       ]
     },
     {
       "P.O: Sonapatty-6600": [
         "Pabna Sadar, Dist : Pabna",
         "https://www.uttarabank-bd.com/home/branch_info/251",
+        null,
+        null,
         null
       ]
     },
@@ -939,6 +1208,8 @@
       "Shimanto Plaza (1st Floor)": [
         "Plot-26/D, Road-03, Section-11, Pallabi, Mirpur, Dhaka-1216.",
         "https://www.uttarabank-bd.com/home/branch_info/92",
+        null,
+        null,
         null
       ]
     },
@@ -946,6 +1217,8 @@
       "G. M. Complex (1st Floor)": [
         "150 Green Road, West Panthapath, Dhaka-1215",
         "https://www.uttarabank-bd.com/home/branch_info/94",
+        null,
+        null,
         null
       ]
     },
@@ -953,6 +1226,8 @@
       "Tayabia Market (Ist Floor)": [
         "Station Road, Patiya, Chattogram-4370",
         "https://www.uttarabank-bd.com/home/branch_info/31",
+        null,
+        null,
         null
       ]
     },
@@ -960,6 +1235,8 @@
       "Madina Jame Masjid Market (1st Floor)": [
         "Post Office Road, Patuakhali Sadar, Patuakhali",
         "https://www.uttarabank-bd.com/home/branch_info/253",
+        null,
+        null,
         null
       ]
     },
@@ -967,6 +1244,8 @@
       "Azimpur Super Market (1st Floor)": [
         "Azimpur, Dhaka-1205",
         "https://www.uttarabank-bd.com/home/branch_info/96",
+        null,
+        "480103",
         null
       ]
     },
@@ -974,6 +1253,8 @@
       "Ayesha Plaza": [
         "Holding No. 390, 390/1, Post Office Road, Pirojpur",
         "https://www.uttarabank-bd.com/home/branch_info/256",
+        null,
+        null,
         null
       ]
     },
@@ -981,20 +1262,26 @@
       "Poura Park Market": [
         "1st Floor, Station Road, Rangpur-5400",
         "https://www.uttarabank-bd.com/home/branch_info/265",
-        null
+        null,
+        null,
+        "250851270"
       ]
     },
     {
       "Pulhat Branch": [
         null,
         "https://www.uttarabank-bd.com/home/branch_info/122",
-        "0531)65193; 01991144365"
+        "0531)65193; 01991144365",
+        "480342",
+        "250281932"
       ]
     },
     {
       "Raihana Clinic (1st Floor)": [
         "Vill-Kathalbaria, Puthia, Rajshahi",
         "https://www.uttarabank-bd.com/home/branch_info/262",
+        null,
+        null,
         null
       ]
     },
@@ -1002,6 +1289,8 @@
       "Jalil Khan Super Market": [
         "Main Road, Rajbari-7700",
         "https://www.uttarabank-bd.com/home/branch_info/257",
+        null,
+        null,
         null
       ]
     },
@@ -1009,6 +1298,8 @@
       "Hazi Safar Ali Plaza (1st floor)": [
         "Rajgonj Road, Chatipotti, Cumilla-3500",
         "https://www.uttarabank-bd.com/home/branch_info/48",
+        null,
+        null,
         null
       ]
     },
@@ -1016,6 +1307,8 @@
       "Hazi Abul Kashem Bhaban (1st Floor)": [
         "Ramdia Bazar, Kashiani Gopalganj",
         "https://www.uttarabank-bd.com/home/branch_info/312",
+        null,
+        null,
         null
       ]
     },
@@ -1023,6 +1316,8 @@
       "New Jamal Market": [
         "Station Road, Kotowali, Rangpup -5400",
         "https://www.uttarabank-bd.com/home/branch_info/266",
+        null,
+        null,
         null
       ]
     },
@@ -1030,13 +1325,17 @@
       "Rani Bazar": [
         "Batar More, Post- Ghoramara, PS- Boalia, Rajshahi-6100",
         "https://www.uttarabank-bd.com/home/branch_info/260",
-        null
+        null,
+        null,
+        "250812143"
       ]
     },
     {
       "Karnophuli Tower": [
         "Holding no: 604/609 Reazuddin Bazar, Jebunessa Road (Faler Gali) Chattogram City Corporation P.S.- Kotwali Dist.- Chattogram",
         "https://www.uttarabank-bd.com/home/branch_info/27",
+        null,
+        null,
         null
       ]
     },
@@ -1044,6 +1343,8 @@
       "Abdul Ali Super Market": [
         "Vill.: Ramgopalpur, UP & P.O.: Panchasar, Munshiganj Sadar, Munshiganj-1501",
         "https://www.uttarabank-bd.com/home/branch_info/170",
+        null,
+        null,
         null
       ]
     },
@@ -1051,6 +1352,8 @@
       "Rahmatullah Mansion": [
         "5/1/1, Simpson Road, Sadarghat, Dhaka-1100",
         "https://www.uttarabank-bd.com/home/branch_info/95",
+        null,
+        null,
         null
       ]
     },
@@ -1058,6 +1361,8 @@
       "Bismillah Plaza": [
         "Guptochara Sarak, Senerhat, Ward No-08, Sandwip, Chattogram-4300",
         "https://www.uttarabank-bd.com/home/branch_info/29",
+        null,
+        null,
         null
       ]
     },
@@ -1065,13 +1370,17 @@
       "Sarkarkhana Branch": [
         "C-12 Building (1st Floor), TICI (Training Institute for Chemical Induustries) Ghorasal Pourashava, Polash, Narsingdi",
         "https://www.uttarabank-bd.com/home/branch_info/185",
-        "02)9466058; 01991144233"
+        "02)9466058; 01991144233",
+        "480223",
+        "250681187"
       ]
     },
     {
       "Salok Super Market (1st Floor)": [
         "Sarojganj Bazar, Chuadanga",
         "https://www.uttarabank-bd.com/home/branch_info/293",
+        null,
+        null,
         null
       ]
     },
@@ -1079,20 +1388,26 @@
       "Satkhira Branch": [
         "Sarder shopping complex (1st Floor), Abul Qasem Sarok (Labonir More), Satkhira",
         "https://www.uttarabank-bd.com/home/branch_info/267",
-        "02477741626; 01991144400"
+        "02477741626; 01991144400",
+        "480333",
+        "250871092"
       ]
     },
     {
       "Savar New Market (1st Floor)": [
         "3/2 Tatti, Savar-1340, Dhaka",
         "https://www.uttarabank-bd.com/home/branch_info/99",
-        null
+        null,
+        "480137",
+        "250811636"
       ]
     },
     {
       "Nahar Plaza (1st Floor)": [
         "2443, Subhani Ghat Point, Shahjalal Uposhahar Road, Sylhet-3100",
         "https://www.uttarabank-bd.com/home/branch_info/287",
+        null,
+        null,
         null
       ]
     },
@@ -1100,6 +1415,8 @@
       "Spain Plaza (1st Floor)": [
         "Palong Bazar, Shariatpur-8000",
         "https://www.uttarabank-bd.com/home/branch_info/268",
+        null,
+        null,
         null
       ]
     },
@@ -1107,6 +1424,8 @@
       "Mahim Super Market (1st Floor)": [
         "67, Sahaid Bulbul Sharak, Munshi Bazar, Sherpur Town, Sherpur-2100",
         "https://www.uttarabank-bd.com/home/branch_info/269",
+        null,
+        null,
         null
       ]
     },
@@ -1114,6 +1433,8 @@
       "Razzak Plaza (1st Floor)": [
         "Tepra Bazar, Shibalaya, Manikgonj-1803",
         "https://www.uttarabank-bd.com/home/branch_info/160",
+        null,
+        null,
         null
       ]
     },
@@ -1121,6 +1442,8 @@
       "PSCI Culture Bhaban (1st Floor)": [
         "14, Shyamoli, Mohammadpur, Dhaka-1207",
         "https://www.uttarabank-bd.com/home/branch_info/54",
+        null,
+        null,
         null
       ]
     },
@@ -1128,6 +1451,8 @@
       "2/A": [
         "Sir Iqbal Road, Khulna-9100",
         "https://www.uttarabank-bd.com/home/branch_info/146",
+        null,
+        null,
         null
       ]
     },
@@ -1135,6 +1460,8 @@
       "Aziz Market": [
         "1st Floor, D.T Road Sitakunda, Chattogram-4300",
         "https://www.uttarabank-bd.com/home/branch_info/32",
+        null,
+        null,
         null
       ]
     },
@@ -1142,6 +1469,8 @@
       "Saima Bhander Market (1st Floor)": [
         "309, Sk. Mujib Road, PO-Bandar, PS-Doublemooring, Chattogram-4100",
         "https://www.uttarabank-bd.com/home/branch_info/28",
+        null,
+        null,
         null
       ]
     },
@@ -1149,13 +1478,17 @@
       "Sonapur Branch": [
         null,
         "https://www.uttarabank-bd.com/home/branch_info/195",
-        "0321)61322; 01991144320"
+        "0321)61322; 01991144320",
+        "480067",
+        "250752324"
       ]
     },
     {
       "Ayub Plaza (1st floor)": [
         "PO-Baranagar, PS.-Sonargaon, Narayangonj-1400",
         "https://www.uttarabank-bd.com/home/branch_info/182",
+        null,
+        null,
         null
       ]
     },
@@ -1163,6 +1496,8 @@
       "Abdur Rahim Super Market": [
         "Station Road, Dinajpur-5200",
         "https://www.uttarabank-bd.com/home/branch_info/119",
+        null,
+        null,
         null
       ]
     },
@@ -1170,13 +1505,17 @@
       "Subgacha Branch": [
         "M.R. Super Market (1st Floor), Alampur Chowrasta, Kazipur, Sirajgonj-6710",
         "https://www.uttarabank-bd.com/home/branch_info/273",
-        "07525)56260; 01991144372"
+        "07525)56260; 01991144372",
+        "480412",
+        "250882081"
       ]
     },
     {
       "Hotel Palace (1st floor)": [
         "Station Road (Mejor Ikbal Road), Sunamganj-3000",
         "https://www.uttarabank-bd.com/home/branch_info/275",
+        null,
+        null,
         null
       ]
     },
@@ -1184,6 +1523,8 @@
       "Shahir Plaza (1st Floor)": [
         "East Zindabazar, Sylhet-3100",
         "https://www.uttarabank-bd.com/home/branch_info/284",
+        null,
+        null,
         null
       ]
     },
@@ -1191,6 +1532,8 @@
       "Ahmed Bhaban": [
         "1st Floor, Hat Shashigonj Bazar, Tajumuddin, Bhola-8350",
         "https://www.uttarabank-bd.com/home/branch_info/8",
+        null,
+        null,
         null
       ]
     },
@@ -1198,6 +1541,8 @@
       "Kanak Super Market (1st Floor)": [
         "Shahid Jaglu Road (Old Adalat Road), Folpatty, Tangail-1900",
         "https://www.uttarabank-bd.com/home/branch_info/289",
+        null,
+        null,
         null
       ]
     },
@@ -1205,6 +1550,8 @@
       "Milk Vita Road": [
         "Tekerhat Bazar, Union- Khalia, PS.- Rajoir, Madaripur-7911",
         "https://www.uttarabank-bd.com/home/branch_info/162",
+        null,
+        null,
         null
       ]
     },
@@ -1212,6 +1559,8 @@
       "A. Salam Market": [
         "BGB Road, Teknaf, Cox’s Bazar-4760, Bangladesh",
         "https://www.uttarabank-bd.com/home/branch_info/310",
+        null,
+        null,
         null
       ]
     },
@@ -1219,6 +1568,8 @@
       "Mouchak Super Market(1st Floor)": [
         "162, North Circular Road, Thakurgaon-5100",
         "https://www.uttarabank-bd.com/home/branch_info/291",
+        null,
+        null,
         null
       ]
     },
@@ -1226,6 +1577,8 @@
       "74/75 Noakhali Tower (1st Floor)": [
         "Anarkoli Road, Tongi, Gazipur-1710",
         "https://www.uttarabank-bd.com/home/branch_info/131",
+        null,
+        null,
         null
       ]
     },
@@ -1233,6 +1586,8 @@
       "Selim Plaza (1st Floor)": [
         "Thana Road, Ullapara, Sirajgonj-6760",
         "https://www.uttarabank-bd.com/home/branch_info/271",
+        null,
+        null,
         null
       ]
     },
@@ -1240,6 +1595,8 @@
       "Ahmed Plaza": [
         "Plot-06, Road-02. Sector-03, Uttara Model Town, Dhaka-1230",
         "https://www.uttarabank-bd.com/home/branch_info/88",
+        null,
+        null,
         null
       ]
     },
@@ -1247,6 +1604,8 @@
       "AERE E P Z": [
         "| Agrabad | B.B Avenue | Banijya | Barishal | Bogura | Chawkbazar(Dhaka) | Corporate | Cumilla | Dar-us-Salam | Dilkusha | English Road | Foreign Exchange | Gulshan | Haluaghat | Islampur | Jashore | Kalabagan | Kawran Bazar | Khatunganj | Laldighi | Local Office | Moulvi Bazar(Dhaka) | Mymensingh |",
         null,
+        null,
+        "480115",
         null
       ]
     },
@@ -1254,6 +1613,8 @@
       "P.O. DEPZ": [
         "Dhamsona, P.S. Ashulia, Savar, Dhaka-1344, Bangladesh",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1261,6 +1622,8 @@
       "Sadar Road": [
         "Barishal-8200",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1268,6 +1631,8 @@
       "Uttara Bank Bhaban": [
         "90,Motijheel C/A, Dhaka-1000",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        "480160",
         null
       ]
     },
@@ -1275,6 +1640,8 @@
       "Dipika Cinema Building": [
         "Kandirpar, Cumilla-3500",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1282,6 +1649,8 @@
       "9/A": [
         "Malitola Lane (North SouthRoad), Dhaka-1100",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1289,6 +1658,8 @@
       "Landmark Shopping Centre(1stFl.)": [
         "12-14, Gulshan North C/A, Gilshan-2 Gulshan Model, Dhaka",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1296,6 +1667,8 @@
       "Uttar Bazar": [
         "P.O:Haluaghat, Upazilla:Haluaghat, Mymensingh",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1303,6 +1676,8 @@
       "(129-130 Motijheel CommercialArea)": [
         "Motijheel, Dhaka-1000",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1310,6 +1685,8 @@
       "Main Road": [
         ", Mofizuddin Market( 1st Floor), Naogaon-6500",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1317,6 +1694,8 @@
       "Jibon Bima Building": [
         "150, B. B. Road, Narayanganj-1400",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1324,6 +1703,8 @@
       "Shimanta Plaza (1st Floor)": [
         "26/D, Main Road No. 3, Sector-11, Mirpur, Dhaka-1221, Bangladesh",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1331,6 +1712,8 @@
       "21/1 Purana Paltan,Mukti Bhaban(1st floor)": [
         ",Dhaka-1000.Bangladesh",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1338,6 +1721,8 @@
       "Dewanbari Road Betpatty": [
         "Rangpur-5400",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1345,6 +1730,8 @@
       "Eastern Elite Center": [
         "741, Satmasjid Road ( 1st Fl.) 3, Dhanmondi R/A. Dhaka-1209",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1352,6 +1739,8 @@
       "40 -41, Siddeswari CircularManager": [
         "Road, KULSUM (1st Floor), Dhaka-1217",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -1359,6 +1748,17 @@
       "Sufia Mansion (1st Floor)": [
         "Sunamganj Sadar, Sunamganj-3000",
         "https://www.uttarabank-bd.com/cdn-cgi/l/email-protection",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Suborno Plaza": [
+        "218, Modho Bazar Main Road, PO: Susong, PS-Durgapur, Dist Netrokona",
+        "https://www.uttarabank-bd.com/subbranch/subbranch_details/11",
+        null,
+        null,
         null
       ]
     }
@@ -1368,13 +1768,17 @@
       "Akbarhat Sub-Branch": [
         "Babul Market (1st Floor), Akbar Hat, Sandwip, Chattagram",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/36",
-        "01404450220"
+        "01404450220",
+        null,
+        null
       ]
     },
     {
       "Alhaz Abdul Azizi Super Market": [
         "Ataikula Bazar, Ataikula, Pabna",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/3",
+        null,
+        null,
         null
       ]
     },
@@ -1382,6 +1786,8 @@
       "Al Helal Super Market (1st Floor)": [
         "Word-04, Pabna Chatmohor Road, Atghoria Pourasava, Pabna",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/17",
+        null,
+        null,
         null
       ]
     },
@@ -1389,6 +1795,8 @@
       "Niyat Ali Super Market (1st floor)": [
         "Old Bus Stand, Lalpur-Charghat Highway Road (Narayanpur) Bagha Pourasava P.S/P.O.- Bagha",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/19",
+        null,
+        null,
         null
       ]
     },
@@ -1396,13 +1804,17 @@
       "Baniachong Sub-Branch": [
         "Mokka Tower (1st Floor), 04 No. Baniachong Dakkhin Poschim Union Parishad, Baniachong, Habiganj",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/41",
-        "01719657165"
+        "01719657165",
+        null,
+        null
       ]
     },
     {
       "Sayed Ali Super Market (1st Floor)": [
         "Basundhara Road, P.S: Vatara, Dhaka North City Corporation, Dhaka.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/47",
+        null,
+        null,
         null
       ]
     },
@@ -1410,13 +1822,17 @@
       "Belabo Sub-Branch": [
         "Abbas Ali Market (1st floor), Belabo Bazar, P.S. Belabo, Belabo, Narsingdi",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/49",
-        "01404450193"
+        "01404450193",
+        null,
+        null
       ]
     },
     {
       "Jharna Super Shopping Complex": [
         "Dinajpur-Dhaka Highway, Dinajpur",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/25",
+        null,
+        null,
         null
       ]
     },
@@ -1424,6 +1840,8 @@
       "Wahed Plaza": [
         "Khansama Road, Birganj, Dinajpur",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/53",
+        null,
+        null,
         null
       ]
     },
@@ -1431,6 +1849,8 @@
       "Mitali Super Market": [
         "1st Floor, Chaprashirhat Poschim Bazar, Kabirhat, Noahkhali-3811",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/5",
+        null,
+        null,
         null
       ]
     },
@@ -1438,13 +1858,17 @@
       "Daganbhuiyan Sub Branch": [
         "Bulu Shopping Complex, 1st Floor, Daganbhuiyan Pourashava, Feni.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/45",
-        "01404450233"
+        "01404450233",
+        null,
+        null
       ]
     },
     {
       "Palanpara": [
         "Dhaperhat Bazar, Dhaperhat Union Sadullapur, Gaibandha.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/18",
+        null,
+        null,
         null
       ]
     },
@@ -1452,13 +1876,8 @@
       "Golden Plaza (1't floor)": [
         "Dilder Market, Kabilpur, Senbag, Noakhali",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/14",
-        null
-      ]
-    },
-    {
-      "Suborno Plaza": [
-        "218, Modho Bazar Main Road, PO: Susong, PS-Durgapur, Dist Netrokona",
-        "https://www.uttarabank-bd.com/subbranch/subbranch_details/11",
+        null,
+        null,
         null
       ]
     },
@@ -1466,13 +1885,17 @@
       "Elenga Sub-Branch": [
         "Mannan Sikder Plaza, Bazar Road Elenga Pourashava Kalihati, Tangail",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/46",
-        "01404450212"
+        "01404450212",
+        null,
+        null
       ]
     },
     {
       "Munshi Mir Kashem Super Market (1st Floor)": [
         "Elliotganj Bazar, Daudkandi, Cumilla",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/22",
+        null,
+        null,
         null
       ]
     },
@@ -1480,6 +1903,8 @@
       "Hajigonj Tower (1st floor)": [
         "Hajigonj Bazar Road, Hajigonj Pourashava, P.S-Hajigonj, Dist.-Chandpur.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/51",
+        null,
+        null,
         null
       ]
     },
@@ -1487,6 +1912,8 @@
       "Ramgarh Road": [
         "Hathazari, Chattogram",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/50",
+        null,
+        null,
         null
       ]
     },
@@ -1494,6 +1921,8 @@
       "Ishita Tower (1st Floor)": [
         "Hatiya Bazar, Hatiya, Noakhali",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/15",
+        null,
+        null,
         null
       ]
     },
@@ -1501,6 +1930,8 @@
       "Bochababu Complex(1ST Floor)": [
         "Main Road, Ishwarganj Bazar, Ishwarganj",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/27",
+        null,
+        null,
         null
       ]
     },
@@ -1508,6 +1939,8 @@
       "Iva Tower (1st Floor)": [
         "Changkhali Road, Jibannagar Pourashava, Jibannagar, Chuadanga.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/39",
+        null,
+        null,
         null
       ]
     },
@@ -1515,6 +1948,8 @@
       "Akata Shopping Complex (2nd Floor)": [
         "Kaliakair Bazar Road, Kaliakair, Gazipur",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/10",
+        null,
+        null,
         null
       ]
     },
@@ -1522,13 +1957,17 @@
       "Kaliganj Sub Branch": [
         "Belayat Mansion (1st Floor), Holding No-002600, Modhugonj Sarak. Ward no-5, Kaligonj Pourasava",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/29",
-        "01404450267"
+        "01404450267",
+        "480176",
+        null
       ]
     },
     {
       "Chandan Plaza": [
         "Vill: Kalmadanda Bazar,1 no Kalmakanda Union, Netrokona",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/12",
+        null,
+        null,
         null
       ]
     },
@@ -1536,6 +1975,8 @@
       "Shah Jahan Market": [
         "Aminbagh, Chand Masjid Road, Dhaka South City Corporation P.O. Ashrafabad, P.S.-Kamrangirchar, Dhaka",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/35",
+        null,
+        null,
         null
       ]
     },
@@ -1543,6 +1984,8 @@
       "Thanar More (Main Road)": [
         "Keshabpur Bazar, PO: Keshabpur-7450, PS: Keshabpur, Dist. Jashore.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/30",
+        null,
+        null,
         null
       ]
     },
@@ -1550,6 +1993,8 @@
       "Lalchan Chairman Super Market (1st floor)": [
         "Station Road, Kuliarchar Bazar,PS- Kuliarchar, Kishoregonj-2340",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/8",
+        null,
+        null,
         null
       ]
     },
@@ -1557,6 +2002,8 @@
       "Nayon Plaza (1st Floor)": [
         "Kunjerhat Bazar, Borhanuddin, Bhola",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/13",
+        null,
+        null,
         null
       ]
     },
@@ -1564,13 +2011,17 @@
       "Madanpur Sub Branch": [
         null,
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/32",
-        "01404450191"
+        "01404450191",
+        null,
+        null
       ]
     },
     {
       "B R Complex Bhaban (1st Floor)": [
         "Mymensingh Road, Madhupur Pourashava, Madhupur, Tangail-1996",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/38",
+        null,
+        null,
         null
       ]
     },
@@ -1578,6 +2029,8 @@
       "Satata Market, Mosjid Road": [
         "Mainimukh Bazar, Longadu, Rangamati-4580",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/28",
+        null,
+        null,
         null
       ]
     },
@@ -1585,20 +2038,26 @@
       "Matiranga Sub-Branch": [
         "Nabab Shopping Complex (1st Floor), Matiranga, Khagrachari-4450",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/6",
-        "01991144291"
+        "01991144291",
+        null,
+        null
       ]
     },
     {
       "Moshang Bazar Sub Branch": [
         "Moshang Bazar 4 No. Otra Union , Wazirpur, Barisal",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/48",
-        "01404450279"
+        "01404450279",
+        null,
+        null
       ]
     },
     {
       "Rahman Plaza": [
         "Machh Bazar Goli, Nagarkanda Pourashava, Nagarkanda, Faridpur.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/40",
+        null,
+        null,
         null
       ]
     },
@@ -1606,20 +2065,26 @@
       "Navaran Sub-Branch": [
         "Khan Mahal (1st Floor) Navaran Satkhira Moor, Sharsha, Jashore-7432",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/23",
-        "01404450266"
+        "01404450266",
+        null,
+        null
       ]
     },
     {
       "Nazipur Sub-Branch": [
         "Uttara Plaza (1st Floor), Dhamuihat Road, Horirampur Patnitola, Naogaon",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/33",
-        "01404450256"
+        "01404450256",
+        null,
+        null
       ]
     },
     {
       "Abdur Rahman Super Market (1st floor)": [
         "Srimantapur Laksham Road, Cumilla City Corporation, P.S.- Sadar Dakshin, Cumilla",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/31",
+        null,
+        null,
         null
       ]
     },
@@ -1627,6 +2092,8 @@
       "Yakub Tower, 2nd Floor, D T Road, Pahartali Bazar": [
         "Chattogram City Corporation, Pahartali, Chattogram",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/43",
+        null,
+        null,
         null
       ]
     },
@@ -1634,20 +2101,26 @@
       "Poradaha Sub-Branch": [
         "Poradaha Bazar,Vill:Katdaha,Kushtia",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/44",
-        "01404450246"
+        "01404450246",
+        null,
+        null
       ]
     },
     {
       "Puran Bazar Sub Branch": [
         "Ibrahim Mension (1st Floor), Goalpatty, Puran Bazar Chandpur-3601",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/21",
-        "01404450254"
+        "01404450254",
+        null,
+        null
       ]
     },
     {
       "Yousuf Mansion(1st Floor)": [
         "Main Road, Ramgarh Bazar, Ramgarh, Khagrachari",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/37",
+        null,
+        null,
         null
       ]
     },
@@ -1655,13 +2128,17 @@
       "Ranirhat Sub Branch": [
         "Amena Super Market (Ground Floor), Ranirhat, Rangunia",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/20",
-        "01404450217"
+        "01404450217",
+        null,
+        null
       ]
     },
     {
       "Anjuma Square (1st floor)": [
         "47 shah latif road, Raozan, Chottogram",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/24",
+        null,
+        null,
         null
       ]
     },
@@ -1669,6 +2146,8 @@
       "Marzina Bhaban (1st Floor)": [
         "Saturia Bazar, Post Office-Saturia, Police Station-Saturia, Manikganj-1810",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/34",
+        null,
+        null,
         null
       ]
     },
@@ -1676,6 +2155,8 @@
       "S S R Plaza (Ist Floor)": [
         "Opposite of Kali Bari,Sreemangal Road, Shamshernagar Bazar,Kamalgang,Moulvibazar.",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/52",
+        null,
+        null,
         null
       ]
     },
@@ -1683,6 +2164,8 @@
       "Rubi Complex, 1st floor": [
         "Dhaka-Bogura Highway, Sherpur,",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/26",
+        null,
+        null,
         null
       ]
     },
@@ -1690,6 +2173,8 @@
       "Maa Plaza (1st Floor)": [
         "Maitbanga, Shiberhat, Sandwip, Chattogram",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/9",
+        null,
+        null,
         null
       ]
     },
@@ -1697,6 +2182,8 @@
       "Raja Badsha Complex": [
         "1st Floor Sujanagar Bazar, Sujanagar-6660, Pabna",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/7",
+        null,
+        null,
         null
       ]
     },
@@ -1704,6 +2191,8 @@
       "Aftab Mansion (1st Floor)": [
         "Porabari Road, Gohata Moor, Trishal, Mymensingh",
         "https://www.uttarabank-bd.com/subbranch/subbranch_details/4",
+        null,
+        null,
         null
       ]
     }

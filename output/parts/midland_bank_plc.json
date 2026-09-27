@@ -3,11 +3,16 @@
   "bank_url": "https://www.midlandbankbd.net/",
   "method": "json_api",
   "status": "success",
+  "bank_id": "79",
+  "total_branch": 42,
+  "total_sub_branch": 23,
   "branch": [
     {
       "Gulshan Branch": [
         "NB Tower, Level-5, 40/7 North Avenue, Gulshan-2, Dhaka-1212",
         null,
+        null,
+        "790111",
         null
       ]
     },
@@ -15,6 +20,8 @@
       "Aganagar Branch": [
         "Maksuda Garden City (2nd Floor), Aganagar, South Keranigonj, Dhaka",
         null,
+        null,
+        "790105",
         null
       ]
     },
@@ -22,13 +29,17 @@
       "Agrabad Branch": [
         "As- Salam Tower (1st Floor), 57, Agrabad C/A, Chattogram",
         null,
-        null
+        null,
+        "790001",
+        "285150133"
       ]
     },
     {
       "Banani Branch": [
         "Nilufar Heights, B 52, (1st Floor) Kemal Ataturk Avenue, Banani, Dhaka.",
         null,
+        null,
+        "790102",
         null
       ]
     },
@@ -36,6 +47,8 @@
       "Barishal Branch": [
         "A.K. School Building (1st Floor), Holding # 388, K.B. Hemayet Uddin Road, Girza Moholla, Barishal",
         null,
+        null,
+        "790401",
         null
       ]
     },
@@ -43,13 +56,17 @@
       "Bheramara Branch": [
         "Godown Moor, Bheramara Highway, Kushtia",
         null,
-        null
+        null,
+        "790203",
+        "285500288"
       ]
     },
     {
       "Bogura Branch": [
         "Zamzam Tower, Holding No: 334-01, Shahid Abdul Jabbar Road, Ward: 07, Bogura City Corporation, Bogura",
         null,
+        null,
+        "790302",
         null
       ]
     },
@@ -57,27 +74,35 @@
       "Bokhter Munshi Bazar Branch": [
         "Soudagar Market, Holding No. 227, Ward No. 06, Mongolkandi, Sonagazi, Feni",
         null,
-        null
+        null,
+        "790008",
+        "285300141"
       ]
     },
     {
       "CDA Avenue Branch": [
         "EVE \\'s Centre (1st floor) A 1/47 P, East Nasirabad, Panchlaish, Chattogram",
         null,
-        null
+        null,
+        "790002",
+        "285151482"
       ]
     },
     {
       "Chandraganj Branch": [
         "Emirates Tower, Afjal Road, Chandraganj, Lakshmipur Sadar, Lakshmipur",
         null,
-        null
+        null,
+        "790009",
+        "285510199"
       ]
     },
     {
       "Chowdhuryhat Branch": [
         "Abdul Rashid Market (1st &amp; 2nd floor) Chowdhuryhat , Hat Hajari, Chittagong",
         null,
+        null,
+        "790003",
         null
       ]
     },
@@ -85,13 +110,17 @@
       "Dalal Bazar Branch": [
         "Montaz patwary Mansion (1st floor) , Lakshmipur Sadar, Lakshmipur",
         null,
-        null
+        null,
+        "790004",
+        "285510407"
       ]
     },
     {
       "Dhanmondi Branch": [
         "Green Rowshanara Tower(2nd Floor), House# 755(Old), 55(New),Satmasjid Road, Dhanmondi, Dhaka 1205",
         null,
+        null,
+        "790107",
         null
       ]
     },
@@ -99,6 +128,8 @@
       "Dilkusha Corporate Branch": [
         "Chini Shilpa Bhaban(1st &amp; 2nd Floor) 3, Dilkusha C/A, Dhaka - 1000, Bangladesh",
         null,
+        null,
+        "790103",
         null
       ]
     },
@@ -106,6 +137,8 @@
       "Doshmile Branch": [
         "Hossain Monzil, East Sadipur, Doshmile, Dinajpur",
         null,
+        null,
+        "790601",
         null
       ]
     },
@@ -113,13 +146,17 @@
       "Fatullah Branch": [
         "Islam Super Market, Fatullah Bazar, Narayanganj",
         null,
-        null
+        null,
+        "790122",
+        "285670521"
       ]
     },
     {
       "Foyla Bazar Branch": [
         "98/1 Haji Market, Bara Nawabpur, Faylabazar, Ujalkur, Rampal, Bagerhat",
         null,
+        null,
+        "790202",
         null
       ]
     },
@@ -127,13 +164,17 @@
       "Gazipur Branch": [
         "Smart Plaza, Holdin No: 154/1, Joydebpur Bazar Road, Ward No: 26, Gazipur City Corporation, P/S: Gazipur Sadar, Dist: Gazipur",
         null,
-        null
+        null,
+        "790125",
+        "285330524"
       ]
     },
     {
       "Hemayetpur Branch": [
         "Ayesha Tower (1st Floor), 522 Singair Road, Hemayetpur, Savar, Dhaka",
         null,
+        null,
+        "790108",
         null
       ]
     },
@@ -141,6 +182,8 @@
       "Islampur Branch": [
         "Emon Tower, Holding-61, Islampur Road, Ward-36, P.S.-Kotowali, Dist- Dhaka",
         null,
+        null,
+        "790120",
         null
       ]
     },
@@ -148,6 +191,8 @@
       "Kamarpara Branch": [
         "Ramjan Tower, Natun Bazar Mor, Kamarpara, Turag, Dhaka",
         null,
+        null,
+        "790112",
         null
       ]
     },
@@ -155,13 +200,17 @@
       "Katiadi Branch": [
         "Shahidullah Bhaban, Holding No: 1255, Road name: C &amp; B Road, Ward no: 03, Kishoreganj",
         null,
-        null
+        null,
+        "790124",
+        "285480582"
       ]
     },
     {
       "Kawran Bazar Branch": [
         "Jahangir Tower, 10, Kazi Nazrul Islam Avenue, Ward No-26, Tejgaon, Dhaka",
         null,
+        null,
+        "790123",
         null
       ]
     },
@@ -169,20 +218,26 @@
       "Khulna Branch": [
         "Tayamun Centre (1st Floor), 181/1 Jessore Road, Khulna",
         null,
-        null
+        null,
+        "790201",
+        "285471546"
       ]
     },
     {
       "Maligram Branch": [
         "Vashra, Maligram, Deora, Bhanga, Faridpur",
         null,
-        null
+        null,
+        "790119",
+        "285291126"
       ]
     },
     {
       "Mirpur Branch": [
         "Hyperion Rose, Holding No-61/1-2, Block-B, Road No-4, Ward No-2,Section-12, Pallabi, Dhaka",
         null,
+        null,
+        "790117",
         null
       ]
     },
@@ -190,13 +245,17 @@
       "Mirzapur Bazar Branch": [
         "Mannan Plaza (1st Floor), Mirzapur Bazar, Bhawal, Mirzapur Sadar, Gazipur",
         null,
-        null
+        null,
+        "790104",
+        "285330111"
       ]
     },
     {
       "Mokamtola Branch": [
         "Majeda Plaza (1st floor), Talukdar Market, Mokamtola, Shibganj, Bogura",
         null,
+        null,
+        "790301",
         null
       ]
     },
@@ -204,20 +263,26 @@
       "Narayanganj Branch": [
         "55/A, Ground Floor, Tanbazar, Narayanganj.",
         null,
-        null
+        null,
+        "790115",
+        "285671188"
       ]
     },
     {
       "Narshingdi Branch": [
         "Helal Tower, First &amp; second floor, 211 Shahid Shorwadi Park Road, Narshingdi",
         null,
-        null
+        null,
+        null,
+        "285680858"
       ]
     },
     {
       "Panchar Branch": [
         "Dia-Moni Plaza (1st Floor), Panchar, Shibchar, Madaripur",
         null,
+        null,
+        "790106",
         null
       ]
     },
@@ -225,13 +290,17 @@
       "Panchrukhi Branch": [
         "Shopon Tower, Panchrukhi Bazar, Araihajar, Narayanganj",
         null,
-        null
+        null,
+        "790113",
+        "285671391"
       ]
     },
     {
       "Paragram Branch": [
         "West Paragram Bazar, Nawabganj, Dhaka",
         null,
+        null,
+        "790118",
         null
       ]
     },
@@ -239,20 +308,26 @@
       "Rajshahi Branch": [
         "Rahamania Tower, Holding-57,58 &amp; 60, Ganok Para, Station Road, Ward-12, P.S.-Boalia, Dist- Rajshahi",
         null,
-        null
+        null,
+        "790303",
+        "285811935"
       ]
     },
     {
       "Rangpur Branch": [
         "Sunshine Tower, Holding-3434, Ward-16, P.S.: Kotoali, Dist.: Rangpur",
         null,
-        null
+        null,
+        "790602",
+        "285851458"
       ]
     },
     {
       "Shashongacha Branch": [
         "Meem Tower, Shashongacha, Adarsha Sadar, Cumilla",
         null,
+        null,
+        "790006",
         null
       ]
     },
@@ -260,26 +335,34 @@
       "Sompara Bazar Branch": [
         "Hai Mansion (1st Floor),Holding No. 365, Dag no. 842/1345, Katian no. 624,Muza - Prasadpur. Union - 1 no. Sahapur,Kochua Bottoli Road, Thana - Chatkhil, Noakhali.",
         null,
-        null
+        null,
+        "790005",
+        "285750270"
       ]
     },
     {
       "Sylhet Branch": [
         "M.S Tower (1st Floor), Mirboxtola, Chowhatta, Sylhet",
         null,
-        null
+        null,
+        "790501",
+        "285913554"
       ]
     },
     {
       "Uttara Branch": [
         "ABC Heritage (Ground Floor), Plot 2 &amp; 4, Sector 3, Jashimuddin Avenue, Uttara Model Town, Dhaka",
         null,
+        null,
+        "790110",
         null
       ]
     },
     {
       "Valuka Branch": [
         "Jamirdia, Masterbari, Valuka, Mymensingh",
+        null,
+        null,
         null,
         null
       ]
@@ -288,6 +371,8 @@
       "Zirabo Branch": [
         "Razzak Commercial Complex, Zirabo, Ashulia, Savar, Dhaka",
         null,
+        null,
+        "790109",
         null
       ]
     },
@@ -295,6 +380,8 @@
       "Jashore Branch": [
         null,
         null,
+        null,
+        "790204",
         null
       ]
     }
@@ -304,6 +391,8 @@
       "Ashulia Sub-Branch": [
         "Ashraf Plaza, (1st Floor), Village: East Jamgora, Union: Yearpur, ward no: 01, Mouza: Diakhali, Upazila: Savar, Dist: Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -311,12 +400,16 @@
       "Bogura Pourashava Sub-Branch": [
         "Poura Bhaban, Bogura Pourashava, Bogura",
         null,
+        null,
+        "790302",
         null
       ]
     },
     {
       "Chatkhil Sub-Branch": [
         "Aziz Super Market, Holding No-629, C&amp;B Road, Ward No-3, Chatkhil, Noakhali",
+        null,
+        null,
         null,
         null
       ]
@@ -325,12 +418,16 @@
       "Dendabor Sub-Branch": [
         "Ekota Bhaban (1st floor), Dendabor (Palli Biddut Bus Stand), Ashulia, Savar, Dhaka.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jubilee Road Sub-Branch": [
         "B&amp;B Tower, 129 Jubilee Road, Enayet Bazar, Chottagram.",
+        null,
+        null,
         null,
         null
       ]
@@ -339,12 +436,16 @@
       "Lakshmipur Sub-Branch": [
         "R. S. Tower (1st floor), Hospital Road, Sador , Lakshmipur",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Madani Avenue Sub-Branch": [
         "Sajid Plaza, Holding No - 46 Madani Avenue, Ward No - 40, Police Station - Vatara, Dhaka North City Corporation",
+        null,
+        null,
         null,
         null
       ]
@@ -353,12 +454,16 @@
       "Karatia Sub-Branch": [
         "Eshaque Tower, (1st Floor), Village: Karatia, Union: Karatia, ward no: 04, Mouza: Karatia, Upazila: Tangail Sadar, Dist: Tangail",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Madhabdi Sub-Branch": [
         "AGC Tower, 1st Floor, H-14, Par Kashipur, Bank Patti Road, Madhabdi, Narsingdi.",
+        null,
+        null,
         null,
         null
       ]
@@ -367,12 +472,16 @@
       "MIEZ Sub-Branch": [
         "Meghna Industrial Economic Zone, Tipordi, Daag No- RS-31, Mouza-Choto Shilmondi, Union- Mograpara, P.S: Sonargaon, Dist: Narayanganj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Motijheel Sub-Branch": [
         "Showantex Tower (ground floor), House no. 9/I, Motijheel C/A, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -381,12 +490,16 @@
       "Mymensingh Sub-Branch": [
         "Hira Square, Holding-20, Jadhav Lahiri Lane, Mymensingh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nawabpur Sub-Branch": [
         "Majed Sardar Tower-01, Haji Osman Goni Road, Holding-153, Ward-34, Dhaka South City Corporation, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -395,12 +508,16 @@
       "Noapara Sub-Branch": [
         "Holding No: 26, Buikara, Kolahata, ward no: 05, Noapara Pourashova, Jashore Khulna Highway, Abhaynagar, Jashore",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Noser Market Sub-Branch": [
         "Shajib Shabbir Villa,Gazipur City Corporation,Konabari(Metro),Gazipur",
+        null,
+        null,
         null,
         null
       ]
@@ -409,6 +526,8 @@
       "Nurjahan Road Sub-Branch": [
         "House: 1/9 Road: Nurjahan Road, Block: D, Police Station: Mohammadpur, Post office: Mohammadpur-1207, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -416,12 +535,16 @@
       "Rajshahi City Corporation Sub-Branch": [
         "Nagar Bhaban, Holding No-142, Greater Road, Ward No-13, Rajshahi City Corporation, P.S-Boalia, Dist.-Rajshahi",
         null,
-        null
+        null,
+        "790303",
+        "285811935"
       ]
     },
     {
       "Rupnagar Sub-Branch": [
         "House #56, Road#19, Rupnagar R/A Rupnagar, Mirpur Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -430,12 +553,16 @@
       "Saidpur Sub-Branch": [
         "Shahid Dr. Zikrul Haque Plaza, Holding No-00-57-00, Plot:22, Ward:11, Saidpur, Saidpur, Nilphamari",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Shahjadpur Sub-Branch": [
         "CCMPSL Tower, Holding No. 412, Ward No. 06, Shahjadpur, Sirajganj",
+        null,
+        null,
         null,
         null
       ]
@@ -444,12 +571,16 @@
       "Shibgonj Sub-Branch": [
         "Holding Number: 683, 1st Floor, Tamabil Road, Shibgonj, Sylhet",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sreenagar Sub-Branch": [
         "Sreenagar Plaza, Kancha Bazar Road, Sreenagar Bazar, Sreenagar, Munshiganj",
+        null,
+        null,
         null,
         null
       ]
@@ -458,6 +589,8 @@
       "Uttara Shahjalal Avenue Sub-Branch": [
         "Holding No-02, Road No-13/C, Sector-6, Shahjalal Avenue, Ward-01. Dhaka North City Corporation, Uttara-West, Dhaka",
         null,
+        null,
+        "790110",
         null
       ]
     }

@@ -3,10 +3,15 @@
   "bank_url": "https://www.nbp-bd.com/",
   "method": "html_cards",
   "status": "success",
+  "bank_id": "28",
+  "total_branch": 1,
+  "total_sub_branch": 0,
   "branch": [
     {
       ": Uncaught Error: Call to undefined function mysql_query() in /home/nbpbd/public_html/branches.php:87": [
         "/home/nbpbd/public_html/branches.php",
+        null,
+        null,
         null,
         null
       ]

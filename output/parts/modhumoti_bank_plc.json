@@ -3,10 +3,15 @@
   "bank_url": "https://www.modhumotibankplc.com/",
   "method": "html_table",
   "status": "success",
+  "bank_id": "85",
+  "total_branch": 58,
+  "total_sub_branch": 7,
   "branch": [
     {
       "Urban Branches": [
         "SL",
+        null,
+        null,
         null,
         null
       ]
@@ -15,257 +20,331 @@
       "Modhumoti Motijheel": [
         "DCCI building (1st Floor), 65-66, Motijheel C/A, Dhaka Fax : +8802-9583808 Manager: +88 01729099654 ,Direct: +8802-9583807 E-",
         null,
-        "02-9586686; +8802-9583808; 01729099654; +8802-9583807"
+        "02-9586686; +8802-9583808; 01729099654; +8802-9583807",
+        "850102",
+        null
       ]
     },
     {
       "Modhumoti Amberkhana": [
         "Central Plaza, Holding – 784, Airport Road, Word No – 17, Kotwali, Sylhet City Corporation, Sylhet. Manager: +88 01716690409 E-",
         null,
-        "01716690409"
+        "01716690409",
+        "850501",
+        null
       ]
     },
     {
       "Modhumoti Gulshan": [
         "Holding: 75, Gulshan Avenue, Ward: 19, Thana: Gulshan, Dhaka. Manager: +88 01712262170 E-",
         null,
-        "01712262170"
+        "01712262170",
+        "850103",
+        null
       ]
     },
     {
       "Modhumoti Faridpur": [
         "Sharifunnesa Peace Tower (2nd Floor), Street Name: Thana Road, Jhiltuli, Ward No: 20, Municipality: Faridpur Municipality (Class A), Thana: Kotwali, District: Faridpur. Manager: +88 01712547278 E-",
         null,
-        "01712547278"
+        "01712547278",
+        "850105",
+        null
       ]
     },
     {
       "Modhumoti Mitford": [
         "AK Tower, 57-58 Mitford Road (1st & 2nd floor), Dhaka-1100 Manager: +88 01711977103 E-",
         null,
-        "01711977103"
+        "01711977103",
+        "850106",
+        null
       ]
     },
     {
       "Modhumoti Sakhipur": [
         "Sakhipur, Tangail. Manager: +88 01746666620 E-",
         null,
-        "01746666620"
+        "01746666620",
+        "850107",
+        null
       ]
     },
     {
       "Modhumoti Agrabad": [
         "Dar- E-Shahidi, 69 Agrabad C/A, Chittagong. Manager: +88 01823925323 E-",
         null,
-        "01823925323"
+        "01823925323",
+        "850001",
+        "295150136"
       ]
     },
     {
       "Modhumoti Uttara": [
         "Siaam Tower, Level 3, House No. 15, Road 2, Sector 3, Uttara, Dhaka. Manager: +88 01707011137 E-",
         null,
-        "01707011137"
+        "01707011137",
+        "850108",
+        null
       ]
     },
     {
       "Modhumoti Rajshahi": [
         "Rajshahi Chamber of Commerce & Industry (1st Floor), Station Road, Rajshahi. Manager: +88 01717853370 E-",
         null,
-        "01717853370"
+        "01717853370",
+        "850301",
+        "295811938"
       ]
     },
     {
       "Modhumoti Charfassion": [
         "Zilla Porishad Market, Charfassion Bhola. Manager: +88 01332-135742 E-",
         null,
-        "01332-135742"
+        "01332-135742",
+        "850401",
+        null
       ]
     },
     {
       "Modhumoti Shibchar": [
         "Zilla Pouro Market, Shibchar Madaripur. Manager: +88 01675289818 E-",
         null,
-        "01675289818"
+        "01675289818",
+        "850111",
+        "295540704"
       ]
     },
     {
       "Modhumoti Khulna": [
         "Islam Trade Center (1st Floor), 18,KDA Avenue, Khulna, Manager: +88 01711371689 E-",
         null,
-        "01711371689"
+        "01711371689",
+        "850202",
+        "295471549"
       ]
     },
     {
       "Modhumoti Gopalgonj": [
         "Harun Tower, Holding No. 154, Madrasha Road, Ward No. 06, Gopalgonj Manager: +88 01914154493 E-",
         null,
-        "01914154493"
+        "01914154493",
+        "850113",
+        null
       ]
     },
     {
       "Modhumoti Sheikh Kamal Saroni": [
         "Sheikh Kamal Saroni, Dhanmondi, Dhaka Manager: +88 01711906698 E-",
         null,
-        "01711906698"
+        "01711906698",
+        null,
+        null
       ]
     },
     {
       "Modhumoti Shambhugonj": [
         "Saha Market, Vill: Raghurampur, P.O: Shambhugonj Bazar, P.S: Kotwali, Mymensingh. Manager: +88 01719287171 E-",
         null,
-        "01719287171"
+        "01719287171",
+        "850701",
+        "295610092"
       ]
     },
     {
       "Modhumoti Banglamotor": [
         "Rupayan Trade Center, Banglamotor, Dhaka. Manager: +88 01718238244 E-",
         null,
-        "01718238244"
+        "01718238244",
+        "850116",
+        null
       ]
     },
     {
       "Modhumoti Mirpur": [
         "Mid Town Trade Centre (1st floor) Commercial Plot No.-22, Main Road-03, Section-07, Pallabi, Mirpur, Dhaka-1216. Manager: +88 01972539071 E-",
         null,
-        "01972539071"
+        "01972539071",
+        "850117",
+        null
       ]
     },
     {
       "Modhumoti Naogaon": [
         "Time Square Bazar Road, Naogaon Sadar, Naogaon. Manager: +88 01715013908 E-",
         null,
-        "01715013908"
+        "01715013908",
+        "850302",
+        "295641182"
       ]
     },
     {
       "Modhumoti Pabna": [
         "Omor Shopping Complex Holding No.: 65, MM Ali Road, Word No: 5, Pabna Sadar Upazila, Pabna. Manager: +88 01961225769 E-",
         null,
-        "01961225769"
+        "01961225769",
+        "850303",
+        "295761783"
       ]
     },
     {
       "Modhumoti O.R. Nizam Road": [
         "Impulse City Center O.R. Nizam Road, Word No: 15, Panchlaish, Chittagong. Manager: +88 01971350201 E-",
         null,
-        "01971350201"
+        "01971350201",
+        "850004",
+        "295155807"
       ]
     },
     {
       "Modhumoti Chhagalnaiya": [
         "A.N Modhumoti Market A.N Modhumoti Tower (1st floor), B.Zaman Road-1, Jomaddar Bazar, P.O./P.S. Chhagalnaiya, District-Feni Manager: +88 01749905295 E-",
         null,
-        "01749905295"
+        "01749905295",
+        null,
+        "295300315"
       ]
     },
     {
       "Modhumoti VIP Road": [
         "SEL Trident Tower (1 st Floor), 57, Purana Paltan Line, VIP Road, P.S. Paltan, Ward No.13, Dhaka South City Corporation, Dhaka-1000 Manager: +88 01705357505 E-",
         null,
-        "01705357505"
+        "01705357505",
+        "850120",
+        null
       ]
     },
     {
       "Modhumoti Melandaha": [
         "Jinnah Super Market (1st floor) Melandaha Bazar P.O. & P.S.- Melandaha District- Jamalpur Manager: +88 01711129952 E-",
         null,
-        "01711129952"
+        "01711129952",
+        null,
+        "295391274"
       ]
     },
     {
       "Modhumoti Saidpur": [
         "Loknath Tower, (1st Floor) Shahid Dr. Zikrul Hoque Road P.O. & P.S.- Saidpur District- Nilphamari Manager: +88 01717199527 E-",
         null,
-        "01717199527"
+        "01717199527",
+        "850602",
+        null
       ]
     },
     {
       "Modhumoti Rangpur": [
         "Roy Mansion (1st floor) Central Road P.O. & P.S.- Rangpur District-Rangpur Manager: +88 01755651954 E-",
         null,
-        "01755651954"
+        "01755651954",
+        "850603",
+        "295851451"
       ]
     },
     {
       "Modhumoti Bangshal": [
         "Mahmud Tower, 1st floor (Road side), 19, Siddique Bazar, North South Road, Dhaka-1000 Manager: +88 01819451413 E-",
         null,
-        "01819451413"
+        "01819451413",
+        "850122",
+        null
       ]
     },
     {
       "Modhumoti Cox’s Bazar": [
         "Karim Barmis Market, Main Road, East Bazar Ghata, Cox’s Bazar Pourosova, Cox’s Bazar Manager: +88 01816803636 E-",
         null,
-        "01816803636"
+        "01816803636",
+        "850007",
+        null
       ]
     },
     {
       "Modhumoti Pragati Sharani": [
         "Mysha Chowdhury Tower (1st Floor) Gha-30/B, Shahjadpur, Pragati Sharani, Dhaka District- Dhaka Manager: +88 01717091206 E-",
         null,
-        "01717091206"
+        "01717091206",
+        null,
+        null
       ]
     },
     {
       "Modhumoti Habiganj": [
         "Ishaque Business Center (Ground Floor) Holding No: 3690, Ward No: 05, Habiganj Sadar, Habiganj. Manager: +88 01710932755 E-",
         null,
-        "01710932755"
+        "01710932755",
+        "850502",
+        "295360618"
       ]
     },
     {
       "Modhumoti Faridganj": [
         "Abdur Rob Plaza (1st Floor) Holding No: 951, Ward No: 08, Kacharia, Faridganj Pourosova, Faridganj, Chadpur. Manager: +88 01671703518 E-",
         null,
-        "01671703518"
+        "01671703518",
+        "850008",
+        "295130677"
       ]
     },
     {
       "Modhumoti Kamrangirchar": [
         "Ayesha Shopping Mall (1st Floor), Holding No-1200, Rosulpur, Ward No-56, Dhaka South City Corporation, Kamrangirchar, Dhaka. Manager: +880 1712677460 E-",
         null,
-        "+880 1712677460"
+        "+880 1712677460",
+        "850125",
+        null
       ]
     },
     {
       "Modhumoti Bogura": [
         "Nurul Haque Tower (1st Floor), Holding No-0395, Borogola, Rangpur Road, Ward-05, Bogura Sadar, Bagura. Manager: +88 01716337301 E-",
         null,
-        "01716337301"
+        "01716337301",
+        "850304",
+        null
       ]
     },
     {
       "Modhumoti Barishal": [
         "ARBS Bhabon, 41 Chawkbazar, Ward No-09, Kotowali Model Thana, Barishal. Manager: +88 01712046580 E-",
         null,
-        "01712046580"
+        "01712046580",
+        "850402",
+        null
       ]
     },
     {
       "Modhumoti Bagerhat Branch": [
         "Holding No: 65 (1st & 2nd Floor), Ward No-06, Kormokar Potti Road, Bagerhat Sadar, Bagerhat – 9300 Manager: +88 01718288113 E-",
         null,
-        "01718288113"
+        "01718288113",
+        "850206",
+        "295010076"
       ]
     },
     {
       "Modhumoti Jhenaidah Branch": [
         "Holding Number: 20/1, Road Name: Sher-e-Bangla Road, Ward Number: 02, Municipality: Jhenaidah Municipality, Police Station: Jhenaidah, District: Jhenaidah Manager: +88 01920971258 E-",
         null,
-        "01920971258"
+        "01920971258",
+        "850207",
+        null
       ]
     },
     {
       "Modhumoti Bajitpur": [
         "Holding Number: 503, Road Name: College Road, Ward Number: 02, Municipality: Bajitpur Municipality, Thana: Bajitpur, District: Kishoreganj. Manager: +88 01717364349 E-",
         null,
-        "01717364349"
+        "01717364349",
+        "850126",
+        null
       ]
     },
     {
       "Rural Branches": [
         "SL",
+        null,
+        null,
         null,
         null
       ]
@@ -274,140 +353,180 @@
       "Modhumoti Ashulia": [
         "Altaf Plaza (1st floor), Alia Madrasha, Union: Yearpur, Thana: Ashulia, Dhaka, Manager: +88 01717875305 E-",
         null,
-        "01717875305"
+        "01717875305",
+        "850104",
+        null
       ]
     },
     {
       "Modhumoti Jibannagar": [
         "Eva Tower (1st Floor), Holding No.:- 885, Changkhali Road, P.S.:- Jibannagar, Jibannagar Pourasova, Dist:- Chuadanga. Manager: +88 01912923519 E-",
         null,
-        "01912923519"
+        "01912923519",
+        null,
+        null
       ]
     },
     {
       "Modhumoti Kanchon": [
         "Mouja: Kanchon, Ward# 06, Union: Kanchon, Thana: Rupgonj, Dist: Narayangong Manager: +88 01716593712 E-",
         null,
-        "01716593712"
+        "01716593712",
+        null,
+        null
       ]
     },
     {
       "Modhumoti Aganagar": [
         "Alam Tower, East Aganagar, Mouja: Jinjira, Union: Aganagar, Thana: Keranigong, Dist: Dhaka. Manager: +88 01912637937 E-",
         null,
-        "01912637937"
+        "01912637937",
+        "850110",
+        null
       ]
     },
     {
       "Modhumoti Pirgonj": [
         "Jaman Plaza, Pirgonj, Rangpur. Manager:+88 01717136363 E-",
         null,
-        "01717136363"
+        "01717136363",
+        "850601",
+        null
       ]
     },
     {
       "Modhumoti Shekhar Nagar": [
         "Baitul Mamur Masjid Market, Shekar Nagar, Sirajdi Khan Munsigong. Manager: +88 01710692242 E-",
         null,
-        "01710692242"
+        "01710692242",
+        null,
+        "295591308"
       ]
     },
     {
       "Modhumoti Mawna": [
         "Hazi Abdul Salam Fakir Super Market, Mawna Bazar, Mawna, Gazipur. Manager: +88 01722261596 E-",
         null,
-        "01722261596"
+        "01722261596",
+        "850115",
+        "295331005"
       ]
     },
     {
       "Modhumoti Bheramara": [
         "Godaun Mor, Bheramara, Kushtia. Manager: +88 01717434161 E-",
         null,
-        "01717434161"
+        "01717434161",
+        "850203",
+        "295500281"
       ]
     },
     {
       "Modhumoti Ashuganj": [
         "Haji Fazlul Haque Mansion (1st floor), Kachari Road, Ashuganj Sadar, Brahmanbaria. Manager: +88 01720615388 E-",
         null,
-        "01720615388"
+        "01720615388",
+        "850002",
+        "295120108"
       ]
     },
     {
       "Modhumoti Konkapoit": [
         "Al Mostofa Heritage (1st Floor), Konkapoit Bazar, Chauddagram, Comilla. Manager: +88 01911127440 E-",
         null,
-        "01911127440"
+        "01911127440",
+        "850003",
+        null
       ]
     },
     {
       "Modhumoti Shibpur": [
         "131/1 College Gate (ASP Building) Shibpur Sadar, Shibpur, Narsingdi. Manager: +88 01684915370 E-",
         null,
-        "01684915370"
+        "01684915370",
+        "850118",
+        "295681300"
       ]
     },
     {
       "Modhumoti Muksudpur": [
         "Monowara Shopping Complex (1st floor) Chowrangi, Ward No-6, Muksudpur Pourashova, P.S. – Muksudpur, Dist. – Gopalganj. Manager: +88 01682375791 E-",
         null,
-        "01682375791"
+        "01682375791",
+        "850119",
+        "295350736"
       ]
     },
     {
       "Modhumoti Kalia": [
         "Holding No.: 778, Godawn Road, Raam Nogar, Word No: 2 Upazila Kalia Narail. Manager: +88 01516122667 E-",
         null,
-        "01516122667"
+        "01516122667",
+        "850204",
+        "295650344"
       ]
     },
     {
       "Modhumoti Bhedarganj": [
         "Maa Plaza (1st floor) Thiringir More P.O. & P.S.- Bhedarganj District- Shariatpur Manager: +88 01914751809 E-",
         null,
-        "01914751809"
+        "01914751809",
+        "850121",
+        null
       ]
     },
     {
       "Modhumoti Mirsharai": [
         "Alauddin Centre (1st Floor) Abu Torab Bazar P.O. & P.S.- Mirsharai District- Chattogram Manager: +88 01711126853 E-",
         null,
-        "01711126853"
+        "01711126853",
+        "850006",
+        null
       ]
     },
     {
       "Modhumoti Singair": [
         "Bahadur Mollah Super Market (1st floor), Holding No-441, Ward-6, Singair, Manikganj Manager: +88 01717784891 E-",
         null,
-        "01717784891"
+        "01717784891",
+        "850123",
+        "295560821"
       ]
     },
     {
       "Modhumoti Jhikargacha": [
         "Nurjahan Tower (1st Floor), Holding No.: 199, Krishnanagar, Ward No.: 02, Jhikargacha, Jashore. Manager: +88 01756395209 E-",
         null,
-        "01756395209"
+        "01756395209",
+        "850205",
+        "295411091"
       ]
     },
     {
       "Modhumoti Kabirhat": [
         "at Aziz Tower-1 (Ground floor), Dakhin Bazar, Holding No.05, Ward No.05, Kabirhat Pourosova, P.S/Upozila- Kabirhat, Dist. Noakhali Manager: +88 01309046109 E-",
         null,
-        "01309046109"
+        "01309046109",
+        "850009",
+        "295751214"
       ]
     },
     {
       "Modhumoti Barlekha": [
         "Building Name: Haji Nizam Uddin Complex, Holding Number: 0169-00, Street Name: Dakshin Bazar, Ward Number: 08, Municipality: Baralekha Municipality (B Category), Thana: Baralekha, District: Moulvibazar Manager: +88 01718441280 E-",
         null,
-        "01718441280"
+        "01718441280",
+        "850503",
+        null
       ]
     },
     {
       "Modhumoti Birganj": [
         "Wahed Plaza, 81, Khansama Road, Birganj, Dinajpur Manager: +88 01717928469 E-",
         null,
-        "01717928469"
+        "01717928469",
+        "850604",
+        null
       ]
     }
   ],
@@ -416,48 +535,62 @@
       "Modhumoti Banasree Sub-Branch": [
         "1st floor of LR Tower, House-01, Road-07, Avenue-5, Block-F, Banasree, Rampura, Dhaka. Manager: +88 01714428137",
         null,
-        "01714428137"
+        "01714428137",
+        null,
+        null
       ]
     },
     {
       "Modhumoti": [
         "Uttara Sector-12 Sub-Branch 1st Floor of Shonim Tower, 55 Shah Mokhdum Avenue, Sector-12, Uttara, Dhaka-1230 Manager: +88 01874365557",
         null,
-        "01874365557"
+        "01874365557",
+        null,
+        null
       ]
     },
     {
       "Gopalgonj Eye Hospital": [
         "Sub-Branch GhonaPara, Gopalgonj Manager: +88 01922435512 E-",
         null,
-        "01922435512"
+        "01922435512",
+        "850113",
+        null
       ]
     },
     {
       "Modhumoti Kanaipur": [
         "Sub-Branch Kanaipur Bazar, Thana: Faridpur Sadar, Faridpur, Manager: +88 01912756583 E-",
         null,
-        "01912756583"
+        "01912756583",
+        null,
+        "295290917"
       ]
     },
     {
       "Modhumoti Panchar Sub-Branch": [
         "Nahim Plaza, Panchar Union, Shibchar, Madaripur Manager: +88 01717003693 E-",
         null,
-        "01717003693"
+        "01717003693",
+        null,
+        null
       ]
     },
     {
       "Modhumoti Chuknagar Sub-Branch": [
         "Ground floor of SF Tower, Chuknagar Bazar, Dumuria, Khulna Manager: +88 01674226684 E-",
         null,
-        "01674226684"
+        "01674226684",
+        null,
+        null
       ]
     },
     {
       "Gopalgonj Eye Hospital Sub-Branch": [
         "Gopalgonj Eye Hospital and Training Inistitute, GHONA PARA, GOPALGONJ SADAR, GOPALGONJ",
         null,
+        null,
+        "850113",
         null
       ]
     }

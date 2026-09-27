@@ -3,914 +3,1177 @@
   "bank_url": "https://www.globalislamibankbd.com/",
   "method": "html_cards+html_table",
   "status": "success",
+  "bank_id": "84",
+  "total_branch": 131,
+  "total_sub_branch": 125,
   "branch": [
     {
       "Ashulia Br.": [
         "Monsur tower Jamgara Gazirchat Madrasha, Ashulia, Savar, Dhaka.",
         null,
-        "09617333585; 09617333586"
+        "09617333585; 09617333586",
+        "840111",
+        null
       ]
     },
     {
       "Banani Br.": [
         "Bay’s Bellavista (1st & 2nd Floor) Holdings No : 96, Road No : 11, Block : C, Banani, Dhaka.",
         null,
-        "09617333525; 09617333526"
+        "09617333525; 09617333526",
+        "840109",
+        null
       ]
     },
     {
       "Bashabo Br.": [
         "Capital Hashem Dell, Holding No.-115, Ahmedbag Sabujbag, Dhaka",
         null,
-        "09617333641; 09617333642"
+        "09617333641; 09617333642",
+        "840121",
+        null
       ]
     },
     {
       "Beldi Bazar Br.": [
         "Halima Bhaban, 1st floor Daudpur,Putina,Rupgonj, Narayangonj",
         null,
-        "09617333575; 09617333576"
+        "09617333575; 09617333576",
+        "840110",
+        "300670143"
       ]
     },
     {
       "Dhanmondi Br.": [
         "Rangs Panorama,Satmosjid Road Dhanmondi,Dhaka",
         null,
-        "09617333500; 09617333501"
+        "09617333500; 09617333501",
+        "840107",
+        null
       ]
     },
     {
       "Faridpur Br.": [
         "Raffles-Inn Holding No – 31/O-D, Goalchamot, Faridpur",
         null,
-        "09617333638; 09617333639"
+        "09617333638; 09617333639",
+        "840122",
+        "300290523"
       ]
     },
     {
       "Gazipura Br.": [
         "Kazi Nur Mohammad Super Market Kazi Mollak Hossain Road Ward No.- 50, Tongi Gazipur City Corporation,Gazipur",
         null,
-        "09617333600; 09617333601"
+        "09617333600; 09617333601",
+        "840117",
+        "300330238"
       ]
     },
     {
       "Gulshan Corporate Br.": [
         "Saiham Tower House- 34, Road -136 Block #S.E (C-1), Gulshan Model Town , Dhaka- 1212",
         null,
-        "09617333401; 09617333402"
+        "09617333401; 09617333402",
+        "840102",
+        null
       ]
     },
     {
       "Kapasia Branch Br.": [
         "Feroza Bhaban, Kapasia, Gazipur",
         null,
-        "09617333613; 09617333614"
+        "09617333613; 09617333614",
+        "840123",
+        "300330883"
       ]
     },
     {
       "Joyna Bazar Br.": [
         "Khan Bhaban, Joyna Bazar PS-Sreepur, Dist-Gazipur",
         null,
-        "09617333487; 09617333488"
+        "09617333487; 09617333488",
+        null,
+        null
       ]
     },
     {
       "Kalatia Br.": [
         "Krishna Chandra Plaza Shamsherpur, Kalatia, Keranigonj, Dhaka.",
         null,
-        "09617333625; 09617333629"
+        "09617333625; 09617333629",
+        "840120",
+        null
       ]
     },
     {
       "Kaliachapra Br.": [
         "Hazi Lutfur Rahman Super Market 6 No. Patuavanga Union, Maizhati, Pakundia, Kishoregonj",
         null,
-        "09617333494"
+        "09617333494",
+        "840114",
+        null
       ]
     },
     {
       "Madhabdi Br.": [
         "Hakim Tower Holding No.07, Bank Potti, Ward No.- 8, Madhabdi Pouroshava, Madhabdi, Narsingdi.",
         null,
-        "09617333615; 09617333616"
+        "09617333615; 09617333616",
+        "840119",
+        "300680670"
       ]
     },
     {
       "Mawa Br.": [
         "Dulal Plaza South Medini mondol, Lowhojong, Munshigonj",
         null,
-        "09617333520; 09617333521"
+        "09617333520; 09617333521",
+        "840105",
+        null
       ]
     },
     {
       "Mawna Br.": [
         "Kazal Fakir City Complex Ward No.- 8, Sreepur Pouroshava, Sreepur, Gazipur",
         null,
-        "09617333605"
+        "09617333605",
+        "840118",
+        "300331008"
       ]
     },
     {
       "Mirpur Br.": [
         "Amigo Batayan Tower Section-12, Block-B, Avenue-01, Plot No. 76, Mirpur Housing Estate, Dhaka-1216",
         null,
-        "09617333610; 09617333611"
+        "09617333610; 09617333611",
+        "840116",
+        null
       ]
     },
     {
       "Mohakhali Br.": [
         "Shamsuddin Mansion 73 C/A, Bir Uttam A.K Khandaker Road Ward- 20,Dhaka North City Corporation Banani, Dhaka",
         null,
-        "09617333405; 09617333406"
+        "09617333405; 09617333406",
+        "840113",
+        null
       ]
     },
     {
       "Motijheel Br.": [
         "“Centtal Insurance Bhaban” Holdrng no.-7-8, Road no.- 10 Bir PtotikJakir Hossain Road, \\07ard no.- 09, Dhaka South City Corpotation, Motiiheel C/A, Dhaka-1000.",
         null,
-        "09617333420; 09617333421"
+        "09617333420; 09617333421",
+        "840103",
+        null
       ]
     },
     {
       "Nawabpur Road Br.": [
         "Wealth GSM Tower Holding No. 59-60, Nawabpur Road, South City Corporation, Dhaka",
         null,
-        "09617333510; 09617333511"
+        "09617333510; 09617333511",
+        "840115",
+        null
       ]
     },
     {
       "Nayapaltan Br.": [
         "Orchard Faruque Tower 72, Nayapaltan VIP Road, Paltan, Dhaka.",
         null,
-        "09617333430; 09617333431"
+        "09617333430; 09617333431",
+        "840106",
+        null
       ]
     },
     {
       "Panthapath Mahila BR.": [
         "69/O, 1st Floor Bir Uttam Kazi Nuruzzaman Sarak, Panthapath, Kalabagan, Dhaka-1205",
         null,
-        "09617333505; 09617333506"
+        "09617333505; 09617333506",
+        "840112",
+        null
       ]
     },
     {
       "Pacchor Br.": [
         "Sonar Tari Plaza Madhabrerchar Road Madhabrerchar Road, Union- Pacchar Shibchar, Madaripur",
         null,
-        "01712976922; 09617333523"
+        "01712976922; 09617333523",
+        null,
+        null
       ]
     },
     {
       "Shyamoli Br.": [
         "Aroni Razzaque Homes Holding No.- 12/B, Ring Road Shyamoli, Dhaka",
         null,
-        "09617333577; 09617333578"
+        "09617333577; 09617333578",
+        null,
+        null
       ]
     },
     {
       "Ulokhola Br.": [
         "Abdul Whab Sarkar Shopping Complex, 1st Floor, Union-Nagar, Kaligonj, Gazipur",
         null,
-        "09617333540; 09617333541"
+        "09617333540; 09617333541",
+        "840104",
+        null
       ]
     },
     {
       "Uttara Br.": [
         "Plot- 10, Gausul Azam Avenue, Sector- 13, Uttara Model Town, Dhaka",
         null,
-        "09617333425; 09617333426"
+        "09617333425; 09617333426",
+        "840108",
+        null
       ]
     },
     {
       "Al-Amin Bazar Br.": [
         "Zam Zam Super Market Al-amin Bazar, North Kamargaon Bhagyakul, Sreenagar, Munshiganj",
         null,
-        "09617333449; 09617333452"
+        "09617333449; 09617333452",
+        "840127",
+        "300590207"
       ]
     },
     {
       "Hemayetpur Br.": [
         "Raj Place Hemayetpur, Padmar Mor, Tetuljhora Savar, Dhaka",
         null,
-        "09617333453; 09617333454"
+        "09617333453; 09617333454",
+        "840129",
+        null
       ]
     },
     {
       "Chawkbazar Br. Dhaka": [
         "Hazi Mohammad Ali Tower, Holding 64, 65, 66, Ward 28 KB Rudra Road South City Corporation,Dhaka",
         null,
-        "09617333459; 09617333462"
+        "09617333459; 09617333462",
+        "840036",
+        null
       ]
     },
     {
       "Tongi Bazar Branch": [
         "Banesa Complex,Tongi Bazar, Tongi, Gazipur",
         null,
-        "09617333442; 09617333437"
+        "09617333442; 09617333437",
+        "840130",
+        "300331666"
       ]
     },
     {
       "Narayanganj Branch": [
         "“Rana Complex”, 65/1, Bangabandhu Road, Ward No.- 16, Narayanganj.",
         null,
-        "09617333509; 09617333512"
+        "09617333509; 09617333512",
+        "840131",
+        "300671184"
       ]
     },
     {
       "Balashur Natun Bazar U": [
         "Meena Super Market, Rarikhal, Sreenagar, Munshiganj.",
         null,
-        "09617333533"
+        "09617333533",
+        "840039",
+        null
       ]
     },
     {
       "Deger Chala Uposhaka": [
         "Alhaj Shafiz Uddin Market Deger Chala, Gacha, Gazipur",
         null,
-        "09617333554"
+        "09617333554",
+        null,
+        null
       ]
     },
     {
       "Tongi T and T Uposhaka": [
         "T and T Bazar, Morkun, Munnu Nagar Tongi, Gazipur",
         null,
-        "09617333637"
+        "09617333637",
+        null,
+        null
       ]
     },
     {
       "Mohammadpur Chowrasta Branch": [
         "Sara Kohinur Tower, Holding no.-720/1/1 Bosila Road,Ward no.- 33, Dhaka North City Corporation Mohammadpur, Dhaka",
         null,
-        "09617333646"
+        "09617333646",
+        "840132",
+        null
       ]
     },
     {
       "Dakshin Keraniganj Branch": [
         "Hazi Karim Market, Hijal Tola Bazar, Shuvadda Union, South Keraniganj, Dhaka",
         null,
-        "09617333652; 09617333653"
+        "09617333652; 09617333653",
+        "840133",
+        null
       ]
     },
     {
       "Atlapur Uposhaka": [
         "President Plaza, Atlapur Bazar, Volabo,Rupganj, Narayanganj.",
         null,
-        "09617333665"
+        "09617333665",
+        null,
+        null
       ]
     },
     {
       "Pragati Sarani Branch": [
         "Car Selection, Holding No.- 44, Block- J, Pragati Sarani, Ward- 40, Dhaka North City Corporation Vatara, Dhaka.",
         null,
-        "09617333678; 09617333679"
+        "09617333678; 09617333679",
+        "840134",
+        null
       ]
     },
     {
       "Rajoir Branch": [
         "Nur Complex, Thana Main Road, Rajoir , Madaripur-7910.",
         null,
-        "09617333711; 09617333712"
+        "09617333711; 09617333712",
+        "840135",
+        "300540644"
       ]
     },
     {
       "Adhunagar Br.": [
         "Iconic Tower, Lohagara Bazar, Lohagara, Chattogram.",
         null,
-        "09617333485; 09617333486"
+        "09617333485; 09617333486",
+        "840010",
+        "300150450"
       ]
     },
     {
       "Agrabad Corporate Br.": [
         "Palm View, 101, Agrabad C/A, Chattogram City Corporation, Doublemuring,Chattogram",
         null,
-        "09617333450; 09617333451"
+        "09617333450; 09617333451",
+        "840001",
+        "300150168"
       ]
     },
     {
       "Alangkar Mor Br.": [
         "R. R. Complex Holding No.- 725,North Pahartali 9 no Ward, Pahartali, Chattogram",
         null,
-        "09617333595; 09617333596"
+        "09617333595; 09617333596",
+        "840021",
+        null
       ]
     },
     {
       "Anowara Br.": [
         "Bandar Shopping Complex, North Bandor Union- 1 No. Bairag Mahal Khan Bazar Karnaphuli Anowara, Chattogram",
         null,
-        "09617333475; 09617333476"
+        "09617333475; 09617333476",
+        "840008",
+        "300150526"
       ]
     },
     {
       "Aturar Depot Br.": [
         "H.S. Tower Holding No.- 1006 (New-1364/2499) Hathazari Road, Chattogram City Corporation, Panchlaish, Chattogram",
         null,
-        "09617333644; 09617333645"
+        "09617333644; 09617333645",
+        "840028",
+        null
       ]
     },
     {
       "Badher Hat Br.": [
         "Badher Hat Branch Seraj Super Market, 08 no Ramchandrapur union, Aojbalia Sadar, Noakhali",
         null,
-        "09617333647; 09617333648"
+        "09617333647; 09617333648",
+        null,
+        "300750292"
       ]
     },
     {
       "Barabkunda Br.": [
         "Miajee Market Barabkunda 5 no. Barabkunda Sitakunda, Chattogram",
         null,
-        "09617333620; 09617333621"
+        "09617333620; 09617333621",
+        "840023",
+        "300151033"
       ]
     },
     {
       "Boalkhali Chowdhury Hat Br.": [
         "S.M. Shopping Mall Chowdhury Hat Kodhurkhil, Boalkhali, Chattogram",
         null,
-        "09617333535; 09617333536"
+        "09617333535; 09617333536",
+        "840022",
+        "300150597"
       ]
     },
     {
       "Chambol Br.": [
         "Green Sohel Complex East Chambol Chambol, Banskhali, Chattogram",
         null,
-        "09617333445; 09617333446"
+        "09617333445; 09617333446",
+        "840020",
+        null
       ]
     },
     {
       "Chandina Br.": [
         "Alhaj Dr. Rosmat Ali Super M arket, Ward No – 5, Chandina PouroshavaChandina, Comilla",
         null,
-        "09617333635; 09617333636"
+        "09617333635; 09617333636",
+        "840025",
+        "300190881"
       ]
     },
     {
       "Chakaria Br.": [
         "Chakaria System Complex,Holding no.-1293/1Arakan Road, Ward no.-08Chakaria Puoroshava, P.S.- Chakaria",
         null,
-        "09617333463; 09617333464"
+        "09617333463; 09617333464",
+        null,
+        null
       ]
     },
     {
       "Cox’s Bazar Br.": [
         "Shafique Centre Holding No.- 464 Main Road, Ward No.- 10 Cox’s Bazar",
         null,
-        "09617333495; 09617333496"
+        "09617333495; 09617333496",
+        "840019",
+        null
       ]
     },
     {
       "Dakbangla Br.": [
         "Fatema Market Mouza – Mirjapur Union- 3 No. Mangal Kandi Sonagazi, Feni",
         null,
-        "09617333440; 09617333441"
+        "09617333440; 09617333441",
+        "840017",
+        "300300121"
       ]
     },
     {
       "Dohazari Br.": [
         "Sadek Tower (Ground Floor) Chandanaish, Chattogram",
         null,
-        "09617333410; 09617333411"
+        "09617333410; 09617333411",
+        "840005",
+        "300152566"
       ]
     },
     {
       "Dollai Nawabpur Br.": [
         "Fazlul Haque Mazumder Market, Dollai Nawabpur, Union- Barakarai, Chandina, Cumilla",
         null,
-        "09617333608; 09617333562"
+        "09617333608; 09617333562",
+        null,
+        null
       ]
     },
     {
       "Feni Br.": [
         "Nurjahan Plaza 202 S. S. K. Road, Ward No. 17, Mouza – Rampur Feni, Feni",
         null,
-        "09617333530; 09617333531"
+        "09617333530; 09617333531",
+        "840014",
+        "300300521"
       ]
     },
     {
       "Gunabati Br.": [
         "Chowdhury Tower Gunabati, Cumilla",
         null,
-        "09617333550; 09617333551"
+        "09617333550; 09617333551",
+        "840004",
+        "300192171"
       ]
     },
     {
       "Ishapur Br.": [
         "Laila Centre, Ishapur North Mekhal, Union- 8 No. Mekhal, P.S. – Hathazari Dist.- Chattogram",
         null,
-        "09617333590; 09617333591"
+        "09617333590; 09617333591",
+        "840024",
+        null
       ]
     },
     {
       "Jagatpur Br.": [
         "MD Abul Kalam Plaza 12 no Ashrafpur Union, Kachua, Chandpur",
         null,
-        "09617333649; 09617333650"
+        "09617333649; 09617333650",
+        "840029",
+        "300130270"
       ]
     },
     {
       "Jubilee Road Br.": [
         "S. M. A Tower, 178 Jubilee Road Kotwali,Chattogram",
         null,
-        "09617333455; 09617333456"
+        "09617333455; 09617333456",
+        "840007",
+        "300153644"
       ]
     },
     {
       "Kashipur Bazar Br.": [
         "Madina Tower 4 No. Baragaon Union, Maheshganj, Sonaimuri, Noakhali",
         null,
-        "09617333560; 09617333561"
+        "09617333560; 09617333561",
+        "840016",
+        "300751396"
       ]
     },
     {
       "Khatungonj Br.": [
         "Sobhan Bhaban 601 Ramjoy Mohazon Lane,Post Office Goli, 35 No Baksir Hat, Kotwali, Chattogram",
         null,
-        "09617333460; 09617333461"
+        "09617333460; 09617333461",
+        null,
+        null
       ]
     },
     {
       "Link Road Br.": [
         "Arif Market,(Shohortoli Link Road), Union – 10 No. Zilonga, Link Road,Cox’s Bazar",
         null,
-        "09617333480; 09617333481"
+        "09617333480; 09617333481",
+        "840006",
+        null
       ]
     },
     {
       "Mehedibagh Br.": [
         "Kichukkhan, Holding No-754/827, Chattogram City Corporation, Chawkbazar, Chattogram",
         null,
-        "09617333498; 09617333499"
+        "09617333498; 09617333499",
+        null,
+        "300150968"
       ]
     },
     {
       "Nandiapara Br.": [
         "New York Plaza, P/O- Nandiapara, Bagpanchra, Sonaimuri, Noakhali",
         null,
-        "09617333580; 09617333581"
+        "09617333580; 09617333581",
+        "840011",
+        "300750171"
       ]
     },
     {
       "Narayan Hat Br.": [
         "Chowdhury market, Narayan Hat, Bhujpur, Chattogram",
         null,
-        "09617333632; 09617333633"
+        "09617333632; 09617333633",
+        "840030",
+        null
       ]
     },
     {
       "Nasirabad Br.": [
         "Afford Sultan Elysium 331/A, CDA Avenue, East Nasirabad, Sholoshahar, Panchlaish, Chattogram",
         null,
-        "09617333470; 09617333471"
+        "09617333470; 09617333471",
+        "840009",
+        "300155534"
       ]
     },
     {
       "Panchgachia Br.": [
         "69, West Bijoy Sing, Feni Noakhali Road, Feni Sadar, Feni",
         null,
-        "09617333515; 09617333516"
+        "09617333515; 09617333516",
+        "840002",
+        "300300084"
       ]
     },
     {
       "Potherhat Br.": [
         "Station Market, Union-13, Noapara, Raozan, Chattogram",
         null,
-        "09617333465; 09617333466"
+        "09617333465; 09617333466",
+        null,
+        null
       ]
     },
     {
       "Patiya Br.": [
         "Patiya Kitchen Market, Holding no.- 891, Pritilota Road, Ward- 09, Patiya Pouroshava, Patiya, Chattogram",
         null,
-        "09617333490; 09617333491"
+        "09617333490; 09617333491",
+        "840018",
+        "300156162"
       ]
     },
     {
       "Pekua Br.": [
         "S.D. City Centre Pekua, Union- 4 No. Pekua Union Pekua, Cox’s Bazar",
         null,
-        "09617333608; 09617333609"
+        "09617333608; 09617333609",
+        "840031",
+        null
       ]
     },
     {
       "Rowshan Hat Br.": [
         "Chowdhury Tower Adjacent to BGC Trust, Kanchan Nagar, Chandanaish, Chattogram",
         null,
-        "09617333415; 09617333416"
+        "09617333415; 09617333416",
+        "840013",
+        "300156588"
       ]
     },
     {
       "Sharafbhata Br.": [
         "Hamid Sharif Comple, 08 no. Sharaf Bhata Union, Rangunia, Chattogram",
         null,
-        "09617333627; 09617333628"
+        "09617333627; 09617333628",
+        null,
+        "300150892"
       ]
     },
     {
       "Shindurpur Br.": [
         "Chowdhury Centre, 1st floor, P.O- Sindurpur , Dagonbhuiyan, Feni",
         null,
-        "09617333435; 09617333436"
+        "09617333435; 09617333436",
+        "840015",
+        null
       ]
     },
     {
       "Moricha Bazar Br.": [
         "Mafid Centre, Moricha Bazar Haladia Palong Union Ukhia,Coxs Bazar",
         null,
-        "09617333592; 09617333593"
+        "09617333592; 09617333593",
+        null,
+        null
       ]
     },
     {
       "Chawkbazar Br. CTG": [
         "Meghna Tower Holding 225, College Road Chawkbazar, Chattogram",
         null,
-        "09617333457; 09617333458"
+        "09617333457; 09617333458",
+        "840036",
+        null
       ]
     },
     {
       "Sheikh Mujib Road Br.": [
         "Mir Trade Centre,Holding no.- 525,Sheikh Mujib Road,Chattogram City Corporation,Double Mooring, Chattogram",
         null,
-        "09617333432; 09617333427"
+        "09617333432; 09617333427",
+        "840037",
+        "300150513"
       ]
     },
     {
       "Mohajon Hat Uposhaka": [
         "Sarat Mohajon Hat, Shuvandandi,Patiya",
         null,
-        "09617333418"
+        "09617333418",
+        null,
+        null
       ]
     },
     {
       "Lama Branch": [
         "Alhaj Abdul Gani Bhaban,Plot no.- 83, 85 & 86,Lama Pouroshava, Lama, Bandarban",
         null,
-        "09617333404; 09617333403"
+        "09617333404; 09617333403",
+        "840038",
+        "300030196"
       ]
     },
     {
       "Toitong Uposhaka": [
         "Chowdhury Bhaban, Toitong,Pekua, Cox Bazar, Chattogram",
         null,
-        "09617333502"
+        "09617333502",
+        null,
+        null
       ]
     },
     {
       "Natun Bazar Branch": [
         "“Masjid Market”, Natun Bazar, 6no. Bara Maheshkhali Union, Maheshkhali, Cox’s Bazar.",
         null,
-        "09617333503; 09617333504"
+        "09617333503; 09617333504",
+        "840039",
+        null
       ]
     },
     {
       "Rampur Uposhaka": [
         "A. Hakim Centre,Rampur Bazar, Chakaria, Coxs Bazar",
         null,
-        "09617333602"
+        "09617333602",
+        null,
+        null
       ]
     },
     {
       "Ramu Uposhaka": [
         "K P Bhaban, Fotekharkul Ramu, Coxs Bazar",
         null,
-        "09617333612"
+        "09617333612",
+        null,
+        null
       ]
     },
     {
       "M Char Hat Uposhaka": [
         "Jagir Mia Building, M. Char Hat Putivila, Lohagara, Chattogram",
         null,
-        "09617333619"
+        "09617333619",
+        null,
+        null
       ]
     },
     {
       "Satbaria Uposhaka": [
         "Tinku Market,Nazirhat,7no.Satbaria Chandanaish, Chattogram",
         null,
-        "09617333622"
+        "09617333622",
+        null,
+        null
       ]
     },
     {
       "Barobakia Uposhaka": [
         "S T Plaza, Barobakia, Pekua Coxs Bazar",
         null,
-        "09617333623"
+        "09617333623",
+        null,
+        null
       ]
     },
     {
       "Alikadam Uposhaka": [
         "Sukumar Market, 1 no. Alikadam Bandarban",
         null,
-        "09617333624"
+        "09617333624",
+        null,
+        null
       ]
     },
     {
       "Darbesher Hat Uposhaka": [
         "Hakim Forayeji Market,Darbesher Hat 1no. Sindurpur, Dagonbuiyan, Feni",
         null,
-        "09617333634"
+        "09617333634",
+        null,
+        null
       ]
     },
     {
       "Nadana Bazar Uposhaka": [
         "Mohammad Mostafar Building,Sonaimuri, Noakhali",
         null,
-        "09617333654"
+        "09617333654",
+        null,
+        null
       ]
     },
     {
       "Kalipur Uposhaka": [
         "Rojonigonda Community Center,Beside Sub Registry Office,Banskhali, Chattogram",
         null,
-        "09617333655"
+        "09617333655",
+        null,
+        null
       ]
     },
     {
       "Cumilla Branch": [
         "S.Alam Jamjam Tower,Holding no-942,Laksham Road, Ward no-13,Cumilla City Corporation,Cumilla Sadar,Cumilla.",
         null,
-        "09617333656; 09617333657"
+        "09617333656; 09617333657",
+        "840040",
+        null
       ]
     },
     {
       "Keranihat Branch": [
         "Sakib Tower, Kewchia,10 no Kewchia Union,Satkania, Chattogram.",
         null,
-        "09617-333659; 09617-333658"
+        "09617-333659; 09617-333658",
+        "840041",
+        "300154180"
       ]
     },
     {
       "Riajuddin Bazar Uposhaka": [
         "Chowdhury Tower , Riajuddin Bazar, Kotowali, Chattogram",
         null,
-        "09617333663"
+        "09617333663",
+        null,
+        null
       ]
     },
     {
       "Rangunia Shantirhat Br": [
         "Master Bhaban, Shantirhat Bazar, Union- Pomra, P.S.-Rangunia, Dist.- Chattogram.",
         null,
-        "09617333680; 09617333681"
+        "09617333680; 09617333681",
+        "840043",
+        "300151109"
       ]
     },
     {
       "Khulshi Branch": [
         "“Sanmar Spring Valley”, Holding No.- 2463 / A/ 52, Zakir Hossain Road, Ward- 08, Chattogtam City Corporation, Khulshi, Chattogram",
         null,
-        "09617333691; 09617333692"
+        "09617333691; 09617333692",
+        null,
+        "300154364"
       ]
     },
     {
       "Komol Munshir Hat Up.": [
         "Hazi S M Market, Komol Munshir Hat, Kochuai, Patiya, Chattogram.",
         null,
-        "09617333695"
+        "09617333695",
+        null,
+        null
       ]
     },
     {
       "Fatikchari Branch": [
         "“Kashem Shopping Complex” Holding No.- 95, Khagrachari Road, Ward- 08, Fatikchari Pouroshava, Fatikchari, Chattogram.",
         null,
-        "09617333698; 09617333699"
+        "09617333698; 09617333699",
+        "840045",
+        "300152740"
       ]
     },
     {
       "Nawab Siraj-Ud-Doula Road Branch": [
         "YNT Centre, Holding no.- 92/359, 94/360 & 95/361, Nawab Siraj-Ud-Doula Road, Ward no.- 21, Chattogram City Corporation, Kotwali, Chattogram",
         null,
-        "09617333707; 09617333708"
+        "09617333707; 09617333708",
+        "840042",
+        null
       ]
     },
     {
       "Rangamati Branch": [
         "Mortuza Height’s, Kalindipur, Banorupa, Rangamati.",
         null,
-        "09617333736; 09617333737"
+        "09617333736; 09617333737",
+        "840047",
+        "300840528"
       ]
     },
     {
       "Ramkrishnapur Bazar Branch": [
         "Ramkrishnapur Bazar, Union- Chander Char, P.S.- Homna, Dist.- Cumilla.",
         null,
-        "09617333738; 09617333739"
+        "09617333738; 09617333739",
+        "840046",
+        null
       ]
     },
     {
       "Barishal Br.": [
         "Faiz Shotaiyu Holding No.- 49, Nawab Bari Police Line Road, Ward No.- 16, Barishal City Corporation, Sadar, Barishal",
         null,
-        "09617333603; 09617333604"
+        "09617333603; 09617333604",
+        "840401",
+        null
       ]
     },
     {
       "M A Jalil Sarak Uposhaka": [
         "Ahsan Palace, M A Jalil Sarak Kotowali, Barishal.",
         null,
-        "09617333598"
+        "09617333598",
+        null,
+        null
       ]
     },
     {
       "Jashore Islamic Banking Br.": [
         "Ayshea Zoha Market Complex Holding No.- 2/3, Gohata Road Kotwali, Jashore.",
         null,
-        "09617333557; 09617333558"
+        "09617333557; 09617333558",
+        null,
+        null
       ]
     },
     {
       "Khulna Br.": [
         "Khan Plaza 1st floor, Holding No # 76, KDA Avenue, Khulna",
         null,
-        "09617333570; 09617333571"
+        "09617333570; 09617333571",
+        "840201",
+        "300471542"
       ]
     },
     {
       "Kushtia Islamic Banking Br.": [
         "Matiur Rahman Tower Holding No.- 2, Chand Mohammad Road Ward no,- 2, Kushtia Puoroshava Kushtia (Sadar), Kushtia",
         null,
-        "09617333439; 09617333617"
+        "09617333439; 09617333617",
+        "840202",
+        "300500084"
       ]
     },
     {
       "Satkhira Branch": [
         "Satkhira City Centre 19 Pransayer Road,Ward no.-04 PS-Satkhira Sadar, Dist-Satkhira",
         null,
-        "09617333428; 09617333429"
+        "09617333428; 09617333429",
+        "840204",
+        "300870080"
       ]
     },
     {
       "Chowrhas Mor Uposhaka": [
         "Chowrhas Mor, Kushtia, Powroshava, Kushtia",
         null,
-        "09617333412"
+        "09617333412",
+        null,
+        null
       ]
     },
     {
       "Narail Branch": [
         "Jamaddar Tower,holding no.- 69, Jashore Road,ward no.- 06, Narail Pouroshava, Narail",
         null,
-        "09617333408; 09617333407"
+        "09617333408; 09617333407",
+        "840205",
+        "300650642"
       ]
     },
     {
       "Chachuri Bazar Uposhaka": [
         "Sufia Villa, Cacuri Bazar, Kalia, Narail",
         null,
-        "09617333534"
+        "09617333534",
+        null,
+        null
       ]
     },
     {
       "Trimohoni Uposhaka": [
         "Chairman Market, Barkhada Kushtia Sadar, Kushtia",
         null,
-        "09617333626"
+        "09617333626",
+        null,
+        null
       ]
     },
     {
       "Parulia Bazar Uposhaka": [
         "S. E. Mansion , Parulia Bazar, Debhata, Satkhira",
         null,
-        "09617333662"
+        "09617333662",
+        null,
+        null
       ]
     },
     {
       "Jhenaidah Branch": [
         "Susandhya Plaza, Holding no.- 5772, K. P Boshu Road, Ward- 06, Jhenaidah Pouroshava, Jhenaidah",
         null,
-        "09617333709; 09617333710"
+        "09617333709; 09617333710",
+        "840206",
+        "300440649"
       ]
     },
     {
       "Benapole Branch": [
         "T M Building, Benapole Port",
         null,
-        "01711133355; 01721270159"
+        "01711133355; 01721270159",
+        "840207",
+        "300410282"
       ]
     },
     {
       "Rajshahi Br.": [
         "Kamar Manzil Holding No. # 7- 38, Rani Bazar, Station Road, Rajshahi City Corporation, Boaliya, Rajshahi",
         null,
-        "09617333630; 09617333631"
+        "09617333630; 09617333631",
+        "840302",
+        "300811931"
       ]
     },
     {
       "Bogra Br.": [
         "Saikat Complex 1st floor,Holding No141-01, Sherpur Road, Bogra",
         null,
-        "09617333555; 09617333556"
+        "09617333555; 09617333556",
+        "840301",
+        "300100376"
       ]
     },
     {
       "Khukni Branch": [
         "Towhid-Tamjid Complex Union-Khukni, PS-Enayetpur Upazila- Shahjadpur Dist-Sirajganj",
         null,
-        "09617333423; 09617333424"
+        "09617333423; 09617333424",
+        "840303",
+        "300880083"
       ]
     },
     {
       "Tebunia Bazar Islamic Banking Br.": [
         "Sakawat Plaza, Tebunia Bazar Union – Maligacha, P.S.- Pabna Sadar Dist.- Pabna.",
         null,
-        "09617333433"
+        "09617333433",
+        null,
+        "300760158"
       ]
     },
     {
       "Chapainawabganj Br.": [
         "Omar Bhaban Holding no- 17, Road no- 15 Godagari Road, Ward- 15 Chapainawabganj Pouroshava Chapainawabganj",
         null,
-        "09617333489; 09617333492"
+        "09617333489; 09617333492",
+        "840305",
+        null
       ]
     },
     {
       "Mundumala Bazar Branch": [
         "Chairman Market, Holding No.- 1094, Mundumala, Ward No.- 5, Mundumala Pouroshava, Tanore, Rajshahi",
         null,
-        "09617333517; 09617333518"
+        "09617333517; 09617333518",
+        "840306",
+        "300810187"
       ]
     },
     {
       "Baraigram Branch": [
         "Babul Market,Laxmikul Bazar, Ward No.- 8, Baraigram Pouroshava, Baraigram, Natore",
         null,
-        "09617333519"
+        "09617333519",
+        "840307",
+        "300690165"
       ]
     },
     {
       "Moukhara Uposhaka": [
         "Dhoni Fakir Bhaban, Holding No.-171, Moukhara,Ward No.-02,Barigram, Natore.",
         null,
-        "09617333693"
+        "09617333693",
+        null,
+        null
       ]
     },
     {
       "Tarash Branch": [
         "“Dr. Akbar Hossain Complex” Tarash Bazar, Tarash Pouroshava, Tarash, Sirajganj.",
         null,
-        "09617333700; 09617333701"
+        "09617333700; 09617333701",
+        "840308",
+        "300882173"
       ]
     },
     {
       "Naogaon Branch": [
         "Shojyaloy Shopping Complex, Holding no.- 0651-01, Bangabandhu Road, Ward- 04, Naogaon Pouroshava, Sadar, Naogaon.",
         null,
-        "09617333750; 09617333751"
+        "09617333750; 09617333751",
+        "840309",
+        "300641185"
       ]
     },
     {
       "Kashinathpur Branch": [
         "Babu Super Market, Holding # 622, Kashinathpur, Santhia, Pabna",
         null,
-        "09617333760; 09617333761"
+        "09617333760; 09617333761",
+        "840310",
+        "300761331"
       ]
     },
     {
       "Sylhet Br.": [
         "Optimum Tower 66 Chayatoru VIP Road, Lama Bazar, Sylhet",
         null,
-        "09617333565; 09617333566"
+        "09617333565; 09617333566",
+        "840501",
+        "300913550"
       ]
     },
     {
       "Tajpur Branch": [
         "Saidur Rahman Kroy Bikroy Kendra, Boraya, Union- 6 no. Tajpur, P.S.- Osmani Nagar, Dist.- Sylhet.",
         null,
-        "09617333752; 09617333753"
+        "09617333752; 09617333753",
+        "840502",
+        "300913826"
       ]
     },
     {
       "Dhobaura Br.": [
         "J.M. Plaza, Dhobaura-Ganginar ParJ.M. Plaza, Dhobaura-Ganginar Par Dhobaura, Mymensingh",
         null,
-        "09617333587; 09617333588"
+        "09617333587; 09617333588",
+        "840701",
+        "300612051"
       ]
     },
     {
       "Mymensingh Branch": [
         "“South City Rowshan Ara Tower”, Holding no.- 02, Road- 02 no. Sehra (D.B) Road, Ward no.- 16, Kotwali, Mymensingh.",
         null,
-        "09617333513; 09617333514"
+        "09617333513; 09617333514",
+        "840702",
+        "300611757"
       ]
     },
     {
       "Goyeshpur Bazar Uposha": [
         "Mandal Market, Paithol, Kaoraid, Pagla, Mymensingh",
         null,
-        "09617333676"
+        "09617333676",
+        null,
+        null
       ]
     },
     {
       "Rangpur Br.": [
         "“Monish Mila Plaza”, Jail Road, Ward no.- 16, Rangpur City Corporation, Kotwali, Rangpur.",
         null,
-        "09617333507; 09617333508"
+        "09617333507; 09617333508",
+        "840601",
+        "300851454"
       ]
     },
     {
       "Dinajpur Br.": [
         "“Nawab Tower”, Holding no.- 271/5, Station Road, Ward no.- 10, Dinajpur Pouroshava, Dinaipur.",
         null,
-        "09617333685; 09617333686"
+        "09617333685; 09617333686",
+        "840602",
+        "300280670"
       ]
     },
     {
       "Branch Opening": [
         "News and Updates",
         "https://www.globalislamibankbd.com/category/branch-opening/",
+        null,
+        null,
         null
       ]
     },
@@ -918,6 +1181,8 @@
       "NRB Global Bank formally open its Sarafbhata Branch": [
         "NRB Global Bank formally opened its Sharafbhata Branch at Rangunia, Chattogaram on October 30,...",
         "https://www.globalislamibankbd.com/nrb-global-bank-formally-open-its-sarafbhata-branch/",
+        null,
+        "840026",
         null
       ]
     }
@@ -927,875 +1192,1125 @@
       "Baunia-Badaldi Uposhakha": [
         "Madina Bhaban Bownia-Botthola, Horirampur turag, Dhaka",
         null,
-        "09617333484"
+        "09617333484",
+        null,
+        null
       ]
     },
     {
       "Isapura Bazar Uposhakha": [
         "Isapura Bazar, Rupgonj, Narayangonj",
         null,
-        "09617333482"
+        "09617333482",
+        null,
+        "300150650"
       ]
     },
     {
       "Madartek Chowtasta UPoshakha": [
         "74 no Madartek Chowtasta, Sabujbag, Dhaka",
         null,
-        "09617333413"
+        "09617333413",
+        null,
+        null
       ]
     },
     {
       "Nagori Bazar Uposhakha": [
         "Nagori New Market, Nagori, Kaliganj, Gazipur.",
         null,
-        "09617333417"
+        "09617333417",
+        null,
+        null
       ]
     },
     {
       "Ranabhola Uposhakha": [
         "Ranabhola Tower, Ranabhola,Turag,Dhaka",
         null,
-        "09617333443"
+        "09617333443",
+        null,
+        null
       ]
     },
     {
       "Hatkhola Uposhakha": [
         "Meher Negar Complex, Holding- 15/4-5/A, Hatkhola Road, Wari, Dhaka",
         null,
-        "09617333418"
+        "09617333418",
+        null,
+        null
       ]
     },
     {
       "Masterpara Uposhakha": [
         "Probasi Bhaban, Master Para,Kolabagan, Uttarkhan, Dhaka",
         null,
-        "09617333527"
+        "09617333527",
+        null,
+        null
       ]
     },
     {
       "Tongi BSCIC Uposhakha": [
         "27/1 Noor Plaza, Jhinu Market,Pagar, Tongi BSCIC, Gazipur",
         null,
-        "09617333528"
+        "09617333528",
+        null,
+        null
       ]
     },
     {
       "Kajla Uposhakha": [
         "Holding no.3, Santek Road,Jatrabari, Dhaka.",
         null,
-        "09617333529"
+        "09617333529",
+        null,
+        null
       ]
     },
     {
       "Sanar Par Uposhakha": [
         "Shuvo Builders,Rowshan Ara Degree College Road,Siddhirganj, Narayanganj.",
         null,
-        "09617333532"
+        "09617333532",
+        null,
+        null
       ]
     },
     {
       "Mohammadpur Uposhakha": [
         "Dalia Bhaban, Adabor Chawk, Mohammadpur, Dhaka.",
         null,
-        "09617333537"
+        "09617333537",
+        "840132",
+        null
       ]
     },
     {
       "Shibchar Uposhakha": [
         "Gomosta Bhaban, Shibchar Pouroshava Shibchar, Madaripur",
         null,
-        "09617333559"
+        "09617333559",
+        null,
+        null
       ]
     },
     {
       "Rajendrapur Bazar Uposhakha": [
         "Khan Market, Rajendrapur Bazar Rajabari, Sreepur, Gazipur.",
         null,
-        "09617333568"
+        "09617333568",
+        null,
+        null
       ]
     },
     {
       "Namapara Uposhakha": [
         "Jamal Kamal Tower, Lakecity Road Namapara, Khilkhet, Dhaka.",
         null,
-        "09617333574"
+        "09617333574",
+        null,
+        null
       ]
     },
     {
       "Mirpur Zoo Road Uposhakha": [
         "Mirpur Zoo Road, Shah Ali Mirpur, Dhaka.",
         null,
-        "09617333579"
+        "09617333579",
+        "840116",
+        null
       ]
     },
     {
       "Ghatarchar Uposhakha": [
         "Ghatarchar, Taranagar Keraniganj, Dhaka.",
         null,
-        "09617333582"
+        "09617333582",
+        null,
+        null
       ]
     },
     {
       "Kanaksar Uposhakha": [
         "Morol Complex, kanaksar, Louhojong, Munshiganj",
         null,
-        "09617333569"
+        "09617333569",
+        null,
+        null
       ]
     },
     {
       "Gomail Banglabazar Uposhakha": [
         "Tripti Tower, East Norsinghapur Yarpur, Ashulia, Dhaka",
         null,
-        "09617333599"
+        "09617333599",
+        null,
+        null
       ]
     },
     {
       "Dakshinkhan Uposhakha": [
         "Chowdhury Palace,Dakshinkhan,Dhaka",
         null,
-        "09617333643"
+        "09617333643",
+        null,
+        null
       ]
     },
     {
       "Diabari Uposhakha": [
         "Holding no.-30,Block-A, Sonargaon,Janapath Road, Ward- 53, Dhaka, North City Corporation, Turag, Dhaka-1230",
         null,
-        "09617333660"
+        "09617333660",
+        null,
+        null
       ]
     },
     {
       "Aftab Nagar Uposhakha": [
         "Signature House , Plot-11, Block-D, Aftab Nagar, North Meradia, Badda, Dhaka-1212",
         null,
-        "09617333661"
+        "09617333661",
+        null,
+        null
       ]
     },
     {
       "Balughat Bazar Uposhakha": [
         "Mirja Market,38 Balughat, Bazar(Old-26),Baunia Sarak, Dhaka Cantonment,Dhaka-1206",
         null,
-        "09617333664"
+        "09617333664",
+        null,
+        null
       ]
     },
     {
       "Barmi Chowrasta Uposhakha": [
         "Bhai Bhai Plaza, Barmi Chowrasta, Old Bus Stand, Barmi, Sreepur, Gazipur",
         null,
-        "09617333677"
+        "09617333677",
+        null,
+        null
       ]
     },
     {
       "Gorgoria Masterbari Uposhakha": [
         "Gorgoria Masterbari, Uposhakha, Gazipur.",
         null,
-        "09617333497"
+        "09617333497",
+        null,
+        null
       ]
     },
     {
       "Voktobari Bazar Uposhakha": [
         "“Billal Market”, Voktobari Bazar, Rupganj, Narayanganj",
         null,
-        "09617333682"
+        "09617333682",
+        null,
+        null
       ]
     },
     {
       "Bazitpur Uposhakha": [
         "“Islamia Super Market”, Hazi Ilias Road, Bazitpur Pouroshava, Bazitpur, Kishoreganj.",
         null,
-        "09617333684"
+        "09617333684",
+        null,
+        null
       ]
     },
     {
       "Savar Bazar Uposhakha": [
         "“Ahmed Centre”, Savar Dakshin Nama Bazar, Savar, Dhaka",
         null,
-        "09617333688"
+        "09617333688",
+        null,
+        null
       ]
     },
     {
       "Banti Bazar Uposhakha": [
         "“Hazi Abdul Hannan City Plaza”, Banti Bazar, Duptara, Araihazar, Narayanganj",
         null,
-        "09617333689"
+        "09617333689",
+        null,
+        null
       ]
     },
     {
       "Zigatola Uposhakha": [
         "Holding No.-42/A/1,Moulovi Salek Road, Zigatola, Hazaibag, Dhaka",
         null,
-        "09617333694"
+        "09617333694",
+        null,
+        null
       ]
     },
     {
       "Rampura Uposhakha": [
         "Holding No-14, D.I.T. Raod, Dhaka North City Corporation, Dhaka.",
         null,
-        "09617333697"
+        "09617333697",
+        null,
+        null
       ]
     },
     {
       "Vatara More Uposhakha": [
         "Grameen Bangla Freedom Palace, Holding No.-7559, Ward No.-40, Vatara, Dhaka",
         null,
-        "09617333702"
+        "09617333702",
+        null,
+        null
       ]
     },
     {
       "Shahjadpur Uposhakha": [
         "“Nurul Islam Bhaban”, Shahjadpur, Gulshan, Dhaka North City Corporation, Dhaka",
         null,
-        "09617333703"
+        "09617333703",
+        null,
+        null
       ]
     },
     {
       "Dhaka Uddyan Uposhakha": [
         "Badsha Villa, Plot No.-1, Block No.-F, Ward No.-33, Dhaka Uddyan, Mohammadpur, Dhaka",
         null,
-        "09617333704"
+        "09617333704",
+        null,
+        null
       ]
     },
     {
       "Kharakandi Uposhakha": [
         "Arif Plaza, Kharakandi, Kalatia, Keraniganj, Dhaka",
         null,
-        "09617333705"
+        "09617333705",
+        null,
+        null
       ]
     },
     {
       "Goalanda Bazar Uposhakha": [
         "Khan Trade Centre, Goalanda Bazar, Goalanda, Rajbari",
         null,
-        "09617333706"
+        "09617333706",
+        null,
+        null
       ]
     },
     {
       "Islambag Uposhakha": [
         "Holding No. 24, East Islambag, Posta, Dhaka",
         null,
-        "09617333715"
+        "09617333715",
+        null,
+        null
       ]
     },
     {
       "Dewra Bazar Uposhakha": [
         "Dewra Bazar, Tongi, Gazipur",
         null,
-        "09617333714"
+        "09617333714",
+        null,
+        null
       ]
     },
     {
       "Purba Badda Uposhakha": [
         "Sarkar House, Joy Bangla Mor, Kabarasthan Road, Badda, Dhaka",
         null,
-        "09617333719"
+        "09617333719",
+        null,
+        null
       ]
     },
     {
       "Amtoli Uposhakha": [
         "Haji Akmot Ali Mansion, Amtoli, Mohakhali, Banani, Dhaka.",
         null,
-        "09617333720"
+        "09617333720",
+        null,
+        null
       ]
     },
     {
       "S M Maleh Road Uposhakha": [
         "Padda City Plaza-2, 55/D, S M Maleh Road, Tan Bazar, Narayanganj.",
         null,
-        "09617333722"
+        "09617333722",
+        null,
+        null
       ]
     },
     {
       "Bhurghata Uposhakha": [
         "Sheikh Plaza Market, Bhurghata, Kalkini, Madaripur.",
         null,
-        "09617333724"
+        "09617333724",
+        null,
+        null
       ]
     },
     {
       "Azampur Uposhakha": [
         "Munir Tower, Holding No.-225, Shah Kabir Mazar Road, DakshinKhan, Dhaka.",
         null,
-        "09617333726"
+        "09617333726",
+        null,
+        null
       ]
     },
     {
       "Kazi Para Uposhakha": [
         "Bhai Bhai Mansion, 567, Begum Rokeya Sarani, Kazipara, Kafrul, Dhaka.",
         null,
-        "09617333725"
+        "09617333725",
+        null,
+        null
       ]
     },
     {
       "Mothbari Uposhakha": [
         "Down Town Nibash, Mothbari, Nagori, Kaliganj, Gazipur.",
         null,
-        "09617333729"
+        "09617333729",
+        null,
+        null
       ]
     },
     {
       "Naya Bazar Road Uposhakha": [
         "Shafiq Mansion, 58, Tati Bazar, Kotowali, Dhaka",
         null,
-        "09617333732"
+        "09617333732",
+        null,
+        null
       ]
     },
     {
       "Kalni Uposhakha": [
         "Sarkar Mini Mart, Kalni, Hirnal, Daudpur, Rupganj, Narayanganj.",
         null,
-        "09617333735"
+        "09617333735",
+        null,
+        null
       ]
     },
     {
       "Khilgaon Uposhakha": [
         "Abdur Rahim Gong Bhaban, 685/1, Shahid Baki Road, Khilgaon, Dhaka.",
         null,
-        "09617333742"
+        "09617333742",
+        null,
+        null
       ]
     },
     {
       "Pallabi Uposhakha": [
         "Tayab Villa, 11, Benaroshi Palli, Lane-2, Block-A, Mirpur-10, Dhaka.",
         null,
-        "09617333743"
+        "09617333743",
+        null,
+        null
       ]
     },
     {
       "Puran Bazar Uposhakha": [
         "Karachi Biri Road, Ward No.- 03, Madaripur Pourashava, Sadar, Madaripur.",
         null,
-        "09617333744"
+        "09617333744",
+        null,
+        null
       ]
     },
     {
       "Boalmari Uposhakha": [
         "“Swapno Chhoaan Shopping Complex”, Main Road, Boalmari, Sadar, Faridpur.",
         null,
-        "09617333745"
+        "09617333745",
+        null,
+        null
       ]
     },
     {
       "Sarulia Bazar Uposhakha": [
         "Hazi Siddique Khan Shopping Center, Holding- 48, Sarulia Bazar",
         null,
-        "09617333748"
+        "09617333748",
+        null,
+        null
       ]
     },
     {
       "Hathazari Uposhakha": [
         "J M Tower Hathazari Medical Gate Alipur, Hathazari Chattogram",
         null,
-        "09617333483"
+        "09617333483",
+        null,
+        null
       ]
     },
     {
       "Morfala Bazar Uposhakha": [
         "Abdul Monaf Chairman Market Morfala Union Satkania, Chattogram",
         null,
-        "09617333478"
+        "09617333478",
+        null,
+        null
       ]
     },
     {
       "Jote Pukur Uposhakha": [
         "Wares Mohsena Shopping Complex Saroatoli, Boalkhali, Chattogram",
         null,
-        "09617333477"
+        "09617333477",
+        null,
+        null
       ]
     },
     {
       "Panchuria Uposhakha": [
         "Dr. Milon Market, Panchuria Bazar,Patiya, Chattogram",
         null,
-        "09617333474"
+        "09617333474",
+        null,
+        null
       ]
     },
     {
       "Goschi Nayahat Uposhakha": [
         "Mosjid Market, Dewanpur,Pahartoli, Raojan",
         null,
-        "09617333473"
+        "09617333473",
+        null,
+        null
       ]
     },
     {
       "Silok Uposhakha": [
         "Vill- Silok, union- Silok,Rangunia, Chattogram",
         null,
-        "09617333472"
+        "09617333472",
+        null,
+        null
       ]
     },
     {
       "Heyako Uposhakha": [
         "T K Tower, Heyako, Dhatmara,Bhujpur, Chattogram",
         null,
-        "09617333469"
+        "09617333469",
+        null,
+        null
       ]
     },
     {
       "Silonia Uposhakha": [
         "Jisan Super Market,Silonia Bazar, Joylasker,Dhagonbhuiyan, Feni",
         null,
-        "09617333468"
+        "09617333468",
+        null,
+        null
       ]
     },
     {
       "Khalifer Hat Uposhakha": [
         "Reja Super Market, Dadpur, Noakhali Sadar, Noakhali.",
         null,
-        "09617333409"
+        "09617333409",
+        null,
+        null
       ]
     },
     {
       "Chandanaish Uposhakha": [
         "Hazi Nasir Super Market, Chandanaish Sadar, Chandanaish, Chattogram",
         null,
-        "09617333447"
+        "09617333447",
+        null,
+        null
       ]
     },
     {
       "Malghar Uposhakha": [
         "Elahi Shopping Center, Malghar Bazar, Haildhar, Anowara Chattogram",
         null,
-        "09617333448"
+        "09617333448",
+        null,
+        null
       ]
     },
     {
       "Moriom Nagar Uposhakha": [
         "Hazi Mujib Market,Hazi Mujib Market, Moriom Nagar,Rangunia Chattogram",
         null,
-        "09617333493"
+        "09617333493",
+        null,
+        null
       ]
     },
     {
       "Kaliapara Uposhakha": [
         "Aman Plaza,Aman Plaza, Suapara, Shahrasti, Chandpur",
         null,
-        "09617333494"
+        "09617333494",
+        null,
+        null
       ]
     },
     {
       "Faillatoli Bazar Uposhakha": [
         "Taher Bhaban, Faillatoli Bazar Halisahar, Chattogram",
         null,
-        "09617333538"
+        "09617333538",
+        null,
+        null
       ]
     },
     {
       "Sarkar Hat Uposhakha": [
         "A.K.M.M. Alim Shopping Complex, Tailardip, Anowara, Chattogram.",
         null,
-        "09617333539"
+        "09617333539",
+        null,
+        null
       ]
     },
     {
       "Thaingkhali Uposhakha": [
         "Anowara Tower, Palongkhali, Ukhia, Coxs Bazar",
         null,
-        "09617333542"
+        "09617333542",
+        null,
+        null
       ]
     },
     {
       "Katir Hat Uposhakha": [
         "Shahajahan Shah Complex, Poschim Dolai,Hathazari,Chattogram",
         null,
-        "09617333543"
+        "09617333543",
+        null,
+        null
       ]
     },
     {
       "Natun Chaktai Uposhakha": [
         "Major Tower, Natun Chaktai, Bakolia, Chattogram",
         null,
-        "09617333544"
+        "09617333544",
+        null,
+        null
       ]
     },
     {
       "Satkania Uposhakha": [
         "Man Tower, Adalot Road, Satkania Pouroshava, Chattogram.",
         null,
-        "09617333547"
+        "09617333547",
+        null,
+        null
       ]
     },
     {
       "Sitakunda Uposhakha": [
         "Al Madina Shopping Complex College Road, Sitakunda Pouroshava Chattogram.",
         null,
-        "09617333548"
+        "09617333548",
+        null,
+        null
       ]
     },
     {
       "Shantir Hat Uposhakha": [
         "Kamal Center, 6 no. Kusumpura Patiya, Chattogram",
         null,
-        "09617333549"
+        "09617333549",
+        null,
+        null
       ]
     },
     {
       "Gazir Hat Uposhakha": [
         "Abdur Rob Plazar, 3no. Domurua, Senbag, Noakhali",
         null,
-        "09617333552"
+        "09617333552",
+        null,
+        null
       ]
     },
     {
       "Bakshaganj Uposhakha": [
         "Hazi Siraj Market, Bakshaganj Bazar Bakshaganj, Nangolkot, Cumilla",
         null,
-        "09617333553"
+        "09617333553",
+        null,
+        null
       ]
     },
     {
       "Karihati Bazar Uposhakha": [
         "Ayesha Akhter Khan Super Market Chatkhil, Noakhali.",
         null,
-        "09617333564"
+        "09617333564",
+        null,
+        null
       ]
     },
     {
       "Harbang Uposhakha": [
         "Monjur Alam Member Market Harbang, Chakaria, Coxs Bazar",
         null,
-        "09617333607"
+        "09617333607",
+        null,
+        null
       ]
     },
     {
       "Academy Road Uposhakha": [
         "Nur Garden, Academy RoadFeni Pouroshava, Feni",
         null,
-        "09617333640"
+        "09617333640",
+        null,
+        null
       ]
     },
     {
       "Badamtol Uposhakha": [
         "Hazi M. A. Market, Badamtol, Kanchannagar, Chandanaish, Chattogram",
         null,
-        "09617333669"
+        "09617333669",
+        null,
+        null
       ]
     },
     {
       "Loskorhat Uposhakha": [
         "Nizam Uddin Market, Damdama, Chanua, Feni Sadar,Feni.",
         null,
-        "09617333670"
+        "09617333670",
+        null,
+        null
       ]
     },
     {
       "Alkora Uposhakha": [
         "Raj Super Market, Alkora, Chauddagram, Cumilla.",
         null,
-        "09617333671"
+        "09617333671",
+        null,
+        null
       ]
     },
     {
       "Kabila Bazar Uposhakha": [
         "Abdul Gafur Moyshan Super Market, West Monipur, Kazir Dokan, Kabila Burichong, Cumilla",
         null,
-        "09617333674"
+        "09617333674",
+        null,
+        null
       ]
     },
     {
       "Kalir Bazar Uposhakha": [
         "CIP Kalam & Brothers Market, 1 No Kalir Bazar, Kotowali, Cumilla",
         null,
-        "09617333673"
+        "09617333673",
+        null,
+        null
       ]
     },
     {
       "Akbar Shah Uposhakha": [
         "Hazi Yousuf Mansion, New Mansurabad, Akbar Shah, Chattogram",
         null,
-        "09617333675"
+        "09617333675",
+        null,
+        null
       ]
     },
     {
       "DC Road Uposhakha": [
         "“Babe Majeda”, 727, DC Road, Dewan Bazar, Chawkbazar, Chattogram",
         null,
-        "09617333690"
+        "09617333690",
+        null,
+        null
       ]
     },
     {
       "Betua Bazar Uposhakha": [
         "Nahar Market, School Para, BM Char, Vewla Manik Char, Chakaia, Coxs Bazar",
         null,
-        "09617333696"
+        "09617333696",
+        null,
+        null
       ]
     },
     {
       "Halishahar Uposhakha": [
         "Shak Najir Mohammad Bhaban, Halisahar, Block I, Chattogram",
         null,
-        "09617333713"
+        "09617333713",
+        null,
+        null
       ]
     },
     {
       "Muradpur Uposhakha": [
         "Johir Tower, Muradpur, Panchlaish, Chattogram",
         null,
-        "09617333716"
+        "09617333716",
+        null,
+        null
       ]
     },
     {
       "Wahed Ali Chowdhury Hat Uposhakha": [
         "Jalil Tower, Wahed Ali Chowdhury Hat, Raipur, Anwara, Chattogram",
         null,
-        "09617333717"
+        "09617333717",
+        null,
+        null
       ]
     },
     {
       "Moidar Mill Uposhakha": [
         "Reza Complex, Mia Khan Nagar, Bakalia, Chattogram",
         null,
-        "09617333718"
+        "09617333718",
+        null,
+        null
       ]
     },
     {
       "Bakolia Hatkhola Uposhakha": [
         "Talukdar Tower, Hatkhola, Bakolia, Chattogram",
         null,
-        "09617333721"
+        "09617333721",
+        null,
+        null
       ]
     },
     {
       "Monohorpur Uposhakha": [
         "299, A K Fazlul Haque Road, Monohorpur, Cumilla",
         null,
-        "09617333723"
+        "09617333723",
+        null,
+        null
       ]
     },
     {
       "Bhujpur Uposhakha": [
         "Chemon Ara Chowdhury Bhaban, Kazir Hat, Bhujpur, Fatikchari, Chattogram.",
         null,
-        "09617333727"
+        "09617333727",
+        null,
+        null
       ]
     },
     {
       "Parua Hazarihat Uposhakha": [
         "Haji Kashem Market, Shahabdi Nagar, Ichamati, Parua, Rangunia, Chattogram.",
         null,
-        "09617333728"
+        "09617333728",
+        null,
+        null
       ]
     },
     {
       "Eliotganj Uposhakha": [
         "Rai Plaza, Eliotganj, Daudkandi, Cumilla.",
         null,
-        "09617333731"
+        "09617333731",
+        null,
+        null
       ]
     },
     {
       "Gouripur Uposhakha": [
         "Iqbal Tower, Holding No.-546, Homna Road, Angaura, Daudkandi, Cumilla",
         null,
-        "09617333730"
+        "09617333730",
+        null,
+        null
       ]
     },
     {
       "Chagolnaiya Uposhakha": [
         "H. S. Plaza, Holding No.-1338, Main Road, Chhagolnaiya, Feni.",
         null,
-        "09617333733"
+        "09617333733",
+        null,
+        null
       ]
     },
     {
       "Maijdee BazarUposhakha": [
         "Shafiqur Rahman Tower, Maijdee Bazar, Sadar, Noakhali.",
         null,
-        "09617333734"
+        "09617333734",
+        null,
+        null
       ]
     },
     {
       "Munshirhat Uposhakha": [
         "Monir Uddin Plaza, Munshirhat, Fulgazi, Feni.",
         null,
-        "09617333740"
+        "09617333740",
+        null,
+        null
       ]
     },
     {
       "Bayazid Bostami Road Uposhakha": [
         "Chickdair Sharif M Alam Heights, 156, Cosmopoliton, Bayazid Bostami Road, Panchlaish, Chattogram.",
         null,
-        "09617333741"
+        "09617333741",
+        null,
+        null
       ]
     },
     {
       "Satkania Jotepukuria Bazar Uposhakha": [
         "Soudia Market, Holding No.- 539, Keranihat-Banshkhali Road, Satkania, Chattogram.",
         null,
-        "09617333746"
+        "09617333746",
+        null,
+        null
       ]
     },
     {
       "Dhorkora Uposhakha": [
         "Remotex Kamal Tower, Dhorkora Bazar, Cheora",
         null,
-        "09617333749"
+        "09617333749",
+        null,
+        null
       ]
     },
     {
       "Muradnagar Uposhakha": [
         "Mohan Mia Shopping Complex, Muradnagar Sadar",
         null,
-        "01720370752"
+        "01720370752",
+        null,
+        null
       ]
     },
     {
       "Islamia Madrasa Uposhakha": [
         "Islamia Plaza, Adhunagar Main Road, Adhunagar. Lohagara, Chattogram.",
         null,
-        "01840739522"
+        "01840739522",
+        null,
+        null
       ]
     },
     {
       "Bhuiyar Hat Uposhakha": [
         "Ibrahim Plaza, Bhuiyar Hat Bazar, Batoiya Union, Kabir Hat, Noakhali.",
         null,
-        "01815692685"
+        "01815692685",
+        null,
+        null
       ]
     },
     {
       "Kadamtoli Uposhakha": [
         "Crown Tower, Kadamtoli, Holding – 2210/2327, Pathantuli, Sadarghat, Chattogram.",
         null,
-        "01717620148"
+        "01717620148",
+        null,
+        null
       ]
     },
     {
       "Kadamtola Bazar Uposhakha": [
         "Ahammed Ali Super Market Kashempur, Agordari Satkhira",
         null,
-        "09617333479"
+        "09617333479",
+        null,
+        null
       ]
     },
     {
       "Muroli Mor Uposhakha": [
         "Chalantika Commercial Complex, Ramnagar, Kotowali, Jashore",
         null,
-        "09617333422"
+        "09617333422",
+        null,
+        null
       ]
     },
     {
       "Dumuria Uposhakha": [
         "Mou Super Market, Dumuria Bazar, Dumuria, Khulna",
         null,
-        "09617333414"
+        "09617333414",
+        null,
+        null
       ]
     },
     {
       "Uposahar Uposhakha": [
         "Goni Plaza, Kismot Noapara Uposahar, Kotoali, Jashore.",
         null,
-        "09617333584"
+        "09617333584",
+        null,
+        null
       ]
     },
     {
       "Mohammad Nagar Uposhakha": [
         "Alok Bhaban, Mohammad Nagar Bisso Road, Botiagata, Horin tana Khulna.",
         null,
-        "09617333589"
+        "09617333589",
+        null,
+        null
       ]
     },
     {
       "Kotchandpur Uposhakha": [
         "Molla Market, Kalibari Road, Kotchandpur, Jhenaidah",
         null,
-        "01716082550"
+        "01716082550",
+        null,
+        null
       ]
     },
     {
       "Hazirhat Uposhakha": [
         "Maspo Plaza, Hazirhat Pabna Pouroshava, Pabna",
         null,
-        "09617333572"
+        "09617333572",
+        null,
+        null
       ]
     },
     {
       "Ekdanta Uposhakha": [
         "Vai Vai Bhaban, Ekdanta debottor Atgharia, Pabna.",
         null,
-        "09617333573"
+        "09617333573",
+        null,
+        null
       ]
     },
     {
       "Ranihati Uposhakha": [
         "Tonu Hazi Market, Rani Hati Bazar Noyalabhanga,Sibganj Chapainawabganj.",
         null,
-        "09617333583"
+        "09617333583",
+        null,
+        null
       ]
     },
     {
       "Baya Mor Uposhakha": [
         "House no.07, Baya Bazar Vola Bari, Airport, Rajshahi.",
         null,
-        "09617333594"
+        "09617333594",
+        null,
+        null
       ]
     },
     {
       "Darusa Bazar Uposhakha": [
         "Darusa Bazar, 2 no. Hojuri Para Kornohar, Rajshahi.",
         null,
-        "09617333597"
+        "09617333597",
+        null,
+        null
       ]
     },
     {
       "Jonail Bazar Uposhakha": [
         "Seven Star Market, Jonail Bazar, Baraigram, Natore.",
         null,
-        "09617333667"
+        "09617333667",
+        null,
+        null
       ]
     },
     {
       "Belkuchi Uposhakha": [
         "Jahura Market, Holding no.03,Mukundagati, Belkuchi,Sirajganj.",
         null,
-        "09617333668"
+        "09617333668",
+        null,
+        null
       ]
     },
     {
       "Nazirpur Hat Uposhakha": [
         "Ma Amena Super Market, Nazirpur Hat, Nazirpur, Gurudaspur, Natore.",
         null,
-        "09617333672"
+        "09617333672",
+        null,
+        null
       ]
     },
     {
       "Majhira Uposhakha": [
         "Majhira, Shahjahanpur, Bogura.",
         null,
-        "09617333683"
+        "09617333683",
+        null,
+        null
       ]
     },
     {
       "Shahjadpur Uposhakha": [
         "Alhaj Abu Bakkar Market, Doriapur Bazar, Shahjadpur, Sirajganj.",
         null,
-        "09617333703"
+        "09617333703",
+        null,
+        null
       ]
     },
     {
       "Boroikandi Uposhakha": [
         "Hazi Habibur Rahman Complex,Bangabir Road, Boroikandi,South Surma, Sylhet",
         null,
-        "09617333467"
+        "09617333467",
+        null,
+        null
       ]
     },
     {
       "Varsity Gate Uposhakha": [
         "Hadir Complex, 6 no. Toker Bazar Jalalabad, Sylhet",
         null,
-        "09617333567"
+        "09617333567",
+        null,
+        null
       ]
     },
     {
       "Tarakanda Uposhakha": [
         "Hazi Muslem Uddin Plaza, Tarakanda, Mymensingh",
         null,
-        "01913068494"
+        "01913068494",
+        null,
+        null
       ]
     },
     {
       "Chartola Mor Uposhakha": [
         "“Kashem Plaza”, College Road, Rangpur City Corporation, Rangpur.",
         null,
-        "09617333687"
+        "09617333687",
+        null,
+        null
       ]
     }
   ]

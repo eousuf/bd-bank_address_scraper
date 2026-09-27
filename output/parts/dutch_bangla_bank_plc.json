@@ -3,11 +3,16 @@
   "bank_url": "https://www.dutchbanglabank.com/",
   "method": "html_cards+html_table",
   "status": "success",
+  "bank_id": "59",
+  "total_branch": 243,
+  "total_sub_branch": 351,
   "branch": [
     {
       "Local Office": [
         "1, Dilkusha Commercial Area, Dhaka-1000",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=101",
+        null,
+        "590101",
         null
       ]
     },
@@ -15,6 +20,8 @@
       "Banani Branch": [
         "1st and 2nd Floor, Borak Mehnur, 51/B Kamal Ataturk Avenue, Banani, Dhaka-1213",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=103",
+        null,
+        "590103",
         null
       ]
     },
@@ -22,6 +29,8 @@
       "Nababpur Branch": [
         "165, Nababpur Road, Kotwali, Dhaka-1000",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=104",
+        null,
+        "590102",
         null
       ]
     },
@@ -29,6 +38,8 @@
       "Motijheel Foreign Exchange Branch": [
         "City Centre, Holding# 90/1, Motijheel Commercial Area, Dhaka-1000",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=105",
+        null,
+        "590104",
         null
       ]
     },
@@ -36,6 +47,8 @@
       "Kawran Bazar Branch": [
         "BTMC Bhaban (1st Floor), 7/9, Kawran Bazar, Dhaka-1215",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=107",
+        null,
+        "590106",
         null
       ]
     },
@@ -43,6 +56,8 @@
       "Shantinagar Branch": [
         "41, Chamelibagh,(Green Peace), Shantinagar, Dhaka-1217",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=108",
+        null,
+        "590107",
         null
       ]
     },
@@ -50,6 +65,8 @@
       "Dhanmondi Branch": [
         "Bays Park Height (Gr. and 1st Floor), Road#9, Holding#2, Dhanmondi, Dhaka-1209",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=110",
+        null,
+        "590108",
         null
       ]
     },
@@ -57,6 +74,8 @@
       "Mohakhali Branch": [
         "Medona Tower, 2nd Floor, 28,Bir Uttam A.K. Khandaker Road, Mohakhali C/A, Dhaka - 1212",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=114",
+        null,
+        "590110",
         null
       ]
     },
@@ -64,6 +83,8 @@
       "Mirpur Branch": [
         "8, Darus Salam Road, Mirpur -1, Dhaka-1216",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=115",
+        null,
+        "590111",
         null
       ]
     },
@@ -71,6 +92,8 @@
       "Gulshan Branch": [
         "The Grand Delvistaa,CES (A) 1/A, Road # 113,Gulshan Avenue, Dhaka-1212",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=116",
+        null,
+        "590100",
         null
       ]
     },
@@ -78,6 +101,8 @@
       "Uttara Branch": [
         "Plot No.7, Road No.7, Sector No.4, Uttara Residential Area, Uttara, Dhaka-1230",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=117",
+        null,
+        "590112",
         null
       ]
     },
@@ -85,6 +110,8 @@
       "Islampur Branch": [
         "Jahangir Tower, 2nd Floor, 114, 115, 116, Islampur Road, Dhaka-1100",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=118",
+        null,
+        "590113",
         null
       ]
     },
@@ -92,6 +119,8 @@
       "Dania Branch": [
         "Ayesha Mosarraf Shopping Complex, Shyampur, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=119",
+        null,
+        "590114",
         null
       ]
     },
@@ -99,6 +128,8 @@
       "Dhaka EPZ Branch": [
         "Baipail, Savar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=122",
+        null,
+        "590115",
         null
       ]
     },
@@ -106,6 +137,8 @@
       "Elephant Road Branch": [
         "235/5, Elephant Road, Dhaka-1205",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=126",
+        null,
+        "590118",
         null
       ]
     },
@@ -113,6 +146,8 @@
       "Joypara Branch": [
         "Monowara Mansion, 1st Floor, Joypara, Mouja-Lota Khola, Thana-Dohar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=130",
+        null,
+        "590120",
         null
       ]
     },
@@ -120,6 +155,8 @@
       "Nayabazar Branch": [
         "29/1 North South Road, 2nd Floor, Bangshal, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=136",
+        null,
+        "590125",
         null
       ]
     },
@@ -127,6 +164,8 @@
       "Savar Bazar Branch": [
         "Murshida Mansion ( 1st floor), Holding# 0050-00, Bazar Road,Savar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=137",
+        null,
+        "590126",
         null
       ]
     },
@@ -134,13 +173,17 @@
       "Imamganj Branch": [
         "Holding# 22/1-23, 2nd & 3rd Floor, Roy Iswar Chandra Seal Bahadur Street, Imamgonj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=139",
-        null
+        null,
+        null,
+        "090272806"
       ]
     },
     {
       "Bashundhara Branch": [
         "K 3/1-C, Jogonnathpur, Bashundhara, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=147",
+        null,
+        "590130",
         null
       ]
     },
@@ -148,13 +191,17 @@
       "Shyamoli Branch": [
         "Shyamoli Cinema Complex, Plot# 23/8B and 23/8C, Holding No. 24/1 and 24/2, Mohammadpur, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=148",
-        null
+        null,
+        null,
+        "090263978"
       ]
     },
     {
       "Bandura Branch": [
         "Shezan Multi Shopping Mall (1st Floor), Bandura Bazar, Nawabgonj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=160",
+        null,
+        "590133",
         null
       ]
     },
@@ -162,6 +209,8 @@
       "Mirpur Circle-10 Branch": [
         "Gemcon EI Mercado 2nd and 3rd Floor, 114 Begum Rokeya Sarani, Mirpur, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=164",
+        null,
+        "590134",
         null
       ]
     },
@@ -169,6 +218,8 @@
       "Satmosjid Road Branch": [
         "Plot # 47, Road # 9/A, Dhanmondi R/A, Dhaka-1209",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=171",
+        null,
+        "590135",
         null
       ]
     },
@@ -176,6 +227,8 @@
       "Rampura Branch": [
         "2/1, East Rampura, DIT Road, Rampura, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=178",
+        null,
+        "590136",
         null
       ]
     },
@@ -183,6 +236,8 @@
       "Dakshinkhan SME/Agriculture Branch": [
         "Rajob Ali Super Market, 83, Dakshinkhan Bazar,Uttara,Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=183",
+        null,
+        "590140",
         null
       ]
     },
@@ -190,6 +245,8 @@
       "Bijoynagar Branch": [
         "1st&2nd Floor of 180-81,Shahid Syed Nazrul Islam Shoroni,Bijoynagar,Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=191",
+        null,
+        "590143",
         null
       ]
     },
@@ -197,6 +254,8 @@
       "Progoti Shoroni Branch": [
         "Azhar Comfort Complex (1st floor),GA-130/A, Progoti Shoroni, Middle Badda, Dhaka-1212",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=193",
+        null,
+        "590144",
         null
       ]
     },
@@ -204,6 +263,8 @@
       "Matuail Branch": [
         "Meghna Plaza,Konapara Main Road,Union-Matuail, PS-Jatrabari,Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=197",
+        null,
+        "590145",
         null
       ]
     },
@@ -211,6 +272,8 @@
       "Keraniganj Branch": [
         "Jahanara Plaza, Shahid Nagar,(Dakpara),Keraniganj,Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=198",
+        null,
+        "590146",
         null
       ]
     },
@@ -218,6 +281,8 @@
       "Uttara Sonargaon Janopad Branch": [
         "Plot no-2,Sonargaon Janapad Road,Sector no-11, Uttara Residential Area,Dhaka-1230",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=199",
+        null,
+        "590147",
         null
       ]
     },
@@ -225,6 +290,8 @@
       "Ashkona Branch": [
         "Bhuiyan Shopping Complex, 301-631 Ashkona, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=202",
+        null,
+        "590148",
         null
       ]
     },
@@ -232,6 +299,8 @@
       "Vatara Branch": [
         "Sahida Plaza, Solmaid, Vatara, Badda, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=208",
+        null,
+        "590150",
         null
       ]
     },
@@ -239,6 +308,8 @@
       "Pallabi Branch": [
         "Northern Khan Heights, Plot No-34, Road No-3, Block-D, Section-11, Mirpur, PS-Pallabi, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=211",
+        null,
+        "590152",
         null
       ]
     },
@@ -246,6 +317,8 @@
       "Uttarkhan Branch": [
         "Kazi Tower, Master Para, Uttar Khan, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=214",
+        null,
+        "590153",
         null
       ]
     },
@@ -253,6 +326,8 @@
       "Ashulia Branch": [
         "Jamgora, Ashulia, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=216",
+        null,
+        "590154",
         null
       ]
     },
@@ -260,6 +335,8 @@
       "Ruhitpur Branch": [
         "Khokon Tower, Ruhitpur Boarding Market, Ruhitpur Bazar, Keranigonj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=217",
+        null,
+        "590155",
         null
       ]
     },
@@ -267,6 +344,8 @@
       "Manda Branch": [
         "1st Floor, Uttar Manda (Main Road), Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=221",
+        null,
+        "590122",
         null
       ]
     },
@@ -274,6 +353,8 @@
       "Ati Bazar Branch": [
         "1st Floor, Ati Bazar, Keraniganj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=222",
+        null,
+        "590123",
         null
       ]
     },
@@ -281,6 +362,8 @@
       "Aminbazar Branch": [
         "Begunbari, Aminbazar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=223",
+        null,
+        "590124",
         null
       ]
     },
@@ -288,6 +371,8 @@
       "Wari Branch": [
         "S.B.A.L. Shahadat Bilash, 25 Rankin Street, Wari, Sutrapur Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=224",
+        null,
+        "590156",
         null
       ]
     },
@@ -295,6 +380,8 @@
       "Tejgaon Branch": [
         "315/B, Shahid Tajuddin Sarani, PS - Tejgaon l/A, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=227",
+        null,
+        "590159",
         null
       ]
     },
@@ -302,6 +389,8 @@
       "Abdullahpur Branch": [
         "Anwar Hossain Plaza, Abdullahpur Bus Stand, Kolakandi Road, Keraniganj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=230",
+        null,
+        "590160",
         null
       ]
     },
@@ -309,6 +398,8 @@
       "Kalampur Branch": [
         "Holding No. 19/1 (Ground & 1st floor), Choto Kalampur, Kalampur Bazar Road, Dhamrai, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=234",
+        null,
+        "590174",
         null
       ]
     },
@@ -316,6 +407,8 @@
       "Dumni Branch": [
         "Dumni Bazar, Khilkhet, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=236",
+        null,
+        "590176",
         null
       ]
     },
@@ -323,6 +416,8 @@
       "Hemayetpur Branch": [
         "Hazi Ashraf Shopping Complex, 1st floor, Hemayetpur Bus Stand, Savar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=244",
+        null,
+        "590184",
         null
       ]
     },
@@ -330,6 +425,8 @@
       "Zirabo Branch": [
         "Zirabo Bus Stand, Ashulia, Savar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=245",
+        null,
+        "590183",
         null
       ]
     },
@@ -337,6 +434,8 @@
       "Gulshan Circle-1 Branch": [
         "1st floor, Bays 23 Gulshan Avenue, Plot No. 6, Block No. SW(I), Gulshan Model Town, Dhaka-1212",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=246",
+        null,
+        "590185",
         null
       ]
     },
@@ -344,13 +443,17 @@
       "Panthapath Branch": [
         "Ena Shakur Emarat, 19/3, 1st Floor,West Panthapath, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=255",
-        null
+        null,
+        null,
+        "090270424"
       ]
     },
     {
       "Aganagar Branch": [
         "Mayaz Tower, 1st & 2nd Floor, Aganagar, Kaliganj, Keraniganj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=257",
+        null,
+        "590192",
         null
       ]
     },
@@ -358,6 +461,8 @@
       "Mohammadpur Branch": [
         "75/C, 1st, 2nd and 3rd Floor, Asad Avenue, Mohammadpur, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=258",
+        null,
+        "590193",
         null
       ]
     },
@@ -365,6 +470,8 @@
       "Hasnabad Branch": [
         "Mafizuddin Mansion, 2nd Floor, Holding No. 1, Container Port Road, Hasnabad, South Keraniganj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=260",
+        null,
+        "590163",
         null
       ]
     },
@@ -372,6 +479,8 @@
       "Savar Palli Bidyut Branch": [
         "2nd Floor, Hazi Nizam Plaza, Dendabor, Savar Cantonment, Ashulia, Savar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=270",
+        null,
+        "590196",
         null
       ]
     },
@@ -379,6 +488,8 @@
       "Nawabgonj Branch": [
         "Raju Complex, Kalakopa, Nawabgonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=271",
+        null,
+        "590197",
         null
       ]
     },
@@ -386,13 +497,17 @@
       "New Market Branch": [
         "1st and 2nd Floor, Golden Gate Shopping Center, 28 Mirpur Road, New Market",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=275",
-        null
+        null,
+        null,
+        "090270545"
       ]
     },
     {
       "Corporate Branch": [
         "47 Motijheel C/A, Dhaka-1000",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=276",
+        null,
+        "591108",
         null
       ]
     },
@@ -400,6 +515,8 @@
       "Ashulia Bazar Branch": [
         "1st Floor, Ashulia Newmarket, Ashulia Bazar, Ashulia",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=277",
+        null,
+        "590200",
         null
       ]
     },
@@ -407,6 +524,8 @@
       "Moghbazar Branch": [
         "1st Floor, Green Satmahal, 206,207,208 Boro Moghbazar, Moghbazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=286",
+        null,
+        "591104",
         null
       ]
     },
@@ -414,6 +533,8 @@
       "Kamarpara Branch": [
         "1st Floor, Hazi Ramzan Ali Tower, 33 Kamarpara, Turag, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=287",
+        null,
+        "591105",
         null
       ]
     },
@@ -421,6 +542,8 @@
       "Khilgaon Branch": [
         "R.N Square (1st & 2nd Floor), 552/C, Khilgaon, Dhaka-1219",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=292",
+        null,
+        "591106",
         null
       ]
     },
@@ -428,6 +551,8 @@
       "Baraipara Branch": [
         "Sufia Mansion, Nabinagar, Chandura Highway, Baraipara, Ashulia, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=293",
+        null,
+        "591107",
         null
       ]
     },
@@ -435,6 +560,8 @@
       "Ibrahimpur Branch": [
         "83 Ibrahimpur, Main Road, Kafrul, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=300",
+        null,
+        "591111",
         null
       ]
     },
@@ -442,6 +569,8 @@
       "Banasree Branch": [
         "1st Floor, F2-3, Main Road, Banasree, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=303",
+        null,
+        "591113",
         null
       ]
     },
@@ -449,6 +578,8 @@
       "Dholaikhal Branch": [
         "1st Floor, 40/1/A, Lal Mohon Saha Street, Dholaikhal, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=305",
+        null,
+        "591115",
         null
       ]
     },
@@ -456,6 +587,8 @@
       "Kalatia Branch": [
         "1st Floor, Darani Master Plaza, Holding# 9/1, Kalatia Bazar, Keraniganj, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=307",
+        null,
+        "591116",
         null
       ]
     },
@@ -463,6 +596,8 @@
       "Shewrapara Branch": [
         "1st Floor, Holding# 888/1, Shewrapara, Mirpur, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=308",
+        null,
+        "591117",
         null
       ]
     },
@@ -470,6 +605,8 @@
       "Bangabandhu Avenue Branch": [
         "Hossain Chamber, 1st and 2nd Floor, 30 Bangabandhu Avenue, Dhaka-1000",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=311",
+        null,
+        "591118",
         null
       ]
     },
@@ -477,6 +614,8 @@
       "Norsinghpur Branch": [
         "Hashem Trade Center (1st Floor), Norsinghpur Bazar, DEPZ Road, Ashulia, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=313",
+        null,
+        "591120",
         null
       ]
     },
@@ -484,6 +623,8 @@
       "Rabindra Sarani Branch": [
         "Green Reflections (1st and 2nd Floor), Holding No. 33, Road# 15, Rabindra Sarani, Sector# 3, Uttara,",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=321",
+        null,
+        "591124",
         null
       ]
     },
@@ -491,6 +632,8 @@
       "Kathgora Bazar Branch": [
         "1st floor of the building Located at Kathgora Bazar, Ashulia, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=324",
+        null,
+        "591127",
         null
       ]
     },
@@ -498,6 +641,8 @@
       "Indira Road Branch": [
         "Manchaster Plaza (1st and 2nd floor), Holding No.5/B, Indira Road (Farmgate), Shere-E-Bangla Nagar,",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=326",
+        null,
+        "591129",
         null
       ]
     },
@@ -505,6 +650,8 @@
       "Gulshan Avenue Branch": [
         "Uday Tower (1st Floor), Holding No. 57 and 57 by A, Gulshan Avenue,Gulshan-1,Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=329",
+        null,
+        "591131",
         null
       ]
     },
@@ -512,6 +659,8 @@
       "Banani-11 Branch": [
         "Bond Center (1st & 2nd floor), Holding No. 71, Road No. 11, Block D, Banani, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=333",
+        null,
+        "591135",
         null
       ]
     },
@@ -519,6 +668,8 @@
       "New Eskaton Branch": [
         "Tropical NMG Tower(1st floor), Holding no. 224/1, New Eskaton, Dilu Road, Hatirjheel, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=334",
+        null,
+        "591136",
         null
       ]
     },
@@ -526,6 +677,8 @@
       "Lalbagh Branch": [
         "B.S Tower (1st floor), Holding No. 63, Haronath Ghosh Road, Lalbagh, Chawkbazar, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=340",
+        null,
+        "591141",
         null
       ]
     },
@@ -533,6 +686,8 @@
       "Green Road Branch": [
         "Rajonigondha Complex(1st & 2nd floor), Holding # 66, Bir Uttam K M Shafiullah Road, Green Road, Kalabagan, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=341",
+        null,
+        "591142",
         null
       ]
     },
@@ -540,104 +695,134 @@
       "Zirani Bazar Branch": [
         "Zirani New Market,2nd floor,Zirani Bazar, Tenguri College Road, Ashulia, Dhaka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=342",
-        null
+        null,
+        null,
+        "090260542"
       ]
     },
     {
       "Faridpur Branch": [
         "1st and 2nd Floor,57, Chawkbazar,Faridpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=189",
-        null
+        null,
+        "590151",
+        "090290525"
       ]
     },
     {
       "Board Bazar Branch": [
         "Monsur Plaza, P/O- National Univsersity, Joydebpur, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=123",
-        null
+        null,
+        "590116",
+        "090330227"
       ]
     },
     {
       "Gazipur Chowrasta Branch": [
         "Riaz Tower, Gazipur Chowrasta, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=138",
-        null
+        null,
+        "590127",
+        "090330551"
       ]
     },
     {
       "Konabari Branch": [
         "1st and 2nd Floor, Anjuman Tower, Plot# A-149 BSIC I/E, Konabari, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=151",
-        null
+        null,
+        "590132",
+        "090330948"
       ]
     },
     {
       "Tongi Branch": [
         "Razzak Plaza, 8/2 Anarkoli Road, Tongi Bazar, Tongi, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=179",
-        null
+        null,
+        "590139",
+        "090331639"
       ]
     },
     {
       "Shafipur SME/ Agriculture Branch": [
         "Ishadi Tower (1st Floor), Shafipur Bazar, Shafipur, Kaliakoir, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=182",
-        null
+        null,
+        null,
+        "090331468"
       ]
     },
     {
       "Mawna Branch": [
         "Hazi Amir Complex, Sreepur Road, Mawna Chowrasta, Sreepur, Gazipur.",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=213",
-        null
+        null,
+        "590171",
+        "090331000"
       ]
     },
     {
       "Mirer Bazar Branch": [
         "Fouzia Sarker Commercial Complex, 2nd Floor, Mirer Bazar, Pubail , Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=215",
-        null
+        null,
+        "590172",
+        "090330056"
       ]
     },
     {
       "Gazipur Branch": [
         "1st and 2nd Floor, Holding # J/90, BIDC Road, Gazipur Sadar, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=229",
-        null
+        null,
+        "590158",
+        "090330522"
       ]
     },
     {
       "Kapasia Branch": [
         "Mollah Mansion (1st floor),Banar Hawla, Kapasia, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=237",
-        null
+        null,
+        "590177",
+        "090330885"
       ]
     },
     {
       "Kaliganj Branch": [
         "Gouro Bhaban, 1st Floor, 220 Kaliganj Bazar, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=239",
-        null
+        null,
+        "590180",
+        "090330827"
       ]
     },
     {
       "Bagher Bazar Branch": [
         "1st Floor, Mecca Tower, Bagher Bazar, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=280",
-        null
+        null,
+        "591101",
+        "090330180"
       ]
     },
     {
       "Nayanpur Bazar Branch": [
         "Kazi Complex, 1st Floor, Nayanpur Bazar, Sreepur, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=297",
-        null
+        null,
+        "591109",
+        "090330298"
       ]
     },
     {
       "Joina Bazar Branch": [
         "1st Floor, Joina Bazar, Sreepur, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=298",
+        null,
+        "591110",
         null
       ]
     },
@@ -645,111 +830,143 @@
       "Bormi Bazar Branch": [
         "Md. Humayun Kabir Tower (1st Floor), Bormi Bazar, Sreepur, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=314",
-        null
+        null,
+        "591121",
+        "090330285"
       ]
     },
     {
       "College Gate Branch": [
         "Tokyo Tower (2nd Floor), Holding no. 14-15, Cherag Ali Market, Tongi, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=317",
-        null
+        null,
+        "591122",
+        "090330414"
       ]
     },
     {
       "Rajendrapur Bazar Branch": [
         "Rajendrapur Bazar, Kapasia Road, Sreepur, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=319",
-        null
+        null,
+        "591123",
+        "090330351"
       ]
     },
     {
       "Mouchak Branch": [
         "Siddique Shopping Complex(1st Floor), Holding No. 215, Mouchak, Kaliakoir",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=322",
-        null
+        null,
+        "591125",
+        "090330122"
       ]
     },
     {
       "Monipur Bazar Branch": [
         "1, Monipur Bazar, Gazipur Sadar,",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=323",
-        null
+        null,
+        "591126",
+        "090330148"
       ]
     },
     {
       "Gazipura Branch": [
         "Kazi Nur Mohammad Super Market (1st floor), Holding No.1/14, Kazi Mozammel Haque Road, Tongi East",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=336",
-        null
+        null,
+        "591138",
+        "090330230"
       ]
     },
     {
       "Kaliakoir Branch": [
         "Vai Vai Plaza (1st floor), Holding No. 426, Tenglabari, Shreefoltoli, Kaliakoir, Gazipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=337",
-        null
+        null,
+        "591139",
+        "090330793"
       ]
     },
     {
       "Gopalganj Branch": [
         "4 Madrasa Road, Gopalganj Sadar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=266",
-        null
+        null,
+        "590195",
+        "090350373"
       ]
     },
     {
       "Bhairab Branch": [
         "261-262 Char Rastar More, Bottola Road, Bhairab Bazar, Bhairab, Kishorgonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=173",
-        null
+        null,
+        "590168",
+        "090480193"
       ]
     },
     {
       "Kishoreganj Branch": [
         "Nirala Shopping Complex, 742, Ishakhan Road, Kishoreganj Sadar, Kishoreganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=231",
-        null
+        null,
+        "590173",
+        "090480672"
       ]
     },
     {
       "Madaripur Branch": [
         "City Plaza, 1st and 2nd Floor, Main Road, Puran Bazar, Madaripur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=181",
-        null
+        null,
+        "590169",
+        "090540404"
       ]
     },
     {
       "Manikganj Branch": [
         "Sandhani Plaza, 69/1 Sahid Rafik Sarak, Manikgonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=149",
-        null
+        null,
+        null,
+        "090560613"
       ]
     },
     {
       "Singair Branch": [
         "Jahangir Mansion, 1st Floor, Holding No. 472, Shahid Rafiq Sharani, Singair, Manikganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=261",
-        null
+        null,
+        "590194",
+        "090560826"
       ]
     },
     {
       "Munshiganj Branch": [
         "1st Floor, Aftab Uddin Complex, 195 Bangabandhu Sheikh Mujib Road, Khal East, Munshiganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=186",
-        null
+        null,
+        "590170",
+        "090591037"
       ]
     },
     {
       "Sreenagar Branch": [
         "Mecca Complex, Vagyakool Road, Sreenagar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=274",
-        null
+        null,
+        "590198",
+        "090591424"
       ]
     },
     {
       "Nimtola Branch": [
         "Mohammad Ali Tower and Shopping Complex (1st Floor), Nimtola Bus Stand, Sirajdikhan, Munshiganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=312",
+        null,
+        "591119",
         null
       ]
     },
@@ -757,13 +974,17 @@
       "Narayanganj Branch": [
         "45, S.M. Maleh Road, Tanbazar, Narayangonj-1400",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=106",
-        null
+        null,
+        "590105",
+        "090671186"
       ]
     },
     {
       "Bangabandhu Road Branch": [
         "60, B.B. Road, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=111",
+        null,
+        "590109",
         null
       ]
     },
@@ -771,6 +992,8 @@
       "Netaiganj Branch": [
         "21, RK Dus Road, Nitaigonj, Narayangonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=124",
+        null,
+        "590117",
         null
       ]
     },
@@ -778,48 +1001,62 @@
       "Shimrail Branch": [
         "Shawpno Nir, Holding No. A219-00, Hirajheel, Block-A, Siddhirgonj, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=128",
-        null
+        null,
+        "590119",
+        "090671573"
       ]
     },
     {
       "Bhulta Branch": [
         "Hazi Abdul Haque Super Market, Bhulta, Golakandail, Rupganj, Narayangonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=176",
-        null
+        null,
+        "590137",
+        "090670224"
       ]
     },
     {
       "Narayanganj BSCIC Branch": [
         "Plot # A55, Block-A, BSCIC Industrial Area, Sasongaon, Anayetnagar, Fatullah , Narayangonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=177",
-        null
+        null,
+        "590138",
+        "090670237"
       ]
     },
     {
       "Pagla Branch": [
         "Hazi Nurul Islam Super Market, 2nd Floor, Holding# 2338/2580, Pagla, Fatullah, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=205",
-        null
+        null,
+        "590149",
+        "090671302"
       ]
     },
     {
       "Sonargaon Branch": [
         "Ambia Plaza, Mograpara Chowrasta, Sonargaon, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=225",
-        null
+        null,
+        "590157",
+        "090671694"
       ]
     },
     {
       "Kanchpur Branch": [
         "96, Sonarga Mega Complex, Kanchpur, Sonargaon, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=247",
-        null
+        null,
+        "590186",
+        "090670129"
       ]
     },
     {
       "Modonpur Branch": [
         "Ekota Shomobay Super Market(2nd Floor), Modonpur, Bondor, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=253",
+        null,
+        "590188",
         null
       ]
     },
@@ -827,6 +1064,8 @@
       "Araihazar Branch": [
         "Bhai Bhai Plaza, 1st Floor, Arihazar, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=254",
+        null,
+        "590189",
         null
       ]
     },
@@ -834,6 +1073,8 @@
       "Bhuigar Branch": [
         "Bhuiyan Tower (1st floor), Bhuigar Bus stand, Fatulla, Kutubpur, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=265",
+        null,
+        "590164",
         null
       ]
     },
@@ -841,62 +1082,80 @@
       "Banti Bazar Branch": [
         "1st Floor, Banti Bazar, Araihazar, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=304",
-        null
+        null,
+        "591114",
+        "090670358"
       ]
     },
     {
       "Shibu Market Branch": [
         "Ranima Plaza(2nd floor), Holding No. 213,Shibu Market, Fatullah,Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=325",
-        null
+        null,
+        "591128",
+        "090671557"
       ]
     },
     {
       "Bandar Branch": [
         "Chowdhury Plaza (1st & 2nd floor), Holding No. 219, Amin Residential Area, Bandar, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=328",
-        null
+        null,
+        "591130",
+        "090670161"
       ]
     },
     {
       "Signboard Branch": [
         "Salmi (1st Floor), Holding No.58, East Shantidhara, Signboard, Fatullah, Narayanaganj.",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=330",
-        null
+        null,
+        "591132",
+        "090670329"
       ]
     },
     {
       "Kanchan Bazar Branch": [
         "B.M Tower(1st floor), Kanchan Moddho Bazar(Suta Potti), Kanchan, Rupganj, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=331",
-        null
+        null,
+        null,
+        "090670361"
       ]
     },
     {
       "Panchabati Branch": [
         "S. Rahman Plaza(1st and 2nd floor), Horiharpara, Anayatnagar, Panchabati, Fatullah, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=332",
-        null
+        null,
+        "591134",
+        "090671386"
       ]
     },
     {
       "Murapara Branch": [
         "Kali Das Tower (1st & 2nd floor), Murapara, Rupganj, Narayanganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=339",
-        null
+        null,
+        "591140",
+        "090671128"
       ]
     },
     {
       "Baburhat Branch": [
         "Madhabdi Bazar, Narsingdi",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=109",
-        null
+        null,
+        "590121",
+        "090680106"
       ]
     },
     {
       "Narsingdi Branch": [
         "217 Desh Priyo Road, Narsingdi Bazar, Narsingdi",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=170",
+        null,
+        "590167",
         null
       ]
     },
@@ -904,13 +1163,17 @@
       "Monohardi Branch": [
         "Lake City, Monohardi, Narsingdi",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=235",
-        null
+        null,
+        "590175",
+        "090680735"
       ]
     },
     {
       "Velanagar Branch": [
         "Khadiza Mansion, 2nd Floor, Velanagar,Chinispur, Narsingdi",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=249",
+        null,
+        "590187",
         null
       ]
     },
@@ -918,83 +1181,107 @@
       "Panchdona Branch": [
         "Mozammel Haque Super Market 1st floor Panchdona, Madhabdi, Narsingdi",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=344",
-        null
+        null,
+        null,
+        "090680214"
       ]
     },
     {
       "Rajbari Branch": [
         "Miah Tower, 1st floor, Holding No. 242-244, College Road, Rajbari Bazar, Rajbari",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=256",
-        null
+        null,
+        "590191",
+        "090820737"
       ]
     },
     {
       "Shariatpur Branch": [
         "Talukder Plaza(1st and 2nd Floor), Holding #275, Maddobazar, Shariatpur Sadar, Shariatpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=301",
-        null
+        null,
+        "591112",
+        "090860676"
       ]
     },
     {
       "Sherpur Branch": [
         "Holding# 29/30, 31 New Market Mor, Raghunath Bazar, Sherpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=296",
-        null
+        null,
+        "590703",
+        "090890554"
       ]
     },
     {
       "Mirzapur Branch": [
         "AS Kabir Biponi Bitan, Mirzapur, Tangail",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=144",
-        null
+        null,
+        "590161",
+        "090931518"
       ]
     },
     {
       "Tangail Branch": [
         "Tangail Tower, (1st & 2nd Floor), Main Road, Tangail",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=196",
-        null
+        null,
+        "590162",
+        "090932296"
       ]
     },
     {
       "Elenga Branch": [
         "Ekattur Bhaban, 1st floor, Elenga Bus Stand, Kalihati, Tangail",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=238",
-        null
+        null,
+        "590179",
+        "090930827"
       ]
     },
     {
       "Gorai Branch": [
         "1st Floor, Firoz Haider Khan Complex, Dhaka-Tangail Highway, Gorai, Mirzapur, Tangail",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=285",
-        null
+        null,
+        "591103",
+        "090931039"
       ]
     },
     {
       "Dhanbari Branch": [
         "Dhanbari Banik Shopping Complex(1st Floor), Holding # 119, Bazar Main Road, Dhanb",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=335",
-        null
+        null,
+        "591137",
+        "090930269"
       ]
     },
     {
       "Brahmanbaria Branch": [
         "Court Road, Brahmanbaria",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=212",
-        null
+        null,
+        "590041",
+        "090120437"
       ]
     },
     {
       "Ashuganj Branch": [
         "D.R Plaza, Station Road, Chor Char Tala, Ashuganj, Brahmanbaria",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=252",
-        null
+        null,
+        "590018",
+        "090120103"
       ]
     },
     {
       "Aziznagar Branch": [
         "1st Floor, Chowdhury Shopping Complex, Aziznagar, Lama, Bandarban",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=288",
+        null,
+        "590065",
         null
       ]
     },
@@ -1002,62 +1289,80 @@
       "Bandarban Branch": [
         "1st Floor, Haque Hill Tower, Main Road, Bandarban Sadar, Bandarban",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=306",
-        null
+        null,
+        "590066",
+        "090030130"
       ]
     },
     {
       "Chandpur Branch": [
         "Hakim Plaza, 2nd floor, 248, Shahid Muktijoddha Road, Chandpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=242",
-        null
+        null,
+        "590015",
+        "090130319"
       ]
     },
     {
       "Agrabad Branch": [
         "Agrabad Branch HOSSAIN COURT 75, AGRABAD C/A (GROUND FLOOR) CHITTAGONG-4100",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=102",
-        null
+        null,
+        "590001",
+        "090150131"
       ]
     },
     {
       "Patherhat Branch": [
         "Bharateswari Plaza (1st floor), Noapara, Raozan, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=112",
-        null
+        null,
+        "590002",
+        "090156135"
       ]
     },
     {
       "Hathazari Branch": [
         "S. S. Tower, 1st Floor, Kachari Road, Hathazari, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=113",
-        null
+        null,
+        "590003",
+        "090153220"
       ]
     },
     {
       "O. R. Nizam Road Branch": [
         "IPL Atlanta Trade Center, 2nd & 3rd Floor, O.R. Nizam Road, Golpahar Morh, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=129",
-        null
+        null,
+        "590004",
+        "090151480"
       ]
     },
     {
       "Muradpur Branch": [
         "Al Kabir Tower, 1st floor, Muradpur Junction, Panchlaish, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=133",
-        null
+        null,
+        "590005",
+        "090155323"
       ]
     },
     {
       "Jubilee Road Branch": [
         "Quader Tower (2nd Floor), TinPool, 128 Jubilee Road, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=142",
-        null
+        null,
+        "590006",
+        "090153646"
       ]
     },
     {
       "Kadamtoli Branch": [
         "Rahat Center, 295, DT Road, Kadamtoli, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=143",
+        null,
+        "590007",
         null
       ]
     },
@@ -1065,6 +1370,8 @@
       "Lohagara Branch": [
         "Mostofa City, Lohagara Sadar, Lohagara, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=146",
+        null,
+        "590008",
         null
       ]
     },
@@ -1072,34 +1379,44 @@
       "Fatikchari Branch": [
         "Nazrul Shopping Complex, 1st Floor, College Road, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=150",
-        null
+        null,
+        "590010",
+        "090152742"
       ]
     },
     {
       "Khatunganj Branch": [
         "254, 1st and 2nd Floor, Khatungonj, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=155",
-        null
+        null,
+        null,
+        "090154274"
       ]
     },
     {
       "Halishahar Branch": [
         "Plot # 04, Block-K, Port Connecting Road, Halishahar, Chattogram",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=165",
-        null
+        null,
+        "590011",
+        "090153167"
       ]
     },
     {
       "Chittagong EPZ Branch": [
         "2nd Floor, Chowdhury Market, EPZ Main Gate, South Halishahar Bondor, Chattogram",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=188",
-        null
+        null,
+        "590012",
+        "090152005"
       ]
     },
     {
       "Rawzan SME/ Agriculture Branch": [
         "256, Hazi Ahsan Mansion, Thana Road, Fakirhat, Raozan, Chittagong",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=192",
+        null,
+        "590013",
         null
       ]
     },
@@ -1107,6 +1424,8 @@
       "Cumilla Branch": [
         "32/30, Bandi Shahi Market(1st and 2nd Floor), Chawk Bazar, Cumilla",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=141",
+        null,
+        "590026",
         null
       ]
     },
@@ -1114,6 +1433,8 @@
       "Jhawtala SME/ Agriculture Branch": [
         "Garden City (1st and 2nd floor), Holding#203/187, Police Line/Jhawtala Road, Adarsha Sadar, Cumilla",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=194",
+        null,
+        "590027",
         null
       ]
     },
@@ -1121,6 +1442,8 @@
       "Laksham Branch": [
         "894 Laksham Bazar, Ward No-4, PS-Laksham, Comilla",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=210",
+        null,
+        "590029",
         null
       ]
     },
@@ -1128,20 +1451,26 @@
       "Gouripur Branch": [
         "Madona Twin Tower, Gauripur Bazar, Daudkandi, Comilla",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=226",
-        null
+        null,
+        "590014",
+        "090192115"
       ]
     },
     {
       "Companiganj Branch": [
         "01, (2nd Floor) Chitta Ranjan Avenue, Muradnagar Road, Companiganj, Cumilla",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=243",
-        null
+        null,
+        null,
+        "090191424"
       ]
     },
     {
       "Mainamati Branch": [
         "A.M. Hazi Market, Nischintopur, Comilla Cantonment",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=273",
+        null,
+        "590019",
         null
       ]
     },
@@ -1149,13 +1478,17 @@
       "Coxs Bazar Branch": [
         "Abu Center (2nd Floor), Holding# 0096-00, Purbo Bazarghata, Main Road, Coxs Bazar Sadar, Coxs Bazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=145",
-        null
+        null,
+        null,
+        "090220258"
       ]
     },
     {
       "Chokoria Branch": [
         "1st Floor, White Stone N.Y. Shopping Centre, Main Road, Cox s Bazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=220",
+        null,
+        "590032",
         null
       ]
     },
@@ -1163,20 +1496,26 @@
       "Feni Branch": [
         "Aziz Shopping Centre, S.S.K. Road, Feni",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=140",
-        null
+        null,
+        "590021",
+        "090300523"
       ]
     },
     {
       "Sonagazi Branch": [
         "Chaklader Market, 1st Floor, 8 Thana Road, Sonagazi, Feni",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=153",
-        null
+        null,
+        "590023",
+        "090301485"
       ]
     },
     {
       "Dagonbhuiyan Branch": [
         "Sultan Tower, Zero Point, Dagonbhuiyan, Feni",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=174",
+        null,
+        null,
         null
       ]
     },
@@ -1184,13 +1523,17 @@
       "Khagrachari Branch": [
         "Holding No. 523/01 (1st Floor), College Road, Khagrachari Sadar, Khagrachari",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=316",
-        null
+        null,
+        "590020",
+        "090460076"
       ]
     },
     {
       "Laxmipur Branch": [
         "Ali Plaza, 1126-1127, Godown Road, Ward no-7, PS-Laxmipur Sadar, Dist-Laxmipur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=209",
+        null,
+        "590028",
         null
       ]
     },
@@ -1198,6 +1541,8 @@
       "Chowmuhani Branch": [
         "NSS Bhaban, 1st Floor, Feni Road, Chowmuhani, Noakhali",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=152",
+        null,
+        "590022",
         null
       ]
     },
@@ -1205,6 +1550,8 @@
       "Basurhat Branch": [
         "Tanha Bhaban, College Road, Basurhat, Noakhali",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=166",
+        null,
+        "590024",
         null
       ]
     },
@@ -1212,6 +1559,8 @@
       "Maijdee Court Branch": [
         "Rahman Center, 1st Floor, Town Hall More, Main Road, Maijdee Court, Noakhali",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=250",
+        null,
+        "590017",
         null
       ]
     },
@@ -1219,27 +1568,35 @@
       "Rangamati Branch": [
         "Holding No. 922, 1st and 2nd Floor, Bonorupa More, Rangamati Sadar, Rangamati",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=320",
-        null
+        null,
+        "590030",
+        "090840520"
       ]
     },
     {
       "Habiganj Branch": [
         "1st Floor, Habiganj Regency, Kalibari Road, Habiganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=187",
-        null
+        null,
+        "590063",
+        "090360613"
       ]
     },
     {
       "Aushkandi Branch": [
         "Hazi Wahab Mansion, Aushkandi, Nabigonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=272",
-        null
+        null,
+        "590502",
+        "090360105"
       ]
     },
     {
       "Noapara Branch": [
         "1st & 2nd Floor, Benu Mia Super Market, Noapara Bazar, Saiham Nagar, Madhabpur, Habiganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=291",
+        null,
+        "590504",
         null
       ]
     },
@@ -1247,6 +1604,8 @@
       "Moulvibazar Branch": [
         "Sanaur Complex, 1st Floor, Saifur Rahman Road, Poschim Bazar,Moulvibazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=132",
+        null,
+        "590061",
         null
       ]
     },
@@ -1254,6 +1613,8 @@
       "Sreemongal Branch": [
         "Afzal Plaza, Moulvibazar Road, Sreemongal, Moulvibazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=167",
+        null,
+        "590060",
         null
       ]
     },
@@ -1261,6 +1622,8 @@
       "Barlekha Branch": [
         "Hazi Moshud Ali Trade Center, Vill: Baroigram (Borolekha Bazar),P.S.: Borolekha, Moulvibazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=203",
+        null,
+        null,
         null
       ]
     },
@@ -1268,13 +1631,17 @@
       "Netrokona Branch": [
         "Chitra medical Hall, 1st & 2nd floor, Choto Bazar, Netrokona",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=241",
-        null
+        null,
+        "590178",
+        "090720732"
       ]
     },
     {
       "Chattak Branch": [
         "Tahir Plaza, 2nd and 3rd Floor, Sylhet Road, Chattak, Sunamganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=159",
+        null,
+        null,
         null
       ]
     },
@@ -1282,34 +1649,44 @@
       "Sylhet Gobindaganj SME/ Agriculture Branch": [
         "Relation Tower (1st Floor), Gobindaganj Point, Chhatak, Sunamganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=195",
-        null
+        null,
+        null,
+        "090900444"
       ]
     },
     {
       "Sunamganj Branch": [
         "Joaher Raza Trade Center, Major Iqbal Hossain Road, Sunamganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=204",
-        null
+        null,
+        "590511",
+        "090901122"
       ]
     },
     {
       "Jagannathpur Branch": [
         "Millenium Trade Centre (1st floor), Holding # 0167-00, T and T Road, Jagannathpur, Sunamganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=345",
-        null
+        null,
+        "590508",
+        "090900499"
       ]
     },
     {
       "Sylhet Branch": [
         "358, East Zinda Bazar, Sylhet-3100",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=121",
-        null
+        null,
+        "590051",
+        "090913552"
       ]
     },
     {
       "Biswanath Branch": [
         "Hazi Afiz Ali Complex(1st & 2nd Floor), Jagannathpur Road, Bishwanath",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=131",
+        null,
+        "590052",
         null
       ]
     },
@@ -1317,27 +1694,35 @@
       "Golapganj Branch": [
         "Noor Mansion, Golapgonj Chowmohona, PS- Golapgonj, Mouja- Phulbari, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=134",
-        null
+        null,
+        null,
+        "090911604"
       ]
     },
     {
       "Goala Bazar Branch": [
         "1st & 2nd Floor, Mohon Plaza, Manik and Brothers, North Goala Bazar, Osmaninagar, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=154",
-        null
+        null,
+        null,
+        "090911541"
       ]
     },
     {
       "Beani Bazar Branch": [
         "Zaman Plaza (1st Floor), Beani Bazar, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=158",
-        null
+        null,
+        null,
+        "090910313"
       ]
     },
     {
       "Dhaka Dakshin SME/Agriculture Branch": [
         "Dhaka Dakshin, Golapganj, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=184",
+        null,
+        null,
         null
       ]
     },
@@ -1345,6 +1730,8 @@
       "Shahjalal Uposhohor Branch": [
         "1st Floor,Holding#536,Main Road,Shahjalal Uposhohor ,Ward#22,Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=190",
+        null,
+        "590057",
         null
       ]
     },
@@ -1352,6 +1739,8 @@
       "Amborkhana Branch": [
         "Lais Super Market,Amborkhana,Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=201",
+        null,
+        "590058",
         null
       ]
     },
@@ -1359,48 +1748,62 @@
       "Dakshin Surma Branch": [
         "1st Floor, Sumiya Complex, Sultanpur Road, Chandipul, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=289",
-        null
+        null,
+        null,
+        "090910955"
       ]
     },
     {
       "Sylhet Islampur Branch": [
         "1st Floor, Siddiquey Mansion, Islampur, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=299",
-        null
+        null,
+        "590505",
+        "090910263"
       ]
     },
     {
       "Tuker Bazar Branch": [
         "Hazi Tafur Ali Complex (1st Floor), Temukhi, Sunamgonj Road, Jalalabad, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=315",
-        null
+        null,
+        "590506",
+        "090910089"
       ]
     },
     {
       "Lamabazar Branch": [
         "Raja Mansion (VY & 2nd floor), Holding No.Chayanir-35, Lamabazar, Zindabazar Road, Sylhet",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=327",
-        null
+        null,
+        "590507",
+        "090912511"
       ]
     },
     {
       "Bagerhat Branch": [
         "1st and 2nd Floor, Kazi Badruddin Plaza, 37 Khan Azhar Ali Road, Bagerhat Sadar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=279",
-        null
+        null,
+        "590212",
+        "090010071"
       ]
     },
     {
       "Chuadanga Branch": [
         "Anwar Tower, 2nd Floor, Feri Ghat Road, Boro Bazar, Chuadanga",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=251",
-        null
+        null,
+        "590208",
+        "090180198"
       ]
     },
     {
       "Jassore Branch": [
         "11/A, R. N. Road, Jassore",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=163",
+        null,
+        null,
         null
       ]
     },
@@ -1408,76 +1811,98 @@
       "Benapole Branch": [
         "1st Floor, Noor Shopping Complex, 570/1, Jessore Kolkata Highway, Benapole Bazar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=269",
-        null
+        null,
+        "590210",
+        "090410284"
       ]
     },
     {
       "Jhenaidah Branch": [
         "M. N. Super Market, House no-19, Road no-02, Sher-e-Bangla Road, PS-Jhenaidah Sadar, Jhenaidah",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=228",
-        null
+        null,
+        "590207",
+        "090440641"
       ]
     },
     {
       "Khulna Branch": [
         "R. Amin Trade Center, 17, KDA Avenue, Shaikhpara, Khulna",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=120",
-        null
+        null,
+        "590251",
+        "090471544"
       ]
     },
     {
       "Daulatpur Branch": [
         "S.S Center, 1st and 2nd Floor, Daulatpur, Khulna",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=310",
-        null
+        null,
+        "590215",
+        "090470703"
       ]
     },
     {
       "Boro Bazar Branch": [
         "A Hossain Plaza(1st floor), Holding No. 04 & 05, Sir Iqbal Road (Boro Bazar), Khulna",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=338",
-        null
+        null,
+        "590216",
+        "090470374"
       ]
     },
     {
       "Kushtia Branch": [
         "164, NS Road, Boro Bazar, Kushtia",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=168",
-        null
+        null,
+        "590270",
+        "090500949"
       ]
     },
     {
       "Magura Branch": [
         "Khokon-Anowara Tower, 94 Pashu Haspatal Para, Syed Atar Ali Road, Magura Sadar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=267",
-        null
+        null,
+        "590209",
+        "090550557"
       ]
     },
     {
       "Meherpur Branch": [
         "1st & 2nd Floor, Kalam Market, 195/5 Borobazar, Main Road, Meherpur Sadar, Meherpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=290",
-        null
+        null,
+        "590214",
+        "090570379"
       ]
     },
     {
       "Narail Branch": [
         "Bhuiyan Shopping Mall, Holding No. 81, Rupganj Bazar, Narail Sadar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=283",
-        null
+        null,
+        "590213",
+        "090650644"
       ]
     },
     {
       "Satkhira Branch": [
         "Meherun Plaza (1st Floor), Boro Bazar Road, Satkhira",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=180",
-        null
+        null,
+        "590275",
+        "090871094"
       ]
     },
     {
       "Bogura Branch": [
         "Madhu-Metro Tower (2nd and 3rd Floor), Holding No. 56/64, KNI Road, Shatmatha, Bogura Sadar, Bogura",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=125",
+        null,
+        "590211",
         null
       ]
     },
@@ -1485,13 +1910,17 @@
       "Chapai Nawabganj Branch": [
         "Holding No. 4, 2nd floor, Puraton Bazar, Godagari Road, Chapai Nawabganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=240",
-        null
+        null,
+        null,
+        "090700257"
       ]
     },
     {
       "Joypurhat Branch": [
         "Ansar Ali Complex,Ground Floor,110/1,Sadar Road,Joypurhat",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=248",
+        null,
+        "590305",
         null
       ]
     },
@@ -1499,55 +1928,71 @@
       "Naogaon Branch": [
         "Ananda Bazar Shopping Complex, Bridge Crossing, Main Road, Naogaon",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=207",
-        null
+        null,
+        "590351",
+        "090641187"
       ]
     },
     {
       "Natore Branch": [
         "363, R. M. Bhaban, Kanaikhali, Dhaka Road, Natore Sadar, Natore",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=268",
-        null
+        null,
+        "590307",
+        "090691090"
       ]
     },
     {
       "Pabna Branch": [
         "1st and 2nd Floor, Midtown Homes, Holding# 1345/1, 1346/2, Abdul Hamid Road, Shalgaria, Pabna",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=169",
-        null
+        null,
+        "590221",
+        "090761788"
       ]
     },
     {
       "Kashinathpur Branch": [
         "Kashinathpur Bazar, Shathia, Pabna",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=233",
-        null
+        null,
+        "590303",
+        "090761333"
       ]
     },
     {
       "Panchagarh Branch": [
         "Anwar Plaza, Tetulia Road, Panchagarh Sadar, Panchagarh",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=219",
-        null
+        null,
+        "590651",
+        "090770553"
       ]
     },
     {
       "Rajshahi Branch": [
         "Holding 317, Rajshahi Association Bhaban, Alokar More, Station Road",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=135",
-        null
+        null,
+        "590201",
+        "090811933"
       ]
     },
     {
       "Shahjadpur Branch": [
         "Shahjahan Super Market, 1st and 2nd Floor, Town Masjid Road, Monirampur Bazar, Shahzadpur,Sirajgonj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=157",
-        null
+        null,
+        "590202",
+        "090881905"
       ]
     },
     {
       "Sirajganj Branch": [
         "1st and 2nd Floor, S. S. Road, Sirajganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=232",
+        null,
+        "590302",
         null
       ]
     },
@@ -1555,6 +2000,8 @@
       "Borguna Branch": [
         "1st and 2nd Floor, Shahabuddin Plaza, Sadar Road, Borguna",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=309",
+        null,
+        null,
         null
       ]
     },
@@ -1562,6 +2009,8 @@
       "Barishal Branch": [
         "LL Tower, Holding# 119, Birshreshto Shahid Captin Mohiuudin Jahangir Road, Kotwali, Barishal",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=127",
+        null,
+        "590301",
         null
       ]
     },
@@ -1569,69 +2018,89 @@
       "Bhola Branch": [
         "1st and 2nd Floor, Jahanara Arcade, Holding No. 434, Sadar Road, Bhola",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=282",
-        null
+        null,
+        "590402",
+        "090090109"
       ]
     },
     {
       "Jhalakathi Branch": [
         "Holding# 21/22, Dakter Potti Road, Jhalakathi Sadar, Jhalakathi",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=295",
-        null
+        null,
+        null,
+        "090420061"
       ]
     },
     {
       "Patuakhali Branch": [
         "11, S S Tower, Sadar Road, Patuakhali",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=218",
-        null
+        null,
+        "590306",
+        "090781092"
       ]
     },
     {
       "Pirojpur Branch": [
         "Shamsunnahar Tower, Holding No.125, Shahid Omor Faruque Road, (Sadar Road), Pirojpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=264",
-        null
+        null,
+        "590401",
+        "090790762"
       ]
     },
     {
       "Dinajpur Branch": [
         "Palok, Munshipara, Lillir Mor, Dinajpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=172",
-        null
+        null,
+        "590205",
+        "090280672"
       ]
     },
     {
       "Gobindaganj Branch": [
         "219, Bogra-Rangpur Highway, Gobindaganj, Gaibandha",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=175",
-        null
+        null,
+        "590206",
+        "090320587"
       ]
     },
     {
       "Gaibandha Branch": [
         "1st Floor, Islam Plaza, Holding No. 1076/1077, Station Road, Gaibandha Sadar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=278",
-        null
+        null,
+        "590603",
+        "090320529"
       ]
     },
     {
       "Kurigram Branch": [
         "Ganir Uddin Super Market, Holding No. 25, Ghoshpara, Bazar Road, Kurigram",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=262",
-        null
+        null,
+        "590601",
+        "090490404"
       ]
     },
     {
       "Lalmonirhat Branch": [
         "Patwary Complex, Holding#1224-01, Goshala Road, Lalmonirhat Sadar",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=294",
-        null
+        null,
+        "590604",
+        "090520466"
       ]
     },
     {
       "Saidpur Branch": [
         "1st & 2nd Floor, Bismillah Market, 25 Shaheed Dr. Zikrul Haque Road, Saidpur, Nilphamari",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=161",
+        null,
+        "590203",
         null
       ]
     },
@@ -1639,34 +2108,44 @@
       "Nilphamari Branch": [
         "Prodhan House(1st Floor), Holding# 0681-0682, Boro Masjid Road, Nilphamari Sadar, Nilphamari",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=302",
-        null
+        null,
+        "590605",
+        "090730735"
       ]
     },
     {
       "Rangpur Branch": [
         "Azhar Plaza (1st Floor), Nababgonj, Dewanbari Road, Rangpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=162",
-        null
+        null,
+        "590204",
+        "090851456"
       ]
     },
     {
       "Dhap Branch": [
         "Rayan,Dhap, Lalkuthi Road,Kotwali, Rangpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=343",
-        null
+        null,
+        "590606",
+        "090850523"
       ]
     },
     {
       "Thakurgaon Branch": [
         "Talukdar Plaza, Holding No. 1306, Shahid Mohammad Ali Road, Thakurgaon Sadar, Thakugaon",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=263",
-        null
+        null,
+        "590602",
+        "090940970"
       ]
     },
     {
       "Digpait Branch": [
         "Digpait Uposhahar,Union-Digpait,PS-Jamalpur Sadar,Jamalpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=200",
+        null,
+        "590181",
         null
       ]
     },
@@ -1674,27 +2153,35 @@
       "Jamalpur Branch": [
         "Jam-e Masjid Road, Tamaltala, Jamalpur Sadar, Jamalpur",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=206",
-        null
+        null,
+        "590182",
+        "090390854"
       ]
     },
     {
       "Mymensingh Branch": [
         "Mamatashi Emporium, 1st Floor, 8 & 12 GKMC Saha Road, Chotto Bazar, Mymensingh",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=156",
-        null
+        null,
+        "590165",
+        "090611759"
       ]
     },
     {
       "Master Bari Branch": [
         "R.H. Complex, 1st Floor, Zamirdia Master Bari, Valuka, Mymensingh",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=259",
-        null
+        null,
+        "590701",
+        "090610150"
       ]
     },
     {
       "Seed Store Bazar": [
         "1st and 2nd Floor, Shomola-Taher Plaza, Seed Store Bazar, Valuka",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=281",
+        null,
+        "590702",
         null
       ]
     },
@@ -1702,7 +2189,9 @@
       "Mymensingh Station Road Branch": [
         "Reaz Square (1st and 2nd Floor), Holding# 11, Station Road, Mymensingh",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=318",
-        null
+        null,
+        "590704",
+        "090610213"
       ]
     }
   ],
@@ -1711,12 +2200,16 @@
       "Kakoli Sub Branch": [
         "House# 102/2, Farman Goni Tower",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nazimuddin Road Sub Branch": [
         "S H Plaza, H #90/91, Nazimuddin Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1725,12 +2218,16 @@
       "Alauddin Road Sub Branch": [
         "Hazi saifuddin Shopping Mall, Holding-56/57,Kazi Alauddin Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "South Jatrabari Sub Branch": [
         "Yousuf Mansion, Holding No.# 314/A/5, ATM Haidar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1739,12 +2236,16 @@
       "Farmgate Sub Branch": [
         "Safia Plaza,71-75/Kazi Nazrul Islam Avenue",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Godnail Chowdhury Bari Sub Branch": [
         "Hasan Tower, Holding#78-H, EPZ Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1753,12 +2254,16 @@
       "Mirpur Mazar Road Sub Branch": [
         "Ambar Tower, 36, Mazar Road",
         null,
+        null,
+        "590111",
         null
       ]
     },
     {
       "Raien Khola Bazar Sub Branch": [
         "8,9/C Chiriakhana Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1767,12 +2272,16 @@
       "Paikpara Sub Branch": [
         "Holding No. 278/2",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Uttar Bishil Sub Branch": [
         "Holding-32, Block-D, Road-01",
+        null,
+        null,
         null,
         null
       ]
@@ -1781,12 +2290,16 @@
       "Nikunja-2 Sub Branch": [
         "House#25, Road 13",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Mollartek Sub branch": [
         "Holding-16, Shahid Latif Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1795,12 +2308,16 @@
       "Joynal Market Sub Branch": [
         "Islam Plaza, House - 452,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Baunia Bazar Sub Branch": [
         "Baunia Bazar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1809,12 +2326,16 @@
       "Shahajalal Avenue Sub Branch": [
         "Holding No.02,Road No. 13C, Sector#6, Shahjalal Avenue",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Babu Bazar Sub Branch": [
         "18/4/2/A",
+        null,
+        null,
         null,
         null
       ]
@@ -1823,12 +2344,16 @@
       "Jatrabari Sub Branch": [
         "114, Shahid Faruque Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Mohammadbag Sub Branch": [
         "Holding# 1204, New# 04",
+        null,
+        null,
         null,
         null
       ]
@@ -1837,12 +2362,16 @@
       "Modinabag Sub Branch": [
         "Hazi Khalil Complex,Plot No-3624,Block-A,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tushardhara Sub Branch": [
         "Holding No. 37, Road no. 01,",
+        null,
+        null,
         null,
         null
       ]
@@ -1851,12 +2380,16 @@
       "Kajla Sub Branch": [
         "78/4/kha",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sataish Road Sub Branch": [
         "Holding No. 87/A, Sataish Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1865,12 +2398,16 @@
       "Khartail Sub Branch": [
         "Fatema Super Market, Holding No.43, Sataish Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Ershad Nagar Sub Branch": [
         "Parkway trade centre, Holding No. 4/13",
+        null,
+        null,
         null,
         null
       ]
@@ -1879,6 +2416,8 @@
       "Borobari Sub Branch": [
         "Hazi Alauddin Super Market, Holding No. 1994, Dhaka-Mymensing Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -1886,12 +2425,16 @@
       "Sherpur Sub Branch": [
         "Mohamaya Complex, Holding No. 1758-01, Bikal Bazar Road",
         null,
-        null
+        null,
+        "590703",
+        "090890554"
       ]
     },
     {
       "Siddirganj Pool Bazar Sub Branch": [
         "Mizmizi",
+        null,
+        null,
         null,
         null
       ]
@@ -1900,12 +2443,16 @@
       "Sanarpar Sub Branch": [
         "Holding No#111",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Adamjee Nagar Sub Branch": [
         "Mir Tower, Holding-A 138, A 139, Sona Mia Market, Adamjee EPZ Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1914,12 +2461,16 @@
       "Sanarpar Rahim Market Rd Sub Branch": [
         "Rahim Market, Holding -61/E, Rahim Market Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Laxmibazar Sub Branch": [
         "Sifarna Mayaj View, Holding 45, Suvash Bosh Avenue",
+        null,
+        null,
         null,
         null
       ]
@@ -1928,12 +2479,16 @@
       "Shimultala Savar Sub Branch": [
         "MK Tower",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Malekerbari Sub Branch": [
         "Hazrot Plaza,House-1195, Dhaka Mymensingh Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1942,12 +2497,16 @@
       "Salna Bazar Sub Branch": [
         "Sayed Bhaban, Holding -372, Block-A, Moishan Bari Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Vogra Bypass Sub Branch": [
         "Ahsania Super Market, Holding no. 01, Block-E",
+        null,
+        null,
         null,
         null
       ]
@@ -1956,12 +2515,16 @@
       "Kamrangirchor Sub Branch": [
         "Holding No. 1191",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Postar Mor Sub Branch": [
         "House# 88/A, Water Work Road",
+        null,
+        null,
         null,
         null
       ]
@@ -1970,12 +2533,16 @@
       "Madbor Bazar Sub Branch": [
         "Holding No.50, Asrafabad Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kuril Sub Branch": [
         "KA-25/3",
+        null,
+        null,
         null,
         null
       ]
@@ -1984,12 +2551,16 @@
       "Kuril Chowrasta Sub Branch": [
         "Azahar Plaza, Ka 66/1",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Khilkhet Sub Branch": [
         "Ka-181/3",
+        null,
+        null,
         null,
         null
       ]
@@ -1998,12 +2569,16 @@
       "Kalachandpur Sub Branch": [
         "Ka-1/3, North Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Dhaka Uddayan Sub Branch": [
         "55/A, Hazi Din Mohammad Avenue",
+        null,
+        null,
         null,
         null
       ]
@@ -2012,12 +2587,16 @@
       "Ring Road Sub Branch": [
         "18/2, Block # F, Ring Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nobodoy Housing Sub Branch": [
         "Molla Market, House 04, Nobodoy main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2026,12 +2605,16 @@
       "Moahmmadpur Krishi Market": [
         "Holding no. 32/10, Tajmahal Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kashimpur Sub Branch": [
         "Holding No - 449, Konabari Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2040,6 +2623,8 @@
       "Pirganj Sub Branch": [
         "Abu BSC Tower, Holding No. 381, Dr. M A Wazed Mia Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2047,12 +2632,16 @@
       "Mirpur-6 Sub Branch": [
         "6-A,Avenue#5,House#44",
         null,
+        null,
+        "590111",
         null
       ]
     },
     {
       "Amtola Bazar Sub Branch": [
         "House 01, Road 06, Section 10",
+        null,
+        null,
         null,
         null
       ]
@@ -2061,12 +2650,16 @@
       "Shialbari Sub Branch": [
         "House No. 30/A,Road No. 06",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Banarashi Palli Sub Branch": [
         "House-28, Block-A, Avenue-1",
+        null,
+        null,
         null,
         null
       ]
@@ -2075,12 +2668,16 @@
       "Jawlahati Sub Branch": [
         "Rani Alam Villa,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jafrabad Sub Branch": [
         "37/Ka/25 Jafrabad, Jafrabad Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2089,12 +2686,16 @@
       "Borpa Sub Branch": [
         "Saud Market, Holding-63, Borpa, Dhaka Sylhet Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Malibag Sub Branch": [
         "Holding No. 95, DIT Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2103,6 +2704,8 @@
       "West Hazipara Sub Branch": [
         "Asrrayan, Holding No. 7/J/1, Mirbag Notun Rasta",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2110,12 +2713,16 @@
       "Rampura Bow Bazar Sub Branch": [
         "House No# 78/18/01, Bowbazar Road",
         null,
+        null,
+        "590136",
         null
       ]
     },
     {
       "T & T Bazar Sub Branch": [
         "House# 173",
+        null,
+        null,
         null,
         null
       ]
@@ -2124,12 +2731,16 @@
       "Mill Gate Sub Branch": [
         "Co Operative Market, House 151, Block D",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Pagar Sub Branch": [
         "Jhinu Market,",
+        null,
+        null,
         null,
         null
       ]
@@ -2138,12 +2749,16 @@
       "Tongi BSCIC Sub Branch": [
         "Holding-21, Abul Hossain Matabbar Road",
         null,
-        null
+        null,
+        "590139",
+        "090331639"
       ]
     },
     {
       "Kachkura Bazar Sub Branch": [
         "Kachkura Bazar",
+        null,
+        null,
         null,
         null
       ]
@@ -2152,12 +2767,16 @@
       "Tongibari Sub Branch": [
         "Ghosh Market",
         null,
-        null
+        null,
+        "590139",
+        "090331639"
       ]
     },
     {
       "Saltha Sub Branch": [
         "Harej Super Market",
+        null,
+        null,
         null,
         null
       ]
@@ -2166,12 +2785,16 @@
       "Madhukhali Sub Branch": [
         "Tower Building, Holding No. 50/01, Magura - Faridpur Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Segun Bagicha Sub Branch": [
         "Sky View Ocean, Holding no. 38(New),Segun Bagicha Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2180,12 +2803,16 @@
       "Merul Badda Sub Branch": [
         "KHA-225,Century Center,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Satarkul Sub Branch": [
         "Dablin Tower, Satarkul Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2194,6 +2821,8 @@
       "Muslim Nagar Sub Branch": [
         "Holding No# 75, College Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2201,12 +2830,16 @@
       "Hazi Nagar Sub Branch": [
         "Abdur Rahim House, Holding-43, Hazi Nagar School Road",
         null,
-        null
+        null,
+        null,
+        "090030077"
       ]
     },
     {
       "Gobindapur Sub Branch": [
         "Shah Chandrapuri Garden City, Zia Sharani Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2215,12 +2848,16 @@
       "Zohura Market Sub Branch": [
         "H# 22, R# 12, Sector# 14",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Fulbaria Sub Branch": [
         "House# 42, Road# 01",
+        null,
+        null,
         null,
         null
       ]
@@ -2229,12 +2866,16 @@
       "Khalpar Sub Branch": [
         "House# 41, Sector# 12, Sonargaon Janopod Road,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Islamia Bazar Sub Branch": [
         "Holding # 337, Road # 01",
+        null,
+        null,
         null,
         null
       ]
@@ -2243,12 +2884,16 @@
       "Shyampur Sub Branch": [
         "Patowary Tower, H-1, Hazi Salimullah Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Madani Avenue Sub Branch": [
         "H. R. K Mansion, Madani Avenue",
+        null,
+        null,
         null,
         null
       ]
@@ -2257,6 +2902,8 @@
       "Rupnagar Sub Branch": [
         "J/62",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2264,12 +2911,16 @@
       "Mirpur-11 Sub Branch": [
         "Nannu Market, Plot11, Road-4, Section11",
         null,
+        null,
+        "590111",
         null
       ]
     },
     {
       "Kalshi Sub branch": [
         "Plot # 15, Block # E, North Side of Kalshi Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2278,12 +2929,16 @@
       "Eastern Housing Sub Branch": [
         "Renaissance Point, 29A/23, Jahirul Islam Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Manikdi Sub Branch": [
         "House-153",
+        null,
+        null,
         null,
         null
       ]
@@ -2292,12 +2947,16 @@
       "Muslim Bazar Sub Branch": [
         "Plot-I/23, Block-D,Avenue-02, Section-12, Ceramic Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Faydabad Sub branch": [
         "House # 52, Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2306,12 +2965,16 @@
       "Uttarkhan Mazar Road Sub Branch": [
         "Holding-2354/B, Uttarkhan Mazar Road",
         null,
+        null,
+        "590153",
         null
       ]
     },
     {
       "Kalapara Sub branch": [
         "Hazi Humayun Kabir Sikder Market, Holding No. 01, Swarnakar Patti Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2320,12 +2983,16 @@
       "Nandipara Sub Branch": [
         "Shahbuddin Super Market,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Mugda Sub Branch": [
         "M I Bhaban, Holding No. 01, Atish Dipanker Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2334,6 +3001,8 @@
       "B.C.C Road Sub Branch": [
         "95, B.C.C Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2341,12 +3010,16 @@
       "Tejgaon Link Road Sub Branch": [
         "190/A, Tejgaon Gulshan Link Road",
         null,
+        null,
+        "590159",
         null
       ]
     },
     {
       "West Nakhalpara Sub Branch": [
         "Holding #271/C",
+        null,
+        null,
         null,
         null
       ]
@@ -2355,12 +3028,16 @@
       "Kotchandpur Sub Branch": [
         "Saleha Bhaban, Holding No. 191",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chayabithi Sub Branch": [
         "Okey Tower, Holding No/ F/214/10, Rajbari Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2369,12 +3046,16 @@
       "Wireless Gate Sub Branch": [
         "Abbas Trade Center, Holding No. 41/4, Joydebpur Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Dhamrai Sub Branch": [
         "Ranjit Super Market, Block-1",
+        null,
+        null,
         null,
         null
       ]
@@ -2383,12 +3064,16 @@
       "Durgapur Sub Branch": [
         "Hossain Complex, Holding No. 264, Upazila Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Shahrasti Sub Branch": [
         "Holding No. 181, Thakur Bazar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2397,12 +3082,16 @@
       "Tarabo Sub Branch": [
         "Hazi Manik Bhuiyan Market,23 no Tarabo Uttar, Tarabo Bazar road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nabigonj Sub Branch": [
         "Holding-1/1, T Hossain Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2411,6 +3100,8 @@
       "Green Road Sub Branch": [
         "Akangkha Jahangir Heights, Holding-147/2/A",
         null,
+        null,
+        "591142",
         null
       ]
     },
@@ -2418,6 +3109,8 @@
       "Aganagar Sub Branch": [
         "Mayaz Tower",
         null,
+        null,
+        "590192",
         null
       ]
     },
@@ -2425,12 +3118,16 @@
       "Mohammadpur Bus Stand Sub Branch": [
         "Green View Housing, House No. #04, Road# 01",
         null,
+        null,
+        "590193",
         null
       ]
     },
     {
       "Bashila Sub Branch": [
         "Modina Shopping Complex, Holding No. 03 ,Block# B, Road No. 01",
+        null,
+        null,
         null,
         null
       ]
@@ -2439,12 +3136,16 @@
       "Mohammadia Housing Sub Branch": [
         "High Villa, House No. 13, Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nageshwari Sub Branch": [
         "Siraj Market, Holding No. 96, K. B. Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2453,12 +3154,16 @@
       "Ranisankail Sub Branch": [
         "Bandar Plaza, Holding No. 58, Pirganj-Ranisankail Road,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jalkuri Sub Branch": [
         "Ambar Complex, Holding No. A-3, A-3/1,",
+        null,
+        null,
         null,
         null
       ]
@@ -2467,12 +3172,16 @@
       "Dakshin Gazirchat Sub Branch": [
         "Babul Villa, Sher Ali Market",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nabiganj Sub Branch": [
         "Mimber Tower",
+        null,
+        null,
         null,
         null
       ]
@@ -2481,12 +3190,16 @@
       "Louhajang Sub Branch": [
         "Hossain Market, College Road,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Urdu Road Sub Branch": [
         "Holding No. 33,Urdu Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2495,12 +3208,16 @@
       "Dhalpur Sub Branch": [
         "House# 63/3, Dhalpur New Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Maniknagar Sub Branch": [
         "Manik Nagar Complex,16/A, Khalpar Notun Sarak",
+        null,
+        null,
         null,
         null
       ]
@@ -2509,12 +3226,16 @@
       "R.K Mission Road Sub Branch": [
         "Gul Nahar Nibash, Holding No # 72, R.K Mission Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sakhipur Sub Branch": [
         "Abdur Razzak Plaza, Holding no. 131",
+        null,
+        null,
         null,
         null
       ]
@@ -2523,12 +3244,16 @@
       "Rajabari Sub Branch": [
         "Holding No.70, Block-C, Thana Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Ranavola Sub Branch": [
         "Sheikh Villa, Holding # 38,Ranavola Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2537,12 +3262,16 @@
       "Bashabo Sub Branch": [
         "Holding No. 111,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sabujbag Sub Branch": [
         "House No-33/1, Atish Dipankar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2551,12 +3280,16 @@
       "Uttar Goran Sub Branch": [
         "Holding-195, Sipahibag Tempu Stand Connecting Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tilpapara Sub Branch": [
         "H-193/1/A,1st floor, Road-8,Tilpapara Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2565,12 +3298,16 @@
       "Kaliganj Sub Branch": [
         "Nurjahan Bhaban, Holding No.2815",
         null,
-        null
+        null,
+        "590180",
+        "090330827"
       ]
     },
     {
       "Kathalia Sub Branch": [
         "Kathalia Bus Stand",
+        null,
+        null,
         null,
         null
       ]
@@ -2579,12 +3316,16 @@
       "Bhashantek Sub Branch": [
         "Holding No. 254 (1st Floor)",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Matikata Sub Branch": [
         "House No: 108 (1st Floor)",
+        null,
+        null,
         null,
         null
       ]
@@ -2593,12 +3334,16 @@
       "Aftabnagar Sub Branch": [
         "Holding 24",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Meradia Sub Branch": [
         "House No.- 01, Road-03, Block- J",
+        null,
+        null,
         null,
         null
       ]
@@ -2607,19 +3352,25 @@
       "South Banasree Sub Branch": [
         "House No.-2, Road No-10",
         null,
-        null
+        null,
+        null,
+        "090270590"
       ]
     },
     {
       "Banasree Block-D Sub Branch": [
         "Holding No. 2/B, Block-D, Road-7, Avenue-3",
         null,
+        null,
+        "591113",
         null
       ]
     },
     {
       "Kalibari Sub Branch": [
         "Mohammad Plaza, Kalibari Pacjrukhi Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2628,12 +3379,16 @@
       "Purinda Sub Branch": [
         "Tara Miah Market",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Faridabad Sub Branch": [
         "53/6, Horicharan Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2642,12 +3397,16 @@
       "Jurain Rail Gate Sub Branch": [
         "319, Jurain Tower",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Mirhazirbag Sub Branch": [
         "Holding No. 35, Doyaganj-Dholaipar New Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2656,12 +3415,16 @@
       "Dholaipar Sub Branch": [
         "Holding No. 653, Dania Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Pirerbag Sub-Branch": [
         "276, Kamal Sarani, (60 feet Road)",
+        null,
+        null,
         null,
         null
       ]
@@ -2670,12 +3433,16 @@
       "Taltola Sub Branch": [
         "Shohid Complex, Holding- 97/1",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Gopalpur Sub Branch": [
         "Rangdhanu Super Market",
+        null,
+        null,
         null,
         null
       ]
@@ -2684,12 +3451,16 @@
       "Alfadanga Sub Branch": [
         "Tahera- Rashed Nakshi Bhaban, Alfadanga- Faridpur Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bhuapur Sub Branch": [
         "Holding- 431",
+        null,
+        null,
         null,
         null
       ]
@@ -2698,12 +3469,16 @@
       "Bhaluka Sub Branch": [
         "Sheikh Amir Uddin Plaza, Holding- 67, Bhaluka- Mymensingh Highway",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kanaighat Sub Branch": [
         "Sakib Bhaban, Holding- 343, Kanaighat Bazar",
+        null,
+        null,
         null,
         null
       ]
@@ -2712,12 +3487,16 @@
       "Shayestaganj Sub Branch": [
         "Sumon Plaza, Holding- 288, Station Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jaintiapur Sub Branch": [
         "Al-Modina Complex",
+        null,
+        null,
         null,
         null
       ]
@@ -2726,12 +3505,16 @@
       "Companiganj Sub Branch": [
         "Holding- 70",
         null,
-        null
+        null,
+        null,
+        "090191424"
       ]
     },
     {
       "Manirampur Sub Branch": [
         "Holding- 0147-02, Manirampur Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2740,12 +3523,16 @@
       "Shibchar Sub Branch": [
         "Holding- 1459, Shibchar Sadar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bajitpur Sub Branch": [
         "Maloti Bhaban, Holding- 494, College Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2754,12 +3541,16 @@
       "Faridgonj Sub Branch": [
         "Vandari Mahal Mini Market, Holding- 460, Bazar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Gafargaon Sub Branch": [
         "Manju City Center, Holding- 459, Shibganj Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2768,12 +3559,16 @@
       "Ulipur Sub Branch": [
         "Abul Basar Super Market, Holding- 3128, Bazar Hat Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kashiani Sub Branch": [
         "Talukder Market",
+        null,
+        null,
         null,
         null
       ]
@@ -2782,12 +3577,16 @@
       "Nokla Sub Branch": [
         "Bonik Plaza, Holding- 789, Nokla Uttar Bazar Road (Feeder Road)",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Keshabpur Sub Branch": [
         "Mannan Super Market, Holding- 617, Modhu Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2796,12 +3595,16 @@
       "Kalkini Sub Branch": [
         "London Plaza, Holding- 86, SwapanSorafot Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nangalkot Sub Branch": [
         "Tushar Super Market, Holding- 2700, Laksam Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2810,12 +3613,16 @@
       "Katiadi Sub branch": [
         "K Alom Plaza, Holding- 3168, C.N.B Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Belkuchi Sub Branch": [
         "Holding- 801, Chandangati Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2824,12 +3631,16 @@
       "Kachua Sub Branch": [
         "Jakir Bhaban, Holding- 332, Hospital Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jhikargacha Sub Branch": [
         "Dudu Market, Holding- 231, Benapole Highway",
+        null,
+        null,
         null,
         null
       ]
@@ -2838,12 +3649,16 @@
       "Gior Sub Branch": [
         "Prova Plaza",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Zakiganj Sub Branch": [
         "Allahor Dan, Zakiganj-Kaliganj Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2852,12 +3667,16 @@
       "Tekerhat Sub Branch": [
         "Hazi Mosharof Tower, Holding- 1088, Bhanga-Barishal Highway",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Shibaloy Sub Branch": [
         "A. S. Super Market",
+        null,
+        null,
         null,
         null
       ]
@@ -2866,6 +3685,8 @@
       "Setabganj Sub Branch": [
         "S. A. Plaza, Holding- 0120-01, Pirganj Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2873,12 +3694,16 @@
       "Pirganj Sub Branch, Thakurgaon": [
         "Nazrul Bhaban, Holding- 751, Shahid Ziaur Rahman Road",
         null,
-        null
+        null,
+        "590602",
+        "090940970"
       ]
     },
     {
       "Hakimpur Sub Branch": [
         "Rajida Complex, Holding- 0293-01, Hili Bazar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2887,12 +3712,16 @@
       "Birampur Sub Branch": [
         "Abul Hazi Tower, Holding- 0634-01, Dinajpur-Dhaka Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Boda Sub Branch": [
         "Retina Plaza, Holding- 457/11, Panchagarh-Dinajpur Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2901,12 +3730,16 @@
       "Matlab South Sub Branch": [
         "N A M Tower, Holding- 465, South Matlab Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Pangsa Sub Branch": [
         "Thana Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2915,6 +3748,8 @@
       "Chanchkoir Sub Branch": [
         "Gopen Sarker Super Market, Holding- 2370",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -2922,19 +3757,25 @@
       "Kishorganj Sub Branch": [
         "NijhumKunjo",
         null,
-        null
+        null,
+        "590173",
+        "090480672"
       ]
     },
     {
       "Torki Bandar Sub Branch": [
         "Sarder plaza, Holding- 455, Torki Bandar Road",
         null,
-        null
+        null,
+        "591130",
+        "090670161"
       ]
     },
     {
       "Taraganj Sub Branch": [
         "Ray Market, Holding- 2609 and 2865",
+        null,
+        null,
         null,
         null
       ]
@@ -2943,12 +3784,16 @@
       "Fulbari Sub Branch": [
         "Bapjan Tower, Holding- 05-005-0843-00, Dinajpur-Dhaka Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Birganj Sub Branch": [
         "Avijit Plaza, Holding- 20/Ka, Pirganj Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2957,12 +3802,16 @@
       "Sadarpur Sub Branch": [
         "Siraj Talukder Tower",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kasba Sub Branch": [
         "Idris Tower, Holding- 11/01, Kasba- Brahmanbaria Road",
+        null,
+        null,
         null,
         null
       ]
@@ -2971,12 +3820,16 @@
       "Nazipur Sub Branch": [
         "Rabbani Market, Holding- 128/1, Dhamoirhat Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Damurhuda Sub Branch": [
         "Upazial Sanitary Bhavan, Holding- 1919",
+        null,
+        null,
         null,
         null
       ]
@@ -2985,12 +3838,16 @@
       "Bhabaniganj Sub Branch": [
         "Holding-362,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Raninagar Sub Branch": [
         "Holding- 690",
+        null,
+        null,
         null,
         null
       ]
@@ -2999,12 +3856,16 @@
       "Jibannagar Sub Branch": [
         "Fatema Plaza, Holding- 171, Dattanagar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Gangni Sub Branch": [
         "N S Tower, Holding- 470/14, Hat Boalia Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3013,12 +3874,16 @@
       "Rahanpur Sub Branch": [
         "Zishan Tower, Holding- 179",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Iswarganj Sub Branch": [
         "Dr. Gandhi Square, Holding- 212, Mymensingh- Kishoreganj Highway",
+        null,
+        null,
         null,
         null
       ]
@@ -3027,12 +3892,16 @@
       "Dupchanchia Sub Branch": [
         "Haque Complex, Holding- 0631-01, Bogura-Naogaon Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kumarkhali Sub Branch": [
         "Dey Market, Holding- 497, Sherkandi Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3041,12 +3910,16 @@
       "Kamarkhand Sub Branch": [
         "Morhum Kazi Goljar Hossain Market",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sundarganj Sub Branch": [
         "Holding- 1205, D. C. Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3055,12 +3928,16 @@
       "Poradaha Sub Branch": [
         "N S Super market, Holding- 786,Kushtia,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Raniganj Sub Branch": [
         "Habib Complex, Holding- 1342",
+        null,
+        null,
         null,
         null
       ]
@@ -3069,12 +3946,16 @@
       "Sarail Sub Branch": [
         "Syed Mofiz Ali Shopping Mall",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chirirbandar Sub Branch": [
         "Rashid Villa New Super Market, Station Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3083,12 +3964,16 @@
       "Pakundia Sub Branch": [
         "Ashraf Bhaban, Holding- 992, College Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kendua Sub Branch": [
         "Sabuj Somabesh, Holding- 245/23290, Upazila Parishad Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3097,12 +3982,16 @@
       "Kalmakanda Sub Branch": [
         "Amin Market, Chanpur Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Raipur Sub Branch": [
         "Bagdad Plaza, Holding- 536/3, Lakshmipur-Chandpur Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3111,12 +4000,16 @@
       "Kalai Sub Branch": [
         "Alhaj Bhaban, Holding- 417, Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Saghata Sub Branch": [
         "Chowdhury Manssion",
+        null,
+        null,
         null,
         null
       ]
@@ -3125,6 +4018,8 @@
       "Patkelghata Sub Branch": [
         "Gofur Plaza, Holding- 1905, College Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3132,12 +4027,16 @@
       "Mirpur Bazar Sub Branch": [
         "Mia Bhaban",
         null,
+        null,
+        "590111",
         null
       ]
     },
     {
       "Atwari Sub Branch": [
         "Mahabuba Plaza, College Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3146,12 +4045,16 @@
       "Harinakundu Sub Branch": [
         "Himel Super Market-2, Holding- 550, Lalon Shah Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kazipur Sub Branch": [
         "Allahor Dan super Market, Holding- 05, , Sonamukhi Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3160,12 +4063,16 @@
       "Nasirnagar Sub Branch": [
         "Thana Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chuknagar Sub Branch": [
         "Kashem Plaza, Khulna Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3174,6 +4081,8 @@
       "Fulgazi Sub branch": [
         "Holding- 76/2, Fulgazi Bazar Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3181,12 +4090,16 @@
       "Noapara Sub Branch": [
         "Noor Ali Bhaban, Holding- 1800, Khulna-Jashore Highway",
         null,
+        null,
+        "590504",
         null
       ]
     },
     {
       "Bagherpara Sub Branch": [
         "Majid Super Market, Holding- 244, Narikelbaria Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3195,12 +4108,16 @@
       "Bheramara Sub Branch": [
         "Newaj Tower, Holding- 0212-00, Bheramara Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Koyra Sub Branch": [
         "RSPA Plaza,",
+        null,
+        null,
         null,
         null
       ]
@@ -3209,6 +4126,8 @@
       "Dumki Sub Branch": [
         "Yakub Ali Mansion, University Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3216,12 +4135,16 @@
       "Kaliganj Sub Branch, Jhenaidah": [
         "Madhusudan and Sons, Holding- 0180-00, Madhuganj Bazar Road",
         null,
-        null
+        null,
+        "590207",
+        "090440641"
       ]
     },
     {
       "Kawkhali Sub Branch": [
         "Talukder Bhaban, Upazila Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3230,6 +4153,8 @@
       "Chitalmari Sub Branch": [
         "Holding- 137, Chitalmari main Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3237,12 +4162,16 @@
       "Lohagara Sub Branch": [
         "Shitola Market, Holding- 466, Lohagara Bazar Road",
         null,
+        null,
+        "590008",
         null
       ]
     },
     {
       "Domar Sub Branch": [
         "Janani Plaza, Holding- 300, Thana Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3251,12 +4180,16 @@
       "Mirzaganj Sub Branch": [
         "Sikder Market, Holding- 885",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Naohata Sub Branch": [
         "Holding- 675/2",
+        null,
+        null,
         null,
         null
       ]
@@ -3265,12 +4198,16 @@
       "Bishwambarpur Sub Branch": [
         "Tahirpur Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Shailkupa Sub Branch": [
         "Nurjahan Super Market, Holding- 0024, Garaganj-Shailkupa Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3279,12 +4216,16 @@
       "Chilmari Sub Branch": [
         "R U Shopping Complex",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Baliadangi Sub Branch": [
         "Dr. Abbas plaza, Holding- 1928",
+        null,
+        null,
         null,
         null
       ]
@@ -3293,12 +4234,16 @@
       "Dayarampur Sub Branch": [
         "Alim Market",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bonpara Sub Branch": [
         "Ali Tower, Bonpara Bazar, Boro Mosjid Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3307,12 +4252,16 @@
       "Lalpur Sub Branch": [
         "Asad Plaza",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tazumuddin Sub Branch": [
         "Hazi Mozammel Haque Market",
+        null,
+        null,
         null,
         null
       ]
@@ -3321,12 +4270,16 @@
       "Bhedarganj Sub Branch": [
         "New Market, Holding-193, 184, High School Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Majhira Sub Branch": [
         "Shaheed Mansur Rahman Complex",
+        null,
+        null,
         null,
         null
       ]
@@ -3335,12 +4288,16 @@
       "Bhangura Sub Branch": [
         "Holding- 111, Sharotnagar Bazar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Rangunia Sub Branch": [
         "Hafez Chowdhury Tower, Holding-0548-00",
+        null,
+        null,
         null,
         null
       ]
@@ -3349,12 +4306,16 @@
       "Sonatala Sub Branch": [
         "Mondal Market, Holding-448, Sonatala-Mokamtala Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sonaimuri Sub Branch": [
         "Motaleb Plaza, Holding - 812/03",
+        null,
+        null,
         null,
         null
       ]
@@ -3363,12 +4324,16 @@
       "Banshkhali Sub Branch": [
         "Ayesha Plaza, Holding - 0066-00, Banshkhali Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chatmohar Sub Branch": [
         "Arzina Palace, Holding - 201, College Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3377,6 +4342,8 @@
       "Kalaroa Sub Branch": [
         "Chowdhury Super Market, Holding- 3369, Gadkhali Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3384,12 +4351,16 @@
       "Mohammadpur Sub Branch": [
         "Mugdho Monjil, Holding - 2392, College Road",
         null,
+        null,
+        "590193",
         null
       ]
     },
     {
       "Hatibandha Sub Branch": [
         "Shanti Complex, Holding - 285",
+        null,
+        null,
         null,
         null
       ]
@@ -3398,12 +4369,16 @@
       "Rajapur Sub Branch": [
         "Baghri",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Nalitabari Sub Branch": [
         "Saha Market, Holding 491, Nilampotti Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3412,12 +4387,16 @@
       "Adamdighi Sub Branch": [
         "Mostafa Market ,Thana Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bakerganj Sub Branch": [
         "Shahjahan Complex, Holding - 125, Sadar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3426,12 +4405,16 @@
       "Fakirhat Sub Branch": [
         "Bhai Bhai Market, Old Dhaka Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Ullapara Sub Branch": [
         "Al-Ruhana Plaza, Holding-1256, Joydeb Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3440,12 +4423,16 @@
       "Godagari Sub Branch": [
         "Modina Shopping Complex, Holding - 570, Chapainawabganj Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Khetlal Sub Branch": [
         "Mondal Market, Holding - 1897, Sadar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3454,12 +4441,16 @@
       "Sreepur Sub Branch": [
         "Jahid Super Market, Sreepur Bazar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jhenaigati Sub Branch": [
         "Rasheda Complex, Holding-152, Hospital Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3468,12 +4459,16 @@
       "Haragach Sub Branch": [
         "Halima Tower, Holding-4176, Haragach-Rangpur Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Taragunia Sub Branch": [
         "Hazi Market",
+        null,
+        null,
         null,
         null
       ]
@@ -3482,12 +4477,16 @@
       "Karimgonj Sub Branch": [
         "Didar Complex, Holding No. 890/1, Bazar Road,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Arpara Sub Branch": [
         "Saber Tower, Arpara BazarKaliganj Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3496,12 +4495,16 @@
       "Shibganj Sub Branch": [
         "Hosneara Tower, Holding - 780, Thana Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Budhhata Sub Branch": [
         "Malek Super Market",
+        null,
+        null,
         null,
         null
       ]
@@ -3510,6 +4513,8 @@
       "Monoharganj Sub Branch": [
         "Macca Plaza, Holding-379, Collage Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3517,12 +4522,16 @@
       "Bholahat Sub Branch": [
         "Rakib Plaza, College Mor",
         null,
-        null
+        null,
+        "590402",
+        "090090109"
       ]
     },
     {
       "Nachol Sub Branch": [
         "S N Plaza, Holding-08, Godagari-Niamatpur Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3531,12 +4540,16 @@
       "Nalchity Sub Branch": [
         "Lasker Plaza",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Jhitka Bazar Sub Branch": [
         "Bashar Tower",
+        null,
+        null,
         null,
         null
       ]
@@ -3545,6 +4558,8 @@
       "Chougachha Sub Branch": [
         "B K Plaza, Holding- 248, Bhaskarjya Mor",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3552,19 +4567,25 @@
       "Kaliganj Sub Branch, Satkhira": [
         "Maa Villa, Holding- 80, Thana Road",
         null,
-        null
+        null,
+        "590180",
+        "090330827"
       ]
     },
     {
       "Meghna Sub Branch": [
         "Mithila Super Market",
         null,
-        null
+        null,
+        null,
+        "090671007"
       ]
     },
     {
       "Baneswar Sub Branch": [
         "Abdul Latif Super Market",
+        null,
+        null,
         null,
         null
       ]
@@ -3573,12 +4594,16 @@
       "Badalgachi Sub Branch": [
         "Mustafa Plaza",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Indurkani Sub Branch": [
         "Sadar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3587,12 +4612,16 @@
       "Patgram Sub Branch": [
         "Patgram-Dharlasetu Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chatkhil Sub Branch": [
         "Comrade Mansion, Holding- 388, Main Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3601,12 +4630,16 @@
       "UEPZ Sub Branch": [
         "Uttara Market, Holding- 811",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Mithapukur Sub Branch": [
         "Mostofa Market, Holding- 105",
+        null,
+        null,
         null,
         null
       ]
@@ -3615,6 +4648,8 @@
       "Dewanganj Sub Branch": [
         "Saha Shopping Complex, Holding- 625/1, Thana Road",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3622,12 +4657,16 @@
       "Teligati Bazar Sub Branch": [
         "Rampur Road",
         null,
+        null,
+        "590123",
         null
       ]
     },
     {
       "Galachipa Sub Branch": [
         "Holding-65, Arot Potti Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3636,12 +4675,16 @@
       "Alamdanga Sub Branch": [
         "Siraj Tower, Holding- 519, Alifuddin Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bangla Bazar Sub Branch": [
         "Sabuj Tonni Market",
+        null,
+        null,
         null,
         null
       ]
@@ -3650,12 +4693,16 @@
       "Barura Sub Branch": [
         "Miazi Mansion, Holding - 0338-00, College Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Matlab North Sub Branch": [
         "Jobbar Plaza, Holding No. 1240, Thana Road,",
+        null,
+        null,
         null,
         null
       ]
@@ -3664,12 +4711,16 @@
       "Kazirhat Sub Branch": [
         "Vai Vai Sikder Market, Kazirhat",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Fultola Sub Branch": [
         "Nurjahan Market, Holding- 336-B, Rafiq Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3678,12 +4729,16 @@
       "Brahmanpara Sub Branch": [
         "Hashem Tower, Holding No. 259/1",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Paduar Bazar Sub Branch": [
         "Kamal Mansion, Holding- 0034, Laksham Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3692,12 +4747,16 @@
       "Purbadhala Sub Branch": [
         "Momtaz Doctor Plaza, Station Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Panchbibi Sub Branch": [
         "Modina Market, Holding- 0184-05, Sadar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3706,12 +4765,16 @@
       "Goalanda Sub Branch": [
         "Rokon Uddin Plaza, Holding- 311",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Palashbari Sub Branch": [
         "Menaj City, Holding- 846, Gaibandha Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3720,12 +4783,16 @@
       "Burichang Sub Branch": [
         "Ismail Mansion,",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kanaipur Sub Branch": [
         "Mollah Orchid Plaza",
+        null,
+        null,
         null,
         null
       ]
@@ -3734,12 +4801,16 @@
       "Kalukhali Sub Branch": [
         "Golden Touch Super Market",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Amtali Sub Branch": [
         "Mridha Square, Holding- 197, Kuakata Highway",
+        null,
+        null,
         null,
         null
       ]
@@ -3748,12 +4819,16 @@
       "Gouripur Sub Branch": [
         "Holding- 488, Bangabandhu Road",
         null,
-        null
+        null,
+        "590014",
+        "090192115"
       ]
     },
     {
       "Mollahat Sub Branch": [
         "Khan Super Market, Thana Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3762,6 +4837,8 @@
       "Islampur Sub Branch": [
         "Holding- 83/01, Thana Road",
         null,
+        null,
+        "590113",
         null
       ]
     },
@@ -3769,12 +4846,16 @@
       "Daulatpur Sub Branch": [
         "Doctor Bhaban, Holding - 2392",
         null,
-        null
+        null,
+        "590215",
+        "090470703"
       ]
     },
     {
       "Nagarpur Sub Branch": [
         "Samiha & Muntaha Plaza",
+        null,
+        null,
         null,
         null
       ]
@@ -3783,12 +4864,16 @@
       "Khaserhat Sub Branch": [
         "New Market, College Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Charghat Sub Branch": [
         "Bappi Market, Holding- 041701, Montri Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3797,12 +4882,16 @@
       "Keshorhat Sub Branch": [
         "Akram Plaza, Holding- 08, Rajshahi-Bhabaniganj Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Parshuram Sub Branch": [
         "Rahman Market, Hospital Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3811,12 +4900,16 @@
       "Nandail Sub Branch": [
         "Bhuiyan Super Market, Holding- 137, Mymensingh-Kishoreganj Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Damudya Sub Branch": [
         "Bepary Complex, Dhanhata Bridge Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3825,12 +4918,16 @@
       "Shibpur Sub Branch": [
         "H B Tower, Holding- 133, Sadar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Terokhada Sub Branch": [
         "Momotaj Super Market, Upazila Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3839,12 +4936,16 @@
       "Mohadevpur Sub Branch": [
         "Nur Mohol Market, Mohadevpur Sadar, Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chauddagram Sub Branch": [
         "Khayer Super Market, Holding# 0259-00, Dhaka-Chattagram Highway",
+        null,
+        null,
         null,
         null
       ]
@@ -3853,12 +4954,16 @@
       "Bancharampur Sub Branch": [
         "Musa Market, Holding- 595, TNT Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Morrelganj Sub Branch": [
         "Rajnish Bhaban, Holding- 15, Morrelganj Bazar Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3867,12 +4972,16 @@
       "Hajiganj Sub Branch": [
         "Miron Plaza, Holding- 0002-01, Cumilla-Chandpur Main Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sarishabari Sub Branch": [
         "Holding- 1344, Aramnagar Bazar, Jamalpur-Sarishabari Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3881,12 +4990,16 @@
       "Bauphal Sub Branch": [
         "Holding- 70, Bazar Road",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Pekua Sub Branch": [
         "Minar Market ( 1st floor)",
+        null,
+        null,
         null,
         null
       ]
@@ -3895,12 +5008,16 @@
       "Madan Sub Branch": [
         "Sukumar Complex (1st floor), Holding- 247, Zahangirpur Bazar",
         null,
-        null
+        null,
+        null,
+        "090670974"
       ]
     },
     {
       "Boalkhali Sub Branch": [
         "Alam Plaza (1st floor), Holding- 210/1, Gomdondi",
+        null,
+        null,
         null,
         null
       ]
@@ -3909,12 +5026,16 @@
       "Trishal Sub Branch": [
         "Maa Laxmi Super Market (1st floor), Holding-0091-00",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Dhunot Sub Branch": [
         "Aram Bhaban (1st floor),Holding- 266, Dhunot Bazar",
+        null,
+        null,
         null,
         null
       ]
@@ -3923,12 +5044,16 @@
       "Hossainpur Sub Branch": [
         "Ashraf & Chowdhury Plaza (1st floor), Holding- 0677-00",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Muktagacha Sub Branch": [
         "Fakir Complex (1st floor), Holding- 0021",
+        null,
+        null,
         null,
         null
       ]
@@ -3937,12 +5062,16 @@
       "Juri Sub Branch": [
         "Dewan Irman Ali Market (1st floor), Bhabaniganj Bazar",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tarakanda Sub Branch": [
         "1st floor",
+        null,
+        null,
         null,
         null
       ]
@@ -3951,12 +5080,16 @@
       "Melandah Sub Branch": [
         "Mondal Market (1st floor),Holding- 0155-00",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Fenchuganj Sub Branch": [
         "Razzak Mansion 1st Floor, Holding-374",
+        null,
+        null,
         null,
         null
       ]
@@ -3965,6 +5098,8 @@
       "Madarganj Sub Branch": [
         "1st floor, Holding- 0113",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -3972,12 +5107,16 @@
       "Fulbaria Sub Branch, Mymensingh": [
         "Kazi Zafor Complex (1st floor), Holding- 0998-00, Bus Stand, Main Road",
         null,
-        null
+        null,
+        "590165",
+        "090611759"
       ]
     },
     {
       "Pirgacha Sub Branch": [
         "Halima Complex (1st floor), Pirgacha Bazar, Station Road",
+        null,
+        null,
         null,
         null
       ]
@@ -3986,12 +5125,16 @@
       "Mohongonj Sub Branch": [
         "Dr. B Ahmed Tower (1st-Floor)",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Eidgaon Sub Branch": [
         "Japan City (1st floor)",
+        null,
+        null,
         null,
         null
       ]
@@ -4000,12 +5143,16 @@
       "Center Bazar Sub Branch": [
         "BM Shopping Complex (1st floor), Holding- 103, KAFCO Center",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tarail Sub Branch": [
         "Miah Hossain Complex City (1st floor), Tarail Bazar",
+        null,
+        null,
         null,
         null
       ]
@@ -4014,6 +5161,8 @@
       "Lalmohan Sub Branch": [
         "Sikdar Plaza (1st - floor), Muktijoddha Avenue",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -4021,12 +5170,16 @@
       "Kalia Sub Branch": [
         "G S Plaza(1st floor), Holding-58",
         null,
-        null
+        null,
+        "591139",
+        "090330793"
       ]
     },
     {
       "Shyamnagar Sub Branch": [
         "Shyamnagar, Satkhira, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4035,12 +5188,16 @@
       "Kuliarchar Sub Branch": [
         "Kuliarchar, Kishoreganj, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Shibganj Sub Branch, Chapai": [
         "Shibganj, ChapaiNawabganj, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4049,12 +5206,16 @@
       "Oxygen Mor Sub Branch": [
         "Bayezid Bostami, Chottogram, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Dharmapasha Sub Branch": [
         "Dharmapasha, Sunamganj, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4063,12 +5224,16 @@
       "Bamna Sub Branch": [
         "Bamna, Barguna, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kamolganj Sub Branch": [
         "Kamolganj, Moulvibazar, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4077,12 +5242,16 @@
       "Pathorghata Sub Branch": [
         "Pathorghata, Barguna, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chaprashirhat Sub Branch": [
         "Kabirhat, Noakhali, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4091,12 +5260,16 @@
       "Tahirpur Sub Branch": [
         "Tahirpur, Sunamganj, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Babuganj Sub Branch": [
         "Babuganj, Barishal, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4105,12 +5278,16 @@
       "Muksudpur Sub Branch": [
         "Gopalgonj, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chandgaon Sub Branch": [
         "Chandgaon, Chattogram, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4119,12 +5296,16 @@
       "Tanore Sub Branch": [
         "Tanore, Rajshahi, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Patiya Sub Branch": [
         "Patiya, Chattogram, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4133,12 +5314,16 @@
       "Badargonj Sub Branch": [
         "Badargonj, Rangpur, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Akkelpur Sub Branch": [
         "Akkelpur, Joypurhat, Bangladesh",
+        null,
+        null,
         null,
         null
       ]
@@ -4147,6 +5332,8 @@
       "Rajnagar Sub Branch": [
         "Rajnagar, Moulvibazar, Bangladesh",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -4154,6 +5341,8 @@
       "Sub Branch Information": [
         "SUB BRANCH LOCATIONS",
         "https://www.dutchbanglabank.com/sub-branch/sub-branch-list.html",
+        null,
+        null,
         null
       ]
     },
@@ -4161,6 +5350,8 @@
       "SUB BRANCH LOCATIONS": [
         "SUB BRANCH SERVICES",
         "https://www.dutchbanglabank.com/sub-branch/sub-branch-list.html",
+        null,
+        null,
         null
       ]
     }

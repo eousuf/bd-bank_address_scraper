@@ -3,11 +3,16 @@
   "bank_url": "https://www.bankalfalah.com/bd/",
   "method": "pdf",
   "status": "success",
+  "bank_id": "75",
+  "total_branch": 8,
+  "total_sub_branch": 0,
   "branch": [
     {
       "Motijheel Islamic Banking Branch": [
         "Address, Rajuk Avenue, Motijheel, Dhaka, Dhaka, Dhaka",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null,
+        "750001",
         null
       ]
     },
@@ -15,6 +20,8 @@
       "Country Office": [
         "Address, Gulshan Avenue, Gulshan, Dhaka, Dhaka, Dhaka",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null,
+        null,
         null
       ]
     },
@@ -22,6 +29,8 @@
       "Gulshan Branch": [
         "Address, Gulshan Avenue, Gulshan, Dhaka, Dhaka, Dhaka",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null,
+        "750002",
         null
       ]
     },
@@ -29,6 +38,8 @@
       "Dhanmondi Branch": [
         "Address, 81/A, 8/A Satmasjid Road, Dhanmondi, Dhaka, Dhaka, Dhaka City Corporation, Dhaka",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null,
+        "750008",
         null
       ]
     },
@@ -36,20 +47,26 @@
       "Agrabad Branch": [
         "Address, Doublemoring, Chittagong, Chittagong, Chittagong City Corporation, Chittagong",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
-        null
+        null,
+        "750006",
+        "065150137"
       ]
     },
     {
       "Sylhet Branch": [
         "Address, J. R. Tower 23 Abash, Jail Road, North Bandar Bazar, Kotoali, Sylhet, Sylhet City Corporation, Sylhet",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
-        null
+        null,
+        "750007",
+        "065913558"
       ]
     },
     {
       "Uttara Branch": [
         "Address, House 4, Garib E Newaz Avenue, Sector 11,, Uttara, Uttara (West), Dhaka, Dhaka North City Corporation, Dhaka",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null,
+        "750102",
         null
       ]
     },
@@ -57,6 +74,8 @@
       "Mirpur Branch": [
         "Address, Lakewood Avenue Plot 01, Avenue 01, Section 11, Block D, Mirpur, Dhaka, Dhaka North City Corporation, Dhaka",
         "https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf",
+        null,
+        "750103",
         null
       ]
     }

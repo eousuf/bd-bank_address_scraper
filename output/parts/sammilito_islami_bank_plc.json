@@ -3,19 +3,16 @@
   "bank_url": "https://www.sammilitobankbd.com/",
   "method": "html_cards",
   "status": "success",
-  "branch": [
-    {
-      "No Branch Available": [
-        "Location information is",
-        null,
-        null
-      ]
-    }
-  ],
+  "bank_id": "42",
+  "total_branch": 0,
+  "total_sub_branch": 1,
+  "branch": [],
   "sub_branch": [
     {
       "No Sub Branch Available": [
         "Location information is",
+        null,
+        null,
         null,
         null
       ]

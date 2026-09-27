@@ -3,452 +3,583 @@
   "bank_url": "https://www.agranibank.org/",
   "method": "html_cards+html_table+jquery_ajax",
   "status": "success",
+  "bank_id": "11",
+  "total_branch": 93,
+  "total_sub_branch": 0,
   "branch": [
     {
       "IBW, Sadar Road Branch, Barishal": [
         "Sadar Road, Barishal",
         null,
-        "01790929486"
+        "01790929486",
+        "110741",
+        "010061813"
       ]
     },
     {
       "IBW, Bhola Branch,Bhola": [
         "Sen Plaza,Sadar Road, Bhola",
         null,
-        "01716-083065"
+        "01716-083065",
+        "110751",
+        "010090105"
       ]
     },
     {
       "Islami Banking Window, Thana Road Branch, Bogra": [
         "Agrani Bank Limited, Islami Banking Window, Thana Road Branch, Bogura",
         null,
-        "02589903083"
+        "02589903083",
+        "110990",
+        "010103168"
       ]
     },
     {
       "Islami Banking Window, Brahmanbaria Branch": [
         "Court Road, Brahmanbaria",
         null,
-        "01712-481115"
+        "01712-481115",
+        "110008",
+        "010120433"
       ]
     },
     {
       "Islami Banking Window, Chapai Nawabganj Branch, Chapai Nawabganj": [
         "kalitola, kathalbagicha, jhilim road, sadar, Chapai Nawabganj",
         null,
-        "01724-071414"
+        "01724-071414",
+        "111030",
+        "010281635"
       ]
     },
     {
       "Islami Banking Window, Hathazari Branch, Chattogram": [
         "Bus Station, Hathazari Powrasava, Hathazari, Chattogram",
         null,
-        "01711-998346"
+        "01711-998346",
+        "110097",
+        "010153226"
       ]
     },
     {
       "Islami Banking Window, Laldighi East Corp. Br., Chattogram": [
         "1st Floor, Zilla Parishad Bhaban, Chattogram",
         null,
-        "031-613224"
+        "031-613224",
+        "110068",
+        "010154546"
       ]
     },
     {
       "Islami Banking Window, Agrabad (JB) Corporate Br.": [
         "Agrani Banki Ltd,. Islami Banking Window, Agrabad (jb) Corporate Br.",
         null,
-        "02333310004"
+        "02333310004",
+        "110063",
+        null
       ]
     },
     {
       "IBW, Chuadanga Branch, Chuadanga": [
         "Ferry Ghat Road,Boro Bazar, Chuadanga",
         null,
-        "01927315776"
+        "01927315776",
+        "110764",
+        "010180194"
       ]
     },
     {
       "IBW, Cox's Bazar Branch, Cox's Bazar": [
         "1st FLoor, Asad Complex, Lal Dighir Par, Main Road, Coxs Bazar",
         null,
-        "01878363000"
+        "01878363000",
+        "110161",
+        null
       ]
     },
     {
       "Islami Banking Window, Monoharpur Branch, Cumilla": [
         "Ram Bhaban, Kandirpar Road, Cumilla",
         null,
-        "02334400116"
+        "02334400116",
+        "110138",
+        "010193073"
       ]
     },
     {
       "Islami Banking Window, Gulshan Corp. Branch, Gulshan.": [
         "H#30, R#130, South Avenue, Gulshan-1, Dhaka-1212.",
         null,
-        "02-222298170"
+        "02-222298170",
+        "110453",
+        null
       ]
     },
     {
       "IBW, Senpara Branch, Dhaka": [
         "15/kha, 6/2, Senpara Parbata, Mirpur, Dhaka.",
         null,
-        "01912861061"
+        "01912861061",
+        "110420",
+        null
       ]
     },
     {
       "Islami Banking Window, Mouchak Branch, Dhaka": [
         "Property Plaza, 66, New Circular Road, Malibagh, Dhaka",
         null,
-        "02-222220292"
+        "02-222220292",
+        "110443",
+        null
       ]
     },
     {
       "Islami Banking Window, Amin Court Corp. Branch, Motijheel.": [
         "Islami Banking Window, Amincourt Corp. Branch, Dhaka.",
         null,
-        "029515779"
+        "029515779",
+        null,
+        null
       ]
     },
     {
       "Islami Banking Window, Islampur, Dhaka": [
         "Aklima Gold Complex (1st floor), Garth Lane, Kumartuli, Islampur, Dhaka",
         null,
-        "0247391268"
+        "0247391268",
+        null,
+        null
       ]
     },
     {
       "Islami Banking Window, Uttara Model Town Corp. Branch, Dhaka": [
         "House # 9, Road #12, Sector #6, Uttara, Dhaka",
         null,
-        "0248954896"
+        "0248954896",
+        "110431",
+        null
       ]
     },
     {
       "IBW, Matuail Branch, Dhaka": [
         "Al-aminRoad, Pardogair, Demra, Dhaka",
         null,
-        "01818-253131"
+        "01818-253131",
+        "110396",
+        null
       ]
     },
     {
       "Islami Banking Window, B.A.F Branch, Dhaka": [
         "BAFWA Shoping Complex, First Floor, Dhaka Cantonment, Dhaka",
         null,
-        "02-48814290"
+        "02-48814290",
+        "110365",
+        null
       ]
     },
     {
       "IBW, Birampur Branch, Dinajpur": [
         "Main Road, Birampur",
         null,
-        "01724339242"
+        "01724339242",
+        "111022",
+        "010280344"
       ]
     },
     {
       "Islami Banking Window, Maldahpatty Branch,Dinajpur": [
         "Maldahpatty, Sadar,Dinajpur",
         null,
-        "01718-617367"
+        "01718-617367",
+        "111028",
+        null
       ]
     },
     {
       "Islami Banking Window, Faridpur Branch, Faridpur": [
         "Thana Road, Fardirpur",
         null,
-        "02-478805022"
+        "02-478805022",
+        "110467",
+        "010290521"
       ]
     },
     {
       "Islami Banking Window, Gaibandha Branch, Gaibandha": [
         "Station Road, Gaibandha",
         null,
-        "01719-709975"
+        "01719-709975",
+        "111048",
+        "010320525"
       ]
     },
     {
       "Islami Banking Window, Gazipur Corp. Branch, Gazipur": [
         "Majeda Complex, Joydebpur, Gazipur",
         null,
-        "01717-747697"
+        "01717-747697",
+        null,
+        "010330528"
       ]
     },
     {
       "Islami Banking Window, Gopalganj Branch": [
         "120,bangabandhu Sarak, Gopalgonj",
         null,
-        "01710-937609"
+        "01710-937609",
+        "110501",
+        "010350379"
       ]
     },
     {
       "IBW, Jamalpur Branch, Jamalpur": [
         "Tamaltala, Jamalpur",
         null,
-        "01722202528"
+        "01722202528",
+        "110514",
+        "010390850"
       ]
     },
     {
       "Islami Banking Window, Jashore Branch, Jashore": [
         "Shahid Road, Jashore",
         null,
-        "01719-456674"
+        "01719-456674",
+        null,
+        null
       ]
     },
     {
       "IBW, Jhenaidah Branch, Jhenaidah": [
         "Agnibina Sarok, Paira Chattar,Jhenaidah",
         null,
-        "02477746239"
+        "02477746239",
+        "110814",
+        "010440647"
       ]
     },
     {
       "IBW, Joypurhat Branch, Joypurhat": [
         "Station Road, Joypurhat",
         null,
-        "02589915773"
+        "02589915773",
+        "111065",
+        null
       ]
     },
     {
       "Islami Banking Window, Sir Iqbal Road Corp. Branch, Khulna": [
         "25, Sir Iqbal Road, Khulna",
         null,
-        "041-720933"
+        "041-720933",
+        "110847",
+        null
       ]
     },
     {
       "IBW, Kurigram Branch, Kurigram": [
         "Shapla Chattar, Kurigram",
         null,
-        "01717973528"
+        "01717973528",
+        "111077",
+        "010490400"
       ]
     },
     {
       "IBW, Islamic University Corporate Branch, Kushtia": [
         "Islamic University, Santidanga",
         null,
-        "01715-146183"
+        "01715-146183",
+        "110881",
+        "010500679"
       ]
     },
     {
       "Islami Banking Window, Kustia (Bara Bazar) Branch": [
         "Kiam Mansion (3rd floor), Bara Bazar, Kushtia.",
         null,
-        "02477782386"
+        "02477782386",
+        null,
+        "010500190"
       ]
     },
     {
       "IBW, Lakshmipur Branch, Lakshmipur": [
         "Laxmipur, Laxmipur",
         null,
-        "01814747340"
+        "01814747340",
+        null,
+        "010510735"
       ]
     },
     {
       "IBW, Lalmonirhat Branch, Lalmonirhat": [
         "Patowary Shopping Complex, Goshala Road, Lalmonirhat",
         null,
-        "01719245702"
+        "01719245702",
+        "111087",
+        "010520462"
       ]
     },
     {
       "Islami Banking Window, Manikgonj Bus Stand Branch, Manikgonj": [
         "Waisi Modern Plaza , 1st Floor, Saheed Shoroni Shorok, Manikganj Busstand, Manikganj",
         null,
-        "01924489970"
+        "01924489970",
+        "110572",
+        null
       ]
     },
     {
       "Islami Banking Window, Moulovi Bazar Branch, Moulvi Bazar": [
         "159, Hamidia Point, Moulovibazar Sadar, Moulvibazar",
         null,
-        "0241110112"
+        "0241110112",
+        "110224",
+        null
       ]
     },
     {
       "IBW, Munshigonj Branch, Munshigonj": [
         "Pakija Tower, 205 Bangbandhu Sheikh Mujib Sarak, Khaleast, Munshiganj Sadar, Munshiganj",
         null,
-        "01918-188388"
+        "01918-188388",
+        "110584",
+        null
       ]
     },
     {
       "IBW, Chotobazar Branch, Mymensingh": [
         "Gkmc Shaha Road, Mymensingh",
         null,
-        "01710-452530"
+        "01710-452530",
+        "110604",
+        "010611755"
       ]
     },
     {
       "IBW, Naogaon Branch, Naogaon": [
         "Old Busstand, Main Road, Naogaon Sadar, Naogaon.",
         null,
-        "01712-338489"
+        "01712-338489",
+        "111116",
+        "010641183"
       ]
     },
     {
       "Islami Banking Window, Court Road Branch, Narayanganj": [
         "52/1 BANGABANDHU ROAD , FAZAR ALI TRADE CENTER (2 NO RAILGATE), Narayangonj",
         null,
-        "01966-128771"
+        "01966-128771",
+        "110614",
+        "010670259"
       ]
     },
     {
       "IBW, Baburhat Branch,Narsingdi": [
         "RAZIB TOWER, BANK ROAD, PARKASHIPUR, MADHABDI, NARSINGDI",
         null,
-        "01318745074"
+        "01318745074",
+        "110021",
+        "010680102"
       ]
     },
     {
       "IBW, Natore Branch, Natore": [
         "Kanaikhali, Natore",
         null,
-        "01724248751"
+        "01724248751",
+        "111097",
+        "010691096"
       ]
     },
     {
       "IBW, Netrokona Branch, Netrokona": [
         "Malni Road, Sadar, Netrakona",
         null,
-        "01932-115940"
+        "01932-115940",
+        null,
+        "010720738"
       ]
     },
     {
       "IBW,Nilphamari Branch,Nilphamari": [
         "Station Road, Nilphamari",
         null,
-        "01712-245579"
+        "01712-245579",
+        "111150",
+        "010730731"
       ]
     },
     {
       "Islami Banking Window, Maizdee Court, Noakhali": [
         "Agrani Banki PLC., Islami Banking Window, Maizdee Court Branch, Town hall, Noakhali",
         null,
-        "0321-71307"
+        "0321-71307",
+        null,
+        null
       ]
     },
     {
       "IBW, Abdul Hamid Road Branch, Pabna": [
         "Abdul Hamid Road, Pabna",
         null,
-        "01712932569"
+        "01712932569",
+        "111156",
+        null
       ]
     },
     {
       "IBW, Panchagarh Branch,Panchagarh": [
         "Central Plaza, Panchagarh Sadar, Panchagarh",
         null,
-        "01737-047066"
+        "01737-047066",
+        "111188",
+        "010770559"
       ]
     },
     {
       "Islami Banking Window, Natun Bazar Branch, Patuakhali": [
         "Sadar Road,Natun Bazar, Patuakhali",
         null,
-        "01915-587540"
+        "01915-587540",
+        "110030",
+        "010131480"
       ]
     },
     {
       "IBW, Main Road Branch, Pirojpur": [
         "Zilla Parisad Market(1st Floor), Pirojpur Sadar, Pirojpur.",
         null,
-        "01721-538769; 01707-917776"
+        "01721-538769; 01707-917776",
+        "110714",
+        "010010851"
       ]
     },
     {
       "IBW, Rajbari Branch, Rajbari": [
         "Puran Bazar, Rajbari",
         null,
-        "01718-483530"
+        "01718-483530",
+        "110659",
+        "010820733"
       ]
     },
     {
       "Islami Banking Window, Saheb Bazar Corp. Branch": [
         "Shaheb Bazar, Goramara, Rajshahi-6100",
         null,
-        "02-588855742"
+        "02-588855742",
+        null,
+        null
       ]
     },
     {
       "IBW, Rajshahi University Branch, Rajshahi": [
         "Rajshahi University, Rajshahi",
         null,
-        "01722-320400"
+        "01722-320400",
+        "111213",
+        "010812112"
       ]
     },
     {
       "IBW, Bus Terminal Road Branch, Rangpur": [
         "Badargonj Road, Central Busterminal , Rangpur sadar, Rangpur",
         null,
-        "01727214618"
+        "01727214618",
+        "111233",
+        "010851665"
       ]
     },
     {
       "IBW, Sherpur Branch, Sherpur": [
         "Sherpur, Sherpur",
         null,
-        "01915-450838"
+        "01915-450838",
+        "110675",
+        "010102743"
       ]
     },
     {
       "Islami Banking Window, S.S. Road Branch, Sirajgonj": [
         "S. S. Road, Post: Sirajganj-6700, Sirajganj Sadar, Sirajganj",
         null,
-        "02588830366"
+        "02588830366",
+        "111261",
+        "010881785"
       ]
     },
     {
       "IBW, Derai Branch, Sunamganj": [
         "Derai, Derai Chadpur",
         null,
-        "01728-829259"
+        "01728-829259",
+        null,
+        "010901128"
       ]
     },
     {
       "IBW, Zinda Bazar Branch, Sylhet": [
         "Elegant Shopping Mall (1st Floor), Jollarpar Road, Zinda bazar, Sylhet.",
         null,
-        "0821717761"
+        "0821717761",
+        "110345",
+        "010914157"
       ]
     },
     {
       "Islami Banking Window, Tangail Branch, Tangail": [
         "Aysorjo Orkid,1st floor,Choyany Bazar, Tangail Sadar, Tangail",
         null,
-        "02997752846"
+        "02997752846",
+        "110697",
+        "010932292"
       ]
     },
     {
       "Islami Banking Window, Thakurgaon Branch, Thakurgaon": [
         "Shahid Mohammad Ali Sorok, Tatipara, Thakurgaon",
         null,
-        "01737-797825"
+        "01737-797825",
+        "111283",
+        "010940976"
       ]
     },
     {
       "Muladi branch": [
         "Khan bhaban , madda bazar, muladi, barishal",
         null,
-        null
+        null,
+        "110473",
+        "010061455"
       ]
     },
     {
       "Rajapur branch (ex: lebubunia hat)": [
         "Baghri bazar,rajapur,jhalakathi",
         null,
-        null
+        null,
+        null,
+        "010420054"
       ]
     },
     {
       "Azadi bazar branch, dharmapur, fatikchhari, chattogram.": [
         "Azadi bazar",
         null,
-        null
+        null,
+        "110046",
+        "010150737"
       ]
     },
     {
       "Bscic branch": [
         "Ranir bazar road, cumilla",
         null,
+        null,
+        "110122",
         null
       ]
     },
@@ -456,13 +587,17 @@
       "Burichong bazar branch": [
         "Haque mansion (2nd floor), burichong, cumilla",
         null,
-        null
+        null,
+        null,
+        "010190834"
       ]
     },
     {
       "Epz corporate branch": [
         "Bay shopping centre, 1st floor, cepz circle, chattogram.",
         null,
+        null,
+        "110093",
         null
       ]
     },
@@ -470,41 +605,53 @@
       "Gopalpur branch, noakhali": [
         "Gopalpur",
         null,
-        null
+        null,
+        "110250",
+        "010690497"
       ]
     },
     {
       "Nischintapur branch": [
         "5, durgapur, nischintapur , matlab uttar, chandpur",
         null,
-        null
+        null,
+        null,
+        "010130265"
       ]
     },
     {
       "Romoni mohol road(uttor), puran bazar branch, puran bazar": [
         "Puranbazar",
         null,
-        null
+        null,
+        "110033",
+        "010061697"
       ]
     },
     {
       "Subar bazar branch": [
         "Daud master market, main road, subar bazar, parshuram,feni",
         null,
-        null
+        null,
+        "110056",
+        "010300066"
       ]
     },
     {
       "Dhanbari branch (palli)": [
         "Bonik towar, dhaka-jamalpur road, dhanbari bus stand, dhanbari, tangail.",
         null,
-        null
+        null,
+        "110159",
+        "010930265"
       ]
     },
     {
       "Dolon bazar branch": [
         "Dolon bazar, kaliganj, gazipur",
         null,
+        null,
+        "110497",
         null
       ]
     },
@@ -512,12 +659,16 @@
       "Faridpur branch": [
         "Thana road, faridpur sadar, faridpur",
         null,
-        null
+        null,
+        "110467",
+        "010290521"
       ]
     },
     {
       "Hotel intercontinental corporate branch, 1 minto road, shabagh, dhaka.": [
         "Hotel intercontinental corp. br.",
+        null,
+        null,
         null,
         null
       ]
@@ -526,13 +677,17 @@
       "Kaliakoir branch": [
         "Kaliakoir ,",
         null,
-        null
+        null,
+        "110107",
+        "010330799"
       ]
     },
     {
       "Patiljhap bazar branch": [
         "Rashida bhaban(1st floor), patiljhap bazar, sholla, nawabgonj, dhaka",
         null,
+        null,
+        "110152",
         null
       ]
     },
@@ -540,26 +695,34 @@
       "Arpara branch": [
         "Samia plaza, jessore road shalikha, magura",
         null,
-        null
+        null,
+        "110292",
+        "010550137"
       ]
     },
     {
       "beroil palita bazar branch magura sadar magura": [
         "Beroil palita",
         null,
-        null
+        null,
+        "110891",
+        "010550553"
       ]
     },
     {
       "Kedargonj branch, chuadanga": [
         "Kedarganj",
         null,
-        null
+        null,
+        "110764",
+        "010180194"
       ]
     },
     {
       "Khulna specialized hospital branch": [
         "specialized hospital building ,second floor, holding -050304, ward -09,kcc,khalispur",
+        null,
+        null,
         null,
         null
       ]
@@ -568,6 +731,8 @@
       "Mohommadpur branch": [
         "Magura",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -575,12 +740,16 @@
       "Monirampur (polli branch)": [
         "134 g n market, monirampur",
         null,
-        null
+        null,
+        null,
+        "010411513"
       ]
     },
     {
       "Sotrujitpur (polli branch)": [
         "Satrujitpur ,magura sadar,magura",
+        null,
+        null,
         null,
         null
       ]
@@ -589,13 +758,17 @@
       "Ataikula branch, ataikula, pabna": [
         "Ataikula",
         null,
-        null
+        null,
+        "111177",
+        "010760222"
       ]
     },
     {
       "Chatmohar branch, bera, pabna": [
         "Chatmohar",
         null,
+        null,
+        "111178",
         null
       ]
     },
@@ -603,19 +776,25 @@
       "Chhaikola bazar branch": [
         "Chhaikola bazar, chatmohar.pabna",
         null,
-        null
+        null,
+        null,
+        "010760114"
       ]
     },
     {
       "Nazirganj branch, sujanagar, pabna": [
         "Nazirganj",
         null,
-        null
+        null,
+        null,
+        "010761726"
       ]
     },
     {
       "Sotihat (palli branch)": [
         "Naogaon-rajshahi highway, sotihat bazar, sreerampur, sotihat, manda, naogaon",
+        null,
+        null,
         null,
         null
       ]
@@ -624,38 +803,47 @@
       "Golapganj branch, golapganj": [
         "Golapganj",
         null,
-        null
+        null,
+        null,
+        "010911600"
       ]
     },
     {
       "Tamabil branch": [
         "Tamabil, gowainghat, sylhet",
         null,
-        null
+        null,
+        "110510",
+        "010910177"
       ]
     },
     {
       "Madan branch (netrokona palli)": [
         "Shamsunnahar market, holding no 242/3, jahangirpur center road,jahangirpur , madan , netrokona",
         null,
-        null
+        null,
+        null,
+        "010720738"
       ]
     },
     {
       "Srebordi branch": [
         "Mollah market, srebordi",
         null,
+        null,
+        null,
         null
       ]
-    }
-  ],
-  "sub_branch": [
+    },
     {
       "Subornochor branch": [
         "Haji super market, haris chowdhury bazar",
         null,
+        null,
+        null,
         null
       ]
     }
-  ]
+  ],
+  "sub_branch": []
 }

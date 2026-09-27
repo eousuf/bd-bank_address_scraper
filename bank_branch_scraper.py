@@ -26,6 +26,10 @@ Usage:
   python bank_branch_scraper.py --resume                 # skip banks already scraped OK
   python bank_branch_scraper.py --api-key fc-XXXX        # or FIRECRAWL_API_KEY env var, or .firecrawl_key file
   python bank_branch_scraper.py --no-firecrawl           # local stack only
+  python bank_branch_scraper.py --build-ids              # offline: BB PDFs -> output/bb_registry.json
+                                                         #   (needs geo_bank.pdf + All-Bank-Routing-Number.pdf)
+  python bank_branch_scraper.py --upgrade-parts          # offline: repair parts + attach Bank ID /
+                                                         #   FI Branch ID / routing numbers, re-merge
   banks.csv optional columns (highest priority, spaces in header ok):
     website / bank_url        -> official site URL (skips search discovery)
     branch_pages              -> ';'-separated listing page/PDF URLs
@@ -171,7 +175,7 @@ def find_phones(text):
             out.append(clean_ws(raw))
     return out
 
-SUB_RE = re.compile(r"sub[\s._-]*(?:br|b|o)|up[oa][\s._-]*sha[\s._-]*kha|উপ\s*শাখা", re.I)  # sub branch /
+SUB_RE = re.compile(r"sub[\s._-]*(?:branch|banch|br|b)\b|sub[\s._-]*offic|up[oa][\s._-]*sh[aeo][\s._-]*kha|উপ[\s._-]*শাখা", re.I)  # sub branch /
 # sub-branch / "SUB BANCH" (BCBL typo) / sub office / "Uposhakha" — the
 # romanized উপশাখা used as the outlet-name suffix (Global Islami, IFIC)
 # an outlet's OWN name ("ASAMPARA SUB BRANCH") as opposed to a bare
@@ -194,7 +198,7 @@ NEWS_NAME_RE = re.compile(
     r"published\s+(?:in|on)|auction|tender|"
     # holiday-schedule notice headlines (SEB): "LIST OF THE BRANCHES AND
     # UPOSHAKHAS** **SHALL REMAIN OPEN FROM May 17, 2020"
-    r"remain(?:s|ing|ed)?\s+open|list\s+of\s+(?:the\s+)?branch(?:es)?)\b", re.I)
+    r"remain(?:s|ing|ed)?\s+open|list\s+of\s+(?:the\s+)?(?:[a-z]+\s+){0,2}branch(?:es)?)\b", re.I)
 # rowspan layouts & card labels leak header/label junk as "names"
 GENERIC_NAME_RE = re.compile(
     r"^(branch|branches|branch\s*name|name\s*\(en\)|branch\s*(code|no|manager)|"
@@ -214,7 +218,11 @@ GENERIC_NAME_RE = re.compile(
     r"controlling\s+branch|home\s*[»>].*|find\s+branch(?:es)?\b.*|"
     r"branch(?:es)?\s*,?\s*(?:&|and|,)\s*atms?\b.*|"
     r".*branches?\s+are\s+on-?line.*|services\s+available.*|"
-    r"m/s[\s.,].*|.*\bproprietor\b.*|total\s+branch(?:es)?\s+list\b.*)$", re.I)
+    r"m/s[\s.,].*|.*\bproprietor\b.*|total\s+branch(?:es)?\s+list\b.*|"
+    # table titles / locator-widget junk rows that leak as records
+    r"no\s+branch(?:es)?\s+available.*|online\s+branch\s+visit\s+appointment.*|"
+    r"book\s+an?\s+appointment.*|we\s+are\s+on\s+the\s+map.*|"
+    r"(?:search|find|locate)\s+(?:for\s+)?your\s+nearest.*)$", re.I)
 BENGALI_RE = re.compile(r"[\u0980-\u09ff]")
 # address fragments captured as names (Uttara "Holding No.241", EXIM
 # "Ranu Plaza Holding No.136" premises cells) — no branch name ever contains
@@ -404,8 +412,8 @@ def bing_search(query, n=10):
     out = []
     for li in make_soup(r.text).select("li.b_algo"):
         a = li.find("a", href=True)
-        if a and a["href"].startswith("http"):
-            out.append({"url": a["href"], "title": a.get_text(" ", strip=True)})
+        if a and str(a["href"]).startswith("http"):
+            out.append({"url": str(a["href"]), "title": a.get_text(" ", strip=True)})
     return out
 
 def wiki_bank_sites():
@@ -422,8 +430,9 @@ def wiki_bank_sites():
             name = clean_ws(cells[0].get_text(" ", strip=True))
             link = ""
             for a in reversed(row.find_all("a", href=True)):
-                if a["href"].startswith("http") and "wikipedia" not in a["href"]:
-                    link = a["href"]
+                href = str(a["href"])
+                if href.startswith("http") and "wikipedia" not in href:
+                    link = href
                     break
             if name and link:
                 _WIKI_CACHE[name.lower()] = link
@@ -821,13 +830,13 @@ def blob_records(texts, page_sub, url=""):
         if "," in flat:
             head, rest = flat.split(",", 1)
             return clean_ws(head), clean_ws(rest)
-        return None, None
+        return "", ""
 
     for t in texts:
         if not t or re.fullmatch(r"[\d\W]+", t):
             continue
         head, rest = split_cell(t)
-        if not head or len(head) > 60 or len(rest or "") < 12:
+        if not head or not rest or len(head) > 60 or len(rest) < 12:
             continue
         if not any(k in rest.lower() for k in ADDR_KWS) and not find_phones(rest):
             continue
@@ -883,7 +892,7 @@ def extract_html_tables(html, base_url, page_sub=False):
         # ATM sections (#atms, class atm-*) hold booth tables whose rows are
         # plain site names ("PHQ", "Mymensingh Police Lines") — skip them
         if table.find_parent(lambda t: t.name in ("section", "div") and (
-                re.search(r"atm", str(t.get("id") or ""), re.I)
+                bool(re.search(r"atm", str(t.get("id") or ""), re.I))
                 or any(re.search(r"atm", c, re.I) for c in (t.get("class") or [])))):
             continue
         header_texts = [clean_ws(c.get_text(" ", strip=True))
@@ -1167,7 +1176,7 @@ def extract_script_json(html, base_url, page_sub=False):
     for sc in soup.find_all("script"):
         if sc.get("src"):
             continue
-        stype = (sc.get("type") or "").lower()
+        stype = str(sc.get("type") or "").lower()
         body = sc.string or sc.get_text()
         if not body:
             continue
@@ -1508,7 +1517,7 @@ def extract_datatables(html, base_url, page_sub=False):
                 # remap using the payload's own keys
                 keys = list(row.keys())
                 kcolm = map_columns(keys)
-                if kcolm["name"] is not None:
+                if kcolm is not None and kcolm["name"] is not None:
                     texts = [_dt_cell_text(row[k]) for k in keys]
                     rec = row_record(texts, kcolm, page_sub, url=base_url)
                     if rec:
@@ -2042,19 +2051,463 @@ def dedupe_records(records):
                 break
     return keep
 
+# --- Bangladesh Bank registry enrichment (optional) -------------------------
+# output/bb_registry.json is produced by bb_registry.py from Bangladesh Bank's
+# geo_bank.pdf (Bank ID + FI Branch ID per branch). When the registry exists,
+# scraper runs and enrich_parts.py attach bank_id (bank level) and fi_branch_id
+# (per record, 4th list element) automatically; without it both stay null and
+# the output keeps working exactly as before.
+
+_BB_REGISTRY = None
+_BB_BANK_IDX = None      # norm bank key -> {"bank_id": .., "rkey": registry key}
+_BB_BRANCH_IDX = {}      # registry bank key -> (exact map, token buckets)
+
+BANK_KEY_STOP = {"the", "and", "of", "for", "plc", "ltd", "limited",
+                 "bank", "banks", "bangladesh"}
+
+# CSV short names -> BB registry long names (norm_key on both sides), so
+# abbreviated banks still pick up their Bank ID / FI Branch IDs
+BB_BANK_ALIASES = {"exim": "export import",
+                   "hsbc": "hong kong shanghai banking corporation",
+                   "ncc": "national credit commerce"}
+
+def norm_key(s, drop_parens=True):
+    """Canonical bank-name matching key (shared with bb_registry.py)."""
+    s = str(s or "")
+    if drop_parens:
+        s = re.sub(r"\([^)]*\)", " ", s)
+    s = re.sub(r"[^a-z0-9\u0980-\u09ff]+", " ", s.lower()).strip()
+    return " ".join(t for t in s.split() if t not in BANK_KEY_STOP)
+
+def branch_key(s):
+    """Canonical branch-name matching key (type/legal suffix words stripped)."""
+    s = re.sub(r"\b(?:sub[\s-]*branch(?:es)?|branch(?:es)?|up[oa]sh[aeo]kha|"
+               r"plc|ltd|limited)\b", " ", str(s or "").lower())
+    s = re.sub(r"উপশাখা|উপ\s*শাখা|শাখা", " ", s)
+    return re.sub(r"[^a-z0-9\u0980-\u09ff]+", " ", s).strip()
+
+def bb_registry():
+    """Lazy loader for output/bb_registry.json; {} when file is absent."""
+    global _BB_REGISTRY
+    if _BB_REGISTRY is None:
+        try:
+            _BB_REGISTRY = json.loads(
+                (OUT_DIR / "bb_registry.json").read_text(encoding="utf-8"))
+        except Exception:
+            _BB_REGISTRY = {}
+    return _BB_REGISTRY
+
+def _bb_bank_lookup(bank):
+    """CSV bank name -> (bank_id, registry bank key) or (None, None)."""
+    global _BB_BANK_IDX
+    banks = bb_registry().get("banks") or {}
+    if not banks:
+        return None, None
+    if _BB_BANK_IDX is None:
+        _BB_BANK_IDX = {}
+        for k, v in banks.items():
+            entry = {"bank_id": (v or {}).get("bank_id"), "rkey": k}
+            _BB_BANK_IDX[k] = entry
+            for alt in (v or {}).get("alt_keys") or []:
+                if alt and alt not in _BB_BANK_IDX:
+                    _BB_BANK_IDX[alt] = entry
+    for key in (norm_key(bank), norm_key(bank, drop_parens=False)):
+        if key in _BB_BANK_IDX:
+            e = _BB_BANK_IDX[key]
+            return e["bank_id"], e["rkey"]
+    k = norm_key(bank)
+    if k in BB_BANK_ALIASES:
+        e = _BB_BANK_IDX.get(BB_BANK_ALIASES[k])
+        if e:
+            return e["bank_id"], e["rkey"]
+    if k:
+        for bk in banks:  # containment: "dhaka bank" ~ "dhaka bank plc"
+            if len(k) >= 6 and (k in bk or bk in k):
+                e = _BB_BANK_IDX[bk]
+                return e["bank_id"], e["rkey"]
+        import difflib
+        best, best_r = None, 0.0
+        for bk in banks:
+            r = difflib.SequenceMatcher(None, k, bk).ratio()
+            if r > best_r:
+                best, best_r = bk, r
+        if best is not None and best_r >= 0.82:
+            e = _BB_BANK_IDX[best]
+            return e["bank_id"], e["rkey"]
+    return None, None
+
+def _bb_branch_lookup(rkey, name):
+    """Registry bank key + branch name -> fi_branch_id (or None)."""
+    if not rkey:
+        return None
+    if rkey not in _BB_BRANCH_IDX:
+        branches = (bb_registry().get("branches") or {}).get(rkey) or {}
+        exact, buckets = {}, {}
+        for bk, v in branches.items():
+            exact[bk] = ((v or {}).get("fi_branch_id"), (v or {}).get("routing"))
+            for t in set(bk.split()):
+                buckets.setdefault(t[:4], set()).add(bk)
+        _BB_BRANCH_IDX[rkey] = (exact, buckets)
+    exact, buckets = _BB_BRANCH_IDX[rkey]
+    k = branch_key(name)
+    if not k or not exact:
+        return None
+    if k in exact:
+        return exact[k]
+    import difflib
+    cands = set()
+    for t in k.split():
+        cands |= buckets.get(t[:4], set())
+    for c in cands:  # containment: "agrabad" ~ "agrabad chattogram"
+        if len(k) >= 4 and (k in c or c in k):
+            return exact[c]
+    best, best_r = None, 0.0
+    for c in cands:
+        r = difflib.SequenceMatcher(None, k, c).ratio()
+        if r > best_r:
+            best, best_r = c, r
+    return exact.get(best) if (best is not None and best_r >= 0.87) else None
+
+# --- BB registry build (--build-ids, offline) --------------------------------
+# Two manually downloaded PDFs feed the registry (BB gates them behind a
+# browser check, so plain HTTP cannot fetch them):
+#   geo_bank.pdf                    -> Bank ID + FI Branch ID per branch
+#   All-Bank-Routing-Number.pdf     -> 9-digit BRSTN routing number per branch
+BB_GEO_PDF = BASE_DIR / "geo_bank.pdf"
+BB_ROUTING_PDF = BASE_DIR / "All-Bank-Routing-Number.pdf"
+
+BB_FIELD_RES = [
+    ("fi_branch_id", re.compile(r"f\.?\s*i\.?\s*branch\s*id|branch\s*id|outlet\s*id", re.I)),
+    ("bank_id", re.compile(r"bank\s*id", re.I)),
+    ("bank_name", re.compile(r"bank\s*name|^bank$|organisation|organization", re.I)),
+    ("branch_name", re.compile(r"branch\s*name|^branch$|^name$|branch\s*office|outlet\s*name", re.I)),
+    ("division", re.compile(r"division", re.I)),
+    ("district", re.compile(r"district|zila", re.I)),
+    ("thana", re.compile(r"thana|upa[\s-]?zila|police\s*station", re.I)),
+    ("routing", re.compile(r"rout(?:ing)?\s*(?:no|nr|number)?", re.I)),
+]
+
+def _pdf_table_rows(path):
+    """All table rows of a PDF as cleaned cell lists."""
+    import pdfplumber
+    rows = []
+    with pdfplumber.open(path) as pdf:
+        for page in pdf.pages:
+            for tbl in (page.extract_tables() or []):
+                for r in tbl:
+                    if r and any(c and clean_ws(c) for c in r):
+                        rows.append([clean_ws(c) for c in r])
+    return rows
+
+def _detect_bb_header(rows, scan=400):
+    """(colmap, header_cells) for the first row matching >=2 known fields."""
+    for row in rows[:scan]:
+        cells = [clean_ws(c) for c in (row or [])]
+        if not any(cells):
+            continue
+        colmap = {}
+        for i, cell in enumerate(cells):
+            if not cell:
+                continue
+            for field, rex in BB_FIELD_RES:
+                if field not in colmap and i not in colmap.values() and rex.search(cell):
+                    colmap[field] = i
+                    break
+        if len(colmap) >= 2 and ("bank_name" in colmap or "bank_id" in colmap):
+            return colmap, cells
+    return None, None
+
+def _unpair_double(w):
+    """'dduuttcchh' -> 'dutch': some routing-PDF pages render a shadow text
+    layer whose glyphs merge into doubled-character words."""
+    if len(w) >= 4 and len(w) % 2 == 0 and w[0::2] == w[1::2]:
+        return w[0::2]
+    return w
+
+def _routing_pdf_lines(path):
+    """The routing PDF cannot be split by column x-positions (long bank names
+    overflow into the district column) — the trailing 9-digit BRSTN is the
+    only reliable anchor. Returns [(words-before-routing, routing), ...]."""
+    import pdfplumber
+    out = []
+    with pdfplumber.open(path) as pdf:
+        for page in pdf.pages:
+            words = sorted(page.extract_words() or [],
+                           key=lambda w: (round(w["top"]), w["x0"]))
+            lines, cur, cur_top = [], [], None
+            for w in words:
+                if cur_top is None or abs(w["top"] - cur_top) <= 2:
+                    cur.append(w["text"])
+                else:
+                    lines.append(cur)
+                    cur = [w["text"]]
+                cur_top = w["top"]
+            if cur:
+                lines.append(cur)
+            for ln in lines:
+                if len(ln) < 3:
+                    continue
+                last = ln[-1].strip(".,")
+                if not (last.isdigit() and len(last) == 9):
+                    continue  # header / footer / page-number noise
+                ws = [_unpair_double(t.strip(".,"))
+                      for t in ln[:-1] if t.strip(".,")]
+                if ws:
+                    out.append((ws, last))
+    return out
+
+def build_bb_registry():
+    """--build-ids: parse the two BB PDFs into output/bb_registry.json."""
+    global _BB_REGISTRY, _BB_BANK_IDX
+    sources = [p for p in (BB_GEO_PDF, BB_ROUTING_PDF) if p.exists()]
+    if not sources:
+        LOG.error("no BB PDFs found: expected %s / %s next to this script",
+                  BB_GEO_PDF.name, BB_ROUTING_PDF.name)
+        return 1
+    banks, branches, n_rows = {}, {}, 0
+
+    def add_row(bname, bank_id, brname, fid, routing, district=""):
+        nonlocal n_rows
+        if (not brname or not bname
+                or re.fullmatch(r"[\d\s.]+", bname)
+                or re.match(r"^(grand\s+)?total\b", bname, re.I)):
+            return
+        if routing and not re.fullmatch(r"\d{6,9}", routing):
+            return  # footer/page-number noise, not a BRSTN
+        n_rows += 1
+        key = norm_key(bname)
+        if not key:
+            return
+        banks.setdefault(key, {
+            "bank_id": bank_id or None, "name": bname,
+            "alt_keys": sorted({norm_key(bname, drop_parens=False)} - {key})})
+        bk = branch_key(brname)
+        if not bk:
+            return
+        ent = branches.setdefault(key, {}).setdefault(
+            bk, {"fi_branch_id": None, "routing": None, "name": brname})
+        if fid and not ent["fi_branch_id"]:
+            ent["fi_branch_id"] = fid
+        if routing and not ent["routing"]:
+            ent["routing"] = routing
+        if district and not ent.get("district"):
+            ent["district"] = district
+
+    if BB_GEO_PDF.exists():
+        LOG.info("parsing %s ...", BB_GEO_PDF.name)
+        rows = _pdf_table_rows(BB_GEO_PDF)
+        colmap, header = _detect_bb_header(rows)
+        if not colmap:
+            LOG.error("%s: no recognizable header (Bank ID / FI Branch ID / Bank Name)",
+                      BB_GEO_PDF.name)
+            return 1
+
+        def cell(row, field):
+            i = colmap.get(field)
+            return clean_ws(row[i]) if i is not None and i < len(row) else ""
+
+        LOG.info("  %d table rows", len(rows))
+        for row in rows:
+            if row == header:
+                continue
+            add_row(cell(row, "bank_name"), cell(row, "bank_id"),
+                    cell(row, "branch_name"), cell(row, "fi_branch_id"),
+                    "", cell(row, "district"))
+    if BB_ROUTING_PDF.exists():
+        LOG.info("parsing %s ...", BB_ROUTING_PDF.name)
+        lines = _routing_pdf_lines(BB_ROUTING_PDF)
+        LOG.info("  %d lines", len(lines))
+        # district names (geo spellings + legacy ones the routing PDF uses)
+        districts = {clean_ws(v.get("district") or "").upper()
+                     for b in branches.values() for v in b.values()
+                     if v.get("district")}
+        districts.update({"BOGRA", "CHITTAGONG", "COMILLA", "JESSORE", "BARISAL",
+                          "DINAJPUR", "BHOLA", "NOAKHALI", "MADARIPUR"})
+        drop_head = {"BANK", "LTD", "PLC", "LIMITED", "AND", "THE", "BANGLADESH",
+                     "BANGLDESH"}
+
+        def resolve_bank(words):
+            """Leading words -> (registry bank key, words consumed). Exact
+            matches first (any prefix length), then containment (longest
+            prefix first), then fuzzy — so a short contained prefix never
+            beats the bank's real full name."""
+            import difflib
+            cands = []
+            for n in range(1, min(6, len(words)) + 1):
+                cand = norm_key(" ".join(words[:n]))
+                if not cand:
+                    continue
+                cands.append((cand, n))
+                if cand in banks:
+                    return cand, n
+                if BB_BANK_ALIASES.get(cand) in banks:
+                    return BB_BANK_ALIASES[cand], n
+            for cand, n in reversed(cands):  # containment, longest prefix first
+                for bk in banks:
+                    if len(cand) >= 6 and (cand in bk or bk in cand):
+                        return bk, n
+            for cand, n in reversed(cands):  # fuzzy, longest prefix first
+                best, br = None, 0.0
+                for bk in banks:
+                    r = difflib.SequenceMatcher(None, cand, bk).ratio()
+                    if r > br:
+                        best, br = bk, r
+                if best is not None and br >= 0.85:
+                    return best, n
+            return None, 0
+
+        unresolved = skipped = 0
+        for words, routing in lines:
+            key, n = resolve_bank(words)
+            rest = words[n:]
+            while rest and rest[0].upper().strip(".") in drop_head:
+                rest = rest[1:]
+            if key is None or not rest:
+                unresolved += 1
+                continue
+            dist = ""
+            if len(rest) > 1 and rest[0].upper().strip(".") in districts:
+                dist = rest[0].upper().strip(".")
+                rest = rest[1:]
+            add_row(banks[key]["name"], banks[key].get("bank_id") or "",
+                    " ".join(rest), "", routing, dist)
+        if unresolved:
+            LOG.info("  %d lines skipped (bank unresolvable/no branch text)",
+                     unresolved)
+    for k, v in banks.items():
+        v["branch_count"] = len(branches.get(k, {}))
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    reg = {"_meta": {"generated": time.strftime("%Y-%m-%d"),
+                     "sources": [p.name for p in sources],
+                     "data_rows": n_rows},
+           "banks": banks, "branches": branches}
+    (OUT_DIR / "bb_registry.json").write_text(
+        json.dumps(reg, ensure_ascii=False), encoding="utf-8")
+    LOG.info("registry -> output/bb_registry.json | banks: %d | branch entries: %d | rows: %d",
+             len(banks), sum(len(v) for v in branches.values()), n_rows)
+    _BB_REGISTRY, _BB_BANK_IDX = None, None
+    _BB_BRANCH_IDX.clear()
+    return 0
+
+# pre-fix sub marker: its false positives ("Subornochor", "Subongankar" —
+# 'sub' + o/b) are the records --upgrade-parts moves back to branch
+SUB_RE_LOOSE = re.compile(r"sub[\s._-]*(?:br|b|o)", re.I)
+
+def _part_junk_name(nm):
+    nm = (nm or "").rstrip(" :;,.|-")
+    if not nm:
+        return False
+    addr_hit = ADDR_NAME_RE.search(nm)
+    if (addr_hit and BRANCH_NAME_RE.search(nm)
+            and not re.search(r"holding|plot|house|shop|ward|post\s*al?\s*code",
+                              nm, re.I)):
+        addr_hit = None  # 'Banani Road No 11 Branch' is a name, not an address
+    return bool(ATM_NAME_RE.search(nm) or NEWS_NAME_RE.search(nm)
+                or GENERIC_NAME_RE.match(nm) or addr_hit
+                or PROMO_NAME_RE.search(nm) or re.fullmatch(r"[\d\W]+", nm))
+
+def upgrade_parts(dry_run=False):
+    """--upgrade-parts: one-shot offline repair + enrichment of parts.
+      * drops junk names older filters missed (Sonali's 'LIST OF DOMESTIC
+        BRANCHES…', Sammilito's 'No Branch Available', widget rows)
+      * repairs sub/branch misclassifications from the old loose sub marker
+        ('Subornochor Branch' was read as sub-office)
+      * attaches bank_id and per-record fi_branch_id + routing number from
+        output/bb_registry.json (record values become 5-element lists)
+      * refreshes totals and re-merges banks_branches.json
+    """
+    reg = bb_registry()
+    have_reg = bool(reg.get("banks"))
+    LOG.info("bb_registry: %s", f"loaded ({len(reg['banks'])} banks)" if have_reg
+             else "not found — ids/routing stay null (run --build-ids first)")
+    stats = {"parts": 0, "dropped": 0, "to_branch": 0, "to_sub": 0,
+             "with_ids": 0, "with_routing": 0, "unmarked_subs": 0}
+    for path in sorted(PARTS_DIR.glob("*.json")):
+        try:
+            d = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        bank = d.get("_bank") or path.stem
+        bank_id, rkey = _bb_bank_lookup(bank)
+        branch, sub = [], []
+        for grp in ("branch", "sub_branch"):
+            for entry in (d.get(grp) or []):
+                if not isinstance(entry, dict) or not entry:
+                    continue
+                name = next(iter(entry))
+                if _part_junk_name(str(name)):
+                    stats["dropped"] += 1
+                    LOG.info("  junk dropped [%s]: %r", bank[:30], name)
+                    continue
+                val = list(entry[name] or [])[:3]
+                fid, routing = _bb_branch_lookup(rkey, str(name)) or (None, None)
+                if fid:
+                    stats["with_ids"] += 1
+                if routing:
+                    stats["with_routing"] += 1
+                val += [fid, routing]
+                if SUB_RE.search(str(name)):
+                    if grp == "branch":
+                        stats["to_sub"] += 1
+                    sub.append({name: val})
+                elif grp == "sub_branch" and not SUB_RE_LOOSE.search(str(name)):
+                    # typed as sub via the page/type column at scrape time —
+                    # the name carries no marker, trust the original typing
+                    stats["unmarked_subs"] += 1
+                    sub.append({name: val})
+                else:
+                    if grp == "sub_branch":
+                        stats["to_branch"] += 1  # 'Subornochor' was never a sub
+                    branch.append({name: val})
+        new = {"_bank": d.get("_bank", path.stem)}
+        for k in ("bank_url", "method", "status"):
+            if k in d:
+                new[k] = d[k]
+        new["bank_id"] = bank_id
+        new["total_branch"] = len(branch)
+        new["total_sub_branch"] = len(sub)
+        for k, v in d.items():
+            if k not in new and k not in ("branch", "sub_branch"):
+                new[k] = v
+        new["branch"] = branch
+        new["sub_branch"] = sub
+        stats["parts"] += 1
+        if not dry_run and new != d:
+            path.write_text(json.dumps(new, ensure_ascii=False, indent=2),
+                            encoding="utf-8")
+    LOG.info("upgrade: %s", json.dumps(stats))
+    if not dry_run:
+        BANKS[:] = load_banks()
+        merge_and_write_final()
+    return 0
+
 def bank_result_template():
-    # schema: bank_url, method, status + grouped records:
-    #   branch / sub_branch: [{"<name>": [address, url, contact_number]}, ...]
+    # schema: bank_url, method, status, BB id/totals + grouped records:
+    #   branch / sub_branch: [{"<name>": [address, url, phone, fi_branch_id, routing_no]}, ...]
     return {"bank_url": None, "method": None, "status": "failed",
+            "bank_id": None, "total_branch": 0, "total_sub_branch": 0,
             "branch": [], "sub_branch": []}
 
-def build_result(result, records, methods):
+def build_result(result, records, methods, bank=""):
+    bank_id, rkey = _bb_bank_lookup(bank)
     for r in records:
+        # final classification guard: dedupe_records() may salvage or rename
+        # records ("X Uposhakha" rebuilt from an address blob) — any name
+        # carrying a sub-branch marker lands in sub_branch regardless of what
+        # the page-level hints said
+        if SUB_RE.search(r.get("name") or ""):
+            r["is_sub"] = True
         p = "sub_branch" if r.get("is_sub") else "branch"
+        fid, routing = _bb_branch_lookup(rkey, r.get("name") or "") or (None, None)
         result[p].append({(r.get("name") or ""): [
             r.get("address") or None,
             r.get("url") or None,
-            r.get("phone") or None]})
+            r.get("phone") or None,
+            fid,
+            routing]})
+    result["bank_id"] = bank_id
+    result["total_branch"] = len(result["branch"])
+    result["total_sub_branch"] = len(result["sub_branch"])
     result["method"] = "+".join(sorted(methods)) if methods else None
 
 EXTRACTORS = [
@@ -2235,7 +2688,7 @@ def process_bank(bank):
             methods["pdf"] = methods.get("pdf", 0) + len(got)
             LOG.info("    pdf -> %d records", len(got))
     records = dedupe_records(records)
-    build_result(result, records, methods)
+    build_result(result, records, methods, bank=bank)
     result["status"] = "success" if records else "failed"
     if not records:
         result["error"] = "no branch data extracted (site may need JS rendering)"
@@ -2245,7 +2698,7 @@ CSV_HINTS = {}  # filled by load_banks(): bank name -> {"website", "branch_pages
 BANKS = []      # filled in main(): every bank in banks.csv (merge scope)
 
 def load_banks():
-    p = Path(ARGS.csv)
+    p = Path(ARGS.csv) if ARGS is not None else BASE_DIR / "banks.csv"
     if not p.exists():
         p = BASE_DIR / "banks.csv"
     banks = []
@@ -2309,7 +2762,7 @@ def merge_and_write_final():
             continue
         bank = r.pop("_bank", part.stem)
         merged[bank] = r
-    out = Path(ARGS.out)
+    out = Path(ARGS.out) if ARGS is not None else OUT_DIR / "banks_branches.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
     return merged
@@ -2327,8 +2780,20 @@ def main():
     ap.add_argument("--no-firecrawl", action="store_true", help="disable firecrawl entirely")
     ap.add_argument("--max-pages", type=int, default=25)
     ap.add_argument("--delay", type=float, default=1.2, help="polite delay between pages (s)")
+    ap.add_argument("--build-ids", action="store_true",
+                    help="offline: parse geo_bank.pdf + All-Bank-Routing-Number.pdf "
+                         "into output/bb_registry.json (Bank ID / FI Branch ID / routing)")
+    ap.add_argument("--upgrade-parts", action="store_true",
+                    help="offline: repair existing parts (junk names, sub/branch fixes) "
+                         "and attach BB ids + routing numbers, then re-merge")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="with --upgrade-parts: report what would change, write nothing")
     ARGS = ap.parse_args()
     setup_logging()
+    if ARGS.build_ids:
+        return build_bb_registry()
+    if ARGS.upgrade_parts:
+        return upgrade_parts(dry_run=ARGS.dry_run)
     FC["enabled"] = not ARGS.no_firecrawl
     key_file = BASE_DIR / ".firecrawl_key"
     if not ARGS.api_key and key_file.exists():

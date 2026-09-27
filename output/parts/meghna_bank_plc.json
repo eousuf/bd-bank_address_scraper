@@ -3,39 +3,52 @@
   "bank_url": "https://www.meghnabank.com.bd/retail",
   "method": "html_cards",
   "status": "success",
+  "bank_id": "78",
+  "total_branch": 36,
+  "total_sub_branch": 0,
   "branch": [
     {
       "Branches Location": [
         "Call Center 16735",
         "https://www.meghnabank.com.bd",
-        "+8809610016735"
+        "+8809610016735",
+        null,
+        null
       ]
     },
     {
       "Banani Branch": [
         "Autograph-Level# 2,78,Kemal Ataturk Avenue,Dhaka-1213,Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "+880 9610-016736"
+        "+880 9610-016736",
+        "780122",
+        null
       ]
     },
     {
       "Rampal Branch": [
         "Sufia Plaza (1st Floor), Shipahi Para, Rampal, Munshigonj",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01711144995; 01777797780"
+        "01711144995; 01777797780",
+        "780117",
+        "275591173"
       ]
     },
     {
       "Narayanganj Branch": [
         "Hazi Hashem Trade Center, 55/A, S.M. Maleh Road, Tanbazar, Narayangonj, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        null,
+        "275671185"
       ]
     },
     {
       "Sonargaon Branch": [
         "RK Tower, 312 Hatirpul, Sonargaon Road, Dhaka",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        "780120",
         null
       ]
     },
@@ -43,13 +56,17 @@
       "DHANMONDI Branch": [
         "48/8 Vasha Shainik Towaha Sarak, (Satmashjid Road), Dhanmondi, Dhaka, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "02 9136125; 02 9136124; 01713657495"
+        "02 9136125; 02 9136124; 01713657495",
+        "780112",
+        null
       ]
     },
     {
       "MOHAMMADPUR Branch": [
         "RK Tower, 312 Hatirpul, Sonargaon Road, Dhaka",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -57,20 +74,26 @@
       "Uttara Branch": [
         "Shafina Center (1st Floor), 14 Garib-E-Newaz Avenue, Sector - 11, Uttara, Dhaka - 1210",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "02 48961047; 02 48961028; 01777797837"
+        "02 48961047; 02 48961028; 01777797837",
+        null,
+        "275264639"
       ]
     },
     {
       "Gazipur Branch": [
         "Chandana Plaza, Chandana Chowrasta, Joydebpur, Gazipur, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780107",
+        "275330550"
       ]
     },
     {
       "Address : Zirabo Branch, Jalil Complex,Zirabo, Yearpur, Ashulia, Dhaka": [
         "Manager : Shah Mohammad Zakir Hossain",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        "780116",
         null
       ]
     },
@@ -78,48 +101,62 @@
       "Kalampur Branch": [
         "Jahanara Super Market, Kalampur, Dhamrai, Dhaka, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01819201550"
+        "01819201550",
+        "780106",
+        null
       ]
     },
     {
       "Madhabdi Branch": [
         "Haji Siraj Tower, Madhabdi Bazar, Narsinghdi, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01712087536"
+        "01712087536",
+        "780111",
+        "275680671"
       ]
     },
     {
       "Bormi Bazar Branch": [
         "Paul Super Market, Bormi Bazar, Sreepur, Gazipur, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01777797774"
+        "01777797774",
+        "780109",
+        "275330284"
       ]
     },
     {
       "Rajshahi Branch": [
         "Prince Tower 25 Ranibazaar Bata Mor, Shaheb Bazaar, Rajshahi",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780303",
+        "275811932"
       ]
     },
     {
       "Feni Branch": [
         "Kamal and Rafiq Plaza, 327 Shahid Shahidullah Kaisar Road, Feni-3900",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "+8801777797798"
+        "+8801777797798",
+        "780006",
+        "275301068"
       ]
     },
     {
       "Joypurhat Branch": [
         "84 Tazim Plaza, Batamore, Joypurhat",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "+8801713657487; +8801713647489"
+        "+8801713657487; +8801713647489",
+        null,
+        "275380405"
       ]
     },
     {
       "Islamic Banking Window, Shathibari_Bazar Branch": [
         "RK Tower, 312 Hatirpul, Sonargaon Road, Dhaka",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -127,34 +164,44 @@
       "Islamic Banking Window, Sylhet Branch": [
         "Bakht Center (1 st Floor), 2837-00, Laldighir Par, Sylhet",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01712287565"
+        "01712287565",
+        null,
+        null
       ]
     },
     {
       "Jessore Branch": [
         "20 RN Road, Jessore",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        null,
+        "275410946"
       ]
     },
     {
       "Takerhat Branch": [
         "Sahabuddin Molla Complex (1st floor), Takerhat, Razoir, Madaripur",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780114",
+        "275540766"
       ]
     },
     {
       "Ananda Bazar Branch": [
         "Anandabazar, Ramdaspur, Matlab Uttar, Chandpur",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780009",
+        "275130239"
       ]
     },
     {
       "Cumilla Branch": [
         "Razzak Mansion Complex, 63, Nazrul Avenue, Kandirpar, Cumilla",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -162,34 +209,44 @@
       "Khulna Branch": [
         "20 RN Road, Jessore",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        null,
+        "275471543"
       ]
     },
     {
       "Nalchity Branch": [
         "11 Station Road, Nalchity, Jhalakathi",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01713-657481"
+        "01713-657481",
+        "780402",
+        "275420499"
       ]
     },
     {
       "Munshirhat Branch": [
         "Amir Hossain Dealer Market, Munshirhat Bazar, Munshirhat, Choddogram, Cumilla",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01777797794"
+        "01777797794",
+        "780005",
+        "275190411"
       ]
     },
     {
       "Pangsha Branch": [
         "Pangsha Bazar, Pangsha, Rajbari",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780121",
+        "275820673"
       ]
     },
     {
       "CHOYANI BAZAR BRANCH": [
         "Sobhan Market, School Road, Choyani Uttar Bazar, Begumgonj, Noakhali, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        "780003",
         null
       ]
     },
@@ -197,6 +254,8 @@
       "Noakhali Branch": [
         "20 RN Road, Jessore",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -204,6 +263,8 @@
       "BANDURA BRANCH": [
         "SD Shopping Complex, Bandura Bazar, Nawabgonj, Dhaka, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        "780110",
         null
       ]
     },
@@ -211,6 +272,8 @@
       "Chittagong Branch": [
         "20 RN Road, Jessore",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -218,6 +281,8 @@
       "Raozan Branch": [
         "Noapara School Market (1st Floor), Patherhat, Noapara, Raozan, Chittagong",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
+        null,
+        null,
         null
       ]
     },
@@ -225,35 +290,45 @@
       "Patherhat Branch": [
         "Noapara School Market (1st Floor), Patherhat, Noapara, Raozan, Chittagong",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780008",
+        "275156134"
       ]
     },
     {
       "Aman Bazar Branch": [
         "Sanowara Convention Hall(1st Floor), Aman Bazar, Chickondondi,Hathazari, Chittagong",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780010",
+        "275150251"
       ]
     },
     {
       "Madam Bibirhat Branch": [
         "M.A. Electric Market, Madambibirhat, Near Sheuli Petrol Pump, Bhatiary, Chittagong, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "01730704715"
+        "01730704715",
+        null,
+        "275154699"
       ]
     },
     {
       "Agrabad Branch": [
         "Delwar Tower, 104, Agrabad C/A, Chittagong, Bangladesh",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        "0312 522359; 01777797770"
+        "0312 522359; 01777797770",
+        "780001",
+        "275150130"
       ]
     },
     {
       "Anowara Branch": [
         "Anu Meah Market, Shah Mohsen Aulia Sarak, Anowara, Chittagong",
         "https://www.meghnabank.com.bd/cdn-cgi/l/email-protection",
-        null
+        null,
+        "780013",
+        "275150527"
       ]
     }
   ],

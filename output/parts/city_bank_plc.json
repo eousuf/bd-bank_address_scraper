@@ -3,46 +3,52 @@
   "bank_url": "https://www.citybankplc.com/",
   "method": "html_cards+jquery_ajax+markdown",
   "status": "success",
+  "bank_id": "44",
+  "total_branch": 138,
+  "total_sub_branch": 79,
   "branch": [
-    {
-      "Search your nearest City Bank PLC Branches": [
-        "Citygem Center",
-        null,
-        null
-      ]
-    },
     {
       "AGRABAD BRANCH": [
         "House: Banani Complex, 942/A (Gr fl), Area: Agrabad C/A, Road: Sheikh Mujib Road, PO: Bandar, PS: Double Mooring, Dist: Chittagong - 4100., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333319965"
+        "02333319965",
+        "440001",
+        "225150135"
       ]
     },
     {
       "ALFADANGA BRANCH": [
         "Alfadanga Pouro Super Market , Holding No-614, Pourashava- Alfadanga,PS- Alfadanga, District- Faridpur., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "8802478806506"
+        "8802478806506",
+        "440104",
+        "225290040"
       ]
     },
     {
       "AMBARKHANA BRANCH": [
         "House: B 100, 1st Floor, East Dargha Gate, Airport Road, Ambarkhana, Sylhet, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996631067"
+        "02996631067",
+        "440162",
+        "225910041"
       ]
     },
     {
       "ANDARKILLA BRANCH": [
         "Equity Antara. Holding No. 352/536. 1st Floor 123, Momin Road, Kotowali Chattogram-4000, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333369072"
+        "02333369072",
+        "440049",
+        null
       ]
     },
     {
       "ASHULIA BRANCH": [
         "House Name:, Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440103",
         null
       ]
     },
@@ -50,55 +56,71 @@
       "ATI BAZAR BRANCH": [
         "Atibazar Branch, Abrar Tower (1st floor), Shahid Nagar, Dag no: R.S 489, Khatian no : R.S, Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        null,
+        "225270349"
       ]
     },
     {
       "B.B. AVENUE BRANCH": [
         "House: 12 Hasan Building(GR fl & 1st fl), Area: 12 B.B Avenue, PO: GPO, PS: Paltan, Dist: Dhaka - 1000., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02223382278"
+        "02223382278",
+        "440018",
+        null
       ]
     },
     {
       "BAGHER BAZAR BRANCH": [
         "Bagher Bazar Branch, Haji Samsuddin & Banesa Market (1st Floor), Shirir Chala, Bagher Bazar Branch, Dag no : R.S, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "01903886544"
+        "01903886544",
+        "440115",
+        "225330184"
       ]
     },
     {
       "BANANI BRANCH": [
         "House: 28(GR fl, 1st fl & 2nd fl), Road: 11, Block: F, Area: Banani, P.O: Banani, P.S: Gulshan, Dist: Dhaka - 1213., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0222270079"
+        "0222270079",
+        "440184",
+        null
       ]
     },
     {
       "BANANI LAKE VIEW BRANCH": [
         "Ventura Iconia (1st Floor), Holding No: 37, Road: 11, Ward: 19, Block: H, P.S: Banani, Dhaka North City Corporation. Dist: Dhaka, Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "055042001"
+        "055042001",
+        "440110",
+        null
       ]
     },
     {
       "BANDAR BAZAR BRANCH": [
         "House: Metro Centre(1st fl), Road: South Dhopadighir Paar,Bandar Bazar East, Area: Sylhet, P.O: Sadar, P.S: Kotwali, Dist: Sylhet - 3100., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0821714552"
+        "0821714552",
+        "440008",
+        "225913556"
       ]
     },
     {
       "BANDARTILA BRANCH": [
         "House: 2461 A-Chamber (1st fl), Road: Airport Road, Area: Bandartila, PO: Sailor, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440005",
+        "225150948"
       ]
     },
     {
       "BANDURA BAZAR BRANCH": [
         "House: Dennis Business Heaven (1st fl), Area: Bandura Bazar PO: Old Bandura, PS: Nawabganj, Dist: Dhaka - 1320., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440024",
         null
       ]
     },
@@ -106,13 +128,17 @@
       "BARISHAL BRANCH": [
         "House: 19 Razzak Mansion(1st fl), Area: Barisal, PO: Barisal, PS: Kotwali, Dist: Barisal - 8200., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "047886442"
+        "047886442",
+        "440442",
+        "225060283"
       ]
     },
     {
       "Bashundhara Branch": [
         "Union Tower (1st Floor), Evercare Hospital Road , Block-A , Bashundhara R/A, Ward No-40, Dhaka South City Corporation, Dhaka, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440120",
         null
       ]
     },
@@ -120,34 +146,44 @@
       "BEANI BAZAR BRANCH": [
         "House: (GR fl), Road: Hospital Road, Area: Nayagram, P.O: Beani Bazar, P.S: Beani Bazar, Dist: Sylhet - 3170., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996646367"
+        "02996646367",
+        "440111",
+        "225910317"
       ]
     },
     {
       "BENAPOLE BRANCH": [
         "House: 381, Selim Sumon Super Market (Ground Floor), Jessore Road, P.O.: Benapole, P.S.: Benapole, Dist: Jessore - 7431., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0247776772"
+        "0247776772",
+        "440044",
+        "225410288"
       ]
     },
     {
       "BHAIRAB BAZAR BRANCH": [
         "House: 129(1st fl), Road: Kali Bari Road, Area: Bhairab Bazar, PO: Bhairab Bazar, PS: Bhairab, Dist: Kishoregonj - 2350., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "09470569"
+        "09470569",
+        "440271",
+        "225480221"
       ]
     },
     {
       "BHATIARY AGRI BRANCH": [
         "House: Rahman Tower, Bhatiary Bazar, Road: Bhatiary Station Road, PO: Sitakunda, PS: Sitakunda, Dist: Chittagong - 4001., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "01976626662"
+        "01976626662",
+        null,
+        null
       ]
     },
     {
       "BHOLA BRANCH": [
         "Building name: Nobi Bhabon-2, Holding Number: 929, Road Name: Mohajon Patti Road, Ward: 06, Paurashava: Bhola, Thana: Bhola Sadar, District: Bhola, Bhola",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440402",
         null
       ]
     },
@@ -155,55 +191,71 @@
       "BHULTA BRANCH": [
         "Purbachal New Garden City , Dag No: SA 103 & RS 45, Khatian No-SA 213 & RS 612, Mouja- Golakandail, Union- Golakandail, Upzila: Rupgonj, District: Narayangonj, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440107",
+        "225670228"
       ]
     },
     {
       "BISWANATH BRANCH": [
         "Rahman Mansion , Dag No-2052(New)1475(old),Khatian No-937(New)890(Old)(Jel87), Mouja-Chandoshir Kapon, Ward No-09, Powroshava- Bishwanath,Upozila- Bishwanath, District- Sylhet, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996645196"
+        "02996645196",
+        "440112",
+        null
       ]
     },
     {
       "BOGURA BRANCH": [
         "Masuma Plaza, Holding No. 766 Rangpur Road, Borogola, Dutta Bari Bogura, Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0589903366"
+        "0589903366",
+        null,
+        null
       ]
     },
     {
       "BRAHMANBARIA BRANCH": [
         "House: 1329/1 Razzaque Plaza(1st fl), Area: Kawtali, PO: Brahmanbaria Sadar, PS: Brahmanbaria Sadar, Dist: Brahmanbaria - 3400., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334429655"
+        "02334429655",
+        "440160",
+        "225120431"
       ]
     },
     {
       "CHANDPUR BRANCH": [
         "House: 57/54 Rajanigandha Shoping Centre(1st fl), Road: Comilla Road, Area: Natun Bazar, PO: Chandpur, PS: Chandpur, Dist: Chandpur - 3600., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334487682"
+        "02334487682",
+        "440014",
+        "225130313"
       ]
     },
     {
       "Chandraganj Branch": [
         "Lakshmipur, Shahjoki Shopping Complex, Poeshim Bazar, Chondrogonj, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334443056"
+        "02334443056",
+        "440057",
+        "225510191"
       ]
     },
     {
       "CHAPAINAWABGONJ BRANCH": [
         "House: 11 Jabun Nessa Super Market(1st fl), Road: Godagari Road, Area: Chapainawabgonj, PO: Chapainawabgonj, PS: Chapainawabgonj, Dist: Chapainawabgonj - 6300., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588893026"
+        "02588893026",
+        "440631",
+        null
       ]
     },
     {
       "CHAUDDAGRAM BRANCH": [
         "Baitul Maleque Mansion(1st floor), Chauddagram Bazar, Dhaka- Chattogram High Way, Chauddogram, Cumilla. (About 200 Meter away from old location), Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440013",
         null
       ]
     },
@@ -211,62 +263,80 @@
       "CHAWKBAZAR BRANCH": [
         "System Imperial Complex (1st Floor), Kapasgola Road, Ward No:16, Chattogram City Corporation, Thana: Kotowali, District: Chattogram, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333388728"
+        "02333388728",
+        "440190",
+        "225151934"
       ]
     },
     {
       "CHAWMUHANI BRANCH": [
         "Chowmuhani Plaza, D.B. Road (1st Floor), Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334493068"
+        "02334493068",
+        null,
+        null
       ]
     },
     {
       "Chhatak Sme/Agri Branch": [
         "House: 28 Tahir Centre(1st fl), Road: Traffic Point, Area: Chhatak Municipality, P.O: Chhatak, P.S: Chhatak, Dist: Sunamganj - 3080., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996601962; 0872356003"
+        "02996601962; 0872356003",
+        "440152",
+        null
       ]
     },
     {
       "COX'S BAZAR BRANCH": [
         "House: Ali Noor Plaza(1st fl), Road: Main Road, Area: West Bazarghata, PO: Cox's Bazar, PS: Cox's Bazar Sadar, Dist: Cox's Bazar - 4700., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333369071"
+        "02333369071",
+        "440102",
+        null
       ]
     },
     {
       "CUMILLA BRANCH": [
         "House: 437 Artisan Nasir Centre(1st fl), Road: Nazrul Avenue,Kandirpar, Area: Comilla, PO: Comilla Sadar, PS: Comilla, Dist: Comilla - 3500., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "+8802334405514"
+        "+8802334405514",
+        null,
+        null
       ]
     },
     {
       "DHAKA DAKSHIN BRANCH": [
         "House: Latif Mansion (1st floor), Road: College Road, PO: Dhaka Dakshin, PS: Golapganj, Dist.: Sylhet, Post Code : 3161, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996645568"
+        "02996645568",
+        "440009",
+        null
       ]
     },
     {
       "DHANMONDI BRANCH": [
         "House: 312 Suvastu Zenim Plaza (2nd fl), Road: 27(Old), 32(New), Area: Dhanmondi R/A, PO: Dhanmondi, PS: Dhanmondi, Dist: Dhaka - 1205., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "041020673"
+        "041020673",
+        "440227",
+        null
       ]
     },
     {
       "DINAJPUR BRANCH": [
         "House: 1067, 1070 & 1078,Mona Tower & Shopping Complex (1st Floor), Area: Modern Moar, Goneshtola PO: Dinajpur, PS: Dinajpur Sadar, Dist: Dinajpur - 5200., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02589924707"
+        "02589924707",
+        "440561",
+        "225280676"
       ]
     },
     {
       "DOULATGONJ BRANCH": [
         "House: 252(1st fl), Road: Bank Road, Area: Daulatgonj Bazar, PO: Daulatgonj Bazar, PS: Daulatgonj, Dist: Comilla - 3570., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -274,13 +344,17 @@
       "Faridpur Branch": [
         "Karim Chamber (1st floor), Holding No: 88, Janata Banker More, Mujib Sarak, ward No:15,Pourashava: Faridpur,Thana: Kotwali, District : Faridpur, Faridpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0631-62668"
+        "0631-62668",
+        "440231",
+        "225290529"
       ]
     },
     {
       "FATIKCHHARI BRANCH": [
         "Fatikchhari Branch, Ananda Tower (1st Floor), Ananda Tower, Jhankar Moor, Mouza : Farhadabad, Puroshova : Najirhat, Upazila : Fatikchhari, District : Chittagong, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440066",
         null
       ]
     },
@@ -288,90 +362,116 @@
       "FENI BRANCH": [
         "188, Sadek Building (1st floor),Road: SSK Road, Area: Feni, PO: Feni, PS: Feni Sadar, Dist: Feni: 3900., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334473311"
+        "02334473311",
+        "440007",
+        "225300527"
       ]
     },
     {
       "FOREIGN EXCHANGE BRANCH": [
         "House: 27 Baitul Hossain Building(GR fl), Area: Dilkusha C/A, PO: Dilkusha, PS: Motijheel, Dist: Dhaka - 1000., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02223384315"
+        "02223384315",
+        "440174",
+        null
       ]
     },
     {
       "GAZIPUR AGRI BRANCH": [
         "Jalal Shopping Center. 1st Floor, Board Bazar, National University, Gazipur-1704, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440109",
+        "225330526"
       ]
     },
     {
       "GAZIPUR BRANCH": [
         "House 501, Noljani, Joydevpur, Chandana, Gazipur, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0249263026"
+        "0249263026",
+        "440109",
+        "225330526"
       ]
     },
     {
       "GOBINDAGONJ BRANCH": [
         "1st floor of \"Parboti Super Market\", Holding No. 0578, Buzruk Boalia, Gobindagonj, (Bogura- Rangpur Highway), Gaibandha-5740., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02589983074"
+        "02589983074",
+        "440612",
+        "225320581"
       ]
     },
     {
       "GOPALGANJ BRANCH": [
         "Gopalganj Branch, Zaman Tower (1st Floor), Holding No : 116, Saudagor Road, Ward no : 2 , Puroshova : Gopalganj, Upazila : Gopalganj Sadar, District : Gopalganj, Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02479961919"
+        "02479961919",
+        "440113",
+        "225350377"
       ]
     },
     {
       "GOURIPUR BRANCH": [
         "Jasim Tower ,Village : Charmahmuddi , Dag No: 460 ( Hal), Khatian No:BS-99, Mouja: Nayagaou, Thana: Daudkandi , District: Comilla, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440061",
+        "225192119"
       ]
     },
     {
       "GULSHAN AVENUE BRANCH": [
         "Simpletree Attalika , Holding No:134 ,Plot No:13, Gulshan Avenue, Gulshan-2, Dhaka., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0258813483"
+        "0258813483",
+        "440183",
+        null
       ]
     },
     {
       "GULSHAN BRANCH": [
         "“Crystal Palace”, Ground & 1st floor,House-22,Road-140,Gulshan South Avenue,Gulshan-1 Dhaka., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02222264310"
+        "02222264310",
+        "440026",
+        null
       ]
     },
     {
       "GULSHAN WOMEN BRANCH": [
         "Gulshan Women Branch Shanta Sky Mark (Ground Floor), Holding No. 18, Gulshan Avenue Road, Ward No. 19, Police Station: Gulshan, Dhaka North City Corporation, District: Dhaka, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02222295786"
+        "02222295786",
+        "440026",
+        null
       ]
     },
     {
       "HAJIGONJ BRANCH": [
         "House: Royal Rowshan Super Market(1st fl), Road: Main Road, Area: Hajigonj, PO: Hajigonj, PS: Hajigonj, Dist: Chandpur - 1600., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440015",
+        "225130889"
       ]
     },
     {
       "HALISHAHAR BRANCH": [
         "C.K. Tower (1st floor), House No.02 & 04, Road No. 03, Lane- 03, Block- K, Halishahar H/E, Chattogram, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333327278"
+        "02333327278",
+        "440055",
+        "225153161"
       ]
     },
     {
       "HOBIGANJ AGRI BRANCH": [
         "House: 3557/KA Amir Chand Complex(1st fl), Road: Badiuzzaman Khan Road, Area: Hobigonj, PO: Hobiganj, PS: Hobigonj Sadar, Dist: Hobigonj - 3300., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -379,69 +479,89 @@
       "IMAMGONJ BRANCH": [
         "173-174 Mitford Road, Imamgonj, PS: Chawkbazar, Dhaka, Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "057318201"
+        "057318201",
+        "440020",
+        null
       ]
     },
     {
       "ISLAMIC BANKING BRANCH": [
         "Al-Razi Complex (1st floor), 166-167, Shahid Sayed Nazrul Islam Sarani, Bijoy Nagar, Purana Paltan, Dhaka, Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0255111686"
+        "0255111686",
+        "440239",
+        null
       ]
     },
     {
       "ISLAMPUR ROAD BRANCH": [
         "House: 18 Sonar Bangla Market(1st fl), Road: Islampur Road, Area: Islampur, PO: Dhaka Sadar, PS: Kotwali, Dist: Dhaka - 1100., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0257391920"
+        "0257391920",
+        "440021",
+        null
       ]
     },
     {
       "JAGANNATHPUR BRANCH": [
         "House: (GR fl), Road: T & T Road, Area: Jagnnathpur, PO: Jagnnathpur, PS: Jagnnathpur, Dist: Sunamgonj - 3060., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0872756429"
+        "0872756429",
+        "440151",
+        "225900493"
       ]
     },
     {
       "JAMALPUR AGRI BRANCH": [
         "Kazi Gold Market (1st Floor) Medical Road, Ward No-5, Pourashava- Jamalpur, PS -Jamalpur Sadar, District- Jamalpur., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02997773573"
+        "02997773573",
+        null,
+        null
       ]
     },
     {
       "JAMUNA FUTURE PARK BRANCH": [
         "Ka-244, Progati Sarani, Ward: 17, Dhaka North City Corporation, P.O.: Bhatara, District: Dhaka, Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "09823049"
+        "09823049",
+        "440105",
+        null
       ]
     },
     {
       "JASHORE BRANCH": [
         "House: 28-29 R.S Tower(1st fl), Road: M.K Road, Area: Jessore, PO: Jessore, PS: Kotwali, Dist : Jessore - 7400., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477765827"
+        "02477765827",
+        null,
+        null
       ]
     },
     {
       "JATRABARI BRANCH": [
         "Noor Tower, Holding No-76/GA, Dhaka-Demra Highway, Ward No-48, Dhaka South City Corporation, PS-Jatrabari, District-Dhaka., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02223340347"
+        "02223340347",
+        "440179",
+        null
       ]
     },
     {
       "JOHNSON ROAD BRANCH": [
         "House: 31 Aziz Center(1st fl), Road: Johnson Road, Area: Raishaheb Bazar, PO: Dhaka Sadar, PS: Kotwali, Dist: Dhaka - 1100., Dhaka-South",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0247115439"
+        "0247115439",
+        "440022",
+        null
       ]
     },
     {
       "JOYPARA AGRI BRANCH": [
         "House: 77 Ahmed Shopping Complex(1st fl), Road: 260, Area: Joypara, PO: Joypara, PS: Dohar, Dist: Dhaka - 1330., Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -449,48 +569,62 @@
       "JUBILEE ROAD BRANCH": [
         "House: 181 Gulshan Plaza(1st fl), Road: Golap Shing Lane, Area: Chittagong, PO: GPO, PS: Kotwali, Dist: Chittagong - 4000., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333358698"
+        "02333358698",
+        "440004",
+        "225153640"
       ]
     },
     {
       "KABIRHAT BRANCH": [
         "Momtaj Mahal, D.B. Road (1st Floor), Chaprashirhat Bazar, PS: Kabirhat, Dist: Noakhali, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0323253162"
+        "0323253162",
+        "440059",
+        "225751213"
       ]
     },
     {
       "KACHUA BRANCH": [
         "House: Biponi Polash(GR fl), Road: Hospital Road, Area: Polashpur, PO: Kachua, PS: Kachua, Dist: Chandpur - 3630., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "8802334489306"
+        "8802334489306",
+        "440016",
+        "225130913"
       ]
     },
     {
       "KADAMTALI BRANCH": [
         "House: 295 Rahat Centre(1st fl), Road: DT Road, Area: Chittagong, PO: Chittagong Sadar, PS: Double Mooring, Dist: Chittagong - 4000., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "8802333320668"
+        "8802333320668",
+        "440046",
+        "225153732"
       ]
     },
     {
       "KALIGONJ BRANCH": [
         "House: Bikrampur Plaza(1st fl), Road: Shahid Delwar Hossain Road, Area: Aganagar,Gudaraghat, PO: Suvaidda,South Keranigonj, PS: Keranigonj, Dist: Dhaka - 1310., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "07761264, 7761010"
+        "07761264, 7761010",
+        "440172",
+        null
       ]
     },
     {
       "KALURGHAT BRANCH": [
         "Kalurghat Branch, Holding No : 2898/4561 (1st Floor), Chandgaon, Kaptai Raster Matha, Ward No: 5, Thana : Chandgaon, Chittagong City Corporation, District : Chittagong, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334471693"
+        "02334471693",
+        "440064",
+        "225153916"
       ]
     },
     {
       "KANAIPUR BAZAR BRANCH": [
         "Nirmalendu Saha Plaza, Kanaipur Bazar, Union - No. 9 Kanaipur, Upazila - Faridpur Sadar, District – Faridpur., Faridpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440108",
         null
       ]
     },
@@ -498,97 +632,125 @@
       "KARWAN BAZAR BRANCH": [
         "House: 8 UTC Building(1st fl), Road: 8,Panthapath, Area: Kawran Bazar, PO: Tejgaon, PS: Tejgaon, Dist: Dhaka - 1215., Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "091330351"
+        "091330351",
+        "440229",
+        null
       ]
     },
     {
       "KHATUNGONJ BRANCH": [
         "Helal Trade Center, Holding No: 888/956, Road: Shah Amanat Road (Jail Road), Ward: 32, City Corporation: Chattogram, Thana: Kotwali, District: Chattogram., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333352208"
+        "02333352208",
+        "440002",
+        null
       ]
     },
     {
       "KHULNA BRANCH": [
         "House: 7(GR fl), Road: Sir Iqbal Road, Area: Khulna Sadar, PO: GPO, PS: Kotwali, Dist : Khulna - 9100., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477720381"
+        "02477720381",
+        "440043",
+        "225471548"
       ]
     },
     {
       "KISHOREGANJ SME/AGRI BRANCH": [
         "239, Alhaz Mahtab Uddin Super Market (1st Floor), Boro Bazar, Kishoreganj, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "094162175"
+        "094162175",
+        "440272",
+        null
       ]
     },
     {
       "KULAURA BRANCH": [
         "Kulaura Branch, Nazma Gani Market (1st Floor), Holding No : 220, Ward No : 5, Puroshova : Kulaura, Upazila : Kulaura, District : Moulvibazar, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996684790"
+        "02996684790",
+        "440501",
+        null
       ]
     },
     {
       "KUSHTIA BRANCH": [
         "House: 114 Kadari Super Market ( fl), Road: R.A. Khan Chow Sarak, Area: Sapla Chattar, PO: Kushtia, PS: Kushtia, Dist: Kushtia - 7000., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477783811"
+        "02477783811",
+        "440482",
+        "225500943"
       ]
     },
     {
       "LAXMIPUR BRANCH": [
         "House : Kundo Tower (1st Floor) Road : Chak Mosjid Road PO: Lakshmipur Sadar PS : LakshmipurDist : Lakshmipur Post Code : 3700, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334441370"
+        "02334441370",
+        null,
+        null
       ]
     },
     {
       "LOHAGARA AGRI BRANCH": [
         "House: Mostafa City (1st fl), Area: Amirabad, Lohagara, PO: Lohagara, PS: Lohagara, Dist: Chittagong - 4396., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334459053"
+        "02334459053",
+        null,
+        null
       ]
     },
     {
       "MADHOBDI BRANCH": [
         "House: 4(1st & 2nd fl), Road: Bank Road, Area: Madhabdi Bazar, PO: Madhabdi, PS: Narsingdhi, Dist: Narsingdhi - 1604., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02224457222"
+        "02224457222",
+        "440031",
+        "225680676"
       ]
     },
     {
       "MAIJDI AGRI BRANCH": [
         "Nasir Brothers Bhabon(1st Floor) , Holding No: 1458 ,Main Road , Ward No:04,Thana: Maijdee Court, District: Noakhali, Noakhali",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334492009"
+        "02334492009",
+        null,
+        null
       ]
     },
     {
       "MANIKGONJ BRANCH": [
         "House: 173/174(1st & 2nd fl), Road: Shaheed Rafique Sarak, Area: Manikgonj Bazar, P.O: Manikgonj, P.S: Manikgonj, Dist: Manikgonj - 1800., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996610616"
+        "02996610616",
+        "440291",
+        null
       ]
     },
     {
       "MIRPUR BRANCH": [
         "House: 1(1st fl), Road: Dar-us-Salam Road, S: 1, Area: Mirpur, PO: Mirpur, PS: Mirpur, Dist: Dhaka - 1216., Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0248038546"
+        "0248038546",
+        "440175",
+        null
       ]
     },
     {
       "MOGHBAZAR BRANCH": [
         "House: 1 Razzak Plaza(1st fl), Road: New Eskaton Road, Area: Moghbazar, PO: GPO, PS: Ramna, Dist: Dhaka - 1000., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02222224764"
+        "02222224764",
+        "440253",
+        null
       ]
     },
     {
       "MOTIJHEEL BRANCH": [
         "“Motaleb Mansion”, 2 No. R.K. Mission Road, Dhaka, Dhaka-South",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440017",
         null
       ]
     },
@@ -596,48 +758,62 @@
       "MOUCHAK BRANCH": [
         "House: 80/A Shahjalal Tower(1st fl), Road: Siddeswari Circular Road, Area: Malibagh, PO: Shantinagar, PS: Ramna, Dist: Dhaka - 1217., Dhaka-South",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "029357717"
+        "029357717",
+        "440173",
+        null
       ]
     },
     {
       "MOULVIBAZAR BRANCH": [
         "House: Kusumbagh Shopping City(2nd fl), Road: Sylhet Road, Area: Moulvibazar, PO: Moulvibazar, PS: Moulvibazar, Dist: Moulvibazar - 3200., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "019216811950"
+        "019216811950",
+        "440010",
+        null
       ]
     },
     {
       "MYMENSINGH BRANCH": [
         "House: 20(1st fl), Road: Choto Bazar, Area: Mymensingh, PO: Mymensingh, PS: Kotwali, Dist: Mymensingh - 2200., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996667493"
+        "02996667493",
+        "440040",
+        "225611753"
       ]
     },
     {
       "NAOGAON BRANCH": [
         "Amir Uddin Bhaban, Chakdevpara Holding No: 20674, Ward no: 03, P.S: Naogaon, Puroshava: Naogaon, Dist: Naogaon., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588881421"
+        "02588881421",
+        "440303",
+        "225641181"
       ]
     },
     {
       "NARAYANGONJ BRANCH": [
         "House: 72 Islam Market(1st fl), Road: BB Road, Area: Narayangonj, PO: Narayangonj, PS: Narayangonj, Dist: Narayangonj - 1400., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "07633143"
+        "07633143",
+        "440033",
+        "225671751"
       ]
     },
     {
       "NARSINGDI BRANCH": [
         "House: 192 Bazar(1st fl), Area: Narsingdi, PO: Narsingdi, PS: Narsingdi, Dist: Narsingdi - 1600., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02224452456; 02224452505; 02224451530"
+        "02224452456; 02224452505; 02224451530",
+        "440030",
+        null
       ]
     },
     {
       "National Special Economic Zone Branch": [
         "1st Floor, BEZA BSMSN admin building (Zone-1), Upazila : Mirsarai , Union- Ichhakhali , P.S: Zorargonj , Dhaka-Chattogram Highway, Chattogram., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -645,13 +821,17 @@
       "NATORE AGRI BRANCH": [
         "House: 240/241, F.K. Zaman Plaza(GR fl), Area: Alaipur Boipotty, PO: Natore, PS: Natore Sadar, Dist: Natore - 6400., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588873538"
+        "02588873538",
+        null,
+        null
       ]
     },
     {
       "NAWABGONJ BRANCH": [
         "House: Younus Shoping Complex(1st fl), Area: Nawabgonj Main Road, Area: Nawabgonj Upozilla, : PO:Nawabgonj, PS: Nawabgonj, Dist: Dhaka - 1320., Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440225",
         null
       ]
     },
@@ -659,20 +839,26 @@
       "NAWABPUR BRANCH": [
         "House: Anowara Bhavan (1st fl), Road: 12-14 Nawabpur Road, PO: Nawabpur, PS: Wari, Dist: Dhaka -1100, Dhaka-South",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0247117089"
+        "0247117089",
+        "440176",
+        null
       ]
     },
     {
       "NETAIGONJ BRANCH": [
         "Gausia Nur, Road No-13, Road Name - R. K. Das Road, Ward No-15, City Corporation - Narayanganj, Police Station - Narayanganj Sadar, District -Narayanganj., Narayanganj",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440322",
+        "225671272"
       ]
     },
     {
       "NEW MARKET BRANCH": [
         "House: 5 Novera Square( fl), Road: 2, Area: Dhanmondi R/A, PO: Dhanmondi, PS: Dhanmondi, Dist: Dhaka - 1205., Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440025",
         null
       ]
     },
@@ -680,230 +866,296 @@
       "NIKUNJA BRANCH": [
         "House: Lotus Kamal Tower-1, 57 Zoar Shahara(GR fl), Road: Airport Road, Area: Nikunja-2, PO: Khilkhet, PS: Khilkhet, Dist: Dhaka - 1229., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "08900578"
+        "08900578",
+        "440028",
+        null
       ]
     },
     {
       "O.R. NIZAM ROAD BRANCH": [
         "1st Floor, 1 Shahid Abdul Hamid Road East Nasirabad, GEC crossing, Chittagong, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0241360842"
+        "0241360842",
+        "440050",
+        "225155806"
       ]
     },
     {
       "OXYGEN MOOR BRANCH": [
         "M Rahman Heights (1st Floor) Oxygen Moor, Ward No, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02333375117"
+        "02333375117",
+        "440062",
+        null
       ]
     },
     {
       "PABNA BRANCH": [
         "House: 472(1st fl), Road: Aurangzeb Road, Area: Pabna, PO: Pabna, PS: Pabna Sadar, Dist: Pabna - 6600., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588844309"
+        "02588844309",
+        "440053",
+        "225761782"
       ]
     },
     {
       "PAGLA BRANCH": [
         "Pagla Branch, Namira Tower (1st floor), Dag no : C.S & S.A - 316 and R.S - 318, Khatian no : C.S, Dhaka-South",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0247696042"
+        "0247696042",
+        "440114",
+        "225671306"
       ]
     },
     {
       "PAHARTALI BRANCH": [
         "House:Yakub Tower (1st fl) 940/A (new) & 516/810 (old), Road: D. T. Road, Dilli Lane, P.O: Pahartali, P.S: Double Mooring, Dist: Chittagong - 4202., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440038",
+        "225155927"
       ]
     },
     {
       "PALLABI BRANCH": [
         "House: 132 Spring Rahmat-E-Tuba Complex(1st fl), Road:2, Block: A, Section:12, PO: Mirpur, P.S: Mirpur, Dhaka- 1216., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "+880-241002562"
+        "+880-241002562",
+        "440029",
+        null
       ]
     },
     {
       "PATHERHAT BRANCH": [
         "Shah Amanat Market, Mouza - Noapara, Union No: 13 Noapara, Thana - Rauzan, District – Chattogram, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
+        null,
+        "440003",
+        "225156139"
       ]
     },
     {
       "PATUAKHALI BRANCH": [
         "Patuakhali Branch, Holding No : 063-01 (1st floor), Old Steamer Ghat Road, Natun Bazar, Ward no : 6, Puroshova : Patuakhali, Upazila : Patuakhali, District : Patuakhali, Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02478881035"
+        "02478881035",
+        "440401",
+        "225781096"
       ]
     },
     {
       "PHULTALA BRANCH": [
         "Phultala Branch, Hazi Marker (1st Floor), Khulna Jessore Main Road, Union : 4 no. Phultala, Upazila : Phultala, District : Khulna, Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477733546"
+        "02477733546",
+        "440201",
+        "225472147"
       ]
     },
     {
       "POSTA BRANCH": [
         "House: 35 Seraj Court(1st & 2nd fl), Road: Shaesta Khan Road, Area: Lalbagh, PO: Posta, PS: Chak Bazar, Dist: Dhaka - 1211., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0258617275"
+        "0258617275",
+        "440180",
+        null
       ]
     },
     {
       "PRINCIPAL OFFICE": [
         "House: 10 Jibon Bima Tower(GR fl), Area: Dilkusha Commercial Area, PO: GPO, PS: Motijheel, Dist: Dhaka - 1000., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02223385925"
+        "02223385925",
+        "440019",
+        null
       ]
     },
     {
       "PROBARTAK BRANCH": [
         "House: 1486/1672 Al-Nur Badrun Center(1st fl), Road: O.R Nizam Road, Area: Probartak Moor, PO: Ctg Medical, PS: Panchlaish, Dist: Chittagong - 4203., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02413555401"
+        "02413555401",
+        null,
+        null
       ]
     },
     {
       "PROGATI SARANI BRANCH": [
         "The Pearl Trade Center (Ground Floor), Cha-90/3, Progati Sarani, Shahjadpur, Dhaka, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0226600615; 0226600616"
+        "0226600615; 0226600616",
+        "440252",
+        null
       ]
     },
     {
       "RAIPUR BRANCH": [
         "Holding No. 517, Shahid Plaza, Pir Fozlullah Sarak, Raipur, Laxmipur, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334442235"
+        "02334442235",
+        "440056",
+        "225510975"
       ]
     },
     {
       "RAJSHAHI BRANCH": [
         "House: 125 Star Mansion(1st fl), Road: Natore Road, Area: Shaheb Bazar 0 Point, PO: Ghoramara, PS: Boalia, Dist: Rajshahi - 6100., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588854648"
+        "02588854648",
+        "440054",
+        "225811937"
       ]
     },
     {
       "RANGPUR BRANCH": [
         "House: 97/1 Central Point(1st fl), Road: Central Road, Area: Rangpur Town, PO: Rangpur Sadar, PS: Kotwali, Dist: Rangpur - 5400., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02589962801"
+        "02589962801",
+        "440063",
+        "225851450"
       ]
     },
     {
       "REKABI BAZAR BRANCH": [
         "House: Abdul Motalebs House(1st fl), Road: Binodpur High School Road, Area: Ponchasar, PO: Rekabi Bazar, PS: Munshigonj Sadar, Dist: Munshigonj - 1501., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02997731525"
+        "02997731525",
+        "440301",
+        "225591215"
       ]
     },
     {
       "ROHANPUR BRANCH": [
         "Holding No: 1125, Godown Road, Ward no: 05, P.S.: Gomostapur, Puroshava: Rohanpur, Dist: Chapainawabganj., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588895822"
+        "02588895822",
+        "440302",
+        null
       ]
     },
     {
       "ROKEYA SARANI BRANCH": [
         "Dinaj Tower (1st floor), Holding No. 752/2, West Shewrapara, Begum Rokeya Sarani, Mirpur, Dhaka., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "058050907"
+        "058050907",
+        "440117",
+        null
       ]
     },
     {
       "SADARGHAT BRANCH": [
         "House: Patuatuly Bhaban(2nd fl), Road: 78 Loyal Street, Patuatuly, Area: Sadarghat, PO: Sadarghat, PS: Kotwali, Dist: Dhaka - 1100., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "09512837"
+        "09512837",
+        "440178",
+        null
       ]
     },
     {
       "Saidpur Branch": [
         "Nahar Plaza, Holding No-0053-0054, Shahid Dr. Zikrul Haque Road, Ward No: 12,Po: Saidpur Ps: Saidpur Dist: Nilphamari -5310, Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02589957551"
+        "02589957551",
+        "440080",
+        null
       ]
     },
     {
       "SATKANIA BRANCH": [
         "House: 580 Mokbul Seraji Shopping Complex(1st fl), R:Station Road, Area: Satkania, PO: Satkania, PS: Satkania, Dist: Chittagong - 4386., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477741582"
+        "02477741582",
+        "440048",
+        "225157062"
       ]
     },
     {
       "SATKHIRA BRANCH": [
         "House: 400/450 City Market(1st fl), Road: Boro Bazar Road, Area: Satkhira, PO: Satkhira, PS: Satkhira Sadar, Dist: Stakhira - 9400., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477741463"
+        "02477741463",
+        "440541",
+        "225871098"
       ]
     },
     {
       "SAVAR AGRI BRANCH": [
         "House: 111/A(1st fl), Road: Savar Bazar Road, Area: Savar, PO: Savar, PS: Savar, Dist: Dhaka - 1340., Dhaka-West",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02-22444957; 02-22444956"
+        "02-22444957; 02-22444956",
+        null,
+        null
       ]
     },
     {
       "SENBAGH BRANCH": [
         "D.K. Plaza (1st Floor), Holding no : 346, Upozila Road, Senbagh Bazar, Senbagh, Noakhali, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "8802334494806"
+        "8802334494806",
+        "440060",
+        "225752083"
       ]
     },
     {
       "SHAYMOLI BRANCH": [
         "House: 23/6 Rupayan Shelford(1st fl), Road: Khilji Road, Block: B, Area: Shaymoli, PO: Mohammadpur, PS: Mohammadpur, Dist: Dhaka - 1207., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02-58150369"
+        "02-58150369",
+        "440238",
+        null
       ]
     },
     {
       "SHERPUR BRANCH": [
         "Mahmud Tower, Ground floor, Dhaka Bogura High Way, Pourosova Road, Sherpur Bus Stand, Sherpur, Bogura, Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588877195"
+        "02588877195",
+        "440551",
+        "225102741"
       ]
     },
     {
       "SHIBPUR BRANCH": [
         "1st Floor ,Holding No: 181,Ward No: 5 ,Shibpur Sadar Road ,Shibpur Bazar Road ,Thana & Pourashava : Shibpur ,Narsingdhi, Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02224488214"
+        "02224488214",
+        "440118",
+        "225681309"
       ]
     },
     {
       "SIRAJGONJ BRANCH": [
         "House: 979(1st fl), Road: SS Road, Area: Sirajgonj, PO: Sirajgonj, PS: Sirajgonj, Dist: Sirajgonj - 6700., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588831135"
+        "02588831135",
+        "440745",
+        null
       ]
     },
     {
       "SONARGAON JANAPATH, UTTARA BR": [
         "House-02, Sector-12, Sonargaon Janapath Road, Uttara Model Town, Union- Harirampur, Uttara, Dhaka, Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "055086635"
+        "055086635",
+        "440106",
+        null
       ]
     },
     {
       "SREEMONGOL BRANCH": [
         "House: 70 Al-Amin Mansion(1st fl), Road: Moulvi Bazar Road, Area: Sreemongal, PO: Sreemongal, PS: Sreemongal, Dist: Moulvi Bazar - 3210., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "08626-71528"
+        "08626-71528",
+        "440011",
+        null
       ]
     },
     {
       "SUBARNACHAR BRANCH": [
         "Rubina Super Market (1st Floor), Dag No : MRR : 880, Khatian No: MRR : 248, Char Bata Union Parishad, P.S : Subarna char, Noakhali, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440058",
         null
       ]
     },
@@ -911,54 +1163,70 @@
       "TANGAIL BRANCH": [
         "House: 1869/77(1st fl), Road: Main Road, PO: Tangail Sadar, PS: tangail Sadar, Dist: Tangail - 1900., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02997752869"
+        "02997752869",
+        "440042",
+        "225932290"
       ]
     },
     {
       "TONGI BRANCH": [
         "Sena Kalyan Commercial Complex (1st floor) Holding No- 9/F, Dhaka Mymensing Highway, Ward No:57, Gazipur City Corporation, Thana: Tongi, District:Gazipur-1710, Dhaka- North",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0248959695"
+        "0248959695",
+        "440027",
+        "225331633"
       ]
     },
     {
       "URDU ROAD BRANCH": [
         "House: Haji Mansion (2nd Floor), Road: 10 Urdu Road, Area: Dhaka City Corp, PO: Posta, PS: Chawkbazar, Dist: Dhaka - 1211., Dhaka-3",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0257318221"
+        "0257318221",
+        "440177",
+        null
       ]
     },
     {
       "UTTARA BRANCH": [
         "House: 8 Barek Monjil(GR fl), Road: Rabindro Sarani Road, Sector-7, Area: Azampur, P.O: Uttara, P.S: Uttara, Dist: Dhaka - 1230., Dhaka 1",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "880248954147"
+        "880248954147",
+        "440230",
+        null
       ]
     },
     {
       "VIP ROAD BRANCH": [
         "Orchad Faruque Tower, 72, Naya Paltan, VIP Road, Dhaka, Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02222228947"
+        "02222228947",
+        "440251",
+        null
       ]
     },
     {
       "ZINDABAZAR BRANCH": [
         "House: Kaniz Plaza(1st fl), Area: Zindabazar, PO: Sylhet, PS: Kotwali, Dist: Sylhet - 3100., Sylhet",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0821-714196"
+        "0821-714196",
+        "440213",
+        null
       ]
     },
     {
       "ZINZIRA BRANCH": [
         "Amin Complex, 1st Floor, Zinzira Bus Stand Road, Zinzira Bazaar, Dhaka., Dhaka 2",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02 996678318"
+        "02 996678318",
+        "440023",
+        null
       ]
     },
     {
       "_new branch at Oxygen Morh, Chittagong. Faruq M. Ahmed, Additional MD and_": [
         "_Photo Caption: Rubel Aziz, Chairman of City Bank inaugurated bank's_",
+        null,
+        null,
         null,
         null
       ]
@@ -966,6 +1234,17 @@
     {
       "The new branch will provide customers with retail loans": [
         "remittances and other ancillary services.",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Katiadi Sub Branches": [
+        "Katiadi Sub Branch- Abdul Khalek Tower, Holding No-1267, CNB Road, Ward No-03, Pourashava- Katiadi, Thana- Katiadi, District- Kishoreganj., Kishoreganj",
+        "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
         null,
         null
       ]
@@ -976,6 +1255,8 @@
       "ABDULLAHPUR SUB BRANCH": [
         "Minnat Palaza, Arear-Kolakandi, Mouja: Abdullahpur,: Teghoria Union parishad ,Thana- South Keranigonj , District- Dhaka., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -983,6 +1264,8 @@
       "Amtali Sub-Branch": [
         "Poura Bhabon ,Holding Number:392,Sadar Road, Ward No:04,Pourashava: Amtali. Thana: Amtali, Dist:Barguna, Barguna",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -990,6 +1273,8 @@
       "ARAIHAZAR SUB BRANCH": [
         "Rezia Complex, Araihazar General Hospital Road,Ward No-08, Pourashava- Araihazar ,Thana- Araihazar , District- Narayanganj, Narayanganj",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -997,6 +1282,8 @@
       "Artillery Road Sub Branch": [
         "Building name: AMITY kaviyu islam tower, Holding no.: 1705/B, Road name: Artillery Road, Ward: 11, City Corporation: Chattogram, Thana: Halishahar, District- Chattogram., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1004,13 +1291,17 @@
       "Bagerhat Sub Branch": [
         "Holding No-0091 , Khanjahan Ali Road, Ward-6, Pourashava- Bagerhat, P:S- Bagerhat,District- Bagerhat., Bagerhat",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02477752020"
+        "02477752020",
+        null,
+        null
       ]
     },
     {
       "Bajitpur Sub Branch": [
         "Building name: Moni Plaza, Holding no.: 0306-04, Road: Johurul Islam Road, Ward: 04, Paurashava- Bajitpur, Thana- Bajitpur, District- Kishoregonj., Kishoregonj",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1018,6 +1309,8 @@
       "BAKALIA SUB BRANCH": [
         "A J Tower, Baklia Access Road, Chawkbazar Police Station, Chittagong City Corporation, Chittagong., Chittagong",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1025,6 +1318,8 @@
       "Banani Sub Branch": [
         "Building name: Banani Nobarun shongo, Plot-39/A, Road-23, Ward-19, Dhaka North City Corporation, Thana-Banani, District- Dhaka., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440184",
         null
       ]
     },
@@ -1032,13 +1327,17 @@
       "BANASREE SUB BRANCH": [
         "Joypurhat Tower,Holding Number-2 & 3, Blook-F, Banasree Main Road,Ward No-22,Dhaka North City Corporation, Thana- Khilgao, District –Dhaka, Dhaka-South",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0255124000"
+        "0255124000",
+        null,
+        null
       ]
     },
     {
       "Bancharampur Sub-Branch": [
         "Datta Master Shopping Complex Holding No-682, Ward No-04, Pourashava-Bancharampur,Thana-Bancharampur District- Brahmanbaria, Brahmanbaria",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1046,6 +1345,8 @@
       "Baneshwar Sub Branch": [
         "Building name: A: Latif Super Market, Village/Area: Baneshwar, Dag no.: 318,320, Khatian no.: RS-222, Mouza: Boro Baneshwar, Union: 3 no. Baneshwar, Thana: Puthia, District- Rajshahi., Rajshahi",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1053,13 +1354,17 @@
       "BARURA SUB BRANCH": [
         "Miazi Market, Holding Number-34, Bank road, Ward No-03, Pouroshava- Barura, District -Cumilla, Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334407101"
+        "02334407101",
+        null,
+        null
       ]
     },
     {
       "BHANDARIA SUB BRANCH": [
         "Building Name: Zella Parishad Super Market, Road name: T N T Sarak, Ward no.: 03, Paurashava- Bhandaria, Thana: Bhandaria , District: Pirojpur., Pirojpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1067,6 +1372,8 @@
       "Bhanga Sub Branch": [
         "Abdus Sobhan Complex, Holding No-74, Ward-8, Pourashava- Bhanga, Upzila- Bhanga, District- Faridpur, Faridpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1074,6 +1381,8 @@
       "Burichang Sub Branch": [
         "Ma Zayeda Tower, Burichang Sadar, Burichang, Comilla, Comilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1081,6 +1390,8 @@
       "CHAKARIA SUB BRANCH": [
         "Shaheda Complex (1st floor), Rastar Matha Chiringa, Mouja: Kochpara, Pourashava: Chakaria Thana: Chakaria, District: Coxs Bazar, Coxs Bazar",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1088,6 +1399,8 @@
       "Chandgaon Sub-Branch": [
         "Jinat Center-5, Road: Arakan Road , Ward No: 04, Chattogram City Corporation, PS: Chandgaon, District: Chattogram., Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1095,6 +1408,8 @@
       "CHANDINA SUB BRANCH": [
         "Bhuyan Complex,Dag#1903, Khatian#BS 1740, VILLAGE#Chandina,UNION#Chandina,PS# Chandina, District: Comilla, Comilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1102,6 +1417,8 @@
       "CHARPARA SUB BRANCH": [
         "Building name: F J Ruma Plaza, Holding-5/3, Ward no.:17, City Corporation: Mymensingh, Mymensingh",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1109,6 +1426,8 @@
       "CHATIPOTTI SUB BRANCH": [
         "Plaza AK, Holding-187, Old Dhaka Chittagong Trunk Road, Word No-12, Comilla City Corporation, Thana- Kotowali, District- Comilla, Comilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1116,6 +1435,8 @@
       "Chaugachha Sub Branch": [
         "Holding No-147/1, Kotchandpur Road, Ward No-04, , Pourashava - Chaugachha , Thana- Chaugachha ,District-Jashore., Jashore",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1123,13 +1444,17 @@
       "Chhagalnaiya SUB BRANCH": [
         "Bashar City Complex,Holding No1220,Chhagalnaiya Main Road,Word No-06, Pourashava - Chhagalnaiya,PS- Chhagalnaiya , District-Feni, Chhagalnaiya",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02334476355"
+        "02334476355",
+        null,
+        null
       ]
     },
     {
       "Chuadanga Sub-Branch": [
         "Holding No-147,147/1, Kotchandpur Road,Ward No-04, , Pourashava - Chaugachha, Thana- Chaugachha, District-Jashore, Jashore",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1137,6 +1462,8 @@
       "COMPANIGANJ SUB BRANCH": [
         "Engineers Tower, Uttor Trish, Mouja: Trish, Union: Nobipur West, Thana: Muradnagar, District: Cumilla., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1144,6 +1471,8 @@
       "Daulatpur Sub Branch": [
         "Building name: Kobi Lodge, Holding no.: 477/2, Road name: Jashore Road, Ward no.:05, City Corporation: Khulna, Thana: Daulatpur, District: Khulna, Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1151,6 +1480,8 @@
       "Digraj Sub Branch": [
         "Rai Market-2 (1st Floor), Digraj, 2 No Buridanga Union, Police Station -Mongla, District-Bagerhat., Bagerhat",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1158,6 +1489,8 @@
       "DOLLAI NAWABPUR SUB BRANCH": [
         "Dollai Nawabpur Sub Branch- Building Name: Center Point Shopping Complex, Village/Area: Dollai Nawabpur, Dag no.: 332, Khatian no.: 1909, Mouza: Borkoroi. Union: 11 no Dollai Nawabpur, Thana: Chandina. District: Cumilla., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440176",
         null
       ]
     },
@@ -1165,6 +1498,8 @@
       "Dupchanchia Sub Branch": [
         "Holding no.: 3112,3116, Road name: Santahar Road South Side, Ward no.:05, Paurashava- Dupchanchia, Thana: Dupchanchia, District- Bogura., Bogura",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1172,6 +1507,8 @@
       "Elephant Road Sub Branch": [
         "Plaza Central, Holding-136, S Kamruzzaman Sharani Road, Elephant Road, Ward No-18 Dhaka South City Corporation Thana-Newmarket, Dist-Dhaka, Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1179,6 +1516,8 @@
       "Faridganj SUB BRANCH": [
         "Kolabagan Bazar, Holding No-840, Faridganj Pourashava Road, Ward-08 Pourashava- Faridganj, Thana- Faridganj, District- Chandpur, Chandpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1186,6 +1525,8 @@
       "FULBARIA SUB BRANCH": [
         "Kazi Zafar Complex, Main Road, Old Bus Stand, Fulbaria, Mymensingh., Mymensingh",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1193,6 +1534,8 @@
       "Ghatail Sub Branch": [
         "Talukdar Tower, Holding No-799, Main Road, Ward-07, Pourashava- Ghatail, PS- Ghatail,District- Tangail., Tangail",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1200,6 +1543,8 @@
       "GORAI SUB BRANCH": [
         "Abdur Rahman Khan Super Market Tower, Gorai, Dag No-3202/3305/4403, Khatian No-276/3821 Mouja- Gorai Momin Nagar, Union-10 No Gorai, Thana - Mirzapur, District- Tangail., Tangail",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1207,6 +1552,8 @@
       "Hasnabad Sub Branch": [
         "Village/Area: Hasnabad, Dag no.: 917,964, Khatian no.:1912, Mouza: Equria, Union: Subhadya, Thana: South Keraniganj, District- Dhaka., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1214,6 +1561,8 @@
       "Hathazari Sub Branch": [
         "Building name: Hajera Tower, Road name: Chittagong-Rangamati Highway, Ward-03, Paurashava- Hathazari, Thana- Hathazari, District- Chattogram., Chattogram.",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1221,13 +1570,17 @@
       "Hemayetpur Sub Branch": [
         "Makka Tower,Village: Jadurchor,Dag No:RS257,Khatian No:193,Mouja:Bilamalia,Union:Talutjhora,Thana:Savar,Dist:Dhaka, Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "01755658524"
+        "01755658524",
+        null,
+        null
       ]
     },
     {
       "Hirajheel Sub Branch": [
         "Asma Villa, Holding No-A-286, Road No-04 Ward No-01, Narayangonj City Corporation, Thana- Siddhirganj, District- Narayangonj, Narayangonj",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1235,13 +1588,17 @@
       "ISHWARDI SUB BRANCH": [
         "RRP Center, Holdin#263/1,Ward No#8, Union # Ishwardi, PS # Ishwardi District: Pabna, Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02588847201"
+        "02588847201",
+        null,
+        null
       ]
     },
     {
       "Ishwarganj Sub-Branch": [
         "Bulbul Tower, Ishwarganj College Road, Ishwarganj, Mymensingh ., Mymensingh",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1249,6 +1606,8 @@
       "JHIKORGACHA SUB BRANCH": [
         "Jhikorgasa Bazar, Dag No/CS-S-A 2248, Khatian No/SA-280 Mouja- Krishno nagar, Pourashava - Jhikorgasa , Thana- Jhikorgasa,District-Jashore., Jashore",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1256,20 +1615,26 @@
       "Joypurhat Sub Branch": [
         "Vokto Complex, Dag No:3167/13139, Khatian No:777, Jaipurhat Sadar Batar Mor, Ward No:05, Pourashava: Jaipurhat,Thana: Jaipurhat Sadar,District: Jaipurhat, Jaipurhat",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02-589915566"
+        "02-589915566",
+        null,
+        null
       ]
     },
     {
       "KAMRANGIRCHAR SUB BRANCH": [
         "Mahin Palaza, Holding Number: 992, West Rasulpur Main Road, Ward 56, Dhaka South City Corporation ,PS- Kamrangirchar, District-Dhaka., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "055160500"
+        "055160500",
+        null,
+        null
       ]
     },
     {
       "KANCHAN SUB BRANCH": [
         "Haji Abdul Malek Bhuiyan Shopping Complex, Kanchan Area, Kanchan Pourashava, Rupganj Upazila, Narayanganj., Narayanganj",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1277,6 +1642,8 @@
       "KAPASIA SUB BRANCH": [
         "RONY MARKET, SAFAISREE, HOLDING NO: 11/01, MOUZA NO: 189 SAFAISREE, UNION NO: 9 KAPASIA, UPAZILLA: KAPASIA, DISTRICT: GAZIPUR, GAZIPUR",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1284,13 +1651,8 @@
       "KASBA SUB BRANCH": [
         "Society Building, Kaimpur Union, Station Road, Ward No- 7, Pourashava - Kasba, Thana- Kasba, District- Brahmanbaria, Brahmanbaria",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        null
-      ]
-    },
-    {
-      "Katiadi Sub Branches": [
-        "Katiadi Sub Branch- Abdul Khalek Tower, Holding No-1267, CNB Road, Ward No-03, Pourashava- Katiadi, Thana- Katiadi, District- Kishoreganj., Kishoreganj",
-        "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1298,6 +1660,8 @@
       "KDA AVENUE SUB BRANCH": [
         "Building Name: Sheikh lokman arcade, Holding number: 2/A, Road Name: KDA avenue road, Ward no.: 20, City Corporation: Khulna, Thana: Sonadanga, District: Khulna., Khulna",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1305,6 +1669,8 @@
       "KERANIGONJ SUB BRANCH": [
         "Din Complex, Kadamtoli Goal Chattor, , Daag No-3485 & 3486,Khotian No-470/1,Mouja-Shuvadda,Union-Aganagor,Thana-South Keranigonj, District -Dhaka, Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1312,6 +1678,8 @@
       "KERANIHAT SUB BRANCH": [
         "Ahmed Plaza Tower, Janar Keochia Union, Satkania Thana, Chittagong., Chittagong",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1319,6 +1687,8 @@
       "Konabari Sub-branch": [
         "Trade Center Tower, Holding No:150, Dhaka Tangail Highway , Ward No: 09, Gazipur City Corporation, PS: Konabari, District: Gazipur., Gazipur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1326,6 +1696,8 @@
       "Kuthi Bazar Sub Branch": [
         "Rohamtara super market, Village/Area: Kuti, Dag no.:2440 & 2464, Khatian no.: 1067 & 2575, Mouza: Kuti (Jajiara), Union: 8 no. Kuti, Thana- Kosba, District- Brahmanbaria. Controlling Branch Name: Brahmanbaria branch, Brahmanbaria",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1333,13 +1705,17 @@
       "MADANI AVENUE SUB BRANCH": [
         "Hamid Plaza, Holding Number-19, Blook-A,Ward No-39,Dhaka North City Corporation, Thana- Vatara ,District -Dhaka PS: Khilkhet, Dist: Dhaka - 1229., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "058811688"
+        "058811688",
+        null,
+        null
       ]
     },
     {
       "Madaripur Sub-Branch": [
         "Holding No-620-01, Main Road, Ward No-02, Pourashava - Madaripur, Thana- Madaripur Sadar, District- Madaripur, Madaripur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1347,6 +1723,8 @@
       "MALIBAG CHOWDHURY PARA SUB BRANCH": [
         "KBG Tower, Holding No:15, DIT Road, Ward No:23 Dhaka North City Corporation, Hatirjheel Thana. Dhaka., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1354,6 +1732,8 @@
       "MOGRAPARA SUB BRANCH": [
         "S Plaza, Dag No-RS 235, Khatian No-884, Village: Habibpur, Union: Mograpara, PS: Sonargao, Narayanganj",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1361,6 +1741,8 @@
       "Mohadevpur Sub Branch": [
         "Building name: Mondol Tower, Village/Area: Mohadevpur, Dag no.:813, Khatian no.: 4187, Mouza: Mohadevpur, Union: Mohadevpur Sadar, Thana: Mohadevpur, District- Naogaon., Naogaon",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1368,13 +1750,17 @@
       "MONIRAMPUR SUB BRANCH": [
         "Abdul Bari Mansion,Holding Number-132,Ward No-3,Pouroshava- Monirampur ,Thana- Monirampur,District- Jashore., Jashore",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02-4777 69034"
+        "02-4777 69034",
+        null,
+        null
       ]
     },
     {
       "MONOHARDI SUB BRANCH": [
         "Happy Palace, Holding No-16, Sadar Road, Ward No-07, Pourashava- Monohardi, Thana- Monohardi, District- Narsingdi, Narsingdi",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1382,20 +1768,26 @@
       "MUNSHI BAZAR SUB BRANCH": [
         "Talukdar Complex, Holding No-173, Munshi Bazar, Ward No-02, Pourashava- Sherpur, Thana- Sherpur Sadar, District- Sherpur, Sherpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "01911338495"
+        "01911338495",
+        null,
+        null
       ]
     },
     {
       "MUNSHIGONJ SUB BRANCH": [
         "Islampur Bhaban, Holding Number-434, Ward No-2, Pouroshava- Munshiganj ,Thana- Munshiganj Sadar,District- Munshiganj., Munshiganj",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02997732842"
+        "02997732842",
+        null,
+        null
       ]
     },
     {
       "Munshirhat Sub Branch": [
         "Building name: Monowara Plaza, Village/Area: Munshir hut, Dag no.: 835,842, Khatian no.: 733, Mouza: Meshtola, Union: 8 no. Munshir Hut, Thana- Chauddagram, District- Cumilla., Cumilla",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1403,6 +1795,8 @@
       "NABINAGAR SUB BRANCH": [
         "Abdul Latif Member Super Market , Holding No-4040, Dakbanglo Sharok, Pouroshava- Nabinagar, Ward No-04, Police Station: Nabinagar, District: Brahmanbaria., Brahmanbaria",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1410,6 +1804,8 @@
       "NANDINA SUB BRANCH": [
         "Al-Hajj Karim Tower, Nandina Bazar,Mouja-Nandina Union-09 Ranagasa, Thana - Jamalpur , District- Jamalpur, Jamalpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1417,6 +1813,8 @@
       "NARAIL SUB BRANCH": [
         "Islam Complex, Dag No:45, Khatian No:86, Narail Jessore Road, Ward No:16, Pourashava: Narail,Thana: Narail Sadar, District: Narail, Narail",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1424,6 +1822,8 @@
       "NAZUMIAHAT SUB BRANCH": [
         "MR Tower, Mouja: Burirsor, Union: Burirsor, Thana: Hathazari, District: Chattogram, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1431,20 +1831,26 @@
       "Netrokona Sub Branch": [
         "RK Mention , Holding No-0067-00, Main Road, Pouroshava: Netrokona, Ward No-06, Police Station: Netrokona, District: Netrokona ., Netrokona",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "02996651109"
+        "02996651109",
+        null,
+        null
       ]
     },
     {
       "NIKUNJA SUB BRANCH": [
         "DSE Tower, House 46, Level 2, Road 21, Nikunja 2, PO: Khilkhet, PS: Khilkhet, Dist: Dhaka - 1229., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
-        "0241040399"
+        "0241040399",
+        "440028",
+        null
       ]
     },
     {
       "NILPHAMARI SUB BRANCH": [
         "Holding number: 0489, Road Name: Haji Mohsin Sarak, Ward No: 02, Paurashava- Nilphamari ,Thana- Nilphamari, District: Nilphamari., Nilphamari",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1452,6 +1858,8 @@
       "Palash Sub Branch": [
         "Chowdhury Complex ,Holdings-280, Shahid Abdus Sattar Road,Pourashava-Ghorashal, Ward No: 02, Police Station: Palash, Narshingdi, Narshingdi",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1459,6 +1867,8 @@
       "PALASHBARI SUB BRANCH": [
         "Chowdhury Bhabon,Holding No.1265, Gaibandha Road, Pouroshava- Palashbari, ,Thana- Palashbari,District-Gaibandha, Gaibandha",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1466,6 +1876,8 @@
       "PATENGA SUB BRANCH": [
         "Eklasur Rahman Bhaban, Katghar, Muslimabad, North Patenga, Chattogram City Corporation, Thana- Patenga, District- Chattogram, Chattogram",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1473,6 +1885,8 @@
       "PATIYA SUB BRANCH": [
         "A.B. PLAZA, HOLDING NO 599, ARAKAN ROAD, WARD NO 07, POUROSOVA: PATIYA, THANA: PATIYA, DISTRICT: CHATTOGRAM",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1480,6 +1894,8 @@
       "SAIFULLAKANDI SUB BRANCH": [
         "Saifullakandi Area, Saifullakandi Union, Saifullakandi Upazila, Brahmanbaria., Brahmanbaria",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1487,6 +1903,8 @@
       "SHAHRASTI SUB BRANCH": [
         "Shahrasti Plaza, Dowabhanga-Dolta Road, Ward No 07, Shahrasti Pourashava, Shahrasti Thana, Chandpur., Chandpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1494,6 +1912,8 @@
       "Shariatpur Sub Branch": [
         "Abdullah Plaza ,Holding No: 811,Palong Uttor Bazar, Shariatpur Sadar. Shariatpur., Shariatpur",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1501,6 +1921,8 @@
       "SINGIAR SUB BRANCH": [
         "Riaz Mansion, Holding No-540, Hemayetpur- Manikganj Road,Ward-3, , Pourashava- Singiar, Thana- Singiar, District- Manikganj, Manikganj",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1508,6 +1930,8 @@
       "Square Masterbari Sub Branch": [
         "Building name: NM TipTop Center, Village/Area: Jamirdia, Dag no.: BRS 2866, Khatian no.: 2189, Mouza: Jamirdia, Union: Habirbari, Thana- Bhaluka, District- Mymensingh., Mymensingh",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1515,6 +1939,8 @@
       "Sreenagar Sub Branch": [
         "Toha Complex, Dag No/RS-908/909, Khatian No/RS-1603 Mouja- Sreenagar, Union- Sreenagar, Thana-Sreenagar,District-Munshigong, Munshigong",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1522,6 +1948,8 @@
       "Thakurgaon Sub Branch": [
         "IRS Tower, Bangabandhu Sarak, Chowrasta, Pourasova – Thakurgaon, Thana – Thakurgaon, District – Thakurgaon., Thakurgaon",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        null,
         null
       ]
     },
@@ -1529,6 +1957,8 @@
       "Uttara Sub Branch": [
         "Shanta Virtue, 14/A, Dhaka-Mymensingh Highway, Dhaka North City Corporation, Dhaka., Dhaka",
         "https://legacy.citybankplc.com/locate-atm-branch",
+        null,
+        "440230",
         null
       ]
     }

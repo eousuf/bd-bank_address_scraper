@@ -3,10 +3,15 @@
   "bank_url": "https://bd.statebank/",
   "method": "html_cards+html_table+markdown",
   "status": "success",
+  "bank_id": "24",
+  "total_branch": 10,
+  "total_sub_branch": 1,
   "branch": [
     {
       "inner Slide of Branch Locator": [
         "Breadcrumb",
+        null,
+        null,
         null,
         null
       ]
@@ -15,25 +20,33 @@
       "Chattogram Branch": [
         "ABC Tower (1st Floor)",
         null,
-        "+880 1325 074291; 02333356008-9"
+        "+880 1325 074291; 02333356008-9",
+        null,
+        null
       ]
     },
     {
       "Khulna Branch": [
         "Email: ; Cell No – 0088 01325074298",
         null,
-        "01325074298"
+        "01325074298",
+        "240006",
+        "220471543"
       ]
     },
     {
       "State Bank of India, Khulna Branch": [
         "Email: ; Cell No – 0088 01325074298",
         null,
-        "01325074298"
+        "01325074298",
+        "240006",
+        "220471543"
       ]
     },
     {
       "RFP for Chattogram Branch Network Architecture & Other IT Related Products for SBI Bangladesh Operations": [
+        null,
+        null,
         null,
         null,
         null
@@ -43,12 +56,16 @@
       "in Bangladesh since 1975 by reopening our Dhaka Branch at Motijheel on 5th May 1975 after": [
         "through a network of 3 branches, 1 Banking Booth and 2 offshore Banking Units in Dhaka,",
         null,
+        null,
+        "240001",
         null
       ]
     },
     {
       "1212\\. In order to meet the Branch Shifting and Redesigning of Chattogram Branch (New": [
         "having its Country Office, Navana Pristine Pavilion, 12th Floor,128, Gulshan Avenue, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -57,6 +74,8 @@
       "State Bank of India, Chattogram Branch, 1st Floor, ABC Tower, 1113/1140 Enayet Bazar": [
         "Road, P.S.: Kotwali, District: Chattogram, Bangladesh.",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -64,12 +83,16 @@
       "RFP for Chattogram Branch Network": [
         "Architecture & Other IT Related Products",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "SL No.": [
         "NAME Of LOCKER HOLDER",
+        null,
+        null,
         null,
         null
       ]
@@ -80,7 +103,9 @@
       "Incharge of Motijheel Sub-Branch (Sub-Branch)": [
         "24-25 Dilkusha Commercial Area",
         null,
-        "+880 1325074247"
+        "+880 1325074247",
+        null,
+        null
       ]
     }
   ]

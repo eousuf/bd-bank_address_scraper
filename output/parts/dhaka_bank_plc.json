@@ -3,24 +3,33 @@
   "bank_url": "https://dhakabank.com.bd/",
   "method": "html_table+pdf",
   "status": "success",
+  "bank_id": "56",
+  "total_branch": 192,
+  "total_sub_branch": 40,
   "branch": [
     {
       "Bashundhara": [
         "Union Tower , Plot#440-442, Block-A, Bashundhara Residential Area, Thana-Vatara, Dhaka-1229​",
         null,
-        "01713481054"
+        "01713481054",
+        "560122",
+        null
       ]
     },
     {
       "Kakrail": [
         "71, Purana Paltan Lane, Dhaka",
         null,
+        null,
+        "560106",
         null
       ]
     },
     {
       "IBB Motijheel": [
         "Modhumita Cinema Hall Building, 158/160 Motijheel C/A, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -29,27 +38,35 @@
       "Local Office": [
         "Manager: Khan Shahadat Hossain, SEVP Date of Opening: July 5, 1995 Adamjee Court, 115/120, Motijheel C/A, Dhaka 1000. Fax: 955 6583 E-",
         null,
-        "Tel: 955 6587, 955 6592-3, 957 1138 Fax: 955 6583"
+        "Tel: 955 6587, 955 6592-3, 957 1138 Fax: 955 6583",
+        "560201",
+        null
       ]
     },
     {
       "Gulshan Circle-2": [
         null,
         null,
-        "Tel: 883 6224, 883 6225 Fax: 883 6241"
+        "Tel: 883 6224, 883 6225 Fax: 883 6241",
+        "560102",
+        null
       ]
     },
     {
       "Shahjahanpur": [
         "Navana Circular Heights, Holding#20, Outer Circular Road, Ward-11, Dhaka",
         null,
-        "Tel: 8331945-6 Fax: 8331948"
+        "Tel: 8331945-6 Fax: 8331948",
+        "560217",
+        null
       ]
     },
     {
       "Mohakhali": [
         "Yusuf Navana Infinity, Plot-16 (Ground & 1st floor), Bir Uttam A.K. Khandakar Road, Mohakhali C/A,Dhaka",
         null,
+        null,
+        "560225",
         null
       ]
     },
@@ -57,11 +74,15 @@
       "Jatrabari": [
         "1st floor, Al Monir Bhaban, Holding No.- 101, Shaheed Faruque Road, Ward-50, Thana-Jatrabari, Dhaka South City Corporation, District-Dhaka 1204.",
         null,
-        "Tel: 754 7846, 754 7856 Fax: 754 7876"
+        "Tel: 754 7846, 754 7856 Fax: 754 7876",
+        "560242",
+        null
       ]
     },
     {
       "Hotel Niribili, CXB": [
+        null,
+        null,
         null,
         null,
         null
@@ -71,6 +92,8 @@
       "CWCH Ashulia": [
         null,
         null,
+        null,
+        null,
         null
       ]
     },
@@ -78,11 +101,15 @@
       "Uttara Sector-04": [
         null,
         null,
+        null,
+        "560204",
         null
       ]
     },
     {
       "SKS Tower": [
+        null,
+        null,
         null,
         null,
         null
@@ -92,26 +119,34 @@
       "Eskaton": [
         "Shanta Garden, 50/B, New Eskaton Road, Dhaka",
         null,
-        "01819373273"
+        "01819373273",
+        "560105",
+        null
       ]
     },
     {
       "Sonargaon Janapath": [
         "Holding NO.56, Sonargaon Janapath Road, Sector-09, Ward No.01, Dhaka North City Corporation, Thana-Uttara, Dist-Dhaka.",
         null,
-        "02-48956187; 01818772053"
+        "02-48956187; 01818772053",
+        "560119",
+        null
       ]
     },
     {
       "Cumilla": [
         "20, Kandirpar Moor (1st floor), Adarsha Sadar, Cumilla",
         null,
-        "02334402646; 02334402647; 01730317849"
+        "02334402646; 02334402647; 01730317849",
+        null,
+        null
       ]
     },
     {
       "Metro - Karwan Bazar": [
         "Metrorail Karwan Bazar Station",
+        null,
+        null,
         null,
         null
       ]
@@ -120,12 +155,16 @@
       "Metro - Farmgate": [
         "Metrorail Farmgate Station",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Tanbazar": [
         "Sattar Tower, S.M. Malek Road, Tanbazar, Narayangonj",
+        null,
+        null,
         null,
         null
       ]
@@ -134,12 +173,16 @@
       "Chatmohar": [
         "J.S. Shopping Complex (First Floor), 516, Narikel Para, Chatmohar Sadar, Chatmohar, Pabna",
         null,
-        "07324-56272; 07324-56273; 07324-56274"
+        "07324-56272; 07324-56273; 07324-56274",
+        "560303",
+        "085760644"
       ]
     },
     {
       "Metro - Motijheel": [
         "Metrorail Motijheel Station",
+        null,
+        null,
         null,
         null
       ]
@@ -148,6 +191,8 @@
       "Metro - DU Campus": [
         "Metrorail DU Campus Station",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -155,13 +200,17 @@
       "Halishahar": [
         "14/A, Nusrat Mension(1st floor), Block#G, Halishahar H/E, P.C Road, Chattogram",
         null,
-        null
+        null,
+        "560023",
+        "085153169"
       ]
     },
     {
       "KDA Avenue": [
         "2B, KDA Avenue, Khulna 9100",
         null,
+        null,
+        "560502",
         null
       ]
     },
@@ -169,6 +218,8 @@
       "Goran": [
         "179, North Goran, 1st floor, Khilgaon, Dhaka",
         null,
+        null,
+        "560107",
         null
       ]
     },
@@ -176,12 +227,16 @@
       "Forum Branch": [
         "Plot Nos. 187 and 188/B, Bir Uttam Mir Shawkat Ali Road (Gulshan-Tejgaon Link Road), Tejgaon Industrial Area, Dhaka- 1208",
         null,
+        null,
+        "560126",
         null
       ]
     },
     {
       "DEPZ-1": [
         "Ground Floor, 1st floor & 2nd Floor, Commercial Complex, Dhaka EPZ, Ganakbari Savar, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -190,6 +245,8 @@
       "DEPZ-2": [
         "Commercial Complex, Ward No-6, Dhamshona, Ashulia, Dhaka-1341",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -197,6 +254,8 @@
       "CDA Avenue": [
         "787/A, Avenue Center, East Nasirabad, Chattogram",
         null,
+        null,
+        "560020",
         null
       ]
     },
@@ -204,145 +263,187 @@
       "Foreign Exchange Branch": [
         "Manager: Mukarram Hossain Chowdhury, SVP Date of Opening: July 15, 1998 Biman Bhaban, (1st floor) 100 Motijheel C/A, Dhaka 1000 Fax: 716 9328 E-",
         null,
-        "Tel: 711 1851, 712 6065 Fax: 716 9328"
+        "Tel: 711 1851, 712 6065 Fax: 716 9328",
+        "560203",
+        null
       ]
     },
     {
       "Gulshan Branch": [
         "Manager: Akhlaqur Rahman, VP Date of Opening: September 13, 2004 Plot# 7 Block# SE (D), 24 Gulshan Avenue Gulshan-1, Dhaka 1212 Fax: 988 1026 E-",
         null,
-        "Tel: 881 6442, 882 5113, 989 7431 Fax: 988 1026"
+        "Tel: 881 6442, 882 5113, 989 7431 Fax: 988 1026",
+        "560215",
+        null
       ]
     },
     {
       "Imamgonj Branch": [
         "Manager: Md. Wahidur Rahman Chowdhury, VP Date of Opening: January 12, 1997 Sardar Mansion, 01, Imamgonj Lane, Imamgonj Bazar, Dhaka 1100 Dir), 731 4136, 731 8031 Fax: 731 4135 E-mail: i Jatrabari Branch Manager: Mohammad Sirajul Islam, AVP Date of Opening: Feb",
         null,
-        "Tel: 731 4032(Dir.), 731 4136, 731 8031 Fax: 731 4135"
+        "Tel: 731 4032(Dir.), 731 4136, 731 8031 Fax: 731 4135",
+        "560209",
+        null
       ]
     },
     {
       "Islamic Banking Branch, Motijheel": [
         "Manager: Syed Abdul Quader, SVP Date of Opening: July 2, 2003 Sara Tower, 1st floor, 11/A Toyenbee Circular Road, Motijheel C/A, Dhaka 1000 Dir), 716 0913-5 Fax: 716 0912 E-mail: Joypara Branch, Dohar Manager: Abdulla Al- Mamun, AVP Date of Opening: November 3",
         null,
-        "Tel: 958 4951(Dir.), 958 5751-2 Fax: 958 4951"
+        "Tel: 958 4951(Dir.), 958 5751-2 Fax: 958 4951",
+        "560214",
+        null
       ]
     },
     {
       "Islampur Branch": [
         "Manager: A.S.M. Kamrul Huda, SAVP Date of Opening: January 12, 1998 6-7, Islampur Road, Islampur Dhaka 1100 Fax: 739 2942 E-mail: Karwan Bazar Branch Manager: Md. Mostaque Ahmed, SVP Date of Opening: November 16, 2000 Summit Centre (1st Floor), 18",
         null,
-        "Tel: 739 2942, 739 3980-1 Fax: 739 2942"
+        "Tel: 739 2942, 739 3980-1 Fax: 739 2942",
+        "560211",
+        null
       ]
     },
     {
       "Joypara Branch": [
         null,
         null,
-        "Tel: 776 8160"
+        "Tel: 776 8160",
+        "560216",
+        null
       ]
     },
     {
       "Karwan Bazar Branch": [
         "Summit Centre (1st Floor), 18 Karwan Bazar, Dhaka 1215",
         null,
-        "Tel: 811 9025, 911 8001, 913 4323 Fax: 812 5764"
+        "Tel: 811 9025, 911 8001, 913 4323 Fax: 812 5764",
+        null,
+        "085262539"
       ]
     },
     {
       "Keranigonj Branch": [
         "Manager: Salim Ahmed Milon, SAVP Date of Opening: December 30,2007 Khan Plaza, 1st Floor, Shaheed Delwar Hossain Road, East Aganagar, Keranigonj, Dhaka 1310 Fax: 776 2251 E-",
         null,
-        "Tel: 776 2250 Fax: 776 2251"
+        "Tel: 776 2250 Fax: 776 2251",
+        "560221",
+        null
       ]
     },
     {
       "Khilgaon Branch": [
         "Manager, Md. Sanaur Rahman, SAVP Date of Opening: March 29, 2010 389/B, 1st Floor, Khilgaon, Dhaka 1219. Fax: 721 5883 E-",
         null,
-        "Tel: 721 5881-2 Fax: 721 5883"
+        "Tel: 721 5881-2 Fax: 721 5883",
+        "560224",
+        null
       ]
     },
     {
       "Konabari Branch": [
         "Manager: Md. Maksumul Ahmed, SAVP Date of Opening: December 28, 2006 146/147 (1st Floor) BSCIC, Konabari, Gazipur 1704. Fax: 929 8701-8 E-",
         null,
-        "Tel: 929 8701 Fax: 929 8701"
+        "Tel: 929 8701 Fax: 929 8701",
+        "560220",
+        "085330940"
       ]
     },
     {
       "Mohakhali Branch": [
         "Date of Opening: December 23, 2010 100, Mohakhali, Ground & 1st Floor, Bir Uttam A.K. Khandkar Road, Dhaka 1212. Fax: 882 8910 E-",
         null,
-        "Tel: 988 2914-5, 988 6376 Fax: 882 8910"
+        "Tel: 988 2914-5, 988 6376 Fax: 882 8910",
+        "560225",
+        null
       ]
     },
     {
       "Rajanagar Branch": [
         "Manager: Ajit Gomes, SAVP Date of Opening: June 17, 2012 Smriti Plaza (1st floor), Rajanagar, Sirajdikhan, Munshigonj 1540. E-",
         null,
-        "01944721265"
+        "01944721265",
+        "560230",
+        null
       ]
     },
     {
       "Savar Bazar Branch": [
         "Manager: Md. Abu Sufian Talukder, FVP Date of Opening: August 25, 2008 Alam Plaza (1st Floor), 122/3 Jaleshwor, Savar Bazar Bus Stand, Savar, Dhaka 1340. Fax: 774 3434 E-",
         null,
-        "Tel: 774 3435 Fax: 774 3434"
+        "Tel: 774 3435 Fax: 774 3434",
+        "560222",
+        null
       ]
     },
     {
       "Tangail Branch": [
         "Noorjahan Complex (1st floor), Maszid Road, Tangail",
         null,
-        "0921-62920; 0921-62897; 0921-62954"
+        "0921-62920; 0921-62897; 0921-62954",
+        "560103",
+        "085932298"
       ]
     },
     {
       "Uttara Branch": [
         "Manager: Mustafa Husain, VP Date of Opening: December 30, 1999 House No.01, GF & 1st floor, Road No. 13, Sector-01, Uttara, Dhaka 1230 Fax: 891 9742, 895 1755, E-",
         null,
-        "Tel: 891 9948, 891 9742, 895 1788 Fax: 891 9742, 895 1755"
+        "Tel: 891 9948, 891 9742, 895 1788 Fax: 891 9742, 895 1755",
+        "560204",
+        null
       ]
     },
     {
       "Motijheel Branch": [
         null,
         null,
-        "01755 693332"
+        "01755 693332",
+        "560214",
+        null
       ]
     },
     {
       "Kakrail Branch": [
         "Holding #71 (1st Floor), Road No: 13 (New) 36 (Old), Thana- Paltan, District-Dhaka",
         null,
-        "01975001678"
+        "01975001678",
+        "560106",
+        null
       ]
     },
     {
       "Kamarpara Branch": [
         "Hasmat Tower, 30/A Kamarpara, Bazar Road, Khaiftek, Nishatnagar, Harirampur, Turag, Dhaka",
         null,
-        "Tel: 8981061-3 Fax: 8981064"
+        "Tel: 8981061-3 Fax: 8981064",
+        "560110",
+        null
       ]
     },
     {
       "Nandipara Branch": [
         "Haji Mohammad Sadek Ali Mansion, Union: Dakkhingaon, Thana- Khilgaon, Dhaka",
         null,
-        "Tel: 7811448 Fax: 7811328"
+        "Tel: 7811448 Fax: 7811328",
+        "560111",
+        null
       ]
     },
     {
       "Panchdona Branch": [
         "Microgreen City, Shreechandi, Union: Meherpara, Ward: 9, Police Station: Narshingdi Sadar, Dist.: Narshingdi",
         null,
-        "01708133917"
+        "01708133917",
+        "560112",
+        null
       ]
     },
     {
       "Momen Tower": [
         "Holding 65, Dr. Bipin Sen Road, Choto Bazar, Police Station: Kotwali, Pourashava: Mymensingh, District: Mymensingh",
+        null,
+        null,
         null,
         null
       ]
@@ -351,6 +452,8 @@
       "Shamshedpur": [
         "Kalatia Bazar, Keraniganj, Dhaka 1313",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -358,11 +461,15 @@
       "Skill House": [
         "Ka-53/2, Pragati Sarani, Word #18, Gulshan, Dhaka North City Corporation, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Chittagong Region": [
+        null,
+        null,
         null,
         null,
         null
@@ -372,19 +479,25 @@
       "102-103 World Trade Centre Agrabad": [
         "Commercial Area Chittagong 4100",
         null,
-        null
+        null,
+        "560016",
+        "085150133"
       ]
     },
     {
       "Tel: 031-252 3420-22": [
         "031-252 4617 Fax: 031-252 4871",
         null,
-        "031-252 3420-22; 031-252 4617; 031-252 4871"
+        "031-252 3420-22; 031-252 4617; 031-252 4871",
+        null,
+        null
       ]
     },
     {
       "Mozahar Bhaban (1st & 2nd floor)": [
         "222/223, Abdus Sattar Road, Anderkilla, Rahmatgonj, Chittagong 4100",
+        null,
+        null,
         null,
         null
       ]
@@ -393,6 +506,8 @@
       "565/A": [
         "CDA Avenue (Ground Floor), East Nasirabad, Chittagong 4000",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -400,12 +515,16 @@
       "Tel: 0312-850950": [
         "0312-850951-52 Fax: 0312850953",
         null,
-        "0312-850950; 0312-850951-52; 0312850953"
+        "0312-850950; 0312-850951-52; 0312850953",
+        null,
+        null
       ]
     },
     {
       "Taher Plaza (1st & 2nd floor)": [
         "Chiringa old, bus stand, Chakaria, Cox's Bazar 4700",
+        null,
+        null,
         null,
         null
       ]
@@ -414,12 +533,16 @@
       "20 Kandirpar Moor": [
         "1st Floor, Comilla",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Rakshit Market (1st Floor)": [
         "Main Road, Laldighirpar, Cox's Bazar 4700",
+        null,
+        null,
         null,
         null
       ]
@@ -428,12 +551,16 @@
       "Tel: 0341-51015": [
         "0341-63931 Fax: 0341-63164",
         null,
-        "0341-51015; 0341-63931; 0341-63164"
+        "0341-51015; 0341-63931; 0341-63164",
+        null,
+        null
       ]
     },
     {
       "College Gate": [
         "1st floor, Fatikchhari College, Fatikchhari, Chittagong 4350",
+        null,
+        null,
         null,
         null
       ]
@@ -442,12 +569,16 @@
       "City Plaza": [
         "132, S.S.K. Road, Feni 3900",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "1st floor Chowmuhoni": [
         "Gohira, Raozan, Chittagong 4343",
+        null,
+        null,
         null,
         null
       ]
@@ -456,96 +587,124 @@
       "Tel: 03026-56485": [
         "03026-56486 Fax: 03026-56487",
         null,
-        "03026-56485; 03026-56486; 03026-56487"
+        "03026-56485; 03026-56486; 03026-56487",
+        null,
+        null
       ]
     },
     {
       "Hathazari Branch": [
         "Manager: Shahidun Nabi Khan, SAVP Date of Opening: September 3, 2006 Sobhan Plaza, 1st Floor, Kachari Road, Hathazari, Chittagong 4330 Fax: 031-260 1529 E-",
         null,
-        "031-260 1528; 0443-449 3217; 031-260 1529"
+        "031-260 1528; 0443-449 3217; 031-260 1529",
+        "560021",
+        "085153222"
       ]
     },
     {
       "Jubilee Road Branch": [
         "Manager: Nurul Arshad Chowdhury, SVP Date of Opening: September 15,1997 Liberty Tower, 183, Jubilee Road, Chittagong 4000. Fax: 031-630187 E-",
         null,
-        "031-630184-5; 031-630187"
+        "031-630184-5; 031-630187",
+        "560018",
+        "085153648"
       ]
     },
     {
       "Khatungonj Branch": [
         "Manager: Md. Mozammal Hoque Chowdhury, SEVP Date of Opening: August 12, 1996 291, Khatungonj Road. Khatungonj, Chittagong 4100 Fax: 031-622130 E-",
         null,
-        "031-622132-3; 031-622130"
+        "031-622132-3; 031-622130",
+        "560017",
+        null
       ]
     },
     {
       "New Market Branch, Chittagong": [
         "Al-karan Biponi Bitan Centre (2nd Floor), H# 388, Road: Kotwali, Ward# 31, Al-karan, Chittagong City Corporation, Kotwali, Chittagong",
         null,
-        "031-621242; 031-621244"
+        "031-621242; 031-621244",
+        "560025",
+        null
       ]
     },
     {
       "Patiya Branch": [
         "Manager: Sonjoy Talukder, AVP Date of Opening: December 27, 2009 A.S Rahat Ali High School Market, 1st Floor, Thana Road, Patiya, Chittagong 4370. Fax: 0303-556449 E-",
         null,
-        "0303-556449"
+        "0303-556449",
+        "560022",
+        "085156166"
       ]
     },
     {
       "Sonaimuri Branch": [
         "Manager: Khan Md. Manzur Masud, AVP Date of Opening: October 2, 2005 Tofael Shopping Mall (1st Floor), Sonaimuri Bazar, Noakhali 3827 Fax: 0322-751142 E-",
         null,
-        "0322-751132; 0322-751142"
+        "0322-751132; 0322-751142",
+        "560091",
+        "085752236"
       ]
     },
     {
       "Teknaf Branch": [
         "1st floor, Farid Market, Uporer Bazar, Madrasa Road, Teknaf, Cox’s Bazar",
         null,
-        "0342675076; 01777 758330; 0342675075"
+        "0342675076; 01777 758330; 0342675075",
+        "560001",
+        null
       ]
     },
     {
       "Ashuganj Branch": [
         "Dulal Tower, 1st floor, Ashuganj Bazar, Union- Ashuganj, Thana- Ashuganj, Dist.- Brahmanbaria",
         null,
-        "0852874234-5; 01710 924292; 01918 080322; 0852874236"
+        "0852874234-5; 01710 924292; 01918 080322; 0852874236",
+        null,
+        "085120105"
       ]
     },
     {
       "Maijdee Branch": [
         "Mostafa Plaza, Holding no. 142, Road no. 01, Main Road, Ward No. 02, Pourosova- Noakhali Thana- Sudharam, District- Noakhali",
         null,
-        "032171591; 032171592"
+        "032171591; 032171592",
+        "560003",
+        "085750067"
       ]
     },
     {
       "Lakshmipur Branch": [
         "126/1, Thana Road, Police Station, Lakshmipur Sadar, Pourosova, Lakshmipur, Lakshmipur",
         null,
-        "01708133925"
+        "01708133925",
+        "560005",
+        "085510731"
       ]
     },
     {
       "Chhagalnaiya Branch": [
         null,
         null,
-        "3322-78123-4, Fax: 3322-78,"
+        "3322-78123-4, Fax: 3322-78,",
+        "560006",
+        "085300312"
       ]
     },
     {
       "Narayanganj Region": [
         null,
         null,
-        null
+        null,
+        null,
+        "085671188"
       ]
     },
     {
       "Noor Mansion Market": [
         "1st Floor, Goalakandi, PO. Bhulta, PS. Rupgonj, Narayangonj 1462",
+        null,
+        null,
         null,
         null
       ]
@@ -554,12 +713,16 @@
       "Sattar Tower": [
         "50, S.M Maleh Road (1st & 2nd Floor), Tanbazar, Narayangonj 1400",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Alhaj Afsar Karim Bhaban (1st Floor)": [
         "Paglabazar, Fatullah, Narayangonj 1421",
+        null,
+        null,
         null,
         null
       ]
@@ -568,12 +731,16 @@
       "Shuptasha Bhaban": [
         "Plot#01,Thana road, Araihazar Bazar, Araihazar, Narayangonj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "“Musa Super Market”": [
         "1st & 2nd Floor, Gopaldi Bazar, Pouroshova - Gopaldi, Thana - Araihazar, District - Narayanganj",
+        null,
+        null,
         null,
         null
       ]
@@ -582,11 +749,15 @@
       "Brothers Reazuddin Khan Plaza": [
         "Murapara Bazar, Union: Murapara Thana: Rupganj, District: Narayanganj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Sylhet Region": [
+        null,
+        null,
         null,
         null,
         null
@@ -596,6 +767,8 @@
       "Rahman Complex": [
         "(1st Floor) Goalabazar, Osmaninagar, Sylhet 3124",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -603,152 +776,196 @@
       "Laldighirpar Branch": [
         "Manager: Syed Ahsanur Reza, SVP Date of Opening: September 8, 1998 960, Laldighirpar, Sylhet 3100. Fax: 0821-721120 E-",
         null,
-        "0821-721116-9; 0821-721120"
+        "0821-721116-9; 0821-721120",
+        "560151",
+        "085912500"
       ]
     },
     {
       "Madina Market Branch": [
         "Manager: Shyamal Kanti Das, AVP Date of Opening: August 30, 2012 Mahmud Complex (1st floor), 1400, Madina Market, West Pathantula, Sylhet 3100 Di), 0821-728472, Fax: 0821-728473 E-",
         null,
-        "0821-728471; 0821-728472; 0821-728473"
+        "0821-728471; 0821-728472; 0821-728473",
+        "560150",
+        "085912542"
       ]
     },
     {
       "Moulvibazar Branch": [
         "Manager: Fazle Ahmed Rabbi, FVP Date of Opening: December 12, 2004 S.R. Plaza (1st Floor), 1151/3, M. Saifur Rahman Road, Paschim Bazar, Moulvibazar 3200 Fax: 0861-62175 E-",
         null,
-        "0861-62173-4; 0861-62175"
+        "0861-62173-4; 0861-62175",
+        "560161",
+        null
       ]
     },
     {
       "Uposhahar Branch": [
         "Manager: Md. Azad Uddin, FVP Date of Opening: August 25, 2008 House# 10, Road# 32, Block-D, Uposhahar, Shahjalal, Sylhet 3100 Fax: 0821-283 1781 E-",
         null,
-        "0821-283 1780; 0821-283 1781"
+        "0821-283 1780; 0821-283 1781",
+        "560153",
+        null
       ]
     },
     {
       "Belkuchi Branch": [
         "Manager: Md. Tariqul Islam, AVP Date of Opening: April 24, 2003 Jamuna Shopping Complex, Mukundaganti Bazar, Belkuchi, Sirajgonj 6740 Fax: 07522-56280, E-",
         null,
-        "07522-56280; 07522-56428"
+        "07522-56280; 07522-56428",
+        "560401",
+        "085880229"
       ]
     },
     {
       "Bogra Branch": [
         "Manager: Md. Kollol Hossain, SAVP Date of Opening: November 24, 2005 712/789, Kabi Nazrul Islam Road, Jhawtola, Bogra 5800 Fax: 051-69815 E-",
         null,
-        "051-69813-4"
+        "051-69813-4",
+        null,
+        "085100370"
       ]
     },
     {
       "Chandaikona Branch": [
         "Happy Store Bhaban, 1st floor, Bazar Road, Chndaikona Bazar, PS.- Rajganj, Dist.- Sirajgonj",
         null,
-        "07526-56250-1; 07526-52652"
+        "07526-56250-1; 07526-52652",
+        "560302",
+        "085880432"
       ]
     },
     {
       "Dinajpur Branch": [
         "Manager: Shihab Jahangir, SPO Date of Opening: May 24, 2012 Rawshon Tower, 44/42 (1st floor), North Munsipara Road, Dinajpur 5200 Fax: 0531-66367 E-",
         null,
-        "0531-66365; 0531-66366; 0531-66367"
+        "0531-66365; 0531-66366; 0531-66367",
+        "560437",
+        "085280674"
       ]
     },
     {
       "Pabna Branch": [
         "Munshi Complex, Holding No. 136, Hazi Abdul Gani Road, Pabna Pourashova, Pabna",
         null,
-        "0731-63406; 0731-63422; 0731-63413"
+        "0731-63406; 0731-63422; 0731-63413",
+        "560301",
+        "085761780"
       ]
     },
     {
       "Rajshahi Branch": [
         "Manager: Md. Abul Hasnat, VP Date of Opening: November 23, 2005 73, Ganak Para, Rajshahi 6100 Fax: 0721-812331 E-",
         null,
-        "0721-812330-1; 0721-812331"
+        "0721-812330-1; 0721-812331",
+        "560421",
+        "085811935"
       ]
     },
     {
       "Shahjadpur Branch": [
         "Manager: Md. Rofiqul Islam, SAVP Date of Opening: November 11, 2012 Hamid Market (1st floor), 38 Dariapur, Shahjadpur, Sirajgonj 6770 Fax: 07527-64075 E-",
         null,
-        "07527-64074; 07527-64075"
+        "07527-64074; 07527-64075",
+        "560403",
+        "085881907"
       ]
     },
     {
       "Sirajgonj Branch": [
         "Manager: Md. Munir Hossain, AVP Date of Opening: August 8, 2010 55, Chamber House, 1st floor, Plot No. S.A-486, S. S. Road, Sirajgonj 6700. Fax: 0751-64508 E-",
         null,
-        "0751-64508-9; 0751-64508"
+        "0751-64508-9; 0751-64508",
+        "560402",
+        null
       ]
     },
     {
       "Saidpur Branch": [
         "Manager: Md. Salah Uddin Khan, SAVP Date of Opening: October 25, 2007 Gouri Plaza (1st Floor), Shaheed Dr. Zikrul Haque Road, Saidpur, Nilphamari 5310 Fax: 0552-672953 E-",
         null,
-        "0552-672952"
+        "0552-672952",
+        "560436",
+        null
       ]
     },
     {
       "Sherpur Branch": [
         "Sonaullah Complex, Holding no- 2339, Dhaka Bogra Highway, Ward no-08, Sherpur Pourashava Sherpur, Bogra",
         null,
-        "Tel: 5029-77163 5029-77164 Fax: 5029-77165"
+        "Tel: 5029-77163 5029-77164 Fax: 5029-77165",
+        "560304",
+        "085102749"
       ]
     },
     {
       "Chapai Nawabganj Branch": [
         "3 Godagari Road, PS.- Chapai Nawabganj Sadar, Pourosova- Chapai Nawabganj, Dist.- Chapai Nawabganj",
         null,
-        "01708133923"
+        "01708133923",
+        "560305",
+        null
       ]
     },
     {
       "Barisal Branch": [
         "Manager: K H M Ashaduzzaman, SAVP Date of Opening: March 18, 2010 86, Talukder Mansion, Sadar Road, Barisal 8200. Fax: 0431- 61644 E-",
         null,
-        "0431-61772; 0431-217 7166; 0431-61644"
+        "0431-61772; 0431-217 7166; 0431-61644",
+        "560601",
+        "085060281"
       ]
     },
     {
       "Bhairab Bazar Branch": [
         "Manager: Md. Mortuza Ali, SAVP Date of Opening: March 20, 2011 166, (Ground & 1st floor) Kalibari Road, Bhairab Bazar, Kishoregonj 2350 Fax: 02-947 1339 E-",
         null,
-        "02-947 1337; 02-947 1339"
+        "02-947 1337; 02-947 1339",
+        "560241",
+        "085480229"
       ]
     },
     {
       "Jessore Branch": [
         "Manager: Abdul Malek Howlader, VP Date of Opening: January 26, 2011 Rashid Center, 7/A, 1st Floor, R.N Road, Jessore 7400. Fax: 0421-68102 E-",
         null,
-        "0421-60301; 0421-68102"
+        "0421-60301; 0421-68102",
+        null,
+        "085410949"
       ]
     },
     {
       "KDA Avenue Branch, Khulna": [
         "Manager: Arif Kamal Chowdhury, FVP Date of Opening: December 20, 2009 2B, KDA Avenue, Khulna 9100 Tel. 041-721437, 041-730075, Fax: 041-2833987 E-",
         null,
-        "041-721437; 041-730075; 041-2833987"
+        "041-721437; 041-730075; 041-2833987",
+        "560502",
+        null
       ]
     },
     {
       "Kishoregonj Branch": [
         "Manager: Syed Ashraful Alam, SAVP Date of Opening: April 9, 2012 Chartterjee Market, (1st & 2nd floor), 154, Natun Bazar, Ishakha Road, Kishoregonj 2300 Fax: 0941-51009 E-",
         null,
-        "0941-51008; 0941-51010; 0941-51009"
+        "0941-51008; 0941-51010; 0941-51009",
+        "560243",
+        null
       ]
     },
     {
       "Satkhira Branch": [
         "Manager: Md. Hamidullah, SAVP Date of Opening: December 28, 2006 Plot No: 12266-8, Bara Bazar, Thana Road,Satkhira Sadar, Satkhira 9400 Fax: 0471-63925 E-",
         null,
-        "0471-63647; 0471-63925"
+        "0471-63647; 0471-63925",
+        null,
+        "085871096"
       ]
     },
     {
       "Zone Service Complex": [
         "CEPZ, South Halishahar, Chittagong 4223",
+        null,
+        null,
         null,
         null
       ]
@@ -757,235 +974,303 @@
       "Amin Bazar Branch": [
         "Manager: Md. Abu Sina, VP Date of Opening: March 15, 2001 Market Complex (1st Floor) Amin Bazar Jame Mosque 780, Begun Bari Union Amin Bazar, Savar, Dhaka Fax: 905 5118 E-",
         null,
-        "900 8998"
+        "900 8998",
+        "560208",
+        null
       ]
     },
     {
       "Banani Branch": [
         "Manager: Mr. Mostaque Ahmed Khan, EVP Date of Opening: October 7, 1996 73/B, Kemal Ataturk Avenue Banani, Dhaka Dir) 988 2324-5 Fax: 883 3481 E-",
         null,
-        "986 2942, 988 1582 ("
+        "986 2942, 988 1582 (",
+        "560206",
+        null
       ]
     },
     {
       "Bangshal Branch": [
         "Manager: Md. Tipu Sultan, SVP Date of Opening: December 6, 1995 88, Shahid Syed Nazrul Islam Sharani, (1st & 2nd flr), Dhaka 1100 Fax: 955 8451 E-",
         null,
-        "711 0463, 711 3748, 717 5275"
+        "711 0463, 711 3748, 717 5275",
+        "560210",
+        null
       ]
     },
     {
       "Baridhara Branch": [
         "Manager: Akhlaqur Rahman, VP Date of Opening: November 14, 2006 House: 27 Block: K, Shahid Shuhrawardi Avenue, Baridhara, Dhaka 1229 Fax: 883 2068 E-",
         null,
-        "883 2063-5"
+        "883 2063-5",
+        "560218",
+        null
       ]
     },
     {
       "Banashree Branch": [
         "Manager: Chowdhury Nazmul Ahsan, VP Date of Opening: July 18, 2012 Nilachal (1st floor), Plot# 14, Block# B Main Road, Banashree, Dhaka 1219 Fax: 839 6426 E-",
         null,
-        "839 6420, 839 6421"
+        "839 6420, 839 6421",
+        "560227",
+        null
       ]
     },
     {
       "Board Bazar Branch": [
         "Manager: Imroz Chowdhury, SAVP Date of Opening: November 8, 2006 Board Bazar, Gazipur 1704 Fax: 929 3595-106 E-",
         null,
-        "929 3595-6"
+        "929 3595-6",
+        "560219",
+        "085330229"
       ]
     },
     {
       "DEPZ Branch": [
         "Manager: A H M Morshed, FVP Date of Opening: April 12, 2001 Zone Service Building, Room # 48-51 DEPZ, Ganakbari Savar, Dhaka 1349 Fax: 778 9672 E-",
         null,
-        "778 9671"
+        "778 9671",
+        null,
+        null
       ]
     },
     {
       "Dhanmondi Branch": [
         "Manager: Sheikh Abdul Bakir, SVP Date of Opening: August 1, 2000 House No. 500, Road: 07 Dhanmondi R/A, Dhaka 1205 Dir) Fax: 812 5481 E-",
         null,
-        "911 1019, 911 1537, 911 5551, 912 2278 ("
+        "911 1019, 911 1537, 911 5551, 912 2278 (",
+        "560205",
+        null
       ]
     },
     {
       "Dhanmondi Model Branch": [
         "Manager: Shabbir Ahmad, SVP Date of Opening: June 28, 2011 Ground floor, Plot No. 275/G, Road No.27 (old),Shahid Shekh Kamal Sharani, Dhanmondi R/A, Dhaka 1205. Dir.), 910 3652-53, Fax: 910 3654 E-",
         null,
-        "910 3651("
+        "910 3651(",
+        "560226",
+        null
       ]
     },
     {
       "Fantasy Kingdom Branch": [
         "Manager: Md. Munzoor Mursheed, SVP Date of Opening: March 20, 2002 Chowdhury Plaza, Jamgara, Ashulia Savar, Dhaka 1340 Fax: 779 0712 E-",
         null,
-        "779 0711-2"
+        "779 0711-2",
+        "560213",
+        null
       ]
     },
     {
       "Mirpur Branch": [
         "Manager: Aftab Ahmed Chowdhury, SVP Date of Opening: June 7, 2009 Plot No-01, 1st & 2nd Flr, Road No-05, Block# A, Section # 10, Mirpur, Dhaka 1216. Fax: 805 1561 Ext.-107 E-",
         null,
-        "805 1559-60"
+        "805 1559-60",
+        "560223",
+        null
       ]
     },
     {
       "Moghbazar Branch": [
         "Manager: Shahed Mahmud, AVP Date of Opening: September 11, 2006 70, Outer Circular Road, (1st & 2nd Floor), Moghbazar, Dhaka 1217 Fax: 833 1948 E-",
         null,
-        "833 1945-7"
+        "833 1945-7",
+        null,
+        null
       ]
     },
     {
       "Agrabad Branch": [
         "Manager: Md. Muhibbul Abrar Choudhury, EVP Date of Opening: January 20, 1996 Chamber House, 38, Agrabad C/A, Chittagong 4000 Fax: 031-252 4871 E-",
         null,
-        "031-252 3420-2; 031-252 4618; 031-252 4871"
+        "031-252 3420-2; 031-252 4618; 031-252 4871",
+        "560016",
+        "085150133"
       ]
     },
     {
       "Anderkilla Branch": [
         "Manager: M. Amirul Islam, VP Date of Opening: November 28, 2012 Mozahar Bhaban (1st & 2nd floor), 222/223, Abdus Sattar Road, Anderkilla, Rahmatgonj, Chittagong 4100 Fax: 031-286 9713 E-",
         null,
-        "031-286 9710-2; 031-286 9713"
+        "031-286 9710-2; 031-286 9713",
+        "560027",
+        "085150467"
       ]
     },
     {
       "CDA Avenue Branch": [
         "Manager: Mohammed Asiful Hoque Chowdhury, SAVP Date of Opening: December 28, 2005 787/A Avenue Centre (1st Floor), East Nasirabad, Chittagong 4000 Fax: 0312850953 E-",
         null,
-        "0312-850950; 0312-850951-52; 0312850953"
+        "0312-850950; 0312-850951-52; 0312850953",
+        "560020",
+        null
       ]
     },
     {
       "Chakaria Branch": [
         "Manager: Muhammad Sarwer Kamal, AVP Date of Opening: March 30, 2011 Taher Plaza, (1st & 2nd floor) Chiringa old bus stand, Chakaria, Cox’s Bazar 4700 Fax: 0342-256352 E-",
         null,
-        "0342-256350-1; 0342-256352"
+        "0342-256350-1; 0342-256352",
+        "560082",
+        null
       ]
     },
     {
       "Comilla Branch": [
         "Manager: Md. Mazharul Islam, VP Date of Opening: December 27, 2009 20 Kandirpar Moor, 1st Floor, Comilla 3500 Tel. 081-61646, Fax: 081-61647 E-",
         null,
-        null
+        null,
+        "560071",
+        "085191150"
       ]
     },
     {
       "Cox's Bazar Branch": [
         "Manager: Syed Mafiz Uddin Ahmed, FVP Date of Opening: December 15, 2005 Rakshit Market (1st Floor), Main Road, Laldighirpar, Cox’s Bazar 4700 Fax: 0341-63164 E-",
         null,
-        "0341-51015; 0341-63931; 0341-63164"
+        "0341-51015; 0341-63931; 0341-63164",
+        "560081",
+        null
       ]
     },
     {
       "Fatikchhari Branch": [
         "Manager: S. M. Mohammad Ali, FVP Date of Opening: March 24, 2011 College Gate, 1st floor, Fatikchhari College, Fatikchhari. Chittagong 4350 Fax: 03022-56320 E-",
         null,
-        "03022-56322; 03022-56320"
+        "03022-56322; 03022-56320",
+        null,
+        "085152744"
       ]
     },
     {
       "Feni Branch": [
         "Manager: Shah Emran, SAVP Date of Opening: November 18, 2007 City Plaza, 132, S.S.K. Road, Feni 3900 Tel. 0331-63541, Fax: 0331-63542 E-",
         null,
-        "0331-63541; 0331-63542"
+        "0331-63541; 0331-63542",
+        "560096",
+        "085300525"
       ]
     },
     {
       "Gohira Branch": [
         "Manager: Towfiqul Islam, SAVP Date of Opening: May 24, 2012 1st floor Chowmuhoni, Gohira, Raozan, Chittagong 4343 Fax: 03026-56487 E-",
         null,
-        "03026-56485; 03026-56486; 03026-56487"
+        "03026-56485; 03026-56486; 03026-56487",
+        "560026",
+        "085153019"
       ]
     },
     {
       "Halishahar Branch": [
         "Manger: Mohammad Sirajul Islam, VP Date of Opening: December 29, 2009 1st Floor, 14/A, Block -G, Port Connecting Road, Halishahar Housing Estate, Chittagong 4216 Fax: 0312-518 922 E-",
         null,
-        "031-251 8923-4; 0312-518 922"
+        "031-251 8923-4; 0312-518 922",
+        "560023",
+        "085153169"
       ]
     },
     {
       "Islamic Banking Branch, Muradpur, Chittagong": [
         "Manager: K.B.M. Ismail Chowdhury, SAVP Date of Opening: May 22, 2004 AH Paragon, 282, CDA Avenue, Muradpur, Panchliash, Sholokbohor Chittagong 4203 Fax: 031-655766 E-",
         null,
-        "031-255 8166; 031-654266; 031-655766"
+        "031-255 8166; 031-654266; 031-655766",
+        null,
+        null
       ]
     },
     {
       "New Market Br, Chittagong": [
         "Manager: Ashit Kumar Chakraborty, AVP Date of Opening: December 28, 2010 06, Jubilee Road, 1st floor, Chittagong 4000 Fax: 031-621244 E-",
         null,
-        "031-621242; 031-621244"
+        "031-621242; 031-621244",
+        null,
+        "085155659"
       ]
     },
     {
       "B.B. Road Branch": [
         "Manager: Monirul Islam, SAVP Date of Opening: July 2, 2007 127, 1st floor, B.B Road, Narayangonj 1400 Fax: 763 0017 E-",
         null,
-        "764 6658, 764 6668"
+        "764 6658, 764 6668",
+        null,
+        "085670071"
       ]
     },
     {
       "Bhulta Branch": [
         "Manager: Asifur Rahman, SAVP Date of Opening: December 23, 2009 Noor Mansion Market, 1st Floor, Bhulta, Rupgonj, Narayangonj 1462 E-",
         null,
-        "01730 317848; 01730 343836"
+        "01730 317848; 01730 343836",
+        "560234",
+        "085670226"
       ]
     },
     {
       "Madhabdi Branch": [
         "Manager: A H M Morshed, AVP Date of Opening: November 8, 2001 8, Bank Road, Madhabdi Bazar, Narsinghdi 1604 Fax: 944 6680 E-",
         null,
-        "944 6681,944 6686"
+        "944 6681,944 6686",
+        null,
+        "085680674"
       ]
     },
     {
       "Narayangonj Branch": [
         "Manage: Saimur Pervez, SVP Date of Opening: December 3, 1997 Sattar Tower, 50, S.M Maleh Road (1st & 2nd Floor), Tanbazar, Narayangonj 1400 Fax: 763 1864 E-",
         null,
-        "763 0427, 763 0439, 764 8314"
+        "763 0427, 763 0439, 764 8314",
+        "560231",
+        null
       ]
     },
     {
       "Pagla Bazar Branch": [
         "Manager: Mohammed Abdul Hannan Bhuiyan, SAVP Date of Opening: August 31, 2008 Alhaj Afsar Karim Bhaban (1st Floor),Paglabazar, Fatullah, Narayangonj 1421 Fax: 768 1289 E-",
         null,
-        "768 1288, 768 1299"
+        "768 1288, 768 1299",
+        "560233",
+        "085671333"
       ]
     },
     {
       "Goalabazar Branch": [
         "Manager: Suman Banik, SAVP Date of Opening: December 27, 2006 Rahman Complex, (1st Floor) Goalabazar, Osmaninagar, Sylhet 3124 Fax: 08242-56410 E-",
         null,
-        "08242-56296; 08242-56410"
+        "08242-56296; 08242-56410",
+        "560152",
+        "085911543"
       ]
     },
     {
       "Hobigonj Branch": [
         "Manager: Mohammed Sadrul Islam, AVP Date of Opening: August 8, 2010 Khaza Garden City, 1st Floor, 3903, Town Hall Road, Hobigonj 3300. Fax: 0831-62694 E-",
         null,
-        "0831-62693; 0831-62694"
+        "0831-62693; 0831-62694",
+        null,
+        null
       ]
     },
     {
       "RAJSHAHI REGION": [
         null,
         null,
-        null
+        null,
+        "560421",
+        "085811935"
       ]
     },
     {
       "Rangpur Branch": [
         "Manager: Avijit Roy, AVP Date of Opening: December 26, 2006 Moti Plaza (1st Floor), Station Road, Rangpur 5400 Fax: 0521-61494 E-",
         null,
-        "0521-61494"
+        "0521-61494",
+        "560431",
+        "085851458"
       ]
     },
     {
       "OTHERS": [
+        null,
+        null,
         null,
         null,
         null
@@ -995,11 +1280,15 @@
       "Faridpur Branch": [
         "Manager: Soumitro Kumar Saha, SAVP Date of Opening: May 22, 2012 1st & 2nd floor, 90, Chakbazar, Thana moar Faridpur 7800 Fax: 0631-67292 E-",
         null,
-        "0631-67290; 0631-67291; 0631-67292"
+        "0631-67290; 0631-67291; 0631-67292",
+        "560244",
+        "085290527"
       ]
     },
     {
       "SME SERVICE CENTERS": [
+        null,
+        null,
         null,
         null,
         null
@@ -1009,39 +1298,51 @@
       "CEPZ SME Service Center": [
         "Date of Opening: December 30, 2009 Zone Service Complex, CEPZ, South Halishahar, Chittagong 4223 Fax: 031-741614 E-",
         null,
-        "031-741613; 031-741614"
+        "031-741613; 031-741614",
+        "560004",
+        null
       ]
     },
     {
       "Goran SME Service Center": [
         "Date of Opening: August 18, 2008 179, 1st Floor, North Goran, Khilgaon, Dhaka 1219 Tel: 721 3476 E-",
         null,
-        "01730 097259"
+        "01730 097259",
+        "560107",
+        null
       ]
     },
     {
       "Shewrapara SME Service Center": [
         "Date of Opening: December 27, 2008 1036, Shewrapara (1st Floor), Mirpur, Dhaka 1216 Tel: 900 0336 E-",
         null,
-        "01730 336987"
+        "01730 336987",
+        "560108",
+        null
       ]
     },
     {
       "Off-shore Banking Unit, DEPZ": [
         "Date of Opening: May 22, 2006 Zone Service Building, Room # 48-51, DEPZ, Ganakbari, Savar, Dhaka 1349. Fax: 778 9672 E-",
         null,
-        "778 9671, 778 8861"
+        "778 9671, 778 8861",
+        null,
+        null
       ]
     },
     {
       "Off-shore Banking Unit, CEPZ": [
         "Date of Opening: March 3, 2008 Zone Service Building, Chittagong Export Processing Zone, South Halishahar, Chittagong 4223. Fax: 031-741614 E-",
         null,
-        "031-741613; 031-741614"
+        "031-741613; 031-741614",
+        null,
+        null
       ]
     },
     {
       "KIOSK": [
+        null,
+        null,
         null,
         null,
         null
@@ -1051,27 +1352,35 @@
       "New Market KIOSK": [
         "Date of Opening: August 18, 2008 189, Dhaka New Market, Dhaka 1205 E-",
         null,
-        "961 2144"
+        "961 2144",
+        null,
+        "085155659"
       ]
     },
     {
       "Board Bazar-1": [
         "Board Bazar Branch",
         null,
-        null
+        null,
+        "560219",
+        "085330229"
       ]
     },
     {
       "Board Bazar-2": [
         "Board Bazar Branch",
         null,
-        null
+        null,
+        "560219",
+        "085330229"
       ]
     },
     {
       "Gulshan Circle-1 Mohakhali Branch": [
         "Fantasy Kingdom Fantasy Kingdom",
         null,
+        null,
+        "560225",
         null
       ]
     },
@@ -1079,174 +1388,224 @@
       "Agrabad Branch": [
         "World Trade Centre 102-103, Agrabad C/A, Chattogram-4100, Bangladesh",
         null,
-        "02-333323420"
+        "02-333323420",
+        "560016",
+        "085150133"
       ]
     },
     {
       "Akij City Branch": [
         "Akij City, Khulna-Jashore Highway, Ward No:07, Pouroshava-Noapara, Thana: Abhynagar, District: Jashore",
         null,
-        "07327209734"
+        "07327209734",
+        "560228",
+        "085411630"
       ]
     },
     {
       "Araihazar Branch": [
         "Shuptasha Bhaban, Plot# 1, Thana Road, Araihazar Bazar, Araihazar, Narayangonj",
         null,
-        "01730326985"
+        "01730326985",
+        "560101",
+        "085670042"
       ]
     },
     {
       "Azadi Bazar Branch": [
         "Azim-Jashim Market,Dharmapur Union, Thana-Fatikchhari, District-Chattogram",
         null,
-        "01313491965"
+        "01313491965",
+        "560010",
+        "085150733"
       ]
     },
     {
       "Banani Road No 11 Branch": [
         "Eleven Square, Holding No.-01, Road No.-11, Ward No.-19/5, Banani R/A, P.S- Banani, Dhaka North City Corporation, Dist- Dhaka",
         null,
-        "02-55042613-6; 01730086460"
+        "02-55042613-6; 01730086460",
+        "560117",
+        null
       ]
     },
     {
       "Benapole Branch": [
         null,
         null,
-        "01712848896"
+        "01712848896",
+        null,
+        "085410286"
       ]
     },
     {
       "Chandpur Branch": [
         null,
         null,
-        "01313474777"
+        "01313474777",
+        "560009",
+        "085130311"
       ]
     },
     {
       "Chowmuhan i Branch": [
         "Rupali Bhaban, Holding no. 807, Feni Road, Ward No-4, Chowmuhani Pourashava, Thana-Begumganj, District – Noakhali",
         null,
-        "01708493138"
+        "01708493138",
+        "560007",
+        "085750238"
       ]
     },
     {
       "Dhaka EPZ Branch": [
         "Zone Service Building, Room#48-51, DEPZ, Ganakbari Savar, Dhaka",
         null,
-        "01755632361"
+        "01755632361",
+        null,
+        "085261093"
       ]
     },
     {
       "Gopaldi Branch": [
         "Musa Super Market, 1st & 2nd floor, Gopaldi Bazar, Puroshova- Gopaldi, Thana- Araihazar, Dist.- Narayangonj",
         null,
-        "01755693330"
+        "01755693330",
+        "560104",
+        "085670600"
       ]
     },
     {
       "Gulshan Circle-02 Branch": [
         null,
         null,
-        "01709632810"
+        "01709632810",
+        "560215",
+        null
       ]
     },
     {
       "Gulshan Corporate Branch": [
         null,
         null,
-        "02-8832936; 01734868989"
+        "02-8832936; 01734868989",
+        "560120",
+        null
       ]
     },
     {
       "Hili Branch": [
         null,
         null,
-        "01727226803; 01322891591"
+        "01727226803; 01322891591",
+        "560602",
+        "085280111"
       ]
     },
     {
       "Islamic Banking Branch Chawkbazar": [
         null,
         null,
-        "+8801844150530; +8801844150532"
+        "+8801844150530; +8801844150532",
+        null,
+        null
       ]
     },
     {
       "Kalatia Branch": [
         "Shamshedpur, Kalatia Bazar, Keraniganj, Dhaka 1313",
         null,
-        "01711952451"
+        "01711952451",
+        null,
+        "085273436"
       ]
     },
     {
       "Kalibari Branch": [
         "Mumtaz Plaza, Dag No. RS 15, Khotian no-RS 5700, Mouza- Duptara, Union-02, Upazilla- Araihazar, District-Narayanganj",
         null,
-        "01708493139"
+        "01708493139",
+        "560115",
+        "085670118"
       ]
     },
     {
       "Kushtia Branch": [
         null,
         null,
-        "01321209740"
+        "01321209740",
+        "560235",
+        "085500941"
       ]
     },
     {
       "Mawna Branch": [
         "L.K. Tower (2 nd Floor), Sonabo, Tengra, Sreepur Telihati Union Parishad, Upazilla-Sreepur, Thana- Sreepur, District-Gazipur",
         null,
-        "01730086454"
+        "01730086454",
+        null,
+        "085331002"
       ]
     },
     {
       "Mokamtola Branch": [
         null,
         null,
-        "01818462496; 01322891596"
+        "01818462496; 01322891596",
+        "560306",
+        null
       ]
     },
     {
       "Murapara Branch": [
         "Brothers Reazuddin Khan Plaza, Murapara Bazar, Union- Murapara, Thana- Rupganj, Dist.- Narayangonj",
         null,
-        "02 7650158-59; 01709637313; 01944422002"
+        "02 7650158-59; 01709637313; 01944422002",
+        "560109",
+        "085671120"
       ]
     },
     {
       "Mymensingh Branch": [
         "Momem Tower, Holding# 65, Dr. Bipin Sen Road, Choto Bazar, Police Station: Kotwali, Pourashava: Mymensingh, District: Mymensingh",
         null,
-        "01708133924"
+        "01708133924",
+        null,
+        "085611751"
       ]
     },
     {
       "Narsingdi Branch": [
         null,
         null,
-        "01322891598; 01760610596"
+        "01322891598; 01760610596",
+        "560123",
+        "085680858"
       ]
     },
     {
       "Natore Branch": [
         null,
         null,
-        null
+        null,
+        "560307",
+        "085691092"
       ]
     },
     {
       "Pragati Sarani Branch": [
         "Skill House, Ka-53/2, Pragati Sarani, Word #18, Gulshan, Dhaka North City Corporation, Dhaka",
         null,
-        "01755652766"
+        "01755652766",
+        "560114",
+        null
       ]
     },
     {
       "Ruhitpur Branch": [
         null,
         null,
+        null,
+        "560124",
         null
       ]
     },
@@ -1254,11 +1613,15 @@
       "Rupshi Branch": [
         "City Staff Quarter, Holding # 498 & 499, Shahid Bakul Sarak, Ward # 04, Porashava # Tarab, Upazilla # Rupganj, District # Narayanganj",
         null,
-        "01730086455"
+        "01730086455",
+        "560118",
+        "085674480"
       ]
     },
     {
       "Keraniganj, Dist- Dhaka": [
+        null,
+        null,
         null,
         null,
         null
@@ -1268,11 +1631,15 @@
       "Parishad, Keraniganj, Dhaka.": [
         null,
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Dhaka Region": [
+        null,
+        null,
         null,
         null,
         null
@@ -1282,25 +1649,33 @@
       "CDA Avenue Branch": [
         "565/A, CDA Avenue (Ground Floor), East Nasirabad, Chittagong 4000",
         null,
-        "0312-850950; 0312850953"
+        "0312-850950; 0312850953",
+        "560020",
+        null
       ]
     },
     {
       "Gunabati Branch": [
         "Wadud Akbar Garden, Dag No. BS- 476,468,466,467, Khotian No. BS- 136,20,163 Mouza-Gunabati Bazar, Union 12 no. Gunabati Union Parishad, Upazilla-Chouddagram, District-Comilla",
         null,
-        "01730 086459"
+        "01730 086459",
+        "560008",
+        null
       ]
     },
     {
       "Rangpur Branch": [
         "Bangladesh Muktijoddha Sangshad, Rangpur Unit, 1st floor, Shahid Mokter Elahi Sarani, Station Road, Ward#25, Rangpur City Corporation, PS.- Kowtali, Rangpur",
         null,
-        "0521-61494; 0521-61494"
+        "0521-61494; 0521-61494",
+        "560431",
+        "085851458"
       ]
     },
     {
       "Other Branches": [
+        null,
+        null,
         null,
         null,
         null
@@ -1310,13 +1685,17 @@
       "Faridpur Branch": [
         "Holding# 90 (1st & 2nd floor), Chakbazar, Ward#3, Faridpur Pawrashava, PS.- Kotwali, Dist.- Faridpur",
         null,
-        "0631-67290; 0631-67292"
+        "0631-67290; 0631-67292",
+        "560244",
+        "085290527"
       ]
     },
     {
       "Bazar, Police Station: Kotwali, Pourashava: Mymensingh, District: Mymensingh": [
         null,
         null,
+        null,
+        "560701",
         null
       ]
     },
@@ -1324,28 +1703,36 @@
       "Halishahar Housing Estate, Chittagong 4216": [
         null,
         null,
-        null
+        null,
+        "560023",
+        "085153169"
       ]
     },
     {
       "Town Hall Road, Hobigonj 3300": [
         null,
         null,
-        "0831-62693; 0831-62694"
+        "0831-62693; 0831-62694",
+        null,
+        "210264528"
       ]
     },
     {
       "Rangpur City Corporation, PS. Kowtali, Rangpur": [
         null,
         null,
-        null
+        null,
+        "560431",
+        "085851458"
       ]
     },
     {
       "Barisal Branch": [
         "Talukder Mansion, 86, Sadar Road, Ward No. 17, Kotwali, Barisal 8200",
         null,
-        "0431-61772; 0431-217 7166"
+        "0431-61772; 0431-217 7166",
+        "560601",
+        "085060281"
       ]
     }
   ],
@@ -1354,6 +1741,8 @@
       "Bashabo": [
         "Dhaka Complex Private Limited, Holding-1/GA, Central Bashabo, Ward-04, Dhaka South City Corporation, Thana-Sabujbagh, District-Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -1361,222 +1750,286 @@
       "Arshinagar Sub-Branch": [
         "1299/1, Mostafa Tower, Modder Chor, Shahid Buddhijibi Road, union- Sakta, Upazila-Keraniganj, Dist-Dhaka",
         null,
-        "01322908633"
+        "01322908633",
+        null,
+        null
       ]
     },
     {
       "Ashkona Sub- Branch": [
         "Uttara Branch, Dhaka",
         null,
-        "01847273214"
+        "01847273214",
+        null,
+        null
       ]
     },
     {
       "Ashulia Sub- Branch": [
         "Fantasy Kingdom Branch, Savar, Dhaka",
         null,
-        "01325095943"
+        "01325095943",
+        null,
+        null
       ]
     },
     {
       "Badamtoli Sub-Branch": [
         "Imamganj Branch, Dhaka",
         null,
-        "01681528501"
+        "01681528501",
+        null,
+        null
       ]
     },
     {
       "Baily Road Sub-Branch": [
         "Kakrail Branch, Dhaka",
         null,
-        "01321127801"
+        "01321127801",
+        null,
+        "210264528"
       ]
     },
     {
       "Bashabo Sub- Branch": [
         "Nandipara Branch, Dhaka",
         null,
-        "01321127802"
+        "01321127802",
+        null,
+        null
       ]
     },
     {
       "Bir Uzali Bazar Sub-Branch, Gazipur": [
         "Khatian no.- S.A-99 & 54, R.S - 07 & 364, Dag no. S.A- 1231, R.S- 4494/5477, Mutation Khatian No. 54/364, Mutation Case No. 279/17, Jote No. 2279, Mouza- Uzali, Union-Toke, Thana- Kapasia, Dist- Gazipur",
         null,
-        "01321127797"
+        "01321127797",
+        null,
+        null
       ]
     },
     {
       "Bus Terminal Cox's Bazar Sub-Branch": [
         "Cox's Bazar Branch, Cox's Bazar",
         null,
-        "01325095945"
+        "01325095945",
+        null,
+        null
       ]
     },
     {
       "Shafipur Sub- Branch, Gazipur": [
         "Sukur Complex (1st Floor), Shafipur Bazar, Shafipur, Kaliakoir, Dist- Gazipur",
         null,
-        "01313474782"
+        "01313474782",
+        null,
+        null
       ]
     },
     {
       "Colonel Hat Sub Branch, Chattogram": [
         "Halishahar Branch, Chattogram",
         null,
-        "01321209727"
+        "01321209727",
+        null,
+        null
       ]
     },
     {
       "Cumilla EPZ Sub-Branch": [
         "Cumilla Branch, Cumilla",
         null,
-        "01713348298"
+        "01713348298",
+        null,
+        null
       ]
     },
     {
       "Hasnabad Sub- Branch": [
         null,
         null,
-        "01709652805"
+        "01709652805",
+        null,
+        null
       ]
     },
     {
       "Hatirpool Sub- Branch": [
         "89,Nasir Trade Center, Bir Uttam C R Datta Road, Kalabagan, Dist- Dhaka",
         null,
-        "01313474764"
+        "01313474764",
+        null,
+        null
       ]
     },
     {
       "Jagannathpur Sub-Branch": [
         "R.A.S Plaza, K-11/2, Bashundhara Main Road, Ward-17, Dhaka North City Corporation, Thana- Vatara, Dist- Dhaka",
         null,
-        "01713391737"
+        "01713391737",
+        null,
+        null
       ]
     },
     {
       "Jurain Sub- Branch": [
         "Rezia Alam Shopping Complex, Holding-413/3, Alambagh Road, Thana-Kadamtoli, Dist- Dhaka",
         null,
-        "01713343903"
+        "01713343903",
+        null,
+        null
       ]
     },
     {
       "Kamrangirchar Sub-Branch": [
         "Hazi Sultan Plaza, Holding no:72, West Rasulpur Main Road, Ward-56, Kamrangirchar, Dhaka-1211",
         null,
-        "01321209736"
+        "01321209736",
+        null,
+        null
       ]
     },
     {
       "Lakshmibazar Sub-Branch": [
         "29, Subash Bose Avenue, Ward-42, DSCC, Lakshmibazar, Thana-Sutrapur, Dist- Dhaka",
         null,
-        "01313474787"
+        "01313474787",
+        null,
+        null
       ]
     },
     {
       "Lalbagh Sub- Branch": [
         null,
         null,
-        "01322891582"
+        "01322891582",
+        null,
+        null
       ]
     },
     {
       "Madani Avenue Sub- Branch": [
         null,
         null,
-        "0132595948"
+        "0132595948",
+        null,
+        null
       ]
     },
     {
       "Manda Sub- Branch": [
         null,
         null,
-        "01322891586"
+        "01322891586",
+        null,
+        null
       ]
     },
     {
       "Mouchak Sub- Branch": [
         null,
         null,
-        "01713343418"
+        "01713343418",
+        null,
+        null
       ]
     },
     {
       "Nitaiganj Sub- Branch, Narayanganj": [
         null,
         null,
-        "01313491975"
+        "01313491975",
+        null,
+        "085671188"
       ]
     },
     {
       "Panchrukhi Sub-Branch": [
         null,
         null,
-        "01313491960"
+        "01313491960",
+        null,
+        null
       ]
     },
     {
       "Panthapath Sub-Branch": [
         null,
         null,
-        "01313491972"
+        "01313491972",
+        null,
+        null
       ]
     },
     {
       "Rampura Sub- Branch": [
         null,
         null,
-        "01322891603"
+        "01322891603",
+        null,
+        null
       ]
     },
     {
       "Raozan Sub- Branch, Chattogram": [
         null,
         null,
-        "01814120523"
+        "01814120523",
+        null,
+        null
       ]
     },
     {
       "Rupnagar Sub- Branch": [
         null,
         null,
-        "01325095940"
+        "01325095940",
+        null,
+        null
       ]
     },
     {
       "Shanir Akhra Sub-Branch": [
         null,
         null,
-        "01332550590"
+        "01332550590",
+        null,
+        null
       ]
     },
     {
       "Sheikh Mujib Road Sub- Branch, Chattogram": [
         null,
         null,
-        "01321209726"
+        "01321209726",
+        null,
+        "210264528"
       ]
     },
     {
       "Tongi Sub- Branch, Gazipur": [
         null,
         null,
-        "01322908631"
+        "01322908631",
+        null,
+        null
       ]
     },
     {
       "Ashkona Sub Branch": [
         "MG Abed Tower, Holding-373, Ashkona, Ward-49, Dhaka North City Corporation, Thana- Dokkinkhan, Dhaka",
         null,
-        "01794434980"
+        "01794434980",
+        null,
+        null
       ]
     },
     {
       "Ashulia Sub Branch": [
         "Holding No.- 1681, Ashulia Bazar, Ashulia, Savar, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -1585,25 +2038,33 @@
       "Badamtoli Sub Branch": [
         "H-19/4, Shahajada mia lane, Ward-32, DSCC, Thana- Kotwali, Dist- Dhaka",
         null,
-        "01681528501"
+        "01681528501",
+        null,
+        null
       ]
     },
     {
       "Baily Road Sub Branch": [
         "Guide House, Holding-2, Natok Sarani, Ward-19, Dhaka South City Corporation, Thana- Ramna, District- Dhaka.",
         null,
-        "01712058222"
+        "01712058222",
+        null,
+        "210264528"
       ]
     },
     {
       "Bashabo Sub Branch": [
         "Dhaka Complex Private Limited, Holding-1/GA, Central Bashabo, Ward-04, Dhaka South City Corporation, Thana- Sabujbagh, District- Dhaka",
         null,
-        "01913395151"
+        "01913395151",
+        null,
+        null
       ]
     },
     {
       "Bus Terminal Sub Branch": [
+        null,
+        null,
         null,
         null,
         null
@@ -1613,21 +2074,27 @@
       "Halishahar Sub Branch": [
         null,
         null,
-        "01917336275"
+        "01917336275",
+        "560023",
+        "085153169"
       ]
     },
     {
       "Khulshi Sub Branch": [
         "CDA Avenue",
         null,
-        "01741150030"
+        "01741150030",
+        null,
+        null
       ]
     },
     {
       "Matuail Sub Branch": [
         null,
         null,
-        "01321127804"
+        "01321127804",
+        null,
+        null
       ]
     }
   ]

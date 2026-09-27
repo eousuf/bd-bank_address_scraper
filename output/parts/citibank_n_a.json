@@ -3,7 +3,10 @@
   "bank_url": "https://mccibd.org/mcci_members/citibank-n-a/",
   "method": null,
   "status": "failed",
+  "bank_id": "26",
+  "total_branch": 0,
+  "total_sub_branch": 0,
+  "error": "no branch data extracted (site may need JS rendering)",
   "branch": [],
-  "sub_branch": [],
-  "error": "no branch data extracted (site may need JS rendering)"
+  "sub_branch": []
 }

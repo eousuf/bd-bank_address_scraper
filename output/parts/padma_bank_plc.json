@@ -3,228 +3,295 @@
   "bank_url": "https://www.padmabankbd.com/",
   "method": "jquery_ajax",
   "status": "success",
+  "bank_id": "80",
+  "total_branch": 60,
+  "total_sub_branch": 14,
   "branch": [
     {
       "Patuakhali Branch": [
         "S. M. Tower (1st Floor) 63, Old Steamer Ghat Road, Patuakhali",
         "https://www.padmabankbd.com/branches",
-        "01711544123"
+        "01711544123",
+        "800401",
+        "280781099"
       ]
     },
     {
       "Dumki Branch": [
         "Sikder Market (1st Floor), Janata College Road, PO: Dumki, PS: Dumki, Dist: Patuakhali",
         "https://www.padmabankbd.com/branches",
-        "01787692259"
+        "01787692259",
+        "800402",
+        "280780432"
       ]
     },
     {
       "Kalashkathi Branch": [
         "Mallik Plaza (1st Floor), 62, Bank Para Road, Kalashkathi, Bakerganj, Barishal",
         "https://www.padmabankbd.com/branches",
-        "01629437743"
+        "01629437743",
+        "800403",
+        null
       ]
     },
     {
       "Subidkhali Branch": [
         "Abir Mansion (1st Floor), College Road (Bondor Bazar), East Subidkhali, Mirzaganj, Patuakhali",
         "https://www.padmabankbd.com/branches",
-        "01716417740"
+        "01716417740",
+        "800404",
+        "280781273"
       ]
     },
     {
       "Kachua Branch": [
         "Biponi Polash (3rd Floor), Hospital Road, Kachua, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01762-373737"
+        "01762-373737",
+        "800001",
+        "280130916"
       ]
     },
     {
       "Chandpur Branch": [
         "Ruposhi Market (1st Floor), J. M. Sengupta Road, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01715721318"
+        "01715721318",
+        "800002",
+        "280130316"
       ]
     },
     {
       "Khatungonj Branch": [
         "Alam Bhaban (1st & 2nd Floor), 35, Boksir Hat, Ramjoy Mohan Lane, Asadgonj Post Office Goli, Khatungonj, Chattogram",
         "https://www.padmabankbd.com/branches",
-        "01777761348"
+        "01777761348",
+        "800004",
+        "280154271"
       ]
     },
     {
       "Lohagara Branch": [
         "Lohagara Shopping Center (1st Floor), Motor Station Road, Lohagara, Chattogram",
         "https://www.padmabankbd.com/branches",
-        "01710310000"
+        "01710310000",
+        null,
+        "280154668"
       ]
     },
     {
       "Rahimanagar Branch": [
         "Shahjalal Shopping Complex, Rahimanagar Moddho Bazar, Kachua, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01712765005"
+        "01712765005",
+        "800005",
+        "280130129"
       ]
     },
     {
       "Gridhkalindia Branch": [
         "Soudia Gazi Plaza (1st Floor), Gridhkalindia Bazar, Chandpur: Raipur Highway, Gridhkalindia, Faridganj, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01711025959"
+        "01711025959",
+        "800006",
+        null
       ]
     },
     {
       "Keranirhat Branch": [
         "Haji Ullah Meah Shopping Center (1st Floor), Keranirhat Bazar, Satkania, Chattogram",
         "https://www.padmabankbd.com/branches",
-        "01673253927"
+        "01673253927",
+        "800007",
+        "280154189"
       ]
     },
     {
       "Hajigonj Branch": [
         "Rafa Tower (1st Floor), 6/3 & 6/4, Cumilla: Chandpur Main Road, Hajigonj, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01971302007"
+        "01971302007",
+        null,
+        "280130882"
       ]
     },
     {
       "Brahmanbaria Branch": [
         "Sufia Wali Tower (Ground & 1st Floor), Paik Para, Sylhet Road, Sadar, Brahmanbaria",
         "https://www.padmabankbd.com/branches",
-        "01720164683"
+        "01720164683",
+        "800009",
+        "280120434"
       ]
     },
     {
       "Narayanpur Branch": [
         "Saeed Plaza (1st & 2nd Floor), Narayanpur Saheb Bazar, Matlab South, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01818-289639"
+        "01818-289639",
+        "800010",
+        "280131452"
       ]
     },
     {
       "Cumilla Branch": [
         "Samsunnahar Tower (1st & 2nd Floor), 294, Chalk Bazar, (Bus Stand), Trunk Road, Kotwali, Cumilla",
         "https://www.padmabankbd.com/branches",
-        "01711305438"
+        "01711305438",
+        "800011",
+        null
       ]
     },
     {
       "Sujatpur Bazar Branch": [
         "Abul Hossain Super Market (1st Floor), Sujatpur Bazar, P.S Matlab Uttar, Chandpur",
         "https://www.padmabankbd.com/branches",
-        "01955158965"
+        "01955158965",
+        null,
+        "280131423"
       ]
     },
     {
       "Bibir Bazar Branch": [
         "Iqbal Nasima Plaza (1st Floor), Bibir Bazar, Jagannathpur, Sadar, Cumilla",
         "https://www.padmabankbd.com/branches",
-        "01717806110"
+        "01717806110",
+        "800013",
+        "280190451"
       ]
     },
     {
       "Agrabad Branch": [
         "Akram-Khaleda Heights (1st & 2nd Floor), Holding: 2422/A, Agrabad C/A, Double Mooring, Chattogram",
         "https://www.padmabankbd.com/branches",
-        "01712983628"
+        "01712983628",
+        "800014",
+        "280150138"
       ]
     },
     {
       "Gulshan Corporate Branch": [
         "Lotus Kamal Tower -2, (Level 1 & 2) , 59-61, Gulshan South Avenue, Gulshan-1, Dhaka 1212",
         "https://www.padmabankbd.com/branches",
-        "01534507215"
+        "01534507215",
+        null,
+        "280261814"
       ]
     },
     {
       "Motijheel Branch": [
         "Zaman Court (Ground Floor), Holding: 45, Dilkusha C/A, Ward: 09, Dhaka South City Corporation, Motijheel, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01912000640"
+        "01912000640",
+        "800104",
+        null
       ]
     },
     {
       "Bhulta Branch": [
         "Gawsia City Market (1st Floor- Beside Mosque), Bhulta, Rupganj, Narayanganj. Post Code-1462",
         "https://www.padmabankbd.com/branches",
-        null
+        null,
+        "800103",
+        "280670221"
       ]
     },
     {
       "Chinishpur Branch": [
         "GM Bhuiyan Tower (1st & 2nd Floor) Nandipara, Chinishpur, Narsingdi",
         "https://www.padmabankbd.com/branches",
-        null
+        null,
+        "800109",
+        "280680082"
       ]
     },
     {
       "Shyampur Branch": [
         "Padma Bank PLC, Shyampur Branch, Holding-01,Plot-25,Shyampur Bazar, Narayanganj Road, Shyampur, Dhaka.",
         "https://www.padmabankbd.com/branches",
-        "01740943486"
+        "01740943486",
+        "800107",
+        null
       ]
     },
     {
       "Polashbari Branch": [
         "Graph Tower (1st Floor), Polashbari, Baipail, Ashulia, Savar EPZ, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01886666701"
+        "01886666701",
+        "800108",
+        null
       ]
     },
     {
       "Joypara Branch": [
         "328, Mahin Plaza, Joypara Bazar, Dohar, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01734689860"
+        "01734689860",
+        "800113",
+        null
       ]
     },
     {
       "Imamgonj Branch": [
         "Sarder Tower (1st & 2nd Floor), 157, Biren Bose Road (Mitfort Road), Chawkbazar, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01712048237"
+        "01712048237",
+        "800114",
+        null
       ]
     },
     {
       "Aganagar Branch": [
         "Hazi Alimullah Complex (2nd Floor), East Aganagar, South Keranigonj, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01712652822"
+        "01712652822",
+        "800112",
+        null
       ]
     },
     {
       "Mawna Branch": [
         "Al-Haj Ousen Ali Mir Mansion (1st Floor), Mawna Chourasta, Mymensingh Road, Sreepur, Gazipur",
         "https://www.padmabankbd.com/branches",
-        "01710241171"
+        "01710241171",
+        "800118",
+        "280331007"
       ]
     },
     {
       "Kamrangirchar Branch": [
         "Rony Apartment (1st Floor), Holding: 649, Kamrangirchar, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01915456915"
+        "01915456915",
+        "800119",
+        null
       ]
     },
     {
       "Siddhirganj Branch": [
         "MS Tower (1st Floor), B/11, Adamjee EPZ Road, Siddhirganj, Narayangonj",
         "https://www.padmabankbd.com/branches",
-        "01911923806"
+        "01911923806",
+        "800120",
+        "280671604"
       ]
     },
     {
       "Gopalganj Branch": [
         "Sarafat House (1st, 2nd & 3rd Floor), 201, Grave Yard Road, Mia-para, Sadar, Gopalganj",
         "https://www.padmabankbd.com/branches",
-        "01729097800"
+        "01729097800",
+        null,
+        "280350370"
       ]
     },
     {
       "Mirpur Branch": [
         "Ope Plaza (Level 01 & 02), Holding: 7 & 8, Mirpur- 10, Dhaka",
         "https://www.padmabankbd.com/branches",
+        null,
+        "800124",
         null
       ]
     },
@@ -232,196 +299,252 @@
       "Gulshan South Avenue Branch": [
         "Crystal Palace (2nd Floor), Holding: 22 (D) , Bir Uttam Mir Shawakat Sarak, Gulshan-1, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01755629329"
+        "01755629329",
+        "800125",
+        null
       ]
     },
     {
       "Dhanmondi Branch": [
         "Bikalpo Tower (1st Floor), House: 74, Road : 5/A, Sat Masjid Road, Dhanmondi 15, Dhaka 1209",
         "https://www.padmabankbd.com/branches",
-        "01713061800"
+        "01713061800",
+        "800127",
+        null
       ]
     },
     {
       "Bashundhara Branch": [
         "Bashundhara Branch BHSK Shun Shing Tower (1st Floor) Ka 49-50/4/A, Shahid Abdul Aziz Road Jagannathpur, Vatara, Dhaka-1229",
         "https://www.padmabankbd.com/branches",
-        "01713082239"
+        "01713082239",
+        "800126",
+        null
       ]
     },
     {
       "Uttara Branch": [
         "Manor Maglia, Plot: 13, Road: 7/D, Sector: 09, PS: Uttara West, Dhaka North City Corporation, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01819393449"
+        "01819393449",
+        "800128",
+        null
       ]
     },
     {
       "Tangail Branch": [
         "Holding: 0352/01, S.R. Plaza (1st & 2nd Floor), Mosque Road, Tangail Sadar 1900, Tangail",
         "https://www.padmabankbd.com/branches",
-        "01724489666"
+        "01724489666",
+        "800129",
+        "280930208"
       ]
     },
     {
       "Kakrail Branch": [
         "Priyangon Fazilatunnessa Business Centre (1st Floor), Besides Habibullah Bahar College Holding: 122, Kakrail, Bir Uttam Shamsul Alam Sharak, Ramna, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "0258315937; 0258315938"
+        "0258315937; 0258315938",
+        "800130",
+        null
       ]
     },
     {
       "Kazi Nazrul Islam Avenue Branch": [
         "Unique Heights Building (Ground & 1st Floor), Boark Tower 117, Kazi Nazrul Islam Avenue , Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01911132557"
+        "01911132557",
+        "800131",
+        null
       ]
     },
     {
       "Pragati Sarani Branch": [
         "Rangs RL Square (1st Floor), Kha 201/1, 203, 205/1, 205, Pragati Sarani ,Middle Badda, Dhaka 1212",
         "https://www.padmabankbd.com/branches",
-        "01716618569"
+        "01716618569",
+        "800132",
+        null
       ]
     },
     {
       "Gulshan-2 Branch": [
         "Holding: 22/A, Road: 102 & 103, Gulshan 2",
         "https://www.padmabankbd.com/branches",
-        "01833101575"
+        "01833101575",
+        "800133",
+        null
       ]
     },
     {
       "Khulna Branch": [
         "BMA Bhaban (1st Floor, Shahid Dr. Milon Chattor), 34, KDA Avenue, Khulna",
         "https://www.padmabankbd.com/branches",
-        "01941222424"
+        "01941222424",
+        "800201",
+        "280471541"
       ]
     },
     {
       "Bakshigonj Branch": [
         "Chand Plaza (1st Floor) Upazila Road, Bakshigonj, Jamalpur",
         "https://www.padmabankbd.com/branches",
-        "01713395166"
+        "01713395166",
+        "800105",
+        "280390101"
       ]
     },
     {
       "Haluaghat Branch": [
         "A. Rahman Plaza (1st Floor) , Old Bus Stand, Haluaghat, Mymensingh",
         "https://www.padmabankbd.com/branches",
-        "01713939888"
+        "01713939888",
+        "800106",
+        "280611156"
       ]
     },
     {
       "Sreebardi Branch": [
         "Khan Plaza, House: 663/3 Road: 14, Vayadanga, Ward: 07, Sreebardi, Sherpur",
         "https://www.padmabankbd.com/branches",
-        "01819-293303"
+        "01819-293303",
+        "800110",
+        "280890643"
       ]
     },
     {
       "Tarakanda Branch": [
         "Khan Complex (1st Floor), Tarakanda, Mymensingh",
         "https://www.padmabankbd.com/branches",
-        "01717843218"
+        "01717843218",
+        "800111",
+        "280612263"
       ]
     },
     {
       "Sherpur Branch": [
         "Haji Chand Market (1st & 2nd Floor), 67, Tinani Bazar (College Road Sadar), Sherpur.",
         "https://www.padmabankbd.com/branches",
-        "01787603030"
+        "01787603030",
+        "800115",
+        "280890551"
       ]
     },
     {
       "Jamalpur Branch": [
         "Hotel Setuli (1st Floor), 8568, Station Road, Sadar, Jamalpur",
         "https://www.padmabankbd.com/branches",
-        "01740921333"
+        "01740921333",
+        "800116",
+        "280390851"
       ]
     },
     {
       "Nalitabari Branch": [
         "Habib Complex (1st Floor), Shahid Minar Moor, Taraganj Uttar Bazar, Nalitabari , Sherpur",
         "https://www.padmabankbd.com/branches",
-        "01712-316886"
+        "01712-316886",
+        "800117",
+        "280890348"
       ]
     },
     {
       "Mymensingh Branch": [
         "Tofazzal Shah Tower, 39, Muktijoddah Sarani, Choto Bazar, Mymensingh",
         "https://www.padmabankbd.com/branches",
-        "01894940957"
+        "01894940957",
+        "800121",
+        "280611756"
       ]
     },
     {
       "Netrokona Branch": [
         "Aleya Plaza (Ground & 1st Floor), 8122, College Road, Satpai, Sadar, Netrokona",
         "https://www.padmabankbd.com/branches",
-        "01712629618"
+        "01712629618",
+        "800122",
+        "280720739"
       ]
     },
     {
       "Jhenaigati Branch": [
         "125, 126, Jhenaigati Bazar, Jhenaigati, Sherpur",
         "https://www.padmabankbd.com/branches",
-        "01731-907821"
+        "01731-907821",
+        "800701",
+        "280890164"
       ]
     },
     {
       "Kalmakanda Branch": [
         "Sharif Plaza (1st Floor), Maddhya Bazar Road, Kalmakanda, Netrokona",
         "https://www.padmabankbd.com/branches",
-        "01799119115"
+        "01799119115",
+        "800702",
+        "280720434"
       ]
     },
     {
       "Islampur Branch": [
         "College Road Rail Gate, Ward: 03, PO & PS: Islampur Dist: Jamalpur, Division: Mymensingh",
         "https://www.padmabankbd.com/branches",
-        "01712192611"
+        "01712192611",
+        "800704",
+        "280390769"
       ]
     },
     {
       "Shamgonj Kalibari Bazar Branch": [
         "Arki’s Point (Ground Floor), Shamgonj, Kalibari Bazar, Madargnj, Jamalpur",
         "https://www.padmabankbd.com/branches",
-        "01924213682"
+        "01924213682",
+        "800703",
+        null
       ]
     },
     {
       "Bogura Branch": [
         "Arvy Plaza (1st Floor) , 721/761, Kabi Nazrul Islam Sarak , Jhawtola , PO & PS: Bogura Sadar, Bogura",
         "https://www.padmabankbd.com/branches",
-        "01712192611"
+        "01712192611",
+        "800301",
+        null
       ]
     },
     {
       "Naogaon Branch": [
         "Rafiq Tower (2nd Floor), Chakdeb, Kancha Bazar Road, Sadar, Naogaon",
         "https://www.padmabankbd.com/branches",
-        "01723383739"
+        "01723383739",
+        "800302",
+        "280641184"
       ]
     },
     {
       "Nilphamari Branch": [
         "District Freedom Fighter Complex Bulding, Mathar Mor, 06, Shaheed Ahmedul Haq Road, Sadar, Nilphamari.",
         "https://www.padmabankbd.com/branches",
-        "01714532650"
+        "01714532650",
+        "800601",
+        "280730732"
       ]
     },
     {
       "Chandnighat Branch": [
         "Jannat Market (1st Floor), Chandnighat Sadar, Moulvibazar",
         "https://www.padmabankbd.com/branches",
-        "01822831956"
+        "01822831956",
+        null,
+        null
       ]
     },
     {
       "Goalabazar Branch": [
         "Anowara Mansion (1st Floor), Uttar Goalabazar, Osmani Nagar, Sylhet.",
         "https://www.padmabankbd.com/branches",
-        "01717910999"
+        "01717910999",
+        "800501",
+        null
       ]
     }
   ],
@@ -430,98 +553,126 @@
       "Jamal Khan Sub Branch": [
         "Holding: 1/A, Road: 84/A Jamal Khan Road, Ward: 21 Chattogram City Corporation",
         "https://www.padmabankbd.com/branches",
-        "01612561601"
+        "01612561601",
+        null,
+        null
       ]
     },
     {
       "GEC Sub Branch": [
         "Golden Plaza,1692, C.D.A Avenue, East Nasirabad, Chattogram 4225",
         "https://www.padmabankbd.com/branches",
-        "01816442542"
+        "01816442542",
+        null,
+        null
       ]
     },
     {
       "Kaduti Bazar Sub-Branch": [
         "Kaduti Bazar, Kaduti, Borkoroi Union, P.S. Chandina, Cumilla.",
         "https://www.padmabankbd.com/branches",
-        "01717-534639"
+        "01717-534639",
+        null,
+        null
       ]
     },
     {
       "Uttara Sub Branch": [
         "Holding: 01, Road: 16, Sector: 06",
         "https://www.padmabankbd.com/branches",
-        "01813874021"
+        "01813874021",
+        "800128",
+        null
       ]
     },
     {
       "Banasree Sub Branch": [
         "Virtual Amin Swapnoneer (1st Floor), House: 48, Block: E, Road: 02, Banasree, Rampura, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01711339290"
+        "01711339290",
+        null,
+        null
       ]
     },
     {
       "Lalbagh Sub Branch": [
         "Holding: 03, Dhakeshwari Road (1st Floor), Lalbagh, Dhaka 1211",
         "https://www.padmabankbd.com/branches",
-        "01915945923"
+        "01915945923",
+        null,
+        null
       ]
     },
     {
       "Elephant Road Sub Branch": [
         "Holding: 248, Ward: 18, Elephant Road (Katabon Mor), New market, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01726261180"
+        "01726261180",
+        null,
+        null
       ]
     },
     {
       "West Monipur Sub Branch": [
         "Molla Tower, Holding: 252/4/2, 60 Feet Road, Ward: 13, DNCC, Mirpur, Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01675656565"
+        "01675656565",
+        null,
+        null
       ]
     },
     {
       "Nawabganj Sub branch": [
         "Sadek Ali Market, Holding: 492, Union: Kalakopa, PS: Nawabganj, Dist: Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01921576733"
+        "01921576733",
+        null,
+        null
       ]
     },
     {
       "Laxmi Bazar Sub branch": [
         "Holding: 20/02, Shyam Prasad Lane, Ward: 43, Dhaka North City Corporation, PS: Sutrapur, Dist: Dhaka",
         "https://www.padmabankbd.com/branches",
-        "01746688455"
+        "01746688455",
+        null,
+        null
       ]
     },
     {
       "Gazipur Chowrasta Sub branch": [
         "Jamila Aynul Tower ,1st Floor ,Opposite of Poshmi Sweater ,Dhaka Road, Chandona Chowrasta ,Gazipur Sadar, Gazipur",
         "https://www.padmabankbd.com/branches",
-        "01740491318"
+        "01740491318",
+        null,
+        null
       ]
     },
     {
       "Ghagor Bazar Sub branch": [
         "Hazi Tayeb Ali Daria Super Market, 1st floor, Holding : 150, Hazi Tayeb Ali Daria Super Market, Ghaghor Bazar, Kotalipara-8110, Gopalganj",
         "https://www.padmabankbd.com/branches",
-        "01711018394"
+        "01711018394",
+        null,
+        null
       ]
     },
     {
       "Mohammadpur Krishi Market Sub-Branch": [
         "Aziz Moholla, Holding No. 6 D/3, Ward - 29, Dhaka North City Corporation, Mohammadpur, Dhaka.",
         "https://www.padmabankbd.com/branches",
-        "01681177000"
+        "01681177000",
+        null,
+        null
       ]
     },
     {
       "Syedpur Sub Branch": [
         "17-A (Engineering Plot), Shahid Dr. Zikrul Hossain Road, 12 No Ward, Saidpur, Nilphamari.",
         "https://www.padmabankbd.com/branches",
-        "01673268090"
+        "01673268090",
+        null,
+        null
       ]
     }
   ]

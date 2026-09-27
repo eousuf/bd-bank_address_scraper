@@ -3,1095 +3,1410 @@
   "bank_url": "https://www.eximbankbd.com/",
   "method": "html_cards+html_table",
   "status": "success",
+  "bank_id": "63",
+  "total_branch": 158,
+  "total_sub_branch": 46,
   "branch": [
     {
       "AGRABAD BRANCH": [
         "Holding # 102-103, Commerce College Road, World Trade Center, Agrabad C/A, Agrabad, Chittagong - 4100",
         null,
-        "031-2511264 , 031-727658, 031-2510733"
+        "031-2511264 , 031-727658, 031-2510733",
+        "630001",
+        "100150139"
       ]
     },
     {
       "ANOWARA BRANCH": [
         "Alhaj Shamsuddin Chowdhury Super MarketJoykali Bazar, College Road, Anowara",
         null,
-        "01715542540"
+        "01715542540",
+        null,
+        null
       ]
     },
     {
       "ARAIHAZAR BRANCH": [
         "Haque Plaza, Tiles Market, Araihazar, Narayangonj.",
         null,
-        "01913095562"
+        "01913095562",
+        "630169",
+        "100670048"
       ]
     },
     {
       "ARUAIL BRANCH": [
         "Haji Tower, Aruail, Sarail, Brahmanbaria",
         null,
-        "01713073211, 01713073212, 01713073201"
+        "01713073211, 01713073212, 01713073201",
+        "630037",
+        "100120077"
       ]
     },
     {
       "ASHUGANJ BRANCH": [
         "Main Road, Haji Zahirul Haque Munshi Shoping Complex,Ashuganj , Brahmanbaria- 3402",
         null,
-        "02-334431840, 02-334431860, 01713-063433"
+        "02-334431840, 02-334431860, 01713-063433",
+        null,
+        "100120101"
       ]
     },
     {
       "ASHULIA BRANCH": [
         "Road # 6, DEPZ Road, Rifat Square Plaza, Jamgora, Ashulia,Savar, Dhaka- 1349",
         null,
-        "02-7789978, 01730-061461"
+        "02-7789978, 01730-061461",
+        "630131",
+        null
       ]
     },
     {
       "BAGMARA BRANCH": [
         "Fazlul Haque Market, Bagmara Bazar, Sadar South, Cumilla – 3570",
         null,
-        "08045-59011, 01766-665997, 01755-515175"
+        "08045-59011, 01766-665997, 01755-515175",
+        "630022",
+        "100190173"
       ]
     },
     {
       "BAHADDARHAT BRANCH": [
         "Holding # 680/A, Arakan Road, Khaza Super Market, 1st Floor,Bahaddarhat , Chittagong - 4212",
         null,
-        "031-2555056, 031-2555058, 01730-031489"
+        "031-2555056, 031-2555058, 01730-031489",
+        "630007",
+        "100150797"
       ]
     },
     {
       "BALIRTEK BAZAR BRANCH": [
         "College Road, Biswas Super Market, 1st Floor, Balirtek Bazar,Manikganj Sadar, Manikganj- 1800",
         null,
-        "01847-089275, 01847-189440"
+        "01847-089275, 01847-189440",
+        "630141",
+        "100560103"
       ]
     },
     {
       "BANANI BRANCH": [
         "House # 49, Block # H, Road # 11, Kazi's Heritage,Banani , Dhaka- 1213",
         null,
-        "02-55041942, 02-55041939, 02-55041940, 01755-584939"
+        "02-55041942, 02-55041939, 02-55041940, 01755-584939",
+        "630117",
+        null
       ]
     },
     {
       "BARGUNA BRANCH": [
         "Holding No: 30/1 (1st floor), Sadar Road (Kath Patty), Barguna.",
         null,
-        "01816322322"
+        "01816322322",
+        "630405",
+        "100040131"
       ]
     },
     {
       "BARISHAL BRANCH": [
         "Holding # 105, Sadar Road, Nasim Biswas Lane,Barishal Sadar, Barishal- 8200",
         null,
-        "0431-2177080, 0431-2177081, 01714-178882"
+        "0431-2177080, 0431-2177081, 01714-178882",
+        "630401",
+        null
       ]
     },
     {
       "BASHUNDHARA ROAD BRANCH": [
         "Holding # KA-24, Pragati Sarani, A Mozid Tower, 1st Floor, Kuril,Vatara , Dhaka - 1229",
         null,
-        "02-8415154, 02-8413461"
+        "02-8415154, 02-8413461",
+        "630112",
+        null
       ]
     },
     {
       "BASHURHAT BRANCH": [
         "H. R. City Complex, Zero Point, Bashurhat, Companyganj , Noakhali – 3850.",
         null,
-        "03223-56060, 03223-56073,01755594105, 01755594112."
+        "03223-56060, 03223-56073,01755594105, 01755594112.",
+        "630010",
+        "100750250"
       ]
     },
     {
       "BEANIBAZAR BRANCH": [
         "Holding # 6, Main Road, Zaman Plaza, 1st Floor,Beanibazar , Sylhet- 3170",
         null,
-        "08223-56109, 08223-56108, 01730-452002"
+        "08223-56109, 08223-56108, 01730-452002",
+        "630055",
+        "100910311"
       ]
     },
     {
       "BHOLA BRANCH": [
         "Amena Plaza, Holding#3442/1,Bhola Sadar Road, Bhola",
         null,
-        "(+88) 02478893686 (Direct), (+88) 02478893687, 01322879125, 01709639943"
+        "(+88) 02478893686 (Direct), (+88) 02478893687, 01322879125, 01709639943",
+        "630403",
+        "100090107"
       ]
     },
     {
       "BIRGANJ BRANCH": [
         "Rakiba Tower, Center Mor, Birganj, Dinajpur",
         null,
-        "01322879102"
+        "01322879102",
+        "630602",
+        "100280375"
       ]
     },
     {
       "BISWANATH BRANCH": [
         "Jagannathpur Road, Al-Madina Complex, Puran Bazar,Biswanath, Sylhet- 3130",
         null,
-        "08224-56219, 08224-56218, 01777-763409"
+        "08224-56219, 08224-56218, 01777-763409",
+        "630057",
+        null
       ]
     },
     {
       "BOARD BAZAR BRANCH": [
         "Dhaka-Mymensingh Highway, Hazi Fazlul Haque Plaza, 1st Floor,Board Bazar, Gazipur- 1704",
         null,
-        "02-9293053, 01713-229344"
+        "02-9293053, 01713-229344",
+        null,
+        "100330225"
       ]
     },
     {
       "BOGURA BRANCH": [
         "Holding # 405-01, Rangpur Road, Sheikh Mansion,Barogola, Bogura- 5800",
         null,
-        "051-60702, 051-60703, 051-60705"
+        "051-60702, 051-60703, 051-60705",
+        null,
+        null
       ]
     },
     {
       "BOKSHAGONJ BRANCH": [
         "Bokshagonj Shopping CenterBokshagonj Bazar, Nangalkot",
         null,
-        "01709639971"
+        "01709639971",
+        null,
+        "100190731"
       ]
     },
     {
       "BURICHANG BRANCH": [
         "Golden Tower (1st Floor), Burichang Sadar, Burichang, Cumilla.",
         null,
-        "01322879108, 01322879109"
+        "01322879108, 01322879109",
+        "630039",
+        "100190823"
       ]
     },
     {
       "CDA AVENUE BRANCH": [
         "Holding # 191, CDA Avenue, Commerce View Complex,East Nasirabad, Chittagong- 4209",
         null,
-        "031-652074, 031-2551101, 01713-396538"
+        "031-652074, 031-2551101, 01713-396538",
+        "630004",
+        null
       ]
     },
     {
       "CEPZ BRANCH": [
         "Commercial Complex, C.E.P.Z (Zone Service Complex), C.E.P.Z, Chattogram.",
         null,
-        "02-333340261, 02-333340262"
+        "02-333340261, 02-333340262",
+        "630033",
+        null
       ]
     },
     {
       "CHANDRAGANJ BRANCH": [
         "AZ Plaza, Chandraganj, Paschim Bazar, Deawpara, Chandraqanj, Lakshmipur.",
         null,
-        "01740615097"
+        "01740615097",
+        "630046",
+        "100510195"
       ]
     },
     {
       "CHAPAINAWABGONJ BRANCH": [
         "Holding # 68, Boro Indara More,Chapainawabganj Sadar, Chapainawabganj- 6300",
         null,
-        "02588893337 ext.-101-107, 02588893336, 01766673511"
+        "02588893337 ext.-101-107, 02588893336, 01766673511",
+        "630302",
+        null
       ]
     },
     {
       "CHARBATA KHASHERHAT BRANCH": [
         "Bank Road, Bilash Tower, 1st Floor, Charbata Khasherhat Bazar,Subarnachar , Noakhali- 3813",
         null,
-        "01709-632756, 01709-639763"
+        "01709-632756, 01709-639763",
+        null,
+        "100750184"
       ]
     },
     {
       "CHHAGALNAIYA BRANCH": [
         "Holding # 827, Main Road, H.S. Plaza, Banshpara,Chhagalnaiya , Feni- 3910",
         null,
-        "03322-78018, 01709639957"
+        "03322-78018, 01709639957",
+        null,
+        "100300318"
       ]
     },
     {
       "CHOWMUHUNI BRANCH": [
         "Holding # 60/231, D.B. Road, Chowmuhuni,Begumganj, Noakhali- 3821",
         null,
-        "0321-52700, 0321-51034, 01714-084311"
+        "0321-52700, 0321-51034, 01714-084311",
+        "630012",
+        null
       ]
     },
     {
       "COURT BAZAR BRANCH": [
         "Mokhter Tower,1st Floor, Main Road, Court Bazar, Ukhiya, Cox's Bazar, Bangladesh.",
         null,
-        "01322879114"
+        "01322879114",
+        null,
+        "100220227"
       ]
     },
     {
       "COX'S BAZAR BRANCH": [
         "Holding # 65, Main Road, (Opposite to Cox's Bazar Fire Service),Bazar Ghata, Cox's Bazar- 4700",
         null,
-        "0341-63719, 0341-63729, 01847-189771"
+        "0341-63719, 0341-63729, 01847-189771",
+        "630006",
+        null
       ]
     },
     {
       "CUMILLA BRANCH": [
         "A. K. Fazlul Haque Road , Goni Bhuiyan Mansion,Monoharpur, Cumilla - 3500",
         null,
-        "081-61850, 081-61722, 01713-396537"
+        "081-61850, 081-61722, 01713-396537",
+        null,
+        null
       ]
     },
     {
       "DAKSHIN SURMA BRANCH": [
         "Sumaiya Complex, 1st Floor, Sultanpur Road, Chondi Pool, Sylhet.",
         null,
-        "0821-729185, 0821-729184, 01713073213, 01713073214."
+        "0821-729185, 0821-729184, 01713073213, 01713073214.",
+        "630503",
+        "100910953"
       ]
     },
     {
       "DANIA BRANCH": [
         "Holdind # 436, Masjid Road # 1, Nayapara, Dania,Kadamtali, Dhaka- 1232",
         null,
-        "02-7549115, 02-7549105, 02-7549110"
+        "02-7549115, 02-7549105, 02-7549110",
+        "630130",
+        null
       ]
     },
     {
       "DATTAPARA BRANCH": [
         "Dattapara Bazar, Alhaj Super Market, 1st Floor, Barahorispur,Natore Sadar, Natore- 6400",
         null,
-        "0771-61702, 0771-61703, 01787-674988"
+        "0771-61702, 0771-61703, 01787-674988",
+        "630308",
+        "100690152"
       ]
     },
     {
       "DHANMONDI BRANCH": [
         "House # 4/A, Plot # 4, Road # 16 (Old-27), Dhanmondi Tower,Dhanmondi, Dhaka- 1207",
         null,
-        "0241020224, 0241020218, 0241020219-21, 01755637199"
+        "0241020224, 0241020218, 0241020219-21, 01755637199",
+        "630118",
+        null
       ]
     },
     {
       "DHANMONDI MOHILA BRANCH": [
         "265/1, West DhanmondiRoad No. 8/A, Dhaka",
         null,
-        "1712922727"
+        "1712922727",
+        "630162",
+        null
       ]
     },
     {
       "DHOPADIGHIRPAR BRANCH": [
         "Holding # 15, Main Road, Mahmud Complex,East Dhopadighirpar, Sylhet - 3100",
         null,
-        "0821-728602, 0821-728601, 01730-735341"
+        "0821-728602, 0821-728601, 01730-735341",
+        null,
+        "100910058"
       ]
     },
     {
       "DINAJPUR BRANCH": [
         "Holding # 1017/985, Northern Plaza, 1st Floor,Goneshtola , Dinajpur - 5200",
         null,
-        "02589922880, 01730-001243"
+        "02589922880, 01730-001243",
+        "630601",
+        "100280670"
       ]
     },
     {
       "DOHAZARI BRANCH": [
         "Arakan Road, Hazari Tower, 1st Floor, Dohazari Bazar,Chandanaish, Chittagong - 4382",
         null,
-        "01755-643216, 01847-148555"
+        "01755-643216, 01847-148555",
+        "630023",
+        "100152566"
       ]
     },
     {
       "DOLLAI NAWABPUR BRANCH": [
         "Madaiya-Rahima Nagor Road, Mojib Plaza, 1st Floor, Dollai Nawabpur Bazar (Dakkhin Bazar),Chandina, Comilla- 3510",
         null,
-        "01709-639761,"
+        "01709-639761,",
+        "630028",
+        "100190331"
       ]
     },
     {
       "ELEPHANT ROAD BRANCH": [
         "Holding # 218, Dr. Kudrat-E-Khuda Road, (Bata Signal),Elephant Road, Dhaka- 1205",
         null,
-        "02-223367097, 02-223367098, 01714-021767"
+        "02-223367097, 02-223367098, 01714-021767",
+        "630109",
+        null
       ]
     },
     {
       "EXIM BANK TOWER BRANCH": [
         "Exim Bank Tower, Plot : 15, Road : 15, Block: CWS(C), Bir Uttam AK Khandakar RoadGulshan-1, Dhaka.",
         null,
-        "01958235979, 01958235976, +8809666716246 ext-1132"
+        "01958235979, 01958235976, +8809666716246 ext-1132",
+        "630165",
+        null
       ]
     },
     {
       "FARIDPUR BRANCH": [
         "Holding # 108/5, Thana Road, Faridpur Plaza, , Moyrapotty,Faridpur - 7800",
         null,
-        "0631-61128, 0631-61170, 0631-61174"
+        "0631-61128, 0631-61170, 0631-61174",
+        null,
+        "100290523"
       ]
     },
     {
       "FENCHUGONJ BRANCH": [
         "Shohid Asaduzzaman Road, Samad Plaza, Poshim Bazar,Fenchuganj , Sylhet - 3116",
         null,
-        "08226-56290, 08226-56163, 017133-96544"
+        "08226-56290, 08226-56163, 017133-96544",
+        "630052",
+        null
       ]
     },
     {
       "FENI BRANCH": [
         "Holding # 308-310, S.S.K. Road , Chistiya Trade Center, Feni Sadar, Feni- 3900",
         null,
-        "0331-74060, 0331-74061, 01709639946, 01709639955"
+        "0331-74060, 0331-74061, 01709639946, 01709639955",
+        "630014",
+        "100300521"
       ]
     },
     {
       "GARIB-E-NEWAZ BRANCH": [
         "Plot # 29, Garib-E-Newaz Avenue, Sector # 11, Uttara, Dhaka- 1230",
         null,
-        "02-48951936, 02-48959759, 02-48959754"
+        "02-48951936, 02-48959759, 02-48959754",
+        "630125",
+        null
       ]
     },
     {
       "GAZIPUR CHOWRASTA BRANCH": [
         "Plot # 727, Block # C, Dhaka Road , MAS Square, Chandona Chowrasta , Gazipur- 1702",
         null,
-        "02-49292443, 02-49263537,02-49262435, 02-49263538, 01713145498"
+        "02-49292443, 02-49263537,02-49262435, 02-49263538, 01713145498",
+        null,
+        "100330559"
       ]
     },
     {
       "GOALABAZAR BRANCH": [
         "Dhaka-Sylhet Highway, Abdul Karim Mansion, South Goalabazar,Osmani Nagar, Sylhet- 2431",
         null,
-        "02996644637, 02996644638, 01755646710, 01797057434"
+        "02996644637, 02996644638, 01755646710, 01797057434",
+        "630058",
+        null
       ]
     },
     {
       "GOLAPGONJ BRANCH": [
         "Holding # 334, Sylhet-Zakiganj Road, Noor Mansion, Chowmuhani,Golapganj , Sylhet - 3160",
         null,
-        "08227-56462, 01730-097267, 01730-097268"
+        "08227-56462, 01730-097267, 01730-097268",
+        "630054",
+        null
       ]
     },
     {
       "GOURIPUR BRANCH": [
         "Latif Market Homna Road, Gouripur Bazar, Daudkandi, Cumilla.",
         null,
-        "01730-781273,"
+        "01730-781273,",
+        "630019",
+        "100192113"
       ]
     },
     {
       "GULSHAN BRANCH": [
         "Plot # 37, Road # 45 & 90, Delta Life Tower, Gulshan Circle-2 , Dhaka - 1212",
         null,
-        "02222262262, 02-48811596, 02222280141"
+        "02222262262, 02-48811596, 02222280141",
+        "630103",
+        null
       ]
     },
     {
       "GULSHAN MOHILA BRANCH": [
         "Plot: 22/A, Block: CEN (D)Road: 102 & 103, Gulshan-2, Dhaka 1212",
         null,
-        "+880241081223, +880241081224, +880241081225, 01322879117"
+        "+880241081223, +880241081224, +880241081225, 01322879117",
+        "630163",
+        null
       ]
     },
     {
       "HALISHAHAR BRANCH": [
         "Plot # 10, Lane # 5, Road # 1, Agrabad Access Road, AKH Tower, 1st & 2nd Floor, Boropole,Halishahar , Chittagong- 4216",
         null,
-        "02-333327598, 02-333327593, 02-333327594"
+        "02-333327598, 02-333327593, 02-333327594",
+        "630025",
+        "100153165"
       ]
     },
     {
       "HAZRAT SHAHPARAN GATE BRANCH": [
         "Monir Uddin Market, Hazrat Shahporan Gate, Shaparan, Sylhet.",
         null,
-        "0821- 2870310, 0821-2870311"
+        "0821- 2870310, 0821-2870311",
+        null,
+        "100910274"
       ]
     },
     {
       "HEAD OFFICE CORPORATE BRANCH": [
         "Plot # SE(F):9, Road # 142, 'Symphony',Gulshan Avenue, Dhaka- 1212",
         null,
-        "01755536783 (GB), 01322879127 (INV), 01730069698 (Cash), 02222289985, 02222284753, 02222298167, 02222289567, 02222286041"
+        "01755536783 (GB), 01322879127 (INV), 01730069698 (Cash), 02222289985, 02222284753, 02222298167, 02222289567, 02222286041",
+        "630119",
+        null
       ]
     },
     {
       "HEMAYETPUR BRANCH": [
         "Plot # 251, Dhaka-Aricha Highway, Hazi Ashraf Shopping Complex & Tower, 2nd Floor, Jadur Char (West Para), Hemayetpur, TSavar , Dhaka- 1340",
         null,
-        "01755-625693, 01955-545478"
+        "01755-625693, 01955-545478",
+        "630135",
+        null
       ]
     },
     {
       "IMAMGONJ BRANCH": [
         "Holding # 16-17, Nurani Center, 1st & 2nd Floor, Imamgonj, Chawkbazar , Dhaka - 1211",
         null,
-        "02-57315528, 02-57315529, 02-57342155"
+        "02-57315528, 02-57315529, 02-57342155",
+        "630102",
+        null
       ]
     },
     {
       "ISLAMPUR BRANCH": [
         "Shuvoraj Tower, Holding# 8/2/A, (1st Floor), Wise Ghat Road, Kotwali, Dhaka, Bangladesh.",
         null,
-        "02-57396573, 02-57396576, 02-57396577"
+        "02-57396573, 02-57396576, 02-57396577",
+        "630146",
+        null
       ]
     },
     {
       "JAGANNATHPUR BRANCH": [
         "Barrister Mirza Abdul Matin Market (1st floor)Poura Point, Sunamganj",
         null,
-        "0872-756008, 756009"
+        "0872-756008, 756009",
+        "630502",
+        "100900497"
       ]
     },
     {
       "JAMAL KHAN ROAD BRANCH": [
         "'Airbell Helianthus',1st floor, Jamal Khan RoadKotowali, Chattogram",
         null,
-        "031615544"
+        "031615544",
+        "630044",
+        null
       ]
     },
     {
       "JASHORE BRANCH": [
         "Holding # 37, M.K. Road,Jashore Sadar , Jashore - 7400",
         null,
-        "0421-67980, 0421-67981, 0421-67982"
+        "0421-67980, 0421-67981, 0421-67982",
+        null,
+        null
       ]
     },
     {
       "JHALAKATHI BRANCH": [
         "Holding # 19, Doctor Potti Road (Shadhonar More),Jhalakathi Sadar, Jhalakathi- 8400",
         null,
-        "0498-63205, 0498-63206, 01847-189769"
+        "0498-63205, 0498-63206, 01847-189769",
+        "630402",
+        null
       ]
     },
     {
       "JHENAIDAH BRANCH": [
         "Holding No# 00-42-0, Nihar BhabanSher-e-Bangla Road, Jhenaidah",
         null,
-        "01816837968"
+        "01816837968",
+        "630204",
+        "100440649"
       ]
     },
     {
       "JOYDEBPUR BRANCH": [
         "Sajid Tower, K285, BIDC RoadJoydebpur, Gazipur",
         null,
-        null
+        null,
+        "630157",
+        "100330733"
       ]
     },
     {
       "JOYPARA BRANCH": [
         "Haji Adalat Complex, Joypara Bazar, LatakholaDohar, Dhaka-1230",
         null,
-        "01991194564, 01709639948"
+        "01991194564, 01709639948",
+        "630155",
+        null
       ]
     },
     {
       "JOYPURHAT BRANCH": [
         "152, Sadar Road (In front of Bazla School), Joypurhat Sadar, Joypurhat",
         null,
-        "01725382747"
+        "01725382747",
+        "630310",
+        null
       ]
     },
     {
       "JUBILEE ROAD BRANCH": [
         "Holding # 63-64, Jubilee Road,Enayet Bazar, Chittagong - 4000",
         null,
-        "02333388657, 02333388656, 01713333472"
+        "02333388657, 02333388656, 01713333472",
+        "630003",
+        "100153644"
       ]
     },
     {
       "JURI BRANCH": [
         "Kiran Square, Kaminiganj Bazar, Union: 05 No. JaifarnagarP.O & Upazila: Juri, Dist: Moulvibazar",
         null,
-        "01322879114"
+        "01322879114",
+        "630505",
+        null
       ]
     },
     {
       "KALIGANJ BRANCH": [
         "Khadem Avenue, Rongdhanu Market, Shaheed Moyez Uddin Road, Kaliganj, Gazipur.",
         null,
-        "01716678868"
+        "01716678868",
+        "630166",
+        "100330825"
       ]
     },
     {
       "KANCHAN BRANCH": [
         "Hazi Jamal Uddin Super Market, Kanchan Bazar, Rupganj, Narayangonj.",
         null,
-        "01713073209, 01713073208, 01913095562"
+        "01713073209, 01713073208, 01913095562",
+        null,
+        "100670798"
       ]
     },
     {
       "KARWAN BAZAR BRANCH": [
         "AHN Tower (2nd Floor), 13, 15 Bir Uttam CR Datta Road (Sonargaon Road), Bipanan C/A, Banglamotor, Dhaka-1000.",
         null,
-        "01713073204, 01713073205, 01730031822"
+        "01713073204, 01713073205, 01730031822",
+        "630113",
+        null
       ]
     },
     {
       "KASHINAGAR BRANCH": [
         "Dr. Islam Market, Kashinagar BazarKashinagar, Chauddagram",
         null,
-        "01709639974, 01709639975"
+        "01709639974, 01709639975",
+        "630035",
+        "100192597"
       ]
     },
     {
       "KAZI NAZRUL ISLAM AVENUE BRANCH": [
         "102, Kazi Nazrul Islam Avenue , B.S.E.C BhabanWord-26, Tejgaon, Dhaka",
         null,
-        "8802-41020011,8802-41020013, 8802-41020014,01991194565."
+        "8802-41020011,8802-41020013, 8802-41020014,01991194565.",
+        "630154",
+        null
       ]
     },
     {
       "KERANIGONJ BRANCH": [
         "Zinzira Highway Road, Rashed Iron Market, Bond Dakpara,Keraniganj, Dhaka- 1310",
         null,
-        "02-7763691, 02-7763692, 01730-706768"
+        "02-7763691, 02-7763692, 01730-706768",
+        "630116",
+        null
       ]
     },
     {
       "KHATUNGONJ BRANCH": [
         "Holding # 1078, Ramjoy Mahajan Lane, Amaan-Usmaan Plaza, Khatungonj, Chittagong - 4000",
         null,
-        "02333350711, 02333351290, 02333351291, 01711898223"
+        "02333350711, 02333351290, 02333351291, 01711898223",
+        "630002",
+        null
       ]
     },
     {
       "KHULNA BRANCH": [
         "Khalil Mansion,42, 43, 44 Vairab Stand Road, Khulna-9100",
         null,
-        "02-477729470, 02-477729471, 02-477729472"
+        "02-477729470, 02-477729471, 02-477729472",
+        "630201",
+        "100471542"
       ]
     },
     {
       "KHULSHI BRANCH": [
         "Holding # 669/E, Jhautola Road, BGMEA Bhaban,Khulshi, Chittagong- 4225",
         null,
-        "031-2869602, 031-2869600, 031-2869601"
+        "031-2869602, 031-2869600, 031-2869601",
+        "630009",
+        "100154364"
       ]
     },
     {
       "KISHOREGONJ BRANCH": [
         "659, Boro Bazar,Kishoreganj Sadar, Kishoreganj, Bangladesh.",
         null,
-        "0299 7761669, 7761691, 7762070, 01847089272, 01611886256"
+        "0299 7761669, 7761691, 7762070, 01847089272, 01611886256",
+        null,
+        "100480670"
       ]
     },
     {
       "KUSHTIA BRANCH": [
         "Holding # 152, N.S. Road , Rajab Ali Market,Kushtia Sadar, Kushtia- 7000",
         null,
-        "02477784143, 02477782626, 02477782625, 02477784028"
+        "02477784143, 02477782626, 02477782625, 02477784028",
+        "630221",
+        "100500947"
       ]
     },
     {
       "LAKSHAM BRANCH": [
         "Holding # 1602, Daulatgonj Bazar, Sufia Complex,Laksham , Comilla - 3570",
         null,
-        "08032-51333, 08032-51978, 08032-51977"
+        "08032-51333, 08032-51978, 08032-51977",
+        "630016",
+        null
       ]
     },
     {
       "LALPUR BRANCH": [
         "Lalpur-Gopalpur Road, Anowara Market, 1st Floor,Lalpur, Natore- 6421",
         null,
-        "07725-75343, 07725-75342, 01847-215747"
+        "07725-75343, 07725-75342, 01847-215747",
+        "630305",
+        "100690910"
       ]
     },
     {
       "MADHABDI BRANCH": [
         "Holding # 221, 222 & 223, Old Bus Stand, Rhine O K Market, 1st Floor, Birampur,Madhabdi, Narsinghdi- 1604",
         null,
-        "02-224457194, 02-224457195, 02-224457196, 01709639980"
+        "02-224457194, 02-224457195, 02-224457196, 01709639980",
+        "630152",
+        "100680670"
       ]
     },
     {
       "MAGURA BRANCH": [
         "Holding # 219, Syed Atar Ali Road, Monowara Complex, Poshu Hospital Para,Magura Sadar, Magura- 7600",
         null,
-        "0488-51079, 0488-51217, 01755-515177"
+        "0488-51079, 0488-51217, 01755-515177",
+        "630202",
+        "100550555"
       ]
     },
     {
       "MAIJDEE COURT BRANCH": [
         "Sakander Plaza, Uttar Fakirpur, Maijdee CourtNoakhali",
         null,
-        "01819514658"
+        "01819514658",
+        "630041",
+        "100751570"
       ]
     },
     {
       "MALIBAGH BRANCH": [
         "Holding # 484, DIT Road,Malibagh , Dhaka- 1217",
         null,
-        "02-222223857, 02-48319076, 02-222220444"
+        "02-222223857, 02-48319076, 02-222220444",
+        "630110",
+        null
       ]
     },
     {
       "MANIKGONJ BRANCH": [
         "Holding # 80/1, Shahid Rafiq Road, Jinnot Plaza,Manikganj Sadar, Manikganj- 1800",
         null,
-        "02-7710328, 02-7710307, 01755-625690"
+        "02-7710328, 02-7710307, 01755-625690",
+        "630134",
+        null
       ]
     },
     {
       "MAWNA CHOWRASTA BRANCH": [
         "Mawna Chowrasta, Kitab Ali Plaza,Sreepur , Gazipur - 1740",
         null,
-        "01713099837, 01713361833"
+        "01713099837, 01713361833",
+        "630122",
+        null
       ]
     },
     {
       "MIRPUR BRANCH": [
         "Srayoshe Tower(1st, 2nd & 3rd Floor), Plot # 7, Main Road-3, Begum Rokeya Sarani, 10 No. Crossing, Mirpur, Dhaka- 1216.",
         null,
-        "+88 02 48037653, 48039657, +8801714007155"
+        "+88 02 48037653, 48039657, +8801714007155",
+        "630108",
+        null
       ]
     },
     {
       "MIRPUR DOHS BRANCH": [
         "Mirpur DOHS Shopping Complex (2nd floor), Mirpur, Dhaka.",
         null,
-        "01329715155, 01329715156, 0244806867, 0244806868, 0244806869."
+        "01329715155, 01329715156, 0244806867, 0244806868, 0244806869.",
+        "630167",
+        null
       ]
     },
     {
       "MIRSHARAI ABU TORAB BAZAR BRANCH": [
         "Chowdhury Market, Abu Torab Modya Bazar, Mirsharai, Chattogram.",
         null,
-        "01914326342"
+        "01914326342",
+        "630045",
+        null
       ]
     },
     {
       "MITHAMOIN BRANCH": [
         "Mithamoin Bazar Road, Sonali Bhaban, 1st and 2nd Floor,Mithamoin, Kishoreganj- 2370",
         null,
-        "09435-56111, 09435-56110, 01847-189439"
+        "09435-56111, 09435-56110, 01847-189439",
+        "630145",
+        null
       ]
     },
     {
       "MOHAKHALI DOHS BRANCH": [
         "S.K.S Tower, Plot No. 07Sadar Road, Mohakhali",
         null,
-        "55058370, 55058372"
+        "55058370, 55058372",
+        "630159",
+        null
       ]
     },
     {
       "MOHILA BRANCH, UTTARA": [
         "Holding # 13, Road # 15 Sector # 3, Masum Plaza, 1st Floor, Rabindra Sarani,Uttara, Dhaka- 1230",
         null,
-        "0248962472, 0241090552, 0241090553"
+        "0248962472, 0241090552, 0241090553",
+        "630148",
+        null
       ]
     },
     {
       "MONGLA ROAD BRANCH": [
         "Foyla Bazar, Rampal, Bagerhat",
         null,
-        "1716886020"
+        "1716886020",
+        "630203",
+        "100010129"
       ]
     },
     {
       "MORJAL BRANCH": [
         "Belabo Road, Saymon Plaza, 1st & 2nd Floor, Morjal,Raipura , Narsingdi - 1630",
         null,
-        "01709-649149, 01847-215748, 01847-215749"
+        "01709-649149, 01847-215748, 01847-215749",
+        null,
+        "100680175"
       ]
     },
     {
       "MOTIJHEEL BRANCH": [
         "Holding # 56-57 , Sharif Mansion , Motijheel C/A, Motijheel, Dhaka- 1000",
         null,
-        "02223388093, 02223388534, 02223351161, 0247123049"
+        "02223388093, 02223388534, 02223351161, 0247123049",
+        "630100",
+        null
       ]
     },
     {
       "MOUCHAK BRANCH": [
         "Holding # RS-1763, Dhaka-Tangail Highway, Siddique Shopping Complex, 1st Floor, Mouchak,Kaliakoir , Gazipur - 1751",
         null,
-        "02-9297513, 02-9297526, 02-9297527"
+        "02-9297513, 02-9297526, 02-9297527",
+        "630136",
+        "100330120"
       ]
     },
     {
       "MOULVIBAZAR BRANCH": [
         "Holding # 1164, Dhaka-Sylhet Road, Al-Aksa Shopping Centre,Kusumbag, Moulvibazar - 3200",
         null,
-        "0861-63007, 0861-63008, 01714-167459"
+        "0861-63007, 0861-63008, 01714-167459",
+        "630053",
+        null
       ]
     },
     {
       "MUDAFFORGONJ BRANCH": [
         "Alam Highway, Alam Highway Supermarket, 1st Floor, Mudafforgonj,Laksam , Comilla- 3562",
         null,
-        "01730-061455, 01730-061456"
+        "01730-061455, 01730-061456",
+        "630018",
+        null
       ]
     },
     {
       "MUKTERPUR BRANCH": [
         "Mawa-Munshiganj Highway, Laila Plaza, 1st Floor, Muktarpur,Panchashar, Munshiganj - 1500",
         null,
-        "02-7610160, 02-7610270, 01979-555507"
+        "02-7610160, 02-7610270, 01979-555507",
+        "630142",
+        "100591006"
       ]
     },
     {
       "MYMENSINGH BRANCH": [
         "Holding # 34, Muktijoddha Sharani Sarak (Former Bipin Sen Road),Choto Bazar , Mymensingh- 2200",
         null,
-        "091-51508, 091-51506, 091-51507"
+        "091-51508, 091-51506, 091-51507",
+        "630120",
+        "100611757"
       ]
     },
     {
       "NABIGANJ BRANCH": [
         "Sherpur Road, Bangla Town,Nabiganj, Habiganj- 3370",
         null,
-        "08328-56524, 08328-56526, 01730-001240"
+        "08328-56524, 08328-56526, 01730-001240",
+        null,
+        "100361094"
       ]
     },
     {
       "NAOGAON BRANCH": [
         "Kancha Bazar Road, Rafique Tower, 1st Floor,Naogaon Sadar, Naogaon- 6500",
         null,
-        "0741-81408, 0741-81407, 0741-81409"
+        "0741-81408, 0741-81407, 0741-81409",
+        "630304",
+        "100641185"
       ]
     },
     {
       "NARAYANGANJ BRANCH": [
         "Holding # 50, S.M. Maleh Road, Sattar Tower, Tanbazar , Narayanganj - 1400",
         null,
-        "02-7640213, 02-7640214, 01711-439385"
+        "02-7640213, 02-7640214, 01711-439385",
+        null,
+        "100671184"
       ]
     },
     {
       "NARAYANPUR BRANCH": [
         "Narayanpur Bazar (Middle), Kalu Mia Plaza, 1st Floor, Narayanpur,Matlab South, Chandpur- 3640",
         null,
-        "01991-194557, 01847-215751"
+        "01991-194557, 01847-215751",
+        "630032",
+        "100131453"
       ]
     },
     {
       "NARIA BRANCH": [
         "Naria Bazar (West) , Janakallan Bipony, 1st Floor,Naria, Shariatpur - 8020",
         null,
-        "0601-59135, 0601-59136, 01730-018970"
+        "0601-59135, 0601-59136, 01730-018970",
+        "630151",
+        "100860582"
       ]
     },
     {
       "NATHERPETUA BRANCH": [
         "Twin Tower, College Road, Binoyghor, Natherpatua, Monohargonj, Cumilla",
         null,
-        "01713229368"
+        "01713229368",
+        "630038",
+        "100193312"
       ]
     },
     {
       "NAWABPUR BRANCH": [
         "Holding # 198/1, Nawabpur Road, (Adjacent to Nawabpur Tower), Nawabpur , Dhaka - 1100",
         null,
-        "02-7125306, 02-7125307, 01711-424031"
+        "02-7125306, 02-7125307, 01711-424031",
+        "630104",
+        null
       ]
     },
     {
       "NAYARHAT BRANCH": [
         "Sohid Sergeant Sabed Dewan Road, Mofiz Uddin Super Market, Nayarhat Bazar, Ashulia, Savar, Dhaka- 1350",
         null,
-        "02-7792714, 02-7792719, 01766-695360"
+        "02-7792714, 02-7792719, 01766-695360",
+        "630137",
+        null
       ]
     },
     {
       "NAZIRHAT BRANCH": [
         "Hospital Road, Jamia Shopping Complex, 1st Floor, Nazirhat Bazar,Fatikchhari , Chittagong - 4353",
         null,
-        "01755-621521,"
+        "01755-621521,",
+        null,
+        "100155592"
       ]
     },
     {
       "NETROKONA BRANCH": [
         "Holding # 690, Boro Bazar, Mir Plaza, 1st Floor,Netrokona Sadar, Netrokona- 2400",
         null,
-        "0951-62612, 0951-62613, 01709-639930"
+        "0951-62612, 0951-62613, 01709-639930",
+        "630701",
+        "100720730"
       ]
     },
     {
       "NEW ESKATON BRANCH": [
         "Holding # 27/1, Standard Center, New Eskaton Road , Dhaka - 1000",
         null,
-        "02-48314159, 02-48314435, 02-48322854, 01709639942"
+        "02-48314159, 02-48314435, 02-48322854, 01709639942",
+        "630106",
+        null
       ]
     },
     {
       "PABNA BRANCH": [
         "Holding # 1345, Thana Road (Kheya Ghat More), Mid Town Homes, 1st Floor,Salgaria, Pabna- 6600",
         null,
-        "0731-64650, 0731-64653, 01777-763400"
+        "0731-64650, 0731-64653, 01777-763400",
+        "630303",
+        "100761786"
       ]
     },
     {
       "PAHARTALI BRANCH": [
         "Sourav Bitan (1st & 2nd Floor) North Saraipar, D.T. Road Pahartali, Chattogram.",
         null,
-        "02-43151695, 02-43151696, 01714166966"
+        "02-43151695, 02-43151696, 01714166966",
+        "630005",
+        "100155921"
       ]
     },
     {
       "PAKUNDIA BRANCH": [
         "College Road, Purnima Plaza, 1st Floor,Pakundia Bazar, Kishoreganj- 2326",
         null,
-        "09433-56053, 09433-56059, 01709-639767"
+        "09433-56053, 09433-56059, 01709-639767",
+        "630144",
+        "100481066"
       ]
     },
     {
       "PALTAN BRANCH": [
         "BM Tower (Ground & 1st Floor), 209/A, Shaheed Sayed Nazrul Islam Sarani, Bijoy NagarPurana Paltan, Dhaka- 1000",
         null,
-        "02-55112401, 02-55112528-29 (PABX)"
+        "02-55112401, 02-55112528-29 (PABX)",
+        "630115",
+        null
       ]
     },
     {
       "PANCHABATI BRANCH": [
         "Dhaka-Munshiganj Highway, Atlanta Plaza, 2nd Floor, Panchabati, Shasongaon,Fatullah, Narayanganj- 1421",
         null,
-        "02-47670607, 02-47670806, 01730-001241"
+        "02-47670607, 02-47670806, 01730-001241",
+        null,
+        "100671384"
       ]
     },
     {
       "PANCHLAISH BRANCH": [
         "Holding # 101/210, Hathazari Road, NG Tower, 1st & 2nd Floor, Ahmed Mia Primary School Lane, Chawkbazar,Panchlaish, Chittagong- 4203",
         null,
-        "031-651002, 031-651003, 031-650705"
+        "031-651002, 031-651003, 031-650705",
+        "630031",
+        "100156041"
       ]
     },
     {
       "PANTHAPATH BRANCH": [
         "Plot # 55-2, Union Heights, 1st & 2nd Floor, West Panthapath, Dhaka - 1205",
         null,
-        "02-8124261 , 02-9145911, 02-8141764"
+        "02-8124261 , 02-9145911, 02-8141764",
+        "630101",
+        null
       ]
     },
     {
       "PATUAKHALI BRANCH": [
         "Khan Bahadur Plaza, Holding No: 74, Baro Masjid Road, Adalat Para, Patuakhali.",
         null,
-        "01717423141"
+        "01717423141",
+        "630404",
+        "100781090"
       ]
     },
     {
       "RAJAPUR BRANCH": [
         "Chikhutia, Jholam (North), Rajapur,Monohargonj, Comilla- 3570",
         null,
-        "01787-674981, 01709-639932"
+        "01787-674981, 01709-639932",
+        "630029",
+        "100190449"
       ]
     },
     {
       "RAJSHAHI BRANCH": [
         "Holding # 76, Station Road (Aloker More), Chamber Building,Boalia , Rajshahi - 6100",
         null,
-        "0721-772005, 0721-772004, 0721-775227"
+        "0721-772005, 0721-772004, 0721-775227",
+        "630331",
+        "100811931"
       ]
     },
     {
       "RAJUK AVENUE BRANCH": [
         "Holding # 9, D.I.T Avenue, Ali Bhaban, Motijheel C/A, Motijheel, Dhaka - 1000",
         null,
-        "02-9556884, 02-9565397, 02-9567115"
+        "02-9556884, 02-9565397, 02-9567115",
+        "630105",
+        null
       ]
     },
     {
       "RANGPUR BRANCH": [
         "Nirala Complex, Holding 18, Payra Chattar, Central Road, Rangpur-5400",
         null,
-        "0521-61214, 0521-61215, 01755-633863"
+        "0521-61214, 0521-61215, 01755-633863",
+        "630351",
+        "100851454"
       ]
     },
     {
       "RAOZAN PAHARTALI BRANCH": [
         "Chittagong-Kaptai Highway, Haji Makbul Tower, 1st Floor, Pahartali Chowmuhani Bazar,Raozan, Chittagong- 4348",
         null,
-        "01787-674983, 01991-194558"
+        "01787-674983, 01991-194558",
+        "630030",
+        "100150500"
       ]
     },
     {
       "RAYER BAZAR BRANCH": [
         "Holding # 309, Road # 4, Monowara Sikder Road, Sikder Tower, 2nd Floor, Rayer Bazar,Hazaribagh , Dhaka- 1209",
         null,
-        "02-41021143, 02-41021144, 02-41021142"
+        "02-41021143, 02-41021144, 02-41021142",
+        "630149",
+        null
       ]
     },
     {
       "RING ROAD BRANCH": [
         "Industrial Plot # 6/A, Ring Road, Ring Tower,Mohammadpur, Dhaka- 1207",
         null,
-        "02-48115541, 02-48115561, 01777-763407"
+        "02-48115541, 02-48115561, 01777-763407",
+        "630138",
+        null
       ]
     },
     {
       "SANDWIP BRANCH": [
         "Plot # 2407 & 2408, Guptachara Road, Surma Plaza, Haramia,Sandwip, Chittagong- 4300",
         null,
-        "030-2756039, 01730-781274"
+        "030-2756039, 01730-781274",
+        "630020",
+        "100156917"
       ]
     },
     {
       "SARIAKANDI BRANCH": [
         "Holding # 3/253, College Road, (Near Shariakandi Degree College)Shariakandi, Bogra- 5830",
         null,
-        "05028-56234, 05028-56235, 01709-639936"
+        "05028-56234, 05028-56235, 01709-639936",
+        "630306",
+        "100102479"
       ]
     },
     {
       "SATARKUL BRANCH": [
         "Holding # 233, Satarkul Road, Mustafa's Dream, 1st Floor,Uttar Badda, Dhaka- 1212",
         null,
-        "02-9840217, 01755-625696"
+        "02-9840217, 01755-625696",
+        "630133",
+        null
       ]
     },
     {
       "SATMASJID ROAD BRANCH": [
         "Holding # 755, Road # 12/A, Satmasjid Road, Green Rowshanara Tower,Dhanmondi , Dhaka- 1209",
         null,
-        "02-58157316, 02-8141249"
+        "02-58157316, 02-8141249",
+        null,
+        "100264038"
       ]
     },
     {
       "SAVAR BAZAR BRANCH": [
         "Holding # 44/A, Savar Bazar Road, Amin Tower,Savar, Dhaka- 1340",
         null,
-        "02-7742883, 01755-575408"
+        "02-7742883, 01755-575408",
+        "630132",
+        null
       ]
     },
     {
       "SEED STORE BAZAR BRANCH": [
         "Dhaka-Mymensingh Highway, Somola-Taher Plaza, 1st & 2nd Floor, Seed Store Bazar, Bhaluka , Mymensingh - 2240",
         null,
-        "01847-089270, 01847-089273, 01847-215755"
+        "01847-089270, 01847-089273, 01847-215755",
+        "630139",
+        null
       ]
     },
     {
       "SHANTINAGAR BRANCH": [
         "Nasir Uddin Tower (1st floor), 104/1, Kakrail,Shantinagar, Dhaka.",
         null,
-        "02-8300527, 02-8300528, 02-8300531, 01991194555"
+        "02-8300527, 02-8300528, 02-8300531, 01991194555",
+        "630153",
+        null
       ]
     },
     {
       "SHANTIRHAT BRANCH": [
         "Bin Hossain Plaza, Shantirhat6 no. Kusumpura Union, Patiya",
         null,
-        "01814819747"
+        "01814819747",
+        "630042",
+        null
       ]
     },
     {
       "SHARIATPUR BRANCH": [
         "Mridha Palace, Holding No.644, Middle Bazar, Shariatpur.",
         null,
-        "02478815357, 01730393422."
+        "02478815357, 01730393422.",
+        "630161",
+        "100860674"
       ]
     },
     {
       "SHIBBARI BRANCH": [
         "Holding No. A-7, Mozid Shoroni, Shibbari, Sonadanga, Khulna.",
         null,
-        "01818453170"
+        "01818453170",
+        "630205",
+        null
       ]
     },
     {
       "SHIMRAIL BRANCH": [
         "Chittagong Road, Haji Ahsanullah Super Market, 2nd Floor, Siddhirganj , Narayanganj - 1430",
         null,
-        "02-997745133, 02-997745134, 01755606609, 01709639964"
+        "02-997745133, 02-997745134, 01755606609, 01709639964",
+        "630127",
+        "100671571"
       ]
     },
     {
       "SIRAJGANJ BRANCH": [
         "Holding # 166-167, Mujib Road, Dollar Plaza, 1st Floor, Sirajganj Sadar, Sirajganj- 6700",
         null,
-        "0751-62768, 0751-62769, 0751-62775"
+        "0751-62768, 0751-62769, 0751-62775",
+        null,
+        "100880054"
       ]
     },
     {
       "SITAKUNDA BRANCH": [
         "Main Road (D.T. Road), KDS Logistics Bhaban, Ghoramara, Sonaichari, Kumira,Sitakunda, Chittagong - 4318",
         null,
-        "03042-51093, 01713-229338"
+        "03042-51093, 01713-229338",
+        null,
+        "100157390"
       ]
     },
     {
       "SK. MUJIB ROAD BRANCH": [
         "Holding # 6, Sk. Mujib Road (Badamtoli More), Mawla Chamber, 1st & 2nd Floor, Agrabad C/A,Agrabad, Chittagong - 4100",
         null,
-        "031-726901, 031-726902, 031-726903"
+        "031-726901, 031-726902, 031-726903",
+        null,
+        null
       ]
     },
     {
       "SONAIMURI BRANCH": [
         "EMA Plaza 1st Floor,Ashaque Meah Sarak Sonaimuri bazar, Noakhali – 3827",
         null,
-        "03227-51057, 51058, 01711750610, 01711885754"
+        "03227-51057, 51058, 01711750610, 01711885754",
+        "630011",
+        "100752232"
       ]
     },
     {
       "SONAPUR BRANCH": [
         "Murad ComplexSonapur Zero Point, Noakhali",
         null,
-        null
+        null,
+        "630036",
+        "100752261"
       ]
     },
     {
       "SONARGAON BRANCH": [
         "College Road, Zohra Mansion, Mograpara Chowrasta,Sonargaon , Narayanganj - 1441",
         null,
-        "02-7656103, 02-7656236, 01755-584938"
+        "02-7656103, 02-7656236, 01755-584938",
+        "630129",
+        null
       ]
     },
     {
       "SONATALA BRANCH": [
         "Sonatala Bondor, Adjacent Post Office, Sonatala, Bogra.",
         null,
-        "1712962850"
+        "1712962850",
+        "630309",
+        "100102958"
       ]
     },
     {
       "SREENAGAR BRANCH": [
         "Zom Zom Tower, Vaggokul Road,Sreenagar, Munshigonj",
         null,
-        "01952130871"
+        "01952130871",
+        "630158",
+        "100591422"
       ]
     },
     {
       "SYLHET BRANCH": [
         "Holding # 6-1, Mujtaba Tower, 1st & 2nd Floor, Zindabazar , Sylhet - 3100",
         null,
-        "01714001964 (Manager) 01730357954 (Second Officer)"
+        "01714001964 (Manager) 01730357954 (Second Officer)",
+        "630051",
+        "100913550"
       ]
     },
     {
       "TAKERHAT BRANCH": [
         "Takerhat Bazar, Rahman Tower,Rajoir, Madaripur- 7911",
         null,
-        "02-478812161, 02-478812163, 02-478812130"
+        "02-478812161, 02-478812163, 02-478812130",
+        "630123",
+        "100540765"
       ]
     },
     {
       "TANGAIL BRANCH": [
         "Holding # 309, Mosjid Road , Shahin City Point, 1st Floor,Tangail Sadar, Tangail - 1900",
         null,
-        "0921-61570, 0921-61572, 01787-687021"
+        "0921-61570, 0921-61572, 01787-687021",
+        "630143",
+        "100932294"
       ]
     },
     {
       "THAKUR BAZAR BRANCH": [
         "Holding # 60/1, Shahrasti Gate, Toffazal Hossain Chowdhury Market, Thakur Bazar,Shahrasti, Chandpur- 3620",
         null,
-        "08427-56273, 08427-56278, 01755-536784"
+        "08427-56273, 08427-56278, 01755-536784",
+        "630021",
+        null
       ]
     },
     {
       "TONGIBARI BRANCH": [
         "Chand City Center (1st floor), College Road, Tongibari Bazar, Munshiganj.",
         null,
-        "01752528898"
+        "01752528898",
+        "630168",
+        null
       ]
     },
     {
       "TUNGIPARA BRANCH": [
         "Holding # 159, Hazi Layek Ali Biswas Plaza, Patgati Bus Stand,Tungipara, Gopalganj- 8120",
         null,
-        "02-6656304, 02-6656305, 02-6656306"
+        "02-6656304, 02-6656305, 02-6656306",
+        "630147",
+        null
       ]
     },
     {
       "UTTARA BRANCH": [
         "House # 61/A, Road # 7, Sector # 4, Uttara , Dhaka - 1230",
         null,
-        "02-58955785, 02-58957537, 02-58950646"
+        "02-58955785, 02-58957537, 02-58950646",
+        "630107",
+        null
       ]
     },
     {
       "ZIRANI BAZAR BRANCH": [
         "Kazi Tower, Holding no: 04, College Road, Zirani BazarAshulia, Savar",
         null,
-        "01834895053"
+        "01834895053",
+        "630164",
+        null
       ]
     },
     {
       "Regional": [
         "Office, Dhaka North",
+        null,
+        null,
         null,
         null
       ]
@@ -1100,12 +1415,16 @@
       "Regional": [
         "Office, Chattogram",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Regional": [
         "Office, Sylhet.",
+        null,
+        null,
         null,
         null
       ]
@@ -1116,12 +1435,16 @@
       "Jahura Khalak Super Market": [
         "Hatipara BazarUnion: Hatipara, PS. Manikgonj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Haji Abdur Rahman Market": [
         "Podua Rastar Matha, Dag: 41-42, Khatian: 86Potkora, Union: Alkora, Thana: Chauddagram, Dist: Cumilla",
+        null,
+        null,
         null,
         null
       ]
@@ -1130,12 +1453,16 @@
       "Master Super Market": [
         "Jodda BazarUnion: Jodda, PS. Nangalkot",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Shikaripara TKM High School Building": [
         "Vill : Shikari para BazarUnion : Shikaripara, Thana : Nawabgonj",
+        null,
+        null,
         null,
         null
       ]
@@ -1144,12 +1471,16 @@
       "M.K.R Complex": [
         "Holding # 419, School RoadWard # 4, P.S # Setabganj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Abdul Hamid Super Market": [
         "Walia BazarUnion # Walia, P.S # Lalpur",
+        null,
+        null,
         null,
         null
       ]
@@ -1158,12 +1489,16 @@
       "Chulkathi Complex": [
         "Vill. # Chulkathi BazarUnion # Khanpur, Bagerhat Bazar",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Fatima Plaza": [
         "Holding # 682, Thana RoadWard # 08, PS.-Gangni",
+        null,
+        null,
         null,
         null
       ]
@@ -1172,12 +1507,16 @@
       "R.K. Plaza": [
         "Holding # 307, Daud Nagor Bazar Station Rd.Ward # 02, Pourashova: 1st Class Shaestagonj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Siddique Shopping Center": [
         "Vill.- Box Mahmud BazarUnion # Box Mahmud, PS.- Porsuram",
+        null,
+        null,
         null,
         null
       ]
@@ -1186,12 +1525,16 @@
       "A.K. PLAZA": [
         "Sher-e-Bangla Road, Gollamari MoreWard # 24, Khulna City Corporation, PS.- Sonadanga",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Razzaque Manson": [
         "Jashore Road, DowlatpurWard # 06, Khulna City Corp., PS.- Dowlatpur",
+        null,
+        null,
         null,
         null
       ]
@@ -1200,12 +1543,16 @@
       "Nurul Abedin New Market": [
         "Holding No: 1179Chengarchar Bazar, Road: High School Road, Thana: Matlab Nor",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bhai Bon Plaza": [
         "Vill : Jamsha Bazar, Union : JamshaP.S : Singair, Dist : Manikgonj",
+        null,
+        null,
         null,
         null
       ]
@@ -1214,12 +1561,16 @@
       "Jalal Uddin Shoping Complex": [
         "Utholi BazarUnion:Utholi,Thana: Shibaloy",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Selim Tower": [
         "Holding No:1565Road: Sarak Bazar, Thana: Brahmanbaria Sadar",
+        null,
+        null,
         null,
         null
       ]
@@ -1228,12 +1579,16 @@
       "Jalalabad Market": [
         "Bhadeshwar Mokam BazarUnion: 8 No Bhadeshwar Golapgonj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Rabbi Complex": [
         "Holding No: 452Bizra Bazar, Union: South Bakoi, Laksham",
+        null,
+        null,
         null,
         null
       ]
@@ -1242,12 +1597,16 @@
       "Al Amin Shopping Complex": [
         "Dohabanga BazarHolding No: 321, Road: Cumilla Chandpur Highway, Ward No: 03",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Joytun Plaza": [
         "Vill : KurgaonUnion : Pathalia, Thana : Ashulia",
+        null,
+        null,
         null,
         null
       ]
@@ -1256,12 +1615,16 @@
       "Hazi Moinuddin Complex": [
         "Malir Onko BazarUnion: Bejgaon, Louhajang",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Monsur Ali Mansion": [
         "Buschi BazarUnion: 10 No Vulin, Thana: Lalmaie",
+        null,
+        null,
         null,
         null
       ]
@@ -1270,12 +1633,16 @@
       "Al-Amin New Market": [
         "MohammadpurUnion: 6 No Mohammadpur, Thana: Mohammadpur",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "N.A.M Tower": [
         "Holding No: 465, Matlab BazarRoad: College Road, Ward: Matlab Sadar, Thana: Matlab South",
+        null,
+        null,
         null,
         null
       ]
@@ -1284,12 +1651,16 @@
       "Afsar Plaza": [
         "Meghula Bazar, Union: NarishaPost: Meghula Bazar, Thana: Dohar",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Rony Jony Super Market": [
         "Holding no: 36Road: Sataish Road Chowrasta, Ward No: 51, West Tongi",
+        null,
+        null,
         null,
         null
       ]
@@ -1298,12 +1669,16 @@
       "Shikder Bhaban": [
         "Holding No: 17Kashimpur Jelkhana Road, Ward No: 08, Konabari",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Haji Abdul Halim Complex": [
         "Paikosha BazarUnion: Jhawoil, Kamarkhanda",
+        null,
+        null,
         null,
         null
       ]
@@ -1312,12 +1687,16 @@
       "Mujibul Hoque Mazumder BhabanSubar Bazar": [
         "Union: 1 No. Mirza Nagar, Posuram",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "A. Hossain Corner": [
         "Amishapara BazarUnion: 10 No Amishapara, Sonaimuri",
+        null,
+        null,
         null,
         null
       ]
@@ -1326,12 +1705,16 @@
       "Star Bhaban": [
         "Holding No: 1/2, Road : Star moreWard No: 09, Paravashava: Chatmohor, Chatmohor",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Joynal Market": [
         "Notun Bandura BazarNawabganj, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -1340,12 +1723,16 @@
       "House: 42": [
         "Road: 7, Block: CBanasree, Rampura, Dhaka.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Khoka Tower": [
         "Majhira BazarShahjahanpur, Bogura",
+        null,
+        null,
         null,
         null
       ]
@@ -1354,12 +1741,16 @@
       "Lutfor Tower": [
         "Dakkshinkhan BazarDakkshinkhan, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Eye Vision Plaza": [
         "AtibazarKeranigonj Dhaka.",
+        null,
+        null,
         null,
         null
       ]
@@ -1368,12 +1759,16 @@
       "Mujibur Business Center": [
         "Syednagar (Auto Stand), Madani AvenueEast Vatara, Dhaka.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "BGMEA Complex": [
         "Holding No: Plot 7 & 7/A, Uttara 3rd projectDhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -1382,12 +1777,16 @@
       "Mamudali Super Market": [
         "Habibnagar (Purbachal)Rupgonj, Narayanganj.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Pathok Bandhu Market": [
         "Holding No: 50, P.K. Roy RoadBanglabazar, Dhaka.",
+        null,
+        null,
         null,
         null
       ]
@@ -1396,12 +1795,16 @@
       "Dewan Plaza": [
         "Bazar Road, Munshiganj SadarMunshiganj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Mondal Market": [
         "Sariakandi Thana More, Sariakandi BazarSariakandi, Bogura",
+        null,
+        null,
         null,
         null
       ]
@@ -1410,12 +1813,16 @@
       "Joynal Plaza": [
         "Kashipur RoadChhaterpaiya, Senbag, Noakhali",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "F T C Dr. Ishak City Centre": [
         "Main RoadDaganbhuiyan Bazar, Daganbhuiyan, Feni",
+        null,
+        null,
         null,
         null
       ]
@@ -1424,12 +1831,16 @@
       "Vhai Vhai Super Market": [
         "Jagatpur BazarJagatpur, Kachua, Chandpur.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "33/2-A": [
         "North Pirerbag (60 feet)Mirpur, Dhaka",
+        null,
+        null,
         null,
         null
       ]

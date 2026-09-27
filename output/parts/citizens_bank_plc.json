@@ -3,11 +3,16 @@
   "bank_url": "https://www.citizensbankbd.com/",
   "method": "html_table",
   "status": "success",
+  "bank_id": "141",
+  "total_branch": 42,
+  "total_sub_branch": 8,
   "branch": [
     {
       "Principal Branch": [
         "Chini Shilpa Bhaban-2, 76, Motijheel C/A, Dhaka-1000.",
         null,
+        null,
+        "1410102",
         null
       ]
     },
@@ -15,20 +20,26 @@
       "Nayanpur Bazar Branch": [
         "Abdul Goni Tower, Nayanpur Bazar, Kasba,Brahmanbaria",
         null,
-        null
+        null,
+        "1410001",
+        "320120231"
       ]
     },
     {
       "Narayanganj Branch": [
         "207/5, Bangabondhu Road, Narayanganj-1400",
         null,
-        null
+        null,
+        "1410104",
+        "320671180"
       ]
     },
     {
       "Gulshan Corporate Branch": [
         "Amanullah Trade Center, Holding-06 (Old), 26 (New), 2 nd Floor, Gulshan Avenue, Circle-02, Gulshan-02, Dhaka-1212.",
         null,
+        null,
+        "1410103",
         null
       ]
     },
@@ -36,13 +47,17 @@
       "Seed Store Bazar Branch": [
         "Seed Store Bazar, Valuka, Mymensingh.",
         null,
-        null
+        null,
+        "1410701",
+        "320612099"
       ]
     },
     {
       "Sonakanda Branch": [
         "Natun Sonakanda Bus Stand, Syedpur (BSCIC) Area. Ruhitpur, Keranigonj, Dhaka.",
         null,
+        null,
+        "1410105",
         null
       ]
     },
@@ -50,6 +65,8 @@
       "Dhanmondi Branch": [
         "Mullick House, 48 Satmasjid Road, Dhanmondi, Dhaka",
         null,
+        null,
+        "1410107",
         null
       ]
     },
@@ -57,6 +74,8 @@
       "Uttara Branch": [
         "Liberty Tower, House-19, Road-02, Sector-03, Uttara, Dhaka",
         null,
+        null,
+        "1410106",
         null
       ]
     },
@@ -64,6 +83,8 @@
       "Cumilla Branch": [
         "Bashu Bhaban, Holding No # 615/682, Jhawtola Main Road, Cumilla",
         null,
+        null,
+        "1410002",
         null
       ]
     },
@@ -71,6 +92,8 @@
       "Ashulia Branch": [
         "Rashid Complex, Bogabari Bus Stand, Dhamsona, Ashulia, Savar, Dhaka",
         null,
+        null,
+        "1410110",
         null
       ]
     },
@@ -78,27 +101,35 @@
       "Mouchak Branch": [
         "Siddique Shopping Complex, Mouchak, Kaliakoir, Gazipur",
         null,
-        null
+        null,
+        "1410109",
+        "320330126"
       ]
     },
     {
       "Bhulta Branch": [
         "Mahattom Shopping Center, Golakandil, Bhulta, Rupganj, Narayanganj",
         null,
-        null
+        null,
+        "1410108",
+        "320670228"
       ]
     },
     {
       "Feni Branch": [
         "1st Floor, Feni Tower, 291/1 Shahid Sohidullah Kaiser Sharak, Feni Shadar, Feni.",
         null,
-        null
+        null,
+        "1410003",
+        "320300527"
       ]
     },
     {
       "Imamganj Branch": [
         "2nd Floor, Joinal Tower, 31-33 Roy Ishwar Chandra Shil Bahadur Street, Imamganj, Dhaka.",
         null,
+        null,
+        "1410111",
         null
       ]
     },
@@ -106,20 +137,26 @@
       "Agrabad Branch": [
         "2nd Floor, H&M Tower, 23 Agrabad C/A, SK Mujib Road, Chattogram.",
         null,
-        null
+        null,
+        "1410004",
+        "320150135"
       ]
     },
     {
       "Chowdhuryhat Branch": [
         "(1st Floor), Al-Saleh Supermarket (Yakub Market), Chowdhuryhat, Hathazari, Chattogram.",
         null,
-        null
+        null,
+        null,
+        "320150843"
       ]
     },
     {
       "Tejgaon Link Road Branch": [
         "Rahman’s Regnum Centre , 191/01 Tejgaon-Gulshan Link Road, Dhaka.",
         null,
+        null,
+        "1410112",
         null
       ]
     },
@@ -127,6 +164,8 @@
       "Chatkhil Branch": [
         "Kshem Delar Building, Khilpara Road, Chatkhil, Dakkhin Bazar, Noakhali.",
         null,
+        null,
+        "1410006",
         null
       ]
     },
@@ -134,6 +173,8 @@
       "Bogura Branch": [
         "Bhandari Monzil, Borogola, Bogura.",
         null,
+        null,
+        "1410301",
         null
       ]
     },
@@ -141,6 +182,8 @@
       "Kadamtoli Branch": [
         "Mona Trade City, Zinjira High Way, Kadamtoli, Keranigonj, Dhaka.",
         null,
+        null,
+        "1410113",
         null
       ]
     },
@@ -148,6 +191,8 @@
       "Malkhanagar Branch": [
         "Hazi Nazrul Islam Market, Malkhanagar, Taltola Bazar, Sirajdikhan, Munshigonj.",
         null,
+        null,
+        "1410114",
         null
       ]
     },
@@ -155,6 +200,8 @@
       "Lohagara Branch": [
         "Iconic Tower, (1st & 2nd Floor), Lohagara, Chattogram",
         null,
+        null,
+        "1410007",
         null
       ]
     },
@@ -162,11 +209,15 @@
       "Chini Shilpa Bhaban-2": [
         "76, Motijheel C/A, Dhaka-1000.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Branch Category": [
+        null,
+        null,
         null,
         null,
         null
@@ -176,12 +227,16 @@
       "Routing number": [
         null,
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Abdul Goni Tower": [
         "Nayanpur Bazar, Kasba,Brahmanbaria",
+        null,
+        null,
         null,
         null
       ]
@@ -190,6 +245,8 @@
       "Amanullah Trade Center, Holding-06 (Old), 26 (New), 2": [
         "nd Floor, Gulshan Avenue, Circle-02, Gulshan-02, Dhaka-1212.",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -197,12 +254,16 @@
       "Natun Sonakanda Bus Stand": [
         "Syedpur (BSCIC) Area. Ruhitpur, Keranigonj, Dhaka.",
         null,
+        null,
+        "1410105",
         null
       ]
     },
     {
       "Mullick House": [
         "48 Satmasjid Road, Dhanmondi, Dhaka",
+        null,
+        null,
         null,
         null
       ]
@@ -211,12 +272,16 @@
       "Liberty Tower": [
         "House-19, Road-02, Sector-03, Uttara, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bashu Bhaban": [
         "Holding No # 615/682, Jhawtola Main Road, Cumilla",
+        null,
+        null,
         null,
         null
       ]
@@ -225,12 +290,16 @@
       "Rashid Complex": [
         "Bogabari Bus Stand, Dhamsona, Ashulia, Savar, Dhaka",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "1st Floor": [
         "Feni Tower, 291/1 Shahid Sohidullah Kaiser Sharak, Feni Shadar, Feni.",
+        null,
+        null,
         null,
         null
       ]
@@ -239,12 +308,16 @@
       "2nd Floor": [
         "Joinal Tower, 31-33 Roy Ishwar Chandra Shil Bahadur Street, Imamganj, Dhaka.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "2nd Floor": [
         "H&M Tower, 23 Agrabad C/A, SK Mujib Road, Chattogram.",
+        null,
+        null,
         null,
         null
       ]
@@ -253,12 +326,16 @@
       "(1st Floor)": [
         "Al-Saleh Supermarket (Yakub Market), Chowdhuryhat, Hathazari, Chattogram.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Rahman’s Regnum Centre": [
         "191/01 Tejgaon-Gulshan Link Road, Dhaka.",
+        null,
+        null,
         null,
         null
       ]
@@ -267,12 +344,16 @@
       "Kshem Delar Building": [
         "Khilpara Road, Chatkhil, Dakkhin Bazar, Noakhali.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Bhandari Monzil": [
         "Borogola, Bogura.",
+        null,
+        null,
         null,
         null
       ]
@@ -281,6 +362,8 @@
       "Mona Trade City": [
         "Zinjira High Way, Kadamtoli, Keranigonj, Dhaka.",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -288,12 +371,16 @@
       "Hazi Nazrul Islam Market": [
         "Malkhanagar, Taltola Bazar, Sirajdikhan, Munshigonj.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Iconic Tower": [
         "(1st & 2nd Floor), Lohagara, Chattogram",
+        null,
+        null,
         null,
         null
       ]
@@ -304,12 +391,16 @@
       "Kasba Sub-Branch": [
         "Janata Tower, 1st Floor, Kasba Sadar, Brahmanbaria.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Badda Sub-Branch": [
         "1st Floor, La 60/A, Middle Badda, Pragati Sharani, Gulshan, Dhaka.",
+        null,
+        null,
         null,
         null
       ]
@@ -318,12 +409,16 @@
       "Mirpur Sub-Branch": [
         "1st Floor, 143/Begum Rokeya Sarani, Sen Para, Mirpur-10, Dhaka.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Panchrukhi Sub-Branch": [
         "2nd Floor, Ohi Tower, Panchrukhi Bazar, Araihazar, Narayanganj.",
+        null,
+        null,
         null,
         null
       ]
@@ -332,12 +427,16 @@
       "Tanbazar Sub-Branch": [
         "50 (Old), 48 (New), S.M Maleh Road, Tan Bazar, Narayangonj.",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Kawran Bazar Sub-Branch": [
         "Jahangir Tower, 10 Kawran Bazar C/A, Dhaka-1215",
+        null,
+        null,
         null,
         null
       ]
@@ -346,12 +445,16 @@
       "Baligaon Sub-Branch": [
         "S.M Hatem Plaza, Baligaon Bazar, Tongi Bari, Munshigonj",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "Agla Bazar Sub-Branch": [
         "Jahanara Plaza, Aglabazar, Nawabgonj, Dhaka",
+        null,
+        null,
         null,
         null
       ]

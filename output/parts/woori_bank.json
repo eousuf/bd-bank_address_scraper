@@ -3,10 +3,15 @@
   "bank_url": "https://go.wooribank.com/bd/ib/main/IbMain.do",
   "method": "html_cards+html_table",
   "status": "success",
+  "bank_id": "73",
+  "total_branch": 18,
+  "total_sub_branch": 0,
   "branch": [
     {
       "SUVASTU IMAM SQUARE (4th & 5th FLOOR)": [
         "65 GULSHAN AVENUE, DHAKA-1212, BANGLADESH",
+        null,
+        null,
         null,
         null
       ]
@@ -15,11 +20,15 @@
       "Contact": [
         null,
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        null,
+        null
       ]
     },
     {
       "Customer Service Email": [
+        null,
+        null,
         null,
         null,
         null
@@ -29,6 +38,8 @@
       "Business Hours": [
         "Business day(Sun ~ Thu) 10:00 ~ 15:30 ※ Friday,Saturday and Holiday Closed",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -36,12 +47,7 @@
       "SUVASTU IMAM SQUARE (1ST FLOOR)": [
         "65 GULSHAN AVENUE, DHAKA-1212, BANGLADESH",
         null,
-        null
-      ]
-    },
-    {
-      "AYUB TRADE CENTER, HOLDING #1269/B, SHEIKH MUJIB ROAD": [
-        "AGRABAD COMMERCIAL AREA, GOSAILDANGA, WARD#36, DOUBLE MOORING, CHATTOGRAM, BANGLADESH",
+        null,
         null,
         null
       ]
@@ -50,12 +56,7 @@
       "Masihata Business Tower": [
         "4th Floor, Plot-05, Dhaka-Mymensingh Road, Sector-03, Uttara-1230",
         null,
-        null
-      ]
-    },
-    {
-      "Padma Bhaban (1st Floor), Plot No-1/9, Pallabi": [
-        "Mirpur-12, Dhaka-1216",
+        null,
         null,
         null
       ]
@@ -64,12 +65,16 @@
       "AHN Tower (Ground Floor)": [
         "13 & 15, Bir Uttam CR Dutta Rd, Bangla Motor, Dhaka-1205",
         null,
+        null,
+        null,
         null
       ]
     },
     {
       "AA Bhaban (Ground Floor)": [
         "23 Motijheel C/A, Dhaka-1000",
+        null,
+        null,
         null,
         null
       ]
@@ -78,6 +83,8 @@
       "Zone Service Complex": [
         "1st Floor, CEPZ South Halishahar, Chattogram",
         null,
+        null,
+        null,
         null
       ]
     },
@@ -85,6 +92,8 @@
       "Dhaka Branch": [
         "CHITTAGONG BRANCH",
         null,
+        null,
+        "730001",
         null
       ]
     },
@@ -92,12 +101,16 @@
       "Branch Phone No.": [
         "Bangladesh Country Office",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        null,
+        null
       ]
     },
     {
       "About branch": [
         "About personnel",
+        null,
+        null,
         null,
         null
       ]
@@ -106,42 +119,54 @@
       "CHITTAGONG BRANCH": [
         "Branch Phone No.",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        "730002",
+        "255151962"
       ]
     },
     {
       "UTTARA BRANCH": [
         "Branch Phone No.",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        "730102",
+        null
       ]
     },
     {
       "MIRPUR BRANCH": [
         "Branch Phone No.",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        "730103",
+        null
       ]
     },
     {
       "NARAYANGANJ BRANCH": [
         "Branch Phone No.",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        "730104",
+        "255671189"
       ]
     },
     {
       "KARWAN BAZAR BRANCH": [
         "Branch Phone No.",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        "730105",
+        null
       ]
     },
     {
       "MOTIJHEEL BRANCH": [
         "Branch Phone No.",
         null,
-        "+8809610-960921"
+        "+8809610-960921",
+        "730106",
+        null
       ]
     }
   ],
