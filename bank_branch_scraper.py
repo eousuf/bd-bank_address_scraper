@@ -195,7 +195,7 @@ ATM_NAME_RE = re.compile(
 # 101st Branch at Jhenaidah") — past-tense news verbs never name a branch.
 # Auction/tender notices name customers, not branches (SIBL /media#auction).
 NEWS_NAME_RE = re.compile(
-    r"\b(opened|opens|inaugurat\w+|relocat\w+|launched|launches|"
+    r"\b(opened|opens|openings?|program|inaugurat\w+|relocat\w+|launched|launches|"
     r"published\s+(?:in|on)|auction|tender|"
     # holiday-schedule notice headlines (SEB): "LIST OF THE BRANCHES AND
     # UPOSHAKHAS** **SHALL REMAIN OPEN FROM May 17, 2020"
@@ -221,7 +221,7 @@ GENERIC_NAME_RE = re.compile(
     r".*branches?\s+are\s+on-?line.*|services\s+available.*|"
     r"m/s[\s.,].*|.*\bproprietor\b.*|total\s+branch(?:es)?\s+list\b.*|"
     # table titles / locator-widget junk rows that leak as records
-    r"no\s+branch(?:es)?\s+available.*|online\s+branch\s+visit\s+appointment.*|"
+    r"no\s+(?:sub[\s_-]*)?branch(?:es)?\s+available.*|online\s+branch\s+visit\s+appointment.*|"
     r"book\s+an?\s+appointment.*|we\s+are\s+on\s+the\s+map.*|"
     r"(?:search|find|locate)\s+(?:for\s+)?your\s+nearest.*|"
     # marketing / notice-board rows that leak through embedded JSON
@@ -2150,7 +2150,11 @@ BANK_KEY_STOP = {"the", "and", "of", "for", "plc", "ltd", "limited",
 BB_BANK_ALIASES = {"exim": "export import",
                    "hsbc": "hong kong shanghai banking corporation",
                    "ncc": "national credit commerce",
-                   "standard": "standard islami"}  # renamed 2025
+                   "standard": "standard islami",  # renamed 2025
+                   # 2025 merger of 5 islamic banks; BB's registry still lists
+                   # only the constituents — no own Bank ID yet, and None must
+                   # keep the fuzzy matcher from claiming IBBL's 'islami' (42)
+                   "sammilito islami": None}
 
 def norm_key(s, drop_parens=True):
     """Canonical bank-name matching key (shared with bb_registry.py)."""
@@ -2198,7 +2202,10 @@ def _bb_bank_lookup(bank):
             return e["bank_id"], e["rkey"]
     k = norm_key(bank)
     if k in BB_BANK_ALIASES:
-        e = _BB_BANK_IDX.get(BB_BANK_ALIASES[k])
+        mapped = BB_BANK_ALIASES[k]
+        if mapped is None:
+            return None, None  # explicitly outside the registry (merger entity)
+        e = _BB_BANK_IDX.get(mapped)
         if e:
             return e["bank_id"], e["rkey"]
     if k:
@@ -2526,12 +2533,20 @@ def upgrade_parts(dry_run=False):
                     stats["dropped"] += 1
                     LOG.info("  junk dropped [%s]: %r", bank[:30], name)
                     continue
-                url_v = str((list(entry[name] or []) + ["", ""])[1] or "")
+                old = list(entry[name] or [])
+                url_v = str((old + ["", ""])[1] or "")
                 if url_v and BAD_EXT_RE.search(url_v):
-                    stats["dropped"] += 1  # promo rows linked to images
-                    LOG.info("  junk dropped [%s]: %r (media url)", bank[:30], name)
-                    continue
-                val = list(entry[name] or [])[:3]
+                    # RAKUB links every real branch row to a citizen-charter
+                    # .jpg — the *url* is junk, not the record: keep the row
+                    # with the url blanked unless the name itself is junk
+                    if _part_junk_name(str(name)):
+                        stats["dropped"] += 1
+                        LOG.info("  junk dropped [%s]: %r (media url)",
+                                 bank[:30], name)
+                        continue
+                    if len(old) > 1:
+                        old[1] = None
+                val = old[:3]
                 if len(val) > 2 and isinstance(val[2], str) and (
                         "http" in val[2] or "/media" in val[2]
                         or ".webp" in val[2].lower()):
@@ -2551,6 +2566,10 @@ def upgrade_parts(dry_run=False):
                              bank[:30], name)
                     continue
                 fid, routing = _bb_branch_lookup(rkey, str(name)) or (None, None)
+                if not fid and len(old) > 3:
+                    fid = old[3]   # merged-constituents parts carry their
+                if not routing and len(old) > 4:  # original-bank ids where
+                    routing = old[4]              # the registry has none
                 if fid:
                     stats["with_ids"] += 1
                 if routing:
@@ -2714,7 +2733,69 @@ def follow_pagination(base_url, page_sub, records, methods, seen):
         seen |= new
         LOG.info("    pagination: page %d -> %d more records", n, len(new))
 
+def merged_constituents_part(bank):
+    """Offline: a `constituents` banks.csv row builds its part as the
+    deduplicated union of those parts (Sammilito Islami = 2025 merger of
+    FSIBL+EXIM+SIBL+Union+GlobalIslami; its own locator is a JS shell with
+    no server-side list). Per-record fi_branch_id/routing keep their
+    original-bank values — BB's registry still lists the constituents.
+    Returns None when there is no hint or a constituent part is missing/
+    empty, so the caller falls back to a normal scrape."""
+    names = CSV_HINTS.get(bank, {}).get("constituents") or []
+    if not names:
+        return None
+    parts, missing = [], []
+    for n in names:
+        p = PARTS_DIR / f"{slugify(n)}.json"
+        try:
+            d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+        except Exception:
+            d = {}
+        if d.get("status") != "success" or not (d.get("branch") or d.get("sub_branch")):
+            missing.append(n)
+            continue
+        parts.append(d)
+    if missing or not parts:
+        LOG.warning("  merged-constituents: missing/empty parts for %s",
+                    ", ".join(missing))
+        return None
+    result = bank_result_template()
+    result["bank_url"] = clean_ws(CSV_HINTS.get(bank, {}).get("website") or "")
+    result["method"] = "merged-constituents"
+    result["status"] = "success"
+    result["bank_id"], _rkey = _bb_bank_lookup(bank)  # None until BB registers it
+    result["constituents"] = names
+    seen, dups = set(), 0
+    for grp in ("branch", "sub_branch"):
+        out = []
+        for d in parts:
+            for entry in (d.get(grp) or []):
+                if not isinstance(entry, dict) or not entry:
+                    continue
+                name = next(iter(entry))
+                val = list(entry[name] or [])
+                # merger overlaps can list one outlet twice: dedupe on
+                # group+name+address, never name alone — different banks
+                # legitimately share names ("Agrabad Br.")
+                key = (grp, branch_key(name),
+                       re.sub(r"\W+", " ", str(val[0] or "")).strip()[:60])
+                if key in seen:
+                    dups += 1
+                    continue
+                seen.add(key)
+                out.append({name: (val + [None, None])[:5]})
+        result[grp] = out
+        result[f"total_{grp}"] = len(out)
+    if dups:
+        result["merged_duplicates"] = dups
+    LOG.info("  merged-constituents: %d parts -> %d branches + %d subs (%d dups)",
+             len(parts), result["total_branch"], result["total_sub_branch"], dups)
+    return result
+
 def process_bank(bank):
+    merged = merged_constituents_part(bank)  # constituents rows never hit the network
+    if merged is not None:
+        return merged
     result = bank_result_template()
     site, source = find_website(bank)
     result["bank_url"] = site
@@ -2835,10 +2916,15 @@ def load_banks():
                         u = u.strip()
                         if u and u not in pages:
                             pages.append(u)
+                cons = [clean_ws(x) for x in
+                        re.split(r"[;|]", row.get("constituents") or "")]
+                cons = [x for x in cons if x]
                 if ws:
                     hint["website"] = ws
                 if pages:
                     hint["branch_pages"] = pages
+                if cons:  # merged bank is built from these parts, not scraped
+                    hint["constituents"] = cons
                 if hint:
                     CSV_HINTS[name] = hint
     return banks

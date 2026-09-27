@@ -4,7 +4,7 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "35",
-  "total_branch": 71,
+  "total_branch": 70,
   "total_sub_branch": 36,
   "branch": [
     {
@@ -12,15 +12,6 @@
         "NOC/ Foreign Leave",
         "https://basicbankplc.com/en/page-details/noc-foreign-leave",
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "Branch Code: 01": [
-        "Sena Kalyan Bhaban (5th Floor)",
-        null,
-        "02-223388190; 02-9564829; 055272683",
         null,
         null
       ]

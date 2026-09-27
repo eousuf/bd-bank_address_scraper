@@ -4,7 +4,7 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "84",
-  "total_branch": 131,
+  "total_branch": 130,
   "total_sub_branch": 125,
   "branch": [
     {
@@ -1166,15 +1166,6 @@
         "09617333685; 09617333686",
         "840602",
         "300280670"
-      ]
-    },
-    {
-      "Branch Opening": [
-        "News and Updates",
-        "https://www.globalislamibankbd.com/category/branch-opening/",
-        null,
-        null,
-        null
       ]
     },
     {

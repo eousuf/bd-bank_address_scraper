@@ -57,9 +57,21 @@ Roughly 1 credit per scraped page; the handful of blocked banks need <50.
 Because the key file is gitignored, `git pull` does **not** carry it between
 machines — create it manually on every PC you scrape from.
 
+### Working on two machines (e.g. Windows at home + macOS at the office)
+
+Everything the pipeline needs travels with the repo — both registry PDFs,
+`output/bb_registry.json`, all part files. The only rule that matters:
+**`git pull` before you start working** (especially before a multi-hour
+full refresh, which rewrites many part files) **and push when you stop**,
+one machine at a time. If a push is rejected, the other machine simply
+pushed first — `git pull`, then push again. Beyond the `.firecrawl_key`
+file noted above, the only per-machine difference is the interpreter:
+`python3 bank_branch_scraper.py` on macOS vs
+`.venv\Scripts\python bank_branch_scraper.py` on Windows.
+
 ### Optional `banks.csv` columns (highest priority)
 
-`bank_name,bank_url,branch_page_url,sub_branch_page_url`
+`bank_name,bank_url,branch_page_url,sub_branch_page_url,constituents`
 
 - `bank_url` (alias `website`) – official site URL; skips search-engine
   discovery entirely (still live-verified; dead hint falls through to normal
@@ -67,6 +79,10 @@ machines — create it manually on every PC you scrape from.
 - `branch_page_url` / `sub_branch_page_url` – branch / sub-branch listing
   page or PDF URLs; seeded directly, sitemap crawl skipped. Multiple URLs in
   one cell may be `;`-separated; the legacy `branch_pages` column still works.
+- `constituents` – `;`-separated bank names this row is a merger of. The part
+  is then built **offline** as the deduplicated union of those parts
+  (`method: "merged-constituents"`) — never scraped, refreshed automatically
+  on every run. Used by Sammilito Islami Bank (see special case below).
 
 Rows may leave any column empty; a plain single-column CSV works as before.
 
@@ -132,7 +148,7 @@ A plain rerun is a full refresh — updated branches, moved pages and new
 | `bank_url` | the official website that was actually scraped (after redirects) | scraper |
 | `method` | which extractors produced this bank's records, `+`-joined — tells you *how* the data was won | scraper |
 | `status` | `success` / `failed`; `--resume` skips banks already marked success | scraper |
-| `bank_id` | BB's official **Bank ID** for the whole bank (Sonali = 15, Agrani = 11, City Bank = 44) | `geo_bank.pdf` |
+| `bank_id` | BB's official **Bank ID** for the whole bank (Sonali = 15, Agrani = 11, City Bank = 44); `null` for merged-bank rows BB has not registered yet (Sammilito) | `geo_bank.pdf` |
 | `total_branch` | number of entries in `branch` — convenience count, always equals `len(branch)` | computed |
 | `total_sub_branch` | number of entries in `sub_branch` | computed |
 | `branch` | array of full-branch records (below) | scraper + PDFs |
@@ -191,8 +207,8 @@ compared in three rounds: **exact** → **containment** ("agrabad" inside
 "agrabad chattogram") → **near-spelling**. Banks whose short names differ
 from BB's long names (EXIM ↔ "Export Import Bank", HSBC, NCC) are handled
 by a small alias list. **No match → the field stays `null`; nothing is
-guessed.** That is why 8,711 of ~14,000 records carry an FI Branch ID and
-6,115 a routing number — the rest are spellings the matcher cannot safely
+guessed.** That is why 9,788 of ~15,500 records carry an FI Branch ID and
+6,834 a routing number — the rest are spellings the matcher cannot safely
 pair with a PDF row.
 
 ### Keeping IDs fresh / turning enrichment off
@@ -212,8 +228,10 @@ pair with a PDF row.
 
 62 banks in `banks.csv` → 62 keys in `output/banks_branches.json`;
 **60 succeeded, 2 failed** (BDBL, Citibank — see gaps below);
-**11,136 branches + 2,885 sub-branches**; 8,711 records carry an FI Branch
-ID and 6,115 a routing number (name-based matching; the rest keep `null`).
+**12,301 branches + 3,164 sub-branches** (Sammilito's merged part includes
+its five constituents' outlets, which also keep their own parts); 9,788
+records carry an FI Branch ID and 6,834 a routing number (name-based
+matching; the rest keep `null`).
 
 The `method` field records how each bank's data was won: 14 banks through
 HTML cards + tables, 10 through plain HTML tables, 8 through card layouts
@@ -239,19 +257,43 @@ least one bank.
   "Search your nearest…", two Woori address-blobs, one fused Bengal
   Commercial record. Dhaka Bank's real "Banani Road No 11 Branch" was
   explicitly protected from the address-fragment filter.
+* **Media-URL rows no longer dropped wholesale (2026-09-27):** RAKUB's
+  listing links every *real* branch row to a citizen-charter `.jpg`, which
+  the old rule would have deleted (384 branches). Now a media URL is
+  blanked and the record kept — only rows whose *name* is also junk
+  ("Khulna Branch Inaugration Program", AB Bank's "Opening: 30.12.2012"
+  promo rows, `…branch-opening` slugs) are dropped (20 rows this pass). Two
+  real AB Bank sub-branches whose names merely end in `_Opening (1)`
+  (link-text pollution from AB's site) are deliberately kept — cosmetic
+  wart, real outlets.
+* **Existing IDs survive re-upgrades:** when the registry cannot re-resolve
+  a branch, `--upgrade-parts` keeps the record's existing `fi_branch_id` /
+  `routing_no` instead of nulling them — required by merged-constituents
+  parts, whose records belong to their original banks in BB's registry.
 
 ### Special case: Sammilito Islami Bank PLC
 
 2025 merger of First Security Islami + EXIM + Social Islami (SIBL) + Union +
 Global Islami. Its own locator (`location.php`) is a JS shell with no
-server-side list. An earlier plan built its part as the deduplicated union
-of the five constituents' parts — **but that merged part was never
-committed**; the pushed history contains only a junk "No Branch Available"
-row (verify: `git show HEAD:output/parts/sammilito_islami_bank_plc.json`).
-Current state after cleanup: 0 records. The five constituents keep their
-own full parts, so those outlets exist under their own names. TODO: recover
-the merged part from the home-PC working tree (or rebuild it from the
-constituent parts) and commit it.
+server-side list, so the row carries a `constituents` column in
+`banks.csv`: the part is built **offline** as the deduplicated union of the
+five constituents' parts (`method: "merged-constituents"`, currently
+**1,190 branches + 282 sub-branches**), deduping on name+address so
+same-named outlets of different banks ("Agrabad Br.") both survive. Every
+refresh rebuilds it automatically from the current parts — no scraping, no
+credits. Per-record `fi_branch_id` / `routing_no` keep their original-bank
+values (882 branches carry an ID). The bank-level `bank_id` is `null`:
+BB's registry PDFs still list only the five constituents, and the fuzzy
+bank-name matcher is explicitly barred from assigning Sammilito to Islami
+Bank Bangladesh's registry key `'islami'` (Bank ID 42).
+
+**When BB eventually registers the merged bank:** download the two new
+registry PDFs in a browser, re-run `--build-ids` and `--upgrade-parts` —
+nothing else. An exact registry-key match outranks the alias bar, so the
+real Bank ID flows in automatically. Only if BB lists the bank under a
+name whose normalized key differs from `sammilito islami` do you need to
+delete the `"sammilito islami": None` line in `BB_BANK_ALIASES`
+(`bank_branch_scraper.py`) by hand.
 
 ## Known gaps & no-data banks
 
@@ -259,7 +301,6 @@ constituent parts) and commit it.
 |---|---|---|
 | Bangladesh Development Bank (BDBL) | 0 records | bdbl.com.bd is an empty JS SPA (0 branch text server-side, Firecrawl render also empty); no sitemap; the underlying widget is the shared bangladesh.gov.bd national office directory which lists only the head office; broken SSL adds verify=False retries |
 | Citibank N.A. | 0 records | no Bangladesh consumer site/branch listing anymore (BB's registry knows 4 offices) |
-| Sammilito Islami Bank PLC | 0 records | constituent merge pending — see above |
 | IFIC Bank | 20 records ⚠️ | expected 200+; only `html_table` won 20 rows — their locator needs investigation |
 | Sonali, Janata, BKB, RAKUB, Bank Asia, UCB, NCC, Meghna, Probashi Kallyan, Southeast, SC, Woori, ICB Islamic | 0 sub-branches | their scraped listings simply contain no sub-branch/Uposhakha rows — a coverage gap (sub-branch listing pages need seeding), not a classification bug |
 
@@ -271,7 +312,6 @@ Woori, Bengal, Shimanto (CSV seeds and/or Firecrawl re-render).
 
 ## Ideas / next steps
 
-* re-apply the Sammilito constituent merge and commit it
 * investigate the IFIC undercount; seed sub-branch pages for the state banks
 * district/division normalization from address text (Cumilla/Comilla,
   Chattogram/Chittagong spellings), optional geocoding

@@ -4,7 +4,7 @@
   "method": "html_table+pdf",
   "status": "success",
   "bank_id": "56",
-  "total_branch": 192,
+  "total_branch": 190,
   "total_sub_branch": 40,
   "branch": [
     {
@@ -1340,24 +1340,6 @@
       ]
     },
     {
-      "KIOSK": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "New Market KIOSK": [
-        "Date of Opening: August 18, 2008 189, Dhaka New Market, Dhaka 1205 E-",
-        null,
-        "961 2144",
-        null,
-        "085155659"
-      ]
-    },
-    {
       "Board Bazar-1": [
         "Board Bazar Branch",
         null,
@@ -1696,7 +1678,7 @@
         null,
         null,
         "560701",
-        null
+        "085611751"
       ]
     },
     {
@@ -1714,7 +1696,7 @@
         null,
         "0831-62693; 0831-62694",
         null,
-        "210264528"
+        "210264694"
       ]
     },
     {

@@ -1,11 +1,11 @@
-bank_name, bank_url, branch_page_url, sub_branch_page_url
+bank_name, bank_url, branch_page_url, sub_branch_page_url, constituents
 Sonali Bank PLC, https://www.sonalibank.com.bd, https://www.sonalibank.com.bd/inland_branch.php,
 Janata Bank PLC, https://www.jb.com.bd, https://pmis.janatabank-bd.com/branchinfo.aspx,
 Agrani Bank PLC, https://www.agranibank.org, https://www.agranibank.org/index.php/locator/branches,
 Rupali Bank PLC, https://rupalibank.com.bd, https://rupalibank.com.bd/branch_location.php, https://rupalibank.com.bd/sub_branch.php
 BASIC Bank PLC, https://basicbankplc.com, https://basicbankplc.com/en/page-details/ho-branches, https://basicbankplc.com/en/page-details/sub-branch
 Bangladesh Development Bank PLC (BDBL), https://bdbl.com.bd, https://bdbl.com.bd/pages/static-pages/6922e06a933eb65569e26efe
-Sammilito Islami Bank PLC, https://www.sammilitobankbd.com, https://www.sammilitobankbd.com/location.php?type=Branch, https://www.sammilitobankbd.com/location.php?type=Sub+Branch
+Sammilito Islami Bank PLC, https://www.sammilitobankbd.com, https://www.sammilitobankbd.com/location.php?type=Branch, https://www.sammilitobankbd.com/location.php?type=Sub+Branch, First Security Islami Bank PLC;EXIM Bank PLC;Social Islami Bank PLC (SIBL);Union Bank PLC;Global Islami Bank PLC
 Bangladesh Krishi Bank (BKB), https://krishibank.gov.bd, https://krishibank.gov.bd/pages/static-pages/6922e13f933eb65569e2b193
 Rajshahi Krishi Unnayan Bank (RAKUB), https://www.rakub.org.bd, https://www.rakub.org.bd/branch.php, 
 Probashi Kallyan Bank, https://pkb.gov.bd, https://pkb.gov.bd/pages/static-pages/6922e0de933eb65569e28f0c

@@ -4,7 +4,7 @@
   "method": "html_table",
   "status": "success",
   "bank_id": "141",
-  "total_branch": 42,
+  "total_branch": 41,
   "total_sub_branch": 8,
   "branch": [
     {
@@ -216,15 +216,6 @@
     },
     {
       "Branch Category": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Routing number": [
         null,
         null,
         null,

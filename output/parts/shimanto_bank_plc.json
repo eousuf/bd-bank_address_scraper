@@ -4,8 +4,8 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "50",
-  "total_branch": 30,
-  "total_sub_branch": 9,
+  "total_branch": 29,
+  "total_sub_branch": 8,
   "branch": [
     {
       "Principal Branch": [
@@ -267,15 +267,6 @@
         "500701",
         "305611752"
       ]
-    },
-    {
-      "Khulna Branch Inaugration Program": [
-        "Gallery",
-        "https://www.shimantobank.com/assets/gallery-list-image/1786178486_5.jpg",
-        null,
-        "500203",
-        "305471547"
-      ]
     }
   ],
   "sub_branch": [
@@ -347,15 +338,6 @@
         "Shimanto Collection Shop (1st Floor), 33 BGB Satkhira Battalion, Mouza: Magura, Gopinathpur, Union: Labsha, Thana: Satkhira Sadar, District: Satkhira",
         null,
         "09610870835",
-        "500203",
-        "305471547"
-      ]
-    },
-    {
-      "1st Sub-Branch Opening at Pabla, Khulna": [
-        "Gallery",
-        "https://www.shimantobank.com/assets/gallery-list-image/1786173892_2.jpg",
-        null,
         "500203",
         "305471547"
       ]

@@ -4,7 +4,7 @@
   "method": "html_cards+html_table+json_api+pdf",
   "status": "success",
   "bank_id": "41",
-  "total_branch": 151,
+  "total_branch": 140,
   "total_sub_branch": 68,
   "branch": [
     {
@@ -944,15 +944,6 @@
       ]
     },
     {
-      "abbl-rangunia-branch-opening": [
-        "AB Bank",
-        "https://abbl.com",
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "branch-list-khulna": [
         "Corporate Information of AB Bank PLC.",
         "https://abbl.com",
@@ -1052,15 +1043,6 @@
       ]
     },
     {
-      "Bishwa Road, Shahjalal Uposhohor Point,": [
-        "Shaistanagar, Habiganj-Shaistaganj Main",
-        null,
-        null,
-        null,
-        "040270003"
-      ]
-    },
-    {
       "Sylhet 3100": [
         "Road, Habiganj 3300",
         null,
@@ -1097,33 +1079,6 @@
       ]
     },
     {
-      "Opening: 30.12.2012": [
-        "Routing Number: 020912657",
-        null,
-        "020911487",
-        null,
-        null
-      ]
-    },
-    {
-      "Opening: 13.04.2002": [
-        "Opening: 27.12.1986",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Haji Keramat Ali Super Market,": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "Kadamtala, Tajpur, Sylhet": [
         null,
         null,
@@ -1152,15 +1107,6 @@
     },
     {
       "Mnemonic: TJPR Code: 4117": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Opening: 18.09.1989": [
         null,
         null,
         null,
@@ -1206,15 +1152,6 @@
     },
     {
       "Mnemonic: RNGP Code: 4205": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Opening: 17.05.1992": [
         null,
         null,
         null,
@@ -1277,24 +1214,6 @@
       ]
     },
     {
-      "Opening: 30.03.1992": [
-        "Routing Number: 020871093",
-        null,
-        "020471543",
-        null,
-        null
-      ]
-    },
-    {
-      "Opening: 15.03.1984": [
-        "Opening: 10.03.1986",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "PABNA": [
         null,
         null,
@@ -1344,24 +1263,6 @@
         "Mnemonic: SIRA Code: 4207",
         null,
         "020811932",
-        null,
-        null
-      ]
-    },
-    {
-      "Routing Number: 020881870": [
-        "Opening: 25.10.19",
-        null,
-        "020761787",
-        null,
-        null
-      ]
-    },
-    {
-      "Opening: 23.06.2011": [
-        "Opening: 21.12.2009",
-        null,
-        null,
         null,
         null
       ]
@@ -1734,7 +1635,7 @@
         null,
         null,
         "410641",
-        null
+        "020700256"
       ]
     },
     {

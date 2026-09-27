@@ -5,7 +5,7 @@
   "status": "success",
   "bank_id": "74",
   "total_branch": 6,
-  "total_sub_branch": 1,
+  "total_sub_branch": 0,
   "branch": [
     {
       "Tejgaon": [
@@ -62,15 +62,5 @@
       ]
     }
   ],
-  "sub_branch": [
-    {
-      "Banking (Retail Banking) said, \"The opening of this sub-branch is part of HSBC's": [
-        "and accessible – for both Retail and Corporate customers. As the country continues",
-        null,
-        null,
-        null,
-        null
-      ]
-    }
-  ]
+  "sub_branch": []
 }
