@@ -1,12 +1,48 @@
 {
   "_bank": "Citibank N.A.",
-  "bank_url": "https://mccibd.org/mcci_members/citibank-n-a/",
-  "method": null,
-  "status": "failed",
+  "bank_url": "https://mccibd.org/mcci_members/citibank-n-a",
+  "method": "bb_registry",
+  "status": "success",
   "bank_id": "26",
-  "total_branch": 0,
+  "total_branch": 4,
   "total_sub_branch": 0,
-  "error": "no branch data extracted (site may need JS rendering)",
-  "branch": [],
+  "branch": [
+    {
+      "Chittagong Branch": [
+        "Chattogram",
+        null,
+        null,
+        "260001",
+        null
+      ]
+    },
+    {
+      "Gulshan Branch": [
+        "Dhaka",
+        null,
+        null,
+        "260202",
+        null
+      ]
+    },
+    {
+      "Head Office": [
+        "Dhaka",
+        null,
+        null,
+        "260101",
+        null
+      ]
+    },
+    {
+      "Motijheel Branch": [
+        "Dhaka",
+        null,
+        null,
+        "260201",
+        null
+      ]
+    }
+  ],
   "sub_branch": []
 }

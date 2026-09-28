@@ -71,7 +71,7 @@ file noted above, the only per-machine difference is the interpreter:
 
 ### Optional `banks.csv` columns (highest priority)
 
-`bank_name,bank_url,branch_page_url,sub_branch_page_url,constituents`
+`bank_name,bank_url,branch_page_url,sub_branch_page_url,constituents,registry`
 
 - `bank_url` (alias `website`) – official site URL; skips search-engine
   discovery entirely (still live-verified; dead hint falls through to normal
@@ -83,6 +83,10 @@ file noted above, the only per-machine difference is the interpreter:
   is then built **offline** as the deduplicated union of those parts
   (`method: "merged-constituents"`) — never scraped, refreshed automatically
   on every run. Used by Sammilito Islami Bank (see special case below).
+- `registry` – `yes` for banks with no scrapeable website at all: the part is
+  built **offline** from BB's own registry PDFs (`method: "bb_registry"`),
+  with district as the address and FI Branch IDs attached. Used by Citibank
+  N.A. and BDBL (see special case below).
 
 Rows may leave any column empty; a plain single-column CSV works as before.
 
@@ -207,8 +211,8 @@ compared in three rounds: **exact** → **containment** ("agrabad" inside
 "agrabad chattogram") → **near-spelling**. Banks whose short names differ
 from BB's long names (EXIM ↔ "Export Import Bank", HSBC, NCC) are handled
 by a small alias list. **No match → the field stays `null`; nothing is
-guessed.** That is why 9,788 of ~15,500 records carry an FI Branch ID and
-6,834 a routing number — the rest are spellings the matcher cannot safely
+guessed.** That is why 9,850 of ~15,500 records carry an FI Branch ID and
+6,893 a routing number — the rest are spellings the matcher cannot safely
 pair with a PDF row.
 
 ### Keeping IDs fresh / turning enrichment off
@@ -227,19 +231,20 @@ pair with a PDF row.
 ## Current results (2026-09-27, after BB enrichment)
 
 62 banks in `banks.csv` → 62 keys in `output/banks_branches.json`;
-**60 succeeded, 2 failed** (BDBL, Citibank — see gaps below);
-**12,301 branches + 3,164 sub-branches** (Sammilito's merged part includes
-its five constituents' outlets, which also keep their own parts); 9,788
-records carry an FI Branch ID and 6,834 a routing number (name-based
-matching; the rest keep `null`).
+**62 succeeded, 0 failed**;
+**12,334 branches + 3,164 sub-branches** (Sammilito's merged part includes
+its five constituents' outlets, which also keep their own parts); 9,850
+records carry an FI Branch ID and 6,893 a routing number (BB-registry
+enrichment; the rest keep `null`).
 
 The `method` field records how each bank's data was won: 14 banks through
 HTML cards + tables, 10 through plain HTML tables, 8 through card layouts
 alone, and the rest needed special tricks — embedded JSON feeds, replaying
 the page's own jQuery/CSRF ajax calls, DataTables server-side endpoints,
-ASP.NET postbacks, F5-protected feeds, PDFs and markdown renders. In other
-words: every extraction strategy in the scraper is actually used by at
-least one bank.
+ASP.NET postbacks, F5-protected feeds, PDFs and markdown renders, plus two
+banks (Citibank, BDBL) built fully offline from BB's own registry PDFs. In
+other words: every extraction strategy in the scraper is actually used by
+at least one bank.
 
 ### Data repairs applied by `--upgrade-parts`
 
@@ -266,6 +271,15 @@ least one bank.
   real AB Bank sub-branches whose names merely end in `_Opening (1)`
   (link-text pollution from AB's site) are deliberately kept — cosmetic
   wart, real outlets.
+* **Soft-404 junk dropped (2026-09-27, live filters):** combank.net.bd
+  serves its error page ("You reached this page…") with HTTP 200 for
+  `?page=N`, so auto-pagination walked all 25 probes and each error page
+  parsed as one URL-named record — 25 junk rows, plus the site's
+  "Branch / Service Centers Network" section heading and the "Direction
+  to Branch" map-link duplicate of Agrabad. URL-named records now never
+  pass the name filters, and pagination only counts pages that add
+  quality-named records, stopping at the first soft-404. Ceylon rebuilt
+  live: 38 → **11 branches + 3 subs**.
 * **Existing IDs survive re-upgrades:** when the registry cannot re-resolve
   a branch, `--upgrade-parts` keeps the record's existing `fi_branch_id` /
   `routing_no` instead of nulling them — required by merged-constituents
@@ -295,12 +309,62 @@ name whose normalized key differs from `sammilito islami` do you need to
 delete the `"sammilito islami": None` line in `BB_BANK_ALIASES`
 (`bank_branch_scraper.py`) by hand.
 
+### Special case: `registry: yes` banks (Citibank N.A., BDBL)
+
+Citi's Bangladesh consumer presence is gone — `asia.citibank.com/bangladesh`
+and `citibank.com.bd` are dead domains and citigroup.com has no Bangladesh
+page — but BB's `geo_bank.pdf` still lists its **4 offices** (Chittagong,
+Gulshan, Head Office, Motijheel). Its `banks.csv` row therefore carries
+`registry: yes`: the part is built **offline** from `output/bb_registry.json`
+(`method: "bb_registry"`, `bank_id` 26), with the district as the address,
+FI Branch IDs attached, and phone/page/routing honestly `null` (BB lists no
+routing numbers for Citi). The seeded `bank_url` is the MCCI member page —
+the only live web reference left. Every run rebuilds it in milliseconds; if
+BB's registry ever drops the bank, the scraper falls back to a normal (and
+currently hopeless) site search.
+
+BDBL is the same pattern for the opposite reason: bdbl.com.bd *looks*
+empty to a scraper but isn't. Its nav's `ব্রাঞ্চ অফিস` (Branch Offices)
+link 404s server-side (an unpublished duplicate page id) and there is no
+sitemap — but the legacy `/site/page/a6d8eb47-…` route redirects to the
+live Branch Office page (`/pages/static-pages/6922e032…`), which is fully
+server-rendered: **50 branch cards** under 6 zonal offices (Dhaka
+North/South, Chattogram, Sylhet, Khulna, Rajshahi) whose headings carry
+each branch's street address, phones, e-mail and manager as **plain
+text** — the per-branch JPGs on that page are just building photos, not
+data. (A second legacy page, `/site/page/d9cfd863-…`, lists help-desk
+entries — 25–38 rows depending on when you look — whose detail pages
+hold only shared boilerplate: a watermark JPG and a citizen-charter
+PDF.) The site's 50 branches are a strict subset of BB's registry (52
+real branches; Chitalmari and Madaripur are absent from the site list),
+so the part stays registry-built — but enriched: the site's 50 branch
+cards (street addresses, phones; English translations manual) were
+extracted 2026-09-27 and **baked into the scraper** as the
+`BDBL_SITE_ADDRESSES` constant — no extra data file. At build time
+`_bdbl_site_enrich()` gives the 50 site-listed branches their street
+address, site phones and the Branch Office page URL (method
+`bb_registry+bdbl_site`); Jashore (no address published) and the
+registry-only six keep district-as-address — nothing invented, and a
+full rescrape rebuilds the same enriched part offline.
+BB's two PDFs mention the bank 77 times and are the only structured
+source.
+Those rows overlap heavily — the geo PDF carries 53 offices with FI Branch
+IDs (29 of which also match a routing row exactly), while the routing PDF
+re-spells 21 of the *same* offices ("dhaka south motijheel" vs BB's own
+typo "MOTIJHEL", jessore/jashore, bogra/bogura) and adds 3 clearing offices
+(Dhaka-South Remittance, Dhaka-South Truncation Point, a generic
+"Chittagong"). `registry_part()` folds each re-spelling into its office so
+one record carries **both** IDs — **56 offices, 53 FI IDs, 53 distinct
+routing numbers**, nothing guessed; the three offices BB lists no routing
+row for (Head Office, Madaripur, Agrabad) keep `null`. BB's spellings are
+kept verbatim ("Motijhel Branch", "Cox's Bazar Branch").
+
 ## Known gaps & no-data banks
 
 | Bank | Status | Reason / next step |
 |---|---|---|
-| Bangladesh Development Bank (BDBL) | 0 records | bdbl.com.bd is an empty JS SPA (0 branch text server-side, Firecrawl render also empty); no sitemap; the underlying widget is the shared bangladesh.gov.bd national office directory which lists only the head office; broken SSL adds verify=False retries |
-| Citibank N.A. | 0 records | no Bangladesh consumer site/branch listing anymore (BB's registry knows 4 offices) |
+| Bangladesh Development Bank (BDBL) | 56 records ✓ | recovered 2026-09-27 via `registry: yes` — the nav's branch link 404s server-side, but the legacy `/site/page/a6d8eb47-…` route reaches the live Branch Office page (50 branch cards, addresses as plain text): street addresses + site phones merged into the part (`bb_registry+bdbl_site`; data baked into the scraper as `BDBL_SITE_ADDRESSES`, no extra file); see special case above |
+| Citibank N.A. | 4 records ✓ | recovered 2026-09-27 via `registry: yes` (bb_registry offline part) — no consumer site/branch listing exists anymore; see special case above |
 | IFIC Bank | 20 records ⚠️ | expected 200+; only `html_table` won 20 rows — their locator needs investigation |
 | Sonali, Janata, BKB, RAKUB, Bank Asia, UCB, NCC, Meghna, Probashi Kallyan, Southeast, SC, Woori, ICB Islamic | 0 sub-branches | their scraped listings simply contain no sub-branch/Uposhakha rows — a coverage gap (sub-branch listing pages need seeding), not a classification bug |
 

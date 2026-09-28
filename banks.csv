@@ -1,10 +1,10 @@
-bank_name, bank_url, branch_page_url, sub_branch_page_url, constituents
+bank_name, bank_url, branch_page_url, sub_branch_page_url, constituents, registry
 Sonali Bank PLC, https://www.sonalibank.com.bd, https://www.sonalibank.com.bd/inland_branch.php,
 Janata Bank PLC, https://www.jb.com.bd, https://pmis.janatabank-bd.com/branchinfo.aspx,
 Agrani Bank PLC, https://www.agranibank.org, https://www.agranibank.org/index.php/locator/branches,
 Rupali Bank PLC, https://rupalibank.com.bd, https://rupalibank.com.bd/branch_location.php, https://rupalibank.com.bd/sub_branch.php
 BASIC Bank PLC, https://basicbankplc.com, https://basicbankplc.com/en/page-details/ho-branches, https://basicbankplc.com/en/page-details/sub-branch
-Bangladesh Development Bank PLC (BDBL), https://bdbl.com.bd, https://bdbl.com.bd/pages/static-pages/6922e06a933eb65569e26efe
+Bangladesh Development Bank PLC (BDBL), https://bdbl.com.bd, https://bdbl.com.bd/pages/static-pages/6922e06a933eb65569e26efe, , ,yes
 Sammilito Islami Bank PLC, https://www.sammilitobankbd.com, https://www.sammilitobankbd.com/location.php?type=Branch, https://www.sammilitobankbd.com/location.php?type=Sub+Branch, First Security Islami Bank PLC;EXIM Bank PLC;Social Islami Bank PLC (SIBL);Union Bank PLC;Global Islami Bank PLC
 Bangladesh Krishi Bank (BKB), https://krishibank.gov.bd, https://krishibank.gov.bd/pages/static-pages/6922e13f933eb65569e2b193
 Rajshahi Krishi Unnayan Bank (RAKUB), https://www.rakub.org.bd, https://www.rakub.org.bd/branch.php, 
@@ -54,7 +54,7 @@ ICB Islamic Bank PLC, https://www.icbislamic-bd.com, https://www.icbislamic-bd.c
 Standard Bank PLC, https://www.standardbankbd.com, https://www.standardbankbd.com/en/branch,  
 Standard Chartered Bank, https://www.sc.com/bd, https://www.sc.com/bd/data/atm-branch/v2/all-atms-branches.json;https://www.sc.com/bd/atm-branch-locator, 
 HSBC (The Hongkong and Shanghai Banking Corporation Limited), https://www.hsbc.com.bd, https://www.hsbc.com.bd/contact/#our-branches
-Citibank N.A., https://mccibd.org/mcci_members/citibank-n-a, 
+Citibank N.A., https://mccibd.org/mcci_members/citibank-n-a, , , ,yes
 State Bank of India (SBI), https://bd.statebank, https://bd.statebank/branch-locator
 Commercial Bank of Ceylon, https://www.combank.net.bd, https://www.combank.net.bd/branch/branch.html, https://www.combank.net.bd/branch/branch.html
 Bank Alfalah Limited, https://www.bankalfalah.com/bd, https://prodbaf.blob.core.windows.net/data/Branch%20locations%20-%20Bank%20Alfalah%20Bangladesh.pdf

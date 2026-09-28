@@ -220,6 +220,12 @@ GENERIC_NAME_RE = re.compile(
     r"branch(?:es)?\s*,?\s*(?:&|and|,)\s*atms?\b.*|"
     r".*branches?\s+are\s+on-?line.*|services\s+available.*|"
     r"m/s[\s.,].*|.*\bproprietor\b.*|total\s+branch(?:es)?\s+list\b.*|"
+    # combank soft-404 pages parse as ONE URL-named record each ("https://…
+    # ?page=N", address "You reached this page…"); its "Branch / Service
+    # Centers Network" section heading and "Direction to Branch" map-link
+    # label leak as card names
+    r"https?://.*|www\.\S+|branch\s*/\s*service\b.*|"
+    r"directions?\s+to\s+(?:the\s+)?branch\b.*|"
     # table titles / locator-widget junk rows that leak as records
     r"no\s+(?:sub[\s_-]*)?branch(?:es)?\s+available.*|online\s+branch\s+visit\s+appointment.*|"
     r"book\s+an?\s+appointment.*|we\s+are\s+on\s+the\s+map.*|"
@@ -2727,7 +2733,11 @@ def follow_pagination(base_url, page_sub, records, methods, seen):
             return
         before = len(records)
         run_extractors(resp.text, None, nxt, page_sub, "local", records, methods)
-        new = {record_sig(r) for r in records[before:]}
+        # gate on quality names: a locator's soft-404 error page (combank's
+        # "You reached this page…") parses as ONE URL-named record per page,
+        # which otherwise counts as "new" forever and burns every probe
+        new = {record_sig(r) for r in records[before:]
+               if not re.match(r"https?://|www\.", (r.get("name") or "").strip(), re.I)}
         if not new or new <= seen:
             return
         seen |= new
@@ -2792,10 +2802,203 @@ def merged_constituents_part(bank):
              len(parts), result["total_branch"], result["total_sub_branch"], dups)
     return result
 
+def registry_part(bank):
+    """Offline: a `registry: yes` banks.csv row builds its part straight
+    from BB's own registry (output/bb_registry.json) — for banks whose web
+    presence is dead (Citibank N.A.) or an empty SPA (BDBL). The registry
+    merges two PDFs: geo_bank.pdf rows carry districts + FI Branch IDs but
+    no routing numbers, routing-PDF rows carry routing numbers but often
+    re-spell the very same office ("dhaka south motijheel" vs BB's own
+    typo "MOTIJHEL"). A routing row recognisably naming a geo office
+    donates its routing number instead of becoming a duplicate record;
+    the rest become their own records. Phones and street addresses are
+    unknown to both PDFs, so those fields stay null — nothing is invented
+    (one exception: BDBL records get street address / site phones / page
+    URL folded in from the baked-in BDBL_SITE_ADDRESSES constant — see
+    _bdbl_site_enrich below).
+    Returns None when the registry lacks the bank, so the caller falls
+    back to a normal scrape."""
+    if not CSV_HINTS.get(bank, {}).get("registry"):
+        return None
+    bank_id, rkey = _bb_bank_lookup(bank)
+    branches = (bb_registry().get("branches") or {}).get(rkey or "") or {}
+    if not rkey or not branches:
+        LOG.warning("  bb_registry: '%s' has no entry in output/bb_registry"
+                    ".json (run --build-ids first); scraping instead", bank)
+        return None
+
+    def sq(s):
+        return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+    districts = {sq(v.get("district") or "") for bs in
+                 (bb_registry().get("branches") or {}).values()
+                 for v in bs.values()} - {""}
+
+    def strip_regions(toks):
+        """Drop leading district / clearing-region words (dhaka north ...)."""
+        i = 0
+        while i < len(toks) - 1 and (sq(" ".join(toks[:i + 1])) in districts
+                                     or toks[i] in ("north", "south")):
+            i += 1
+        return " ".join(toks[i:])
+
+    geo = {k: dict(v) for k, v in branches.items() if v.get("fi_branch_id")}
+    rest = sorted(k for k in branches if k not in geo)
+    import difflib
+    merged = dupes = 0
+    for k in rest:
+        toks = k.split()
+        cands = [sq(k), sq(strip_regions(toks))]
+        if len(toks) > 1:  # "region region-rehash" clearing rows repeat the
+            half = len(toks) // 2  # district: match on the tail half too
+            h1, h2 = sq(" ".join(toks[:half])), sq(" ".join(toks[half:]))
+            if difflib.SequenceMatcher(None, h1, h2).ratio() >= 0.7:
+                cands.append(h2)
+        best, score = None, 0.0
+        for g in geo:
+            gs = sq(g)
+            s = max(difflib.SequenceMatcher(None, c, gs).ratio()
+                    for c in cands)
+            if any(gs and gs in c for c in cands):
+                s = 1.0  # containment beats fuzzy
+            if s > score:
+                best, score = g, s
+        if best is not None and score >= 0.70:
+            if geo[best].get("routing"):
+                dupes += 1  # office already has a routing donor
+            else:
+                geo[best]["routing"] = branches[k].get("routing")
+                merged += 1
+            continue
+        # genuinely separate office (e.g. a clearing wing BB lists on its
+        # own); district only when the key itself starts with/equals one
+        first = toks[0].title() if sq(toks[0]) in districts else None
+        whole = k.title() if sq(k) in districts else None
+        geo[k] = {"fi_branch_id": None, "routing": branches[k].get("routing"),
+                  "name": branches[k].get("name") or k,
+                  "district": first or whole or None}
+
+    result = bank_result_template()
+    result["bank_url"] = clean_ws(CSV_HINTS.get(bank, {}).get("website") or "")
+    result["method"] = "bb_registry"
+    result["status"] = "success"
+    result["bank_id"] = bank_id
+    for key in sorted(geo, key=str.lower):
+        b = geo[key]
+        raw = clean_ws(b.get("name") or key)
+        pretty = raw.title().replace("'S", "'s")  # Cox'S -> Cox's
+        name = "Head Office" if raw.lower() == "head office" \
+            else f"{pretty} Branch"
+        district = clean_ws(b.get("district") or "").title().replace(
+            "'S", "'s")
+        result["branch"].append({name: [district or None, None, None,
+                                        b.get("fi_branch_id") or None,
+                                        b.get("routing") or None]})
+    result["total_branch"] = len(result["branch"])
+    site_n = _bdbl_site_enrich(bank, result)
+    if site_n:
+        result["method"] = "bb_registry+bdbl_site"
+    LOG.info("  bb_registry: %d offices for '%s' (bank_id %s; %d routing "
+             "rows merged in, %d duplicate rows dropped, %d kept unmatched)%s",
+             result["total_branch"], rkey, bank_id, merged, dupes,
+             len(rest) - merged - dupes,
+             f"; {site_n} records site-enriched" if site_n else "")
+    return result
+
+BDBL_SITE_PAGE = "https://bdbl.com.bd/pages/static-pages/6922e032933eb65569e25f32"
+# Street addresses + phones for BDBL's 50 site-listed branches, pulled
+# 2026-09-27 from the live Branch Office page (plain-text card headings;
+# English translations are manual). Keyed by BB registry office name and
+# baked in so a full rescrape rebuilds the enriched part offline, with no
+# extra data file. Jashore publishes no address on the site (phones only).
+BDBL_SITE_ADDRESSES = {
+    "Agrabad Branch": ("BDBL Bhaban, 106 Agrabad C/A, Chattogram", ["031-716178", "01726-590127"]),
+    "Ashugonj Branch": ("Holding No. 117, Station Road, Ashuganj, Brahmanbaria", ["01322905305", "01915641275", "01927-256908"]),
+    "Ashulia Branch": ("Three Star Super Market, Jamgora, Mouza-Diakhali, Union-Yearpur, Thana-Ashulia, District-Dhaka", ["01700-764293", "01675-410560"]),
+    "Barisal Branch": ("Nehar Heights (2nd floor), Holding No. 0968, North Bogura Road (adjacent to New Market), Ward No. 19, Barisal City Corporation, Barisal", ["02478864648", "01322-905288"]),
+    "Bhola Branch": ("Islam Complex, 46 Mohajan Patti, Sadar Road, Bhola", ["01322905280", "02-478893442", "01712891308"]),
+    "Bogura Branch": ("Jewel Plaza (1st floor), College Road, Kalitala Hat, Bogura", ["02-589904808", "01322905304", "01715419717"]),
+    "Brahmanbaria Branch": ("349/2 (1st floor), Lucky Tower, Purba Paikpara", ["0851-57488", "0178-9621017", "0851-57488"]),
+    "Cox's Bazar Branch": ("Uma Barmiz Market, Main Road Tekpara, Cox's Bazar, Chattogram", ["02-333346850", "01322-905313", "01617-888111"]),
+    "Cumilla Branch": ("Samabaya Bank Bhaban, Kandir Par, Cumilla", ["081-76191", "01717-306968"]),
+    "Dinajpur Branch": ("Abedin Plaza, Ganesh Tola, Dinajpur", ["01322905300", "01777338500"]),
+    "Elephant Road Branch": ("18 Regency Plaza, New Market, Dhaka-1000", ["02-223365282", "01322905295", "01717402521"]),
+    "Faridpur Branch": ("Chamber Building, Mujib Road, Niltali, Faridpur", ["0631-63267", "01919-849611"]),
+    "Feni Branch": ("597 Gafur Plaza (2nd floor), Post Office Road, Feni Sadar, Feni", ["02-334474666", "02-334474665", "01817711671"]),
+    "Habiganj Branch": ("A.R. Plaza, Town Hall Road, Habiganj", ["02-996605594", "01322905284", "01717036790"]),
+    "Hemayetpur Branch": ("Haji Bashar Shopping Complex (1st floor), Bagbari, Hemayetpur, Savar", ["0175-5632343"]),
+    "Hossainpur Branch": ("Mofiz Mansion, School Road, Hossainpur Bazar, Kishoreganj", ["0942-556345", "0192-5514464"]),
+    "Islampur Branch": ("Ayesha Tamim Plaza, Islampur Bazar, Khadimpara, Shah Paran, Sylhet", ["02-996641700", "01322905289", "01735159414"]),
+    "Jainabazar Branch": ("Noish Tower, Sreepur, Gazipur", ["01322905299", "01717451268"]),
+    "Jashore Branch": ("", ["01322-905287", "01913912201", "02-477763864"]),
+    "Jhenidah Branch": ("Roni Tower (1st floor), 18 Maulana Bhashani Road, Jhenaidah", ["02-477746947", "01674-904462"]),
+    "Kanchpur Branch": ("Haji A Rahman Tower, Road No. 1/2, Ward No. 04, Block-D, Sonapur, Kanchpur, Sonargaon, Narayanganj", ["01914265616", "01721-496975"]),
+    "Karwan Bazar Branch": ("12 Karwan Bazar, Dhaka", ["02-55011967", "01716361207"]),
+    "Kazirhat Branch": ("Sarkar Plaza (near Uttara EPZ More), Kazirhat, Sangolsi, Nilphamari Sadar, Nilphamari", ["01723353290"]),
+    "Keraniganj Branch": ("Keraniganj, Dhaka", ["0132-1117191", "01913029340"]),
+    "Khatungonj Branch": ("Gazi Tower (1st floor), 47 Jail Road, Kotwali, Chattogram", ["031-618547", "01322905303", "01819869442"]),
+    "Khulna Branch": ("25-26 KDA Commercial Area, Upper Jessore Road, Khulna", ["02-477720261", "01812082362"]),
+    "Madhobdi Branch": ("J & J Tower, Soto Madhobdi, Jalpotti Road, Madhobdi, Narsingdi", ["02-224457139", "01717786417"]),
+    "Mirpur-10 Branch": ("Kamal Tower, Holding No. 131, Ward No. 14, Dhaka North City Corporation, Mirpur-2 Model Thana, Dhaka", ["0174-8694849"]),
+    "Mohadebpur Branch": ("Barangail Bazar, Shibalaya, Manikganj", ["017-6669679", "01552457995"]),
+    "Moharajpurhat Branch": ("Abdul Kayem Market, Moharajpur Hat, Chapainawabganj Sadar, Chapainawabganj", ["01913354922"]),
+    "Mokamtola Branch": ("Rashida Market, Mokamtala Bazar, Shibganj, Bogura", ["01322905319", "01738142742", "01738142775"]),
+    "Motijhel Branch": ("49 Motijheel, A.K. Khan Building, Dhaka-1000", ["02-223380169", "01675-410560"]),
+    "Moulovibazar Branch": ("Rahmania Tower, 361 M. Saifur Rahman Road, Moulvibazar Pourashava, Moulvibazar", ["0861-64201", "01677-323612"]),
+    "Muksudpur Branch": ("A Hannan Talukder Market (1st floor), Kadamtali Road, Muksudpur, Gopalganj", ["01911-077135"]),
+    "Mymensingh Branch": ("19/D Shaheb Ali Road, Notun Bazar, Mymensingh", ["02996665825", "01322905285", "01712103208", "01635674995"]),
+    "Nabinagar Branch": ("701 Salam Road, Bhashan Market, Nabinagar, Brahmanbaria", ["01321-117195", "01714-413060", "08525-75603"]),
+    "Naogaon Branch": ("R Rahman Super Market, 247 Main Road (Bata More), Naogaon", ["01322905317", "01716060310", "01850960080"]),
+    "Narayanganj Branch": ("Haji Brothers Centre (2nd floor), Holding No. 14, Shaheed Suhrawardy Road, Narayanganj-1400", ["02-7643144", "01736886104"]),
+    "Noakhali Branch": ("460 Dakshin Bazar, Chowmuhani, Noakhali", ["0321-52306", "01814-311940"]),
+    "Osmaninagar Branch": ("DM Tower, Doamir Bazar, Osmaninagar, Balaganj, Sylhet", ["01792-252393", "01818-255971", "082-4256102"]),
+    "Pabna Branch": ("Bhai Bhai Super Market, Abdul Hamid Road, Pabna", ["02-588846160", "01724695044", "01755-005130"]),
+    "Poradah Branch": ("Katdah, Poradah, Kushtia", ["01713-152597", "01717861397"]),
+    "Principal Branch": ("BDBL Bhaban, 8 Rajuk Avenue, Dhaka-1000", ["02-223388326"]),
+    "Rajshahi Branch": ("Hanif Mansion, 296 Sagarpara Bottola, Ghoramara, Boalia, Rajshahi", ["01322-905316", "02588857337", "02588855802"]),
+    "Rangpur Branch": ("Sharif Building, Station Road, Rangpur", ["02-589962613", "01743946474"]),
+    "Saturia Branch": ("Belal Complex, Saturia-Dargram Road, Saturia Bazar, Saturia-1810, Manikganj", ["02-996625097", "01322905310", "01727714416"]),
+    "Sreenagar Branch": ("Sikder Plaza, Jhumur Cinema Hall Road, Sreenagar, Munshiganj", ["02-7627056", "01915684891", "01322905302"]),
+    "Sylhet Branch": ("Alo-01, Century Shopping Centre (1st floor), Sunamganj Road, Aberkhana, Sylhet", ["0821-716627", "02996632776", "01322-905314", "01737238184"]),
+    "Tangail Branch": ("Bhasha Sainik Bhaban, Main Road, Tangail", ["02-997752966", "01322-905292", "01712-706063"]),
+    "Tomaltola Branch": ("Madina Market (1st floor), Tomaltala Bazar Road, Bagatipara, Natore", ["07722-72020", "01321-117193", "01719862990"]),
+}
+
+def _bdbl_site_enrich(bank, result):
+    """BDBL only: fold the baked-in site snapshot BDBL_SITE_ADDRESSES
+    (extracted 2026-09-27 from bdbl.com.bd's live Branch Office page —
+    addresses/phones/e-mails are plain text there; see README special
+    case) into the freshly built registry part: the 50 site-listed
+    branches get their street address (English translation), site
+    phones and the Branch Office page URL in place of the district
+    placeholder / nulls. BB's registry stays the backbone for
+    everything else (routing/FI IDs, plus the 6 registry-only offices
+    and Jashore, which publishes no street address). Returns the number
+    of records enriched (0 for non-BDBL banks)."""
+    if "bdbl" not in bank.lower():
+        return 0
+    n = 0
+    for rec in result["branch"]:
+        for name, vals in rec.items():
+            site = BDBL_SITE_ADDRESSES.get(name)
+            if not site:
+                continue
+            addr, phones = site
+            if addr:
+                vals[0] = addr
+            vals[1] = BDBL_SITE_PAGE
+            if phones:
+                vals[2] = "; ".join(phones)
+            n += 1
+    return n
+
 def process_bank(bank):
     merged = merged_constituents_part(bank)  # constituents rows never hit the network
     if merged is not None:
         return merged
+    reg = registry_part(bank)  # `registry: yes` rows: BB's PDF is the source
+    if reg is not None:
+        return reg
     result = bank_result_template()
     site, source = find_website(bank)
     result["bank_url"] = site
@@ -2925,6 +3128,11 @@ def load_banks():
                     hint["branch_pages"] = pages
                 if cons:  # merged bank is built from these parts, not scraped
                     hint["constituents"] = cons
+                if clean_ws(row.get("registry") or "").lower() in \
+                        ("yes", "true", "1", "x"):
+                    # no scrapeable site exists; BB's own registry PDFs are
+                    # the source of truth for this bank's offices
+                    hint["registry"] = True
                 if hint:
                     CSV_HINTS[name] = hint
     return banks
