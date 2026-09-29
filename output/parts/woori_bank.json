@@ -4,32 +4,14 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "73",
-  "total_branch": 18,
+  "total_branch": 13,
   "total_sub_branch": 0,
   "branch": [
-    {
-      "SUVASTU IMAM SQUARE (4th & 5th FLOOR)": [
-        "65 GULSHAN AVENUE, DHAKA-1212, BANGLADESH",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
     {
       "Contact": [
         null,
         null,
         "+8809610-960921",
-        null,
-        null
-      ]
-    },
-    {
-      "Customer Service Email": [
-        null,
-        null,
-        null,
         null,
         null
       ]
@@ -44,35 +26,8 @@
       ]
     },
     {
-      "SUVASTU IMAM SQUARE (1ST FLOOR)": [
-        "65 GULSHAN AVENUE, DHAKA-1212, BANGLADESH",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "Masihata Business Tower": [
         "4th Floor, Plot-05, Dhaka-Mymensingh Road, Sector-03, Uttara-1230",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "AHN Tower (Ground Floor)": [
-        "13 & 15, Bir Uttam CR Dutta Rd, Bangla Motor, Dhaka-1205",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "AA Bhaban (Ground Floor)": [
-        "23 Motijheel C/A, Dhaka-1000",
         null,
         null,
         null,
@@ -90,7 +45,7 @@
     },
     {
       "Dhaka Branch": [
-        "CHITTAGONG BRANCH",
+        "KARWAN BAZAR BRANCH",
         null,
         null,
         "730001",

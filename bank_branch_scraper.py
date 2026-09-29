@@ -241,7 +241,8 @@ BENGALI_RE = re.compile(r"[\u0980-\u09ff]")
 ADDR_NAME_RE = re.compile(
     r"\bholding\s*(no|nr|[:#])|\bplot\s*(no|nr|#)|\bhouse\s*(no|#)|"
     r"\bshop\s*(no|#)|\bward\s*(no|#)|\bpost(?:al)?\s*code|"
-    r"\b(?:level|floor|flat|suite|room|road)\s*(?:no|#)?\s*\d", re.I)
+    r"\b(?:level|floor|flat|suite|room|road)\s*(?:no|#)?\s*\d|"
+    r"\b\d(?:st|nd|rd|th)\s+floor\b|\bground\s+floor\b", re.I)
 # promo/campaign content riding branch arrays (BRAC "Holiday Inn Offer…",
 # HSBC "…Offers Convenient…") and section headings ("Branch List Dhaka")
 PROMO_NAME_RE = re.compile(
@@ -930,6 +931,47 @@ def single_column_records(rows, page_sub):
     return [r for r in out if r.get("address") or r.get("phone")]
 
 
+def extract_modal_tables(html, base_url, page_sub=False):
+    """Bootstrap-modal detail blocks (NCC's 2026 locator redesign): each
+    outlet is a div.modal whose header names it ('Akhaura Branch(0085)')
+    and whose body table is label/value rows — Address, Phone Ext:, Fax,
+    Routing No. The plain table extractor only sees the label fragments,
+    which the junk filters drop; this recovers the real outlets."""
+    soup = make_soup(html)
+    out, seen = [], set()
+    for modal in soup.select("div.modal"):
+        title_el = (modal.find(class_="modal-title")
+                    or modal.find(["h1", "h2", "h3", "h4", "h5", "strong"]))
+        title = clean_ws(title_el.get_text(" ", strip=True)) if title_el else ""
+        title = re.sub(r"\(\s*\d+\s*\)\s*$", "", title).strip()  # 'Branch(0085)'
+        if (not title or title.lower() in seen
+                or not (BRANCH_NAME_RE.search(title) or SUB_RE.search(title))
+                or ATM_NAME_RE.search(title) or GENERIC_NAME_RE.match(title)):
+            continue
+        addr, phone, routing = "", "", ""
+        for tr in modal.find_all("tr"):
+            cells = [clean_ws(c.get_text(" ", strip=True))
+                     for c in tr.find_all(["td", "th"])]
+            if len(cells) < 2 or not cells[1]:
+                continue
+            label = cells[0].rstrip(": .").lower()
+            val = cells[1]
+            if label.startswith("address") and not addr:
+                addr = val
+            elif any(k in label for k in ("phone", "fax", "tel", "pabx")) \
+                    and not phone and not label.startswith("phone ext"):
+                phone = val
+            elif label.startswith("rout") and re.fullmatch(r"\d{6,9}", val):
+                routing = val
+        if not addr and not phone:
+            continue
+        seen.add(title.lower())
+        out.append({"name": title[:150], "address": addr[:300],
+                    "url": row_url(modal, base_url), "phone": phone[:120],
+                    "routing": routing or None,
+                    "is_sub": classify_sub(title, "", page_sub)})
+    return out
+
 def extract_html_tables(html, base_url, page_sub=False):
     out = []
     for table in make_soup(html).find_all("table"):
@@ -950,6 +992,20 @@ def extract_html_tables(html, base_url, page_sub=False):
             continue
         header_texts = [clean_ws(c.get_text(" ", strip=True))
                         for c in rows[0].find_all(["th", "td"])]
+        # real header hunt: listing tables can carry junk pre-rows above the
+        # actual header (Uttara: "251 branch's found after searching." sits
+        # above 'Sl | Branch | Address | … | Routing No') — the header is the
+        # FIRST row whose cells column-map
+        colm, hrow = None, 0
+        for hi, tr in enumerate(rows[:12]):
+            texts = [clean_ws(c.get_text(" ", strip=True))
+                     for c in tr.find_all(["th", "td"])]
+            if sum(1 for t in texts if t) < 3:
+                continue
+            cand = map_columns(texts)
+            if cand:
+                colm, header_texts, hrow = cand, texts, hi
+                break
         # agent-banking outlet listings ("Agent Outlet Name/Address", "Outlet
         # Owner") share the site with branch pages — never branch data.
         # MTB locator: ATM/CDM/CRM/merchant tables sit on the SAME page with
@@ -967,11 +1023,12 @@ def extract_html_tables(html, base_url, page_sub=False):
             if got:
                 out.extend(got)
                 continue
-        colm = map_columns(header_texts) if any(header_texts) else None
         if colm:
-            for tr in rows[1:]:
+            for tr in rows[hrow + 1:]:
                 tds = tr.find_all(["td", "th"])
                 texts = [clean_ws(td.get_text(" ", strip=True)) for td in tds]
+                if texts == header_texts:
+                    continue  # repeated header row
                 alts = {}
                 for i, td in enumerate(tds):
                     a = td.find("a")
@@ -987,7 +1044,7 @@ def extract_html_tables(html, base_url, page_sub=False):
             # transposed mobile tables (HSBC) repeat the desktop listing as
             # label/value rows ('Branch','Tejgaon')('Location','…') — skip them
             firsts = []
-            for tr in rows:
+            for tr in rows[hrow + 1:]:
                 cells = tr.find_all(["td", "th"])
                 firsts.append(clean_ws(cells[0].get_text(" ", strip=True)).lower()
                               if cells else "")
@@ -995,7 +1052,7 @@ def extract_html_tables(html, base_url, page_sub=False):
                     "branch", "location", "phone", "phone number", "status",
                     "address", "name")) >= max(2, len(firsts) * 0.5):
                 continue
-            for tr in rows:
+            for tr in rows[hrow + 1:]:
                 tds = tr.find_all(["td", "th"])
                 texts = [clean_ws(td.get_text(" ", strip=True)) for td in tds]
                 # newline-preserved cells let blob_records split name/address
@@ -1949,9 +2006,10 @@ def dedupe_records(records):
             continue  # sliced promo copy ("Bank smarter,") / booth listings
         if (not BRANCH_NAME_RE.search(nm) and not SUB_RE.search(nm)
                 and not (r.get("phone") or "").strip()
+                and not (r.get("url") or "").strip()
                 and not (addr and (any(k in addr.lower() for k in ADDR_KWS)
                                    or len(addr) >= 40))):
-            continue  # promo copy: no branch marker, no phone, no real address
+            continue  # promo copy: no marker, no phone/url, no real address
         k = key(r)
         if k == "|":
             continue
@@ -2110,11 +2168,19 @@ def dedupe_records(records):
                     min(len(na), len(nb)) >= 0.5 * max(len(na), len(nb))
                 # 'PANTHAPATH' (stale embedded-feed copy) vs 'Panthapath
                 # Branch' (listing row): same outlet when the base names
-                # match and one copy carries no detail URL — feed and page
-                # addresses legitimately differ
-                base_same = (branch_key(a.get("name") or "")
-                             == branch_key(b.get("name") or "")) \
-                    and (not a.get("url") or not b.get("url"))
+                # match — but same-named outlets in DIFFERENT districts
+                # (every bank has a 'Sadar Branch' per district) must
+                # survive, so either the copy is an all-caps feed variant
+                # or the addresses have to agree
+                a_nm, b_nm = (a.get("name") or ""), (b.get("name") or "")
+                feed_copy = (not a.get("url") or not b.get("url")) and \
+                    (a_nm.isupper() or b_nm.isupper())
+                base_same = (branch_key(a_nm) == branch_key(b_nm)) and \
+                    (feed_copy or
+                     ((not a.get("url") or not b.get("url"))
+                      and (_addr_compat(a, b)
+                           or not (a.get("address") or "").strip()
+                           or not (b.get("address") or "").strip())))
                 if not ((close or prefix or base_same)
                         and (base_same or _addr_compat(a, b))):
                     continue
@@ -2564,6 +2630,7 @@ def upgrade_parts(dry_run=False):
                 addr0 = str(val[0]) if val else ""
                 if (not BRANCH_NAME_RE.search(str(name))
                         and not SUB_RE.search(str(name)) and not ph0.strip()
+                        and not (len(val) > 1 and (val[1] or "").strip())
                         and not (addr0 and
                                  (any(k in addr0.lower() for k in ADDR_KWS)
                                   or len(addr0) >= 40))):
@@ -2650,6 +2717,7 @@ EXTRACTORS = [
     (extract_script_json, "json_api"),
     (extract_jquery_ajax_json, "jquery_ajax"),
     (extract_validator_key_feeds, "validator_key_ajax"),
+    (extract_modal_tables, "modal_tables"),
     (extract_html_tables, "html_table"),
     (extract_html_cards, "html_cards"),
     (extract_map_infowindows, "map_infowindow"),

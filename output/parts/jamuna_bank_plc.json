@@ -5,7 +5,7 @@
   "status": "success",
   "bank_id": "71",
   "total_branch": 170,
-  "total_sub_branch": 95,
+  "total_sub_branch": 107,
   "branch": [
     {
       "Mohakhali Branch, Dhaka": [
@@ -13,7 +13,7 @@
         null,
         null,
         "710100",
-        null
+        "130263191"
       ]
     },
     {
@@ -22,7 +22,7 @@
         null,
         null,
         "710101",
-        null
+        "130276588"
       ]
     },
     {
@@ -31,7 +31,7 @@
         null,
         null,
         "710102",
-        null
+        "130274427"
       ]
     },
     {
@@ -40,7 +40,7 @@
         null,
         null,
         "710103",
-        null
+        "130271909"
       ]
     },
     {
@@ -49,7 +49,7 @@
         null,
         null,
         "710104",
-        null
+        "130276346"
       ]
     },
     {
@@ -58,7 +58,7 @@
         null,
         null,
         "710105",
-        null
+        "130261722"
       ]
     },
     {
@@ -67,7 +67,7 @@
         null,
         null,
         "710106",
-        null
+        "130261180"
       ]
     },
     {
@@ -76,7 +76,7 @@
         null,
         null,
         "710107",
-        null
+        "130274843"
       ]
     },
     {
@@ -94,7 +94,7 @@
         null,
         null,
         "710108",
-        null
+        "130272324"
       ]
     },
     {
@@ -103,7 +103,7 @@
         null,
         null,
         "710109",
-        null
+        "130260794"
       ]
     },
     {
@@ -130,7 +130,7 @@
         null,
         null,
         "710110",
-        null
+        "130274243"
       ]
     },
     {
@@ -139,7 +139,7 @@
         null,
         null,
         "710111",
-        null
+        "130271846"
       ]
     },
     {
@@ -148,7 +148,7 @@
         null,
         null,
         "710112",
-        null
+        "130260431"
       ]
     },
     {
@@ -157,7 +157,7 @@
         null,
         null,
         "710154",
-        null
+        "130260228"
       ]
     },
     {
@@ -175,7 +175,7 @@
         null,
         null,
         "710156",
-        null
+        "130270139"
       ]
     },
     {
@@ -184,7 +184,7 @@
         null,
         null,
         "710113",
-        null
+        "130264637"
       ]
     },
     {
@@ -193,7 +193,7 @@
         null,
         null,
         "710115",
-        null
+        "130262989"
       ]
     },
     {
@@ -202,7 +202,7 @@
         null,
         null,
         "710116",
-        null
+        "130273949"
       ]
     },
     {
@@ -211,7 +211,7 @@
         null,
         null,
         "710170",
-        null
+        "130540414"
       ]
     },
     {
@@ -220,7 +220,7 @@
         null,
         null,
         "710117",
-        null
+        "130273323"
       ]
     },
     {
@@ -238,7 +238,7 @@
         null,
         null,
         "710158",
-        null
+        "130264095"
       ]
     },
     {
@@ -247,7 +247,7 @@
         null,
         null,
         "710118",
-        null
+        "130263959"
       ]
     },
     {
@@ -265,7 +265,7 @@
         null,
         null,
         "710119",
-        null
+        "130272982"
       ]
     },
     {
@@ -274,7 +274,7 @@
         null,
         null,
         "710120",
-        null
+        "130263975"
       ]
     },
     {
@@ -301,7 +301,7 @@
         null,
         null,
         "710121",
-        null
+        "130263704"
       ]
     },
     {
@@ -319,7 +319,7 @@
         null,
         null,
         "710122",
-        null
+        "130262839"
       ]
     },
     {
@@ -327,8 +327,8 @@
         "Rahman Plaza, Kachpur, Sonargaon, Narayanganj",
         null,
         null,
-        "710152",
-        "130671183"
+        "710123",
+        "130670821"
       ]
     },
     {
@@ -354,8 +354,8 @@
         "Hashem Trade Center, Holding # 55/40, SM Maleh Road, Tanbazar, Narayanganj",
         null,
         null,
-        "710152",
-        "130671183"
+        "710126",
+        "130671783"
       ]
     },
     {
@@ -364,7 +364,7 @@
         null,
         null,
         null,
-        null
+        "130260910"
       ]
     },
     {
@@ -382,7 +382,7 @@
         null,
         null,
         "710115",
-        null
+        "130263104"
       ]
     },
     {
@@ -391,7 +391,7 @@
         null,
         null,
         "710130",
-        null
+        "130671459"
       ]
     },
     {
@@ -400,7 +400,7 @@
         null,
         null,
         "710131",
-        null
+        "130262442"
       ]
     },
     {
@@ -409,7 +409,7 @@
         null,
         null,
         null,
-        null
+        "130590280"
       ]
     },
     {
@@ -418,7 +418,7 @@
         null,
         null,
         "710133",
-        null
+        "130261519"
       ]
     },
     {
@@ -436,7 +436,7 @@
         null,
         null,
         "710105",
-        null
+        "130260307"
       ]
     },
     {
@@ -445,7 +445,7 @@
         null,
         null,
         "710137",
-        null
+        "130270092"
       ]
     },
     {
@@ -453,7 +453,7 @@
         "Rani (Maa) Plaza (1st Floor), Shibu Market, Mouza-Khijirpur, Union-Fatullah, Thana-Fatullah, Narayanganj.",
         null,
         null,
-        null,
+        "710152",
         "130670184"
       ]
     },
@@ -490,7 +490,7 @@
         null,
         null,
         "710142",
-        null
+        "130350370"
       ]
     },
     {
@@ -499,7 +499,7 @@
         null,
         null,
         "710143",
-        null
+        "130261335"
       ]
     },
     {
@@ -507,8 +507,8 @@
         "Haji Abdul Hannan Market, 1st floor, Holding # 22, Ward # 06, Pourashava: Kanchan, Thana- Rupgonj, Narayanganj",
         null,
         null,
-        "710152",
-        "130671183"
+        "710144",
+        "130670797"
       ]
     },
     {
@@ -534,7 +534,7 @@
         "Haji Ahsanullah Super Market?, Holding# 22, Dhaka-Ctg. Road, Word # 01, Narayanganj City Corporation, Thana: Siddhirgonj, District: Narayanganj.",
         null,
         null,
-        "710152",
+        "710147",
         "130671183"
       ]
     },
@@ -544,7 +544,7 @@
         null,
         null,
         null,
-        null
+        "130270568"
       ]
     },
     {
@@ -552,8 +552,8 @@
         "Dream Plaza, Madrasha Road, Ward # 03, Pourosova: Shibpur, Upozilla: Shibpur, District: Narshingdi",
         null,
         null,
-        "710149",
-        "130681302"
+        "710169",
+        "130680853"
       ]
     },
     {
@@ -562,7 +562,7 @@
         null,
         null,
         "710150",
-        null
+        "130591663"
       ]
     },
     {
@@ -580,7 +580,7 @@
         null,
         null,
         "710162",
-        null
+        "130274722"
       ]
     },
     {
@@ -597,8 +597,8 @@
         "Holding # 16, RK Das Road, Ward # 15, Narayanganj City Corporation, Thana: Narayanganj Sadar, District: Narayanganj.",
         null,
         null,
-        "710152",
-        "130671183"
+        "710165",
+        "130671275"
       ]
     },
     {
@@ -616,7 +616,7 @@
         null,
         null,
         null,
-        null
+        "130591276"
       ]
     },
     {
@@ -625,7 +625,7 @@
         null,
         null,
         "710168",
-        null
+        "130264482"
       ]
     },
     {
@@ -642,8 +642,8 @@
         "Plot-14, Block-C, Bir Uttam A.K. Khandaker Road, Gulshan-1, Dhaka",
         null,
         null,
-        "710171",
-        null
+        "710105",
+        "130261814"
       ]
     },
     {
@@ -688,7 +688,7 @@
         null,
         null,
         null,
-        null
+        "130260086"
       ]
     },
     {
@@ -697,7 +697,7 @@
         null,
         null,
         null,
-        null
+        "130560610"
       ]
     },
     {
@@ -706,7 +706,7 @@
         null,
         null,
         null,
-        null
+        "130590248"
       ]
     },
     {
@@ -715,7 +715,7 @@
         null,
         null,
         "710179",
-        null
+        "130270126"
       ]
     },
     {
@@ -724,7 +724,7 @@
         null,
         null,
         "710180",
-        null
+        "130270597"
       ]
     },
     {
@@ -732,8 +732,8 @@
         "Holding# 69, Shari Potti, Bhanga Bazar, Ward# 08, Pourashova & Thana: Bhanga, District: Faridpur",
         null,
         null,
-        "710183",
-        "130290285"
+        "710128",
+        "130290522"
       ]
     },
     {
@@ -742,7 +742,7 @@
         null,
         null,
         "710182",
-        null
+        "130590264"
       ]
     },
     {
@@ -751,7 +751,7 @@
         null,
         null,
         "710184",
-        null
+        "130276070"
       ]
     },
     {
@@ -760,7 +760,7 @@
         null,
         null,
         "710185",
-        null
+        "130860581"
       ]
     },
     {
@@ -787,7 +787,7 @@
         null,
         null,
         "710003",
-        null
+        "130151216"
       ]
     },
     {
@@ -805,7 +805,7 @@
         null,
         null,
         "710005",
-        null
+        "130750259"
       ]
     },
     {
@@ -814,7 +814,7 @@
         null,
         null,
         "710006",
-        null
+        "130150796"
       ]
     },
     {
@@ -823,7 +823,7 @@
         null,
         null,
         "710007",
-        null
+        "130153735"
       ]
     },
     {
@@ -832,7 +832,7 @@
         null,
         null,
         null,
-        null
+        "130191155"
       ]
     },
     {
@@ -841,7 +841,7 @@
         null,
         null,
         "710008",
-        null
+        "130150738"
       ]
     },
     {
@@ -850,7 +850,7 @@
         null,
         null,
         "710082",
-        null
+        "130192712"
       ]
     },
     {
@@ -886,7 +886,7 @@
         null,
         null,
         "710011",
-        null
+        "130152444"
       ]
     },
     {
@@ -895,7 +895,7 @@
         null,
         null,
         "710046",
-        null
+        "130120113"
       ]
     },
     {
@@ -913,7 +913,7 @@
         null,
         null,
         "710012",
-        null
+        "130154668"
       ]
     },
     {
@@ -931,7 +931,7 @@
         null,
         null,
         "710013",
-        null
+        "130220163"
       ]
     },
     {
@@ -1012,7 +1012,7 @@
         null,
         null,
         "710023",
-        null
+        "130193045"
       ]
     },
     {
@@ -1029,8 +1029,8 @@
         "?Mayazan Plaza?, Holding # 130&131/1, Ward # 08, Dhan Bazar, Thana & Pourashava: Kachua, District: Chandpur",
         null,
         null,
-        "710025",
-        "130130916"
+        "710020",
+        "130130316"
       ]
     },
     {
@@ -1048,7 +1048,7 @@
         null,
         null,
         null,
-        null
+        "130190972"
       ]
     },
     {
@@ -1065,8 +1065,8 @@
         "New Plaza, Goala Bazar, Osmaninagar, Balagonj, Sylhet",
         null,
         null,
-        "710051",
-        "130911548"
+        "710052",
+        "130913559"
       ]
     },
     {
@@ -1093,7 +1093,7 @@
         null,
         null,
         "710102",
-        null
+        "130581194"
       ]
     },
     {
@@ -1102,7 +1102,7 @@
         null,
         null,
         "710102",
-        null
+        "130581723"
       ]
     },
     {
@@ -1110,7 +1110,7 @@
         "Charmatha, Mohadevpur, Naogaon",
         null,
         null,
-        "710301",
+        "710302",
         "130641184"
       ]
     },
@@ -1147,7 +1147,7 @@
         null,
         null,
         "710403",
-        null
+        "130881878"
       ]
     },
     {
@@ -1156,7 +1156,7 @@
         null,
         null,
         "710411",
-        null
+        "130700267"
       ]
     },
     {
@@ -1165,7 +1165,7 @@
         null,
         null,
         "710403",
-        null
+        "130881094"
       ]
     },
     {
@@ -1173,8 +1173,8 @@
         "?Al-Haj Jubbar Tower?, 1st Floor, Holding # 2341, Ward # 08, Dhaka-Bogura Highway, Sherpur Powrasava, Bogura",
         null,
         null,
-        "710407",
-        "130102744"
+        "710231",
+        "130890551"
       ]
     },
     {
@@ -1209,8 +1209,8 @@
         "Doctor Market, Vill- Deluabari, Union-Kushumba, Thana-Manda, Dist-Naogaon",
         null,
         null,
-        "710301",
-        "130641184"
+        "710306",
+        "130641005"
       ]
     },
     {
@@ -1237,7 +1237,7 @@
         null,
         null,
         "710163",
-        null
+        "130273286"
       ]
     },
     {
@@ -1246,7 +1246,7 @@
         null,
         null,
         "710403",
-        null
+        "130880066"
       ]
     },
     {
@@ -1255,7 +1255,7 @@
         null,
         null,
         "710310",
-        null
+        "130380674"
       ]
     },
     {
@@ -1263,8 +1263,8 @@
         "?Elahi Market?, 1st Floor, Union-Kashinathpur, Thana-Sathia, District: Pabna",
         null,
         null,
-        "710311",
-        "130761330"
+        "710441",
+        "130761785"
       ]
     },
     {
@@ -1317,8 +1317,8 @@
         "\"Biswash Market\", Dumuria Bazar, Dag # SA-03, Khotian # SA-905, Mouza: Dumuria, Union: 11 no. Dumuria, Ward # 08, Thana: Dumuria, District: Khulna",
         null,
         null,
-        "710202",
-        "130471541"
+        "710205",
+        "130470797"
       ]
     },
     {
@@ -1461,8 +1461,8 @@
         "Setabgonj Chowrasta, PS- Bochagonj, District: Dinajpur",
         null,
         null,
-        "710461",
-        null
+        "710404",
+        "130280679"
       ]
     },
     {
@@ -1470,7 +1470,7 @@
         "Mouza: Goabari, Union:7 Pirgacha, Thana: Pirgacha, Dist: Rangpur",
         null,
         null,
-        null,
+        "710451",
         "130851332"
       ]
     },
@@ -1479,8 +1479,8 @@
         "Bagdad Market, Vill- Nijpara, Union 05 No. Balapara, Kaunia, Rangpur",
         null,
         null,
-        "710451",
-        "130851453"
+        "710602",
+        "130850762"
       ]
     },
     {
@@ -1489,7 +1489,7 @@
         null,
         null,
         "710603",
-        null
+        "130730790"
       ]
     },
     {
@@ -1550,7 +1550,7 @@
     },
     {
       "Kamolaghat Bondor Sub-Branch, Munshiganj": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -1559,7 +1559,7 @@
     },
     {
       "Char Dumuria Bazar Sub-Branch, Munshiganj": [
-        null,
+        "Dhaka South",
         null,
         null,
         "710205",
@@ -1568,7 +1568,7 @@
     },
     {
       "Kochukhet Sub-Branch, Dhaka": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -1577,7 +1577,7 @@
     },
     {
       "Baburhat Sub-Branch, Narshingdi": [
-        null,
+        "Dhaka North",
         null,
         null,
         "710169",
@@ -1604,7 +1604,7 @@
     },
     {
       "Allardarga Sub-Branch, Kushtia": [
-        null,
+        "Kushtia Branch",
         null,
         null,
         "710303",
@@ -1613,7 +1613,7 @@
     },
     {
       "Sonapur Bazar Sub-Branch, Noakhali": [
-        null,
+        "Chowmuhani Branch",
         null,
         null,
         null,
@@ -1622,7 +1622,7 @@
     },
     {
       "Kotalipara Bazar Sub-Branch, Gopalgonj": [
-        null,
+        "Gopalgonj Branch",
         null,
         null,
         "710142",
@@ -1640,7 +1640,7 @@
     },
     {
       "Hasanpur Sub-Branch": [
-        null,
+        "Nangolkot Branch",
         null,
         null,
         null,
@@ -1649,7 +1649,7 @@
     },
     {
       "Choto Tulagaon Bazar Sub-Branch, Cumilla": [
-        null,
+        "Barura Branch",
         null,
         null,
         null,
@@ -1658,7 +1658,7 @@
     },
     {
       "Baktobari Sub-Branch, Narayangonj": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -1667,7 +1667,7 @@
     },
     {
       "Danga Bazar Sub-Branch, Narshingdi": [
-        null,
+        "Dhaka North",
         null,
         null,
         "710169",
@@ -1676,7 +1676,7 @@
     },
     {
       "Ranirbandar Sub-Branch, Dinajpur": [
-        null,
+        "Saidpur Branch",
         null,
         null,
         "710404",
@@ -1694,7 +1694,7 @@
     },
     {
       "Sujanagar Sub-Branch, Pabna": [
-        null,
+        "Pabna Branch",
         null,
         null,
         "710441",
@@ -1703,7 +1703,7 @@
     },
     {
       "Boral Bridge Sub-Branch, Pabna": [
-        null,
+        "Pabna Branch",
         null,
         null,
         "710441",
@@ -1712,7 +1712,7 @@
     },
     {
       "Mohipal Sub-Branch, Feni": [
-        null,
+        "Feni Branch",
         null,
         null,
         "710083",
@@ -1730,7 +1730,7 @@
     },
     {
       "Hili Sub-Branch, Dinajpur": [
-        null,
+        "Panchbibi Branch",
         null,
         null,
         "710404",
@@ -1739,7 +1739,7 @@
     },
     {
       "Shubochuni Bazar Sub-Branch, Munshiganj": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -1748,7 +1748,7 @@
     },
     {
       "Haragach Sub-Branch": [
-        null,
+        "Kaunia Branch",
         null,
         null,
         null,
@@ -1757,7 +1757,7 @@
     },
     {
       "Shantahar Sub-Branch": [
-        null,
+        "Naogaon Branch",
         null,
         null,
         null,
@@ -1766,7 +1766,7 @@
     },
     {
       "Jamtoil Bazar Sub-Branch": [
-        null,
+        "Sirajganj",
         null,
         null,
         null,
@@ -1784,7 +1784,7 @@
     },
     {
       "Mirzapur Sub-Branch, Kishoregonj": [
-        null,
+        "Kishoregonj Branch",
         null,
         null,
         "710161",
@@ -1793,7 +1793,7 @@
     },
     {
       "Bagha Sub-Branch": [
-        null,
+        "Charghat Branch",
         null,
         null,
         null,
@@ -1802,7 +1802,7 @@
     },
     {
       "Isapura Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -1820,7 +1820,7 @@
     },
     {
       "Sundarganj Sub-Branch": [
-        null,
+        "Pirgacha Branch",
         null,
         null,
         null,
@@ -1829,7 +1829,7 @@
     },
     {
       "Nageswari Sub-Branch": [
-        null,
+        "Kurigram Branch",
         null,
         null,
         null,
@@ -1838,7 +1838,7 @@
     },
     {
       "Gazaria Sub-Branch, Munshiganj": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -1847,7 +1847,16 @@
     },
     {
       "Benapole Sub-Branch": [
+        "Jashore. Branch",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Kanaipur Sub-Branch": [
+        "Faridpur Branch",
         null,
         null,
         null,
@@ -1856,7 +1865,16 @@
     },
     {
       "Borhanuddin Sub-Branch": [
+        "Bhola Br",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Boga Sub-Branch": [
+        "Patuakhali Br",
         null,
         null,
         null,
@@ -1865,7 +1883,7 @@
     },
     {
       "Patkelghata Bazar Sub-Branch": [
-        null,
+        "Satkhira Br",
         null,
         null,
         null,
@@ -1874,7 +1892,7 @@
     },
     {
       "Chuknagar Sub-Branch": [
-        null,
+        "Dumuria Br",
         null,
         null,
         null,
@@ -1883,7 +1901,7 @@
     },
     {
       "Jamalpur Bazar Sub-Branch": [
-        null,
+        "Faridpur Br",
         null,
         null,
         "710701",
@@ -1892,7 +1910,7 @@
     },
     {
       "Bhurghata Sub-Branch": [
-        null,
+        "Madaripur SME/ Krirshi Br",
         null,
         null,
         null,
@@ -1901,7 +1919,7 @@
     },
     {
       "Borabo Bazar Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -1910,7 +1928,7 @@
     },
     {
       "Mahigonj Sub-Branch": [
-        null,
+        "Pirgacha Branch",
         null,
         null,
         null,
@@ -1919,7 +1937,7 @@
     },
     {
       "Ulipur Sub-Branch": [
-        null,
+        "Kurigram Branch",
         null,
         null,
         null,
@@ -1937,7 +1955,7 @@
     },
     {
       "Taragonj Bazar Sub-Branch": [
-        null,
+        "Saidpur Branch",
         null,
         null,
         null,
@@ -1946,7 +1964,7 @@
     },
     {
       "Birganj Sub-Branch": [
-        null,
+        "Dinajpur Branch",
         null,
         null,
         null,
@@ -1955,7 +1973,7 @@
     },
     {
       "Belkuchi Sub-Branch": [
-        null,
+        "Sirajganj Branch",
         null,
         null,
         null,
@@ -1964,7 +1982,7 @@
     },
     {
       "Bera Sub-Branch": [
-        null,
+        "Kashinathpur Branch",
         null,
         null,
         null,
@@ -1973,7 +1991,7 @@
     },
     {
       "Chuadanga Sub-Branch": [
-        null,
+        "Darshana Branch",
         null,
         null,
         null,
@@ -1982,7 +2000,7 @@
     },
     {
       "Karpasdanga Sub-Branch": [
-        null,
+        "Darshana Branch",
         null,
         null,
         null,
@@ -1991,7 +2009,7 @@
     },
     {
       "Chitalmari Sub-Branch": [
-        null,
+        "Gopalgonj Branch",
         null,
         null,
         null,
@@ -2000,7 +2018,7 @@
     },
     {
       "Akkelpur Sub-Branch": [
-        null,
+        "Naogaon Branch",
         null,
         null,
         null,
@@ -2009,7 +2027,7 @@
     },
     {
       "Adamdighi Sub-Branch": [
-        null,
+        "Naogaon Branch",
         null,
         null,
         null,
@@ -2026,6 +2044,15 @@
       ]
     },
     {
+      "Pirgonj Sub-Branch": [
+        "Setabgonj Branch",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "Dholagaon Sub-Branch": [
         "Aldi Bazar Branch",
         null,
@@ -2035,8 +2062,17 @@
       ]
     },
     {
-      "Mirpur Mazar Road Sub-Branch": [
+      "Hasail Bazar Sub-Branch": [
+        "Dhaka South",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Mirpur Mazar Road Sub-Branch": [
+        "Dhaka North",
         null,
         null,
         "710115",
@@ -2045,7 +2081,7 @@
     },
     {
       "Tongi Bazar Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         "710211",
@@ -2054,7 +2090,7 @@
     },
     {
       "Ulukhola Bazar Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2063,7 +2099,7 @@
     },
     {
       "Bhannara Bazar Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2072,7 +2108,7 @@
     },
     {
       "Sonargaon Sub Registrar Office Sub-Branch": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -2081,7 +2117,7 @@
     },
     {
       "Faidabad Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2090,7 +2126,7 @@
     },
     {
       "Uttarkhan Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2108,7 +2144,7 @@
     },
     {
       "Kamrangirchar Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2117,7 +2153,7 @@
     },
     {
       "Daudkandi Sub-Branch": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -2126,7 +2162,16 @@
     },
     {
       "Mir Kadim Bazar Sub-Branch": [
+        "Dhaka South",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Shibganj Sub-Branch": [
+        "Chapainawabganj Branch",
         null,
         null,
         null,
@@ -2144,7 +2189,16 @@
     },
     {
       "Satihat Sub-Branch": [
+        "Manda Branch",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Tahepur Sub-Branch": [
+        "Bhawanigonj Branch",
         null,
         null,
         null,
@@ -2153,7 +2207,7 @@
     },
     {
       "Prosadpur Bazar Sub-Branch": [
-        null,
+        "Manda Branch",
         null,
         null,
         null,
@@ -2171,7 +2225,7 @@
     },
     {
       "Kala Bibi Dighir Moor Sub-Branch": [
-        null,
+        "Agrabad Branch",
         null,
         null,
         null,
@@ -2189,7 +2243,7 @@
     },
     {
       "Manikkarchar Sub-Branch": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -2216,7 +2270,16 @@
     },
     {
       "Zirabo Sub-Branch": [
+        "Dhaka North",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Ramgonj Sub-Branch": [
+        "Raipur Branch",
         null,
         null,
         null,
@@ -2225,7 +2288,16 @@
     },
     {
       "Pomgaon Bazar Sub-Branch": [
+        "Monohorgonj Branch",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Bagbari Sub-Branch": [
+        "Dhaka North",
         null,
         null,
         null,
@@ -2234,7 +2306,7 @@
     },
     {
       "Rajfulbaria Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2243,7 +2315,7 @@
     },
     {
       "Zigatola Sub-Branch": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -2252,7 +2324,7 @@
     },
     {
       "Kalshi Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2270,7 +2342,7 @@
     },
     {
       "Sonpara Sub-Branch": [
-        null,
+        "Dhaka North",
         null,
         null,
         null,
@@ -2278,8 +2350,26 @@
       ]
     },
     {
-      "Mawna Bazar Sub-Branch": [
+      "Mirpur Sub-Branch": [
+        "Sreemangal Branch",
         null,
+        null,
+        "710115",
+        null
+      ]
+    },
+    {
+      "Gouripur Sub-Branch": [
+        "Mymensing Branch",
+        null,
+        null,
+        "710015",
+        "130192112"
+      ]
+    },
+    {
+      "Mawna Bazar Sub-Branch": [
+        "Dhaka North",
         null,
         null,
         "710155",
@@ -2288,7 +2378,7 @@
     },
     {
       "Patgram Sub-Branch": [
-        null,
+        "Hatibandha Branch",
         null,
         null,
         null,
@@ -2298,6 +2388,15 @@
     {
       "Paglapir Sub-Branch": [
         "Rangpur Branch",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Bonpara Sub-Branch": [
+        "Natore Branch",
         null,
         null,
         null,
@@ -2315,7 +2414,16 @@
     },
     {
       "Birampur Sub-Branch": [
+        "Panchbibi Branch",
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Beraid Sub-Branch": [
+        "Dhaka North",
         null,
         null,
         null,
@@ -2333,7 +2441,7 @@
     },
     {
       "Konakhola Sub-Branch, Dhaka": [
-        null,
+        "Dhaka South",
         null,
         null,
         null,
@@ -2342,7 +2450,7 @@
     },
     {
       "Satra Bazar Sub-Branch, Naogaon": [
-        null,
+        "Mohadevpur Branch, Naogaon",
         null,
         null,
         "710301",
@@ -2351,7 +2459,7 @@
     },
     {
       "Fulbari Sub-Branch, Dinajpur": [
-        null,
+        "Dinajpur Branch",
         null,
         null,
         "710404",
@@ -2360,7 +2468,7 @@
     },
     {
       "Manikkhali Bazar Sub-Branch, Kishoregonj": [
-        null,
+        "Kishoregonj Branch",
         null,
         null,
         "710161",
@@ -2369,7 +2477,7 @@
     },
     {
       "Jhalom Bazar Sub-Branch": [
-        null,
+        "Barura Branch",
         null,
         null,
         null,
@@ -2378,7 +2486,7 @@
     },
     {
       "Mandra Sub-Branch": [
-        null,
+        "Natherpetua Branch",
         null,
         null,
         "710306",

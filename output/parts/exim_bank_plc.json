@@ -4,7 +4,7 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "63",
-  "total_branch": 158,
+  "total_branch": 156,
   "total_sub_branch": 46,
   "branch": [
     {
@@ -508,7 +508,7 @@
         null,
         "01755536783 (GB), 01322879127 (INV), 01730069698 (Cash), 02222289985, 02222284753, 02222298167, 02222289567, 02222286041",
         "630119",
-        null
+        "100272691"
       ]
     },
     {
@@ -1308,7 +1308,7 @@
         "College Road, Zohra Mansion, Mograpara Chowrasta,Sonargaon , Narayanganj - 1441",
         null,
         "02-7656103, 02-7656236, 01755-584938",
-        "630129",
+        null,
         "100671700"
       ]
     },
@@ -1405,24 +1405,6 @@
     {
       "Regional": [
         "Office, Dhaka North",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Regional": [
-        "Office, Chattogram",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Regional": [
-        "Office, Sylhet.",
         null,
         null,
         null,

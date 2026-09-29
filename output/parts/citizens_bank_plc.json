@@ -4,7 +4,7 @@
   "method": "html_table",
   "status": "success",
   "bank_id": "141",
-  "total_branch": 41,
+  "total_branch": 37,
   "total_sub_branch": 8,
   "branch": [
     {
@@ -280,42 +280,6 @@
     {
       "Rashid Complex": [
         "Bogabari Bus Stand, Dhamsona, Ashulia, Savar, Dhaka",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "1st Floor": [
-        "Feni Tower, 291/1 Shahid Sohidullah Kaiser Sharak, Feni Shadar, Feni.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "2nd Floor": [
-        "Joinal Tower, 31-33 Roy Ishwar Chandra Shil Bahadur Street, Imamganj, Dhaka.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "2nd Floor": [
-        "H&M Tower, 23 Agrabad C/A, SK Mujib Road, Chattogram.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "(1st Floor)": [
-        "Al-Saleh Supermarket (Yakub Market), Chowdhuryhat, Hathazari, Chattogram.",
         null,
         null,
         null,

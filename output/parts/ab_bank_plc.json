@@ -4,8 +4,8 @@
   "method": "html_cards+html_table+json_api+pdf",
   "status": "success",
   "bank_id": "41",
-  "total_branch": 140,
-  "total_sub_branch": 68,
+  "total_branch": 137,
+  "total_sub_branch": 67,
   "branch": [
     {
       "Ashuganj Branch": [
@@ -944,26 +944,17 @@
       ]
     },
     {
-      "branch-list-khulna": [
+      "AB Bank PLC. Mumbai Branch is registered with DICGC": [
+        "DICGC Website",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Branch-List-Chittagong-23-April-2017": [
         "Corporate Information of AB Bank PLC.",
-        "https://abbl.com",
-        null,
-        "410022",
-        "020471543"
-      ]
-    },
-    {
-      "1511301-tongi-branch": [
-        "AB Bank",
-        "https://abbl.com",
-        null,
-        "410110",
-        "020331638"
-      ]
-    },
-    {
-      "Mumbai Branch": [
-        "ab-bank-mumbai-branch",
         "https://abbl.com",
         null,
         null,
@@ -971,11 +962,29 @@
       ]
     },
     {
-      "1512061-kalatiya-branch": [
+      "1512171-faridpur-branch": [
         "AB Bank",
         "https://abbl.com",
         null,
-        "410108",
+        "410111",
+        "020290524"
+      ]
+    },
+    {
+      "1508252-garib-e-newaz-branch": [
+        "AB Bank",
+        "https://abbl.com",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "branch-list-chittagong-16-oct": [
+        "Corporate Information of AB Bank PLC.",
+        "https://abbl.com",
+        null,
+        null,
         null
       ]
     },
@@ -998,15 +1007,6 @@
       ]
     },
     {
-      "Branch-List-Chittagong-17-feb": [
-        "Corporate Information of AB Bank PLC.",
-        "https://abbl.com",
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "Tel: Branch Manager:": [
         "B-2, Road No. 1, P.S.: Khulshi",
         null,
@@ -1017,7 +1017,7 @@
     },
     {
       "ZONE (EPZ) BRANCH": [
-        "P.O. South EPZ, Bay Shopping",
+        "Centre, Halishahar, Chattogram",
         null,
         "020151571",
         "410005",
@@ -1025,26 +1025,8 @@
       ]
     },
     {
-      "BENAPOLE BRANCH": [
-        "Email: [](mailto:)",
-        null,
-        "020410283",
-        "410457",
-        "020410283"
-      ]
-    },
-    {
-      "HABIGANJ BRANCH": [
-        "GARDEN TOWER",
-        null,
-        null,
-        "410501",
-        "020360612"
-      ]
-    },
-    {
       "Sylhet 3100": [
-        "Road, Habiganj 3300",
+        "Kotwali, Sylhet",
         null,
         null,
         null,
@@ -1061,35 +1043,17 @@
       ]
     },
     {
-      "Email: gdntmg@abbl.com": [
-        "Mnemonic: HABI Code: 4161",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "Mnemonic: GDNT Code: 4114": [
         "Mnemonic: MDBN Code: 4112",
         null,
         "020360612",
         null,
-        null
+        "020360612"
       ]
     },
     {
-      "Kadamtala, Tajpur, Sylhet": [
-        null,
-        null,
-        null,
-        "410205",
-        "020913827"
-      ]
-    },
-    {
-      "Tel: (08242) 56475, (037991) 88036": [
-        null,
+      "Hasnabad, Nawabgonj, Dhaka": [
+        "Bashundhara Main Road, Dhaka 1229",
         null,
         null,
         null,
@@ -1097,8 +1061,26 @@
       ]
     },
     {
-      "Email: tjprmg@abbl.com": [
+      "Tel: 8402994, 8402993": [
         null,
+        null,
+        "01199814923",
+        null,
+        null
+      ]
+    },
+    {
+      "Mnemonic:BASH Code: 4034": [
+        "Mnemonic:BHBZ Code: 4007",
+        null,
+        "020270649",
+        null,
+        "020270649"
+      ]
+    },
+    {
+      "Alhaj Khabiruddin Super Market (1st": [
+        "Plot: 45 (new) 286/B (old), Road: 16",
         null,
         null,
         null,
@@ -1106,8 +1088,71 @@
       ]
     },
     {
-      "Mnemonic: TJPR Code: 4117": [
+      "Poura Shava, Kaliakair, Gazipur": [
         null,
+        null,
+        "01710876140; 01911654349",
+        null,
+        null
+      ]
+    },
+    {
+      "Email: dmnbmg@abbl.com": [
+        "Mnemonic: FARI Code: 4051",
+        null,
+        "01713033735",
+        null,
+        null
+      ]
+    },
+    {
+      "Email: cndrmg@abbl.com": [
+        "Mnemonic: DMNB Code: 4021",
+        null,
+        "020290524",
+        null,
+        "020290524"
+      ]
+    },
+    {
+      "Mnemonic: CNDR Code: 4026": [
+        "Opening: 17.12.2015",
+        null,
+        "020261182",
+        null,
+        "020261182"
+      ]
+    },
+    {
+      "Joypara, Dohar, Dhaka": [
+        "Kalampur, Dhamrai, Dhaka.",
+        null,
+        null,
+        "410321",
+        null
+      ]
+    },
+    {
+      "Tel: 9339036, 8315462, 9351177": [
+        null,
+        null,
+        "+88027768164; +88027768165",
+        null,
+        null
+      ]
+    },
+    {
+      "Mnemonic: KRLB Code: 4009": [
+        "Routing Number: 020262444",
+        null,
+        "020273288",
+        null,
+        "020273288"
+      ]
+    },
+    {
+      "Advanced Melinda (Level-1), 72": [
+        "BSB Building, 08, DIT Avenue, Dhaka",
         null,
         null,
         null,
@@ -1115,26 +1160,8 @@
       ]
     },
     {
-      "91-92, Central Road": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Kotowali, Rangpur": [
-        null,
-        null,
-        null,
-        "410692",
-        "020851455"
-      ]
-    },
-    {
-      "Tel: (0521) 62557, 65206": [
-        null,
+      "Tel: 9354638 (PABX), 9354471": [
+        "Section 1, Mirpur, Dhaka",
         null,
         null,
         null,
@@ -1142,8 +1169,26 @@
       ]
     },
     {
-      "Email: rngpmg@abbl.com": [
+      "Mnemonic: MALI Code: 4031": [
         null,
+        null,
+        "020274245",
+        null,
+        "020274245"
+      ]
+    },
+    {
+      "Mnemonic: MIRB Code: 4015": [
+        "Opening: 27.12.1983",
+        null,
+        "020273941",
+        null,
+        "020273941"
+      ]
+    },
+    {
+      "Novera Square": [
+        "9/1 North South Road",
         null,
         null,
         null,
@@ -1151,26 +1196,8 @@
       ]
     },
     {
-      "Mnemonic: RNGP Code: 4205": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "KHULNA": [
-        "SATKHIRA",
-        null,
-        null,
-        "410022",
-        "020471543"
-      ]
-    },
-    {
-      "Mollick Shopping Complex Limited, 99": [
-        "12-14 Nawab Serajuddowla Road, Boro",
+      "House 05, Road": [
+        "DN Road, Pagla, Narayanganj",
         null,
         null,
         null,
@@ -1178,91 +1205,37 @@
       ]
     },
     {
-      "Jessore Road, Khulna": [
-        "Bazar, Kushtia",
+      "Email: nerbmg@abbl.com": [
+        "Routing Number: 020671301",
         null,
+        "020275110",
         null,
-        "410022",
-        "020471543"
+        "020275110"
       ]
     },
     {
-      "Tel: (041) 720311, 723062, 724090": [
+      "923, Shewrapara Rokeya Sharani": [
+        "Al-Madina Shopping Complex,",
         null,
         null,
-        "01711959664",
-        null,
+        "410236",
         null
       ]
     },
     {
-      "Email: khlnmg@abbl.com": [
-        "Mnemonic: KSHT Code: 4216",
+      "Mirpur, Dhaka": [
+        "Seed Store Bazar, Bhaluka,",
         null,
         null,
-        null,
+        "410231",
         null
       ]
     },
     {
-      "Mnemonic: KHLN Code: 4301": [
-        "Mnemonic: STKR Code: 4212",
+      "Tel: 9014290, 9012607": [
+        "Mnemonic: SAVR Code: 4029",
         null,
-        "020500948",
-        null,
-        null
-      ]
-    },
-    {
-      "PABNA": [
-        null,
-        null,
-        null,
-        "410141",
-        "020761787"
-      ]
-    },
-    {
-      "A. R. Plaza, Abdul Hamid Road, Pabna": [
-        "Friends Plaza (1st Floor), S S Road, Ward",
-        null,
-        null,
-        "410141",
-        "020761787"
-      ]
-    },
-    {
-      "Pouroshova, Pabna": [
-        null,
-        null,
-        "(0721) 773261, 774283",
-        "410141",
-        "020761787"
-      ]
-    },
-    {
-      "Tel: (0731) 66571, (0731) 66538": [
-        null,
-        null,
-        "0751)64749; 0751)64717",
-        null,
-        null
-      ]
-    },
-    {
-      "Email: pabnmg@abbl.com": [
-        "Mnemonic: RJSH Code: 4202",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Mnemonic: PABN Code: 4209": [
-        "Mnemonic: SIRA Code: 4207",
-        null,
-        "020811932",
+        "01196007143",
         null,
         null
       ]
@@ -1371,15 +1344,6 @@
     {
       "Maijdee Court Sub Branch": [
         "Ratan Plaza, 194 Malek Ukil Sarak (Main Road), Maijdee Court, Noakhali",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Ramganj Sub Branch": [
-        "270 Kalabagan Road, Ramganj Pourashava, Ramganj, Lakshmipur",
         null,
         null,
         null,
@@ -1828,7 +1792,34 @@
       ]
     },
     {
-      "Madhupur Sub-Branch, Tangail_Opening (1)": [
+      "abbl-ruptoli-sub-branch-inaguration": [
+        "AB Bank",
+        "https://abbl.com",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "abbl-open-sub-branch-at-gopalgonj": [
+        "AB Bank",
+        "https://abbl.com",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Banasree Sub Branch Dhaka (002) (1)": [
+        "AB Bank",
+        "https://abbl.com",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Pathrail Sub-Branch, Tangail (1)": [
         "AB Bank",
         "https://abbl.com",
         null,
@@ -1837,43 +1828,16 @@
       ]
     },
     {
-      "abbl-sub-branch-muradpur": [
-        "AB Bank",
-        "https://abbl.com",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Atgharia Sub Branch abbl": [
-        "AB Bank",
-        "https://abbl.com",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "abbl-shibchar-sub-branch": [
-        "AB Bank",
-        "https://abbl.com",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "abbl-open-its-sub-branch-at-vola": [
-        "AB Bank",
-        "https://abbl.com",
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "abbl-sub-branch-halishohor": [
+        "AB Bank",
+        "https://abbl.com",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "Inaguration of Jhalokathi Sub -Branch, Jhalokathi (1)": [
         "AB Bank",
         "https://abbl.com",
         null,

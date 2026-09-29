@@ -4,8 +4,8 @@
   "method": "json_api",
   "status": "success",
   "bank_id": "72",
-  "total_branch": 220,
-  "total_sub_branch": 112,
+  "total_branch": 215,
+  "total_sub_branch": 110,
   "branch": [
     {
       "Agrabad Branch": [
@@ -49,15 +49,6 @@
         null,
         "09677557179",
         "720401",
-        null
-      ]
-    },
-    {
-      "Bijoynagar Branch": [
-        "TEPA COMPLEX, 169, SHAHID SAYED NAZRUL ISLAM SARANI (1ST FLOOR), BIJOYNAGAR, PALTON , DHAKA",
-        null,
-        "09677557054",
-        "720127",
         null
       ]
     },
@@ -310,15 +301,6 @@
         null,
         "09677557138",
         "720321",
-        null
-      ]
-    },
-    {
-      "Panthapath Branch": [
-        "Union Heights, 2nd Floor, 55-2 Bir Uttam Kazi Nuruzzaman Road, West Panthapath, Dhaka-1215",
-        null,
-        "09677557053",
-        "720128",
         null
       ]
     },
@@ -723,7 +705,7 @@
         "Mim plaza ( Ist Floor)Holding No 0006-00 Thana Road ward No 03 . Bashurhat Pourashava ,PS: Companygonj . Dist: Noakhli",
         null,
         "01708487837",
-        null,
+        "720034",
         "060750158"
       ]
     },
@@ -1538,15 +1520,6 @@
       ]
     },
     {
-      "Sadarghat Branch": [
-        "RAHMATULLAH MANSHION (2ND FLOOR), 5/1/1, SIMSON ROAD DHAKA 1100",
-        null,
-        "09677557046",
-        "720119",
-        null
-      ]
-    },
-    {
       "Satkhira Branch": [
         "Nahar Plaza ,Tufan Company More. Satkhira Sadar, Satkhira..",
         null,
@@ -1589,15 +1562,6 @@
         "09677557019",
         null,
         null
-      ]
-    },
-    {
-      "Sherpur Branch": [
-        "BRAC Bank PLC, Sherpur Branch, HOLDING# 1761-5, 1761-6, Mahmud Tower, Dhaka- Bogura Highway, Sherpur, Bogura.",
-        null,
-        "09677557182",
-        "720303",
-        "060102748"
       ]
     },
     {
@@ -1784,7 +1748,7 @@
       "Bijoynagar Branch": [
         "Tepa Complex, Holding- Hal-169, Shahid Swaed Nazrul Islam Sharani, Ward-36, Thana- Palton, Dist.- Dhaka.",
         null,
-        null,
+        "09677557054",
         "720127",
         null
       ]
@@ -1853,15 +1817,6 @@
       ]
     },
     {
-      "BRAC University": [
-        "66, Mohakhali",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "Cumilla Chawkbazar Branch": [
         "Desh Jaannat Tower 2Nd & 3Rd Floor),66 , Chawkbazar (Dhaka – Chattogram Trunk Road), Cumilla-3500",
         null,
@@ -1919,7 +1874,7 @@
       "Panthapath Branch": [
         "‘Union Heights’ Situated In 52-2, Kazi Nuruzzaman Sarak, West Panthapath, Ward No. 17, Dhaka South City Corporation",
         null,
-        null,
+        "09677557053",
         "720128",
         null
       ]
@@ -1928,7 +1883,7 @@
       "Sadarghat Branch": [
         "Rahmat Ullah Mansion, 5/1/1, Simson Road, Sadarghat. Dhaka-1100.",
         null,
-        null,
+        "09677557046",
         "720119",
         null
       ]
@@ -1946,7 +1901,7 @@
       "Sherpur Branch": [
         "Mahmud Tower,Holding No: 1761-5,1761-6, Dhaka Bogura Highway,Ward -05,Pouroshova- Sherpur,Thana –Sherpur,Bogura.",
         null,
-        null,
+        "09677557182",
         "720303",
         "060102748"
       ]
@@ -2289,15 +2244,6 @@
     {
       "Fatullah Sub branch": [
         "Lutfa Super Market, Fatulla Bazar, Dag No C S 27, R S 29, Fatulla, Naranyanganj",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "GAIBANDHA SUB BRANCH": [
-        "Abbas Uddin Tower, Holding No 1799-00, Station Road, Ward no 2, Gaibandha Sadar, Gaibandha",
         null,
         null,
         null,
@@ -2975,22 +2921,13 @@
         "M.D Bhaban (GF), Muradnagar Road, Companyganj, Muradnagar, Cumilla",
         null,
         null,
-        null,
+        "720034",
         "060750158"
       ]
     },
     {
       "Gaibandha Sub-Branch": [
         "Abbas Uddin Tower, Holding # 10048, Shop # 03, Station Road, P/O & P/S - Gaibandha, District - Gaibandha.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Shariatpur Sub-Branch": [
-        "844 No, S R Plaza , Palong , Shariatpur Sadar, Shariatpur",
         null,
         null,
         null,

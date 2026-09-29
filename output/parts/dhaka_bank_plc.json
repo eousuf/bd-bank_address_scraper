@@ -4,7 +4,7 @@
   "method": "html_table+pdf",
   "status": "success",
   "bank_id": "56",
-  "total_branch": 190,
+  "total_branch": 185,
   "total_sub_branch": 40,
   "branch": [
     {
@@ -400,7 +400,7 @@
         null,
         "01755 693332",
         "560214",
-        null
+        "085272958"
       ]
     },
     {
@@ -494,15 +494,6 @@
       ]
     },
     {
-      "Mozahar Bhaban (1st & 2nd floor)": [
-        "222/223, Abdus Sattar Road, Anderkilla, Rahmatgonj, Chittagong 4100",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "565/A": [
         "CDA Avenue (Ground Floor), East Nasirabad, Chittagong 4000",
         null,
@@ -521,26 +512,8 @@
       ]
     },
     {
-      "Taher Plaza (1st & 2nd floor)": [
-        "Chiringa old, bus stand, Chakaria, Cox's Bazar 4700",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "20 Kandirpar Moor": [
         "1st Floor, Comilla",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Rakshit Market (1st Floor)": [
-        "Main Road, Laldighirpar, Cox's Bazar 4700",
         null,
         null,
         null,
@@ -568,15 +541,6 @@
     {
       "City Plaza": [
         "132, S.S.K. Road, Feni 3900",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "1st floor Chowmuhoni": [
-        "Gohira, Raozan, Chittagong 4343",
         null,
         null,
         null,
@@ -712,15 +676,6 @@
     {
       "Sattar Tower": [
         "50, S.M Maleh Road (1st & 2nd Floor), Tanbazar, Narayangonj 1400",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Alhaj Afsar Karim Bhaban (1st Floor)": [
-        "Paglabazar, Fatullah, Narayangonj 1421",
         null,
         null,
         null,
@@ -1696,7 +1651,7 @@
         null,
         "0831-62693; 0831-62694",
         null,
-        "210264694"
+        "210264528"
       ]
     },
     {

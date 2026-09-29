@@ -104,9 +104,10 @@ a locator or adding a bank is a CSV edit, not a code change.
 3. **Fetch** – local `requests` (one pooled keep-alive session) first,
    Firecrawl escalation on failure; listing pages get bounded `?page=N`
    auto-pagination (keeps walking while a page contributes new records)
-4. **Extract** – embedded JSON → admin-ajax/DataTables feeds → HTML tables
-   (incl. headerless "blob" cells and label blocks) → HTML cards → markdown →
-   PDF (column-mapped → label blocks → line heuristics)
+4. **Extract** – embedded JSON → admin-ajax/DataTables feeds → Bootstrap
+   modal detail blocks → HTML tables (the real header row is hunted past
+   junk pre-rows; incl. headerless "blob" cells and label blocks) → HTML
+   cards → markdown → PDF (column-mapped → label blocks → line heuristics)
 5. **Dedupe** – exact name+address, then same-name variants (trigram + token
    similarity, abbreviated-address fuzzy-subset match), then same-outlet
    spelling variants (edit distance ≥0.8 or district-suffix prefix; digits
@@ -211,9 +212,10 @@ compared in three rounds: **exact** → **containment** ("agrabad" inside
 "agrabad chattogram") → **near-spelling**. Banks whose short names differ
 from BB's long names (EXIM ↔ "Export Import Bank", HSBC, NCC) are handled
 by a small alias list. **No match → the field stays `null`; nothing is
-guessed.** That is why 9,850 of ~15,500 records carry an FI Branch ID and
-6,893 a routing number — the rest are spellings the matcher cannot safely
-pair with a PDF row.
+guessed.** That is why 10,232 of ~15,600 records carry an FI Branch ID and
+9,678 a routing number — routings also arrive straight from the banks' own
+listing pages ("Routing No" columns/cards), which is why they grew faster
+than FI IDs; the rest are spellings the matcher cannot safely pair.
 
 ### Keeping IDs fresh / turning enrichment off
 
@@ -228,14 +230,15 @@ pair with a PDF row.
   running `--upgrade-parts` *while no registry exists* would erase existing
   IDs too, because it re-computes every value.
 
-## Current results (2026-09-27, after BB enrichment)
+## Current results (2026-09-29, after extractor hardening)
 
 62 banks in `banks.csv` → 62 keys in `output/banks_branches.json`;
 **62 succeeded, 0 failed**;
-**12,334 branches + 3,164 sub-branches** (Sammilito's merged part includes
-its five constituents' outlets, which also keep their own parts); 9,850
-records carry an FI Branch ID and 6,893 a routing number (BB-registry
-enrichment; the rest keep `null`).
+**12,453 branches + 3,184 sub-branches** (Sammilito's merged part includes
+its five constituents' outlets, which also keep their own parts); 10,232
+records carry an FI Branch ID and 9,678 a routing number (BB-registry
+matching plus routing numbers captured from the banks' own pages; the rest
+keep `null`).
 
 The `method` field records how each bank's data was won: 14 banks through
 HTML cards + tables, 10 through plain HTML tables, 8 through card layouts
@@ -284,6 +287,21 @@ at least one bank.
   a branch, `--upgrade-parts` keeps the record's existing `fi_branch_id` /
   `routing_no` instead of nulling them — required by merged-constituents
   parts, whose records belong to their original banks in BB's registry.
+* **Extractor hardening (2026-09-29):** listing tables whose real header
+  sits under junk pre-rows (Uttara's "251 branch's found…" banner) are now
+  column-mapped properly — Uttara went 243 → 319 records with real branch
+  names and site routing numbers (previously building names posed as
+  branch names). A new `modal_tables` extractor reads Bootstrap modal
+  detail blocks (NCC's 2026 redesign: outlet name in the modal header,
+  Address / Phone / Routing No in the body table) — NCC went 69 → 140
+  records including site routing numbers. Floor/building fragments
+  ("2nd Floor", "(1st Floor)", "SUVASTU IMAM SQUARE (4th & 5th FLOOR)")
+  are dropped as junk names, and same-name merging is guarded: outlets
+  sharing a name across districts ("Sadar Branch" everywhere) survive
+  unless one copy is an all-caps feed duplicate — fixing a rerun
+  regression that silently lost records (SIBL restored to 417; BASIC,
+  RAKUB and Rupali losses caught by review and their parts held at the
+  previous commit).
 
 ### Special case: Sammilito Islami Bank PLC
 
@@ -366,6 +384,8 @@ kept verbatim ("Motijhel Branch", "Cox's Bazar Branch").
 | Bangladesh Development Bank (BDBL) | 56 records ✓ | recovered 2026-09-27 via `registry: yes` — the nav's branch link 404s server-side, but the legacy `/site/page/a6d8eb47-…` route reaches the live Branch Office page (50 branch cards, addresses as plain text): street addresses + site phones merged into the part (`bb_registry+bdbl_site`; data baked into the scraper as `BDBL_SITE_ADDRESSES`, no extra file); see special case above |
 | Citibank N.A. | 4 records ✓ | recovered 2026-09-27 via `registry: yes` (bb_registry offline part) — no consumer site/branch listing exists anymore; see special case above |
 | IFIC Bank | 20 records ⚠️ | expected 200+; only `html_table` won 20 rows — their locator needs investigation |
+| BKB, BASIC, RAKUB, Rupali | parts held at 2026-09-27 commit ⚠️ | a 2026-09-29 office re-scrape lost real records (BASIC 14 sub-branches, Rupali 16 outlets, RAKUB 4) to since-fixed merge rules — re-scrape from home and review before accepting newer versions |
+| IBBL, NRBC, Shahjalal, FSIBL, Dhaka Bank, Citizens | parts restored ✓ | their feeds served partial data from the office IP on 2026-09-29 (IBBL 888→469, Shahjalal's new interactive locator) — retry from home; a "success" with far fewer records than the previous part is always worth a second look |
 | Sonali, Janata, BKB, RAKUB, Bank Asia, UCB, NCC, Meghna, Probashi Kallyan, Southeast, SC, Woori, ICB Islamic | 0 sub-branches | their scraped listings simply contain no sub-branch/Uposhakha rows — a coverage gap (sub-branch listing pages need seeding), not a classification bug |
 
 Recovered after earlier blocks: Southeast Bank (131 branches via
@@ -376,6 +396,10 @@ Woori, Bengal, Shimanto (CSV seeds and/or Firecrawl re-render).
 
 ## Ideas / next steps
 
+* retry the office-IP-partial banks from home (IBBL, NRBC, FSIBL, Dhaka
+  Bank, Citizens) and hunt Shahjalal's new interactive locator endpoint
+* re-scrape BKB/BASIC/RAKUB/Rupali from home and review against the held
+  parts; fix the Rupali all-caps feed merge edge case
 * investigate the IFIC undercount; seed sub-branch pages for the state banks
 * district/division normalization from address text (Cumilla/Comilla,
   Chattogram/Chittagong spellings), optional geocoding

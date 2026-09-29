@@ -1,12 +1,21 @@
 {
   "_bank": "Mutual Trust Bank PLC",
   "bank_url": "https://www.mutualtrustbank.com/",
-  "method": "html_cards+json_api+markdown",
+  "method": "html_cards+html_table+json_api+markdown",
   "status": "success",
   "bank_id": "65",
-  "total_branch": 153,
+  "total_branch": 154,
   "total_sub_branch": 38,
   "branch": [
+    {
+      "MTB DINAJPUR BRANCH UNIT": [
+        "Modern more, Goneshtola, Dinajpur.",
+        null,
+        null,
+        "650607",
+        "145280677"
+      ]
+    },
     {
       "MTB Goalmari Branch": [
         "Ramaithkandi, Goalmari, Daudkandi, Comilla-3516",
@@ -81,9 +90,9 @@
     },
     {
       "MTB Tower Branch": [
-        "MTB Tower, 111 Kazi Nazrul Islam Avenue, Dhaka 1000",
+        "MTB Tower(in side), 111 Kazi Nazrul Islam Avenue, Dhaka 1000",
         null,
-        "88 02 9344153",
+        "880 (2) 9882473; 880 (2) 8837840",
         "650138",
         null
       ]
@@ -98,29 +107,11 @@
       ]
     },
     {
-      "Joydebpur Branch": [
-        "Gazipur, Judge Court,Gazipur",
-        null,
-        null,
-        "650148",
-        "145330730"
-      ]
-    },
-    {
       "MTB Bogura Branch": [
         "MTB Runner Plaza Smart Banking Kiosk Runner Plaza, 7/A, Nabab bari Road, Bogura",
         null,
         null,
         "650450",
-        null
-      ]
-    },
-    {
-      "Panthapath Branch": [
-        "MTB Ispahani Islamia Eye Hospital Kiosk-1",
-        null,
-        null,
-        "650101",
         null
       ]
     },
@@ -144,7 +135,7 @@
     },
     {
       "FLORA LIMITED BANANI BRANCH,54 KEMAL ATATURK AVENUE(1ST FLOOR)BANANIBANANI": [
-        null,
+        "FLORA LIMITED",
         null,
         null,
         "650112",
@@ -153,7 +144,7 @@
     },
     {
       "FLORA LIMITED IDB BHABAN BRANCH,IDB BHABAN SR#127-128(1ST FLOOR)E/8-A ROKEYA SHARANIIDB BHABAN": [
-        null,
+        "FLORA LIMITED",
         null,
         null,
         null,
@@ -162,7 +153,7 @@
     },
     {
       "FLORA LIMITED LALKHAN BAZAR BRANCH28 M M ALI ROAD,CDA AVENUE,LALKHAN BAZARLALKHAN BAZAR": [
-        null,
+        "FLORA LIMITED",
         null,
         null,
         "650002",
@@ -171,7 +162,7 @@
     },
     {
       "GRAMSICO SYLHET BRANCH, RAJNA MANSIONEAST DARGHA GATE, AIRPORT ROAD,SYLHETDARGHA GATE": [
-        null,
+        "GRAMSICO",
         null,
         null,
         "650601",
@@ -180,7 +171,7 @@
     },
     {
       "TOP TEN MART LTD. UTTARA BRANCHPLOT#30 SECTION#11 SONARGAON JANAPATHUTTARA": [
-        null,
+        "TOP TEN MART LTD.",
         null,
         null,
         "650126",
@@ -189,7 +180,7 @@
     },
     {
       "TOP TEN MART LTD. GULSHAN BRANCHGULSHAN PINK CITY, GULSHAN-02GULSHAN": [
-        null,
+        "TOP TEN MART LTD.",
         null,
         null,
         "650109",
@@ -198,7 +189,7 @@
     },
     {
       "TOP TEN MART LTD. MIRPUR BRANCH. 1-B/1-13 KALWALAPARA(MAIN ROAD)MIRPUR-1MIRPUR": [
-        null,
+        "TOP TEN MART LTD.",
         null,
         null,
         "650133",
@@ -270,7 +261,7 @@
     },
     {
       "DRESS GALLERY AZIMPUR BRANCH,MATADOR HARBOUR (4TH FLOOR) 102 AZIMPUR ROADAZIMPUR": [
-        null,
+        "DRESS GALLERY",
         null,
         null,
         null,
@@ -297,7 +288,7 @@
     },
     {
       "SAVAR-A BRANCH A/23,BAZAR ROAD,OPPOSITE SIDE OF BILASH CINEMA HALL,SAVAR,DHAKA": [
-        null,
+        "EASY FASHION (SAVAR)",
         null,
         null,
         "650152",
@@ -306,7 +297,7 @@
     },
     {
       "WARI BRANCH, A.K. FAMOUS TOWER (3RD FLOOR), 41 RANKING STREET, WARI, DHAKA": [
-        null,
+        "PERSONA HAIR & BEAUTY LTD (PARLOR)",
         null,
         null,
         null,
@@ -317,17 +308,8 @@
       "Panthapath Branch": [
         "Chandrashila Suvastu Tower, 69/1 Panthapath, Dhaka Fax: 880-2-8624687",
         null,
-        "02-8613807; 02-8629887; 880-2-8624687",
+        "9641027, 9641281",
         "650101",
-        null
-      ]
-    },
-    {
-      "Principal Branch": [
-        "WW Tower,68 Motijheel C/A, Dhaka Fax: 880-2-7110930",
-        null,
-        "7113237-38, 7119964, 7122049, 7122849",
-        "650100",
         null
       ]
     },
@@ -344,7 +326,7 @@
       "Uttara Model Town Branch": [
         "Auckland Centre (1st & 2nd floor), House No.11, Road No.06, Sector No.04, Uttara, Dhaka-1230 Fax: 88 02-8951474",
         null,
-        "88 02-8924379, 88 02-8951474",
+        "58954379, 8960724, 8962464",
         "650103",
         null
       ]
@@ -461,7 +443,7 @@
       "Rangpur Branch": [
         "Mostofa Super Market (1st & 2nd floor), 1 Jahaj company Mour, Rangpur Sadar, Rangpur Fax: 0521-52326",
         null,
-        "0521-52325, 0521-52326",
+        "0521-52325; 0521-52326",
         "650511",
         "145851451"
       ]
@@ -470,7 +452,7 @@
       "Banani Branch": [
         "Lintoo Centre, (1st floor and 2nd floor) House- 82, Road-11, Block-D, Ward-19 Banani, Dhaka-1213. 02 2222 83831 (PABX), 02 2222 74164 (PABX) 02 222283861 (Direct), 02 2222 75469 (Direct) Fax: 988-3861",
         null,
-        null,
+        "988-3861(Direct)",
         "650112",
         null
       ]
@@ -479,7 +461,7 @@
       "Kushtia Branch": [
         "Eden Complex, 169 (94/6 old) NS road 1st Floor, Thanapara, Kushtia Direct ) 071- 71663 ( PABX) Fax: 071-71662",
         null,
-        "071-71662 (",
+        "071-71662",
         "650301",
         "145500944"
       ]
@@ -515,7 +497,7 @@
       "Rajshahi Branch": [
         "419, Parents Plaza, Alupatty, Ghoramara, Rajshahi DIRECT), 88-0721-776290(PABX) Fax: 88-0721-776380",
         null,
-        "88-0721-776203(",
+        "0721-776203",
         "650350",
         "145811938"
       ]
@@ -704,7 +686,7 @@
       "Dhorkora Bazar Branch": [
         "Dhorkora Bazar, Chauddagram, Cumilla Phone: Mobile No:01730080633 Fax:",
         null,
-        null,
+        "01730080633",
         "650031",
         "145191795"
       ]
@@ -764,29 +746,11 @@
       ]
     },
     {
-      "Baridhara Branch": [
-        "The Alliance Building, 63 Pragati Sarani, Dhaka 1212 Fax: 02-8818667",
-        null,
-        "02-8818666, 02-9892826",
-        "650118",
-        null
-      ]
-    },
-    {
       "Cumilla Branch": [
         "Rama Complex, 416/379 Badurtala, Kandirpar Cumilla Phone: Direct: 081-64556, Ex-101 Fax: 081-64556",
         null,
         "081-64557",
         null,
-        null
-      ]
-    },
-    {
-      "Oxygen Mor Branch": [
-        "Plasma Hospital Building, 3692/E Oxygen Mor, Bayazid Bostami, Chittagong- 4210 Fax: 031-2583958",
-        null,
-        "031-2583957, 2584315",
-        "650009",
         null
       ]
     },
@@ -882,7 +846,7 @@
     },
     {
       "Meghna Branch": [
-        "Meghna Industrial Park, Sonargaon, Narayanganj",
+        "Fresh Super Mart (1st Floor), Meghna Industrial Park, Sonargaon, Narayanganj",
         null,
         "04478526268",
         "650123",
@@ -911,7 +875,7 @@
       "Kakrail Branch": [
         "House# 89, Green City Edge (1st Floor), Kakrail C/A, Dhaka-1000 ; 02-8300173 Fax: 02-8300171",
         null,
-        "02-8300172; 02-8300173; 02-8300171",
+        "8300172; 8300173",
         "650125",
         null
       ]
@@ -963,7 +927,7 @@
     },
     {
       "Mirpur Branch": [
-        "Fahad Plaza, Plot 1 & 2, Road No 1, Section – 10, Mirpur, Dhaka Fax:",
+        "Fahad Plaza Plot No- 1, Road No- 1 Section-10, Thana: Kafrul Mirpur, Dhaka",
         null,
         "02-9026281",
         "650133",
@@ -1008,7 +972,7 @@
     },
     {
       "Monipur Bazar Branch": [
-        "Sikder Market, Monipur Bazar, Nuhash Palli Road Gazipur Sadar, Gazipur 1700 Fax:",
+        "Sikder Market, Monipur Bazar, , Hotapara-Nuhash Palli Road, Gazipur Sadar, Gazipur 1700.",
         null,
         "88 068255517",
         "650134",
@@ -1118,7 +1082,7 @@
       "Dagon Bhuiyan SME/ Agri Branch": [
         "R. B. Plaza (1st Floor), Fazilerghat Road, Dagoanbhuiyan, Feni Fax: 03323-79126",
         null,
-        "03323-79129; 01714108862; 03323-79126",
+        "03323-79129, 01714108862",
         "650052",
         null
       ]
@@ -1136,7 +1100,7 @@
       "Bhojeswar SME/Agri Branch": [
         "Commissioner Plaza, 1st Floor, Bhojeswar Bazar, Naria, Dist: Shariatpur Fax: 0601-59129",
         null,
-        "+88-06-0159129",
+        "06-0159129; 0601-59129",
         "650054",
         null
       ]
@@ -1262,7 +1226,7 @@
       "Malibagh Chowdhurypara Branch": [
         "KBG Tower 15 DIT Road Malibagh Chowdhurypara, Dhaka.",
         null,
-        "8802222220487, 8802222220486",
+        "8802222220487; 8802222220486",
         "650142",
         null
       ]
@@ -1283,15 +1247,6 @@
         null,
         "650608",
         "145490704"
-      ]
-    },
-    {
-      "Hemayatpur Branch": [
-        "Lalon Tower & Shopping Complex, Tatuljhora, Hemayetpur,Savar, Dhaka",
-        null,
-        null,
-        "650144",
-        null
       ]
     },
     {
@@ -1376,6 +1331,60 @@
       ]
     },
     {
+      "Oxygen Mor Branch": [
+        "S. Ali Tower Oxygen-Quaish Link Road Ward No. 03 Chattogram City Corporation Bayzid Bostami, Chattogram",
+        null,
+        "031-2583957",
+        "650009",
+        null
+      ]
+    },
+    {
+      "Baridhara Branch": [
+        "The Alliance Building 63, Pragati Sarani(1st Floor), Shahjadpur, Gulshan, Dhaka",
+        null,
+        "02-8818666, 02-9892826",
+        "650118",
+        null
+      ]
+    },
+    {
+      "Principal Branch": [
+        "WW Tower (1st-3rd Floor) 68, Motijheel C/A Dhaka-1000 Bangladesh",
+        null,
+        "02)47113237-38",
+        "650100",
+        null
+      ]
+    },
+    {
+      "Hemayetpur Branch": [
+        "Lalon Tower & Shopping Complex, Tatuljhora, Hemayetpur, Savar, Dhaka",
+        null,
+        null,
+        "650144",
+        null
+      ]
+    },
+    {
+      "Cox`s Bazar Branch": [
+        "Green Valley Business Centre, 01, Main Road, Jawtala, Cox's Bazar",
+        null,
+        null,
+        "650015",
+        null
+      ]
+    },
+    {
+      "Ctg Medical college Branch": [
+        "Epic Center, 19 Panchlaish, Chattogram",
+        null,
+        "031-656880; 031-656884",
+        null,
+        null
+      ]
+    },
+    {
       "Md. Zakir Hussain and Head of MTB Chittagong Division Branches": [
         "managers of nearby MTB branches and people from different strata also attended the program. The opening ceremonies were followed by a lunch meeting with all the guests present.",
         null,
@@ -1388,7 +1397,7 @@
   "sub_branch": [
     {
       "MTB Mongla EPZ Sub-Branch,Zone Services Complex ,Mongla EPZ, Mongla, Bagerhat": [
-        null,
+        "MTB Mongla EPZ ATM",
         null,
         null,
         null,

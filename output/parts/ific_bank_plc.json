@@ -4,22 +4,22 @@
   "method": "html_table",
   "status": "success",
   "bank_id": "45",
-  "total_branch": 11,
-  "total_sub_branch": 9,
+  "total_branch": 10,
+  "total_sub_branch": 10,
   "branch": [
     {
       "Aganagar Branch": [
         "“Babul Tower”, Bridge Road, Kadamtali, Aganagar Union , South Keraniganj, Dhaka",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01787668285; 01787668291; 0880 9666 716",
         "450114",
-        null
+        "120270136"
       ]
     },
     {
       "Agrabad Branch": [
         "“Suraiya Mansion”, Holding No- 30, Agrabad C/A, Dist.: Chattogram",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01713229814; 09666 716 250; 031-710531",
         "450002",
         "120150135"
@@ -28,7 +28,7 @@
     {
       "Akhaura Branch": [
         "68,Shahjadi Complex, Akhaura Pouroshava , Brahmanbaria.",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01709679980; 01713755009",
         "450034",
         "120120044"
@@ -37,7 +37,7 @@
     {
       "Alankar More Branch": [
         "Alankar More, Ward No.10, P.S. Pahartoli, Chittagong City Corporation, Dist.- Chattogram",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01730709795; 01755520715; 0243151173; 0243151174; 02243151175",
         null,
         "120150148"
@@ -46,25 +46,25 @@
     {
       "Amberkhana Branch": [
         "Point View Shopping Center , Holding-0841-00, Sunamganj Road, Amberkhana, Sylhet.",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01678010227",
         null,
-        null
+        "120913972"
       ]
     },
     {
       "Anwara Branch": [
         "\"Haque Tower\", P A B Road, Chatori, Chowumuhani Bazar, Anwara, Chattogram",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01708466482; 09666716250",
         "450027",
-        null
+        "120150522"
       ]
     },
     {
       "Araihazar Branch": [
         "\"Rezia Complex\", Araihazar General Hospital Road, Araihazar Pourasava , Narayanganj",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "+8801730006643; +8801755543544",
         "450138",
         "120670044"
@@ -73,16 +73,16 @@
     {
       "Arshinagar Branch": [
         "Arshinagar, Modher Char, Shakta Union Parishad, Keraniganj, Dhaka",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01708466483; 01708123360",
         "450127",
-        null
+        "120270507"
       ]
     },
     {
       "Ashugonj Branch": [
         "“Sheria Sayed Tower”, Holding No.336/1, Post office Road, Ashuganj Bazar, Ashuganj Upazilla , Brahmanbaria",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01755520716; 08528-74623",
         "450051",
         "120120107"
@@ -91,19 +91,10 @@
     {
       "Ashulia Branch": [
         "“Rifat Square Plaza”, Jamgora, Yarpur Union , Ashulia, Savar, Dhaka",
-        "https://ificbank.com.bd/branch",
+        "https://ificbank.com.bd/branch#",
         "01713423767; 01678010069",
         "450019",
-        null
-      ]
-    },
-    {
-      "Academi Road Uposhaka": [
-        "Building Name : Bondhon Rajprasad, Holding No: 51, Road Name: Academy Road, Road No: N/A, Ward No: 03, Pourashava.: Feni, Thana: Feni Sadar, District: Feni",
-        "https://ificbank.com.bd/uposhakha",
-        "09666716250",
-        null,
-        null
+        "120260225"
       ]
     }
   ],
@@ -111,82 +102,91 @@
     {
       "1 No. Kalma Bazar Uposhakha": [
         "Amir Tower, Area: 1 No. Kalma, Union: Savar, Thana: Savar, District: Dhaka-1341.",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120264126"
       ]
     },
     {
       "2 No Gate - Chattogram Uposhakha": [
         "Holding No: 229, Road Name: Bayazid Road, Thana: Panchlaish, District: Chattogram",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120151484"
       ]
     },
     {
       "Abadpukur Uposhakha": [
         "Building Name: Arafat Shopping Complex, Village: Abadpukur, Union: Kaligram, Thana: Raninagar, District: Naogaon",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120641181"
       ]
     },
     {
       "Abdullahpur Bus Stand Uposhakha": [
         "“Prottasha”, Road Name: Dhaka-Mymensingh Highway, Road No: 7/D, Thana: Uttara West, District: Dhaka",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120261640"
       ]
     },
     {
       "Abdullahpur Uposhakha": [
         "Abdullahpur Bus Stand, Union: Teghoria, Thana: South Keranigonj, Dhaka",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120270136"
       ]
     },
     {
       "Abdulpur Station Bazar Uposhakha": [
         "Efat Soha Complex, Area: Abdulpur Station Bazar, Union: 3 No. Chongdhupol, Thana: Lalpur, District: Natore.",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120691094"
       ]
     },
     {
       "Abul Hasnat Road Uposhakha": [
         "House# 47/1, Road Name: Abul Hasnat Road, Thana: Bangshal, District: Dhaka.",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120270886"
+      ]
+    },
+    {
+      "Academi Road Uposhaka": [
+        "Building Name : Bondhon Rajprasad, Holding No: 51, Road Name: Academy Road, Road No: N/A, Ward No: 03, Pourashava.: Feni, Thana: Feni Sadar, District: Feni",
+        "https://ificbank.com.bd/uposhakha#",
+        "09666716250",
+        null,
+        "120300527"
       ]
     },
     {
       "Adabor 16 Uposhakha": [
         "Building No.: 22/B, Road Name: Comfort Housing, Road No.: 16, Thana: Adabor, District: Dhaka",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120263280"
       ]
     },
     {
       "Adabor-11 Uposhakha": [
         "Holding No.: 545/A1, Road Name: Adabor, Road No.: 11, Thana:Adabor, District: Dhaka.",
-        "https://ificbank.com.bd/uposhakha",
+        "https://ificbank.com.bd/uposhakha#",
         "09666716250",
         null,
-        null
+        "120263280"
       ]
     }
   ]

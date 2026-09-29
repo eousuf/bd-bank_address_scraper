@@ -4,7 +4,7 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "68",
-  "total_branch": 148,
+  "total_branch": 147,
   "total_sub_branch": 0,
   "branch": [
     {
@@ -57,7 +57,7 @@
         "Tanvir Super Market (1st Floor), Ashulia Bazar, Savar, Dhaka",
         null,
         "09617960100; 01817066665; 01676719991; 01719320535",
-        "680121",
+        "680151",
         null
       ]
     },
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "Chaktai": [
+      "Chaktai Branch": [
         "1676, River City Market, New Chaktai, Shah Amanat Bridge Connecting Road, Chattogram",
         null,
         "031 2866395-97; 01815055978; 01713 248725; 01711 932037; 01747 555500",
@@ -1066,7 +1066,7 @@
         null,
         "02 48952536; 09617960100; 01713378984; 01732461746; 01670-056444",
         "680160",
-        "070671698"
+        "070260083"
       ]
     },
     {
@@ -1317,7 +1317,7 @@
         "Tanvir Super Market (1st Floor), Ashulia Bazar Bus Stand, Ashulia, Savar, Dhaka",
         null,
         null,
-        "680121",
+        "680126",
         null
       ]
     },
@@ -1327,15 +1327,6 @@
         null,
         null,
         "680121",
-        null
-      ]
-    },
-    {
-      "Sirajdikhan SME / Agri Branch": [
-        "Branch Code: 151, Address: Sikder Market, Sirajdikhan Bazar, Sirajdikhan,",
-        null,
-        null,
-        "680126",
         null
       ]
     }

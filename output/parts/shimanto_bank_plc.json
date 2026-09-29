@@ -4,7 +4,7 @@
   "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "50",
-  "total_branch": 29,
+  "total_branch": 28,
   "total_sub_branch": 8,
   "branch": [
     {
@@ -13,7 +13,7 @@
         null,
         "09610870001; 09610870002",
         "500101",
-        null
+        "305260211"
       ]
     },
     {
@@ -58,7 +58,7 @@
         "https://old.shimantobank.com/_wp_link_placeholder",
         "09610870060; 09610870061",
         "500103",
-        null
+        "305274249"
       ]
     },
     {
@@ -67,7 +67,7 @@
         null,
         "09610870190; 09610870191",
         "500106",
-        null
+        "305261728"
       ]
     },
     {
@@ -85,7 +85,7 @@
         null,
         "09610870080; 09610870081",
         "500003",
-        null
+        "305220251"
       ]
     },
     {
@@ -94,7 +94,7 @@
         null,
         "09610870090; 09610870091",
         "500004",
-        null
+        "305220914"
       ]
     },
     {
@@ -134,21 +134,12 @@
       ]
     },
     {
-      "Pragpur Branch": [
-        "Afsana Plaza, Pragpur Bazzar, Pragpur, Doulatpur, Kushtia",
-        null,
-        "09610870140; 09610870141",
-        "500202",
-        "305501396"
-      ]
-    },
-    {
       "Uttara Branch": [
         "Plot No. 38, Rabindra Sarani, Sector-7, Uttara, Dhaka-1203",
         null,
         "09610870150; 09610870151",
         "500104",
-        null
+        "305264633"
       ]
     },
     {
@@ -157,7 +148,7 @@
         null,
         "09610870160; 09610870161",
         "500105",
-        null
+        "305270748"
       ]
     },
     {
@@ -202,7 +193,7 @@
         null,
         "09610870230; 09610870231",
         null,
-        null
+        "305280525"
       ]
     },
     {
@@ -212,15 +203,6 @@
         "09610870220; 09610870221",
         "500602",
         "305851459"
-      ]
-    },
-    {
-      "Zakigonj Branch": [
-        "Five Star (1st Floor), Kaligonj Bazar, Union: Manikpur, Upozilla: Zakiganj, Sylhet.",
-        null,
-        "09610870240; 09610870241",
-        "500502",
-        "305914125"
       ]
     },
     {
@@ -256,16 +238,25 @@
         null,
         "09610870280; 09610870281",
         "500107",
-        null
+        "305260224"
       ]
     },
     {
-      "Mymensingh Branch": [
-        "Jhosho Madov Vandar (1st Floor)",
+      "Zakigonj Branch": [
+        "<span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\"></span>",
         null,
-        "09610870020; 09610870021",
-        "500701",
-        "305611752"
+        "09610870240; 09610870241",
+        "500502",
+        "305914125"
+      ]
+    },
+    {
+      "Pragpur Branch": [
+        "<span style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" data-mce-type=\"bookmark\" class=\"mce_SELRES_start\"></span>",
+        null,
+        "09610870140; 09610870141",
+        "500202",
+        "305501396"
       ]
     }
   ],

@@ -1,633 +1,1273 @@
 {
   "_bank": "National Credit & Commerce (NCC) Bank PLC",
   "bank_url": "https://www.nccbank.com.bd/",
-  "method": "html_table",
+  "method": "modal_tables",
   "status": "success",
   "bank_id": "53",
-  "total_branch": 69,
-  "total_sub_branch": 0,
+  "total_branch": 131,
+  "total_sub_branch": 9,
   "branch": [
     {
-      "Haji Nur Market (2 nd Floor)": [
-        "Sarak bazar,Main Road,Akhaura,Brahmanbaria",
+      "Agrabad Branch": [
+        "Rafique Tower (1st & 2nd Floor), 92, Agrabad C/A, Chattogram",
         null,
         null,
+        "530061",
+        null
+      ]
+    },
+    {
+      "Akhaura Branch": [
+        "Haji Nur Market (2 nd Floor),Sarak bazar,Main Road,Akhaura,Brahmanbaria",
+        null,
+        "08522-56260",
+        "530052",
+        "160120046"
+      ]
+    },
+    {
+      "Aman Bazar Branch": [
+        "Chikondondi, Hathazari, Chattogram.",
+        null,
+        "031-2583884",
+        "530075",
+        "160150258"
+      ]
+    },
+    {
+      "Anderkilla Branch": [
+        "Hara Kishore Chowdhury Trust, 1209, K.B Aman Ali Road, Kotwali,Chattogram",
+        null,
+        "031-2850882",
+        "530070",
+        "160150461"
+      ]
+    },
+    {
+      "Anwara Branch": [
+        "Kohinoor Plaza (1st floor), Kala Bibi Dighir More, Village-Belchura, Union-Chatari, Ward No. 06, Thana-Anwara, Upazilla-Anwara, Dist-Chattogram",
+        null,
+        null,
+        null,
+        "160150832"
+      ]
+    },
+    {
+      "Babubazar Branch": [
+        "Reaz Medicine Market, 57, Mitford Road, Babubazar",
+        null,
+        "02-7341348",
+        "530427",
+        "160270554"
+      ]
+    },
+    {
+      "Baganchra Branch": [
+        "Chand Super Market (1st floor), Baganchra Bazar, Satkhira-Jessore Road,7 No. Kaiba Union, P.S- Sharsha, Jessore",
+        null,
+        null,
+        "530202",
+        "160410101"
+      ]
+    },
+    {
+      "Baipail Branch": [
+        "Bismillah Azmiri Plaza, (1st Floor), North Gazirsot, Ashulia, Savar, Dhaka",
+        null,
+        null,
+        "530116",
+        "160260656"
+      ]
+    },
+    {
+      "Banani Branch": [
+        "Tower 52, 1st & 2nd floor, House No.52, Road No.11, Block C, Banani, Dhaka-1213",
+        null,
+        "02-9861628",
+        "530439",
+        null
+      ]
+    },
+    {
+      "Baneswar SME/Agri Branch": [
+        "Baneswar, P.S. Puthia, Dist. -Rajshahi",
+        null,
+        "-",
+        "531502",
+        "160810235"
+      ]
+    },
+    {
+      "Bangshal Branch": [
+        "216, Bangshal Road, Dhaka",
+        null,
+        "02-7126182",
+        "530430",
+        "160270888"
+      ]
+    },
+    {
+      "Baraiyarhat Branch": [
+        "Green Tower, 1st floor, Holding No.377/1, Ward No.2, Jorargonj, Baraiyarhat, Chattogram",
+        null,
+        "-",
+        "530069",
+        "160151099"
+      ]
+    },
+    {
+      "Baralekha Branch": [
+        "Dhakhhinbazar, Main Road, Baralekha , Moulvibazar-3250",
+        null,
+        "08622-56462",
+        "530302",
+        "160580107"
+      ]
+    },
+    {
+      "Baridhara Branch": [
+        "Empori Financial Tower, House No. 06, Road No. 93, Gulshan North/East Avenue, Gulshan, Dhaka.",
+        null,
+        "9852069",
+        "530111",
+        null
+      ]
+    },
+    {
+      "Barisal Branch": [
+        "Upandra Bhaban,102/103,Sadar Road,Barisal",
+        null,
+        "0431-2177400",
+        "530801",
+        null
+      ]
+    },
+    {
+      "Bashundhara Branch": [
+        "186, Avenue Road, Block-B, Bashundhara R/A, Dhaka",
+        null,
+        "02 8419606",
+        "530103",
+        "160260551"
+      ]
+    },
+    {
+      "Bijoy Nagar Branch": [
+        "Saiham Sky View Tower (1st floor), 45, Bijoy Nagar, Dhaka",
+        null,
+        "02-8333842",
+        "530442",
+        "160271090"
+      ]
+    },
+    {
+      "Bishwaroad More Branch": [
+        "Nowsha Plaza (1st Floor), Holding No: 487, Union-Budhol, Ward No: 06, Village-Khatihata, Thana-Brahamanbaria, District-Brahamanbaria",
+        null,
+        "-",
+        "530002",
+        "160120062"
+      ]
+    },
+    {
+      "Boalkhali Branch": [
+        "Kabir Centre ( 1st floor ) East Gumdandi ( In front of Sirajul Islam College ) Boalkhali, Chattogram",
+        null,
+        "030 3256186",
+        "530077",
+        "160151307"
+      ]
+    },
+    {
+      "Bogra Branch": [
+        "Bashiran Market (1st Floor), Kabi Nazrul Islam Road, Zhawtola, Bogra",
+        null,
+        "051-69918",
+        "531550",
+        "160100374"
+      ]
+    },
+    {
+      "Brahmanbaria SME/Agri Branch": [
+        "Al Amin Plaza (1st floor), T.A Road, Brahmanbaria",
+        null,
+        "0851-61312",
+        null,
+        "160120446"
+      ]
+    },
+    {
+      "CEPZ Branch": [
+        "Ali Plaza(1st Floor), CEPZ Gate, Airport Road, South Halishahar, Bander, Chattogram.",
+        null,
+        "031-740491",
+        "530071",
+        "160151578"
+      ]
+    },
+    {
+      "Chagalnaiya Branch": [
+        "Haji Ahasan Ullah Bhuiyan Tower (1st floor),1422, Main Road,,Chagalnaiya,Dist-Feni",
+        null,
+        "03322-78111",
         null,
         null
       ]
     },
     {
-      "AD Branch": [
-        "No",
+      "Chakaria Branch": [
+        "Al-Aksha Shopping Tower, 57, Chringa Bus Station, Chakaria, Cox's Bazar",
+        null,
+        "03422-56527",
+        "530192",
+        "160220162"
+      ]
+    },
+    {
+      "Chandina Branch": [
+        "Nasu Bhuiyan Super Market, Holding no. 786 , Chandina Moddoho Bazar, Ward # 05, Chandina Pouroshova P.S: Chandina, Cumilla",
         null,
         null,
+        "530012",
+        "160190889"
+      ]
+    },
+    {
+      "Chapainawabganj Branch": [
+        "Holding No.33/1 (1st floor), Boro-Indara More, Chapainawabganj.",
         null,
+        null,
+        "530305",
+        "160700253"
+      ]
+    },
+    {
+      "Chatkhil Branch": [
+        "Rafique ullah Bhuiyan tower, 428, 429 khilpara sarak, Chatkhil, Noakhali",
+        null,
+        null,
+        "530013",
         null
       ]
     },
     {
-      "SME/Agri Branch": [
-        "No",
+      "Chaumuhani Branch": [
+        "Chaumuhani Plaza (2nd & 3rd Floor), 51, DB Road, Chaumuhani , Noakhali",
         null,
-        null,
-        "530213",
-        null
-      ]
-    },
-    {
-      "Chikondondi": [
-        "Hathazari, Chattogram.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Hara Kishore Chowdhury Trust": [
-        "1209, K.B Aman Ali Road, Kotwali,Chattogram",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Reaz Medicine Market": [
-        "57, Mitford Road, Babubazar",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "AD Branch": [
-        "Yes. Swift Code:NCCLBDDHBBB",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Tower 52": [
-        "1st & 2nd floor, House No.52, Road No.11, Block C, Banani, Dhaka-1213",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Dhakhhinbazar": [
-        "Main Road, Baralekha , Moulvibazar-3250",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Upandra Bhaban": [
-        "102/103,Sadar Road,Barisal",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Saiham Sky View Tower (1st floor)": [
-        "45, Bijoy Nagar, Dhaka",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Al Amin Plaza (1st floor)": [
-        "T.A Road, Brahmanbaria",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "SME/Agri Branch": [
-        "Yes",
-        null,
-        null,
-        "530213",
-        null
-      ]
-    },
-    {
-      "Ali Plaza(1st Floor)": [
-        "CEPZ Gate, Airport Road, South Halishahar, Bander, Chattogram.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Haji Ahasan Ullah Bhuiyan Tower (1st floor)": [
-        "1422, Main Road,,Chagalnaiya,Dist-Feni",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Al-Aksha Shopping Tower": [
-        "57, Chringa Bus Station, Chakaria, Cox's Bazar",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Chaumuhani Plaza (2nd & 3rd Floor)": [
-        "51, DB Road, Chaumuhani , Noakhali",
-        null,
-        null,
+        "0321-53595",
         "530282",
+        "160750674"
+      ]
+    },
+    {
+      "Chawkbazar Branch": [
+        "S.S Tower, 415, Katalgonj Road, Panchlaish, Chattogram",
+        null,
+        null,
+        "530010",
+        "160151936"
+      ]
+    },
+    {
+      "Chowdhuryhat Branch": [
+        "Showkhin Market (1st floor), Chowdhuryhat, Boalkhali, Chattogram",
+        null,
+        null,
+        "530008",
+        "160150845"
+      ]
+    },
+    {
+      "Chowhatta Branch": [
+        "Sayed Complex, Airport Road, Ambarkhana, Sylhet",
+        null,
+        "0821-714615",
+        "530392",
+        "160910793"
+      ]
+    },
+    {
+      "Cox's Bazar Branch": [
+        "Main Road, Bazar Ghata, Cox's Bazar",
+        null,
+        null,
+        "530191",
         null
       ]
     },
     {
-      "Sayed Complex": [
-        "Airport Road, Ambarkhana, Sylhet",
+      "Cumilla Branch": [
+        "Samabaya Bank Bhaban (1st Floor), Kandirpar, Cumilla",
         null,
+        "081-64789",
+        "530250",
+        "160191154"
+      ]
+    },
+    {
+      "Darus Salam Road Branch": [
+        "Friends Plaza, 5C & 5D Darus Salam Road, Mirpur-1, Dhaka",
         null,
+        "-",
+        "530106",
+        "160260948"
+      ]
+    },
+    {
+      "Dhakhinkhan Branch": [
+        "K.C. Plaza (1st Floor), Dhakhinkhan, Dhaka",
         null,
+        "02-8999643",
+        "530102",
+        "160260919"
+      ]
+    },
+    {
+      "Dhanmondi Branch": [
+        "Quality Center, 744, Shat Masjid Road, Dhanmondi, Dhaka",
+        null,
+        "02-9139908",
+        "530424",
         null
       ]
     },
     {
-      "K.C. Plaza (1st Floor)": [
-        "Dhakhinkhan, Dhaka",
+      "Dilkusha Branch": [
+        "Hossain Chamber, 43,Dilkusha C/A, Dhaka",
         null,
-        null,
-        null,
+        "02-9578561",
+        "530432",
         null
       ]
     },
     {
-      "Quality Center": [
-        "744, Shat Masjid Road, Dhanmondi, Dhaka",
+      "Dinajpur Branch": [
+        "Taj Bhaban (1st Floor), Munshipara, Dinajpur",
+        null,
+        "0531-66159",
+        "532601",
+        "160280678"
+      ]
+    },
+    {
+      "Elephant Road Branch": [
+        "Spectra Maqsood Tower (1st Floor), 65, Elephant Road, Dhaka",
+        null,
+        "9664197",
+        "530437",
+        "160261334"
+      ]
+    },
+    {
+      "Faridgonj SME/Agri Branch": [
+        "Bagan Bari, Holding No 796, Ward No 8, Faridgonj Pouroshova, Faridgonj, Dist: Chandpur",
+        null,
+        "08422-64408",
+        "531603",
+        "160130681"
+      ]
+    },
+    {
+      "Faridpur Branch": [
+        "FBL Sumon Nandan Tower (1st Floor), Holding No: 1/2 & 6/7, Mujib Sarak, Kotowali, Faridpur",
         null,
         null,
+        "530115",
+        "160290521"
+      ]
+    },
+    {
+      "Feni Branch": [
+        "Hazi Ibrahim Hossain Market, 10 Trank Road, Feni",
         null,
+        "0331-61850",
+        "530211",
         null
       ]
     },
     {
-      "Hossain Chamber": [
-        "43,Dilkusha C/A, Dhaka",
+      "Foreign Exchange Branch": [
+        "29/A, Toyenbee Circular Road, Motijheel C/A, Dhaka",
         null,
-        null,
-        null,
+        "02-9570727",
+        "530434",
         null
       ]
     },
     {
-      "Taj Bhaban (1st Floor)": [
-        "Munshipara, Dinajpur",
+      "Gouripur Branch": [
+        "Gouripur Bazar, P.S - Daudkandi, Cumilla",
         null,
-        null,
-        null,
-        null
+        "-",
+        "530251",
+        "160192111"
       ]
     },
     {
-      "Hazi Ibrahim Hossain Market": [
-        "10 Trank Road, Feni",
+      "Gulshan Branch": [
+        "51 Gulshan Avenue, Circle-1, Gulshan, Dhaka",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "29/A": [
-        "Toyenbee Circular Road, Motijheel C/A, Dhaka",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "51 Gulshan Avenue": [
-        "Circle-1, Gulshan, Dhaka",
-        null,
-        null,
+        "02-8818093",
         "530426",
         null
       ]
     },
     {
-      "Latif Tower": [
-        "2/3, Ahsanullah Road (2nd Floor). Islampur, Dhaka",
+      "Hajigonj Branch": [
+        "Ahmed Plaza (1st Floor), 79/64 Hajigonj, Chandpur",
+        null,
+        "08424-75490",
+        "531600",
+        "160130881"
+      ]
+    },
+    {
+      "Hajirhat Branch": [
+        "Muslim Miah Super Market (1st & 2nd floor), Char Jangalia, Hajirhat, Kamolnagar, Laxmipur",
         null,
         null,
+        "530009",
+        "160510098"
+      ]
+    },
+    {
+      "Halishahar Branch": [
+        "Plot No. 9, Block-L, Port Connecting Road, Halishahar, Chattogram",
         null,
+        "031-727933",
+        "530067",
+        "160153163"
+      ]
+    },
+    {
+      "Highway Branch, Comilla": [
+        "R.Islam Plaza (1st & 2nd floor), Alakharchar, North Durgapur Union,Thana Adarsha Sadar, District - Cumilla",
+        null,
+        null,
+        "530007",
+        "160190489"
+      ]
+    },
+    {
+      "Hossainpur Branch": [
+        "Azim Super Market (1st floor),Holding No.258, Hossainpur, Kishoreganj",
+        null,
+        null,
+        "530112",
+        "160480407"
+      ]
+    },
+    {
+      "Islampur Branch": [
+        "Latif Tower, 2/3, Ahsanullah Road (2nd Floor). Islampur, Dhaka",
+        null,
+        "02-7394881",
+        "530433",
+        "160272981"
+      ]
+    },
+    {
+      "Jagannathpur Branch": [
+        "Abu Taher Complex(1st Floor) Ranigonj Road, P.S. Jagannathpur, Dist. Sunamgonj",
+        null,
+        "08727 - 56187",
+        "530361",
+        "160900495"
+      ]
+    },
+    {
+      "Jatrabari Branch": [
+        "123/1-A, South Jatrabari, Dhaka-1204",
+        null,
+        null,
+        "530428",
+        "160273227"
+      ]
+    },
+    {
+      "Jessore Branch": [
+        "Liberty Tower, 348, Hatkhola Road, Jashore",
+        null,
+        "0421-68746",
+        "530921",
         null
       ]
     },
     {
-      "Liberty Tower": [
-        "348, Hatkhola Road, Jashore",
+      "Joydevpur Branch": [
+        "Rahmat Tower, Chandana Chowrasta,Joydevpur,Gazipur",
         null,
+        "+880-2-9263673",
+        "530470",
+        "160330731"
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "Dominion Plaza (1st Floor), 5 Jubilee Road, Chattogram",
         null,
-        null,
+        "031-614574",
+        "530063",
         null
       ]
     },
     {
-      "Dominion Plaza (1st Floor)": [
-        "5 Jubilee Road, Chattogram",
+      "Juri Branch": [
+        "Juri New Market Bhaban (1st Floor), Juri, Moulvibazar",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Juri New Market Bhaban (1st Floor)": [
-        "Juri, Moulvibazar",
-        null,
-        null,
+        "0862-757187",
         "530501",
+        "160580673"
+      ]
+    },
+    {
+      "Kachua SME/Agri Branch": [
+        "Kochua, Chandpur",
+        null,
+        null,
+        "531602",
+        "160130915"
+      ]
+    },
+    {
+      "Kadamtali Branch": [
+        "Shahabuddin Trade Center, Holding No.1230, D.T Road, Dhanialapara,Thana-Doublemooring, Ward No.23, Chattogram City Corporation, District- Chattogram",
+        null,
+        null,
+        "530065",
+        "160153734"
+      ]
+    },
+    {
+      "Kaligonj Branch()": [
+        "Shyamlal Market (1st floor), Holding No.37, Shaheed Moyez Uddin Road, Kaligonj Pouroshova, Thana-Kaligonj, District- Gazipur",
+        null,
+        null,
+        "530123",
         null
       ]
     },
     {
-      "Shahabuddin Trade Center": [
-        "Holding No.1230, D.T Road, Dhanialapara,Thana-Doublemooring, Ward No.23, Chattogram City Corporation, District- Chattogram",
+      "Kamal Bazar Branch": [
+        "Karnafully Centre, Arkan Road, Holding no.4902/A, P.O-Mohora, Ward No-05, P.S-Chandgaon, Chattogram.",
         null,
-        null,
-        null,
-        null
+        "031-2572862",
+        "530074",
+        "160153976"
       ]
     },
     {
-      "Shyamlal Market (1st floor)": [
-        "Holding No.37, Shaheed Moyez Uddin Road, Kaligonj Pouroshova, Thana-Kaligonj, District- Gazipur",
+      "Kanchpur Branch": [
+        "Tias Super Market (1st floor), Vill: Sonapur, Post Office-Kanchpur Bazar, Ward No.4, Sonargaon, Narayangonj.",
         null,
         null,
-        null,
-        null
+        "530118",
+        "160670125"
       ]
     },
     {
-      "Karnafully Centre": [
-        "Arkan Road, Holding no.4902/A, P.O-Mohora, Ward No-05, P.S-Chandgaon, Chattogram.",
+      "Karanirhat Branch": [
+        "Haque Tower Shopping Complex(1st Floor), Plot No. 9712, Satkania, Chattogram",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Haque Tower Shopping Complex(1st Floor)": [
-        "Plot No. 9712, Satkania, Chattogram",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Jahangir Tower": [
-        "10 Kazi Nazrul Islam Avenue, Kawran Bazar C/A, Dhaka",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Mostafa Tower (1st floor)": [
-        "A/36 Kumarpara, Sylhet",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Idrish Bhaban": [
-        "Mohajan Pattay Laldihgirpar, Sylhet",
-        null,
-        null,
+        "03036-56003",
         null,
         null
       ]
     },
     {
-      "Chowdhury Super Market": [
-        "College Road, Laxmipur",
+      "Kawran Bazar Branch": [
+        "Jahangir Tower, 10 Kazi Nazrul Islam Avenue, Kawran Bazar C/A, Dhaka",
         null,
-        null,
-        null,
+        "02-9124902",
+        "530431",
         null
       ]
     },
     {
-      "Bhatiary": [
-        "Sitakunda, Chattogram.",
+      "Khatungonj Branch": [
+        "601, Ramjoy Mahajan Lane, Khatungonj, Chattogram",
         null,
-        null,
-        null,
+        "031-636085",
+        "530062",
         null
       ]
     },
     {
-      "MadaripurNew Market (1st Floor)": [
-        "488, Main Road, Puran Bazar, Madaripur",
+      "Khulna Branch": [
+        "3, K.D. Gosh Road, Khulna",
         null,
         null,
+        "530971",
+        null
+      ]
+    },
+    {
+      "Kumarpara Branch": [
+        "Mostafa Tower (1st floor), A/36 Kumarpara, Sylhet",
+        null,
+        "0821-729013",
+        "530502",
+        "160910069"
+      ]
+    },
+    {
+      "Kushtia Branch": [
+        "Momtaz Tower (1st Floor), N.S Road, Kushtia",
+        null,
+        "9263673",
+        "530941",
+        null
+      ]
+    },
+    {
+      "Laldighirpar Branch": [
+        "Idrish Bhaban, Mohajan Pattay Laldihgirpar, Sylhet",
+        null,
+        "0821-714631",
+        "530391",
+        "160912504"
+      ]
+    },
+    {
+      "Laxmipur Branch": [
+        "Chowdhury Super Market, College Road, Laxmipur",
+        null,
+        "0381-55433",
+        "530281",
+        "160510735"
+      ]
+    },
+    {
+      "Madambibirhat Branch": [
+        "Bhatiary, Sitakunda, Chattogram.",
+        null,
+        "031-2780956",
+        "530076",
+        "160154696"
+      ]
+    },
+    {
+      "Madaripur Branch": [
+        "MadaripurNew Market (1st Floor), 488, Main Road, Puran Bazar, Madaripur",
+        null,
+        "0661-62448",
         "530538",
-        null
+        "160540400"
       ]
     },
     {
-      "P.O Madunaghat Bazar": [
-        "Rashir Bari, Hathazari, Chattogram",
+      "Madhabdi Branch": [
+        "School Supar Market Complex Madhabdi Bazar, Narshingdi",
         null,
+        "02-9446749",
+        "530600",
+        "160680678"
+      ]
+    },
+    {
+      "Madunaghat Branch": [
+        "P.O Madunaghat Bazar, Rashir Bari, Hathazari, Chattogram",
         null,
+        "031-673002",
         "530068",
+        "160154759"
+      ]
+    },
+    {
+      "Maijdee SME/AGRI.Branch": [
+        "Janata Shoping Center & Nizam Plaza,Word no-01,main road,Maijdee,Noakhali",
+        null,
+        "0321-71096",
+        "530285",
+        "160751581"
+      ]
+    },
+    {
+      "Majhirghat Branch": [
+        "15, Strand Road, Chattogram",
+        null,
+        "031-617838",
+        "530066",
+        "160154812"
+      ]
+    },
+    {
+      "Malibagh Branch": [
+        "B-63, Malibagh Chowdhury Para, DIT Road, Dhaka",
+        null,
+        "02-8321768",
+        "530423",
+        "160273948"
+      ]
+    },
+    {
+      "Mirpur Branch": [
+        "Fahad Complex,Plot-1/1,Main Road-1, Section - 10, Senpara Parbata, Mirpur, Dhaka",
+        null,
+        null,
+        "530425",
         null
       ]
     },
     {
-      "Janata Shoping Center & Nizam Plaza": [
-        "Word no-01,main road,Maijdee,Noakhali",
+      "Mirpur Road Branch": [
+        "Bay Park Heights (1st floor), Plot No.522 (Old), 02 (New), Road No.08 (Old), 09 (New), Mirpur Road, Dhanmondi, Dhaka",
         null,
         null,
+        "530114",
+        "160270570"
+      ]
+    },
+    {
+      "Mitford Branch": [
+        "Paradise Bhaban, 34 Mitford Road (1st Floor), Dhaka",
         null,
+        "02-7311090",
+        "530429",
+        "160274121"
+      ]
+    },
+    {
+      "Modhupur Branch": [
+        "Tangail Mymensingh Road, P.S-Modhupur, Tangail",
+        null,
+        "09228-56167",
+        null,
+        "160931572"
+      ]
+    },
+    {
+      "Moghbazar Branch": [
+        "382, Moghbazar,Tongi Divrsion Road, Dhaka",
+        null,
+        "02-8318590",
+        "530422",
         null
       ]
     },
     {
-      "B-63": [
-        "Malibagh Chowdhury Para, DIT Road, Dhaka",
+      "Mohakhali Branch": [
+        "H.R Complex, Holding No.100, Bir Uttam A.K. Khandoker Road, Mohakhali, Dhaka",
         null,
         null,
+        "530120",
+        "160263190"
+      ]
+    },
+    {
+      "Mohammadpur Branch": [
+        "Holding no. 20/21, Tajmahal Road, Block-C, Word-29, Dhaka",
         null,
+        null,
+        "530119",
+        "160263282"
+      ]
+    },
+    {
+      "Mohipal Branch": [
+        "N.R. Tower (1st & 2nd Floor), 151, S.S.K. Road, Mohipal, Feni",
+        null,
+        "0331-73360",
+        "530001",
         null
       ]
     },
     {
-      "Paradise Bhaban": [
-        "34 Mitford Road (1st Floor), Dhaka",
+      "Motijheel Branch": [
+        "6. Motijheel C/A, Dhaka",
         null,
-        null,
-        null,
+        "02-7167288",
+        "530421",
         null
       ]
     },
     {
-      "N.R. Tower (1st & 2nd Floor)": [
-        "151, S.S.K. Road, Mohipal, Feni",
+      "Moulvibazar Branch": [
+        "Yakub Mansion, Sylhet Road, Moulvibazar",
+        null,
+        "0861-52981",
+        "530301",
+        "160581180"
+      ]
+    },
+    {
+      "Mymensingh Branch": [
+        "Friends Tower (1st floor), 21, Durgabari road, Mymensingh",
+        null,
+        "09163161",
+        "530539",
+        "160611755"
+      ]
+    },
+    {
+      "Nababgonj Branch": [
+        "P.S. Nababgonj, Dhaka",
+        null,
+        "02-7765020",
+        "530436",
+        "160274697"
+      ]
+    },
+    {
+      "Nabigonj Branch": [
+        "Natunbazar, Nabigonj Pouroshova, Dist- Habigonj",
+        null,
+        "08328-56514",
+        "530310",
+        "160361092"
+      ]
+    },
+    {
+      "Nandail Branch": [
+        "Shopnil Plaza (1st floor), Holding No. 189, Bus Stand Road, Nandail Mymensingh",
+        null,
+        "09029-64382",
+        "530110",
+        "160611900"
+      ]
+    },
+    {
+      "Nangalkot Branch": [
+        "Haji Ali Miah Tower (1st floor), Thana Road, Nangalkot, Cumilla",
         null,
         null,
+        "530005",
+        "160193257"
+      ]
+    },
+    {
+      "Naogaon Branch": [
+        "Zahir Plaza(1st floor), 246, Main Road",
         null,
+        "0741-61276",
+        "531520",
+        "160641183"
+      ]
+    },
+    {
+      "Narayangonj Branch": [
+        "Tara Miah Mansion, 187, Bangabandhu Road, Narayangonj",
+        null,
+        "02-7647108",
+        "530480",
         null
       ]
     },
     {
-      "Yakub Mansion": [
-        "Sylhet Road, Moulvibazar",
+      "Naria SME/Agri Branch": [
+        "Naria Bazar, Naria, Sariatpur",
         null,
-        null,
-        null,
-        null
+        "-",
+        "530108",
+        "160860593"
       ]
     },
     {
-      "Shopnil Plaza (1st floor)": [
-        "Holding No. 189, Bus Stand Road, Nandail Mymensingh",
+      "Narsingdi Branch": [
+        "2, C & B Road (Adjacent to Narsingdi Pourashava), Narsingdi",
         null,
-        null,
-        null,
-        null
+        "02-9452028",
+        "530601",
+        "160680852"
       ]
     },
     {
-      "Zahir Plaza(1st floor)": [
-        "246, Main Road",
+      "Nasirabad Branch": [
+        "Yakub Trade Centre, Ward No. 08, Holding No. 89/304, Baizid Bostami Road, Nasirabad Housing Society, P.S-Panchlaish, Chattogram City Corporation, Chattogram",
         null,
         null,
-        null,
-        null
+        "530011",
+        "160155532"
       ]
     },
     {
-      "Tara Miah Mansion": [
-        "187, Bangabandhu Road, Narayangonj",
+      "Nawabpur Road Branch": [
+        "140-141, Nawabpur Road(1st Floor), Dhaka",
         null,
         null,
-        null,
-        null
+        "530438",
+        "160274750"
       ]
     },
     {
-      "NCC Bank Bhaban": [
-        "13/1 & 13/2 Toyenbee Circular Road, Motijheel C/A, Dhaka",
+      "Nazirhat Branch": [
+        "Hossain Plaza, Jhonker Moor P.S - Fatickchori, Dist: - Chattogram",
         null,
         null,
+        "530073",
+        "160155590"
+      ]
+    },
+    {
+      "NCC Bank Bhaban Branch": [
+        "NCC Bank Bhaban, 13/1 & 13/2 Toyenbee Circular Road, Motijheel C/A, Dhaka",
+        null,
+        "02-9592186",
         "530107",
         null
       ]
     },
     {
-      "Monem Business District (Level-3)": [
-        "111, Bir Uttam C.R. Dutta Road, Panthapath, Dhaka",
+      "O.R. Nizam Road Branch": [
+        "Equity Centrium, 1532, O.R. Nizam Road, Chattogram",
         null,
         null,
+        "530064",
+        null
+      ]
+    },
+    {
+      "Oxygen More Branch": [
+        "Jilani Tower (1st Floor), 1138, West Sholoshahar, Chattogram",
+        null,
+        null,
+        "530003",
+        null
+      ]
+    },
+    {
+      "Pabna Branch": [
+        "Holding No.954, Abdul Hamid Road, Pabna Sadar, Pabna.",
+        null,
+        null,
+        "530304",
+        "160761784"
+      ]
+    },
+    {
+      "Pahartali Chowmuhani Branch": [
+        "Green Centre (1st Floor), Pahartali Chowmuhani, Raozan, Chattogram",
+        null,
+        "-",
+        "530004",
+        "160155958"
+      ]
+    },
+    {
+      "Panthapath Branch": [
+        "Monem Business District (Level-3), 111, Bir Uttam C.R. Dutta Road, Panthapath, Dhaka",
+        null,
+        "02-9632323",
+        "530444",
+        null
+      ]
+    },
+    {
+      "Parshuram Branch": [
+        "Anowara Shopping Complex (1st floor), Holding No.325, Parshuram, Feni",
+        null,
+        null,
+        "530006",
+        null
+      ]
+    },
+    {
+      "Parulia Branch": [
+        "Parulia Bazar, P.S. Debhata, Satkhira",
+        null,
+        null,
+        "530201",
+        "160871003"
+      ]
+    },
+    {
+      "Patgram Branch": [
+        "Asir Plaza (1st floor),High School Road, Patgram, Lalmonirhat",
+        null,
+        null,
+        "531601",
+        "160520583"
+      ]
+    },
+    {
+      "Pragoti Sarani Branch": [
+        "Badda Tower, Cha 72/1, North Badda, Pragoti Sarani, Dhaka",
+        null,
+        "02-9891735",
+        "530443",
+        "160263703"
+      ]
+    },
+    {
+      "Raipur Branch": [
+        "Haji Wahab Market(1st Floor), 792, Raipur Main Road, Raipur, Laxmipur",
+        null,
+        null,
+        "530283",
+        "160510977"
+      ]
+    },
+    {
+      "Rajarhat Branch": [
+        "Niloy Plaza, holding No:360, Kurigram Road, Rajarhat, Kurigram",
+        null,
+        null,
+        "530602",
+        "160490589"
+      ]
+    },
+    {
+      "Rajshahi Branch": [
+        "Alu Patti Moor, Ghoramara, Bolia, Rajshahi",
+        null,
+        null,
+        "531500",
+        null
+      ]
+    },
+    {
+      "Ramgonj SME/Agri Branch": [
+        "Sapali Super Market, Holding No 508,Ramgonj By Pass, Ramgonj, Laxmipur.",
+        null,
+        null,
+        "530284",
+        "160511055"
+      ]
+    },
+    {
+      "Rampur SME/AGRI. Branch": [
+        "Bhasani Market,Rampur Bazar,Kalihati,Tangail",
+        null,
+        null,
+        "530492",
+        "160932050"
+      ]
+    },
+    {
+      "Rangpur Branch": [
+        "Monjuri Plaza (1st floor), 8/9, G.L. Roy Road, Rangpur",
+        null,
+        "0521-64769",
+        "531441",
+        null
+      ]
+    },
+    {
+      "Rayer Bazar Branch": [
+        "Rayer Bazar, U.P: Atharabari, P.S: Ishwargonj, Dist: Mymensingh",
+        null,
+        null,
+        "530101",
+        "160613940"
+      ]
+    },
+    {
+      "Savar Branch": [
+        "Savar New Market(1st Floor) 3,Savar Pourashava, Savar, Dhaka",
+        null,
+        null,
+        "530441",
+        "160264094"
+      ]
+    },
+    {
+      "Shyamoly Branch": [
+        "Haji Abdul Razzak Tower (1st Floor), 2/2, South Kallayanpur Mirpur Road Dhaka-1207",
+        null,
+        "02-9017033",
+        "530440",
+        null
+      ]
+    },
+    {
+      "Sonagaji Branch": [
+        "Haji Rahimullah Complex (1st floor), Main road, Sonagaji, Feni",
+        null,
+        "03325-76576",
         null,
         null
       ]
     },
     {
-      "Badda Tower": [
-        "Cha 72/1, North Badda, Pragoti Sarani, Dhaka",
+      "Sonargaon Janapath Branch": [
+        "Zephyr Tower, House: 21, Sector:13, Ward: 7, Sonargaon-Janapath, Uttara, Dhaka",
         null,
         null,
+        "530117",
+        "160260085"
+      ]
+    },
+    {
+      "Sreemangal Branch": [
+        "Khan Mansion (1st floor) 173, Moulvibazar Road, Sreemangal, Moulvibazar.",
+        null,
+        "08626 - 72902",
+        "530303",
+        "160581722"
+      ]
+    },
+    {
+      "Sreenagar Branch": [
+        "M Rahman Complex (1st Floor), Sreenagar, Munshigonj",
+        null,
+        "-",
+        "530105",
+        "160591420"
+      ]
+    },
+    {
+      "Syedpur Branch": [
+        "Kohinoor Mansion (1st Floor), Shaheed Dr. Zikrul Haque Road, Syedpur, Nilphamari",
+        null,
+        "05526-73138",
+        "531501",
+        "160730799"
+      ]
+    },
+    {
+      "Tangail Branch": [
+        "Masjid Road, Pachani Bazar, P.S- Tangail, Dist.- Tangail",
+        null,
+        "0921-51223",
+        "530490",
+        "160932292"
+      ]
+    },
+    {
+      "Tongi Branch": [
+        "Shere Bangla Ceramic Market, Holding No. 44, Ward No. 3, Tongi Pouroshova, Tongi, Gazipur",
+        null,
+        "02-9817459",
+        "530471",
+        "160331635"
+      ]
+    },
+    {
+      "Uttara Branch": [
+        "House - 1,Road - 12,Sector-6, Uttara Model Town, Uttara, Dhaka",
+        null,
+        "02-8955370",
+        "530435",
+        null
+      ]
+    },
+    {
+      "Zinzira Branch": [
+        "Kadamtali Chowrasta,South Keranigonj, Dhaka",
+        null,
+        null,
+        "530113",
+        "160277094"
+      ]
+    },
+    {
+      "Islamic Banking Feni Branch()": [
+        "Toslim Tower (1st floor), Holding No.15, Sadar Hospital More, Academy Road, Feni pourashava, Feni",
+        null,
+        "09666700008-704101, 704102",
+        "530016",
+        "160300158"
+      ]
+    },
+    {
+      "Islamic Banking Gulshan Branch": [
+        "Akash Avenue (2nd floor), 12 Kemal Ataturk Avenue, Gulshan, Dhaka",
+        null,
+        "09666700008-702101, 702102",
+        "530426",
+        "160261589"
+      ]
+    },
+    {
+      "Islamic Banking Muradpur Branch()": [
+        "A. H. Paragon, 282 CDA Avenue, Muradpur, Chattogram City Corporation, Ward No. 08, Thana- Panchlaish, Chattogram",
+        null,
+        "09666700008-703101, 703102",
+        "530015",
+        "160151260"
+      ]
+    },
+    {
+      "Islamic Banking Thakurgaon Branch()": [
+        "R.H Plaza (1st floor), Holding No.753 & 755, Bangabandhu Road, Thakurgaon Pourashava, Thakurgaon",
+        null,
+        "09666700008-705101, 705102",
+        "530603",
+        "160940068"
+      ]
+    }
+  ],
+  "sub_branch": [
+    {
+      "Banasree Upa-Shakha": [
+        "Holding No: 11, (Ground Floor), Block:C, Main Road, Banasree, Rampura, Dhaka",
+        null,
+        "01911211287",
         null,
         null
       ]
     },
     {
-      "Monjuri Plaza (1st floor)": [
-        "8/9, G.L. Roy Road, Rangpur",
+      "Bandarban Upa-Shakha": [
+        "Neom Tower (1st Floor), Holding No. 0445-000, Chairmanpara, Bandarban Pouroshova, Bandarban Sadar, Bandarban",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Haji Abdul Razzak Tower (1st Floor)": [
-        "2/2, South Kallayanpur Mirpur Road Dhaka-1207",
-        null,
-        null,
+        "01937161397",
         null,
         null
       ]
     },
     {
-      "Haji Rahimullah Complex (1st floor)": [
-        "Main road, Sonagaji, Feni",
+      "Bhulta, Upa-shakha": [
+        "Gawsia City Market (1st Floor), Bhultah, Rupgonj, Narayangonj.",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Kohinoor Mansion (1st Floor)": [
-        "Shaheed Dr. Zikrul Haque Road, Syedpur, Nilphamari",
-        null,
-        null,
+        "01817091550",
         null,
         null
       ]
     },
     {
-      "Masjid Road": [
-        "Pachani Bazar, P.S- Tangail, Dist.- Tangail",
+      "Chawkbazar Upa-shakha": [
+        "Moitree Tower, Holding No.19, Teripatty Road, Cumilla.",
         null,
+        "01712274428",
+        "530010",
+        null
+      ]
+    },
+    {
+      "Daganbhuiyan Upa-shakha": [
+        "Sufain Market (1st floor), Holding No.498-01, Faziler Ghat Road, Daganbhuiyan Pourashava, Daganbhuiyan, Feni.",
         null,
+        "01711273701",
         null,
         null
       ]
     },
     {
-      "House - 1": [
-        "Road - 12,Sector-6, Uttara Model Town, Uttara, Dhaka",
+      "Donia Upa-Shakha": [
+        "Hazi Anower Mansion(1st Floor), Holding No: 532, 535, Goalbari Moor, Donia, Jatrabari, Dhaka",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Toslim Tower (1st floor)": [
-        "Holding No.15, Sadar Hospital More, Academy Road, Feni pourashava, Feni",
-        null,
-        null,
+        "01911092680",
         null,
         null
       ]
     },
     {
-      "Islamic Banking Window": [
-        "No",
+      "KDA Avenue Upa-shakha": [
+        "Hussain Trading Company Ltd., 71, KDA Avenue, Ward No.19, Khulna City Corporation, Khulna",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Akash Avenue (2nd floor)": [
-        "12 Kemal Ataturk Avenue, Gulshan, Dhaka",
-        null,
-        null,
+        "01712173529",
         null,
         null
       ]
     },
     {
-      "A. H. Paragon": [
-        "282 CDA Avenue, Muradpur, Chattogram City Corporation, Ward No. 08, Thana- Panchlaish, Chattogram",
+      "Korerhat Upa-shakha": [
+        "Alam Market (1st floor), Korerhat, Thana-Jorargonj, District- Chattogram",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "R.H Plaza (1st floor)": [
-        "Holding No.753 & 755, Bangabandhu Road, Thakurgaon Pourashava, Thakurgaon",
-        null,
-        null,
+        "01817504385",
         null,
         null
       ]
     },
     {
-      "Neom Tower (1st Floor)": [
-        "Holding No. 0445-000, Chairmanpara, Bandarban Pouroshova, Bandarban Sadar, Bandarban",
+      "Lalbagh Upa-Shakha": [
+        "Lalbagh Classic Tower (1st Floor), House: 27/4/Ka, Dhakeshwari road, Lalbagh, Dhaka",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Moitree Tower": [
-        "Holding No.19, Teripatty Road, Cumilla.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Sufain Market (1st floor)": [
-        "Holding No.498-01, Faziler Ghat Road, Daganbhuiyan Pourashava, Daganbhuiyan, Feni.",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Hazi Anower Mansion(1st Floor)": [
-        "Holding No: 532, 535, Goalbari Moor, Donia, Jatrabari, Dhaka",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Hussain Trading Company Ltd.": [
-        "71, KDA Avenue, Ward No.19, Khulna City Corporation, Khulna",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Alam Market (1st floor)": [
-        "Korerhat, Thana-Jorargonj, District- Chattogram",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Lalbagh Classic Tower (1st Floor)": [
-        "House: 27/4/Ka, Dhakeshwari road, Lalbagh, Dhaka",
-        null,
-        null,
+        "01710421363",
         null,
         null
       ]
     }
-  ],
-  "sub_branch": []
+  ]
 }

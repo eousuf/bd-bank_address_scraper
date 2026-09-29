@@ -1,21 +1,12 @@
 {
   "_bank": "Modhumoti Bank PLC",
   "bank_url": "https://www.modhumotibankplc.com/",
-  "method": "html_table",
+  "method": "html_cards+html_table",
   "status": "success",
   "bank_id": "85",
-  "total_branch": 58,
-  "total_sub_branch": 7,
+  "total_branch": 56,
+  "total_sub_branch": 6,
   "branch": [
-    {
-      "Urban Branches": [
-        "SL",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
     {
       "Modhumoti Motijheel": [
         "DCCI building (1st Floor), 65-66, Motijheel C/A, Dhaka Fax : +8802-9583808 Manager: +88 01729099654 ,Direct: +8802-9583807 E-",
@@ -341,15 +332,6 @@
       ]
     },
     {
-      "Rural Branches": [
-        "SL",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "Modhumoti Ashulia": [
         "Altaf Plaza (1st floor), Alia Madrasha, Union: Yearpur, Thana: Ashulia, Dhaka, Manager: +88 01717875305 E-",
         null,
@@ -550,15 +532,6 @@
       ]
     },
     {
-      "Gopalgonj Eye Hospital": [
-        "Sub-Branch GhonaPara, Gopalgonj Manager: +88 01922435512 E-",
-        null,
-        "01922435512",
-        "850113",
-        null
-      ]
-    },
-    {
       "Modhumoti Kanaipur": [
         "Sub-Branch Kanaipur Bazar, Thana: Faridpur Sadar, Faridpur, Manager: +88 01912756583 E-",
         null,
@@ -589,7 +562,7 @@
       "Gopalgonj Eye Hospital Sub-Branch": [
         "Gopalgonj Eye Hospital and Training Inistitute, GHONA PARA, GOPALGONJ SADAR, GOPALGONJ",
         null,
-        null,
+        "01922435512",
         "850113",
         null
       ]

@@ -1,11 +1,11 @@
 {
   "_bank": "Dutch-Bangla Bank PLC",
   "bank_url": "https://www.dutchbanglabank.com/",
-  "method": "html_cards+html_table",
+  "method": "html_table",
   "status": "success",
   "bank_id": "59",
   "total_branch": 243,
-  "total_sub_branch": 351,
+  "total_sub_branch": 349,
   "branch": [
     {
       "Local Office": [
@@ -292,7 +292,7 @@
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=202",
         null,
         "590148",
-        null
+        "090260205"
       ]
     },
     {
@@ -1480,7 +1480,7 @@
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=145",
         null,
         null,
-        "090220166"
+        "090220258"
       ]
     },
     {
@@ -1650,7 +1650,7 @@
         "Relation Tower (1st Floor), Gobindaganj Point, Chhatak, Sunamganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=195",
         null,
-        null,
+        "590051",
         "090900444"
       ]
     },
@@ -1911,7 +1911,7 @@
         "Holding No. 4, 2nd floor, Puraton Bazar, Godagari Road, Chapai Nawabganj",
         "https://app.dutchbanglabank.com/DBBLWeb/ViewMap?branchID=240",
         null,
-        null,
+        "590197",
         "090700257"
       ]
     },
@@ -3353,7 +3353,7 @@
         "House No.-2, Road No-10",
         null,
         null,
-        null,
+        "591113",
         "090270590"
       ]
     },
@@ -4568,8 +4568,8 @@
         "Maa Villa, Holding- 80, Thana Road",
         null,
         null,
-        "590275",
-        "090871094"
+        "590180",
+        "090330827"
       ]
     },
     {
@@ -5332,24 +5332,6 @@
       "Rajnagar Sub Branch": [
         "Rajnagar, Moulvibazar, Bangladesh",
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Sub Branch Information": [
-        "SUB BRANCH LOCATIONS",
-        "https://www.dutchbanglabank.com/sub-branch/sub-branch-list.html",
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "SUB BRANCH LOCATIONS": [
-        "SUB BRANCH SERVICES",
-        "https://www.dutchbanglabank.com/sub-branch/sub-branch-list.html",
         null,
         null,
         null

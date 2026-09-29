@@ -4,7 +4,7 @@
   "method": "pdf+validator_key_ajax",
   "status": "success",
   "bank_id": "55",
-  "total_branch": 131,
+  "total_branch": 134,
   "total_sub_branch": 0,
   "branch": [
     {
@@ -143,15 +143,6 @@
       ]
     },
     {
-      "Shahjalal Uposhahar Branch": [
-        "Plot # 07, Block# D, Main Road, Shahjalal Uposhahar, Sylhet",
-        null,
-        null,
-        "550182",
-        null
-      ]
-    },
-    {
       "Bandar Bazar Branch(Islamic Banking)": [
         "Karim Ullah Market, (1st Floor), Bandar Bazar, Sylhet",
         null,
@@ -264,7 +255,7 @@
         "Bhowmik Super Market, Mouza: Zirat Union: 12 No. Norendrapur P.S.: Jessore Sadar, Dist.: Jessore",
         null,
         null,
-        null,
+        "550232",
         "205410082"
       ]
     },
@@ -346,15 +337,6 @@
         null,
         null,
         "550001",
-        null
-      ]
-    },
-    {
-      "Principal Branch": [
-        "1, Dilkusha C/A, Dhaka - 1000",
-        null,
-        null,
-        "550201",
         null
       ]
     },
@@ -463,24 +445,6 @@
         null,
         null,
         "550205",
-        null
-      ]
-    },
-    {
-      "New Eskaton Branch": [
-        "Chowdhury Center, 23/Ka, New Eskaton Road (1st Floor), P.S. : Ramna, Dhaka - 1000",
-        null,
-        null,
-        "550202",
-        null
-      ]
-    },
-    {
-      "New Elephant Road Branch": [
-        "Kazi Bhaban 39, New Elephant Road, (1st & 2nd Floor), P.S. : Dhanmondi, Dhaka - 1205",
-        null,
-        null,
-        "550203",
         null
       ]
     },
@@ -935,30 +899,12 @@
       ]
     },
     {
-      "Agrabad Branch": [
-        "Faruk Mahal, 93, Agrabad Commercial Area, Chittagong.",
-        null,
-        null,
-        "550026",
-        "205150139"
-      ]
-    },
-    {
       "Khatunganj Road": [
         "410/411, Khatunganj, Chittagong",
         null,
         null,
         "550027",
         "205154272"
-      ]
-    },
-    {
-      "Jubilee Road Branch": [
-        "Haji Golam Rasul Market, 96 Jubilee Road, Chittagong",
-        null,
-        null,
-        "550028",
-        "205153644"
       ]
     },
     {
@@ -1183,6 +1129,87 @@
         null,
         null,
         "550042",
+        null
+      ]
+    },
+    {
+      "Laldighirpar": [
+        "17,FINGEST HOUSE LISSON GREEN ESTATE,LONDON",
+        null,
+        null,
+        null,
+        "205912506"
+      ]
+    },
+    {
+      "CDA Avenue (IB)": [
+        "Shah Ali Bhaban, Master pool, house-3, 2nd floor, Kazem ali road Ghatforhadbeg",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "New Elephant Road Branch": [
+        "104/3 SHERE-E-BANGLA ROAD KATASHURE,MOHAMMADPUR, DHAKA, MOHAMMADPUR_DHAKA, BANGLADESH",
+        null,
+        null,
+        "550203",
+        null
+      ]
+    },
+    {
+      "Agrabad Branch": [
+        "EAST NASIRABAD BY LANE.,HOLDING NO1273.PO:KHULSHI,ZAKIR HOSSAIN RD.CTG, KHULSHI,BANGLADESH",
+        null,
+        null,
+        "550026",
+        "205150139"
+      ]
+    },
+    {
+      "Aganagar": [
+        "596, SOUTH GOURAN, GOURAN,DHAKA., SABUJBAG, BANGLADESH",
+        null,
+        null,
+        "550207",
+        null
+      ]
+    },
+    {
+      "Shahjalal Uposhahar Branch": [
+        "HOUSE 29 ROAD 04 BLOCK A,UPOSOHOR, SYLHET, KOTOALI,BANGLADESH",
+        null,
+        null,
+        "550182",
+        null
+      ]
+    },
+    {
+      "Jubilee Road Branch": [
+        "1267, East Nasirabad, Zakir Hossain by Lane, Khulshi, Ctg.",
+        null,
+        null,
+        "550028",
+        "205153644"
+      ]
+    },
+    {
+      "New Eskaton Branch": [
+        "Reliance Insurance Limited Shanta Western Tower Level-5, Space- 503 & 504 186 Tejgaon Industrial Area Dhaka-1208",
+        null,
+        null,
+        "550202",
+        null
+      ]
+    },
+    {
+      "Principal Branch": [
+        "PLANNERS TOWER (19TH FLOOR), ROOM-5, 6, 13/A SONARGAON ROAD, DHAKA 1000 8612105,8650875 01711521238",
+        null,
+        null,
+        "550201",
         null
       ]
     }

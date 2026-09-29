@@ -75,8 +75,8 @@
         "Agrani Banki Ltd,. Islami Banking Window, Agrabad (jb) Corporate Br.",
         null,
         "02333310004",
-        "110098",
-        null
+        "110063",
+        "010150166"
       ]
     },
     {
@@ -94,7 +94,7 @@
         null,
         "01878363000",
         "110161",
-        null
+        "010220254"
       ]
     },
     {
@@ -111,17 +111,8 @@
         "H#30, R#130, South Avenue, Gulshan-1, Dhaka-1212.",
         null,
         "02-222298170",
-        "110453",
-        null
-      ]
-    },
-    {
-      "IBW, Senpara Branch, Dhaka": [
-        "15/kha, 6/2, Senpara Parbata, Mirpur, Dhaka.",
-        null,
-        "01912861061",
-        "110420",
-        null
+        "110446",
+        "010261721"
       ]
     },
     {
@@ -130,7 +121,7 @@
         null,
         "02-222220292",
         "110443",
-        null
+        "010274392"
       ]
     },
     {
@@ -139,25 +130,7 @@
         null,
         "029515779",
         null,
-        null
-      ]
-    },
-    {
-      "Islami Banking Window, Islampur, Dhaka": [
-        "Aklima Gold Complex (1st floor), Garth Lane, Kumartuli, Islampur, Dhaka",
-        null,
-        "0247391268",
-        null,
-        null
-      ]
-    },
-    {
-      "Islami Banking Window, Uttara Model Town Corp. Branch, Dhaka": [
-        "House # 9, Road #12, Sector #6, Uttara, Dhaka",
-        null,
-        "0248954896",
-        "110431",
-        null
+        "010270259"
       ]
     },
     {
@@ -166,7 +139,16 @@
         null,
         "01818-253131",
         "110396",
-        null
+        "010274000"
+      ]
+    },
+    {
+      "Islami Banking Window, Islampur, Dhaka": [
+        "Aklima Gold Complex (1st floor), Garth Lane, Kumartuli, Islampur, Dhaka",
+        null,
+        "0247391268",
+        null,
+        "010272981"
       ]
     },
     {
@@ -175,7 +157,25 @@
         null,
         "02-48814290",
         "110365",
-        null
+        "010260319"
+      ]
+    },
+    {
+      "Islami Banking Window, Uttara Model Town Corp. Branch, Dhaka": [
+        "House # 9, Road #12, Sector #6, Uttara, Dhaka",
+        null,
+        "0248954896",
+        "110431",
+        "010264694"
+      ]
+    },
+    {
+      "IBW, Senpara Branch, Dhaka": [
+        "15/kha, 6/2, Senpara Parbata, Mirpur, Dhaka.",
+        null,
+        "01912861061",
+        "110420",
+        "010264210"
       ]
     },
     {
@@ -193,7 +193,7 @@
         null,
         "01718-617367",
         "111028",
-        null
+        "010281422"
       ]
     },
     {
@@ -247,7 +247,7 @@
         null,
         "01719-456674",
         null,
-        null
+        "010410943"
       ]
     },
     {
@@ -274,7 +274,7 @@
         null,
         "041-720933",
         "110847",
-        null
+        "010472381"
       ]
     },
     {
@@ -287,21 +287,21 @@
       ]
     },
     {
-      "IBW, Islamic University Corporate Branch, Kushtia": [
-        "Islamic University, Santidanga",
-        null,
-        "01715-146183",
-        "110881",
-        "010500679"
-      ]
-    },
-    {
       "Islami Banking Window, Kustia (Bara Bazar) Branch": [
         "Kiam Mansion (3rd floor), Bara Bazar, Kushtia.",
         null,
         "02477782386",
         null,
         "010500190"
+      ]
+    },
+    {
+      "IBW, Islamic University Corporate Branch, Kushtia": [
+        "Islamic University, Santidanga",
+        null,
+        "01715-146183",
+        "110881",
+        "010500679"
       ]
     },
     {
@@ -327,8 +327,8 @@
         "Waisi Modern Plaza , 1st Floor, Saheed Shoroni Shorok, Manikganj Busstand, Manikganj",
         null,
         "01924489970",
-        "110572",
-        null
+        "111124",
+        "010290376"
       ]
     },
     {
@@ -337,7 +337,7 @@
         null,
         "0241110112",
         "110224",
-        null
+        "010581180"
       ]
     },
     {
@@ -346,7 +346,7 @@
         null,
         "01918-188388",
         "110584",
-        null
+        "010591033"
       ]
     },
     {
@@ -418,7 +418,7 @@
         null,
         "0321-71307",
         null,
-        null
+        "010751578"
       ]
     },
     {
@@ -427,7 +427,7 @@
         null,
         "01712932569",
         "111156",
-        null
+        "010760048"
       ]
     },
     {
@@ -467,15 +467,6 @@
       ]
     },
     {
-      "Islami Banking Window, Saheb Bazar Corp. Branch": [
-        "Shaheb Bazar, Goramara, Rajshahi-6100",
-        null,
-        "02-588855742",
-        null,
-        null
-      ]
-    },
-    {
       "IBW, Rajshahi University Branch, Rajshahi": [
         "Rajshahi University, Rajshahi",
         null,
@@ -485,12 +476,21 @@
       ]
     },
     {
+      "Islami Banking Window, Saheb Bazar Corp. Branch": [
+        "Shaheb Bazar, Goramara, Rajshahi-6100",
+        null,
+        "02-588855742",
+        null,
+        "010812262"
+      ]
+    },
+    {
       "IBW, Bus Terminal Road Branch, Rangpur": [
         "Badargonj Road, Central Busterminal , Rangpur sadar, Rangpur",
         null,
         "01727214618",
-        "111232",
-        "010851452"
+        "111233",
+        "010851665"
       ]
     },
     {
@@ -516,7 +516,7 @@
         "Derai, Derai Chadpur",
         null,
         "01728-829259",
-        null,
+        "110298",
         "010901128"
       ]
     },
@@ -561,7 +561,7 @@
         "Baghri bazar,rajapur,jhalakathi",
         null,
         null,
-        "110456",
+        null,
         "010420054"
       ]
     },
@@ -635,6 +635,15 @@
         null,
         "110056",
         "010300066"
+      ]
+    },
+    {
+      "Subornochor branch": [
+        "Haji super market, haris chowdhury bazar",
+        null,
+        null,
+        null,
+        null
       ]
     },
     {
@@ -786,8 +795,8 @@
         "Nazirganj",
         null,
         null,
-        null,
-        "010761726"
+        "111176",
+        "010762262"
       ]
     },
     {
@@ -829,15 +838,6 @@
     {
       "Srebordi branch": [
         "Mollah market, srebordi",
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "Subornochor branch": [
-        "Haji super market, haris chowdhury bazar",
         null,
         null,
         null,
